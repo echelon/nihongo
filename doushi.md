@@ -70,7 +70,8 @@ Irregular
 
 ### -bu
  
-- 飛ぶ (とぶ)    to fly, to soar, to jump, to leap (intransitive) [n5]
+- 選ぶ (えらぶ)    to choose, to select (transitive) [n4]
+- 飛ぶ (とぶ)      to fly, to soar, to jump, to leap (intransitive) [n5]
 
 ### -mu
 
