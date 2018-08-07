@@ -6,7 +6,8 @@ Note that:
 - All vocabulary are n5 unless otherwise labeled.
 - All adjectives are i-adjectives unless otherwise stated.
 
-### 色 (いろ) / color
+色 (いろ) / color
+-----------------
 
 - 赤い (あかい)          red
 - 緑 (みどり)            green (no-adjective)
@@ -20,4 +21,9 @@ Note that:
 - 黒い (くろい)          black
 - 白い (しろい)          white
 - 灰色 (はいいろ)        gray (no-adjective) [n2]
+
+Appearance
+----------
+- 明るい (あかるい)    light, bright, well-lit
+- 暗い (くらい)        dark, gloomy; depressed mood
 

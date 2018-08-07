@@ -71,6 +71,7 @@ Irregular
 
 ### -bu
  
+- 遊ぶ (あそぶ)    to play, to have a good time [n5]
 - 選ぶ (えらぶ)    to choose, to select (transitive) [n4]
 - 飛ぶ (とぶ)      to fly, to soar, to jump, to leap (intransitive) [n5]
 
