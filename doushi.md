@@ -22,6 +22,7 @@ Irregular
 - 見る (みる)          to see, to watch, to look at (transitive) [n5]
 - 覚える (おぼえる)    to remember, to memorize, to learn (transitive) [n5]
 - 起きる (おきる)      to get up, to wake up, to stay awake (intransitive) [n5]
+- 開ける (あける)      to open (a door), to open (for business), to unlock (transitive) [n5]
 - 食べる (たべる)      to eat (transitive) [n5]
 
 五段 (ごだん)
