@@ -1,0 +1,110 @@
+[[cards]]
+kanji = 犬
+kana = いぬ
+english = dog
+make_kanji_card = true
+tags = ['n5', 'common', 'noun']
+
+[[cards]]
+kanji = 牛
+kana = うし
+english = cow
+make_kanji_card = true
+tags = ['n3', 'common', 'noun']
+
+[[cards]]
+kanji = 海老
+kana = えび
+english = shrimp; lobster
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 狼
+kana = おおかみ
+english = wolf
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 蛙
+kana = かえる
+english = frog
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 蟹
+kana = かに
+english = crab
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 亀
+kana = かめ
+english = turtle; tortoise
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 烏
+kana = からす
+english = raven; crow
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 狐
+kana = きつね
+english = fox
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 金魚
+kana = きんぎょ
+english = goldfish
+tags = ['n2', 'common', 'noun']
+
+[[cards]]
+kanji = 熊
+kana = くま
+english = bear
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 子犬
+kana = こいぬ
+english = puppy
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 子牛
+kana = こうし
+english = calf
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 子猫
+kana = こねこ
+english = kitten
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 蜚蠊
+kana = ごきぶり
+english = cockroach
+tags = ['common', 'insect', 'noun']
+
+[[cards]]
+kanji = 猿
+kana = さる
+english = monkey
+tags = ['common', 'mammal', 'noun']
+
+[[cards]]
+kanji = 獅子
+kana = しし
+english = lion
+tags = ['common', 'mammal', 'noun']
+
+[[cards]]
+kanji = 象
+kana = ぞう
+english = elephant
+tags = ['n3', 'common', 'mammal', 'noun']
+

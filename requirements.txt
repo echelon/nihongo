@@ -1,0 +1,7 @@
+cached-property==1.5.1
+frozendict==1.2
+genanki==0.6.3
+pkg-resources==0.0.0
+pystache==0.5.4
+PyYAML==3.13
+toml==0.10.0

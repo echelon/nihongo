@@ -2,7 +2,15 @@
 ======
 My personal notes on the Japanese language.
 
-I'm teaching my friends, so this will be structured to aid their learning.
+I'm also teaching my friends, so some of this will be structured to aid learning.
+
+Installation
+------------
+```python
+python3 -m venv python
+source python/bin/activate
+pip install -r requirements.txt
+```
 
 JLPT
 ----
