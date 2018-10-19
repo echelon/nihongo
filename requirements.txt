@@ -1,3 +1,4 @@
+anki-export==0.1.1
 cached-property==1.5.1
 frozendict==1.2
 genanki==0.6.3
