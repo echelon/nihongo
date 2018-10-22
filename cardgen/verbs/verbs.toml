@@ -23,6 +23,14 @@
 #te-form-kana = あるいて
 
 [[verbs]]
+english = { base = "play", past = "played", plural = "plays", continous = "playing" }
+kanji = "遊ぶ"
+kana = "あそぶ"
+group = "godan-bu"
+transitive = false
+level = "n5"
+
+[[verbs]]
 english = { base = "walk", past = "walked", plural = "walks", continuous = "walking" }
 kanji = "歩く"
 kana = "あるく"
@@ -31,36 +39,12 @@ transitive = false
 level = "n5"
 
 [[verbs]]
-english = { base = "answer", past = "answered", plural = "answers", continous = "answering" }
-kanji = "答える"
-kana = "こたえる"
-group = "ichidan"
-transitive = false
-level = "n5"
-
-[[verbs]]
-english = { base = "climb", past = "climbed", plural = "climbs", continous = "climbing" }
-kanji = "上る"
-kana = "のぼる"
-group = "godan-ru"
-transitive = false
-level = "n5"
-
-[[verbs]]
-english = { base = "run", past = "ran", plural = "runs", continous = "running" }
-kanji = "走る"
-kana = "はしる"
-group = "godan-ru"
-transitive = false
-level = "n5"
-
-[[verbs]]
-english = { base = "play", past = "played", plural = "plays", continous = "playing" }
-kanji = "遊ぶ"
-kana = "あそぶ"
-group = "godan-bu"
-transitive = false
-level = "n5"
+english = { base = "shoot", past = "shot", plural = "shoots", continous = "shooting" }
+kanji = "撃つ"
+kana = "うつ"
+group = "godan-tsu"
+transitive = true
+level = "n3"
 
 [[verbs]]
 english = { base = "swim", past = "swam", plural = "swims", continous = "swimming" }
@@ -71,11 +55,11 @@ transitive = false
 level = "n5"
 
 [[verbs]]
-english = { base = "read", past = "read", plural = "reads", continous = "reading" }
-kanji = "読む"
-kana = "よむ"
-group = "godan-mu"
-transitive = true
+english = { base = "answer", past = "answered", plural = "answers", continous = "answering" }
+kanji = "答える"
+kana = "こたえる"
+group = "ichidan"
+transitive = false
 level = "n5"
 
 [[verbs]]
@@ -95,10 +79,26 @@ transitive = true
 level = "n5"
 
 [[verbs]]
-english = { base = "shoot", past = "shot", plural = "shoots", continous = "shooting" }
-kanji = "撃つ"
-kana = "うつ"
-group = "godan-tsu"
+english = { base = "climb", past = "climbed", plural = "climbs", continous = "climbing" }
+kanji = "上る"
+kana = "のぼる"
+group = "godan-ru"
+transitive = false
+level = "n5"
+
+[[verbs]]
+english = { base = "run", past = "ran", plural = "runs", continous = "running" }
+kanji = "走る"
+kana = "はしる"
+group = "godan-ru"
+transitive = false
+level = "n5"
+
+[[verbs]]
+english = { base = "read", past = "read", plural = "reads", continous = "reading" }
+kanji = "読む"
+kana = "よむ"
+group = "godan-mu"
 transitive = true
-level = "n3"
+level = "n5"
 
