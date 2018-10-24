@@ -20,6 +20,7 @@ verbs = read_verbs('verbs.toml')
 
 class Verb:
   # Godan Ending -> Masu Stem
+  # 'u' -> 'i' sound
   GODAN_TO_MASU_STEM = {
     'う' : 'い',
     'く' : 'き',
@@ -31,6 +32,18 @@ class Verb:
     'る' : 'り',
   }
 
+  # 'u' -> 'a' sound
+  GODAN_TO_NAI = {
+    'う' : 'わ', # exception!
+    'く' : 'か',
+    'ぐ' : 'が',
+    'す' : 'さ',
+    'つ' : 'た',
+    'ぶ' : 'ば',
+    'む' : 'ま',
+    'る' : 'ら',
+  }
+
   def __init__(self, verb_dict):
     self.group = verb_dict['group']
     self.level = verb_dict['level']
@@ -38,12 +51,18 @@ class Verb:
     self.kana = verb_dict['kana']
     self.english = verb_dict['english']
 
-
-  def masu_kanji(self):
-    return self._masu(self.kanji)
-
-  def masu_kana(self):
-    return self._masu(self.kana)
+  def present_indicative(self, polite=False, positive=False, kanji=False):
+    """Return the verb in Present Indicative form."""
+    if polite:
+      if positive:
+        return kanji ? self._masu(self.kanji) : self._masu(self.kana)
+      else:
+        return kanji ? self._masen(self.kanji) : self._masen(self.kana)
+    else:
+      if positive:
+        return kanji ? self.kanji : self.kana
+      else:
+        return kanji ? self._nai(self.kanji) : self._nai(self.kana)
 
   def _masu(self, base):
     replaced = None
@@ -55,9 +74,26 @@ class Verb:
           regex = re.compile(godan_end + '$')
           replaced = regex.sub(stem, base)
           break
-
     if replaced:
       return replaced + 'ます'
+
+  def _masen(self, base):
+    masu = self._masu(base)
+    if masu:
+      return re.sub('ます$', 'ません', masu)
+
+  def _nai(self, base):
+    replaced = None
+    if self.group == 'ichidan':
+      replaced = re.sub('る$', '', base)
+    else:
+      for godan_end, nai in Verb.GODAN_TO_NAI.items():
+        if base.endswith(godan_end):
+          regex = re.compile(godan_end + '$')
+          replaced = regex.sub(nai, base)
+          break
+    if replaced:
+      return replaced + 'ない'
 
   def volitional_plain_kanji(self):
     return self._volitional_plain(self.kanji)
