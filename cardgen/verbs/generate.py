@@ -6,9 +6,10 @@ Generate Anki deck for verb conjugations.
 
 import re
 import toml
-from toml.encoder import TomlEncoder
-from toml.decoder import TomlDecoder
+import unittest
 from collections import OrderedDict
+from toml.decoder import TomlDecoder
+from toml.encoder import TomlEncoder
 
 def read_verbs(filename):
   with open(filename, 'r') as f:
@@ -197,31 +198,56 @@ class Verb:
         if base.endswith(godan_end):
           return re.sub(godan_end + '$', te_form, base)
 
-for verb in verbs:
-  print('============')
-  verb = Verb(verb)
-  for i in range(8):
-    polite = i//4 % 2 == 0
-    positive = i//2 % 2 == 0
-    kanji = i % 2 == 0
-    print(verb.present_indicative(polite=polite, positive=positive, kanji=kanji))
+VERB_HASH = { verb['kanji'] : Verb(verb) for verb in verbs }
 
-  print()
-  for i in range(8):
-    polite = i//4 % 2 == 0
-    positive = i//2 % 2 == 0
-    kanji = i % 2 == 0
-    print(verb.presumptive(polite=polite, positive=positive, kanji=kanji))
+class TestPresentIndicative(unittest.TestCase):
 
-  print()
-  for i in range(4):
-    polite = i//2 % 2 == 0
-    kanji = i % 2 == 0
-    print(verb.volitional(polite=polite, kanji=kanji))
+  def test_present_indicative__polite_positive_kanji(self):
+    def v(verb, polite, positive, kanji):
+      return VERB_HASH[verb].present_indicative(polite, positive, kanji)
+    # Polite
+    self.assertEqual(v('歩く', True, True, True), '歩きます')
+    self.assertEqual(v('歩く', True, True, False), 'あるきます')
+    self.assertEqual(v('歩く', True, False, True), '歩きません')
+    self.assertEqual(v('歩く', True, False, False), 'あるきません')
+    # Plain
+    #self.assertEqual(v('歩く', False, True, True), '')
+    #self.assertEqual(v('歩く', False, True, False), '')
+    #self.assertEqual(v('歩く', False, False, True), '')
+    #self.assertEqual(v('歩く', False, False, False), '')
 
-  print()
-  for i in range(8):
-    polite = i//4 % 2 == 0
-    positive = i//2 % 2 == 0
-    kanji = i % 2 == 0
-    print(verb.imperative(polite=polite, positive=positive, kanji=kanji))
+def main():
+  # Always insure integrity of the code.
+  unittest.main()
+
+  for verb in verbs:
+    print('============')
+    verb = Verb(verb)
+    for i in range(8):
+      polite = i//4 % 2 == 0
+      positive = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.present_indicative(polite=polite, positive=positive, kanji=kanji))
+
+    print()
+    for i in range(8):
+      polite = i//4 % 2 == 0
+      positive = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.presumptive(polite=polite, positive=positive, kanji=kanji))
+
+    print()
+    for i in range(4):
+      polite = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.volitional(polite=polite, kanji=kanji))
+
+    print()
+    for i in range(8):
+      polite = i//4 % 2 == 0
+      positive = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.imperative(polite=polite, positive=positive, kanji=kanji))
+
+if __name__ == '__main__':
+  main()
