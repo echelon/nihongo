@@ -27,6 +27,7 @@ class Verb:
     'ぐ' : 'ぎ',
     'す' : 'し',
     'つ' : 'ち',
+    'ぬ' : 'に',
     'ぶ' : 'び',
     'む' : 'み',
     'る' : 'り',
@@ -40,21 +41,48 @@ class Verb:
     'ぐ' : 'が',
     'す' : 'さ',
     'つ' : 'た',
+    'ぬ' : 'な',
     'ぶ' : 'ば',
     'む' : 'ま',
-    'る' : 'ら',
+    'る' : 'ら', # godan-ru, not ichidan!
+  }
+
+  GODAN_TO_TE = {
+    'う' : 'って',
+    'く' : 'いて',
+    'ぐ' : 'いで',
+    'す' : 'して',
+    'つ' : 'って',
+    'ぬ' : 'んで',
+    'ぶ' : 'んで',
+    'む' : 'んで',
+    'る' : 'って', # godan-ru, not ichidan!
   }
 
   GODAN_TO_PLAIN_VOLITIONAL = {
-    'ぶ' : 'ぼう',
-    'ぐ' : 'ごう',
+    'う' : 'おう',
     'く' : 'こう',
-    'む' : 'もう',
-    'る' : 'ろう', # godan-ru, not ichidan!
+    'ぐ' : 'ごう',
     'す' : 'そう',
     'つ' : 'とう',
-    'う' : 'おう',
+    'ぬ' : 'のう',
+    'ぶ' : 'ぼう',
+    'む' : 'もう',
+    'る' : 'ろう', # godan-ru, not ichidan!
   }
+
+  GODAN_TO_PLAIN_IMPERATIVE = {
+    'う' : 'え',
+    'く' : 'け',
+    'ぐ' : 'げ',
+    'す' : 'せ',
+    'つ' : 'て',
+    'ぬ' : 'ね',
+    'ぶ' : 'べ',
+    'む' : 'め',
+    'る' : 'れ', # godan-ru, not ichidan!
+  }
+
 
   def __init__(self, verb_dict):
     self.group = verb_dict['group']
@@ -84,9 +112,9 @@ class Verb:
     Return the verb in Presumptive form.
     Means "Will Probably [Verb]" or "Will Probably Not [Verb]"
     """
-    stem = self.present_indicative(polite=False, positive=positive, kanji=kanji)
+    verb = self.present_indicative(polite=False, positive=positive, kanji=kanji)
     suffix = "でしょう" if polite else "だろう"
-    return stem + suffix
+    return verb + suffix
 
   def volitional(self, polite=False, kanji=False):
     """
@@ -95,8 +123,7 @@ class Verb:
     """
     verb = self.present_indicative(positive=True, polite=polite, kanji=kanji)
     if polite:
-      volitional_polite = 'ましょう'
-      return re.sub('ます$', volitional_polite, verb)
+      return re.sub('ます$', 'ましょう', verb)
     else:
       if self.group == 'ichidan':
         return re.sub('る$', 'よう', verb)
@@ -104,8 +131,32 @@ class Verb:
         for godan_end, ending in Verb.GODAN_TO_PLAIN_VOLITIONAL.items():
           if verb.endswith(godan_end):
             return re.sub(godan_end + '$', ending, verb)
-            #regex = re.compile(godan_end + '$')
-            #return regex.sub(verb, ending)
+
+  def imperative(self, polite=False, positive=False, kanji=False):
+    """
+    Return the verb in Imperative form.
+    Means "Do [Verb]!" or "Do Not [Verb]!"
+    """
+    if polite:
+      if positive:
+        base = self._te(self.kanji) if kanji else self._te(self.kana)
+      else:
+        # eg. aruku -> arukanai de kudasai
+        verb = self.present_indicative(polite=False, positive=False, kanji=kanji)
+        base = verb + 'で'
+      return base + 'ください'
+    else:
+      if positive:
+        verb = self.present_indicative(polite=polite, positive=positive, kanji=kanji)
+        if self.group == 'ichidan':
+          return re.sub('る$', 'ろ', verb)
+        else:
+          for godan_end, ending in Verb.GODAN_TO_PLAIN_IMPERATIVE.items():
+            if verb.endswith(godan_end):
+              return re.sub(godan_end + '$', ending, verb)
+      else:
+        dictionary = self.kanji if kanji else self.kana
+        return dictionary + 'な'
 
   def _masu(self, base):
     replaced = None
@@ -138,6 +189,14 @@ class Verb:
     if replaced:
       return replaced + 'ない'
 
+  def _te(self, base):
+    if self.group == 'ichidan':
+      return re.sub('る$', 'て', base)
+    else:
+      for godan_end, te_form in Verb.GODAN_TO_TE.items():
+        if base.endswith(godan_end):
+          return re.sub(godan_end + '$', te_form, base)
+
 for verb in verbs:
   print('============')
   verb = Verb(verb)
@@ -160,3 +219,9 @@ for verb in verbs:
     kanji = i % 2 == 0
     print(verb.volitional(polite=polite, kanji=kanji))
 
+  print()
+  for i in range(8):
+    polite = i//4 % 2 == 0
+    positive = i//2 % 2 == 0
+    kanji = i % 2 == 0
+    print(verb.imperative(polite=polite, positive=positive, kanji=kanji))
