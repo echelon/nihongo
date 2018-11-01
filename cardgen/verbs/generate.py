@@ -52,7 +52,10 @@ class Verb:
     self.english = verb_dict['english']
 
   def present_indicative(self, polite=False, positive=False, kanji=False):
-    """Return the verb in Present Indicative form."""
+    """
+    Return the verb in Present Indicative form.
+    Means "[Verb]", "Will [Verb]", or "Don't/Won't [Verb]"
+    """
     if polite:
       if positive:
         return self._masu(self.kanji) if kanji else self._masu(self.kana)
@@ -63,6 +66,15 @@ class Verb:
         return self.kanji if kanji else self.kana
       else:
         return self._nai(self.kanji) if kanji else self._nai(self.kana)
+
+  def presumptive(self, polite=False, positive=False, kanji=False):
+    """
+    Return the verb in Presumptive form.
+    Means "Will Probably [Verb]" or "Will Probably Not [Verb]"
+    """
+    stem = self.present_indicative(polite=False, positive=positive, kanji=kanji)
+    suffix = "でしょう" if polite else "だろう"
+    return stem + suffix
 
   def _masu(self, base):
     replaced = None
@@ -94,12 +106,6 @@ class Verb:
           break
     if replaced:
       return replaced + 'ない'
-
-  def volitional_plain_kanji(self):
-    return self._volitional_plain(self.kanji)
-
-  def volitional_plain_kana(self):
-    return self._volitional_plain(self.kana)
 
   def _volitional_plain(self, base):
     # deru (ichi) -> de-you, de-mashou
@@ -167,11 +173,18 @@ class Verb:
 
 
 for verb in verbs:
-  print()
+  print('============')
   verb = Verb(verb)
   for i in range(8):
     polite = i//4 % 2 == 0
     positive = i//2 % 2 == 0
     kanji = i % 2 == 0
     print(verb.present_indicative(polite=polite, positive=positive, kanji=kanji))
+
+  print()
+  for i in range(8):
+    polite = i//4 % 2 == 0
+    positive = i//2 % 2 == 0
+    kanji = i % 2 == 0
+    print(verb.presumptive(polite=polite, positive=positive, kanji=kanji))
 
