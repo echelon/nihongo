@@ -33,6 +33,7 @@ class Verb:
   }
 
   # 'u' -> 'a' sound
+  # Used for present indicative plain negative
   GODAN_TO_NAI = {
     'う' : 'わ', # exception!
     'く' : 'か',
@@ -42,6 +43,17 @@ class Verb:
     'ぶ' : 'ば',
     'む' : 'ま',
     'る' : 'ら',
+  }
+
+  GODAN_TO_PLAIN_VOLITIONAL = {
+    'ぶ' : 'ぼう',
+    'ぐ' : 'ごう',
+    'く' : 'こう',
+    'む' : 'もう',
+    'る' : 'ろう', # godan-ru, not ichidan!
+    'す' : 'そう',
+    'つ' : 'とう',
+    'う' : 'おう',
   }
 
   def __init__(self, verb_dict):
@@ -76,6 +88,25 @@ class Verb:
     suffix = "でしょう" if polite else "だろう"
     return stem + suffix
 
+  def volitional(self, polite=False, kanji=False):
+    """
+    Return the verb in Volitional form.
+    Means "Let's [Verb]". There is no negative.
+    """
+    verb = self.present_indicative(positive=True, polite=polite, kanji=kanji)
+    if polite:
+      volitional_polite = 'ましょう'
+      return re.sub('ます$', volitional_polite, verb)
+    else:
+      if self.group == 'ichidan':
+        return re.sub('る$', 'よう', verb)
+      else:
+        for godan_end, ending in Verb.GODAN_TO_PLAIN_VOLITIONAL.items():
+          if verb.endswith(godan_end):
+            return re.sub(godan_end + '$', ending, verb)
+            #regex = re.compile(godan_end + '$')
+            #return regex.sub(verb, ending)
+
   def _masu(self, base):
     replaced = None
     if self.group == 'ichidan':
@@ -107,71 +138,6 @@ class Verb:
     if replaced:
       return replaced + 'ない'
 
-  def _volitional_plain(self, base):
-    # deru (ichi) -> de-you, de-mashou
-    # furu (g-ru) -> fu-rou, fu-rimashou
-    # aruku (g-ku) -> aru-kou, aru-kimashou
-    # au (g-u) -> a-ou, a-imashou
-    # erabu (g-bu) -> era-bou, era-bimashou
-    # dasu (g-su) -> da-sou, da-shimasou
-    # utsu (g-tsu) -> u-tou, u-chimashou
-    # yomu (g-mu) -> yo-mou
-    # XXX/DANGER: THESE HAVE NOT BEEN CONFIRMED!
-    if self.group == 'ichidan':
-      return re.sub('る$', 'よう', base)
-    if self.group == 'godan-bu':
-      return re.sub('ぶ$', 'ぼう', base)
-    if self.group == 'godan-gu':
-      return re.sub('ぐ$', 'ごう', base)
-    if self.group == 'godan-ku':
-      return re.sub('く$', 'こう', base)
-    if self.group == 'godan-mu':
-      return re.sub('む$', 'もう', base)
-    if self.group == 'godan-ru':
-      return re.sub('る$', 'ろう', base)
-    if self.group == 'godan-su':
-      return re.sub('す$', 'そう', base)
-    if self.group == 'godan-tsu':
-      return re.sub('つ$', 'とう', base)
-    if self.group == 'godan-u':
-      return re.sub('う$', 'おう', base)
-
-  def volitional_polite_kanji(self):
-    return self._volitional_polite(self.kanji)
-
-  def volitional_polite_kana(self):
-    return self._volitional_polite(self.kana)
-
-  def _volitional_polite(self, base):
-    # deru (ichi) -> de-you, de-mashou
-    # furu (g-ru) -> fu-rou, fu-rimashou
-    # aruku (g-ku) -> aru-kou, aru-kimashou
-    # au (g-u) -> a-ou, a-imashou
-    # erabu (g-bu) -> era-bou, era-bimashou
-    # dasu (g-su) -> da-sou, da-shimasou
-    # utsu (g-tsu) -> u-tou, u-chimashou
-    # yomu (g-mu) -> yo-mou
-    # XXX/DANGER: THESE HAVE NOT BEEN CONFIRMED!
-    if self.group == 'ichidan':
-      return re.sub('る$', 'ましょう', base)
-    if self.group == 'godan-bu':
-      return re.sub('ぶ$', 'びましょう', base)
-    if self.group == 'godan-gu':
-      return re.sub('ぐ$', 'ごう', base)
-    if self.group == 'godan-ku':
-      return re.sub('く$', 'こう', base)
-    if self.group == 'godan-mu':
-      return re.sub('む$', 'もう', base)
-    if self.group == 'godan-ru':
-      return re.sub('る$', 'ろう', base)
-    if self.group == 'godan-su':
-      return re.sub('す$', 'そう', base)
-    if self.group == 'godan-tsu':
-      return re.sub('つ$', 'とう', base)
-    if self.group == 'godan-u':
-      return re.sub('う$', 'おう', base)
-
-
 for verb in verbs:
   print('============')
   verb = Verb(verb)
@@ -187,4 +153,10 @@ for verb in verbs:
     positive = i//2 % 2 == 0
     kanji = i % 2 == 0
     print(verb.presumptive(polite=polite, positive=positive, kanji=kanji))
+
+  print()
+  for i in range(4):
+    polite = i//2 % 2 == 0
+    kanji = i % 2 == 0
+    print(verb.volitional(polite=polite, kanji=kanji))
 
