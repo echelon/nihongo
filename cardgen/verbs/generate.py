@@ -55,14 +55,14 @@ class Verb:
     """Return the verb in Present Indicative form."""
     if polite:
       if positive:
-        return kanji ? self._masu(self.kanji) : self._masu(self.kana)
+        return self._masu(self.kanji) if kanji else self._masu(self.kana)
       else:
-        return kanji ? self._masen(self.kanji) : self._masen(self.kana)
+        return self._masen(self.kanji) if kanji else self._masen(self.kana)
     else:
       if positive:
-        return kanji ? self.kanji : self.kana
+        return self.kanji if kanji else self.kana
       else:
-        return kanji ? self._nai(self.kanji) : self._nai(self.kana)
+        return self._nai(self.kanji) if kanji else self._nai(self.kana)
 
   def _masu(self, base):
     replaced = None
@@ -167,10 +167,11 @@ class Verb:
 
 
 for verb in verbs:
-  verb = Verb(verb)
-  print(verb.volitional_plain_kanji())
-  print(verb.volitional_plain_kana())
-  print(verb.masu_kanji())
-  print(verb.masu_kana())
   print()
+  verb = Verb(verb)
+  for i in range(8):
+    polite = i//4 % 2 == 0
+    positive = i//2 % 2 == 0
+    kanji = i % 2 == 0
+    print(verb.present_indicative(polite=polite, positive=positive, kanji=kanji))
 
