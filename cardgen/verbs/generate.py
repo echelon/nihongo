@@ -60,6 +60,18 @@ class Verb:
     'る' : 'って', # godan-ru, not ichidan!
   }
 
+  GODAN_TO_TA = {
+    'う' : 'った',
+    'く' : 'いた',
+    'ぐ' : 'いだ', # what
+    'す' : 'した', # wow
+    'つ' : 'った',
+    'ぬ' : 'んだ',
+    'ぶ' : 'んだ',
+    'む' : 'んだ',
+    'る' : 'った', # godan-ru, not ichidan!
+  }
+
   GODAN_TO_PLAIN_VOLITIONAL = {
     'う' : 'おう',
     'く' : 'こう',
@@ -83,7 +95,6 @@ class Verb:
     'む' : 'め',
     'る' : 'れ', # godan-ru, not ichidan!
   }
-
 
   def __init__(self, verb_dict):
     self.group = verb_dict['group']
@@ -159,7 +170,26 @@ class Verb:
         dictionary = self.kanji if kanji else self.kana
         return dictionary + 'な'
 
+  def past_indicative(self, polite=False, positive=False, kanji=False):
+    """
+    Return the verb in Past Indicative form.
+    Means "[Verb]ed", "Have [Verb]ed", "Didn't [Verb]", or "Haven't [Verb]ed"
+    """
+    if polite:
+      verb = self.present_indicative(polite=True, positive=positive, kanji=kanji)
+      if positive:
+        return re.sub('ます$', 'ました', verb)
+      else:
+        return verb + 'でした'
+    else:
+      if positive:
+        return self._ta(kanji=kanji)
+      else:
+        verb = self.present_indicative(positive=False, polite=False, kanji=kanji)
+        return re.sub('い$', 'かった', verb)
+
   def _masu(self, base):
+    # TODO: Update to be called like _ta(kanji=False)
     replaced = None
     if self.group == 'ichidan':
       replaced = re.sub('る$', '', base)
@@ -173,11 +203,13 @@ class Verb:
       return replaced + 'ます'
 
   def _masen(self, base):
+    # TODO: Update to be called like _ta(kanji=False)
     masu = self._masu(base)
     if masu:
       return re.sub('ます$', 'ません', masu)
 
   def _nai(self, base):
+    # TODO: Update to be called like _ta(kanji=False)
     replaced = None
     if self.group == 'ichidan':
       replaced = re.sub('る$', '', base)
@@ -191,10 +223,20 @@ class Verb:
       return replaced + 'ない'
 
   def _te(self, base):
+    # TODO: Update to be called like _ta(kanji=False)
     if self.group == 'ichidan':
       return re.sub('る$', 'て', base)
     else:
       for godan_end, te_form in Verb.GODAN_TO_TE.items():
+        if base.endswith(godan_end):
+          return re.sub(godan_end + '$', te_form, base)
+
+  def _ta(self, kanji=False):
+    base = self.kanji if kanji else self.kana
+    if self.group == 'ichidan':
+      return re.sub('る$', 'た', base)
+    else:
+      for godan_end, te_form in Verb.GODAN_TO_TA.items():
         if base.endswith(godan_end):
           return re.sub(godan_end + '$', te_form, base)
 
@@ -211,10 +253,25 @@ class TestPresentIndicative(unittest.TestCase):
     self.assertEqual(v('歩く', True, False, True), '歩きません')
     self.assertEqual(v('歩く', True, False, False), 'あるきません')
     # Plain
-    #self.assertEqual(v('歩く', False, True, True), '')
-    #self.assertEqual(v('歩く', False, True, False), '')
-    #self.assertEqual(v('歩く', False, False, True), '')
-    #self.assertEqual(v('歩く', False, False, False), '')
+    self.assertEqual(v('歩く', False, True, True), '歩く')
+    self.assertEqual(v('歩く', False, True, False), 'あるく')
+    self.assertEqual(v('歩く', False, False, True), '歩かない')
+    self.assertEqual(v('歩く', False, False, False), 'あるかない')
+
+  def test_past_indicative(self):
+    def v(verb, polite, positive, kanji):
+      return VERB_HASH[verb].past_indicative(polite, positive, kanji)
+    # Polite
+    self.assertEqual(v('読む', True, True, True), '読みました')
+    self.assertEqual(v('読む', True, True, False), 'よみました')
+    self.assertEqual(v('読む', True, False, True), '読みませんでした')
+    self.assertEqual(v('読む', True, False, False), 'よみませんでした')
+    # Plain
+    self.assertEqual(v('読む', False, True, True), '読んだ')
+    self.assertEqual(v('読む', False, True, False), 'よんだ')
+    self.assertEqual(v('読む', False, False, True), '読まなかった')
+    self.assertEqual(v('読む', False, False, False), 'よまなかった')
+
 
 def main():
   # Always insure integrity of the code.
@@ -248,6 +305,13 @@ def main():
       positive = i//2 % 2 == 0
       kanji = i % 2 == 0
       print(verb.imperative(polite=polite, positive=positive, kanji=kanji))
+
+    print()
+    for i in range(8):
+      polite = i//4 % 2 == 0
+      positive = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.past_indicative(polite=polite, positive=positive, kanji=kanji))
 
 if __name__ == '__main__':
   main()
