@@ -188,6 +188,15 @@ class Verb:
         verb = self.present_indicative(positive=False, polite=False, kanji=kanji)
         return re.sub('い$', 'かった', verb)
 
+  def past_presumptive(self, polite=False, positive=False, kanji=False):
+    """
+    Return the verb in Past Presumptive form.
+    Means "Probably [Verb]ed" or "Probably Didn't [Verb]"
+    """
+    verb = self.past_indicative(polite=False, positive=positive, kanji=kanji)
+    suffix = "でしょう" if polite else "だろう"
+    return verb + suffix
+
   def _masu(self, base):
     # TODO: Update to be called like _ta(kanji=False)
     replaced = None
@@ -244,7 +253,7 @@ VERB_HASH = { verb['kanji'] : Verb(verb) for verb in verbs }
 
 class TestPresentIndicative(unittest.TestCase):
 
-  def test_present_indicative__polite_positive_kanji(self):
+  def test_present_indicative(self):
     def v(verb, polite, positive, kanji):
       return VERB_HASH[verb].present_indicative(polite, positive, kanji)
     # Polite
@@ -272,6 +281,19 @@ class TestPresentIndicative(unittest.TestCase):
     self.assertEqual(v('読む', False, False, True), '読まなかった')
     self.assertEqual(v('読む', False, False, False), 'よまなかった')
 
+  def test_past_presumptive(self):
+    def v(verb, polite, positive, kanji):
+      return VERB_HASH[verb].past_presumptive(polite, positive, kanji)
+    # Polite
+    self.assertEqual(v('遊ぶ', True, True, True), '遊んだでしょう')
+    self.assertEqual(v('遊ぶ', True, True, False), 'あそんだでしょう')
+    self.assertEqual(v('遊ぶ', True, False, True), '遊ばなかったでしょう')
+    self.assertEqual(v('遊ぶ', True, False, False), 'あそばなかったでしょう')
+    # Plain
+    self.assertEqual(v('遊ぶ', False, True, True), '遊んだだろう')
+    self.assertEqual(v('遊ぶ', False, True, False), 'あそんだだろう')
+    self.assertEqual(v('遊ぶ', False, False, True), '遊ばなかっただろう')
+    self.assertEqual(v('遊ぶ', False, False, False), 'あそばなかっただろう')
 
 def main():
   # Always insure integrity of the code.
@@ -312,6 +334,13 @@ def main():
       positive = i//2 % 2 == 0
       kanji = i % 2 == 0
       print(verb.past_indicative(polite=polite, positive=positive, kanji=kanji))
+
+    print()
+    for i in range(8):
+      polite = i//4 % 2 == 0
+      positive = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.past_presumptive(polite=polite, positive=positive, kanji=kanji))
 
 if __name__ == '__main__':
   main()
