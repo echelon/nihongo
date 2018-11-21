@@ -4,9 +4,11 @@
 Generate Anki deck for verb conjugations.
 """
 
+import sys
 import re
 import toml
 import unittest
+from argparse import ArgumentParser
 from collections import OrderedDict
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
@@ -296,9 +298,6 @@ class TestPresentIndicative(unittest.TestCase):
     self.assertEqual(v('遊ぶ', False, False, False), 'あそばなかっただろう')
 
 def main():
-  # Always insure integrity of the code.
-  unittest.main()
-
   for verb in verbs:
     print('============')
     verb = Verb(verb)
@@ -342,5 +341,15 @@ def main():
       kanji = i % 2 == 0
       print(verb.past_presumptive(polite=polite, positive=positive, kanji=kanji))
 
+
 if __name__ == '__main__':
-  main()
+  parser = ArgumentParser()
+  parser.add_argument('--test', help='run the unit tests', action="store_true")
+  args = parser.parse_args()
+
+  if args.test:
+    sys.argv.remove('--test') # passed to unittest module and blows up
+    unittest.main()
+  else:
+    main()
+
