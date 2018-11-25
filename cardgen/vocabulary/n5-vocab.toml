@@ -1,0 +1,5283 @@
+[[cards]]
+kanji = '青'
+kana = 'あお'
+english = 'blue'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'noun', 'no-adjective', 'color']
+
+[[cards]]
+kanji = '青い'
+kana = 'あおい'
+english = 'blue'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'i-adjective', 'color']
+
+[[cards]]
+kanji = '赤'
+kana = 'あか'
+english = 'red'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'noun', 'no-adjective', 'color']
+
+[[cards]]
+kanji = '赤い'
+kana = 'あかい'
+english = 'red'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'i-adjective', 'color']
+
+[[cards]]
+kanji = '明るい'
+kana = 'あかるい'
+english = 'light; bright; cheerful'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'i-adjective', 'appearance', 'mood']
+
+[[cards]]
+kanji = '秋'
+kana = 'あき'
+english = 'autumn; fall'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'noun', 'season', 'time']
+
+[[cards]]
+kanji = 'ああ'
+kana = 'ああ'
+english = 'Ah!; Oh!; yes.'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'expression']
+
+[[cards]]
+kanji = '朝'
+kana = 'あさ'
+english = 'morning'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'time']
+
+[[cards]]
+kanji = '朝ご飯'
+kana = 'あさごはん'
+english = 'breakfast'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'food']
+
+[[cards]]
+kanji = '明後日'
+kana = 'あさって'
+english = 'day after tomorrow'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'time']
+
+[[cards]]
+kanji = '足'
+kana = 'あし'
+english = 'foot; leg'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'body']
+
+[[cards]]
+kanji = '明日'
+kana = 'あした'
+english = 'tomorrow'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'time']
+
+[[cards]]
+kanji = '彼処'
+kana = 'あそこ'
+english = 'there (way over there)'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'place']
+
+[[cards]]
+kanji = '暖かい'
+kana = 'あたたかい'
+english = 'warm (air temp)'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'i-adjective', 'temperature', 'weather']
+
+[[cards]]
+kanji = '頭'
+kana = 'あたま'
+english = 'head'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'body', 'anatomy']
+
+[[cards]]
+kanji = '新しい'
+kana = 'あたらしい'
+english = 'new'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '彼方'
+kana = 'あちら'
+english = 'that way (way over there); that one (way over there)'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'place']
+
+[[cards]]
+kanji = '熱い'
+kana = 'あつい'
+english = 'hot (thing); passionate'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'temperature', 'i-adjectives']
+
+[[cards]]
+kanji = '暑い'
+kana = 'あつい'
+english = 'hot; warm'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'weather', 'i-adjectives']
+
+[[cards]]
+kanji = '後'
+kana = 'あと'
+english = 'after; in the future'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'places']
+
+[[cards]]
+kanji = '貴方'
+kana = 'あなた'
+english = 'you (equal or lower status); dear (wife to husband)'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'pronouns', 'people']
+
+[[cards]]
+kanji = '兄'
+kana = 'あに'
+english = 'older brother (humble/kenjougo)'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'family', 'people', 'humble', 'kenjougo']
+
+[[cards]]
+kanji = '姉'
+kana = 'あね'
+english = 'older sister (humble/kenjougo)'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'family', 'people', 'humble', 'kenjougo']
+
+[[cards]]
+kanji = 'あのう'
+kana = 'あのう'
+english = 'well; um...'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'expressions']
+
+[[cards]]
+kanji = 'アパート'
+kana = 'アパート'
+english = 'apartment'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'gairaigo', 'places', 'home', 'buildings']
+
+[[cards]]
+kanji = '危ない'
+kana = 'あぶない'
+english = 'dangerous; watch out!'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'i-adjectives', 'expressions']
+
+[[cards]]
+kanji = '甘い'
+kana = 'あまい'
+english = 'sweet-tasting'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'food', 'i-adjectives']
+
+[[cards]]
+kanji = '余り'
+kana = 'あまり'
+english = 'not very; not much'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'no-adjective', 'na-adjective', 'adverb']
+
+[[cards]]
+kanji = '雨'
+kana = 'あめ'
+english = 'rain'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'weather']
+
+[[cards]]
+kanji = '飴'
+kana = 'あめ'
+english = 'hard candy; toffee'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'food']
+
+[[cards]]
+kanji = 'いい'
+kana = 'いい'
+english = 'good; OK'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'expressions']
+
+[[cards]]
+kanji = '良い'
+kana = 'よい'
+english = 'good; OK'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'expressions']
+
+[[cards]]
+kanji = '否'
+kana = 'いいえ'
+english = "no; not at all; don't mention it"
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'basic']
+
+[[cards]]
+kanji = '家'
+kana = 'いえ'
+english = 'house; family; household'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'home', 'places', 'family']
+
+[[cards]]
+kanji = '如何'
+kana = 'いかが'
+english = 'how; in what way'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'na-adjective', 'adverb', 'question']
+
+[[cards]]
+kanji = '幾つ'
+kana = 'いくつ'
+english = 'how many? ; how old?'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'question', 'adverb']
+
+[[cards]]
+kanji = '幾ら'
+kana = 'いくら'
+english = 'how much? ; how many?'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'question', 'noun', 'adverb']
+
+[[cards]]
+kanji = '池'
+kana = 'いけ'
+english = 'pond'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'noun', 'nature', 'outdoors']
+
+[[cards]]
+kanji = '医者'
+kana = 'いしゃ'
+english = 'doctor'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'people']
+
+[[cards]]
+kanji = '椅子'
+kana = 'いす'
+english = 'chair; stool'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'home', 'furniture']
+
+[[cards]]
+kanji = '忙しい'
+kana = 'いそがしい'
+english = 'busy; hectic'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '痛い'
+kana = 'いたい'
+english = 'painful ; sore'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '一'
+kana = 'いち'
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'numbers', 'counting']
+
+[[cards]]
+kanji = '一日'
+kana = 'いちにち'
+english = 'one day (duration)'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'time', 'duration']
+
+
+# ===================================== needs metadata
+
+[[cards]]
+kanji = '一番'
+kana = 'いちばん'
+english = 'best; number one; first place'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '何時'
+kana = 'いつ'
+english = 'when'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '五日'
+kana = 'いつか'
+english = 'five days; fifth day of the month'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '一緒'
+kana = 'いっしょ'
+english = 'together'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '五つ'
+kana = 'いつつ'
+english = 'five (things)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '何時も'
+kana = 'いつも'
+english = 'always'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '犬'
+kana = 'いぬ'
+english = 'dog'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今'
+kana = 'いま'
+english = 'now'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '意味'
+kana = 'いみ'
+english = 'meaning'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '妹'
+kana = 'いもうと'
+english = 'younger sister (humble / kenjougo)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '嫌'
+kana = 'いや'
+english = 'disagreeable; unpleasant; no'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '入口'
+kana = 'いりぐち'
+english = 'entrance; gate'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '色'
+kana = 'いろ'
+english = 'color'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '色々'
+kana = 'いろいろ'
+english = 'various'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '上'
+kana = 'うえ'
+english = 'above; up; on top of'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '後ろ'
+kana = 'うしろ'
+english = 'behind'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '薄い'
+kana = 'うすい'
+english = 'thin; weak (eg. taste)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '歌'
+kana = 'うた'
+english = 'song'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '家'
+kana = 'うち'
+english = "house; home (one's own)"
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '海'
+kana = 'うみ'
+english = 'sea; ocean'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '煩い'
+kana = 'うるさい'
+english = 'loud; annoying'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '上着'
+kana = 'うわぎ'
+english = 'coat'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '絵'
+kana = 'え'
+english = 'picture; drawing; painting'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '映画'
+kana = 'えいが'
+english = 'movie'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '英語'
+kana = 'えいご'
+english = 'English language'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ええ'
+kana = 'ええ'
+english = 'yes; um...'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '駅'
+kana = 'えき'
+english = 'train station'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'エレベーター'
+kana = 'エレベーター'
+english = 'elevator'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～円'
+kana = '～えん'
+english = 'yen'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '鉛筆'
+kana = 'えんぴつ'
+english = 'pencil'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '美味しい'
+kana = 'おいしい'
+english = 'delicious'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '多い'
+kana = 'おおい'
+english = 'many'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大きい'
+kana = 'おおきい'
+english = 'big'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大勢'
+kana = 'おおぜい'
+english = 'crowd of people'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お母さん'
+kana = 'おかあさん'
+english = 'mother (honorific/respectful/sonkeigo)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お菓子'
+kana = 'おかし'
+english = 'candy; confections'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お金'
+kana = 'おかね'
+english = 'money'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '奥さん'
+kana = 'おくさん'
+english = 'wife (honorific/respectful/sonkeigo)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お酒'
+kana = 'おさけ'
+english = 'alcohol; sake (rice wine)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お皿'
+kana = 'おさら'
+english = 'plate'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '伯父さん'
+kana = 'おじさん'
+english = 'uncle; old man'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お祖父さん'
+kana = 'おじいさん'
+english = 'grandfather; male senior citizen'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '遅い'
+kana = 'おそい'
+english = 'slow ; late'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お茶'
+kana = 'おちゃ'
+english = 'tea (usu. green)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お手洗い'
+kana = 'おてあらい'
+english = 'toilet; lavatory'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お父さん'
+kana = 'おとうさん'
+english = 'father (honorific/respectful/sonkeigo)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '弟'
+kana = 'おとうと'
+english = 'little brother (humble/kenjougo)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '男'
+kana = 'おとこ'
+english = 'man; male'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '男の子'
+kana = 'おとこのこ'
+english = 'boy'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '一昨日'
+kana = 'おととい'
+english = 'day before yesterday'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '一昨年'
+kana = 'おととし'
+english = 'year before last'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大人'
+kana = 'おとな'
+english = 'adult'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お腹'
+kana = 'おなか'
+english = 'stomach'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '同じ'
+kana = 'おなじ'
+english = 'same; identical'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お兄さん'
+kana = 'おにいさん'
+english = 'older brother (honorific/respectful/sonkeigo)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お姉さん'
+kana = 'おねえさん'
+english = 'older sister (honorific/respectful/sonkeigo)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '伯母さん'
+kana = 'おばさん'
+english = 'aunt (honorific/respectful/sonkeigo)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お祖母さん'
+kana = 'おばあさん'
+english = 'grandmother'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お風呂'
+kana = 'おふろ'
+english = 'bath'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お弁当'
+kana = 'おべんとう'
+english = 'Japanese boxed lunch'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お巡りさん'
+kana = 'おまわりさん'
+english = 'police officer (friendly term)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '重い'
+kana = 'おもい'
+english = 'heavy'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '面白い'
+kana = 'おもしろい'
+english = 'interesting; amusing'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '音楽'
+kana = 'おんがく'
+english = 'music'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '女'
+kana = 'おんな'
+english = 'woman; female'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '女の子'
+kana = 'おんなのこ'
+english = 'girl'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～回'
+kana = '～かい'
+english = 'counter for occurrences'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～階'
+kana = '～かい'
+english = 'counter for stories of a building'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '外国'
+kana = 'がいこく'
+english = 'foreign country'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '外国人'
+kana = 'がいこくじん'
+english = 'foreigner'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '会社'
+kana = 'かいしゃ'
+english = 'company; corporation'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '階段'
+kana = 'かいだん'
+english = 'stairs'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '買い物'
+kana = 'かいもの'
+english = 'shopping; purchased goods'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '顔'
+kana = 'かお'
+english = 'face'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '鍵'
+kana = 'かぎ'
+english = 'key(s)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '学生'
+kana = 'がくせい'
+english = 'student'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～か月'
+kana = '～かげつ'
+english = 'counter for number of months'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '傘'
+kana = 'かさ'
+english = 'umbrella'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '風'
+kana = 'かぜ'
+english = 'wind; breeze'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '風邪'
+kana = 'かぜ'
+english = 'cold; illness'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '方'
+kana = 'かた'
+english = 'person (sonkeigo); method or way of'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '家族'
+kana = 'かぞく'
+english = 'family'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '片仮名'
+kana = 'かたかな'
+english = 'katakana'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～月'
+kana = '～がつ'
+english = 'month of the year'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '学校'
+kana = 'がっこう'
+english = 'school'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'カップ'
+kana = 'カップ'
+english = 'cup'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '家庭'
+kana = 'かてい'
+english = 'home; household'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '角'
+kana = 'かど'
+english = 'corner (eg. of a desk); edge'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '鞄'
+kana = 'かばん'
+english = 'bag; briefcase; basket'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '花瓶'
+kana = 'かびん'
+english = '(flower) vase'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '紙'
+kana = 'かみ'
+english = 'paper'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'カメラ'
+kana = 'カメラ'
+english = 'camera'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '火曜日'
+kana = 'かようび'
+english = 'Tuesday'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '辛い'
+kana = 'からい'
+english = 'spicy; hot; salty'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '体'
+kana = 'からだ'
+english = 'body'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '軽い'
+kana = 'かるい'
+english = 'light (weight); non-serious'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'カレー'
+kana = 'カレー'
+english = 'curry'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'カレンダー'
+kana = 'カレンダー'
+english = 'calendar'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '川'
+kana = 'かわ'
+english = 'river'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '可愛い'
+kana = 'かわいい'
+english = 'cute; adorable'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '漢字'
+kana = 'かんじ'
+english = 'Chinese character(s)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '木'
+kana = 'き'
+english = 'tree; wood'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '黄色'
+kana = 'きいろ'
+english = 'yellow'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '黄色い'
+kana = 'きいろい'
+english = 'yellow'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '北'
+kana = 'きた'
+english = 'north'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ギター'
+kana = 'ギター'
+english = 'guitar'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '汚い'
+kana = 'きたない'
+english = 'dirty; messy'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '喫茶店'
+kana = 'きっさてん'
+english = 'coffee shop'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '切手'
+kana = 'きって'
+english = 'stamp (postage)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '切符'
+kana = 'きっぷ'
+english = 'ticket'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '昨日'
+kana = 'きのう'
+english = 'yesterday'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '九'
+kana = 'きゅう'
+english = 'nine'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '牛肉'
+kana = 'ぎゅうにく'
+english = 'beef'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '牛乳'
+kana = 'ぎゅうにゅう'
+english = "(cow's) milk"
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今日'
+kana = 'きょう'
+english = 'today'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '教室'
+kana = 'きょうしつ'
+english = 'classroom'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '兄弟'
+kana = 'きょうだい'
+english = 'siblings'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '去年'
+kana = 'きょねん'
+english = 'last year'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '嫌い'
+kana = 'きらい'
+english = 'dislike; hate'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '綺麗'
+kana = 'きれい'
+english = 'pretty; clean; tidy'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'キロ'
+kana = 'キロ'
+english = 'kilogram ; kilometer'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '銀行'
+kana = 'ぎんこう'
+english = 'bank'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '金曜日'
+kana = 'きんようび'
+english = 'Friday'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '九'
+kana = 'きゅう'
+english = 'nine'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '薬'
+kana = 'くすり'
+english = 'medicine'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '下さい'
+kana = 'ください'
+english = 'please [give/do] for me'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '果物'
+kana = 'くだもの'
+english = 'fruit'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '口'
+kana = 'くち'
+english = 'mouth; opening'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '靴'
+kana = 'くつ'
+english = 'shoes'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '靴下'
+kana = 'くつした'
+english = 'socks'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '国'
+kana = 'くに'
+english = 'country'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '曇り'
+kana = 'くもり'
+english = 'cloudiness; cloudy weather'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '暗い'
+kana = 'くらい'
+english = 'dark; gloomy; depressed'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'クラス'
+kana = 'クラス'
+english = 'class'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'グラム'
+kana = 'グラム'
+english = 'gram'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '車'
+kana = 'くるま'
+english = 'car; vehicle'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '黒'
+kana = 'くろ'
+english = 'black'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '黒い'
+kana = 'くろい'
+english = 'black'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '警官'
+kana = 'けいかん'
+english = 'police'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今朝'
+kana = 'けさ'
+english = 'this morning'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '結構'
+kana = 'けっこう'
+english = 'nice; sufficient; enough'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '結婚'
+kana = 'けっこん'
+english = 'marriage'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '月曜日'
+kana = 'げつようび'
+english = 'Monday'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '玄関'
+kana = 'げんかん'
+english = 'entrance; front door; foyer'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '元気'
+kana = 'げんき'
+english = 'lively; healthy'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～個'
+kana = '～こ'
+english = 'counter for small objects'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '五'
+kana = 'ご'
+english = 'five'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～語'
+kana = '～ご'
+english = 'language (suffix); counter for words'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '公園'
+kana = 'こうえん'
+english = '(public) park'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '交差点'
+kana = 'こうさてん'
+english = 'intersection; crossing'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '紅茶'
+kana = 'こうちゃ'
+english = 'black tea'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '交番'
+kana = 'こうばん'
+english = 'police box'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '声'
+kana = 'こえ'
+english = 'voice'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '珈琲'
+kana = 'コーヒー'
+english = 'coffee'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '此処'
+kana = 'ここ'
+english = 'here; this place'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '午後'
+kana = 'ごご'
+english = 'afternoon; P.M.'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '九日'
+kana = 'ここのか'
+english = 'the ninth of the month; nine days'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '九つ'
+kana = 'ここのつ'
+english = 'nine (things)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '午前'
+kana = 'ごぜん'
+english = 'morning; A.M.'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '此方'
+kana = 'こちら'
+english = 'this way; here; this person'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '此方'
+kana = 'こっち'
+english = 'this way; here; this person'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'コップ'
+kana = 'コップ'
+english = 'cup'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今年'
+kana = 'ことし'
+english = 'this year'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '言葉'
+kana = 'ことば'
+english = 'word; language'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '子供'
+kana = 'こども'
+english = 'child'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '此の'
+kana = 'この'
+english = 'this (thing)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ご飯'
+kana = 'ごはん'
+english = 'cooked rice; meal'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'コピー'
+kana = 'コピー'
+english = 'copy (noun or verb)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '此れ'
+kana = 'これ'
+english = 'this'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今月'
+kana = 'こんげつ'
+english = 'this month'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今週'
+kana = 'こんしゅう'
+english = 'this week'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'こんな'
+kana = 'こんな'
+english = 'such ~; something like this'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今晩'
+kana = 'こんばん'
+english = 'tonight; this evening'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'さあ'
+kana = 'さあ'
+english = 'come on...; well...; about that...'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～歳'
+kana = '～さい'
+english = 'counter for years old'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '財布'
+kana = 'さいふ'
+english = 'wallet'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '魚'
+kana = 'さかな'
+english = 'fish'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '先'
+kana = 'さき'
+english = 'the previous; the former; the future'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '作文'
+kana = 'さくぶん'
+english = 'essay writing; composition'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～冊'
+kana = '～さつ'
+english = 'counter for books'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '雑誌'
+kana = 'ざっし'
+english = 'magazine; journal'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '砂糖'
+kana = 'さとう'
+english = 'sugar'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '寒い'
+kana = 'さむい'
+english = 'cold (weather)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '再来年'
+kana = 'さらいねん'
+english = 'year after next'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～さん'
+kana = '～さん'
+english = 'Mr.; Ms.; etc. (honorific/respectful/sonkeigo)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '三'
+kana = 'さん'
+english = 'three'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '散歩'
+kana = 'さんぽ'
+english = 'walk; stroll'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '四'
+kana = 'し'
+english = 'four'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～時'
+kana = '～じ'
+english = "hour; o'clock"
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '塩'
+kana = 'しお'
+english = 'salt'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '然し'
+kana = 'しかし'
+english = 'however'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '時間'
+kana = 'じかん'
+english = 'time'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～時間'
+kana = '～じかん'
+english = 'counter for hours'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '仕事'
+kana = 'しごと'
+english = 'work; job'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '辞書'
+kana = 'じしょ'
+english = 'dictionary'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '静か'
+kana = 'しずか'
+english = 'quiet; peaceful'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '下'
+kana = 'した'
+english = 'below; under; bottom'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '七'
+kana = 'しち'
+english = 'seven'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '質問'
+kana = 'しつもん'
+english = 'question; inquiry'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '自転車'
+kana = 'じてんしゃ'
+english = 'bicycle'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '自動車'
+kana = 'じどうしゃ'
+english = 'automobile'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '字引'
+kana = 'じびき'
+english = 'dictionary (older word)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '自分'
+kana = 'じぶん'
+english = 'myself; oneself'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'じゃあ'
+kana = 'じゃあ'
+english = 'well then...'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '写真'
+kana = 'しゃしん'
+english = 'photograph'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'シャツ'
+kana = 'シャツ'
+english = 'shirt'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'シャワー'
+kana = 'シャワー'
+english = 'shower'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '十'
+kana = 'じゅう'
+english = 'ten'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～中'
+kana = '～じゅう'
+english = 'during; while'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～週間'
+kana = '～しゅうかん'
+english = 'counter for weeks'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '授業'
+kana = 'じゅぎょう'
+english = 'lesson; class work'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '宿題'
+kana = 'しゅくだい'
+english = 'homework'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '上手'
+kana = 'じょうず'
+english = 'skillful'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '丈夫'
+kana = 'じょうぶ'
+english = 'healthy; strong; solid; robust'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '醤油'
+kana = 'しょうゆ'
+english = 'soy sauce'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '食堂'
+kana = 'しょくどう'
+english = 'cafeteria; dining hall'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '白'
+kana = 'しろ'
+english = 'white'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '白い'
+kana = 'しろい'
+english = 'white'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～人'
+kana = '～にん'
+english = 'counter for people'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '新聞'
+kana = 'しんぶん'
+english = 'newspaper'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '水曜日'
+kana = 'すいようび'
+english = 'Wednesday'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'スカート'
+kana = 'スカート'
+english = 'skirt'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '好き'
+kana = 'すき'
+english = 'liking; fondness; favorite; love'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '少ない'
+kana = 'すくない'
+english = 'a few; scarce'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '直ぐ'
+kana = 'すぐ'
+english = 'immediately; instantly; soon'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '少し'
+kana = 'すこし'
+english = 'small quantity; little; few'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '涼しい'
+kana = 'すずしい'
+english = 'cool (temperature); refreshing'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ストーブ'
+kana = 'ストーブ'
+english = 'room heater; stove'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'スプーン'
+kana = 'スプーン'
+english = 'spoon'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'スポーツ'
+kana = 'スポーツ'
+english = 'sports'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ズボン'
+kana = 'ズボン'
+english = 'pants (from French)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'スリッパ'
+kana = 'スリッパ'
+english = 'slippers'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '背'
+kana = 'せい'
+english = 'height'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '生徒'
+kana = 'せいと'
+english = 'pupil'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'セーター'
+kana = 'セーター'
+english = 'sweater'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '石鹸'
+kana = 'せっけん'
+english = 'soap'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '背広'
+kana = 'せびろ'
+english = 'business suit'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '狭い'
+kana = 'せまい'
+english = 'narrow; confined; cramped'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ゼロ'
+kana = 'ゼロ'
+english = 'zero'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '千'
+kana = 'せん'
+english = 'thousand'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '先月'
+kana = 'せんげつ'
+english = 'last month'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '先週'
+kana = 'せんしゅう'
+english = 'last week'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '先生'
+kana = 'せんせい'
+english = 'teacher; master; doctor (honorific/respectful/sonkeigo)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '洗濯'
+kana = 'せんたく'
+english = 'laundry; washing'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '全部'
+kana = 'ぜんぶ'
+english = 'all; entire; whole'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'そう'
+kana = 'そう'
+english = 'seems like; really; appears to be the case'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '掃除'
+kana = 'そうじ'
+english = 'cleaning; sweeping'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '然うして'
+kana = 'そうして'
+english = 'after that; therefore (conjunction)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其処'
+kana = 'そこ'
+english = 'that place; there'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其方'
+kana = 'そちら'
+english = 'that place; that way; that person'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其方'
+kana = 'そっち'
+english = 'that place; that way; that person'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '外'
+kana = 'そと'
+english = 'outside; exterior'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其の'
+kana = 'その'
+english = 'that (thing)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '側'
+kana = 'そば'
+english = 'near; close; vicinity'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '空'
+kana = 'そら'
+english = 'sky'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其れ'
+kana = 'それ'
+english = 'that'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其れから'
+kana = 'それから'
+english = 'and then; after that'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其れでは'
+kana = 'それでは'
+english = 'in that case; well then...'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～台'
+kana = '～だい'
+english = 'counter for vehicles and machines'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大学'
+kana = 'だいがく'
+english = 'university'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大使館'
+kana = 'たいしかん'
+english = 'embassy'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大丈夫'
+kana = 'だいじょうぶ'
+english = 'safe; alright; OK; no thanks'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大好き'
+kana = 'だいすき'
+english = 'lovable; like very much'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大切'
+kana = 'たいせつ'
+english = 'important; necessary'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '台所'
+kana = 'だいどころ'
+english = 'kitchen'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大変'
+kana = 'たいへん'
+english = 'very; terrible'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '高い'
+kana = 'たかい'
+english = 'tall; high; expensive'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '沢山'
+kana = 'たくさん'
+english = 'a lot; many; much'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'タクシー'
+kana = 'タクシー'
+english = 'taxi'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～達'
+kana = '～たち'
+english = 'pluralizing suffix'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '縦'
+kana = 'たて'
+english = 'length; height'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '建物'
+kana = 'たてもの'
+english = 'building'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '楽しい'
+kana = 'たのしい'
+english = 'enjoyable; fun; pleasant'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '煙草'
+kana = 'たばこ'
+english = 'tabacco; cigarettes'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '多分'
+kana = 'たぶん'
+english = 'perhaps; probably'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '食べ物'
+kana = 'たべもの'
+english = 'food'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '卵'
+kana = 'たまご'
+english = 'egg'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '誰'
+kana = 'だれ'
+english = 'who'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '誰か'
+kana = 'だれか'
+english = 'somebody; anybody'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '誕生日'
+kana = 'たんじょうび'
+english = 'birthday'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '段々'
+kana = 'だんだん'
+english = 'gradually; little by little'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '小さい'
+kana = 'ちいさい'
+english = 'small; little'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '小さな'
+kana = 'ちいさな'
+english = 'small; little'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '近い'
+kana = 'ちかい'
+english = 'near; close by'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '近く'
+kana = 'ちかく'
+english = 'near; vicinity'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '地下鉄'
+kana = 'ちかてつ'
+english = 'underground train; subway'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '地図'
+kana = 'ちず'
+english = 'map'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '父'
+kana = 'ちち'
+english = "(one's own) father (humble/kenjougo)"
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '茶色'
+kana = 'ちゃいろ'
+english = 'brown'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '茶碗'
+kana = 'ちゃわん'
+english = 'rice bowl; tea cup'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '丁度'
+kana = 'ちょうど'
+english = 'exactly; right'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '一寸'
+kana = 'ちょっと'
+english = 'a little; somewhat; excuse me!'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '一日'
+kana = 'ついたち'
+english = 'first day of the month'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '次'
+kana = 'つぎ'
+english = 'next'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '机'
+kana = 'つくえ'
+english = 'desk'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '詰らない'
+kana = 'つまらない'
+english = 'dull; uninteresting; boring; insignificant'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '冷たい'
+kana = 'つめたい'
+english = 'cold (to the touch); coldhearted'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+make_kanji_card = true
+level = 'n5'
+tags = []
+

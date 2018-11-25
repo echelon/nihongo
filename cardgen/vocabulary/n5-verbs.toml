@@ -1,0 +1,114 @@
+[[cards]]
+kanji = '会う'
+kana = 'あう'
+english = 'to meet'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'verbs', 'intransitive', 'godan-u']
+
+[[cards]]
+kanji = '開く'
+kana = 'あく'
+english = 'to open (eg. doors); to open (eg. business); to become open'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'verbs', 'intransitive', 'godan-ku']
+
+[[cards]]
+kanji = '開ける'
+kana = 'あける'
+english = 'to open (eg. a door); to open (eg. for business)'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'verbs', 'transitive', 'godan-ku']
+
+[[cards]]
+kanji = '上げる'
+kana = 'あげる'
+english = 'to raise; to give'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'verbs', 'transitive', 'ichidan']
+
+[[TODO]]
+- あそぶ	遊ぶ	u-v	to play, to enjoy oneself
+- あびる	to bathe, to shower
+- あらう	洗う	u-v	to wash
+- ある [存在]		u-v-i	to be
+- ある [所有]		u-v-i	to have
+- あるく	歩く	u-v	to walk
+- いう	言う	u-v	to say
+- いく/ゆく	行く	u-v	to go
+- いる	居る	u-v	(hum) to be (animate), to exist
+- いる	要る	u-v	to need
+- いれる	入れる	ru-v	to put in
+- うたう	歌う	u-v	to sing
+- うまれる	生まれる	ru-v	to be born
+- うる	売る	u-v	to sell
+- おきる	起きる	ru-v	to get up, to rise
+- おく	置く	u-v	to put, to place
+- おしえる	教える	ru-v	to teach, to inform
+- おす	押す	u-v,vt	to push, to press
+- おぼえる	覚える	ru-v	to remember, to memorize
+- およぐ	泳ぐ	u-v	to swim
+- おりる	降りる	ru-v	to alight (eg from bus), to get off
+- おわる	終る	u-v	to finish, to close
+- かう	買う	u-v	to buy
+- かえす	返す	u-v,vt	to return something
+- かえる	帰る	u-v	to go home, to return
+- かかる		u-v,vi	to take (eg time, money)
+- かく	書く	u-v	to write
+- かける		ru-v	to put on (eg glasses)
+- かける		ru-v	to dial/call (eg phone)
+- かす	貸す	u-v	to lend
+- かぶる		u-v	to wear, to put on (head)
+- かりる	借りる	ru-v	to borrow, to have a loan
+- きえる	消える	ru-v	to go out, to vanish
+- きく	聞く	u-v	to hear, to listen, to ask
+- きる	切る	suf,u-v	to cut, to chop
+- きる	着る	ru-v	to wear, to put on (from shoulders down)
+- くもる	曇る	u-v	to become cloudy, to become dim
+- くる	来る	vk	to come
+- けす	消す	u-v	to erase, to delete, to turn off power
+- こたえる	答える	ru-v	to answer, to reply
+- こまる	困る	u-v	to be worried, to be bothered
+- さく	咲く	u-v	to bloom
+- さす	差す	u-v	to raise (stretch out) hands, to raise (eg umbrella)
+- しぬ	死ぬ	v5n	to die
+- しまる	閉まる	u-v,vi	to close, to be closed
+- しめる	閉める	ru-v,vt	to close, to shut
+- しめる	締める	ru-v	to tie, to fasten
+- しる	知る	u-v	to know, to understand
+- すう	吸う	u-v	to smoke, to breathe in, to suck
+- すむ	住む	u-v	to reside, to live in
+- スリッパ		n	slippers
+- する		vs-i	to do, to try
+- すわる	座る	u-v	to sit
+- だす	出す	u-v	to put out, to send
+- たつ	立つ	u-v	to stand
+- たのむ	頼む	u-v	to request, to ask
+- たべる	食べる	ru-v	to eat
+- ちがう	違う	u-v	to differ (from)
+- つかう	使う	u-v	to use
+- つかれる	疲れる	ru-v	to get tired, to tire
+- つく	着く	u-v	to arrive at, to reach
+- つくる	作る	u-v	to make, to create
+- つける		ru-v,vt	to turn on (eg a light)
+- つとめる	勤める	ru-v	to serve, to work (for)
+
+# ------ grammar points ------ 
+
+- ～がる		suf	feel (GRAMMAR POINT)
+- ～がわ	側	n-suf	～ side (GRAMMAR POINT)
+- ～くらい/ぐらい		suf	approximate (quantity) (GRAMMAR POINT)
+- ～ころ/～ごろ		n-suf	about, approximately (time) (GRAMMAR POINT)
+- ～すぎ		suf	to exceed, ～ too much (GRAMMAR POINT)
+- ～ずつ		suf	at a time, gradually (GRAMMAR POINT)
+- ～だけ		prt	only ～, just ～
+- ～ちゅう	～中	suf	during, while ～ing
+
+
+[[TODO-nonverb]]
+- ひろい, spacious, vast, wide
+
+
