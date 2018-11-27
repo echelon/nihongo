@@ -95,6 +95,50 @@ tags = ['common', 'verbs', 'transitive', 'ichidan']
 - つくる	作る	u-v	to make, to create
 - つける		ru-v,vt	to turn on (eg a light)
 - つとめる	勤める	ru-v	to serve, to work (for)
+- でかける	出かける	ru-v	to depart, to go out
+- できる		ru-v	to be able to
+- でる	出る	ru-v	to appear, to leave
+- とぶ	飛ぶ	u-v	to fly, to hop
+- とまる	止まる	u-v	to come to a halt
+- とる	取る	u-v	to take
+- とる	撮る	u-v	to take (a photo)
+- なく	鳴く	u-v	to sing (bird), to make sound (animal)
+- なくす	無くす	u-v	to lose something
+- ならう	習う	u-v	to learn
+- ならぶ	並ぶ	u-v,vi	to line up, to stand in a line
+- ならべる	並べる	ru-v,vt	to line up, to set up
+- なる		u-v	to become
+- ぬぐ	脱ぐ	u-v	to take off clothes
+- ねる	寝る	ru-v	to go to bed, to sleep
+- のぼる	登る	u-v	to climb
+- のむ	飲む	u-v	to drink
+- のる	乗る	u-v	to get on, to ride in, to board
+- はいる	入る	u-v	to enter, to contain, to hold
+- はく		u-v	to wear, to put on (trousers)
+- はじまる	始まる	u-v,vi	to begin
+- はしる	走る	u-v	to run
+- はたらく	働く	u-v	to work
+- はなす	話す	u-v	to speak
+- はる	貼る	u-v	to stick, to paste
+- はれる	晴れる	ru-v	to be sunny
+- ひく	引く	u-v	to pull
+- ひく	弾く	u-v	to play (piano, guitar)
+- ふく	吹く	u-v	to blow (wind, etc)
+- ふる	降る	u-v	to precipitate, to fall (e.g. rain)
+- まがる	曲る	u-v	to turn, to bend
+- まつ	待つ	u-v	to wait
+- みがく	磨く	u-v	to brush (teeth)
+- みせる	見せる	ru-v	to show, to display
+- みる	見る	ru-v	to see, to watch
+- もつ	持つ	u-v	(1) to hold, to carry, (2) to possess
+- やすむ	休む	u-v,vi	to rest, to have a break, to take a day off
+- やる		u-v	to do
+- よぶ	呼ぶ	u-v	to call out, to invite
+- よむ	読む	u-v	to read
+- わかる	分かる	u-v	to understand
+- わすれる	忘れる	ru-v	to forget
+- わたす	渡す	u-v	to pass over, to hand over
+- わたる	渡る	u-v	to cross over, to go across
 
 # ------ grammar points ------ 
 
@@ -106,6 +150,9 @@ tags = ['common', 'verbs', 'transitive', 'ichidan']
 - ～ずつ		suf	at a time, gradually (GRAMMAR POINT)
 - ～だけ		prt	only ～, just ～
 - ～ちゅう	～中	suf	during, while ～ing
+- では		expr	with that...
+- ～ながら		prt	while ~ing, during, although
+- ～など		n,n-suf,prt	et cetera
 
 
 [[TODO-nonverb]]
