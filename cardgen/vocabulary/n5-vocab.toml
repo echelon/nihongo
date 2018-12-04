@@ -185,7 +185,7 @@ tags = ['common', 'family', 'people', 'humble', 'kenjougo']
 [[cards]]
 kanji = 'あのう'
 kana = 'あのう'
-english = 'well; um...'
+english = 'um...; well...'
 make_kanji_card = false
 level = 'n5'
 tags = ['common', 'expressions']
@@ -273,7 +273,7 @@ tags = ['common', 'home', 'places', 'family']
 [[cards]]
 kanji = '如何'
 kana = 'いかが'
-english = 'how; in what way'
+english = 'how (polite)'
 make_kanji_card = false
 level = 'n5'
 tags = ['common', 'na-adjective', 'adverb', 'question']
@@ -337,7 +337,7 @@ tags = ['common', 'i-adjectives']
 [[cards]]
 kanji = '一'
 kana = 'いち'
-english = ''
+english = 'one'
 make_kanji_card = true
 level = 'n5'
 tags = ['common', 'numbers', 'counting']
@@ -2868,7 +2868,7 @@ tags = []
 [[cards]]
 kanji = '如何'
 kana = 'どう'
-english = 'how? ; in what way?'
+english = 'how?'
 make_kanji_card = true
 level = 'n5'
 tags = []
@@ -3076,7 +3076,7 @@ tags = []
 [[cards]]
 kanji = 'どんな'
 kana = 'どんな'
-english = 'what? what kind of?'
+english = 'what kind of? ; like what?'
 make_kanji_card = true
 level = 'n5'
 tags = []
@@ -4268,7 +4268,7 @@ tags = []
 [[cards]]
 kanji = '村'
 kana = 'むら'
-english = ''
+english = 'village'
 make_kanji_card = true
 level = 'n5'
 tags = []
