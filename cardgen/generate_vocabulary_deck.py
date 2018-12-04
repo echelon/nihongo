@@ -148,7 +148,7 @@ def read_vocabulary(filename):
     toml_dict = toml.loads(contents)
     return toml_dict['cards']
 
-vocabulary = read_vocabulary('n5-vocab.toml')
+vocabulary = read_vocabulary('./vocabulary/n5-vocab.toml')
 
 #print(KANJI_CARD_MODEL.to_json(0, 0))
 
