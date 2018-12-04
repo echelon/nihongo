@@ -1,4 +1,12 @@
 [[cards]]
+kanji = '彼処'
+kana = 'あそこ'
+english = 'there (way over there)'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'place']
+
+[[cards]]
 kanji = 'あっち'
 kana = 'あっち'
 english = 'over there; that way'
@@ -21,4 +29,100 @@ english = 'that (way over there)'
 make_kanji_card = false
 level = 'n5'
 tags = ['common', 'locations', 'places', 'kosoado']
+
+[[cards]]
+kanji = '彼方'
+kana = 'あちら'
+english = 'that way (way over there); that one (way over there)'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'place']
+
+[[cards]]
+kanji = '此処'
+kana = 'ここ'
+english = 'here; this place'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '此方'
+kana = 'こちら'
+english = 'this way; here; this person'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '此方'
+kana = 'こっち'
+english = 'this way; here; this person'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其処'
+kana = 'そこ'
+english = 'that place; there'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其方'
+kana = 'そちら'
+english = 'that place; that way; that person'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其方'
+kana = 'そっち'
+english = 'that place; that way; that person'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其れ'
+kana = 'それ'
+english = 'that'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '何処'
+kana = 'どこ'
+english = 'where'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '何方'
+kana = 'どちら'
+english = 'which way? ; where?'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '何方'
+kana = 'どっち'
+english = 'which one? ; which way?'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '其の'
+kana = 'その'
+english = 'that (thing)'
+make_kanji_card = true
+level = 'n5'
+tags = []
 
