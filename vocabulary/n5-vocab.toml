@@ -2,7 +2,6 @@
 kanji = 'ああ'
 kana = 'ああ'
 english = 'Ah!; Oh!; yes.'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'expression']
 
@@ -10,7 +9,6 @@ tags = ['common', 'expression']
 kanji = '青'
 kana = 'あお'
 english = 'blue'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'noun', 'no-adjective', 'color']
 
@@ -26,7 +24,6 @@ tags = ['common', 'i-adjective', 'color']
 kanji = '赤'
 kana = 'あか'
 english = 'red'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'noun', 'no-adjective', 'color']
 
@@ -42,7 +39,7 @@ tags = ['common', 'i-adjective', 'color']
 kanji = '明るい'
 kana = 'あかるい'
 english = 'light; bright; cheerful'
-make_kanji_card = false
+make_kanji_card = true
 level = 'n5'
 tags = ['common', 'i-adjective', 'appearance', 'mood']
 
@@ -66,7 +63,6 @@ tags = ['common', 'time']
 kanji = '朝ご飯'
 kana = 'あさごはん'
 english = 'breakfast'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'food']
 
@@ -74,7 +70,6 @@ tags = ['common', 'food']
 kanji = '明後日'
 kana = 'あさって'
 english = 'day after tomorrow'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'time']
 
@@ -98,7 +93,6 @@ tags = ['common', 'time']
 kanji = '暖かい'
 kana = 'あたたかい'
 english = 'warm (air temp)'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'i-adjective', 'temperature', 'weather']
 
@@ -106,7 +100,6 @@ tags = ['common', 'i-adjective', 'temperature', 'weather']
 kanji = '頭'
 kana = 'あたま'
 english = 'head'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'body', 'anatomy']
 
@@ -114,7 +107,7 @@ tags = ['common', 'body', 'anatomy']
 kanji = '新しい'
 kana = 'あたらしい'
 english = 'new'
-make_kanji_card = false
+make_kanji_card = true
 level = 'n5'
 tags = ['common', 'i-adjectives']
 
@@ -122,7 +115,6 @@ tags = ['common', 'i-adjectives']
 kanji = '熱い'
 kana = 'あつい'
 english = 'hot (thing); passionate'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'temperature', 'i-adjectives']
 
@@ -130,7 +122,6 @@ tags = ['common', 'temperature', 'i-adjectives']
 kanji = '暑い'
 kana = 'あつい'
 english = 'hot; warm'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'weather', 'i-adjectives']
 
@@ -138,7 +129,6 @@ tags = ['common', 'weather', 'i-adjectives']
 kanji = '後'
 kana = 'あと'
 english = 'after; in the future'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'places']
 
@@ -146,7 +136,6 @@ tags = ['common', 'places']
 kanji = '貴方'
 kana = 'あなた'
 english = 'you (equal or lower status); dear (wife to husband)'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'pronouns', 'people']
 
@@ -154,7 +143,6 @@ tags = ['common', 'pronouns', 'people']
 kanji = '兄'
 kana = 'あに'
 english = 'older brother (humble/kenjougo)'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'family', 'people', 'humble', 'kenjougo']
 
@@ -162,7 +150,6 @@ tags = ['common', 'family', 'people', 'humble', 'kenjougo']
 kanji = '姉'
 kana = 'あね'
 english = 'older sister (humble/kenjougo)'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'family', 'people', 'humble', 'kenjougo']
 
@@ -170,7 +157,6 @@ tags = ['common', 'family', 'people', 'humble', 'kenjougo']
 kanji = 'あのう'
 kana = 'あのう'
 english = 'um...; well...'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'expressions']
 
@@ -178,7 +164,6 @@ tags = ['common', 'expressions']
 kanji = '危ない'
 kana = 'あぶない'
 english = 'dangerous; watch out!'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'i-adjectives', 'expressions']
 
@@ -194,7 +179,6 @@ tags = ['common', 'food', 'i-adjectives']
 kanji = '余り'
 kana = 'あまり'
 english = 'not very; not much'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'no-adjective', 'na-adjective', 'adverb']
 
@@ -210,7 +194,6 @@ tags = ['common', 'weather']
 kanji = '飴'
 kana = 'あめ'
 english = 'hard candy; toffee'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'food']
 
@@ -218,7 +201,6 @@ tags = ['common', 'food']
 kanji = 'いい'
 kana = 'いい'
 english = 'good; OK'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'expressions']
 
@@ -226,7 +208,6 @@ tags = ['common', 'expressions']
 kanji = '否'
 kana = 'いいえ'
 english = "no; not at all; don't mention it"
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'basic']
 
@@ -242,7 +223,6 @@ tags = ['common', 'home', 'places', 'family']
 kanji = '如何'
 kana = 'いかが'
 english = 'how (polite)'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'na-adjective', 'adverb', 'question']
 
@@ -250,7 +230,6 @@ tags = ['common', 'na-adjective', 'adverb', 'question']
 kanji = '幾つ'
 kana = 'いくつ'
 english = 'how many? ; how old?'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'question', 'adverb']
 
@@ -258,7 +237,6 @@ tags = ['common', 'question', 'adverb']
 kanji = '幾ら'
 kana = 'いくら'
 english = 'how much? ; how many?'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'question', 'noun', 'adverb']
 
@@ -266,7 +244,6 @@ tags = ['common', 'question', 'noun', 'adverb']
 kanji = '池'
 kana = 'いけ'
 english = 'pond'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'noun', 'nature', 'outdoors']
 
@@ -274,7 +251,6 @@ tags = ['common', 'noun', 'nature', 'outdoors']
 kanji = '医者'
 kana = 'いしゃ'
 english = 'doctor'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'people']
 
@@ -282,7 +258,6 @@ tags = ['common', 'people']
 kanji = '椅子'
 kana = 'いす'
 english = 'chair; stool'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'home', 'furniture']
 
@@ -290,7 +265,6 @@ tags = ['common', 'home', 'furniture']
 kanji = '忙しい'
 kana = 'いそがしい'
 english = 'busy; hectic'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'i-adjectives']
 
@@ -298,7 +272,6 @@ tags = ['common', 'i-adjectives']
 kanji = '痛い'
 kana = 'いたい'
 english = 'painful ; sore'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'i-adjectives']
 
@@ -330,7 +303,6 @@ tags = []
 kanji = '一緒'
 kana = 'いっしょ'
 english = 'together'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -370,8 +342,8 @@ tags = []
 kanji = '犬'
 kana = 'いぬ'
 english = 'dog'
-make_kanji_card = true
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -386,7 +358,6 @@ tags = []
 kanji = '意味'
 kana = 'いみ'
 english = 'meaning'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -394,7 +365,6 @@ tags = []
 kanji = '妹'
 kana = 'いもうと'
 english = 'younger sister (humble / kenjougo)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -402,7 +372,6 @@ tags = []
 kanji = '嫌'
 kana = 'いや'
 english = 'disagreeable; unpleasant; no'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -425,8 +394,8 @@ tags = []
 [[cards]]
 kanji = '色々'
 kana = 'いろいろ'
-english = 'various'
 make_kanji_card = true
+english = 'various'
 level = 'n5'
 tags = []
 
@@ -442,7 +411,6 @@ tags = []
 kanji = '後ろ'
 kana = 'うしろ'
 english = 'behind'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -450,7 +418,6 @@ tags = []
 kanji = '薄い'
 kana = 'うすい'
 english = 'thin; weak (eg. taste)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -458,7 +425,6 @@ tags = []
 kanji = '歌'
 kana = 'うた'
 english = 'song'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -482,7 +448,6 @@ tags = []
 kanji = '煩い'
 kana = 'うるさい'
 english = 'loud; annoying'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -490,7 +455,6 @@ tags = []
 kanji = '上着'
 kana = 'うわぎ'
 english = 'coat'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -498,7 +462,6 @@ tags = []
 kanji = '絵'
 kana = 'え'
 english = 'picture; drawing; painting'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -506,7 +469,6 @@ tags = []
 kanji = '映画'
 kana = 'えいが'
 english = 'movie'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -522,7 +484,6 @@ tags = []
 kanji = 'ええ'
 kana = 'ええ'
 english = 'yes; um...'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -538,7 +499,6 @@ tags = []
 kanji = '～円'
 kana = '～えん'
 english = 'yen'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -546,7 +506,6 @@ tags = []
 kanji = '鉛筆'
 kana = 'えんぴつ'
 english = 'pencil'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -554,7 +513,6 @@ tags = []
 kanji = '美味しい'
 kana = 'おいしい'
 english = 'delicious'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -562,7 +520,6 @@ tags = []
 kanji = '多い'
 kana = 'おおい'
 english = 'many'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -578,7 +535,6 @@ tags = []
 kanji = '大勢'
 kana = 'おおぜい'
 english = 'crowd of people'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -594,7 +550,6 @@ tags = []
 kanji = 'お菓子'
 kana = 'おかし'
 english = 'candy; confections'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -610,7 +565,6 @@ tags = []
 kanji = '奥さん'
 kana = 'おくさん'
 english = 'wife (honorific/respectful/sonkeigo)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -618,7 +572,6 @@ tags = []
 kanji = 'お酒'
 kana = 'おさけ'
 english = 'alcohol; sake (rice wine)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -634,7 +587,6 @@ tags = []
 kanji = 'お祖父さん'
 kana = 'おじいさん'
 english = 'grandfather; male senior citizen'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -642,7 +594,6 @@ tags = []
 kanji = '伯父さん'
 kana = 'おじさん'
 english = 'uncle; old man'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -650,7 +601,6 @@ tags = []
 kanji = '遅い'
 kana = 'おそい'
 english = 'slow ; late'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -666,7 +616,6 @@ tags = []
 kanji = 'お手洗い'
 kana = 'おてあらい'
 english = 'toilet; lavatory'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -674,7 +623,6 @@ tags = []
 kanji = 'お父さん'
 kana = 'おとうさん'
 english = 'father (honorific/respectful/sonkeigo)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -682,7 +630,6 @@ tags = []
 kanji = '弟'
 kana = 'おとうと'
 english = 'little brother (humble/kenjougo)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -730,7 +677,6 @@ tags = []
 kanji = 'お腹'
 kana = 'おなか'
 english = 'stomach'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -746,7 +692,6 @@ tags = []
 kanji = 'お兄さん'
 kana = 'おにいさん'
 english = 'older brother (honorific/respectful/sonkeigo)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -754,7 +699,6 @@ tags = []
 kanji = 'お姉さん'
 kana = 'おねえさん'
 english = 'older sister (honorific/respectful/sonkeigo)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -762,7 +706,6 @@ tags = []
 kanji = 'お祖母さん'
 kana = 'おばあさん'
 english = 'grandmother'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -770,7 +713,6 @@ tags = []
 kanji = '伯母さん'
 kana = 'おばさん'
 english = 'aunt (honorific/respectful/sonkeigo)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -778,7 +720,6 @@ tags = []
 kanji = 'お風呂'
 kana = 'おふろ'
 english = 'bath'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -786,7 +727,6 @@ tags = []
 kanji = 'お弁当'
 kana = 'おべんとう'
 english = 'Japanese boxed lunch'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -802,7 +742,6 @@ tags = []
 kanji = '重い'
 kana = 'おもい'
 english = 'heavy'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -810,7 +749,6 @@ tags = []
 kanji = '面白い'
 kana = 'おもしろい'
 english = 'interesting; amusing'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -818,7 +756,6 @@ tags = []
 kanji = '音楽'
 kana = 'おんがく'
 english = 'music'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -850,7 +787,6 @@ tags = []
 kanji = '～階'
 kana = '～かい'
 english = 'counter for stories of a building'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -866,7 +802,6 @@ tags = []
 kanji = '階段'
 kana = 'かいだん'
 english = 'stairs'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -882,7 +817,6 @@ tags = []
 kanji = '顔'
 kana = 'かお'
 english = 'face'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -890,7 +824,6 @@ tags = []
 kanji = '鍵'
 kana = 'かぎ'
 english = 'key(s)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -898,7 +831,6 @@ tags = []
 kanji = '～か月'
 kana = '～かげつ'
 english = 'counter for number of months'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -906,7 +838,6 @@ tags = []
 kanji = '傘'
 kana = 'かさ'
 english = 'umbrella'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -922,7 +853,6 @@ tags = []
 kanji = '風邪'
 kana = 'かぜ'
 english = 'cold; illness'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -930,7 +860,6 @@ tags = []
 kanji = '家族'
 kana = 'かぞく'
 english = 'family'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -946,7 +875,6 @@ tags = []
 kanji = '片仮名'
 kana = 'かたかな'
 english = 'katakana'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -954,7 +882,6 @@ tags = []
 kanji = '家庭'
 kana = 'かてい'
 english = 'home; household'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -962,7 +889,6 @@ tags = []
 kanji = '角'
 kana = 'かど'
 english = 'corner (eg. of a desk); edge'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -970,7 +896,6 @@ tags = []
 kanji = '鞄'
 kana = 'かばん'
 english = 'bag; briefcase; basket'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -978,7 +903,6 @@ tags = []
 kanji = '花瓶'
 kana = 'かびん'
 english = '(flower) vase'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -986,7 +910,6 @@ tags = []
 kanji = '紙'
 kana = 'かみ'
 english = 'paper'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1002,7 +925,6 @@ tags = []
 kanji = '辛い'
 kana = 'からい'
 english = 'spicy; hot; salty'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1018,7 +940,6 @@ tags = []
 kanji = '軽い'
 kana = 'かるい'
 english = 'light (weight); non-serious'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1034,7 +955,6 @@ tags = []
 kanji = '可愛い'
 kana = 'かわいい'
 english = 'cute; adorable'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1042,7 +962,6 @@ tags = []
 kanji = '漢字'
 kana = 'かんじ'
 english = 'Chinese character(s)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1082,7 +1001,6 @@ tags = []
 kanji = '～月'
 kana = '～がつ'
 english = 'month of the year'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1090,7 +1008,6 @@ tags = []
 kanji = '木'
 kana = 'き'
 english = 'tree; wood'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1098,7 +1015,6 @@ tags = []
 kanji = '黄色'
 kana = 'きいろ'
 english = 'yellow'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1106,7 +1022,6 @@ tags = []
 kanji = '黄色い'
 kana = 'きいろい'
 english = 'yellow'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1114,7 +1029,6 @@ tags = []
 kanji = '北'
 kana = 'きた'
 english = 'north'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1122,7 +1036,6 @@ tags = []
 kanji = '汚い'
 kana = 'きたない'
 english = 'dirty; messy'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1130,7 +1043,6 @@ tags = []
 kanji = '喫茶店'
 kana = 'きっさてん'
 english = 'coffee shop'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1138,7 +1050,6 @@ tags = []
 kanji = '切手'
 kana = 'きって'
 english = 'stamp (postage)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1146,7 +1057,6 @@ tags = []
 kanji = '切符'
 kana = 'きっぷ'
 english = 'ticket'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1154,7 +1064,6 @@ tags = []
 kanji = '昨日'
 kana = 'きのう'
 english = 'yesterday'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1162,7 +1071,6 @@ tags = []
 kanji = '九'
 kana = 'きゅう'
 english = 'nine'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1170,7 +1078,6 @@ tags = []
 kanji = '九'
 kana = 'きゅう'
 english = 'nine'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1178,7 +1085,6 @@ tags = []
 kanji = '今日'
 kana = 'きょう'
 english = 'today'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1186,7 +1092,6 @@ tags = []
 kanji = '教室'
 kana = 'きょうしつ'
 english = 'classroom'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1194,7 +1099,6 @@ tags = []
 kanji = '兄弟'
 kana = 'きょうだい'
 english = 'siblings'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1202,7 +1106,6 @@ tags = []
 kanji = '去年'
 kana = 'きょねん'
 english = 'last year'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1210,7 +1113,6 @@ tags = []
 kanji = '嫌い'
 kana = 'きらい'
 english = 'dislike; hate'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1218,7 +1120,6 @@ tags = []
 kanji = '綺麗'
 kana = 'きれい'
 english = 'pretty; clean; tidy'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1226,7 +1127,6 @@ tags = []
 kanji = '金曜日'
 kana = 'きんようび'
 english = 'Friday'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1234,7 +1134,6 @@ tags = []
 kanji = '牛肉'
 kana = 'ぎゅうにく'
 english = 'beef'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1242,7 +1141,6 @@ tags = []
 kanji = '牛乳'
 kana = 'ぎゅうにゅう'
 english = "(cow's) milk"
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1250,7 +1148,6 @@ tags = []
 kanji = '銀行'
 kana = 'ぎんこう'
 english = 'bank'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1258,7 +1155,6 @@ tags = []
 kanji = '薬'
 kana = 'くすり'
 english = 'medicine'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1266,7 +1162,6 @@ tags = []
 kanji = '下さい'
 kana = 'ください'
 english = 'please [give/do] for me'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1274,7 +1169,6 @@ tags = []
 kanji = '果物'
 kana = 'くだもの'
 english = 'fruit'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1282,7 +1176,6 @@ tags = []
 kanji = '口'
 kana = 'くち'
 english = 'mouth; opening'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1290,7 +1183,6 @@ tags = []
 kanji = '靴'
 kana = 'くつ'
 english = 'shoes'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1298,7 +1190,6 @@ tags = []
 kanji = '靴下'
 kana = 'くつした'
 english = 'socks'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1306,7 +1197,6 @@ tags = []
 kanji = '国'
 kana = 'くに'
 english = 'country'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1314,7 +1204,6 @@ tags = []
 kanji = '曇り'
 kana = 'くもり'
 english = 'cloudiness; cloudy weather'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1322,7 +1211,6 @@ tags = []
 kanji = '暗い'
 kana = 'くらい'
 english = 'dark; gloomy; depressed'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1330,7 +1218,6 @@ tags = []
 kanji = '車'
 kana = 'くるま'
 english = 'car; vehicle'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1338,7 +1225,6 @@ tags = []
 kanji = '黒'
 kana = 'くろ'
 english = 'black'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1346,7 +1232,6 @@ tags = []
 kanji = '黒い'
 kana = 'くろい'
 english = 'black'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1354,7 +1239,6 @@ tags = []
 kanji = '警官'
 kana = 'けいかん'
 english = 'police'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1362,7 +1246,6 @@ tags = []
 kanji = '今朝'
 kana = 'けさ'
 english = 'this morning'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1370,7 +1253,6 @@ tags = []
 kanji = '結構'
 kana = 'けっこう'
 english = 'nice; sufficient; enough'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1378,7 +1260,6 @@ tags = []
 kanji = '結婚'
 kana = 'けっこん'
 english = 'marriage'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1386,7 +1267,6 @@ tags = []
 kanji = '月曜日'
 kana = 'げつようび'
 english = 'Monday'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1394,7 +1274,6 @@ tags = []
 kanji = '玄関'
 kana = 'げんかん'
 english = 'entrance; front door; foyer'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1402,7 +1281,6 @@ tags = []
 kanji = '元気'
 kana = 'げんき'
 english = 'lively; healthy'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1410,7 +1288,6 @@ tags = []
 kanji = '～個'
 kana = '～こ'
 english = 'counter for small objects'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1418,7 +1295,6 @@ tags = []
 kanji = '公園'
 kana = 'こうえん'
 english = '(public) park'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1426,7 +1302,6 @@ tags = []
 kanji = '交差点'
 kana = 'こうさてん'
 english = 'intersection; crossing'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1434,7 +1309,6 @@ tags = []
 kanji = '紅茶'
 kana = 'こうちゃ'
 english = 'black tea'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1442,7 +1316,6 @@ tags = []
 kanji = '交番'
 kana = 'こうばん'
 english = 'police box'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1450,7 +1323,6 @@ tags = []
 kanji = '声'
 kana = 'こえ'
 english = 'voice'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1458,7 +1330,6 @@ tags = []
 kanji = '九日'
 kana = 'ここのか'
 english = 'the ninth of the month; nine days'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1466,7 +1337,6 @@ tags = []
 kanji = '九つ'
 kana = 'ここのつ'
 english = 'nine (things)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1474,7 +1344,6 @@ tags = []
 kanji = '今年'
 kana = 'ことし'
 english = 'this year'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1482,7 +1351,6 @@ tags = []
 kanji = '言葉'
 kana = 'ことば'
 english = 'word; language'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1490,7 +1358,6 @@ tags = []
 kanji = '子供'
 kana = 'こども'
 english = 'child'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1498,7 +1365,6 @@ tags = []
 kanji = '此の'
 kana = 'この'
 english = 'this (thing)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1506,7 +1372,6 @@ tags = []
 kanji = '此れ'
 kana = 'これ'
 english = 'this'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1514,7 +1379,6 @@ tags = []
 kanji = '今月'
 kana = 'こんげつ'
 english = 'this month'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1522,7 +1386,6 @@ tags = []
 kanji = '今週'
 kana = 'こんしゅう'
 english = 'this week'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1530,7 +1393,6 @@ tags = []
 kanji = 'こんな'
 kana = 'こんな'
 english = 'such ~; something like this'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1538,7 +1400,6 @@ tags = []
 kanji = '今晩'
 kana = 'こんばん'
 english = 'tonight; this evening (7-10pmish)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1546,7 +1407,6 @@ tags = []
 kanji = '五'
 kana = 'ご'
 english = 'five'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1554,7 +1414,6 @@ tags = []
 kanji = '～語'
 kana = '～ご'
 english = 'language (suffix); counter for words'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1562,7 +1421,6 @@ tags = []
 kanji = '午後'
 kana = 'ごご'
 english = 'afternoon; P.M.'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1570,7 +1428,6 @@ tags = []
 kanji = '午前'
 kana = 'ごぜん'
 english = 'morning; A.M.'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1578,7 +1435,6 @@ tags = []
 kanji = 'ご飯'
 kana = 'ごはん'
 english = 'cooked rice; meal'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1586,7 +1442,6 @@ tags = []
 kanji = 'さあ'
 kana = 'さあ'
 english = 'come on...; well...; about that...'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1594,7 +1449,6 @@ tags = []
 kanji = '～歳'
 kana = '～さい'
 english = 'counter for years old'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1602,7 +1456,6 @@ tags = []
 kanji = '財布'
 kana = 'さいふ'
 english = 'wallet'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1610,7 +1463,6 @@ tags = []
 kanji = '魚'
 kana = 'さかな'
 english = 'fish'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1618,7 +1470,6 @@ tags = []
 kanji = '先'
 kana = 'さき'
 english = 'the previous; the former; the future'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1626,7 +1477,6 @@ tags = []
 kanji = '作文'
 kana = 'さくぶん'
 english = 'essay writing; composition'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1634,7 +1484,6 @@ tags = []
 kanji = '～冊'
 kana = '～さつ'
 english = 'counter for books'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1642,7 +1491,6 @@ tags = []
 kanji = '砂糖'
 kana = 'さとう'
 english = 'sugar'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1650,7 +1498,6 @@ tags = []
 kanji = '寒い'
 kana = 'さむい'
 english = 'cold (weather)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1658,7 +1505,6 @@ tags = []
 kanji = '再来年'
 kana = 'さらいねん'
 english = 'year after next'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1666,7 +1512,6 @@ tags = []
 kanji = '～さん'
 kana = '～さん'
 english = 'Mr.; Ms.; etc. (honorific/respectful/sonkeigo)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1674,7 +1519,6 @@ tags = []
 kanji = '三'
 kana = 'さん'
 english = 'three'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1682,7 +1526,6 @@ tags = []
 kanji = '散歩'
 kana = 'さんぽ'
 english = 'walk; stroll'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1690,7 +1533,6 @@ tags = []
 kanji = '雑誌'
 kana = 'ざっし'
 english = 'magazine; journal'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1698,7 +1540,6 @@ tags = []
 kanji = '四'
 kana = 'し'
 english = 'four'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1706,7 +1547,6 @@ tags = []
 kanji = '塩'
 kana = 'しお'
 english = 'salt'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1714,7 +1554,6 @@ tags = []
 kanji = '然し'
 kana = 'しかし'
 english = 'however'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1722,7 +1561,6 @@ tags = []
 kanji = '仕事'
 kana = 'しごと'
 english = 'work; job'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1730,7 +1568,6 @@ tags = []
 kanji = '静か'
 kana = 'しずか'
 english = 'quiet; peaceful'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1738,7 +1575,6 @@ tags = []
 kanji = '下'
 kana = 'した'
 english = 'below; under; bottom'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1746,7 +1582,6 @@ tags = []
 kanji = '七'
 kana = 'しち'
 english = 'seven'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1754,7 +1589,6 @@ tags = []
 kanji = '質問'
 kana = 'しつもん'
 english = 'question; inquiry'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1762,7 +1596,6 @@ tags = []
 kanji = '写真'
 kana = 'しゃしん'
 english = 'photograph'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1770,7 +1603,6 @@ tags = []
 kanji = '～週間'
 kana = '～しゅうかん'
 english = 'counter for weeks'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1778,7 +1610,6 @@ tags = []
 kanji = '宿題'
 kana = 'しゅくだい'
 english = 'homework'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1786,7 +1617,6 @@ tags = []
 kanji = '醤油'
 kana = 'しょうゆ'
 english = 'soy sauce'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1794,7 +1624,6 @@ tags = []
 kanji = '食堂'
 kana = 'しょくどう'
 english = 'cafeteria; dining hall'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1802,7 +1631,6 @@ tags = []
 kanji = '白'
 kana = 'しろ'
 english = 'white'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1810,7 +1638,6 @@ tags = []
 kanji = '白い'
 kana = 'しろい'
 english = 'white'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1818,7 +1645,6 @@ tags = []
 kanji = '新聞'
 kana = 'しんぶん'
 english = 'newspaper'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1826,7 +1652,6 @@ tags = []
 kanji = '～時'
 kana = '～じ'
 english = "hour; o'clock"
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1834,7 +1659,6 @@ tags = []
 kanji = '時間'
 kana = 'じかん'
 english = 'time'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1842,7 +1666,6 @@ tags = []
 kanji = '～時間'
 kana = '～じかん'
 english = 'counter for hours'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1850,7 +1673,6 @@ tags = []
 kanji = '辞書'
 kana = 'じしょ'
 english = 'dictionary'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1858,7 +1680,6 @@ tags = []
 kanji = '自転車'
 kana = 'じてんしゃ'
 english = 'bicycle'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1866,7 +1687,6 @@ tags = []
 kanji = '自動車'
 kana = 'じどうしゃ'
 english = 'automobile'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1874,7 +1694,6 @@ tags = []
 kanji = '字引'
 kana = 'じびき'
 english = 'dictionary (older word)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1882,7 +1701,6 @@ tags = []
 kanji = '自分'
 kana = 'じぶん'
 english = 'myself; oneself'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1890,7 +1708,6 @@ tags = []
 kanji = 'じゃあ'
 kana = 'じゃあ'
 english = 'well then...'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1898,7 +1715,6 @@ tags = []
 kanji = '十'
 kana = 'じゅう'
 english = 'ten'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1906,7 +1722,6 @@ tags = []
 kanji = '～中'
 kana = '～じゅう'
 english = 'during; while'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1914,7 +1729,6 @@ tags = []
 kanji = '授業'
 kana = 'じゅぎょう'
 english = 'lesson; class work'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1922,7 +1736,6 @@ tags = []
 kanji = '上手'
 kana = 'じょうず'
 english = 'skillful'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1930,7 +1743,6 @@ tags = []
 kanji = '丈夫'
 kana = 'じょうぶ'
 english = 'healthy; strong; solid; robust'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1938,7 +1750,6 @@ tags = []
 kanji = '水曜日'
 kana = 'すいようび'
 english = 'Wednesday'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1946,7 +1757,6 @@ tags = []
 kanji = '好き'
 kana = 'すき'
 english = 'liking; fondness; favorite; love'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1954,7 +1764,6 @@ tags = []
 kanji = '少ない'
 kana = 'すくない'
 english = 'a few; scarce'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1962,7 +1771,6 @@ tags = []
 kanji = '直ぐ'
 kana = 'すぐ'
 english = 'immediately; instantly; soon'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1970,7 +1778,6 @@ tags = []
 kanji = '少し'
 kana = 'すこし'
 english = 'small quantity; little; few'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1978,7 +1785,6 @@ tags = []
 kanji = '涼しい'
 kana = 'すずしい'
 english = 'cool (temperature); refreshing'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1986,7 +1792,6 @@ tags = []
 kanji = '背'
 kana = 'せい'
 english = 'height'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -1994,7 +1799,6 @@ tags = []
 kanji = '生徒'
 kana = 'せいと'
 english = 'pupil'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2002,7 +1806,6 @@ tags = []
 kanji = '石鹸'
 kana = 'せっけん'
 english = 'soap'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2010,7 +1813,6 @@ tags = []
 kanji = '背広'
 kana = 'せびろ'
 english = 'business suit'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2018,7 +1820,6 @@ tags = []
 kanji = '狭い'
 kana = 'せまい'
 english = 'narrow; confined; cramped'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2026,7 +1827,6 @@ tags = []
 kanji = '千'
 kana = 'せん'
 english = 'thousand'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2034,7 +1834,6 @@ tags = []
 kanji = '先月'
 kana = 'せんげつ'
 english = 'last month'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2042,7 +1841,6 @@ tags = []
 kanji = '先週'
 kana = 'せんしゅう'
 english = 'last week'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2050,7 +1848,6 @@ tags = []
 kanji = '先生'
 kana = 'せんせい'
 english = 'teacher; master; doctor (honorific/respectful/sonkeigo)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2058,7 +1855,6 @@ tags = []
 kanji = '洗濯'
 kana = 'せんたく'
 english = 'laundry; washing'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2066,7 +1862,6 @@ tags = []
 kanji = '全部'
 kana = 'ぜんぶ'
 english = 'all; entire; whole'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2074,7 +1869,6 @@ tags = []
 kanji = 'そう'
 kana = 'そう'
 english = 'seems like; really; appears to be the case'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2082,7 +1876,6 @@ tags = []
 kanji = '然うして'
 kana = 'そうして'
 english = 'after that; therefore (conjunction)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2090,7 +1883,6 @@ tags = []
 kanji = '掃除'
 kana = 'そうじ'
 english = 'cleaning; sweeping'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2098,7 +1890,6 @@ tags = []
 kanji = '外'
 kana = 'そと'
 english = 'outside; exterior'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2106,7 +1897,6 @@ tags = []
 kanji = '側'
 kana = 'そば'
 english = 'near; close; vicinity'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2114,7 +1904,6 @@ tags = []
 kanji = '空'
 kana = 'そら'
 english = 'sky'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2122,7 +1911,6 @@ tags = []
 kanji = '其れから'
 kana = 'それから'
 english = 'and then; after that'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2130,7 +1918,6 @@ tags = []
 kanji = '其れでは'
 kana = 'それでは'
 english = 'in that case; well then...'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2138,7 +1925,6 @@ tags = []
 kanji = '大使館'
 kana = 'たいしかん'
 english = 'embassy'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2146,7 +1932,6 @@ tags = []
 kanji = '大切'
 kana = 'たいせつ'
 english = 'important; necessary'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2154,7 +1939,6 @@ tags = []
 kanji = '大変'
 kana = 'たいへん'
 english = 'very; terrible'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2162,7 +1946,6 @@ tags = []
 kanji = '高い'
 kana = 'たかい'
 english = 'tall; high; expensive'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2170,7 +1953,6 @@ tags = []
 kanji = '沢山'
 kana = 'たくさん'
 english = 'a lot; many; much'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2178,7 +1960,6 @@ tags = []
 kanji = '～達'
 kana = '～たち'
 english = 'pluralizing suffix'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2186,7 +1967,6 @@ tags = []
 kanji = '縦'
 kana = 'たて'
 english = 'length; height'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2194,7 +1974,6 @@ tags = []
 kanji = '建物'
 kana = 'たてもの'
 english = 'building'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2202,7 +1981,6 @@ tags = []
 kanji = '楽しい'
 kana = 'たのしい'
 english = 'enjoyable; fun; pleasant'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2210,7 +1988,6 @@ tags = []
 kanji = '煙草'
 kana = 'たばこ'
 english = 'tabacco; cigarettes'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2218,7 +1995,6 @@ tags = []
 kanji = '多分'
 kana = 'たぶん'
 english = 'perhaps; probably'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2226,7 +2002,6 @@ tags = []
 kanji = '食べ物'
 kana = 'たべもの'
 english = 'food'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2234,7 +2009,6 @@ tags = []
 kanji = '卵'
 kana = 'たまご'
 english = 'egg'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2242,7 +2016,6 @@ tags = []
 kanji = '誕生日'
 kana = 'たんじょうび'
 english = 'birthday'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2250,7 +2023,6 @@ tags = []
 kanji = '～台'
 kana = '～だい'
 english = 'counter for vehicles and machines'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2258,7 +2030,6 @@ tags = []
 kanji = '大学'
 kana = 'だいがく'
 english = 'university'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2266,7 +2037,6 @@ tags = []
 kanji = '大丈夫'
 kana = 'だいじょうぶ'
 english = 'safe; alright; OK; no thanks'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2274,7 +2044,6 @@ tags = []
 kanji = '大好き'
 kana = 'だいすき'
 english = 'lovable; like very much'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2282,7 +2051,6 @@ tags = []
 kanji = '台所'
 kana = 'だいどころ'
 english = 'kitchen'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2290,7 +2058,6 @@ tags = []
 kanji = '誰'
 kana = 'だれ'
 english = 'who'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2298,7 +2065,6 @@ tags = []
 kanji = '誰か'
 kana = 'だれか'
 english = 'somebody; anybody'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2306,7 +2072,6 @@ tags = []
 kanji = '段々'
 kana = 'だんだん'
 english = 'gradually; little by little'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2314,7 +2079,6 @@ tags = []
 kanji = '小さい'
 kana = 'ちいさい'
 english = 'small; little'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2322,7 +2086,6 @@ tags = []
 kanji = '小さな'
 kana = 'ちいさな'
 english = 'small; little'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2330,7 +2093,6 @@ tags = []
 kanji = '近い'
 kana = 'ちかい'
 english = 'near; close by'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2338,7 +2100,6 @@ tags = []
 kanji = '近く'
 kana = 'ちかく'
 english = 'near; vicinity'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2346,7 +2107,6 @@ tags = []
 kanji = '地下鉄'
 kana = 'ちかてつ'
 english = 'underground train; subway'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2354,7 +2114,6 @@ tags = []
 kanji = '地図'
 kana = 'ちず'
 english = 'map'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2362,7 +2121,6 @@ tags = []
 kanji = '父'
 kana = 'ちち'
 english = "(one's own) father (humble/kenjougo)"
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2370,7 +2128,6 @@ tags = []
 kanji = '茶色'
 kana = 'ちゃいろ'
 english = 'brown'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2378,7 +2135,6 @@ tags = []
 kanji = '茶碗'
 kana = 'ちゃわん'
 english = 'rice bowl; tea cup'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2386,7 +2142,6 @@ tags = []
 kanji = '丁度'
 kana = 'ちょうど'
 english = 'exactly; right'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2394,7 +2149,6 @@ tags = []
 kanji = '一寸'
 kana = 'ちょっと'
 english = 'a little; somewhat; excuse me!'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2402,7 +2156,6 @@ tags = []
 kanji = '一日'
 kana = 'ついたち'
 english = 'first day of the month'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2410,7 +2163,6 @@ tags = []
 kanji = '次'
 kana = 'つぎ'
 english = 'next'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2418,7 +2170,6 @@ tags = []
 kanji = '机'
 kana = 'つくえ'
 english = 'desk'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2426,7 +2177,6 @@ tags = []
 kanji = '詰らない'
 kana = 'つまらない'
 english = 'dull; uninteresting; boring; insignificant'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2434,7 +2184,6 @@ tags = []
 kanji = '冷たい'
 kana = 'つめたい'
 english = 'cold (to the touch); coldhearted'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2442,7 +2191,6 @@ tags = []
 kanji = '強い'
 kana = 'つよい'
 english = 'strong; powerful'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2450,7 +2198,6 @@ tags = []
 kanji = '手'
 kana = 'て'
 english = 'hand; arm'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2458,7 +2205,6 @@ tags = []
 kanji = '手紙'
 kana = 'てがみ'
 english = 'letter'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2466,7 +2212,6 @@ tags = []
 kanji = '天気'
 kana = 'てんき'
 english = 'weather'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2474,7 +2219,6 @@ tags = []
 kanji = '出口'
 kana = 'でぐち'
 english = 'exit'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2482,7 +2226,6 @@ tags = []
 kanji = 'でも'
 kana = 'でも'
 english = 'but'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2490,7 +2233,6 @@ tags = []
 kanji = '電気'
 kana = 'でんき'
 english = 'electricity'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2498,7 +2240,6 @@ tags = []
 kanji = '電車'
 kana = 'でんしゃ'
 english = 'electric train'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2506,7 +2247,6 @@ tags = []
 kanji = '電話'
 kana = 'でんわ'
 english = 'telephone; telephone call'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2514,7 +2254,6 @@ tags = []
 kanji = '戸'
 kana = 'と'
 english = 'Japanese-style door'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2522,7 +2261,6 @@ tags = []
 kanji = '十'
 kana = 'とお'
 english = 'ten'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2530,7 +2268,6 @@ tags = []
 kanji = '遠い'
 kana = 'とおい'
 english = 'far; distant'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2538,7 +2275,6 @@ tags = []
 kanji = '十日'
 kana = 'とおか'
 english = 'tenth day of the month; ten days'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2546,7 +2282,6 @@ tags = []
 kanji = '～時'
 kana = '～とき'
 english = 'at the time of ～'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2554,7 +2289,6 @@ tags = []
 kanji = '時々'
 kana = 'ときどき'
 english = 'sometimes; at times'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2562,7 +2296,6 @@ tags = []
 kanji = '時計'
 kana = 'とけい'
 english = 'watch; clock'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2570,7 +2303,6 @@ tags = []
 kanji = '所'
 kana = 'ところ'
 english = 'place; area'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2578,7 +2310,6 @@ tags = []
 kanji = '年'
 kana = 'とし'
 english = 'year'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2586,7 +2317,6 @@ tags = []
 kanji = '図書館'
 kana = 'としょかん'
 english = 'library'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2594,7 +2324,6 @@ tags = []
 kanji = '迚も'
 kana = 'とても'
 english = 'very ; exceedingly'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2602,7 +2331,6 @@ tags = []
 kanji = '隣'
 kana = 'となり'
 english = 'next to; nextdoor to; neighbor'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2610,7 +2338,6 @@ tags = []
 kanji = '友達'
 kana = 'ともだち'
 english = 'friend'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2618,7 +2345,6 @@ tags = []
 kanji = '鳥'
 kana = 'とり'
 english = 'bird'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2626,7 +2352,6 @@ tags = []
 kanji = '鳥肉'
 kana = 'とりにく'
 english = 'chicken meat; bird meat'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2634,7 +2359,6 @@ tags = []
 kanji = '～度'
 kana = '～ど'
 english = 'counter for occurrences'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2642,7 +2366,6 @@ tags = []
 kanji = '如何'
 kana = 'どう'
 english = 'how?'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2650,7 +2373,6 @@ tags = []
 kanji = '如何して'
 kana = 'どうして'
 english = 'why?'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2658,7 +2380,6 @@ tags = []
 kanji = 'どうぞ'
 kana = 'どうぞ'
 english = "please; here you are; you're welcome"
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2666,7 +2387,6 @@ tags = []
 kanji = '動物'
 kana = 'どうぶつ'
 english = 'animal'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2674,7 +2394,6 @@ tags = []
 kanji = 'どうも'
 kana = 'どうも'
 english = 'thanks; much (thanks, regret, etc.)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2682,7 +2401,6 @@ tags = []
 kanji = '何方'
 kana = 'どなた'
 english = 'who? (honorific/respectful/sonkeigo)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2690,7 +2408,6 @@ tags = []
 kanji = '何の'
 kana = 'どの'
 english = 'which?'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2698,7 +2415,6 @@ tags = []
 kanji = '土曜日'
 kana = 'どようび'
 english = 'Saturday'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2706,7 +2422,6 @@ tags = []
 kanji = '何れ'
 kana = 'どれ'
 english = 'which (of three or more)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2714,7 +2429,6 @@ tags = []
 kanji = 'どんな'
 kana = 'どんな'
 english = 'what kind of? ; like what?'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2722,7 +2436,6 @@ tags = []
 kanji = '無い'
 kana = 'ない'
 english = "nonexistent; not being (there); doesn't have"
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2730,7 +2443,6 @@ tags = []
 kanji = '中'
 kana = 'なか'
 english = 'inside; middle; center; among'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2738,7 +2450,6 @@ tags = []
 kanji = '長い'
 kana = 'ながい'
 english = 'long (distance)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2746,7 +2457,6 @@ tags = []
 kanji = '何故'
 kana = 'なぜ'
 english = 'why?'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2754,7 +2464,6 @@ tags = []
 kanji = '夏'
 kana = 'なつ'
 english = 'summer'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2762,7 +2471,6 @@ tags = []
 kanji = '夏休み'
 kana = 'なつやすみ'
 english = 'summer vacation'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2770,7 +2478,6 @@ tags = []
 kanji = '七つ'
 kana = 'ななつ'
 english = 'seven (things)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2778,7 +2485,6 @@ tags = []
 kanji = '何'
 kana = 'なに / なん'
 english = 'what'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2786,7 +2492,6 @@ tags = []
 kanji = '七日'
 kana = 'なのか'
 english = 'seventh day of the month ; seven days'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2794,7 +2499,6 @@ tags = []
 kanji = '名前'
 kana = 'なまえ'
 english = 'name'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2802,7 +2506,6 @@ tags = []
 kanji = '二'
 kana = 'に'
 english = 'two'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2810,7 +2513,6 @@ tags = []
 kanji = '賑やか'
 kana = 'にぎやか'
 english = 'bustling; busy; lively'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2818,7 +2520,6 @@ tags = []
 kanji = '肉'
 kana = 'にく'
 english = 'meat'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2826,7 +2527,6 @@ tags = []
 kanji = '西'
 kana = 'にし'
 english = 'west'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2834,7 +2534,6 @@ tags = []
 kanji = '～日'
 kana = '～にち'
 english = '～ day of the month; duration in days'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2842,7 +2541,6 @@ tags = []
 kanji = '日曜日'
 kana = 'にちようび'
 english = 'Sunday'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2850,7 +2548,6 @@ tags = []
 kanji = '荷物'
 kana = 'にもつ'
 english = 'luggage'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2858,7 +2555,6 @@ tags = []
 kanji = '庭'
 kana = 'にわ'
 english = 'garden'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2866,7 +2562,6 @@ tags = []
 kanji = '～人'
 kana = '～にん'
 english = 'counter for people'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2874,7 +2569,6 @@ tags = []
 kanji = '～人'
 kana = '～にん'
 english = 'counter for people'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2882,7 +2576,6 @@ tags = []
 kanji = '温い'
 kana = 'ぬるい'
 english = 'lukewarm'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2890,7 +2583,6 @@ tags = []
 kanji = '猫'
 kana = 'ねこ'
 english = 'cat'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2898,7 +2590,6 @@ tags = []
 kanji = '～年'
 kana = '～ねん'
 english = 'counter for years'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2906,7 +2597,6 @@ tags = []
 kanji = '飲み物'
 kana = 'のみもの'
 english = 'drink; beverage'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2914,7 +2604,6 @@ tags = []
 kanji = '歯'
 kana = 'は'
 english = 'tooth'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2922,7 +2611,6 @@ tags = []
 kanji = 'はい'
 kana = 'はい'
 english = 'yes'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2930,7 +2618,6 @@ tags = []
 kanji = '～杯'
 kana = '～はい'
 english = 'counter for cupfuls'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2938,7 +2625,6 @@ tags = []
 kanji = '灰皿'
 kana = 'はいざら'
 english = 'ashtray'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2946,7 +2632,6 @@ tags = []
 kanji = '葉書'
 kana = 'はがき'
 english = 'postcard'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2954,7 +2639,6 @@ tags = []
 kanji = '箱'
 kana = 'はこ'
 english = 'box; crate; chest'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2962,7 +2646,6 @@ tags = []
 kanji = '橋'
 kana = 'はし'
 english = 'bridge'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2970,7 +2653,6 @@ tags = []
 kanji = '箸'
 kana = 'はし'
 english = 'chopsticks'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2978,7 +2660,6 @@ tags = []
 kanji = '始め'
 kana = 'はじめ'
 english = 'beginning; start; origin'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2986,7 +2667,6 @@ tags = []
 kanji = '初めて'
 kana = 'はじめて'
 english = 'for the first time'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -2994,7 +2674,6 @@ tags = []
 kanji = '二十歳'
 kana = 'はたち'
 english = '20 years old'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3002,7 +2681,6 @@ tags = []
 kanji = '八'
 kana = 'はち'
 english = 'eight'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3010,7 +2688,6 @@ tags = []
 kanji = '二十日'
 kana = 'はつか'
 english = '20th day of the month; 20 days'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3018,7 +2695,6 @@ tags = []
 kanji = '花'
 kana = 'はな'
 english = 'flower'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3026,7 +2702,6 @@ tags = []
 kanji = '鼻'
 kana = 'はな'
 english = 'nose'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3034,7 +2709,6 @@ tags = []
 kanji = '話'
 kana = 'はなし'
 english = 'talk; story; speech'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3042,7 +2716,6 @@ tags = []
 kanji = '母'
 kana = 'はは'
 english = "(one's own) mother (humble/kenjougo)"
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3050,7 +2723,6 @@ tags = []
 kanji = '早い'
 kana = 'はやい'
 english = 'quick; fast; early (in the day)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3058,7 +2730,6 @@ tags = []
 kanji = '春'
 kana = 'はる'
 english = 'spring'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3066,7 +2737,6 @@ tags = []
 kanji = '晴れ'
 kana = 'はれ'
 english = 'clear weather; fine weather'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3074,7 +2744,6 @@ tags = []
 kanji = '半'
 kana = 'はん'
 english = 'half; half-past'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3082,7 +2751,6 @@ tags = []
 kanji = '半分'
 kana = 'はんぶん'
 english = 'half'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3090,7 +2758,6 @@ tags = []
 kanji = '晩'
 kana = 'ばん'
 english = 'evening (7-10pmish)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3098,7 +2765,6 @@ tags = []
 kanji = '～番'
 kana = '～ばん'
 english = 'number in a series; ～st/th best'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3106,7 +2772,6 @@ tags = []
 kanji = '番号'
 kana = 'ばんごう'
 english = 'number'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3114,7 +2779,6 @@ tags = []
 kanji = '晩御飯'
 kana = 'ばんごはん'
 english = 'dinner'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3122,7 +2786,6 @@ tags = []
 kanji = '東'
 kana = 'ひがし'
 english = 'east'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3130,7 +2793,6 @@ tags = []
 kanji = '～匹'
 kana = '～ひき'
 english = 'counter for small animals'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3138,7 +2800,6 @@ tags = []
 kanji = '低い'
 kana = 'ひくい'
 english = 'short (height); low (rank, value)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3146,7 +2807,6 @@ tags = []
 kanji = '飛行機'
 kana = 'ひこうき'
 english = 'airplane'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3154,7 +2814,6 @@ tags = []
 kanji = '左'
 kana = 'ひだり'
 english = 'left'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3162,7 +2821,6 @@ tags = []
 kanji = '人'
 kana = 'ひと'
 english = 'man; person'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3170,7 +2828,6 @@ tags = []
 kanji = '一つ'
 kana = 'ひとつ'
 english = 'one'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3178,7 +2835,6 @@ tags = []
 kanji = '一月'
 kana = 'ひとつき'
 english = 'one month'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3186,7 +2842,6 @@ tags = []
 kanji = '一人'
 kana = 'ひとり'
 english = 'one person'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3194,7 +2849,6 @@ tags = []
 kanji = '暇'
 kana = 'ひま'
 english = 'free time; leisure'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3202,7 +2856,6 @@ tags = []
 kanji = '百'
 kana = 'ひゃく'
 english = 'hundred'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3210,7 +2863,6 @@ tags = []
 kanji = '平仮名'
 kana = 'ひらがな'
 english = 'hiragana'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3218,7 +2870,6 @@ tags = []
 kanji = '昼'
 kana = 'ひる'
 english = 'noon'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3226,7 +2877,6 @@ tags = []
 kanji = '昼ご飯'
 kana = 'ひるはん'
 english = 'lunch'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3234,7 +2884,6 @@ tags = []
 kanji = '広い'
 kana = 'ひろい'
 english = 'wide; vast; spacious'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3242,7 +2891,6 @@ tags = []
 kanji = '病院'
 kana = 'びょういん'
 english = 'hospital'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3250,7 +2898,6 @@ tags = []
 kanji = '病気'
 kana = 'びょうき'
 english = 'sickness; illness; disease'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3258,7 +2905,6 @@ tags = []
 kanji = '封筒'
 kana = 'ふうとう'
 english = 'envelope'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3266,7 +2912,6 @@ tags = []
 kanji = '服'
 kana = 'ふく'
 english = 'clothes (esp. Western)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3274,7 +2919,6 @@ tags = []
 kanji = '二つ'
 kana = 'ふたつ'
 english = 'two'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3282,7 +2926,6 @@ tags = []
 kanji = '二人'
 kana = 'ふたり'
 english = 'two people'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3290,7 +2933,6 @@ tags = []
 kanji = '二日'
 kana = 'ふつか'
 english = 'second day of the month; two days'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3298,7 +2940,6 @@ tags = []
 kanji = '太い'
 kana = 'ふとい'
 english = 'fat; thick'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3306,7 +2947,6 @@ tags = []
 kanji = '冬'
 kana = 'ふゆ'
 english = 'winter'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3314,7 +2954,6 @@ tags = []
 kanji = '古い'
 kana = 'ふるい'
 english = 'old (things not people); aged; ancient'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3322,7 +2961,6 @@ tags = []
 kanji = '風呂'
 kana = 'ふろ'
 english = 'bath; bathtub'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3330,7 +2968,6 @@ tags = []
 kanji = '～分'
 kana = '～ふん'
 english = 'counter for minutes'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3338,7 +2975,6 @@ tags = []
 kanji = '豚肉'
 kana = 'ぶたにく'
 english = 'pork'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3346,7 +2982,6 @@ tags = []
 kanji = '文章'
 kana = 'ぶんしょう'
 english = 'sentence; text; essay; prose'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3354,7 +2989,6 @@ tags = []
 kanji = '下手'
 kana = 'へた'
 english = 'unskilled; unskillful'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3362,7 +2996,6 @@ tags = []
 kanji = '部屋'
 kana = 'へや'
 english = 'room'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3370,7 +3003,6 @@ tags = []
 kanji = '辺'
 kana = 'へん'
 english = 'area; vicinity; region'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3378,7 +3010,6 @@ tags = []
 kanji = '勉強'
 kana = 'べんきょう'
 english = 'study; diligence'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3386,7 +3017,6 @@ tags = []
 kanji = '便利'
 kana = 'べんり'
 english = 'convenient; handy; useful'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3394,7 +3024,6 @@ tags = []
 kanji = '方'
 kana = 'ほう'
 english = 'way; direction; method; side'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3402,7 +3031,6 @@ tags = []
 kanji = '他'
 kana = 'ほか'
 english = 'other (person, place, thing); the rest'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3410,7 +3038,6 @@ tags = []
 kanji = '欲しい'
 kana = 'ほしい'
 english = 'desired; want; wished for; need'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3418,7 +3045,6 @@ tags = []
 kanji = '細い'
 kana = 'ほそい'
 english = 'thin; slender'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3426,7 +3052,6 @@ tags = []
 kanji = '本'
 kana = 'ほん'
 english = 'book'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3434,7 +3059,6 @@ tags = []
 kanji = '～本'
 kana = '～ほん'
 english = 'counter for long cylindrical things'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3442,7 +3066,6 @@ tags = []
 kanji = '本棚'
 kana = 'ほんだな'
 english = 'bookcase'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3450,7 +3073,6 @@ tags = []
 kanji = '本当'
 kana = 'ほんとう'
 english = 'truth; reality'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3458,7 +3080,6 @@ tags = []
 kanji = '帽子'
 kana = 'ぼうし'
 english = 'hat'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3466,7 +3087,6 @@ tags = []
 kanji = '～枚'
 kana = '～まい'
 english = 'counter for flat things'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3474,7 +3094,6 @@ tags = []
 kanji = '毎朝'
 kana = 'まいあさ'
 english = 'every morning'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3482,7 +3101,6 @@ tags = []
 kanji = '毎週'
 kana = 'まいしゅう'
 english = 'every wek'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3490,7 +3108,6 @@ tags = []
 kanji = '毎月'
 kana = 'まいつき / まいげつ'
 english = 'every month'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3498,7 +3115,6 @@ tags = []
 kanji = '毎日'
 kana = 'まいにち'
 english = 'every day'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3506,7 +3122,6 @@ tags = []
 kanji = '毎年'
 kana = 'まいねん / まいとし'
 english = 'every year'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3514,7 +3129,6 @@ tags = []
 kanji = '毎晩'
 kana = 'まいばん'
 english = 'every night'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3522,7 +3136,6 @@ tags = []
 kanji = '前'
 kana = 'まえ'
 english = 'before; in front of'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3530,7 +3143,6 @@ tags = []
 kanji = '～前'
 kana = '～まえ'
 english = 'in front of ～'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3538,7 +3150,6 @@ tags = []
 kanji = '不味い'
 kana = 'まずい'
 english = 'unappetising; unpleasant taste'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3546,7 +3157,6 @@ tags = []
 kanji = '又'
 kana = 'また'
 english = 'again'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3554,7 +3164,6 @@ tags = []
 kanji = '未だ'
 kana = 'まだ'
 english = 'not yet; still; besides'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3562,7 +3171,6 @@ tags = []
 kanji = '町'
 kana = 'まち'
 english = 'town; city'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3570,7 +3178,6 @@ tags = []
 kanji = '真っ直ぐ'
 kana = 'まっすぐ'
 english = 'straight ahead; direct'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3578,7 +3185,6 @@ tags = []
 kanji = '窓'
 kana = 'まど'
 english = 'window'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3586,7 +3192,6 @@ tags = []
 kanji = '丸い'
 kana = 'まるい'
 english = 'round; circular'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3594,7 +3199,6 @@ tags = []
 kanji = '万'
 kana = 'まん'
 english = 'ten thousand'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3602,7 +3206,6 @@ tags = []
 kanji = '万年筆'
 kana = 'まんねんひつ'
 english = 'fountain pen'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3610,7 +3213,6 @@ tags = []
 kanji = '右'
 kana = 'みぎ'
 english = 'right'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3618,7 +3220,6 @@ tags = []
 kanji = '短い'
 kana = 'みじかい'
 english = 'short'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3626,7 +3227,6 @@ tags = []
 kanji = '水'
 kana = 'みず'
 english = 'water'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3634,7 +3234,6 @@ tags = []
 kanji = '店'
 kana = 'みせ'
 english = 'store; shop'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3642,7 +3241,6 @@ tags = []
 kanji = '道'
 kana = 'みち'
 english = 'road; street'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3650,7 +3248,6 @@ tags = []
 kanji = '三日'
 kana = 'みっか'
 english = 'third day of the month; three days'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3658,7 +3255,6 @@ tags = []
 kanji = '三つ'
 kana = 'みっつ'
 english = 'three'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3666,7 +3262,6 @@ tags = []
 kanji = '緑'
 kana = 'みどり'
 english = 'green'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3674,7 +3269,6 @@ tags = []
 kanji = '皆さん'
 kana = 'みなさん'
 english = 'everyone'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3682,7 +3276,6 @@ tags = []
 kanji = '南'
 kana = 'みなみ'
 english = 'south'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3690,7 +3283,6 @@ tags = []
 kanji = '耳'
 kana = 'みみ'
 english = 'ear'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3698,7 +3290,6 @@ tags = []
 kanji = '皆'
 kana = 'みんな'
 english = 'everyone'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3706,7 +3297,6 @@ tags = []
 kanji = '六日'
 kana = 'むいか'
 english = 'the sixth day; six days'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3714,7 +3304,6 @@ tags = []
 kanji = '向こう'
 kana = 'むこう'
 english = 'opposite side; beyond; over there'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3722,7 +3311,6 @@ tags = []
 kanji = '難しい'
 kana = 'むずかしい'
 english = 'difficult'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3730,7 +3318,6 @@ tags = []
 kanji = '六つ'
 kana = 'むっつ'
 english = 'six'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3738,7 +3325,6 @@ tags = []
 kanji = '村'
 kana = 'むら'
 english = 'village'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3746,7 +3332,6 @@ tags = []
 kanji = '目'
 kana = 'め'
 english = 'eye; eyeball'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3754,7 +3339,6 @@ tags = []
 kanji = '眼鏡'
 kana = 'めがね'
 english = 'eyeglasses'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3762,7 +3346,6 @@ tags = []
 kanji = 'もう'
 kana = 'もう'
 english = 'already; again'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3770,7 +3353,6 @@ tags = []
 kanji = '木曜日'
 kana = 'もくようび'
 english = 'Thursday'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3778,7 +3360,6 @@ tags = []
 kanji = 'もしもし'
 kana = 'もしもし'
 english = 'hello (said on phone)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3786,7 +3367,6 @@ tags = []
 kanji = 'もっと'
 kana = 'もっと'
 english = 'more; longer; further'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3794,7 +3374,6 @@ tags = []
 kanji = '物'
 kana = 'もの'
 english = 'thing'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3802,7 +3381,6 @@ tags = []
 kanji = '門'
 kana = 'もん'
 english = 'gate'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3810,7 +3388,6 @@ tags = []
 kanji = '問題'
 kana = 'もんだい'
 english = 'question (on a test); problem'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3818,7 +3395,6 @@ tags = []
 kanji = '～屋'
 kana = '～や'
 english = 'shop for ～; seller of ～'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3826,7 +3402,6 @@ tags = []
 kanji = '八百屋'
 kana = 'やおや'
 english = 'greengrocer'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3834,7 +3409,6 @@ tags = []
 kanji = '野菜'
 kana = 'やさい'
 english = 'vegetable'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3842,7 +3416,6 @@ tags = []
 kanji = '易しい'
 kana = 'やさしい'
 english = 'easy; simple'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3850,7 +3423,6 @@ tags = []
 kanji = '安い'
 kana = 'やすい'
 english = 'cheap; inexpensive'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3858,7 +3430,6 @@ tags = []
 kanji = '休み'
 kana = 'やすみ'
 english = 'rest; vacation; holiday'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3866,7 +3437,6 @@ tags = []
 kanji = '八つ'
 kana = 'やっつ'
 english = 'eight'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3874,7 +3444,6 @@ tags = []
 kanji = '山'
 kana = 'やま'
 english = 'mountain'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3882,7 +3451,6 @@ tags = []
 kanji = '夕方'
 kana = 'ゆうがた'
 english = 'evening or dusk (before sunset; 5-7pmish)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3890,7 +3458,6 @@ tags = []
 kanji = '夕飯'
 kana = 'ゆうはん'
 english = 'evening meal (5-7pmish)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3898,7 +3465,6 @@ tags = []
 kanji = '郵便局'
 kana = 'ゆうびんきょく'
 english = 'post office'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3906,7 +3472,6 @@ tags = []
 kanji = '夕べ'
 kana = 'ゆうべ'
 english = 'evening (5-7pmish); last night'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3914,7 +3479,6 @@ tags = []
 kanji = '有名'
 kana = 'ゆうめい'
 english = 'famous'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3922,7 +3486,6 @@ tags = []
 kanji = '雪'
 kana = 'ゆき'
 english = 'snow'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3930,7 +3493,6 @@ tags = []
 kanji = 'ゆっくり'
 kana = 'ゆっくり'
 english = 'slowly; at ease'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3938,7 +3500,6 @@ tags = []
 kanji = '良い'
 kana = 'よい'
 english = 'good; OK'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'expressions']
 
@@ -3946,7 +3507,6 @@ tags = ['common', 'expressions']
 kanji = '八日'
 kana = 'ようか'
 english = 'eigth day of the month; eight days'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3954,7 +3514,6 @@ tags = []
 kanji = '洋服'
 kana = 'ようふく'
 english = 'Western-style clothes'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3962,7 +3521,6 @@ tags = []
 kanji = '良く'
 kana = 'よく'
 english = 'well; skillfully; frequently'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3970,7 +3528,6 @@ tags = []
 kanji = '横'
 kana = 'よこ'
 english = 'horizontal; lying down; side; width'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3978,7 +3535,6 @@ tags = []
 kanji = '四日'
 kana = 'よっか'
 english = 'fourth of the month; four days'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3986,7 +3542,6 @@ tags = []
 kanji = '四つ'
 kana = 'よっつ'
 english = 'four'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -3994,7 +3549,6 @@ tags = []
 kanji = '夜'
 kana = 'よる'
 english = 'evening; night (after 10pm)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4002,7 +3556,6 @@ tags = []
 kanji = '弱い'
 kana = 'よわい'
 english = 'weak; frail'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4010,7 +3563,6 @@ tags = []
 kanji = '来月'
 kana = 'らいげつ'
 english = 'next month'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4018,7 +3570,6 @@ tags = []
 kanji = '来週'
 kana = 'らいしゅう'
 english = 'next week'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4026,7 +3577,6 @@ tags = []
 kanji = '立派'
 kana = 'りっぱ'
 english = 'splendid; fine; handsome'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4034,7 +3584,6 @@ tags = []
 kanji = '留学生'
 kana = 'りゅうがくせい'
 english = 'foreign exchange student'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4042,7 +3591,6 @@ tags = []
 kanji = '両親'
 kana = 'りょうしん'
 english = 'parents; both parents'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4050,7 +3598,6 @@ tags = []
 kanji = '料理'
 kana = 'りょうり'
 english = 'cooking; cuisine'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4058,7 +3605,6 @@ tags = []
 kanji = '旅行'
 kana = 'りょこう'
 english = 'travel; trip; journey'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4066,7 +3612,6 @@ tags = []
 kanji = '零'
 kana = 'れい'
 english = 'zero'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4074,7 +3619,6 @@ tags = []
 kanji = '冷蔵庫'
 kana = 'れいぞうこ'
 english = 'refrigerator'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4082,7 +3626,6 @@ tags = []
 kanji = '練習'
 kana = 'れんしゅう'
 english = 'practice; practicing'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4090,7 +3633,6 @@ tags = []
 kanji = '廊下'
 kana = 'ろうか'
 english = 'hallway; corridor'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4098,7 +3640,6 @@ tags = []
 kanji = '六'
 kana = 'ろく'
 english = 'six'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4106,7 +3647,6 @@ tags = []
 kanji = '若い'
 kana = 'わかい'
 english = 'young; youthful'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4114,7 +3654,6 @@ tags = []
 kanji = '私'
 kana = 'わたくし'
 english = 'I; me (more formal)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4122,7 +3661,6 @@ tags = []
 kanji = '私'
 kana = 'わたし'
 english = 'I; me'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4130,7 +3668,6 @@ tags = []
 kanji = '悪い'
 kana = 'わるい'
 english = 'bad; poor; inferior; evil'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4138,7 +3675,6 @@ tags = []
 kanji = 'アパート'
 kana = 'アパート'
 english = 'apartment'
-make_kanji_card = false
 level = 'n5'
 tags = ['common', 'gairaigo', 'places', 'home', 'buildings']
 
@@ -4146,7 +3682,6 @@ tags = ['common', 'gairaigo', 'places', 'home', 'buildings']
 kanji = 'エレベーター'
 kana = 'エレベーター'
 english = 'elevator'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4154,7 +3689,6 @@ tags = []
 kanji = 'カップ'
 kana = 'カップ'
 english = 'cup'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4162,7 +3696,6 @@ tags = []
 kanji = 'カメラ'
 kana = 'カメラ'
 english = 'camera'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4170,7 +3703,6 @@ tags = []
 kanji = 'カレンダー'
 kana = 'カレンダー'
 english = 'calendar'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4178,7 +3710,6 @@ tags = []
 kanji = 'カレー'
 kana = 'カレー'
 english = 'curry'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4186,7 +3717,6 @@ tags = []
 kanji = 'キロ'
 kana = 'キロ'
 english = 'kilogram ; kilometer'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4194,7 +3724,6 @@ tags = []
 kanji = 'ギター'
 kana = 'ギター'
 english = 'guitar'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4202,7 +3731,6 @@ tags = []
 kanji = 'クラス'
 kana = 'クラス'
 english = 'class'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4210,7 +3738,6 @@ tags = []
 kanji = 'グラム'
 kana = 'グラム'
 english = 'gram'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4218,7 +3745,6 @@ tags = []
 kanji = 'コップ'
 kana = 'コップ'
 english = 'cup'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4226,7 +3752,6 @@ tags = []
 kanji = 'コピー'
 kana = 'コピー'
 english = 'copy (noun or verb)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4234,7 +3759,6 @@ tags = []
 kanji = '珈琲'
 kana = 'コーヒー'
 english = 'coffee'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4242,7 +3766,6 @@ tags = []
 kanji = 'シャツ'
 kana = 'シャツ'
 english = 'shirt'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4250,7 +3773,6 @@ tags = []
 kanji = 'シャワー'
 kana = 'シャワー'
 english = 'shower'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4258,7 +3780,6 @@ tags = []
 kanji = 'スカート'
 kana = 'スカート'
 english = 'skirt'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4266,7 +3787,6 @@ tags = []
 kanji = 'ストーブ'
 kana = 'ストーブ'
 english = 'room heater; stove'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4274,7 +3794,6 @@ tags = []
 kanji = 'スプーン'
 kana = 'スプーン'
 english = 'spoon'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4282,7 +3801,6 @@ tags = []
 kanji = 'スポーツ'
 kana = 'スポーツ'
 english = 'sports'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4290,7 +3808,6 @@ tags = []
 kanji = 'スリッパ'
 kana = 'スリッパ'
 english = 'slippers'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4298,7 +3815,6 @@ tags = []
 kanji = 'ズボン'
 kana = 'ズボン'
 english = 'pants (from French)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4306,7 +3822,6 @@ tags = []
 kanji = 'セーター'
 kana = 'セーター'
 english = 'sweater'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4314,7 +3829,6 @@ tags = []
 kanji = 'ゼロ'
 kana = 'ゼロ'
 english = 'zero'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4322,7 +3836,6 @@ tags = []
 kanji = 'タクシー'
 kana = 'タクシー'
 english = 'taxi'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4330,7 +3843,6 @@ tags = []
 kanji = 'テスト'
 kana = 'テスト'
 english = 'test'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4338,7 +3850,6 @@ tags = []
 kanji = 'テレビ'
 kana = 'テレビ'
 english = 'TV'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4346,7 +3857,6 @@ tags = []
 kanji = 'テーブル'
 kana = 'テーブル'
 english = 'table'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4354,7 +3864,6 @@ tags = []
 kanji = 'デパート'
 kana = 'デパート'
 english = 'department store'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4362,7 +3871,6 @@ tags = []
 kanji = 'トイレ'
 kana = 'トイレ'
 english = 'toilet; restroom'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4370,7 +3878,6 @@ tags = []
 kanji = 'ドア'
 kana = 'ドア'
 english = 'Western-style door'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4378,7 +3885,6 @@ tags = []
 kanji = 'ナイフ'
 kana = 'ナイフ'
 english = 'knife'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4386,7 +3892,6 @@ tags = []
 kanji = 'ニュース'
 kana = 'ニュース'
 english = 'news'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4394,7 +3899,6 @@ tags = []
 kanji = 'ネクタイ'
 kana = 'ネクタイ'
 english = 'necktie'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4402,7 +3906,6 @@ tags = []
 kanji = 'ノート'
 kana = 'ノート'
 english = 'notebook'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4410,7 +3913,6 @@ tags = []
 kanji = 'ハンカチ'
 kana = 'ハンカチ'
 english = 'handkerchief'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4418,7 +3920,6 @@ tags = []
 kanji = 'バス'
 kana = 'バス'
 english = 'bus'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4426,7 +3927,6 @@ tags = []
 kanji = 'バター'
 kana = 'バター'
 english = 'butter'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4434,7 +3934,6 @@ tags = []
 kanji = 'パン'
 kana = 'パン'
 english = 'bread'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4442,7 +3941,6 @@ tags = []
 kanji = 'パーティー'
 kana = 'パーティー'
 english = 'party'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4450,7 +3948,6 @@ tags = []
 kanji = 'フィルム'
 kana = 'フィルム'
 english = 'film'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4458,7 +3955,6 @@ tags = []
 kanji = 'フォーク'
 kana = 'フォーク'
 english = 'fork'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4466,7 +3962,6 @@ tags = []
 kanji = 'プール'
 kana = 'プール'
 english = 'pool'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4474,7 +3969,6 @@ tags = []
 kanji = 'ベッド'
 kana = 'ベッド'
 english = 'bed'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4482,7 +3976,6 @@ tags = []
 kanji = 'ペット'
 kana = 'ペット'
 english = 'pet'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4490,7 +3983,6 @@ tags = []
 kanji = 'ペン'
 kana = 'ペン'
 english = 'pen'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4498,7 +3990,6 @@ tags = []
 kanji = 'ページ'
 kana = 'ページ'
 english = 'page'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4506,7 +3997,6 @@ tags = []
 kanji = 'ホテル'
 kana = 'ホテル'
 english = 'hotel'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4514,7 +4004,6 @@ tags = []
 kanji = 'ボタン'
 kana = 'ボタン'
 english = 'button'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4522,7 +4011,6 @@ tags = []
 kanji = 'ボールペン'
 kana = 'ボールペン'
 english = 'ballpoint pen'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4530,7 +4018,6 @@ tags = []
 kanji = 'ポケット'
 kana = 'ポケット'
 english = 'pocket'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4538,7 +4025,6 @@ tags = []
 kanji = 'ポスト'
 kana = 'ポスト'
 english = 'post'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4546,7 +4032,6 @@ tags = []
 kanji = 'マッチ'
 kana = 'マッチ'
 english = 'match'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4554,7 +4039,6 @@ tags = []
 kanji = 'ラジオ'
 kana = 'ラジオ'
 english = 'radio'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4562,7 +4046,6 @@ tags = []
 kanji = 'レコード'
 kana = 'レコード'
 english = 'record'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4570,7 +4053,6 @@ tags = []
 kanji = 'レストラン'
 kana = 'レストラン'
 english = 'restaurant'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -4578,7 +4060,6 @@ tags = []
 kanji = 'ワイシャツ'
 kana = 'ワイシャツ'
 english = 'business shirt (lit. white shirt)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
