@@ -7,6 +7,14 @@ level = 'n5'
 tags = ['common', 'place']
 
 [[cards]]
+kanji = '彼方'
+kana = 'あちら'
+english = 'that way (way over there); that one (way over there)'
+make_kanji_card = false
+level = 'n5'
+tags = ['common', 'place']
+
+[[cards]]
 kanji = 'あっち'
 kana = 'あっち'
 english = 'over there; that way'
@@ -29,14 +37,6 @@ english = 'that (way over there)'
 make_kanji_card = false
 level = 'n5'
 tags = ['common', 'locations', 'places', 'kosoado']
-
-[[cards]]
-kanji = '彼方'
-kana = 'あちら'
-english = 'that way (way over there); that one (way over there)'
-make_kanji_card = false
-level = 'n5'
-tags = ['common', 'place']
 
 [[cards]]
 kanji = '此処'
@@ -87,6 +87,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '其の'
+kana = 'その'
+english = 'that (thing)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '其れ'
 kana = 'それ'
 english = 'that'
@@ -114,14 +122,6 @@ tags = []
 kanji = '何方'
 kana = 'どっち'
 english = 'which one? ; which way?'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '其の'
-kana = 'その'
-english = 'that (thing)'
 make_kanji_card = true
 level = 'n5'
 tags = []

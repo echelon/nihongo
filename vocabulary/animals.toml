@@ -3,7 +3,8 @@ kanji = '牛'
 kana = 'うし'
 english = 'cow'
 make_kanji_card = true
-tags = ['n3', 'common', 'noun']
+level = 'n3'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '海老'
@@ -21,6 +22,7 @@ tags = ['common', 'noun']
 kanji = '蛙'
 kana = 'かえる'
 english = 'frog'
+level = 'n5'
 tags = ['common', 'noun']
 
 [[cards]]
@@ -51,7 +53,8 @@ tags = ['common', 'noun']
 kanji = '金魚'
 kana = 'きんぎょ'
 english = 'goldfish'
-tags = ['n2', 'common', 'noun']
+level = 'n2'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '熊'
@@ -69,6 +72,7 @@ tags = ['common', 'noun']
 kanji = '子牛'
 kana = 'こうし'
 english = 'calf'
+level = 'n2'
 tags = ['common', 'noun']
 
 [[cards]]
@@ -87,6 +91,7 @@ tags = ['common', 'insect', 'noun']
 kanji = '猿'
 kana = 'さる'
 english = 'monkey'
+level = 'n3'
 tags = ['common', 'mammal', 'noun']
 
 [[cards]]
@@ -99,6 +104,6 @@ tags = ['common', 'mammal', 'noun']
 kanji = '象'
 kana = 'ぞう'
 english = 'elephant'
-tags = ['n3', 'common', 'mammal', 'noun']
+level = 'n3'
+tags = ['common', 'mammal', 'noun']
 
-# うま /  馬
