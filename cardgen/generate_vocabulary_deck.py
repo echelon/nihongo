@@ -5,6 +5,7 @@ Generate Anki deck for vocabulary.
 """
 
 import genanki
+import glob
 import re
 import sys
 import toml
@@ -14,16 +15,18 @@ from collections import OrderedDict
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
+OUTPUT_FILENAME = 'kanji_card_deck_output.apkg'
+
 # use random.randrange(1 << 30, 1 << 31) to generate a suitable model_id,
 # and hardcode it into your Model definition.
 
 KANJI_CARD_DECK = genanki.Deck(
   2000001234, # XXX: DO NOT CHANGE
-  'Generated Japanese Vocabulary Deck')
+  'Generated Japanese') # XXX: DO NOT CHANGE
 
 KANJI_CARD_MODEL = genanki.Model(
   2000001235, # XXX: DO NOT CHANGE
-  'Generated Japanese Vocabulary Model',
+  'Generated Japanese Model', # The name of the model can change.
   fields=[
     {'name': 'Kanji'},
     {'name': 'Kana'},
@@ -122,8 +125,12 @@ class Note(genanki.Note):
     self.kanji = verb_dict['kanji']
     self.kana = verb_dict['kana']
     self.english = verb_dict['english']
-    self.level = verb_dict['level']
-    self.tags = verb_dict['tags']
+    self.level = verb_dict['level'] if 'level' in verb_dict else None
+    self.tags = verb_dict['tags'] if 'tags' in verb_dict else []
+
+    if self.level:
+      self.tags.append(self.level)
+
     #self.make_kanji_card = 'y' if verb_dict['make_kanji_card'] else ''
     self.make_kanji_card = ''# TODO: FALSE UNTIL ALL CARDS EVALUATED
 
@@ -142,19 +149,25 @@ class Note(genanki.Note):
     return genanki.guid_for(self.kanji, self.kana)
 
 
-def read_vocabulary(filename):
+def read_vocabulary_notes(filename):
   with open(filename, 'r') as f:
     contents = f.read()
     toml_dict = toml.loads(contents)
     return toml_dict['cards']
 
-vocabulary = read_vocabulary('./vocabulary/n5-vocab.toml')
+total_notes = 0
 
-#print(KANJI_CARD_MODEL.to_json(0, 0))
+for filename in glob.glob('**/*.toml', recursive=True):
+  if 'cardgen' in filename:
+    continue # XXX: Things here shouldn't be processed for now.
+  print('Loading file: {0}'.format(filename))
+  notes = read_vocabulary_notes(filename)
+  for n in notes:
+    note = Note(n)
+    KANJI_CARD_DECK.add_note(note)
+    total_notes += 1
 
-for vocab in vocabulary:
-  note = Note(vocab)
-  KANJI_CARD_DECK.add_note(note)
-
-genanki.Package(KANJI_CARD_DECK).write_to_file('kanji_card_deck_output.apkg')
+print('Total notes: {0}'.format(total_notes))
+print('Output file: {0}'.format(OUTPUT_FILENAME))
+genanki.Package(KANJI_CARD_DECK).write_to_file(OUTPUT_FILENAME)
 
