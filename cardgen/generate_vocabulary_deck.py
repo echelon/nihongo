@@ -131,8 +131,10 @@ class Note(genanki.Note):
     if self.level:
       self.tags.append(self.level)
 
-    #self.make_kanji_card = 'y' if verb_dict['make_kanji_card'] else ''
-    self.make_kanji_card = ''# TODO: FALSE UNTIL ALL CARDS EVALUATED
+    if 'make_kanji_card' in verb_dict and verb_dict['make_kanji_card']:
+      self.make_kanji_card = 'y'
+    else:
+      self.make_kanji_card = ''
 
     sort_field = self.kana
     # Must match order of model.
