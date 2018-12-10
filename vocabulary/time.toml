@@ -45,14 +45,6 @@ level = 'n5'
 tags = ['common', 'time', 'duration']
 
 [[cards]]
-kanji = '何時'
-kana = 'いつ'
-english = 'when'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '五日'
 kana = 'いつか'
 english = 'five days; fifth day of the month'

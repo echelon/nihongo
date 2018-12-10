@@ -27,6 +27,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '財布'
+kana = 'さいふ'
+english = 'wallet'
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '背広'
 kana = 'せびろ'
 english = 'business suit'

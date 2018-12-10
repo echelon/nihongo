@@ -101,27 +101,6 @@ level = 'n5'
 tags = ['common', 'basic']
 
 [[cards]]
-kanji = '如何'
-kana = 'いかが'
-english = 'how (polite)'
-level = 'n5'
-tags = ['common', 'na-adjective', 'adverb', 'question']
-
-[[cards]]
-kanji = '幾つ'
-kana = 'いくつ'
-english = 'how many? ; how old?'
-level = 'n5'
-tags = ['common', 'question', 'adverb']
-
-[[cards]]
-kanji = '幾ら'
-kana = 'いくら'
-english = 'how much? ; how many?'
-level = 'n5'
-tags = ['common', 'question', 'noun', 'adverb']
-
-[[cards]]
 kanji = '忙しい'
 kana = 'いそがしい'
 english = 'busy; hectic'
@@ -425,14 +404,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '川'
-kana = 'かわ'
-english = 'river'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '可愛い'
 kana = 'かわいい'
 english = 'cute; adorable'
@@ -644,13 +615,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '財布'
-kana = 'さいふ'
-english = 'wallet'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '～冊'
 kana = '～さつ'
 english = 'counter for books'
@@ -759,13 +723,6 @@ tags = []
 kanji = '自動車'
 kana = 'じどうしゃ'
 english = 'automobile'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '自分'
-kana = 'じぶん'
-english = 'myself; oneself'
 level = 'n5'
 tags = []
 
@@ -966,20 +923,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '誰'
-kana = 'だれ'
-english = 'who'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '誰か'
-kana = 'だれか'
-english = 'somebody; anybody'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '段々'
 kana = 'だんだん'
 english = 'gradually; little by little'
@@ -1148,20 +1091,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '如何'
-kana = 'どう'
-english = 'how?'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '如何して'
-kana = 'どうして'
-english = 'why?'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'どうぞ'
 kana = 'どうぞ'
 english = "please; here you are; you're welcome"
@@ -1172,20 +1101,6 @@ tags = []
 kanji = 'どうも'
 kana = 'どうも'
 english = 'thanks; much (thanks, regret, etc.)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '何方'
-kana = 'どなた'
-english = 'who? (honorific/respectful/sonkeigo)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'どんな'
-kana = 'どんな'
-english = 'what kind of? ; like what?'
 level = 'n5'
 tags = []
 
@@ -1207,13 +1122,6 @@ tags = []
 kanji = '長い'
 kana = 'ながい'
 english = 'long (distance)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '何故'
-kana = 'なぜ'
-english = 'why?'
 level = 'n5'
 tags = []
 

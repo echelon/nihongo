@@ -6,6 +6,14 @@ level = 'n5'
 tags = ['common', 'noun', 'nature', 'outdoors']
 
 [[cards]]
+kanji = '川'
+kana = 'かわ'
+english = 'river'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '木'
 kana = 'き'
 english = 'tree; wood'

@@ -1,0 +1,78 @@
+[[cards]]
+kanji = '如何'
+kana = 'いかが'
+english = 'how (polite)'
+level = 'n5'
+tags = ['common', 'na-adjective', 'adverb', 'question']
+
+[[cards]]
+kanji = '幾つ'
+kana = 'いくつ'
+english = 'how many? ; how old?'
+level = 'n5'
+tags = ['common', 'question', 'adverb']
+
+[[cards]]
+kanji = '幾ら'
+kana = 'いくら'
+english = 'how much? ; how many?'
+level = 'n5'
+tags = ['common', 'question', 'noun', 'adverb']
+
+[[cards]]
+kanji = '何時'
+kana = 'いつ'
+english = 'when'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '誰'
+kana = 'だれ'
+english = 'who'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '誰か'
+kana = 'だれか'
+english = 'somebody; anybody'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '如何'
+kana = 'どう'
+english = 'how?'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '如何して'
+kana = 'どうして'
+english = 'why?'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '何方'
+kana = 'どなた'
+english = 'who? (honorific/respectful/sonkeigo)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'どんな'
+kana = 'どんな'
+english = 'what kind of? ; like what?'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '何故'
+kana = 'なぜ'
+english = 'why?'
+level = 'n5'
+tags = []
+
