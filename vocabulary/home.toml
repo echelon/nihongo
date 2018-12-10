@@ -29,6 +29,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '家具'
+kana = 'かぐ'
+english = 'furniture'
+level = 'n3'
+tags = ['common', 'furniture']
+
+[[cards]]
 kanji = '家庭'
 kana = 'かてい'
 english = 'home; household'
@@ -50,6 +57,19 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '寝室'
+kana = 'しんしつ'
+english = 'bedroom'
+tags = ['common']
+
+[[cards]]
+kanji = '寝台'
+kana = 'しんだい'
+english = 'bed; couch'
+level = 'n2'
+tags = ['furniture', 'common']
+
+[[cards]]
 kanji = '石鹸'
 kana = 'せっけん'
 english = 'soap'
@@ -62,6 +82,13 @@ kana = 'そうじ'
 english = 'cleaning; sweeping'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '箪笥'
+kana = 'たんす'
+english = 'dresser; chest'
+level = 'n2'
+tags = ['common', 'furniture']
 
 [[cards]]
 kanji = '戸'
@@ -82,7 +109,7 @@ kanji = '部屋'
 kana = 'へや'
 english = 'room'
 level = 'n5'
-tags = []
+tags = ['common', 'buildings', 'places']
 
 [[cards]]
 kanji = '本棚'

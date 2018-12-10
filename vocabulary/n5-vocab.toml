@@ -25,6 +25,7 @@ kanji = '赤'
 kana = 'あか'
 english = 'red'
 level = 'n5'
+make_kanji_card = true
 tags = ['common', 'noun', 'no-adjective', 'color']
 
 [[cards]]
@@ -57,13 +58,6 @@ kana = 'あつい'
 english = 'hot (thing); passionate'
 level = 'n5'
 tags = ['common', 'temperature', 'i-adjectives']
-
-[[cards]]
-kanji = '暑い'
-kana = 'あつい'
-english = 'hot; warm'
-level = 'n5'
-tags = ['common', 'weather', 'i-adjectives']
 
 [[cards]]
 kanji = 'あのう'
@@ -444,6 +438,7 @@ kanji = '北'
 kana = 'きた'
 english = 'north'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -472,6 +467,7 @@ kanji = '九'
 kana = 'きゅう'
 english = 'nine'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -633,6 +629,7 @@ kanji = '三'
 kana = 'さん'
 english = 'three'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -738,6 +735,7 @@ kanji = '十'
 kana = 'じゅう'
 english = 'ten'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -913,6 +911,7 @@ kanji = '大丈夫'
 kana = 'だいじょうぶ'
 english = 'safe; alright; OK; no thanks'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -920,6 +919,7 @@ kanji = '大好き'
 kana = 'だいすき'
 english = 'lovable; like very much'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -934,6 +934,7 @@ kanji = '小さい'
 kana = 'ちいさい'
 english = 'small; little'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -976,6 +977,7 @@ kanji = '茶色'
 kana = 'ちゃいろ'
 english = 'brown'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -1018,6 +1020,7 @@ kanji = '出口'
 kana = 'でぐち'
 english = 'exit'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -1032,6 +1035,7 @@ kanji = '電気'
 kana = 'でんき'
 english = 'electricity'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -1039,6 +1043,7 @@ kanji = '電車'
 kana = 'でんしゃ'
 english = 'electric train'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -1046,6 +1051,7 @@ kanji = '電話'
 kana = 'でんわ'
 english = 'telephone; telephone call'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -1053,6 +1059,7 @@ kanji = '十'
 kana = 'とお'
 english = 'ten'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -1116,6 +1123,7 @@ kanji = '中'
 kana = 'なか'
 english = 'inside; middle; center; among'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -1144,6 +1152,7 @@ kanji = '名前'
 kana = 'なまえ'
 english = 'name'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -1171,13 +1180,6 @@ tags = []
 kanji = '荷物'
 kana = 'にもつ'
 english = 'luggage'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '～人'
-kana = '～にん'
-english = 'counter for people'
 level = 'n5'
 tags = []
 

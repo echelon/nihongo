@@ -6,6 +6,13 @@ level = 'n5'
 tags = ['common', 'i-adjective', 'temperature', 'weather']
 
 [[cards]]
+kanji = '暑い'
+kana = 'あつい'
+english = 'hot; warm'
+level = 'n5'
+tags = ['common', 'weather', 'i-adjectives']
+
+[[cards]]
 kanji = '雨'
 kana = 'あめ'
 english = 'rain'
@@ -18,7 +25,7 @@ kanji = '傘'
 kana = 'かさ'
 english = 'umbrella'
 level = 'n5'
-tags = []
+tags = ['common', 'weather', 'clothing', 'accessories']
 
 [[cards]]
 kanji = '風'
@@ -26,61 +33,117 @@ kana = 'かぜ'
 english = 'wind; breeze'
 make_kanji_card = true
 level = 'n5'
-tags = []
+tags = ['common']
+
+[[cards]]
+kanji = '雷'
+kana = 'かみなり'
+english = 'lightning; thunder'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
+kanji = '気温'
+kana = 'きおん'
+english = 'atmospheric temperature'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
+kanji = '霧'
+kana = 'きり'
+english = 'fog; mist'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
+kanji = '空気'
+kana = 'くうき'
+english = 'air; atmosphere; mood'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '雲'
+kana = 'くも'
+english = 'cloud'
+level = 'n4'
+tags = ['common']
 
 [[cards]]
 kanji = '曇り'
 kana = 'くもり'
 english = 'cloudiness; cloudy weather'
 level = 'n5'
-tags = []
+tags = ['common']
 
 [[cards]]
 kanji = '暗い'
 kana = 'くらい'
 english = 'dark; gloomy; depressed'
 level = 'n5'
-tags = []
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '氷'
+kana = 'こおり'
+english = 'ice'
+level = 'n3'
+tags = ['common']
 
 [[cards]]
 kanji = '寒い'
 kana = 'さむい'
 english = 'cold (weather)'
 level = 'n5'
-tags = []
+tags = ['common', 'i-adjective']
 
 [[cards]]
 kanji = '涼しい'
 kana = 'すずしい'
 english = 'cool (temperature); refreshing'
 level = 'n5'
-tags = []
+tags = ['common']
 
 [[cards]]
 kanji = '空'
 kana = 'そら'
 english = 'sky'
 level = 'n5'
-tags = []
+tags = ['common']
+
+[[cards]]
+kanji = '台風'
+kana = 'たいふう'
+english = 'typhoon; hurricane'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '露'
+kana = 'つゆ'
+english = 'dew'
+level = 'n1'
+tags = ['common']
 
 [[cards]]
 kanji = '天気'
 kana = 'てんき'
 english = 'weather'
 level = 'n5'
-tags = []
+tags = ['common']
 
 [[cards]]
 kanji = '晴れ'
 kana = 'はれ'
 english = 'clear weather; fine weather'
 level = 'n5'
-tags = []
+tags = ['common']
 
 [[cards]]
 kanji = '雪'
 kana = 'ゆき'
 english = 'snow'
 level = 'n5'
-tags = []
+tags = ['common']
 

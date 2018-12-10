@@ -197,6 +197,20 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '祖父'
+kana = 'そふ'
+english = 'grandfather; old man'
+level = 'n5'
+tags = ['common', 'family', 'people']
+
+[[cards]]
+kanji = '祖母'
+kana = 'そぼ'
+english = 'grandmother'
+level = 'n4'
+tags = ['common', 'family', 'people']
+
+[[cards]]
 kanji = '父'
 kana = 'ちち'
 english = "(one's own) father (humble/kenjougo)"
@@ -207,6 +221,13 @@ tags = []
 kanji = '友達'
 kana = 'ともだち'
 english = 'friend'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～人'
+kana = '～にん'
+english = 'counter for people'
 level = 'n5'
 tags = []
 

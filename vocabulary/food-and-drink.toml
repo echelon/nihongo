@@ -2,6 +2,7 @@
 kanji = '朝ご飯'
 kana = 'あさごはん'
 english = 'breakfast'
+make_kanji_card = true
 level = 'n5'
 tags = ['common', 'food']
 
@@ -83,6 +84,7 @@ kanji = '牛肉'
 kana = 'ぎゅうにく'
 english = 'beef'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -142,10 +144,18 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '蕎麦'
+kana = 'そば'
+english = 'buckwheat; buckwheat noodles'
+level = 'n2'
+tags = ['common', 'food']
+
+[[cards]]
 kanji = '食べ物'
 kana = 'たべもの'
 english = 'food'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -188,6 +198,7 @@ kanji = '肉'
 kana = 'にく'
 english = 'meat'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -202,6 +213,7 @@ kanji = '飲み物'
 kana = 'のみもの'
 english = 'drink; beverage'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -230,6 +242,7 @@ kanji = '昼ご飯'
 kana = 'ひるはん'
 english = 'lunch'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -251,6 +264,7 @@ kanji = '水'
 kana = 'みず'
 english = 'water'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]

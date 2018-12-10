@@ -68,6 +68,7 @@ kanji = '口'
 kana = 'くち'
 english = 'mouth; opening'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -75,6 +76,7 @@ kanji = '元気'
 kana = 'げんき'
 english = 'lively; healthy'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -110,7 +112,15 @@ kanji = '手'
 kana = 'て'
 english = 'hand; arm'
 level = 'n5'
+make_kanji_card = true
 tags = []
+
+[[cards]]
+kanji = '涙'
+kana = 'なみだ'
+english = 'tear(s)'
+level = 'n3'
+tags = ['common', 'body']
 
 [[cards]]
 kanji = '歯'
@@ -152,6 +162,7 @@ kanji = '太い'
 kana = 'ふとい'
 english = 'fat; thick'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -166,6 +177,7 @@ kanji = '耳'
 kana = 'みみ'
 english = 'ear'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -173,6 +185,7 @@ kanji = '目'
 kana = 'め'
 english = 'eye; eyeball'
 level = 'n5'
+make_kanji_card = true
 tags = []
 
 [[cards]]
