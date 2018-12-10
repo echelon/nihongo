@@ -1,4 +1,40 @@
 [[cards]]
+kanji = 'ナイフ'
+kana = 'ナイフ'
+english = 'knife'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '不味い'
+kana = 'まずい'
+english = 'unappetising; unpleasant taste'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お茶'
+kana = 'おちゃ'
+english = 'tea (usu. green)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '薄い'
+kana = 'うすい'
+english = 'thin; weak (eg. taste)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '飴'
+kana = 'あめ'
+english = 'hard candy; toffee'
+level = 'n5'
+tags = ['common', 'food']
+
+[[cards]]
 kanji = '朝ご飯'
 kana = 'あさごはん'
 english = 'breakfast'

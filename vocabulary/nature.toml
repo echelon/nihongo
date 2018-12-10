@@ -1,0 +1,43 @@
+[[cards]]
+kanji = '山'
+kana = 'やま'
+english = 'mountain'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '花'
+kana = 'はな'
+english = 'flower'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '庭'
+kana = 'にわ'
+english = 'garden'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '公園'
+kana = 'こうえん'
+english = '(public) park'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '木'
+kana = 'き'
+english = 'tree; wood'
+level = 'n5'
+tags = []
+
+
+[[cards]]
+kanji = '池'
+kana = 'いけ'
+english = 'pond'
+level = 'n5'
+tags = ['common', 'noun', 'nature', 'outdoors']
+

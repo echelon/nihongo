@@ -1,0 +1,171 @@
+[[cards]]
+kanji = 'プール'
+kana = 'プール'
+english = 'pool'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ベッド'
+kana = 'ベッド'
+english = 'bed'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'トイレ'
+kana = 'トイレ'
+english = 'toilet; restroom'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ドア'
+kana = 'ドア'
+english = 'Western-style door'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'テレビ'
+kana = 'テレビ'
+english = 'TV'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'テーブル'
+kana = 'テーブル'
+english = 'table'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'シャワー'
+kana = 'シャワー'
+english = 'shower'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ストーブ'
+kana = 'ストーブ'
+english = 'room heater; stove'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'アパート'
+kana = 'アパート'
+english = 'apartment'
+level = 'n5'
+tags = ['common', 'gairaigo', 'places', 'home', 'buildings']
+
+[[cards]]
+kanji = '村'
+kana = 'むら'
+english = 'village'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '窓'
+kana = 'まど'
+english = 'window'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '本棚'
+kana = 'ほんだな'
+english = 'bookcase'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '部屋'
+kana = 'へや'
+english = 'room'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '風呂'
+kana = 'ふろ'
+english = 'bath; bathtub'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '戸'
+kana = 'と'
+english = 'Japanese-style door'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '掃除'
+kana = 'そうじ'
+english = 'cleaning; sweeping'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '石鹸'
+kana = 'せっけん'
+english = 'soap'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '玄関'
+kana = 'げんかん'
+english = 'entrance; front door; foyer'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '花瓶'
+kana = 'かびん'
+english = '(flower) vase'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '家庭'
+kana = 'かてい'
+english = 'home; household'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お手洗い'
+kana = 'おてあらい'
+english = 'toilet; lavatory'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '家'
+kana = 'いえ'
+english = 'house; family; household'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'home', 'places', 'family']
+
+
+[[cards]]
+kanji = '椅子'
+kana = 'いす'
+english = 'chair; stool'
+level = 'n5'
+tags = ['common', 'home', 'furniture']
+
+[[cards]]
+kanji = '家'
+kana = 'うち'
+english = "house; home (one's own)"
+make_kanji_card = true
+level = 'n5'
+tags = []
+

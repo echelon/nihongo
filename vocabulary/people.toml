@@ -1,0 +1,275 @@
+[[cards]]
+kanji = '私'
+kana = 'わたくし'
+english = 'I; me (more formal)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '私'
+kana = 'わたし'
+english = 'I; me'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '若い'
+kana = 'わかい'
+english = 'young; youthful'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '両親'
+kana = 'りょうしん'
+english = 'parents; both parents'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '皆'
+kana = 'みんな'
+english = 'everyone'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '皆さん'
+kana = 'みなさん'
+english = 'everyone'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '二人'
+kana = 'ふたり'
+english = 'two people'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '一人'
+kana = 'ひとり'
+english = 'one person'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '人'
+kana = 'ひと'
+english = 'man; person'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '母'
+kana = 'はは'
+english = "(one's own) mother (humble/kenjougo)"
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '友達'
+kana = 'ともだち'
+english = 'friend'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '父'
+kana = 'ちち'
+english = "(one's own) father (humble/kenjougo)"
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '警官'
+kana = 'けいかん'
+english = 'police'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '兄弟'
+kana = 'きょうだい'
+english = 'siblings'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '外国人'
+kana = 'がいこくじん'
+english = 'foreigner'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '家族'
+kana = 'かぞく'
+english = 'family'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '方'
+kana = 'かた'
+english = 'person (sonkeigo); method or way of'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '女'
+kana = 'おんな'
+english = 'woman; female'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '女の子'
+kana = 'おんなのこ'
+english = 'girl'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お巡りさん'
+kana = 'おまわりさん'
+english = 'police officer (friendly term)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お兄さん'
+kana = 'おにいさん'
+english = 'older brother (honorific/respectful/sonkeigo)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お姉さん'
+kana = 'おねえさん'
+english = 'older sister (honorific/respectful/sonkeigo)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お祖母さん'
+kana = 'おばあさん'
+english = 'grandmother'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '伯母さん'
+kana = 'おばさん'
+english = 'aunt (honorific/respectful/sonkeigo)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大人'
+kana = 'おとな'
+english = 'adult'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お父さん'
+kana = 'おとうさん'
+english = 'father (honorific/respectful/sonkeigo)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '弟'
+kana = 'おとうと'
+english = 'little brother (humble/kenjougo)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '男'
+kana = 'おとこ'
+english = 'man; male'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '男の子'
+kana = 'おとこのこ'
+english = 'boy'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お祖父さん'
+kana = 'おじいさん'
+english = 'grandfather; male senior citizen'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '伯父さん'
+kana = 'おじさん'
+english = 'uncle; old man'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '奥さん'
+kana = 'おくさん'
+english = 'wife (honorific/respectful/sonkeigo)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '貴方'
+kana = 'あなた'
+english = 'you (equal or lower status); dear (wife to husband)'
+level = 'n5'
+tags = ['common', 'pronouns', 'people']
+
+[[cards]]
+kanji = '兄'
+kana = 'あに'
+english = 'older brother (humble/kenjougo)'
+level = 'n5'
+tags = ['common', 'family', 'people', 'humble', 'kenjougo']
+
+[[cards]]
+kanji = '姉'
+kana = 'あね'
+english = 'older sister (humble/kenjougo)'
+level = 'n5'
+tags = ['common', 'family', 'people', 'humble', 'kenjougo']
+
+[[cards]]
+kanji = '妹'
+kana = 'いもうと'
+english = 'younger sister (humble / kenjougo)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大勢'
+kana = 'おおぜい'
+english = 'crowd of people'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お母さん'
+kana = 'おかあさん'
+english = 'mother (honorific/respectful/sonkeigo)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+

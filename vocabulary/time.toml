@@ -1,4 +1,28 @@
 [[cards]]
+kanji = '一昨日'
+kana = 'おととい'
+english = 'day before yesterday'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '一昨年'
+kana = 'おととし'
+english = 'year before last'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '五日'
+kana = 'いつか'
+english = 'five days; fifth day of the month'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '秋'
 kana = 'あき'
 english = 'autumn; fall'

@@ -1,4 +1,32 @@
 [[cards]]
+kanji = '灰皿'
+kana = 'はいざら'
+english = 'ashtray'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '煙草'
+kana = 'たばこ'
+english = 'tabacco; cigarettes'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '背'
+kana = 'せい'
+english = 'height'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '医者'
+kana = 'いしゃ'
+english = 'doctor'
+level = 'n5'
+tags = ['common', 'people']
+
+[[cards]]
 kanji = '足'
 kana = 'あし'
 english = 'foot; leg'

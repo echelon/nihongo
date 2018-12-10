@@ -66,27 +66,6 @@ level = 'n5'
 tags = ['common', 'weather', 'i-adjectives']
 
 [[cards]]
-kanji = '貴方'
-kana = 'あなた'
-english = 'you (equal or lower status); dear (wife to husband)'
-level = 'n5'
-tags = ['common', 'pronouns', 'people']
-
-[[cards]]
-kanji = '兄'
-kana = 'あに'
-english = 'older brother (humble/kenjougo)'
-level = 'n5'
-tags = ['common', 'family', 'people', 'humble', 'kenjougo']
-
-[[cards]]
-kanji = '姉'
-kana = 'あね'
-english = 'older sister (humble/kenjougo)'
-level = 'n5'
-tags = ['common', 'family', 'people', 'humble', 'kenjougo']
-
-[[cards]]
 kanji = 'あのう'
 kana = 'あのう'
 english = 'um...; well...'
@@ -108,13 +87,6 @@ level = 'n5'
 tags = ['common', 'no-adjective', 'na-adjective', 'adverb']
 
 [[cards]]
-kanji = '飴'
-kana = 'あめ'
-english = 'hard candy; toffee'
-level = 'n5'
-tags = ['common', 'food']
-
-[[cards]]
 kanji = 'いい'
 kana = 'いい'
 english = 'good; OK'
@@ -127,14 +99,6 @@ kana = 'いいえ'
 english = "no; not at all; don't mention it"
 level = 'n5'
 tags = ['common', 'basic']
-
-[[cards]]
-kanji = '家'
-kana = 'いえ'
-english = 'house; family; household'
-make_kanji_card = true
-level = 'n5'
-tags = ['common', 'home', 'places', 'family']
 
 [[cards]]
 kanji = '如何'
@@ -156,27 +120,6 @@ kana = 'いくら'
 english = 'how much? ; how many?'
 level = 'n5'
 tags = ['common', 'question', 'noun', 'adverb']
-
-[[cards]]
-kanji = '池'
-kana = 'いけ'
-english = 'pond'
-level = 'n5'
-tags = ['common', 'noun', 'nature', 'outdoors']
-
-[[cards]]
-kanji = '医者'
-kana = 'いしゃ'
-english = 'doctor'
-level = 'n5'
-tags = ['common', 'people']
-
-[[cards]]
-kanji = '椅子'
-kana = 'いす'
-english = 'chair; stool'
-level = 'n5'
-tags = ['common', 'home', 'furniture']
 
 [[cards]]
 kanji = '忙しい'
@@ -209,14 +152,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '五日'
-kana = 'いつか'
-english = 'five days; fifth day of the month'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '五つ'
 kana = 'いつつ'
 english = 'five (things)'
@@ -228,13 +163,6 @@ tags = []
 kanji = '意味'
 kana = 'いみ'
 english = 'meaning'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '妹'
-kana = 'いもうと'
-english = 'younger sister (humble / kenjougo)'
 level = 'n5'
 tags = []
 
@@ -285,24 +213,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '薄い'
-kana = 'うすい'
-english = 'thin; weak (eg. taste)'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '歌'
 kana = 'うた'
 english = 'song'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '家'
-kana = 'うち'
-english = "house; home (one's own)"
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -318,13 +231,6 @@ tags = []
 kanji = '煩い'
 kana = 'うるさい'
 english = 'loud; annoying'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '上着'
-kana = 'うわぎ'
-english = 'coat'
 level = 'n5'
 tags = []
 
@@ -388,32 +294,10 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '大勢'
-kana = 'おおぜい'
-english = 'crowd of people'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お母さん'
-kana = 'おかあさん'
-english = 'mother (honorific/respectful/sonkeigo)'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'お金'
 kana = 'おかね'
 english = 'money'
 make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '奥さん'
-kana = 'おくさん'
-english = 'wife (honorific/respectful/sonkeigo)'
 level = 'n5'
 tags = []
 
@@ -425,92 +309,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'お祖父さん'
-kana = 'おじいさん'
-english = 'grandfather; male senior citizen'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '伯父さん'
-kana = 'おじさん'
-english = 'uncle; old man'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '遅い'
 kana = 'おそい'
 english = 'slow ; late'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お茶'
-kana = 'おちゃ'
-english = 'tea (usu. green)'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お手洗い'
-kana = 'おてあらい'
-english = 'toilet; lavatory'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お父さん'
-kana = 'おとうさん'
-english = 'father (honorific/respectful/sonkeigo)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '弟'
-kana = 'おとうと'
-english = 'little brother (humble/kenjougo)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '男'
-kana = 'おとこ'
-english = 'man; male'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '男の子'
-kana = 'おとこのこ'
-english = 'boy'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '一昨日'
-kana = 'おととい'
-english = 'day before yesterday'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '一昨年'
-kana = 'おととし'
-english = 'year before last'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '大人'
-kana = 'おとな'
-english = 'adult'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -523,45 +324,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'お兄さん'
-kana = 'おにいさん'
-english = 'older brother (honorific/respectful/sonkeigo)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お姉さん'
-kana = 'おねえさん'
-english = 'older sister (honorific/respectful/sonkeigo)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お祖母さん'
-kana = 'おばあさん'
-english = 'grandmother'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '伯母さん'
-kana = 'おばさん'
-english = 'aunt (honorific/respectful/sonkeigo)'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'お風呂'
 kana = 'おふろ'
 english = 'bath'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お巡りさん'
-kana = 'おまわりさん'
-english = 'police officer (friendly term)'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -583,22 +348,6 @@ tags = []
 kanji = '音楽'
 kana = 'おんがく'
 english = 'music'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '女'
-kana = 'おんな'
-english = 'woman; female'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '女の子'
-kana = 'おんなのこ'
-english = 'girl'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -655,21 +404,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '家族'
-kana = 'かぞく'
-english = 'family'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '方'
-kana = 'かた'
-english = 'person (sonkeigo); method or way of'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '片仮名'
 kana = 'かたかな'
 english = 'katakana'
@@ -677,30 +411,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '家庭'
-kana = 'かてい'
-english = 'home; household'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '角'
 kana = 'かど'
 english = 'corner (eg. of a desk); edge'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '鞄'
-kana = 'かばん'
-english = 'bag; briefcase; basket'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '花瓶'
-kana = 'かびん'
-english = '(flower) vase'
 level = 'n5'
 tags = []
 
@@ -738,21 +451,6 @@ kanji = '外国'
 kana = 'がいこく'
 english = 'foreign country'
 make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '外国人'
-kana = 'がいこくじん'
-english = 'foreigner'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '木'
-kana = 'き'
-english = 'tree; wood'
 level = 'n5'
 tags = []
 
@@ -806,13 +504,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '兄弟'
-kana = 'きょうだい'
-english = 'siblings'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '嫌い'
 kana = 'きらい'
 english = 'dislike; hate'
@@ -837,20 +528,6 @@ tags = []
 kanji = '下さい'
 kana = 'ください'
 english = 'please [give/do] for me'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '靴'
-kana = 'くつ'
-english = 'shoes'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '靴下'
-kana = 'くつした'
-english = 'socks'
 level = 'n5'
 tags = []
 
@@ -883,13 +560,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '警官'
-kana = 'けいかん'
-english = 'police'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '結構'
 kana = 'けっこう'
 english = 'nice; sufficient; enough'
@@ -904,23 +574,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '玄関'
-kana = 'げんかん'
-english = 'entrance; front door; foyer'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '～個'
 kana = '～こ'
 english = 'counter for small objects'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '公園'
-kana = 'こうえん'
-english = '(public) park'
 level = 'n5'
 tags = []
 
@@ -1044,13 +700,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '仕事'
-kana = 'しごと'
-english = 'work; job'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '静か'
 kana = 'しずか'
 english = 'quiet; peaceful'
@@ -1163,27 +812,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '背'
-kana = 'せい'
-english = 'height'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '石鹸'
-kana = 'せっけん'
-english = 'soap'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '背広'
-kana = 'せびろ'
-english = 'business suit'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '狭い'
 kana = 'せまい'
 english = 'narrow; confined; cramped'
@@ -1194,13 +822,6 @@ tags = []
 kanji = '千'
 kana = 'せん'
 english = 'thousand'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '洗濯'
-kana = 'せんたく'
-english = 'laundry; washing'
 level = 'n5'
 tags = []
 
@@ -1222,13 +843,6 @@ tags = []
 kanji = '然うして'
 kana = 'そうして'
 english = 'after that; therefore (conjunction)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '掃除'
-kana = 'そうじ'
-english = 'cleaning; sweeping'
 level = 'n5'
 tags = []
 
@@ -1324,13 +938,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '煙草'
-kana = 'たばこ'
-english = 'tabacco; cigarettes'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '多分'
 kana = 'たぶん'
 english = 'perhaps; probably'
@@ -1422,13 +1029,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '父'
-kana = 'ちち'
-english = "(one's own) father (humble/kenjougo)"
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '茶色'
 kana = 'ちゃいろ'
 english = 'brown'
@@ -1471,13 +1071,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '手紙'
-kana = 'てがみ'
-english = 'letter'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '出口'
 kana = 'でぐち'
 english = 'exit'
@@ -1513,13 +1106,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '戸'
-kana = 'と'
-english = 'Japanese-style door'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '十'
 kana = 'とお'
 english = 'ten'
@@ -1551,13 +1137,6 @@ tags = []
 kanji = '隣'
 kana = 'となり'
 english = 'next to; nextdoor to; neighbor'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '友達'
-kana = 'ともだち'
-english = 'friend'
 level = 'n5'
 tags = []
 
@@ -1688,13 +1267,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '庭'
-kana = 'にわ'
-english = 'garden'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '～人'
 kana = '～にん'
 english = 'counter for people'
@@ -1705,13 +1277,6 @@ tags = []
 kanji = 'はい'
 kana = 'はい'
 english = 'yes'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '灰皿'
-kana = 'はいざら'
-english = 'ashtray'
 level = 'n5'
 tags = []
 
@@ -1765,23 +1330,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '花'
-kana = 'はな'
-english = 'flower'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '話'
 kana = 'はなし'
 english = 'talk; story; speech'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '母'
-kana = 'はは'
-english = "(one's own) mother (humble/kenjougo)"
 level = 'n5'
 tags = []
 
@@ -1849,23 +1400,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '人'
-kana = 'ひと'
-english = 'man; person'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '一つ'
 kana = 'ひとつ'
 english = 'one'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '一人'
-kana = 'ひとり'
-english = 'one person'
 level = 'n5'
 tags = []
 
@@ -1891,23 +1428,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '服'
-kana = 'ふく'
-english = 'clothes (esp. Western)'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '二つ'
 kana = 'ふたつ'
 english = 'two'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '二人'
-kana = 'ふたり'
-english = 'two people'
 level = 'n5'
 tags = []
 
@@ -1919,23 +1442,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '風呂'
-kana = 'ふろ'
-english = 'bath; bathtub'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '下手'
 kana = 'へた'
 english = 'unskilled; unskillful'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '部屋'
-kana = 'へや'
-english = 'room'
 level = 'n5'
 tags = []
 
@@ -1982,23 +1491,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '本棚'
-kana = 'ほんだな'
-english = 'bookcase'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '本当'
 kana = 'ほんとう'
 english = 'truth; reality'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '帽子'
-kana = 'ぼうし'
-english = 'hat'
 level = 'n5'
 tags = []
 
@@ -2013,13 +1508,6 @@ tags = []
 kanji = '～前'
 kana = '～まえ'
 english = 'in front of ～'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '不味い'
-kana = 'まずい'
-english = 'unappetising; unpleasant taste'
 level = 'n5'
 tags = []
 
@@ -2052,13 +1540,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '窓'
-kana = 'まど'
-english = 'window'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '丸い'
 kana = 'まるい'
 english = 'round; circular'
@@ -2069,13 +1550,6 @@ tags = []
 kanji = '万'
 kana = 'まん'
 english = 'ten thousand'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '万年筆'
-kana = 'まんねんひつ'
-english = 'fountain pen'
 level = 'n5'
 tags = []
 
@@ -2122,23 +1596,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '皆さん'
-kana = 'みなさん'
-english = 'everyone'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '南'
 kana = 'みなみ'
 english = 'south'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '皆'
-kana = 'みんな'
-english = 'everyone'
 level = 'n5'
 tags = []
 
@@ -2153,13 +1613,6 @@ tags = []
 kanji = '六つ'
 kana = 'むっつ'
 english = 'six'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '村'
-kana = 'むら'
-english = 'village'
 level = 'n5'
 tags = []
 
@@ -2227,13 +1680,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '山'
-kana = 'やま'
-english = 'mountain'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '郵便局'
 kana = 'ゆうびんきょく'
 english = 'post office'
@@ -2260,13 +1706,6 @@ kana = 'よい'
 english = 'good; OK'
 level = 'n5'
 tags = ['common', 'expressions']
-
-[[cards]]
-kanji = '洋服'
-kana = 'ようふく'
-english = 'Western-style clothes'
-level = 'n5'
-tags = []
 
 [[cards]]
 kanji = '良く'
@@ -2304,13 +1743,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '両親'
-kana = 'りょうしん'
-english = 'parents; both parents'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '旅行'
 kana = 'りょこう'
 english = 'travel; trip; journey'
@@ -2339,39 +1771,11 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '若い'
-kana = 'わかい'
-english = 'young; youthful'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '私'
-kana = 'わたくし'
-english = 'I; me (more formal)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '私'
-kana = 'わたし'
-english = 'I; me'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '悪い'
 kana = 'わるい'
 english = 'bad; poor; inferior; evil'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = 'アパート'
-kana = 'アパート'
-english = 'apartment'
-level = 'n5'
-tags = ['common', 'gairaigo', 'places', 'home', 'buildings']
 
 [[cards]]
 kanji = 'エレベーター'
@@ -2409,65 +1813,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'コピー'
-kana = 'コピー'
-english = 'copy (noun or verb)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'シャツ'
-kana = 'シャツ'
-english = 'shirt'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'シャワー'
-kana = 'シャワー'
-english = 'shower'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'スカート'
-kana = 'スカート'
-english = 'skirt'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ストーブ'
-kana = 'ストーブ'
-english = 'room heater; stove'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'スポーツ'
 kana = 'スポーツ'
 english = 'sports'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'スリッパ'
-kana = 'スリッパ'
-english = 'slippers'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ズボン'
-kana = 'ズボン'
-english = 'pants (from French)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'セーター'
-kana = 'セーター'
-english = 'sweater'
 level = 'n5'
 tags = []
 
@@ -2486,20 +1834,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'テレビ'
-kana = 'テレビ'
-english = 'TV'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'テーブル'
-kana = 'テーブル'
-english = 'table'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'デパート'
 kana = 'デパート'
 english = 'department store'
@@ -2507,44 +1841,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'トイレ'
-kana = 'トイレ'
-english = 'toilet; restroom'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ドア'
-kana = 'ドア'
-english = 'Western-style door'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ナイフ'
-kana = 'ナイフ'
-english = 'knife'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'ニュース'
 kana = 'ニュース'
 english = 'news'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ネクタイ'
-kana = 'ネクタイ'
-english = 'necktie'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ハンカチ'
-kana = 'ハンカチ'
-english = 'handkerchief'
 level = 'n5'
 tags = []
 
@@ -2570,20 +1869,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'プール'
-kana = 'プール'
-english = 'pool'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ベッド'
-kana = 'ベッド'
-english = 'bed'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'ページ'
 kana = 'ページ'
 english = 'page'
@@ -2594,20 +1879,6 @@ tags = []
 kanji = 'ホテル'
 kana = 'ホテル'
 english = 'hotel'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ボタン'
-kana = 'ボタン'
-english = 'button'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ポケット'
-kana = 'ポケット'
-english = 'pocket'
 level = 'n5'
 tags = []
 
@@ -2636,13 +1907,6 @@ tags = []
 kanji = 'レコード'
 kana = 'レコード'
 english = 'record'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ワイシャツ'
-kana = 'ワイシャツ'
-english = 'business shirt (lit. white shirt)'
 level = 'n5'
 tags = []
 
