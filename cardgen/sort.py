@@ -67,7 +67,7 @@ class CustomTomlEncoder(TomlEncoder):
     retval = retval[:-2]
     return '[{0}]'.format(retval)
 
-def read_toml(filename):
+def read_notes_from_toml(filename):
   # Maintain key ordering in each item
   decoder = TomlDecoder(_dict=OrderedDict)
   with open(filename, 'r') as f:
@@ -88,14 +88,20 @@ def write_toml(note_toml_data, filename):
   with open(filename, 'w') as f:
     f.write(toml_contents)
 
+total_notes = 0
 for filename in glob.glob('**/*.toml', recursive=True):
   if 'cardgen' in filename:
     continue # XXX: Things here shouldn't be processed for now.
-  print('Processing file {0}'.format(filename))
+  print('Processing file: {0}'.format(filename))
   try:
-    note_toml = read_toml(filename)
-    sorted_toml = sort_notes(note_toml)
-    write_toml(sorted_toml, filename)
+    notes = read_notes_from_toml(filename)
+    note_count = len(notes[INDEX_NAME])
+    sorted_notes = sort_notes(notes)
+    print('> {0} notes'.format(note_count))
+    write_toml(sorted_notes, filename)
+    total_notes += note_count
   except Exception as e:
     print(e)
+
+print('Total notes: {0}'.format(total_notes))
 

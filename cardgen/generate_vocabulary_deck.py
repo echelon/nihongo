@@ -150,6 +150,8 @@ class Note(genanki.Note):
   def guid(self):
     return genanki.guid_for(self.kanji, self.kana)
 
+  def card_count(self):
+    return 3 if self.make_kanji_card == 'y' else 2
 
 def read_vocabulary_notes(filename):
   with open(filename, 'r') as f:
@@ -158,6 +160,7 @@ def read_vocabulary_notes(filename):
     return toml_dict['cards']
 
 total_notes = 0
+total_cards = 0
 
 for filename in glob.glob('**/*.toml', recursive=True):
   if 'cardgen' in filename:
@@ -168,8 +171,10 @@ for filename in glob.glob('**/*.toml', recursive=True):
     note = Note(n)
     KANJI_CARD_DECK.add_note(note)
     total_notes += 1
+    total_cards += note.card_count()
 
 print('Total notes: {0}'.format(total_notes))
+print('Total cards: {0}'.format(total_cards))
 print('Output file: {0}'.format(OUTPUT_FILENAME))
 genanki.Package(KANJI_CARD_DECK).write_to_file(OUTPUT_FILENAME)
 
