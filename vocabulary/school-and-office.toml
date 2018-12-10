@@ -1,32 +1,4 @@
 [[cards]]
-kanji = 'コピー'
-kana = 'コピー'
-english = 'copy (noun or verb)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '万年筆'
-kana = 'まんねんひつ'
-english = 'fountain pen'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '手紙'
-kana = 'てがみ'
-english = 'letter'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '仕事'
-kana = 'しごと'
-english = 'work; job'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '鉛筆'
 kana = 'えんぴつ'
 english = 'pencil'
@@ -67,6 +39,13 @@ tags = []
 kanji = '作文'
 kana = 'さくぶん'
 english = 'essay writing; composition'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '仕事'
+kana = 'しごと'
+english = 'work; job'
 level = 'n5'
 tags = []
 
@@ -134,6 +113,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '手紙'
+kana = 'てがみ'
+english = 'letter'
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '図書館'
 kana = 'としょかん'
 english = 'library'
@@ -183,6 +169,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '万年筆'
+kana = 'まんねんひつ'
+english = 'fountain pen'
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '難しい'
 kana = 'むずかしい'
 english = 'difficult'
@@ -214,6 +207,13 @@ tags = []
 kanji = 'クラス'
 kana = 'クラス'
 english = 'class'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'コピー'
+kana = 'コピー'
+english = 'copy (noun or verb)'
 level = 'n5'
 tags = []
 

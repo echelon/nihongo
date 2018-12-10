@@ -1,35 +1,77 @@
 [[cards]]
-kanji = 'ワイシャツ'
-kana = 'ワイシャツ'
-english = 'business shirt (lit. white shirt)'
+kanji = '上着'
+kana = 'うわぎ'
+english = 'coat'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'ボタン'
-kana = 'ボタン'
-english = 'button'
+kanji = '鞄'
+kana = 'かばん'
+english = 'bag; briefcase; basket'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'ポケット'
-kana = 'ポケット'
-english = 'pocket'
+kanji = '靴'
+kana = 'くつ'
+english = 'shoes'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'ネクタイ'
-kana = 'ネクタイ'
-english = 'necktie'
+kanji = '靴下'
+kana = 'くつした'
+english = 'socks'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'ハンカチ'
-kana = 'ハンカチ'
-english = 'handkerchief'
+kanji = '背広'
+kana = 'せびろ'
+english = 'business suit'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '洗濯'
+kana = 'せんたく'
+english = 'laundry; washing'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '服'
+kana = 'ふく'
+english = 'clothes (esp. Western)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '帽子'
+kana = 'ぼうし'
+english = 'hat'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '洋服'
+kana = 'ようふく'
+english = 'Western-style clothes'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'シャツ'
+kana = 'シャツ'
+english = 'shirt'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'スカート'
+kana = 'スカート'
+english = 'skirt'
 level = 'n5'
 tags = []
 
@@ -55,80 +97,37 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'スカート'
-kana = 'スカート'
-english = 'skirt'
+kanji = 'ネクタイ'
+kana = 'ネクタイ'
+english = 'necktie'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'シャツ'
-kana = 'シャツ'
-english = 'shirt'
+kanji = 'ハンカチ'
+kana = 'ハンカチ'
+english = 'handkerchief'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '洋服'
-kana = 'ようふく'
-english = 'Western-style clothes'
+kanji = 'ボタン'
+kana = 'ボタン'
+english = 'button'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '帽子'
-kana = 'ぼうし'
-english = 'hat'
+kanji = 'ポケット'
+kana = 'ポケット'
+english = 'pocket'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '服'
-kana = 'ふく'
-english = 'clothes (esp. Western)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '洗濯'
-kana = 'せんたく'
-english = 'laundry; washing'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '背広'
-kana = 'せびろ'
-english = 'business suit'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '靴'
-kana = 'くつ'
-english = 'shoes'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '靴下'
-kana = 'くつした'
-english = 'socks'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '鞄'
-kana = 'かばん'
-english = 'bag; briefcase; basket'
-level = 'n5'
-tags = []
-
-
-[[cards]]
-kanji = '上着'
-kana = 'うわぎ'
-english = 'coat'
+kanji = 'ワイシャツ'
+kana = 'ワイシャツ'
+english = 'business shirt (lit. white shirt)'
 level = 'n5'
 tags = []
 

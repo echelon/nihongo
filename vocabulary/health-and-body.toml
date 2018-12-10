@@ -1,32 +1,4 @@
 [[cards]]
-kanji = '灰皿'
-kana = 'はいざら'
-english = 'ashtray'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '煙草'
-kana = 'たばこ'
-english = 'tabacco; cigarettes'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '背'
-kana = 'せい'
-english = 'height'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '医者'
-kana = 'いしゃ'
-english = 'doctor'
-level = 'n5'
-tags = ['common', 'people']
-
-[[cards]]
 kanji = '足'
 kana = 'あし'
 english = 'foot; leg'
@@ -40,6 +12,13 @@ kana = 'あたま'
 english = 'head'
 level = 'n5'
 tags = ['common', 'body', 'anatomy']
+
+[[cards]]
+kanji = '医者'
+kana = 'いしゃ'
+english = 'doctor'
+level = 'n5'
+tags = ['common', 'people']
 
 [[cards]]
 kanji = '痛い'
@@ -113,6 +92,20 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '背'
+kana = 'せい'
+english = 'height'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '煙草'
+kana = 'たばこ'
+english = 'tabacco; cigarettes'
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '手'
 kana = 'て'
 english = 'hand; arm'
@@ -123,6 +116,13 @@ tags = []
 kanji = '歯'
 kana = 'は'
 english = 'tooth'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '灰皿'
+kana = 'はいざら'
+english = 'ashtray'
 level = 'n5'
 tags = []
 

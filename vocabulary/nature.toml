@@ -1,21 +1,14 @@
 [[cards]]
-kanji = '山'
-kana = 'やま'
-english = 'mountain'
+kanji = '池'
+kana = 'いけ'
+english = 'pond'
 level = 'n5'
-tags = []
+tags = ['common', 'noun', 'nature', 'outdoors']
 
 [[cards]]
-kanji = '花'
-kana = 'はな'
-english = 'flower'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '庭'
-kana = 'にわ'
-english = 'garden'
+kanji = '木'
+kana = 'き'
+english = 'tree; wood'
 level = 'n5'
 tags = []
 
@@ -27,17 +20,23 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '木'
-kana = 'き'
-english = 'tree; wood'
+kanji = '庭'
+kana = 'にわ'
+english = 'garden'
 level = 'n5'
 tags = []
 
+[[cards]]
+kanji = '花'
+kana = 'はな'
+english = 'flower'
+level = 'n5'
+tags = []
 
 [[cards]]
-kanji = '池'
-kana = 'いけ'
-english = 'pond'
+kanji = '山'
+kana = 'やま'
+english = 'mountain'
 level = 'n5'
-tags = ['common', 'noun', 'nature', 'outdoors']
+tags = []
 
