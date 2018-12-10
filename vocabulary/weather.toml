@@ -1,0 +1,87 @@
+[[cards]]
+kanji = '晴れ'
+kana = 'はれ'
+english = 'clear weather; fine weather'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '天気'
+kana = 'てんき'
+english = 'weather'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '空'
+kana = 'そら'
+english = 'sky'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '涼しい'
+kana = 'すずしい'
+english = 'cool (temperature); refreshing'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '寒い'
+kana = 'さむい'
+english = 'cold (weather)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '曇り'
+kana = 'くもり'
+english = 'cloudiness; cloudy weather'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '暗い'
+kana = 'くらい'
+english = 'dark; gloomy; depressed'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '傘'
+kana = 'かさ'
+english = 'umbrella'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '風'
+kana = 'かぜ'
+english = 'wind; breeze'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '雨'
+kana = 'あめ'
+english = 'rain'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'weather']
+
+
+[[cards]]
+kanji = '雪'
+kana = 'ゆき'
+english = 'snow'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '暖かい'
+kana = 'あたたかい'
+english = 'warm (air temp)'
+level = 'n5'
+tags = ['common', 'i-adjective', 'temperature', 'weather']
+

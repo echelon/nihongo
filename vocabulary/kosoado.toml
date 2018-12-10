@@ -1,4 +1,39 @@
 [[cards]]
+kanji = '何の'
+kana = 'どの'
+english = 'which?'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '何れ'
+kana = 'どれ'
+english = 'which (of three or more)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'こんな'
+kana = 'こんな'
+english = 'such ~; something like this'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '此の'
+kana = 'この'
+english = 'this (thing)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '此れ'
+kana = 'これ'
+english = 'this'
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '彼処'
 kana = 'あそこ'
 english = 'there (way over there)'

@@ -1,4 +1,47 @@
 [[cards]]
+kanji = 'ペット'
+kana = 'ペット'
+english = 'pet'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～匹'
+kana = '～ひき'
+english = 'counter for small animals'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '猫'
+kana = 'ねこ'
+english = 'cat'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '鳥'
+kana = 'とり'
+english = 'bird'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '犬'
+kana = 'いぬ'
+english = 'dog'
+level = 'n5'
+make_kanji_card = true
+tags = []
+
+[[cards]]
+kanji = '動物'
+kana = 'どうぶつ'
+english = 'animal'
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '牛'
 kana = 'うし'
 english = 'cow'

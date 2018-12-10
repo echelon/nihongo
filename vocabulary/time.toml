@@ -1,0 +1,541 @@
+[[cards]]
+kanji = '四日'
+kana = 'よっか'
+english = 'fourth of the month; four days'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '八日'
+kana = 'ようか'
+english = 'eigth day of the month; eight days'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～分'
+kana = '～ふん'
+english = 'counter for minutes'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '冬'
+kana = 'ふゆ'
+english = 'winter'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '二日'
+kana = 'ふつか'
+english = 'second day of the month; two days'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '昼'
+kana = 'ひる'
+english = 'noon'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '暇'
+kana = 'ひま'
+english = 'free time; leisure'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '一月'
+kana = 'ひとつき'
+english = 'one month'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '晩'
+kana = 'ばん'
+english = 'evening (7-10pmish)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '春'
+kana = 'はる'
+english = 'spring'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '二十日'
+kana = 'はつか'
+english = '20th day of the month; 20 days'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～年'
+kana = '～ねん'
+english = 'counter for years'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～日'
+kana = '～にち'
+english = '～ day of the month; duration in days'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '日曜日'
+kana = 'にちようび'
+english = 'Sunday'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '七日'
+kana = 'なのか'
+english = 'seventh day of the month ; seven days'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '夏'
+kana = 'なつ'
+english = 'summer'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '土曜日'
+kana = 'どようび'
+english = 'Saturday'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '年'
+kana = 'とし'
+english = 'year'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～時'
+kana = '～とき'
+english = 'at the time of ～'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '時々'
+kana = 'ときどき'
+english = 'sometimes; at times'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '時計'
+kana = 'とけい'
+english = 'watch; clock'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '十日'
+kana = 'とおか'
+english = 'tenth day of the month; ten days'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '一日'
+kana = 'ついたち'
+english = 'first day of the month'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '誕生日'
+kana = 'たんじょうび'
+english = 'birthday'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '先月'
+kana = 'せんげつ'
+english = 'last month'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '先週'
+kana = 'せんしゅう'
+english = 'last week'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '直ぐ'
+kana = 'すぐ'
+english = 'immediately; instantly; soon'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '水曜日'
+kana = 'すいようび'
+english = 'Wednesday'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～中'
+kana = '～じゅう'
+english = 'during; while'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～時'
+kana = '～じ'
+english = "hour; o'clock"
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '時間'
+kana = 'じかん'
+english = 'time'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～時間'
+kana = '～じかん'
+english = 'counter for hours'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '醤油'
+kana = 'しょうゆ'
+english = 'soy sauce'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～週間'
+kana = '～しゅうかん'
+english = 'counter for weeks'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '再来年'
+kana = 'さらいねん'
+english = 'year after next'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '先'
+kana = 'さき'
+english = 'the previous; the former; the future'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '午後'
+kana = 'ごご'
+english = 'afternoon; P.M.'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '午前'
+kana = 'ごぜん'
+english = 'morning; A.M.'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今晩'
+kana = 'こんばん'
+english = 'tonight; this evening (7-10pmish)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今月'
+kana = 'こんげつ'
+english = 'this month'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今週'
+kana = 'こんしゅう'
+english = 'this week'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今年'
+kana = 'ことし'
+english = 'this year'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '九日'
+kana = 'ここのか'
+english = 'the ninth of the month; nine days'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '月曜日'
+kana = 'げつようび'
+english = 'Monday'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今朝'
+kana = 'けさ'
+english = 'this morning'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '金曜日'
+kana = 'きんようび'
+english = 'Friday'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '去年'
+kana = 'きょねん'
+english = 'last year'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今日'
+kana = 'きょう'
+english = 'today'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '昨日'
+kana = 'きのう'
+english = 'yesterday'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～月'
+kana = '～がつ'
+english = 'month of the year'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '火曜日'
+kana = 'かようび'
+english = 'Tuesday'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '今'
+kana = 'いま'
+english = 'now'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '何時も'
+kana = 'いつも'
+english = 'always'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '何時'
+kana = 'いつ'
+english = 'when'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '一日'
+kana = 'いちにち'
+english = 'one day (duration)'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'time', 'duration']
+
+[[cards]]
+kanji = '明日'
+kana = 'あした'
+english = 'tomorrow'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'time']
+
+[[cards]]
+kanji = '秋'
+kana = 'あき'
+english = 'autumn; fall'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'noun', 'season', 'time']
+
+[[cards]]
+kanji = '明後日'
+kana = 'あさって'
+english = 'day after tomorrow'
+level = 'n5'
+tags = ['common', 'time']
+
+[[cards]]
+kanji = 'カレンダー'
+kana = 'カレンダー'
+english = 'calendar'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '来月'
+kana = 'らいげつ'
+english = 'next month'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '来週'
+kana = 'らいしゅう'
+english = 'next week'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '夜'
+kana = 'よる'
+english = 'evening; night (after 10pm)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '夕べ'
+kana = 'ゆうべ'
+english = 'evening (5-7pmish); last night'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '夕方'
+kana = 'ゆうがた'
+english = 'evening or dusk (before sunset; 5-7pmish)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '休み'
+kana = 'やすみ'
+english = 'rest; vacation; holiday'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '毎月'
+kana = 'まいつき / まいげつ'
+english = 'every month'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '毎日'
+kana = 'まいにち'
+english = 'every day'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '毎朝'
+kana = 'まいあさ'
+english = 'every morning'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '毎週'
+kana = 'まいしゅう'
+english = 'every wek'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '毎年'
+kana = 'まいねん / まいとし'
+english = 'every year'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '毎晩'
+kana = 'まいばん'
+english = 'every night'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '三日'
+kana = 'みっか'
+english = 'third day of the month; three days'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '六日'
+kana = 'むいか'
+english = 'the sixth day; six days'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '木曜日'
+kana = 'もくようび'
+english = 'Thursday'
+level = 'n5'
+tags = []
+
+
+[[cards]]
+kanji = '朝'
+kana = 'あさ'
+english = 'morning'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'time']
+
+[[cards]]
+kanji = '後'
+kana = 'あと'
+english = 'after; in the future'
+level = 'n5'
+tags = ['common', 'places']
+
