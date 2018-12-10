@@ -1,175 +1,58 @@
 [[cards]]
-kanji = '夕飯'
-kana = 'ゆうはん'
-english = 'evening meal (5-7pmish)'
+kanji = '朝ご飯'
+kana = 'あさごはん'
+english = 'breakfast'
+level = 'n5'
+tags = ['common', 'food']
+
+[[cards]]
+kanji = '甘い'
+kana = 'あまい'
+english = 'sweet-tasting'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'food', 'i-adjectives']
+
+[[cards]]
+kanji = '美味しい'
+kana = 'おいしい'
+english = 'delicious'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '八百屋'
-kana = 'やおや'
-english = 'greengrocer'
+kanji = 'お菓子'
+kana = 'おかし'
+english = 'candy; confections'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '野菜'
-kana = 'やさい'
-english = 'vegetable'
+kanji = 'お皿'
+kana = 'おさら'
+english = 'plate'
+make_kanji_card = true
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '水'
-kana = 'みず'
-english = 'water'
+kanji = 'お弁当'
+kana = 'おべんとう'
+english = 'Japanese boxed lunch'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '豚肉'
-kana = 'ぶたにく'
-english = 'pork'
+kanji = '辛い'
+kana = 'からい'
+english = 'spicy; hot; salty'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '昼ご飯'
-kana = 'ひるはん'
-english = 'lunch'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '晩御飯'
-kana = 'ばんごはん'
-english = 'dinner'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '箸'
-kana = 'はし'
-english = 'chopsticks'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '～杯'
-kana = '～はい'
-english = 'counter for cupfuls'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '温い'
-kana = 'ぬるい'
-english = 'lukewarm'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '飲み物'
-kana = 'のみもの'
-english = 'drink; beverage'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '肉'
-kana = 'にく'
-english = 'meat'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '鳥肉'
-kana = 'とりにく'
-english = 'chicken meat; bird meat'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '冷たい'
-kana = 'つめたい'
-english = 'cold (to the touch); coldhearted'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '茶碗'
-kana = 'ちゃわん'
-english = 'rice bowl; tea cup'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '台所'
-kana = 'だいどころ'
-english = 'kitchen'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '食べ物'
-kana = 'たべもの'
-english = 'food'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '卵'
-kana = 'たまご'
-english = 'egg'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '食堂'
-kana = 'しょくどう'
-english = 'cafeteria; dining hall'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '塩'
-kana = 'しお'
-english = 'salt'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '砂糖'
-kana = 'さとう'
-english = 'sugar'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '魚'
-kana = 'さかな'
-english = 'fish'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ご飯'
-kana = 'ごはん'
-english = 'cooked rice; meal'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '紅茶'
-kana = 'こうちゃ'
-english = 'black tea'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '果物'
-kana = 'くだもの'
-english = 'fruit'
+kanji = '喫茶店'
+kana = 'きっさてん'
+english = 'coffee shop'
 level = 'n5'
 tags = []
 
@@ -188,93 +71,179 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '喫茶店'
-kana = 'きっさてん'
-english = 'coffee shop'
+kanji = '果物'
+kana = 'くだもの'
+english = 'fruit'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '辛い'
-kana = 'からい'
-english = 'spicy; hot; salty'
+kanji = '紅茶'
+kana = 'こうちゃ'
+english = 'black tea'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'お弁当'
-kana = 'おべんとう'
-english = 'Japanese boxed lunch'
+kanji = 'ご飯'
+kana = 'ごはん'
+english = 'cooked rice; meal'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'お皿'
-kana = 'おさら'
-english = 'plate'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-
-[[cards]]
-kanji = 'お菓子'
-kana = 'おかし'
-english = 'candy; confections'
+kanji = '魚'
+kana = 'さかな'
+english = 'fish'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '美味しい'
-kana = 'おいしい'
-english = 'delicious'
+kanji = '砂糖'
+kana = 'さとう'
+english = 'sugar'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '甘い'
-kana = 'あまい'
-english = 'sweet-tasting'
-make_kanji_card = true
-level = 'n5'
-tags = ['common', 'food', 'i-adjectives']
-
-[[cards]]
-kanji = 'フォーク'
-kana = 'フォーク'
-english = 'fork'
-level = 'n5'
-tags = []
-
-
-[[cards]]
-kanji = 'バター'
-kana = 'バター'
-english = 'butter'
+kanji = '塩'
+kana = 'しお'
+english = 'salt'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'パン'
-kana = 'パン'
-english = 'bread'
+kanji = '食堂'
+kana = 'しょくどう'
+english = 'cafeteria; dining hall'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'スプーン'
-kana = 'スプーン'
-english = 'spoon'
+kanji = '食べ物'
+kana = 'たべもの'
+english = 'food'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'カレー'
-kana = 'カレー'
-english = 'curry'
+kanji = '卵'
+kana = 'たまご'
+english = 'egg'
 level = 'n5'
 tags = []
 
+[[cards]]
+kanji = '台所'
+kana = 'だいどころ'
+english = 'kitchen'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '茶碗'
+kana = 'ちゃわん'
+english = 'rice bowl; tea cup'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '冷たい'
+kana = 'つめたい'
+english = 'cold (to the touch); coldhearted'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '鳥肉'
+kana = 'とりにく'
+english = 'chicken meat; bird meat'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '肉'
+kana = 'にく'
+english = 'meat'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '温い'
+kana = 'ぬるい'
+english = 'lukewarm'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '飲み物'
+kana = 'のみもの'
+english = 'drink; beverage'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～杯'
+kana = '～はい'
+english = 'counter for cupfuls'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '箸'
+kana = 'はし'
+english = 'chopsticks'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '晩御飯'
+kana = 'ばんごはん'
+english = 'dinner'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '昼ご飯'
+kana = 'ひるはん'
+english = 'lunch'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '豚肉'
+kana = 'ぶたにく'
+english = 'pork'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '水'
+kana = 'みず'
+english = 'water'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '八百屋'
+kana = 'やおや'
+english = 'greengrocer'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '野菜'
+kana = 'やさい'
+english = 'vegetable'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '夕飯'
+kana = 'ゆうはん'
+english = 'evening meal (5-7pmish)'
+level = 'n5'
+tags = []
 
 [[cards]]
 kanji = '料理'
@@ -297,6 +266,12 @@ english = 'cup'
 level = 'n5'
 tags = []
 
+[[cards]]
+kanji = 'カレー'
+kana = 'カレー'
+english = 'curry'
+level = 'n5'
+tags = []
 
 [[cards]]
 kanji = 'コップ'
@@ -305,7 +280,6 @@ english = 'cup'
 level = 'n5'
 tags = []
 
-
 [[cards]]
 kanji = '珈琲'
 kana = 'コーヒー'
@@ -313,6 +287,33 @@ english = 'coffee'
 level = 'n5'
 tags = []
 
+[[cards]]
+kanji = 'スプーン'
+kana = 'スプーン'
+english = 'spoon'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'バター'
+kana = 'バター'
+english = 'butter'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'パン'
+kana = 'パン'
+english = 'bread'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'フォーク'
+kana = 'フォーク'
+english = 'fork'
+level = 'n5'
+tags = []
 
 [[cards]]
 kanji = 'レストラン'
@@ -320,12 +321,4 @@ kana = 'レストラン'
 english = 'restaurant'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = '朝ご飯'
-kana = 'あさごはん'
-english = 'breakfast'
-level = 'n5'
-tags = ['common', 'food']
-
 

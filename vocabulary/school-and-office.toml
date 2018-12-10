@@ -1,119 +1,14 @@
 [[cards]]
-kanji = 'ボールペン'
-kana = 'ボールペン'
-english = 'ballpoint pen'
+kanji = '鉛筆'
+kana = 'えんぴつ'
+english = 'pencil'
 level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'ペン'
-kana = 'ペン'
-english = 'pen'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '留学生'
-kana = 'りゅうがくせい'
-english = 'foreign exchange student'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '難しい'
-kana = 'むずかしい'
-english = 'difficult'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '～枚'
-kana = '～まい'
-english = 'counter for flat things'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '本'
-kana = 'ほん'
-english = 'book'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '文章'
-kana = 'ぶんしょう'
-english = 'sentence; text; essay; prose'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '封筒'
-kana = 'ふうとう'
-english = 'envelope'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '夏休み'
-kana = 'なつやすみ'
-english = 'summer vacation'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '図書館'
-kana = 'としょかん'
-english = 'library'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '机'
-kana = 'つくえ'
-english = 'desk'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '大学'
-kana = 'だいがく'
-english = 'university'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '生徒'
-kana = 'せいと'
-english = 'pupil'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '辞書'
-kana = 'じしょ'
-english = 'dictionary'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '字引'
-kana = 'じびき'
-english = 'dictionary (older word)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '質問'
-kana = 'しつもん'
-english = 'question; inquiry'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '作文'
-kana = 'さくぶん'
-english = 'essay writing; composition'
+kanji = '紙'
+kana = 'かみ'
+english = 'paper'
 level = 'n5'
 tags = []
 
@@ -134,48 +29,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '紙'
-kana = 'かみ'
-english = 'paper'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '鉛筆'
-kana = 'えんぴつ'
-english = 'pencil'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '練習'
-kana = 'れんしゅう'
-english = 'practice; practicing'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ノート'
-kana = 'ノート'
-english = 'notebook'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '先生'
-kana = 'せんせい'
-english = 'teacher; master; doctor (honorific/respectful/sonkeigo)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'クラス'
-kana = 'クラス'
-english = 'class'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '教室'
 kana = 'きょうしつ'
 english = 'classroom'
@@ -183,9 +36,16 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '授業'
-kana = 'じゅぎょう'
-english = 'lesson; class work'
+kanji = '作文'
+kana = 'さくぶん'
+english = 'essay writing; composition'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '質問'
+kana = 'しつもん'
+english = 'question; inquiry'
 level = 'n5'
 tags = []
 
@@ -197,9 +57,135 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '辞書'
+kana = 'じしょ'
+english = 'dictionary'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '字引'
+kana = 'じびき'
+english = 'dictionary (older word)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '授業'
+kana = 'じゅぎょう'
+english = 'lesson; class work'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '生徒'
+kana = 'せいと'
+english = 'pupil'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '先生'
+kana = 'せんせい'
+english = 'teacher; master; doctor (honorific/respectful/sonkeigo)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '大学'
+kana = 'だいがく'
+english = 'university'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '机'
+kana = 'つくえ'
+english = 'desk'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '図書館'
+kana = 'としょかん'
+english = 'library'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '夏休み'
+kana = 'なつやすみ'
+english = 'summer vacation'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '封筒'
+kana = 'ふうとう'
+english = 'envelope'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '文章'
+kana = 'ぶんしょう'
+english = 'sentence; text; essay; prose'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '勉強'
+kana = 'べんきょう'
+english = 'study; diligence'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '本'
+kana = 'ほん'
+english = 'book'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～枚'
+kana = '～まい'
+english = 'counter for flat things'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '難しい'
+kana = 'むずかしい'
+english = 'difficult'
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '問題'
 kana = 'もんだい'
 english = 'question (on a test); problem'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '留学生'
+kana = 'りゅうがくせい'
+english = 'foreign exchange student'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '練習'
+kana = 'れんしゅう'
+english = 'practice; practicing'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'クラス'
+kana = 'クラス'
+english = 'class'
 level = 'n5'
 tags = []
 
@@ -211,9 +197,23 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '勉強'
-kana = 'べんきょう'
-english = 'study; diligence'
+kanji = 'ノート'
+kana = 'ノート'
+english = 'notebook'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ペン'
+kana = 'ペン'
+english = 'pen'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ボールペン'
+kana = 'ボールペン'
+english = 'ballpoint pen'
 level = 'n5'
 tags = []
 

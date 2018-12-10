@@ -1,145 +1,4 @@
 [[cards]]
-kanji = '目'
-kana = 'め'
-english = 'eye; eyeball'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '眼鏡'
-kana = 'めがね'
-english = 'eyeglasses'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '耳'
-kana = 'みみ'
-english = 'ear'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '細い'
-kana = 'ほそい'
-english = 'thin; slender'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '太い'
-kana = 'ふとい'
-english = 'fat; thick'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '病気'
-kana = 'びょうき'
-english = 'sickness; illness; disease'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '病院'
-kana = 'びょういん'
-english = 'hospital'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '鼻'
-kana = 'はな'
-english = 'nose'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '歯'
-kana = 'は'
-english = 'tooth'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '手'
-kana = 'て'
-english = 'hand; arm'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '丈夫'
-kana = 'じょうぶ'
-english = 'healthy; strong; solid; robust'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '声'
-kana = 'こえ'
-english = 'voice'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '元気'
-kana = 'げんき'
-english = 'lively; healthy'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '口'
-kana = 'くち'
-english = 'mouth; opening'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '薬'
-kana = 'くすり'
-english = 'medicine'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '体'
-kana = 'からだ'
-english = 'body'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '風邪'
-kana = 'かぜ'
-english = 'cold; illness'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '顔'
-kana = 'かお'
-english = 'face'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お腹'
-kana = 'おなか'
-english = 'stomach'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '痛い'
-kana = 'いたい'
-english = 'painful ; sore'
-level = 'n5'
-tags = ['common', 'i-adjectives']
-
-[[cards]]
 kanji = '足'
 kana = 'あし'
 english = 'foot; leg'
@@ -153,4 +12,145 @@ kana = 'あたま'
 english = 'head'
 level = 'n5'
 tags = ['common', 'body', 'anatomy']
+
+[[cards]]
+kanji = '痛い'
+kana = 'いたい'
+english = 'painful ; sore'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = 'お腹'
+kana = 'おなか'
+english = 'stomach'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '顔'
+kana = 'かお'
+english = 'face'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '風邪'
+kana = 'かぜ'
+english = 'cold; illness'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '体'
+kana = 'からだ'
+english = 'body'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '薬'
+kana = 'くすり'
+english = 'medicine'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '口'
+kana = 'くち'
+english = 'mouth; opening'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '元気'
+kana = 'げんき'
+english = 'lively; healthy'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '声'
+kana = 'こえ'
+english = 'voice'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '丈夫'
+kana = 'じょうぶ'
+english = 'healthy; strong; solid; robust'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '手'
+kana = 'て'
+english = 'hand; arm'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '歯'
+kana = 'は'
+english = 'tooth'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '鼻'
+kana = 'はな'
+english = 'nose'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '病院'
+kana = 'びょういん'
+english = 'hospital'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '病気'
+kana = 'びょうき'
+english = 'sickness; illness; disease'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '太い'
+kana = 'ふとい'
+english = 'fat; thick'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '細い'
+kana = 'ほそい'
+english = 'thin; slender'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '耳'
+kana = 'みみ'
+english = 'ear'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '目'
+kana = 'め'
+english = 'eye; eyeball'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '眼鏡'
+kana = 'めがね'
+english = 'eyeglasses'
+level = 'n5'
+tags = []
 
