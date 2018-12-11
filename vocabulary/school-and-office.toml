@@ -134,6 +134,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '入試'
+kana = 'にゅうし'
+english = 'entrance exam'
+source = 'manga'
+tags = ['common']
+
+[[cards]]
 kanji = '封筒'
 kana = 'ふうとう'
 english = 'envelope'

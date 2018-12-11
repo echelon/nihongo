@@ -1,0 +1,18 @@
+[[cards]]
+kanji = '喋る'
+kana = 'しゃべる'
+english = 'to chat; to chatter'
+level = 'n3'
+verb-type = 'godan-ru'
+transitive = false
+tags = ['common']
+
+[[cards]]
+kanji = '泣く'
+kana = 'なく'
+english = 'to cry'
+level = 'n4'
+verb-type = 'godan-ku'
+transitive = false
+tags = ['common']
+

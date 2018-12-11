@@ -1,0 +1,130 @@
+[[cards]]
+kanji = '愛好'
+kana = 'あいこう'
+english = 'love; adoration'
+source = 'manga'
+tags = ['common', 'suru-verb', 'noun']
+
+[[cards]]
+disabled = true
+kanji = '以上'
+kana = 'いじょう'
+english = 'not less than'
+level = 'n4'
+source = 'manga'
+tags = ['adverbial-noun', 'common']
+
+[[cards]]
+disabled = true
+kanji = '何時しか'
+kana = 'いつしか'
+english = 'unnoticed; unawares'
+source = 'manga'
+tags = ['uncommon']
+
+[[cards]]
+disabled = true
+kanji = '各地'
+kana = 'かくち'
+english = 'every place'
+level = 'n2'
+source = 'manga'
+tags = ['common']
+
+[[cards]]
+kanji = '現実'
+kana = 'げんじつ'
+english = 'reality; actuality; hard fact'
+level = 'n3'
+source = 'manga'
+tags = ['common']
+
+[[cards]]
+kanji = '個性'
+kana = 'こせい'
+english = 'individuality; personality'
+level = 'n1'
+source = 'manga'
+tags = ['common']
+
+[[cards]]
+kanji = '最初'
+kana = 'さいしょ'
+english = 'beginning; outset'
+level = 'n4'
+source = 'manga'
+tags = ['common', 'no-adjective', 'adverbial-noun', 'temporal-noun']
+
+[[cards]]
+disabled = true
+kanji = '挫折'
+kana = 'ざせつ'
+english = 'setback; failure'
+source = 'manga'
+tags = ['common', 'suru-verb', 'noun']
+
+[[cards]]
+kanji = '社会'
+kana = 'しゃかい'
+english = 'society'
+level = 'n4'
+source = 'manga'
+tags = ['common', 'manga']
+
+[[cards]]
+kanji = '互い'
+kana = 'たがい'
+english = 'mutual; reciprocal'
+level = 'n3'
+source = 'manga'
+tags = ['common']
+
+[[cards]]
+disabled = true
+kanji = '特異体質'
+kana = 'とくいたいしつ'
+english = 'idiosyncrasy'
+source = 'manga'
+tags = ['uncommon']
+
+[[cards]]
+kanji = '発見'
+kana = 'はっけん'
+english = 'discovery; finding'
+level = 'n3'
+source = 'manga'
+tags = ['common', 'suru-verb', 'noun']
+
+[[cards]]
+kanji = '吃驚'
+kana = 'びっくり'
+english = 'to be surprised; to be amazed; to get startled'
+level = 'n3'
+tags = ['common', 'suru-verb', 'adverb']
+
+[[cards]]
+disabled = true
+kanji = '平等'
+kana = 'びょうどう'
+english = 'equality; impartiality'
+level = 'n3'
+source = 'manga'
+tags = ['common']
+
+[[cards]]
+disabled = true
+kanji = '無事'
+kana = 'ぶじ'
+english = 'safe and quietness'
+level = 'n3'
+source = 'manga'
+tags = ['common']
+
+[[cards]]
+disabled = true
+kanji = '許し'
+kana = 'ゆるし'
+english = 'forgiveness; pardon'
+source = 'manga'
+tags = ['common']
+

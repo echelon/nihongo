@@ -57,6 +57,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '筋肉'
+kana = 'きんにく'
+english = 'muscle'
+level = 'n3'
+source = 'manga'
+tags = ['common']
+
+[[cards]]
 kanji = '薬'
 kana = 'くすり'
 english = 'medicine'

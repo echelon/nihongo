@@ -21,6 +21,13 @@ level = 'n5'
 tags = ['common', 'weather']
 
 [[cards]]
+kanji = '嵐'
+kana = 'あらし'
+english = 'storm'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
 kanji = '傘'
 kana = 'かさ'
 english = 'umbrella'
@@ -138,6 +145,13 @@ kanji = '晴れ'
 kana = 'はれ'
 english = 'clear weather; fine weather'
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '吹雪'
+kana = 'ふぶき'
+english = 'snow storm; blizzard'
+level = 'n2'
 tags = ['common']
 
 [[cards]]

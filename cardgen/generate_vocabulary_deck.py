@@ -161,6 +161,7 @@ def read_vocabulary_notes(filename):
 
 total_notes = 0
 total_cards = 0
+total_disabled = 0
 
 for filename in glob.glob('**/*.toml', recursive=True):
   if 'cardgen' in filename:
@@ -168,6 +169,9 @@ for filename in glob.glob('**/*.toml', recursive=True):
   print('Loading file: {0}'.format(filename))
   notes = read_vocabulary_notes(filename)
   for n in notes:
+    if 'disabled' in n and n['disabled']:
+      total_disabled += 1
+      continue
     note = Note(n)
     KANJI_CARD_DECK.add_note(note)
     total_notes += 1
@@ -175,6 +179,8 @@ for filename in glob.glob('**/*.toml', recursive=True):
 
 print('Total notes: {0}'.format(total_notes))
 print('Total cards: {0}'.format(total_cards))
+print('Total disabled: {0}'.format(total_disabled))
 print('Output file: {0}'.format(OUTPUT_FILENAME))
+
 genanki.Package(KANJI_CARD_DECK).write_to_file(OUTPUT_FILENAME)
 
