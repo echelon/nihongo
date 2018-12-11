@@ -1,4 +1,62 @@
 [[cards]]
+kanji = '会う'
+kana = 'あう'
+english = 'to meet'
+make_kanji_card = true
+verb-type = 'godan-u'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '開く'
+kana = 'あく'
+english = 'to open (eg. doors); to open (eg. business); to become open'
+make_kanji_card = false
+verb-type = 'godan-ku'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '開ける'
+kana = 'あける'
+english = 'to open (eg. a door); to open (eg. for business)'
+make_kanji_card = false
+verb-type = 'ichidan'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '上げる'
+kana = 'あげる'
+english = 'to raise; to give'
+make_kanji_card = true
+verb-type = 'ichidan'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '貸す'
+kana = 'かす'
+english = 'to lend'
+level = 'n5'
+verb-type = 'godan-su'
+transitive = true
+tags = ['common']
+
+[[cards]]
+kanji = '曇る'
+kana = 'くもる'
+english = 'to get cloudy'
+level = 'n5'
+verb-type = 'godan-ru'
+transitive = false
+tags = ['common']
+
+[[cards]]
 kanji = '喋る'
 kana = 'しゃべる'
 english = 'to chat; to chatter'
@@ -8,11 +66,29 @@ transitive = false
 tags = ['common']
 
 [[cards]]
+kanji = '使う'
+kana = 'つかう'
+english = 'to use'
+level = 'n5'
+verb-type = 'godan-u'
+transitive = true
+tags = ['common']
+
+[[cards]]
 kanji = '泣く'
 kana = 'なく'
 english = 'to cry'
 level = 'n4'
 verb-type = 'godan-ku'
 transitive = false
+tags = ['common']
+
+[[cards]]
+kanji = '無くす'
+kana = 'なくす'
+english = 'to lose (something)'
+level = 'n5'
+verb-type = 'godan-su'
+transitive = true
 tags = ['common']
 
