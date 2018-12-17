@@ -6,6 +6,14 @@ level = 'n5'
 tags = ['common', 'noun', 'nature', 'outdoors']
 
 [[cards]]
+kanji = '海'
+kana = 'うみ'
+english = 'sea; ocean'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '川'
 kana = 'かわ'
 english = 'river'
@@ -26,6 +34,29 @@ kana = 'こうえん'
 english = '(public) park'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '滝'
+kana = 'たき'
+english = 'waterfall'
+level = 'n2'
+source = 'sekai-wa-fushigi-2'
+tags = ['common', 'nature', 'geography']
+
+[[cards]]
+kanji = '地域'
+kana = 'ちいき'
+english = 'area; region'
+level = 'n3'
+source = 'sekai-wa-fushigi-2'
+tags = ['common', 'geography']
+
+[[cards]]
+kanji = '地図'
+kana = 'ちず'
+english = 'map'
+level = 'n5'
+tags = ['common']
 
 [[cards]]
 kanji = '庭'

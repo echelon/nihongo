@@ -12,15 +12,7 @@ kana = 'いじょう'
 english = 'not less than'
 level = 'n4'
 source = 'manga'
-tags = ['adverbial-noun', 'common']
-
-[[cards]]
-disabled = true
-kanji = '何時しか'
-kana = 'いつしか'
-english = 'unnoticed; unawares'
-source = 'manga'
-tags = ['uncommon']
+tags = ['adverbial-noun', 'temporal-noun', 'common']
 
 [[cards]]
 disabled = true
@@ -29,7 +21,7 @@ kana = 'かくち'
 english = 'every place'
 level = 'n2'
 source = 'manga'
-tags = ['common']
+tags = ['common', 'noun', 'no-adjective']
 
 [[cards]]
 kanji = '現実'
@@ -37,7 +29,7 @@ kana = 'げんじつ'
 english = 'reality; actuality; hard fact'
 level = 'n3'
 source = 'manga'
-tags = ['common']
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '個性'
@@ -77,7 +69,7 @@ kana = 'たがい'
 english = 'mutual; reciprocal'
 level = 'n3'
 source = 'manga'
-tags = ['common']
+tags = ['common', 'noun']
 
 [[cards]]
 disabled = true
@@ -85,7 +77,7 @@ kanji = '特異体質'
 kana = 'とくいたいしつ'
 english = 'idiosyncrasy'
 source = 'manga'
-tags = ['uncommon']
+tags = ['uncommon', 'noun', 'no-adjective']
 
 [[cards]]
 kanji = '発見'
@@ -94,13 +86,6 @@ english = 'discovery; finding'
 level = 'n3'
 source = 'manga'
 tags = ['common', 'suru-verb', 'noun']
-
-[[cards]]
-kanji = '吃驚'
-kana = 'びっくり'
-english = 'to be surprised; to be amazed; to get startled'
-level = 'n3'
-tags = ['common', 'suru-verb', 'adverb']
 
 [[cards]]
 disabled = true

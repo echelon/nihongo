@@ -39,6 +39,16 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '落ちる'
+kana = 'おちる'
+english = 'to fall down; to drop'
+make_kanji_card = true
+verb-type = 'ichidan'
+transitive = false
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '貸す'
 kana = 'かす'
 english = 'to lend'

@@ -7,33 +7,11 @@ level = 'n5'
 tags = ['common', 'food']
 
 [[cards]]
-kanji = '甘い'
-kana = 'あまい'
-english = 'sweet-tasting'
-make_kanji_card = true
-level = 'n5'
-tags = ['common', 'food', 'i-adjectives']
-
-[[cards]]
 kanji = '飴'
 kana = 'あめ'
 english = 'hard candy; toffee'
 level = 'n5'
 tags = ['common', 'food']
-
-[[cards]]
-kanji = '薄い'
-kana = 'うすい'
-english = 'thin; weak (eg. taste)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '美味しい'
-kana = 'おいしい'
-english = 'delicious'
-level = 'n5'
-tags = []
 
 [[cards]]
 kanji = 'お菓子'
@@ -62,13 +40,6 @@ tags = []
 kanji = 'お弁当'
 kana = 'おべんとう'
 english = 'Japanese boxed lunch'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '辛い'
-kana = 'からい'
-english = 'spicy; hot; salty'
 level = 'n5'
 tags = []
 
@@ -199,13 +170,6 @@ kana = 'にく'
 english = 'meat'
 level = 'n5'
 make_kanji_card = true
-tags = []
-
-[[cards]]
-kanji = '温い'
-kana = 'ぬるい'
-english = 'lukewarm'
-level = 'n5'
 tags = []
 
 [[cards]]

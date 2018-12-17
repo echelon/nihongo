@@ -1,0 +1,439 @@
+[[cards]]
+kanji = '青い'
+kana = 'あおい'
+english = 'blue'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'i-adjective', 'color']
+
+[[cards]]
+kanji = '赤い'
+kana = 'あかい'
+english = 'red'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'i-adjective', 'color']
+
+[[cards]]
+kanji = '明るい'
+kana = 'あかるい'
+english = 'light; bright; cheerful'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'i-adjective', 'appearance', 'mood']
+
+[[cards]]
+kanji = '新しい'
+kana = 'あたらしい'
+english = 'new'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '熱い'
+kana = 'あつい'
+english = 'hot (thing); passionate'
+level = 'n5'
+tags = ['common', 'temperature', 'i-adjectives']
+
+[[cards]]
+kanji = '危ない'
+kana = 'あぶない'
+english = 'dangerous; watch out!'
+level = 'n5'
+tags = ['common', 'i-adjectives', 'expressions']
+
+[[cards]]
+kanji = '甘い'
+kana = 'あまい'
+english = 'sweet-tasting'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'food', 'i-adjectives']
+
+[[cards]]
+kanji = '忙しい'
+kana = 'いそがしい'
+english = 'busy; hectic'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '色々'
+kana = 'いろいろ'
+make_kanji_card = true
+english = 'various'
+level = 'n5'
+tags = ['no-adjective', 'na-adjective', 'adverb', 'noun']
+
+[[cards]]
+kanji = '薄い'
+kana = 'うすい'
+english = 'thin; weak (eg. taste)'
+level = 'n5'
+tags = ['i-adjectives', 'common']
+
+[[cards]]
+kanji = '煩い'
+kana = 'うるさい'
+english = 'loud; annoying'
+level = 'n5'
+tags = ['i-adjective']
+
+[[cards]]
+kanji = '美味しい'
+kana = 'おいしい'
+english = 'delicious'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '多い'
+kana = 'おおい'
+english = 'many'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '大きい'
+kana = 'おおきい'
+english = 'big'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '遅い'
+kana = 'おそい'
+english = 'slow ; late'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '重い'
+kana = 'おもい'
+english = 'heavy'
+level = 'n5'
+tags = ['i-adjective', 'common']
+
+[[cards]]
+kanji = '面白い'
+kana = 'おもしろい'
+english = 'interesting; amusing'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '辛い'
+kana = 'からい'
+english = 'spicy; hot; salty'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '軽い'
+kana = 'かるい'
+english = 'light (weight); non-serious'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '可愛い'
+kana = 'かわいい'
+english = 'cute; adorable'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '黄色い'
+kana = 'きいろい'
+english = 'yellow'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '汚い'
+kana = 'きたない'
+english = 'dirty; messy'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '嫌い'
+kana = 'きらい'
+english = 'dislike; hate'
+level = 'n5'
+tags = ['common', 'na-adjective']
+
+[[cards]]
+kanji = '綺麗'
+kana = 'きれい'
+english = 'pretty; clean; tidy'
+level = 'n5'
+tags = ['common', 'na-adjective']
+
+[[cards]]
+kanji = '臭い'
+kana = 'くさい'
+english = 'stinky; smelly'
+level = 'n3'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '黒い'
+kana = 'くろい'
+english = 'black'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '静か'
+kana = 'しずか'
+english = 'quiet; peaceful'
+level = 'n5'
+tags = ['common', 'na-adjectives']
+
+[[cards]]
+kanji = '白い'
+kana = 'しろい'
+english = 'white'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '上手'
+kana = 'じょうず'
+english = 'skillful'
+level = 'n5'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '清々しい'
+kana = 'すがすがしい'
+english = 'refreshing; brisk'
+level = 'n1'
+source = 'sekai-wa-fushigi-2'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '好き'
+kana = 'すき'
+english = 'liking; fondness; favorite; love'
+level = 'n5'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '少ない'
+kana = 'すくない'
+english = 'a few; scarce'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '狭い'
+kana = 'せまい'
+english = 'narrow; confined; cramped'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '大切'
+kana = 'たいせつ'
+english = 'important; necessary'
+level = 'n5'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '高い'
+kana = 'たかい'
+english = 'tall; high; expensive'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '大丈夫'
+kana = 'だいじょうぶ'
+english = 'safe; alright; OK; no thanks'
+level = 'n5'
+make_kanji_card = true
+tags = ['common', 'na-adjective', 'adverb']
+
+[[cards]]
+kanji = '大好き'
+kana = 'だいすき'
+english = 'lovable; like very much'
+level = 'n5'
+make_kanji_card = true
+tags = ['common', 'na-adjective']
+
+[[cards]]
+kanji = '小さい'
+kana = 'ちいさい'
+english = 'small; little'
+level = 'n5'
+make_kanji_card = true
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '近い'
+kana = 'ちかい'
+english = 'near; close by'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '詰らない'
+kana = 'つまらない'
+english = 'dull; uninteresting; boring; insignificant'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '強い'
+kana = 'つよい'
+english = 'strong; powerful'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '遠い'
+kana = 'とおい'
+english = 'far; distant'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '長い'
+kana = 'ながい'
+english = 'long (distance)'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '賑やか'
+kana = 'にぎやか'
+english = 'bustling; busy; lively'
+level = 'n5'
+tags = ['common', 'na-adjective']
+
+[[cards]]
+kanji = '温い'
+kana = 'ぬるい'
+english = 'lukewarm'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '早い'
+kana = 'はやい'
+english = 'quick; fast; early (in the day)'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '低い'
+kana = 'ひくい'
+english = 'short (height); low (rank, value)'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '広い'
+kana = 'ひろい'
+english = 'wide; vast; spacious'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '古い'
+kana = 'ふるい'
+english = 'old (things not people); aged; ancient'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '下手'
+kana = 'へた'
+english = 'unskilled; unskillful'
+level = 'n5'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '便利'
+kana = 'べんり'
+english = 'convenient; handy; useful'
+level = 'n5'
+tags = ['common', 'na-adjective']
+
+[[cards]]
+kanji = '欲しい'
+kana = 'ほしい'
+english = 'desired; want; wished for; need'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '丸い'
+kana = 'まるい'
+english = 'round; circular'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '短い'
+kana = 'みじかい'
+english = 'short (length or distance, not height)'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+disabled = true
+kanji = '盛りだくさん'
+kana = 'もりだくさん'
+english = 'varied; all sorts; many'
+source = 'sekai-wa-fushigi-2'
+tags = ['uncommon', 'na-adjective', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '易しい'
+kana = 'やさしい'
+english = 'easy; simple'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '安い'
+kana = 'やすい'
+english = 'cheap; inexpensive'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '有名'
+kana = 'ゆうめい'
+english = 'famous'
+level = 'n5'
+tags = ['common', 'na-adjective']
+
+[[cards]]
+kanji = '弱い'
+kana = 'よわい'
+english = 'weak; frail'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '立派'
+kana = 'りっぱ'
+english = 'splendid; fine; handsome'
+level = 'n5'
+tags = ['common', 'na-adjective']
+
+[[cards]]
+kanji = '悪い'
+kana = 'わるい'
+english = 'bad; poor; inferior; evil'
+level = 'n5'
+tags = ['common', 'i-adjective']
+

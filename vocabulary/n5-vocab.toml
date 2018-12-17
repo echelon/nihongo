@@ -13,14 +13,6 @@ level = 'n5'
 tags = ['common', 'noun', 'no-adjective', 'color']
 
 [[cards]]
-kanji = '青い'
-kana = 'あおい'
-english = 'blue'
-make_kanji_card = true
-level = 'n5'
-tags = ['common', 'i-adjective', 'color']
-
-[[cards]]
 kanji = '赤'
 kana = 'あか'
 english = 'red'
@@ -29,56 +21,11 @@ make_kanji_card = true
 tags = ['common', 'noun', 'no-adjective', 'color']
 
 [[cards]]
-kanji = '赤い'
-kana = 'あかい'
-english = 'red'
-make_kanji_card = true
-level = 'n5'
-tags = ['common', 'i-adjective', 'color']
-
-[[cards]]
-kanji = '明るい'
-kana = 'あかるい'
-english = 'light; bright; cheerful'
-make_kanji_card = true
-level = 'n5'
-tags = ['common', 'i-adjective', 'appearance', 'mood']
-
-[[cards]]
-kanji = '新しい'
-kana = 'あたらしい'
-english = 'new'
-make_kanji_card = true
-level = 'n5'
-tags = ['common', 'i-adjectives']
-
-[[cards]]
-kanji = '熱い'
-kana = 'あつい'
-english = 'hot (thing); passionate'
-level = 'n5'
-tags = ['common', 'temperature', 'i-adjectives']
-
-[[cards]]
 kanji = 'あのう'
 kana = 'あのう'
 english = 'um...; well...'
 level = 'n5'
 tags = ['common', 'expressions']
-
-[[cards]]
-kanji = '危ない'
-kana = 'あぶない'
-english = 'dangerous; watch out!'
-level = 'n5'
-tags = ['common', 'i-adjectives', 'expressions']
-
-[[cards]]
-kanji = '余り'
-kana = 'あまり'
-english = 'not very; not much'
-level = 'n5'
-tags = ['common', 'no-adjective', 'na-adjective', 'adverb']
 
 [[cards]]
 kanji = 'いい'
@@ -93,13 +40,6 @@ kana = 'いいえ'
 english = "no; not at all; don't mention it"
 level = 'n5'
 tags = ['common', 'basic']
-
-[[cards]]
-kanji = '忙しい'
-kana = 'いそがしい'
-english = 'busy; hectic'
-level = 'n5'
-tags = ['common', 'i-adjectives']
 
 [[cards]]
 kanji = '一'
@@ -122,7 +62,7 @@ kanji = '一緒'
 kana = 'いっしょ'
 english = 'together'
 level = 'n5'
-tags = []
+tags = ['adverbial-noun', 'temporal-noun', 'no-adjective']
 
 [[cards]]
 kanji = '五つ'
@@ -163,14 +103,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '色々'
-kana = 'いろいろ'
-make_kanji_card = true
-english = 'various'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '上'
 kana = 'うえ'
 english = 'above; up; on top of'
@@ -189,21 +121,6 @@ tags = []
 kanji = '歌'
 kana = 'うた'
 english = 'song'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '海'
-kana = 'うみ'
-english = 'sea; ocean'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '煩い'
-kana = 'うるさい'
-english = 'loud; annoying'
 level = 'n5'
 tags = []
 
@@ -252,21 +169,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '多い'
-kana = 'おおい'
-english = 'many'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '大きい'
-kana = 'おおきい'
-english = 'big'
-make_kanji_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'お金'
 kana = 'おかね'
 english = 'money'
@@ -282,40 +184,12 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '遅い'
-kana = 'おそい'
-english = 'slow ; late'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '同じ'
 kana = 'おなじ'
 english = 'same; identical'
 make_kanji_card = true
 level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お風呂'
-kana = 'おふろ'
-english = 'bath'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '重い'
-kana = 'おもい'
-english = 'heavy'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '面白い'
-kana = 'おもしろい'
-english = 'interesting; amusing'
-level = 'n5'
-tags = []
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '音楽'
@@ -391,20 +265,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '軽い'
-kana = 'かるい'
-english = 'light (weight); non-serious'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '可愛い'
-kana = 'かわいい'
-english = 'cute; adorable'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '漢字'
 kana = 'かんじ'
 english = 'Chinese character(s)'
@@ -427,25 +287,11 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '黄色い'
-kana = 'きいろい'
-english = 'yellow'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '北'
 kana = 'きた'
 english = 'north'
 level = 'n5'
 make_kanji_card = true
-tags = []
-
-[[cards]]
-kanji = '汚い'
-kana = 'きたない'
-english = 'dirty; messy'
-level = 'n5'
 tags = []
 
 [[cards]]
@@ -468,20 +314,6 @@ kana = 'きゅう'
 english = 'nine'
 level = 'n5'
 make_kanji_card = true
-tags = []
-
-[[cards]]
-kanji = '嫌い'
-kana = 'きらい'
-english = 'dislike; hate'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '綺麗'
-kana = 'きれい'
-english = 'pretty; clean; tidy'
-level = 'n5'
 tags = []
 
 [[cards]]
@@ -515,13 +347,6 @@ tags = []
 [[cards]]
 kanji = '黒'
 kana = 'くろ'
-english = 'black'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '黒い'
-kana = 'くろい'
 english = 'black'
 level = 'n5'
 tags = []
@@ -661,13 +486,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '静か'
-kana = 'しずか'
-english = 'quiet; peaceful'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '下'
 kana = 'した'
 english = 'below; under; bottom'
@@ -691,13 +509,6 @@ tags = []
 [[cards]]
 kanji = '白'
 kana = 'しろ'
-english = 'white'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '白い'
-kana = 'しろい'
 english = 'white'
 level = 'n5'
 tags = []
@@ -739,41 +550,6 @@ make_kanji_card = true
 tags = []
 
 [[cards]]
-kanji = '上手'
-kana = 'じょうず'
-english = 'skillful'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '好き'
-kana = 'すき'
-english = 'liking; fondness; favorite; love'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '少ない'
-kana = 'すくない'
-english = 'a few; scarce'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '少し'
-kana = 'すこし'
-english = 'small quantity; little; few'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '狭い'
-kana = 'せまい'
-english = 'narrow; confined; cramped'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '千'
 kana = 'せん'
 english = 'thousand'
@@ -785,7 +561,7 @@ kanji = '全部'
 kana = 'ぜんぶ'
 english = 'all; entire; whole'
 level = 'n5'
-tags = []
+tags = ['adverbial-noun', 'common', 'temporal-noun', 'no-adjective']
 
 [[cards]]
 kanji = 'そう'
@@ -806,14 +582,14 @@ kanji = '外'
 kana = 'そと'
 english = 'outside; exterior'
 level = 'n5'
-tags = []
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '側'
 kana = 'そば'
 english = 'near; close; vicinity'
 level = 'n5'
-tags = []
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '其れから'
@@ -837,32 +613,11 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '大切'
-kana = 'たいせつ'
-english = 'important; necessary'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '大変'
-kana = 'たいへん'
-english = 'very; terrible'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '高い'
-kana = 'たかい'
-english = 'tall; high; expensive'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '沢山'
 kana = 'たくさん'
 english = 'a lot; many; much'
 level = 'n5'
-tags = []
+tags = ['common', 'no-adjective', 'noun', 'adverbial-noun']
 
 [[cards]]
 kanji = '～達'
@@ -876,7 +631,7 @@ kanji = '縦'
 kana = 'たて'
 english = 'length; height'
 level = 'n5'
-tags = []
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '建物'
@@ -890,14 +645,7 @@ kanji = '楽しい'
 kana = 'たのしい'
 english = 'enjoyable; fun; pleasant'
 level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '多分'
-kana = 'たぶん'
-english = 'perhaps; probably'
-level = 'n5'
-tags = []
+tags = ['common', 'i-adective']
 
 [[cards]]
 kanji = '～台'
@@ -907,70 +655,25 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '大丈夫'
-kana = 'だいじょうぶ'
-english = 'safe; alright; OK; no thanks'
-level = 'n5'
-make_kanji_card = true
-tags = []
-
-[[cards]]
-kanji = '大好き'
-kana = 'だいすき'
-english = 'lovable; like very much'
-level = 'n5'
-make_kanji_card = true
-tags = []
-
-[[cards]]
-kanji = '段々'
-kana = 'だんだん'
-english = 'gradually; little by little'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '小さい'
-kana = 'ちいさい'
-english = 'small; little'
-level = 'n5'
-make_kanji_card = true
-tags = []
-
-[[cards]]
 kanji = '小さな'
 kana = 'ちいさな'
 english = 'small; little'
 level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '近い'
-kana = 'ちかい'
-english = 'near; close by'
-level = 'n5'
-tags = []
+tags = ['common', 'pre-noun-adjectival']
 
 [[cards]]
 kanji = '近く'
 kana = 'ちかく'
 english = 'near; vicinity'
 level = 'n5'
-tags = []
+tags = ['common', 'no-adjective', 'adverbial-noun']
 
 [[cards]]
 kanji = '地下鉄'
 kana = 'ちかてつ'
 english = 'underground train; subway'
 level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '地図'
-kana = 'ちず'
-english = 'map'
-level = 'n5'
-tags = []
+tags = ['common', 'transportation']
 
 [[cards]]
 kanji = '茶色'
@@ -981,39 +684,11 @@ make_kanji_card = true
 tags = []
 
 [[cards]]
-kanji = '丁度'
-kana = 'ちょうど'
-english = 'exactly; right'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '一寸'
-kana = 'ちょっと'
-english = 'a little; somewhat; excuse me!'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '次'
 kana = 'つぎ'
 english = 'next'
 level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '詰らない'
-kana = 'つまらない'
-english = 'dull; uninteresting; boring; insignificant'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '強い'
-kana = 'つよい'
-english = 'strong; powerful'
-level = 'n5'
-tags = []
+tags = ['common', 'noun', 'no-adjective']
 
 [[cards]]
 kanji = '出口'
@@ -1063,23 +738,9 @@ make_kanji_card = true
 tags = []
 
 [[cards]]
-kanji = '遠い'
-kana = 'とおい'
-english = 'far; distant'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '所'
 kana = 'ところ'
 english = 'place; area'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '迚も'
-kana = 'とても'
-english = 'very ; exceedingly'
 level = 'n5'
 tags = []
 
@@ -1088,7 +749,7 @@ kanji = '隣'
 kana = 'となり'
 english = 'next to; nextdoor to; neighbor'
 level = 'n5'
-tags = []
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '～度'
@@ -1127,13 +788,6 @@ make_kanji_card = true
 tags = []
 
 [[cards]]
-kanji = '長い'
-kana = 'ながい'
-english = 'long (distance)'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '七つ'
 kana = 'ななつ'
 english = 'seven (things)'
@@ -1159,13 +813,6 @@ tags = []
 kanji = '二'
 kana = 'に'
 english = 'two'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '賑やか'
-kana = 'にぎやか'
-english = 'bustling; busy; lively'
 level = 'n5'
 tags = []
 
@@ -1219,13 +866,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '初めて'
-kana = 'はじめて'
-english = 'for the first time'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '二十歳'
 kana = 'はたち'
 english = '20 years old'
@@ -1243,13 +883,6 @@ tags = []
 kanji = '話'
 kana = 'はなし'
 english = 'talk; story; speech'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '早い'
-kana = 'はやい'
-english = 'quick; fast; early (in the day)'
 level = 'n5'
 tags = []
 
@@ -1289,13 +922,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '低い'
-kana = 'ひくい'
-english = 'short (height); low (rank, value)'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '飛行機'
 kana = 'ひこうき'
 english = 'airplane'
@@ -1331,30 +957,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '広い'
-kana = 'ひろい'
-english = 'wide; vast; spacious'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '二つ'
 kana = 'ふたつ'
 english = 'two'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '古い'
-kana = 'ふるい'
-english = 'old (things not people); aged; ancient'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '下手'
-kana = 'へた'
-english = 'unskilled; unskillful'
 level = 'n5'
 tags = []
 
@@ -1363,35 +968,21 @@ kanji = '辺'
 kana = 'へん'
 english = 'area; vicinity; region'
 level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '便利'
-kana = 'べんり'
-english = 'convenient; handy; useful'
-level = 'n5'
-tags = []
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '方'
 kana = 'ほう'
 english = 'way; direction; method; side'
 level = 'n5'
-tags = []
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '他'
 kana = 'ほか'
 english = 'other (person, place, thing); the rest'
 level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '欲しい'
-kana = 'ほしい'
-english = 'desired; want; wished for; need'
-level = 'n5'
-tags = []
+tags = ['common', 'noun', 'no-adjective']
 
 [[cards]]
 kanji = '～本'
@@ -1405,14 +996,14 @@ kanji = '本当'
 kana = 'ほんとう'
 english = 'truth; reality'
 level = 'n5'
-tags = []
+tags = ['common', 'no-adjective', 'na-adjective', 'adverb', 'noun']
 
 [[cards]]
 kanji = '前'
 kana = 'まえ'
 english = 'before; in front of'
 level = 'n5'
-tags = []
+tags = ['common', 'adverbial-noun', 'temporal-noun', 'suffix']
 
 [[cards]]
 kanji = '～前'
@@ -1426,33 +1017,12 @@ kanji = '又'
 kana = 'また'
 english = 'again'
 level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '未だ'
-kana = 'まだ'
-english = 'not yet; still; besides'
-level = 'n5'
-tags = []
+tags = ['common', 'adverb', 'conjunction', 'prefix']
 
 [[cards]]
 kanji = '町'
 kana = 'まち'
 english = 'town; city'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '真っ直ぐ'
-kana = 'まっすぐ'
-english = 'straight ahead; direct'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '丸い'
-kana = 'まるい'
-english = 'round; circular'
 level = 'n5'
 tags = []
 
@@ -1467,13 +1037,6 @@ tags = []
 kanji = '右'
 kana = 'みぎ'
 english = 'right'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '短い'
-kana = 'みじかい'
-english = 'short'
 level = 'n5'
 tags = []
 
@@ -1503,7 +1066,7 @@ kanji = '緑'
 kana = 'みどり'
 english = 'green'
 level = 'n5'
-tags = []
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '南'
@@ -1515,9 +1078,9 @@ tags = []
 [[cards]]
 kanji = '向こう'
 kana = 'むこう'
-english = 'opposite side; beyond; over there'
+english = 'opposite side; far away; beyond; over there'
 level = 'n5'
-tags = []
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '六つ'
@@ -1527,23 +1090,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'もう'
-kana = 'もう'
-english = 'already; again'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'もしもし'
 kana = 'もしもし'
 english = 'hello (said on phone)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'もっと'
-kana = 'もっと'
-english = 'more; longer; further'
 level = 'n5'
 tags = []
 
@@ -1569,20 +1118,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '易しい'
-kana = 'やさしい'
-english = 'easy; simple'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '安い'
-kana = 'やすい'
-english = 'cheap; inexpensive'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '八つ'
 kana = 'やっつ'
 english = 'eight'
@@ -1597,32 +1132,11 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '有名'
-kana = 'ゆうめい'
-english = 'famous'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ゆっくり'
-kana = 'ゆっくり'
-english = 'slowly; at ease'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '良い'
 kana = 'よい'
 english = 'good; OK'
 level = 'n5'
 tags = ['common', 'expressions']
-
-[[cards]]
-kanji = '良く'
-kana = 'よく'
-english = 'well; skillfully; frequently'
-level = 'n5'
-tags = []
 
 [[cards]]
 kanji = '横'
@@ -1635,20 +1149,6 @@ tags = []
 kanji = '四つ'
 kana = 'よっつ'
 english = 'four'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '弱い'
-kana = 'よわい'
-english = 'weak; frail'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '立派'
-kana = 'りっぱ'
-english = 'splendid; fine; handsome'
 level = 'n5'
 tags = []
 
@@ -1677,13 +1177,6 @@ tags = []
 kanji = '六'
 kana = 'ろく'
 english = 'six'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '悪い'
-kana = 'わるい'
-english = 'bad; poor; inferior; evil'
 level = 'n5'
 tags = []
 
