@@ -4,14 +4,14 @@ kana = 'あし'
 english = 'foot; leg'
 make_kanji_card = true
 level = 'n5'
-tags = ['common', 'body']
+tags = ['body', 'common']
 
 [[cards]]
 kanji = '頭'
 kana = 'あたま'
 english = 'head'
 level = 'n5'
-tags = ['common', 'body', 'anatomy']
+tags = ['anatomy', 'body', 'common']
 
 [[cards]]
 kanji = '医者'
@@ -128,7 +128,7 @@ kanji = '涙'
 kana = 'なみだ'
 english = 'tear(s)'
 level = 'n3'
-tags = ['common', 'body']
+tags = ['body', 'common']
 
 [[cards]]
 kanji = '歯'

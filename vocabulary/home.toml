@@ -4,14 +4,14 @@ kana = 'いえ'
 english = 'house; family; household'
 make_kanji_card = true
 level = 'n5'
-tags = ['common', 'home', 'places', 'family']
+tags = ['common', 'family', 'home', 'places']
 
 [[cards]]
 kanji = '椅子'
 kana = 'いす'
 english = 'chair; stool'
 level = 'n5'
-tags = ['common', 'home', 'furniture']
+tags = ['common', 'furniture', 'home']
 
 [[cards]]
 kanji = '家'
@@ -74,7 +74,7 @@ kanji = '寝台'
 kana = 'しんだい'
 english = 'bed; couch'
 level = 'n2'
-tags = ['furniture', 'common']
+tags = ['common', 'furniture']
 
 [[cards]]
 kanji = '石鹸'
@@ -116,7 +116,7 @@ kanji = '部屋'
 kana = 'へや'
 english = 'room'
 level = 'n5'
-tags = ['common', 'buildings', 'places']
+tags = ['buildings', 'common', 'places']
 
 [[cards]]
 kanji = '本棚'
@@ -144,7 +144,7 @@ kanji = 'アパート'
 kana = 'アパート'
 english = 'apartment'
 level = 'n5'
-tags = ['common', 'gairaigo', 'places', 'home', 'buildings']
+tags = ['buildings', 'common', 'gairaigo', 'home', 'places']
 
 [[cards]]
 kanji = 'シャワー'

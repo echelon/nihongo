@@ -4,7 +4,7 @@ kana = 'あおい'
 english = 'blue'
 make_kanji_card = true
 level = 'n5'
-tags = ['common', 'i-adjective', 'color']
+tags = ['color', 'common', 'i-adjective']
 
 [[cards]]
 kanji = '赤い'
@@ -12,7 +12,7 @@ kana = 'あかい'
 english = 'red'
 make_kanji_card = true
 level = 'n5'
-tags = ['common', 'i-adjective', 'color']
+tags = ['color', 'common', 'i-adjective']
 
 [[cards]]
 kanji = '明るい'
@@ -20,7 +20,7 @@ kana = 'あかるい'
 english = 'light; bright; cheerful'
 make_kanji_card = true
 level = 'n5'
-tags = ['common', 'i-adjective', 'appearance', 'mood']
+tags = ['appearance', 'common', 'i-adjective', 'mood']
 
 [[cards]]
 kanji = '新しい'
@@ -35,14 +35,14 @@ kanji = '熱い'
 kana = 'あつい'
 english = 'hot (thing); passionate'
 level = 'n5'
-tags = ['common', 'temperature', 'i-adjectives']
+tags = ['common', 'i-adjectives', 'temperature']
 
 [[cards]]
 kanji = '危ない'
 kana = 'あぶない'
 english = 'dangerous; watch out!'
 level = 'n5'
-tags = ['common', 'i-adjectives', 'expressions']
+tags = ['common', 'expressions', 'i-adjectives']
 
 [[cards]]
 kanji = '甘い'
@@ -65,14 +65,14 @@ kana = 'いろいろ'
 make_kanji_card = true
 english = 'various'
 level = 'n5'
-tags = ['no-adjective', 'na-adjective', 'adverb', 'noun']
+tags = ['adverb', 'na-adjective', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '薄い'
 kana = 'うすい'
 english = 'thin; weak (eg. taste)'
 level = 'n5'
-tags = ['i-adjectives', 'common']
+tags = ['common', 'i-adjectives']
 
 [[cards]]
 kanji = '煩い'
@@ -115,7 +115,7 @@ kanji = '重い'
 kana = 'おもい'
 english = 'heavy'
 level = 'n5'
-tags = ['i-adjective', 'common']
+tags = ['common', 'i-adjective']
 
 [[cards]]
 kanji = '面白い'
@@ -257,7 +257,7 @@ kana = 'だいじょうぶ'
 english = 'safe; alright; OK; no thanks'
 level = 'n5'
 make_kanji_card = true
-tags = ['common', 'na-adjective', 'adverb']
+tags = ['adverb', 'common', 'na-adjective']
 
 [[cards]]
 kanji = '大好き'
@@ -393,7 +393,7 @@ kanji = '盛りだくさん'
 kana = 'もりだくさん'
 english = 'varied; all sorts; many'
 source = 'sekai-wa-fushigi-2'
-tags = ['uncommon', 'na-adjective', 'no-adjective', 'noun']
+tags = ['na-adjective', 'no-adjective', 'noun', 'uncommon']
 
 [[cards]]
 kanji = '易しい'

@@ -3,21 +3,21 @@ kanji = '貴方'
 kana = 'あなた'
 english = 'you (equal or lower status); dear (wife to husband)'
 level = 'n5'
-tags = ['common', 'pronouns', 'people']
+tags = ['common', 'people', 'pronouns']
 
 [[cards]]
 kanji = '兄'
 kana = 'あに'
 english = 'older brother (humble/kenjougo)'
 level = 'n5'
-tags = ['common', 'family', 'people', 'humble', 'kenjougo']
+tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 
 [[cards]]
 kanji = '姉'
 kana = 'あね'
 english = 'older sister (humble/kenjougo)'
 level = 'n5'
-tags = ['common', 'family', 'people', 'humble', 'kenjougo']
+tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 
 [[cards]]
 kanji = '妹'

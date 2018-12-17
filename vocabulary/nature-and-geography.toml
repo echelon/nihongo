@@ -3,7 +3,7 @@ kanji = '池'
 kana = 'いけ'
 english = 'pond'
 level = 'n5'
-tags = ['common', 'noun', 'nature', 'outdoors']
+tags = ['common', 'nature', 'noun', 'outdoors']
 
 [[cards]]
 kanji = '海'
@@ -41,7 +41,7 @@ kana = 'たき'
 english = 'waterfall'
 level = 'n2'
 source = 'sekai-wa-fushigi-2'
-tags = ['common', 'nature', 'geography']
+tags = ['common', 'geography', 'nature']
 
 [[cards]]
 kanji = '地域'

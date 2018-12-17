@@ -1,0 +1,253 @@
+[[cards]]
+kanji = '一'
+kana = 'いち'
+english = 'one'
+make_kanji_card = true
+level = 'n5'
+tags = ['common', 'counting', 'numbers']
+
+[[cards]]
+kanji = '一番'
+kana = 'いちばん'
+english = 'best; number one; first place'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '五つ'
+kana = 'いつつ'
+english = 'five (things)'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～回'
+kana = '～かい'
+english = 'counter for occurrences'
+make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～階'
+kana = '～かい'
+english = 'counter for stories of a building'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '九'
+kana = 'きゅう'
+english = 'nine'
+level = 'n5'
+make_kanji_card = true
+tags = []
+
+[[cards]]
+kanji = '～個'
+kana = '～こ'
+english = 'counter for small objects'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '九つ'
+kana = 'ここのつ'
+english = 'nine (things)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '五'
+kana = 'ご'
+english = 'five'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～歳'
+kana = '～さい'
+english = 'counter for years old'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～冊'
+kana = '～さつ'
+english = 'counter for books'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '三'
+kana = 'さん'
+english = 'three'
+level = 'n5'
+make_kanji_card = true
+tags = []
+
+[[cards]]
+kanji = '四'
+kana = 'し'
+english = 'four'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '七'
+kana = 'しち'
+english = 'seven'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '十'
+kana = 'じゅう'
+english = 'ten'
+level = 'n5'
+make_kanji_card = true
+tags = []
+
+[[cards]]
+kanji = '千'
+kana = 'せん'
+english = 'thousand'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～台'
+kana = '～だい'
+english = 'counter for vehicles and machines'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '十'
+kana = 'とお'
+english = 'ten (things)'
+level = 'n5'
+make_kanji_card = true
+tags = []
+
+[[cards]]
+kanji = '～度'
+kana = '～ど'
+english = 'counter for occurrences'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '七つ'
+kana = 'ななつ'
+english = 'seven (things)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '二'
+kana = 'に'
+english = 'two'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '二十歳'
+kana = 'はたち'
+english = '20 years old'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '八'
+kana = 'はち'
+english = 'eight'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '一つ'
+kana = 'ひとつ'
+english = 'one (thing)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '百'
+kana = 'ひゃく'
+english = 'hundred'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '二つ'
+kana = 'ふたつ'
+english = 'two (things)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～本'
+kana = '～ほん'
+english = 'counter for long cylindrical things'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '万'
+kana = 'まん'
+english = 'ten thousand'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '三つ'
+kana = 'みっつ'
+english = 'three (things)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '六つ'
+kana = 'むっつ'
+english = 'six (things)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '八つ'
+kana = 'やっつ'
+english = 'eight (things)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '四つ'
+kana = 'よっつ'
+english = 'four (things)'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '零'
+kana = 'れい'
+english = 'zero'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '六'
+kana = 'ろく'
+english = 'six'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ゼロ'
+kana = 'ゼロ'
+english = 'zero (gairaigo)'
+level = 'n5'
+tags = []
+

@@ -42,7 +42,7 @@ kana = 'いちにち'
 english = 'one day (duration)'
 make_kanji_card = true
 level = 'n5'
-tags = ['common', 'time', 'duration']
+tags = ['common', 'duration', 'time']
 
 [[cards]]
 kanji = '五日'
@@ -81,6 +81,13 @@ kanji = '一昨年'
 kana = 'おととし'
 english = 'year before last'
 make_kanji_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～か月'
+kana = '～かげつ'
+english = 'counter for number of months'
 level = 'n5'
 tags = []
 

@@ -10,7 +10,7 @@ kanji = '暑い'
 kana = 'あつい'
 english = 'hot; warm'
 level = 'n5'
-tags = ['common', 'weather', 'i-adjectives']
+tags = ['common', 'i-adjectives', 'weather']
 
 [[cards]]
 kanji = '雨'
@@ -32,7 +32,7 @@ kanji = '傘'
 kana = 'かさ'
 english = 'umbrella'
 level = 'n5'
-tags = ['common', 'weather', 'clothing', 'accessories']
+tags = ['accessories', 'clothing', 'common', 'weather']
 
 [[cards]]
 kanji = '風'

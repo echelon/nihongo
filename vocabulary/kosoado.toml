@@ -24,14 +24,14 @@ kanji = '彼の'
 kana = 'あの'
 english = 'that (way over there)'
 level = 'n5'
-tags = ['common', 'places', 'locations']
+tags = ['common', 'locations', 'places']
 
 [[cards]]
 kanji = '彼'
 kana = 'あれ'
 english = 'that (way over there)'
 level = 'n5'
-tags = ['common', 'locations', 'places', 'kosoado']
+tags = ['common', 'kosoado', 'locations', 'places']
 
 [[cards]]
 kanji = '此処'

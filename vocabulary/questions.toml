@@ -3,21 +3,21 @@ kanji = '如何'
 kana = 'いかが'
 english = 'how (polite)'
 level = 'n5'
-tags = ['common', 'na-adjective', 'adverb', 'question']
+tags = ['adverb', 'common', 'na-adjective', 'question']
 
 [[cards]]
 kanji = '幾つ'
 kana = 'いくつ'
 english = 'how many? ; how old?'
 level = 'n5'
-tags = ['common', 'question', 'adverb']
+tags = ['adverb', 'common', 'question']
 
 [[cards]]
 kanji = '幾ら'
 kana = 'いくら'
 english = 'how much? ; how many?'
 level = 'n5'
-tags = ['common', 'question', 'noun', 'adverb']
+tags = ['adverb', 'common', 'noun', 'question']
 
 [[cards]]
 kanji = '何時'

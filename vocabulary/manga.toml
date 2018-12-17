@@ -3,7 +3,7 @@ kanji = '愛好'
 kana = 'あいこう'
 english = 'love; adoration'
 source = 'manga'
-tags = ['common', 'suru-verb', 'noun']
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 disabled = true
@@ -12,7 +12,7 @@ kana = 'いじょう'
 english = 'not less than'
 level = 'n4'
 source = 'manga'
-tags = ['adverbial-noun', 'temporal-noun', 'common']
+tags = ['adverbial-noun', 'common', 'temporal-noun']
 
 [[cards]]
 disabled = true
@@ -21,7 +21,7 @@ kana = 'かくち'
 english = 'every place'
 level = 'n2'
 source = 'manga'
-tags = ['common', 'noun', 'no-adjective']
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '現実'
@@ -45,7 +45,7 @@ kana = 'さいしょ'
 english = 'beginning; outset'
 level = 'n4'
 source = 'manga'
-tags = ['common', 'no-adjective', 'adverbial-noun', 'temporal-noun']
+tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
 
 [[cards]]
 disabled = true
@@ -53,7 +53,7 @@ kanji = '挫折'
 kana = 'ざせつ'
 english = 'setback; failure'
 source = 'manga'
-tags = ['common', 'suru-verb', 'noun']
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '社会'
@@ -77,7 +77,7 @@ kanji = '特異体質'
 kana = 'とくいたいしつ'
 english = 'idiosyncrasy'
 source = 'manga'
-tags = ['uncommon', 'noun', 'no-adjective']
+tags = ['no-adjective', 'noun', 'uncommon']
 
 [[cards]]
 kanji = '発見'
@@ -85,7 +85,7 @@ kana = 'はっけん'
 english = 'discovery; finding'
 level = 'n3'
 source = 'manga'
-tags = ['common', 'suru-verb', 'noun']
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 disabled = true
