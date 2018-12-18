@@ -115,6 +115,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '食品'
+kana = 'しょくひん'
+english = 'foodstuffs; food products'
+level = 'n3'
+source = 'nihongo-charenji-n4-kotoba'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '蕎麦'
 kana = 'そば'
 english = 'buckwheat; buckwheat noodles'
@@ -163,6 +171,14 @@ kana = 'とりにく'
 english = 'chicken meat; bird meat'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '生'
+kana = 'なま'
+english = 'raw; uncooked; fresh'
+source = 'sekai-wa-fushigi-2'
+level = 'n3'
+tags = ['common', 'na-adjective', 'no-adjective', 'noun', 'prefix']
 
 [[cards]]
 kanji = '肉'

@@ -1,8 +1,78 @@
 [[cards]]
+kanji = '内側'
+kana = 'うちがわ'
+english = 'interior'
+source = 'sekai-wa-fushigi-2'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '現象'
 kana = 'げんしょう'
 english = 'phenomenon'
 level = 'n3'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '品物'
+kana = 'しなもの'
+english = 'goods; articles; things'
+make_kanji_card = true
+level = 'n4'
+source = 'nihongo-charenji-n4-kotoba'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '外側'
+kana = 'そとがわ'
+english = 'exterior'
+source = 'sekai-wa-fushigi-2'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '夫れ夫れ'
+kana = 'それぞれ'
+english = 'each'
+source = 'sekai-wa-fushigi-2'
+level = 'n3'
+tags = ['adverbial-noun', 'common', 'no-adjective']
+
+[[cards]]
+kanji = '半額'
+kana = 'はんがく'
+english = 'half price'
+source = 'nihongo-charenji-n4-kotoba'
+tags = ['common']
+
+[[cards]]
+kanji = '用意'
+kana = 'ようい'
+english = 'preparation; provision; arrangement'
+level = 'n4'
+source = 'nihongo-charenji-n4-kotoba'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '冷凍'
+kana = 'れいとう'
+english = 'freeze/freezing; cold storage; refridgeration'
+level = 'n2'
+source = 'nihongo-charenji-n4-kotoba'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '割引'
+kana = 'わりびき'
+english = 'discount; rebate'
+level = 'n2'
+source = 'nihongo-charenji-n4-kotoba'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 'セール'
+kana = 'セール'
+english = 'sale'
+source = 'nihongo-charenji-n4-kotoba'
+level = 'n1'
+tags = ['common', 'gairaigo']
 

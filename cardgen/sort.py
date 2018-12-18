@@ -79,8 +79,22 @@ def sort_notes(note_toml_data):
   for note in note_toml_data[INDEX_NAME]:
     if 'tags' in note and note['tags']:
       note['tags'] = sorted(set(note['tags']))
+
+    skip = False
+    if 'kanji' not in note and 'kana' not in note:
+      skip = True
+    if 'kanji' in note and not note['kanji'].strip():
+      skip = True
+    if 'kana' in note and not note['kana'].strip():
+      skip = True
+    if skip:
+      continue
+
     notes.append(note)
+
   notes = sorted(notes, key=lambda v: v['kana'].lstrip('～')) # Sort by kana, ignore '～'
+  print('Skipped notes: {0}'.format(skipped))
+
   return { INDEX_NAME : notes }
 
 def write_toml(note_toml_data, filename):

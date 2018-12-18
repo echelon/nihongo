@@ -82,6 +82,13 @@ level = 'n5'
 tags = ['i-adjective']
 
 [[cards]]
+kanji = '嬉しい'
+kana = 'うれしい'
+english = 'happy; glad'
+level = 'n3'
+tags = ['common', 'i-adjective']
+
+[[cards]]
 kanji = '美味しい'
 kana = 'おいしい'
 english = 'delicious'
@@ -316,6 +323,14 @@ kana = 'にぎやか'
 english = 'bustling; busy; lively'
 level = 'n5'
 tags = ['common', 'na-adjective']
+
+[[cards]]
+kanji = '人気'
+kana = 'にんき'
+english = 'popular'
+source = 'sekai-wa-fushigi-2'
+level = 'n3'
+tags = ['common', 'na-adjective', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '温い'

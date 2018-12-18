@@ -49,6 +49,15 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '返す'
+kana = 'かえす'
+english = 'to return (something); to restore; to put back'
+verb-type = 'godan-su'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '貸す'
 kana = 'かす'
 english = 'to lend'
@@ -67,6 +76,15 @@ transitive = false
 tags = ['common']
 
 [[cards]]
+kanji = '消す'
+kana = 'けす'
+english = 'to delete; to erase/cross out; to turn off power'
+verb-type = 'godan-su'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '喋る'
 kana = 'しゃべる'
 english = 'to chat; to chatter'
@@ -76,12 +94,41 @@ transitive = false
 tags = ['common']
 
 [[cards]]
+kanji = '足す'
+kana = 'たす'
+english = 'to add (numbers); to add (something)'
+verb-type = 'godan-su'
+transitive = true
+source = 'nihongo-charenji-n4-kotoba'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '足りる'
+kana = 'たりる'
+english = 'to be sufficient; to be enough'
+verb-type = 'ichidan'
+transitive = false
+source = 'nihongo-charenji-n4-kotoba'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '使う'
 kana = 'つかう'
 english = 'to use'
 level = 'n5'
 verb-type = 'godan-u'
 transitive = true
+tags = ['common']
+
+[[cards]]
+kanji = '止まる'
+kana = 'とまる'
+english = 'to stop (moving); to come to a halt; to stop (doing)'
+verb-type = 'godan-ru'
+transitive = false
+level = 'n5'
 tags = ['common']
 
 [[cards]]
@@ -100,5 +147,25 @@ english = 'to lose (something)'
 level = 'n5'
 verb-type = 'godan-su'
 transitive = true
+tags = ['common']
+
+[[cards]]
+kanji = '残る'
+kana = 'のこる'
+english = 'to remain; to be left'
+verb-type = 'godan-ru'
+transitive = false
+source = 'nihongo-charenji-n4-kotoba'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '混ぜる'
+kana = 'まぜる'
+english = 'to mix; to stir; to blend'
+verb-type = 'ichidan'
+transitive = true
+source = 'sekai-wa-fushigi-2'
+level = 'n2'
 tags = ['common']
 

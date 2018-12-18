@@ -184,6 +184,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '今夜'
+kana = 'こんや'
+english = 'tonight (more formal / in writing)'
+source = 'nihongo-charenji-n4-kotoba'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '午後'
 kana = 'ごご'
 english = 'afternoon; P.M.'
@@ -490,6 +498,14 @@ kana = 'むいか'
 english = 'the sixth day; six days'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '昔'
+kana = 'むかし'
+english = 'olden days'
+source = 'sekai-wa-fushigi-2'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
 
 [[cards]]
 kanji = '木曜日'

@@ -218,6 +218,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '年寄り'
+kana = 'としより'
+english = 'elderly person'
+source = 'sekai-wa-fushigi-2'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '友達'
 kana = 'ともだち'
 english = 'friend'

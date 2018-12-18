@@ -4,7 +4,7 @@ kana = 'いぬ'
 english = 'dog'
 level = 'n5'
 make_kanji_card = true
-tags = []
+tags = ['common', 'mammal']
 
 [[cards]]
 kanji = '牛'
@@ -146,6 +146,13 @@ kana = '～ひき'
 english = 'counter for small animals'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '鮪'
+kana = 'まぐろ'
+english = 'tuna'
+source = 'sekai-wa-fushigi-2'
+tags = ['common', 'fish']
 
 [[cards]]
 kanji = 'ペット'
