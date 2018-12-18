@@ -3,6 +3,7 @@ kanji = '秋'
 kana = 'あき'
 english = 'autumn; fall'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'noun', 'season', 'time']
 
@@ -11,6 +12,7 @@ kanji = '朝'
 kana = 'あさ'
 english = 'morning'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'time']
 
@@ -26,6 +28,7 @@ kanji = '明日'
 kana = 'あした'
 english = 'tomorrow'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'time']
 
@@ -41,6 +44,7 @@ kanji = '一日'
 kana = 'いちにち'
 english = 'one day (duration)'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'duration', 'time']
 
@@ -49,6 +53,7 @@ kanji = '五日'
 kana = 'いつか'
 english = 'five days; fifth day of the month'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -57,6 +62,7 @@ kanji = '何時も'
 kana = 'いつも'
 english = 'always'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -65,6 +71,7 @@ kanji = '今'
 kana = 'いま'
 english = 'now'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -73,6 +80,7 @@ kanji = '一昨日'
 kana = 'おととい'
 english = 'day before yesterday'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -81,6 +89,7 @@ kanji = '一昨年'
 kana = 'おととし'
 english = 'year before last'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -96,6 +105,7 @@ kanji = '火曜日'
 kana = 'かようび'
 english = 'Tuesday'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 

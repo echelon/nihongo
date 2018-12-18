@@ -3,6 +3,7 @@ kanji = '会う'
 kana = 'あう'
 english = 'to meet'
 make_kanji_card = true
+hide_hiragana_card = true
 verb-type = 'godan-u'
 transitive = false
 level = 'n5'

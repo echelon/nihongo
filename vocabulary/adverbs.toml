@@ -26,6 +26,7 @@ kanji = '少し'
 kana = 'すこし'
 english = 'small quantity; little; few'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['adverb', 'common', 'noun']
 
@@ -90,6 +91,7 @@ tags = ['adverb', 'common', 'no-adjective']
 kanji = '早く'
 kana = 'はやく'
 make_kanji_card = true
+hide_hiragana_card = true
 english = 'early; soon'
 tags = ['adverb', 'common']
 

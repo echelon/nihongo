@@ -32,6 +32,7 @@ KANJI_CARD_MODEL = genanki.Model(
     {'name': 'Kana'},
     {'name': 'English'},
     {'name': 'Make Kanji Card?'},
+    {'name': 'Hide Hiragana-only Card?'},
   ],
   templates=[
     # Card 1 - Front: English; Back: English + Kanji + Kana
@@ -47,12 +48,14 @@ KANJI_CARD_MODEL = genanki.Model(
 <div id="hint">{{Kana}}</div>
 '''
     },
-    # Card 2 - Front: Kanji OR Kanji+Kana; Back: English + Kanji + Kana
+    # Card 2 - Front: None OR Kana OR Kanji+Kana; Back: English + Kanji + Kana
     {
       'name': 'Kanji + Kana',
       'qfmt': '''
 {{#Make Kanji Card?}}
+{{^Hide Hiragana-only Card?}}
   {{Kana}}
+{{/Hide Hiragana-only Card?}}
 {{/Make Kanji Card?}}
 
 {{^Make Kanji Card?}}
@@ -136,9 +139,21 @@ class Note(genanki.Note):
     else:
       self.make_kanji_card = ''
 
+    if 'hide_hiragana_card' in verb_dict and verb_dict['hide_hiragana_card']:
+      self.hide_hiragana_card = 'y'
+    else:
+      self.hide_hiragana_card= ''
+
     sort_field = self.kana
-    # Must match order of model.
-    fields = [self.kanji, self.kana, self.english, self.make_kanji_card]
+
+    # NB: Must match order of model.
+    fields = [
+      self.kanji,
+      self.kana,
+      self.english,
+      self.make_kanji_card,
+      self.hide_hiragana_card,
+    ]
 
     super().__init__(model=KANJI_CARD_MODEL,
         fields=fields,
@@ -151,7 +166,12 @@ class Note(genanki.Note):
     return genanki.guid_for(self.kanji, self.kana)
 
   def card_count(self):
-    return 3 if self.make_kanji_card == 'y' else 2
+    if self.make_kanji_card == 'y':
+      if self.hide_hiragana_card == 'y':
+        return 2
+      else:
+        return 3
+    return 2
 
 def read_vocabulary_notes(filename):
   with open(filename, 'r') as f:
@@ -162,6 +182,8 @@ def read_vocabulary_notes(filename):
 total_notes = 0
 total_cards = 0
 total_disabled = 0
+total_kanji_only = 0
+total_hiragana_hidden = 0
 
 for filename in glob.glob('**/*.toml', recursive=True):
   if 'cardgen' in filename:
@@ -173,13 +195,19 @@ for filename in glob.glob('**/*.toml', recursive=True):
       total_disabled += 1
       continue
     note = Note(n)
+    if note.make_kanji_card:
+      total_kanji_only += 1
+    if note.hide_hiragana_card:
+      total_hiragana_hidden += 1
     KANJI_CARD_DECK.add_note(note)
     total_notes += 1
     total_cards += note.card_count()
 
-print('Total notes: {0}'.format(total_notes))
 print('Total cards: {0}'.format(total_cards))
-print('Total disabled: {0}'.format(total_disabled))
+print('Total notes: {0}'.format(total_notes))
+print('  > notes disabled: {0}'.format(total_disabled))
+print('  > notes kanji-only: {0}'.format(total_kanji_only))
+print('  > notes \'hiragana-only\' hidden: {0}'.format(total_hiragana_hidden))
 print('Output file: {0}'.format(OUTPUT_FILENAME))
 
 genanki.Package(KANJI_CARD_DECK).write_to_file(OUTPUT_FILENAME)

@@ -17,6 +17,7 @@ kanji = '雨'
 kana = 'あめ'
 english = 'rain'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'weather']
 
@@ -39,6 +40,7 @@ kanji = '風'
 kana = 'かぜ'
 english = 'wind; breeze'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common']
 
@@ -116,6 +118,8 @@ tags = ['common']
 kanji = '空'
 kana = 'そら'
 english = 'sky'
+make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common']
 
@@ -137,6 +141,8 @@ tags = ['common']
 kanji = '天気'
 kana = 'てんき'
 english = 'weather'
+make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common']
 
@@ -158,6 +164,8 @@ tags = ['common']
 kanji = '雪'
 kana = 'ゆき'
 english = 'snow'
+make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common']
 

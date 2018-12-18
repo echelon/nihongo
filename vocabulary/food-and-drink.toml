@@ -3,6 +3,7 @@ kanji = '朝ご飯'
 kana = 'あさごはん'
 english = 'breakfast'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'food']
 
@@ -25,6 +26,7 @@ kanji = 'お皿'
 kana = 'おさら'
 english = 'plate'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -33,6 +35,7 @@ kanji = 'お茶'
 kana = 'おちゃ'
 english = 'tea (usu. green)'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -56,6 +59,7 @@ kana = 'ぎゅうにく'
 english = 'beef'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -135,6 +139,7 @@ kana = 'たべもの'
 english = 'food'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -186,6 +191,7 @@ kana = 'にく'
 english = 'meat'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -194,6 +200,7 @@ kana = 'のみもの'
 english = 'drink; beverage'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -223,6 +230,7 @@ kana = 'ひるはん'
 english = 'lunch'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -245,6 +253,7 @@ kana = 'みず'
 english = 'water'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
