@@ -76,6 +76,8 @@ def read_notes_from_toml(filename):
 
 def sort_notes(note_toml_data):
   notes = []
+  skipped_count = 0
+
   for note in note_toml_data[INDEX_NAME]:
     if 'tags' in note and note['tags']:
       note['tags'] = sorted(set(note['tags']))
@@ -87,13 +89,15 @@ def sort_notes(note_toml_data):
       skip = True
     if 'kana' in note and not note['kana'].strip():
       skip = True
+
     if skip:
+      skipped_count += 1
       continue
 
     notes.append(note)
 
   notes = sorted(notes, key=lambda v: v['kana'].lstrip('～')) # Sort by kana, ignore '～'
-  print('Skipped notes: {0}'.format(skipped))
+  print('Skipped notes: {0}'.format(skipped_count))
 
   return { INDEX_NAME : notes }
 
