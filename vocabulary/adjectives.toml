@@ -304,6 +304,13 @@ level = 'n5'
 tags = ['common', 'i-adjectives']
 
 [[cards]]
+kanji = '丁寧'
+kana = 'ていねい'
+english = 'polite; courteous; conscientious'
+level = 'n4'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
 kanji = '遠い'
 kana = 'とおい'
 english = 'far; distant'

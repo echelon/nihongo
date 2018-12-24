@@ -1,0 +1,39 @@
+[[cards]]
+kanji = '敬語'
+kana = 'けいご'
+english = 'honorific; polite expression; honorific language'
+level = 'n2'
+tags = ['common']
+
+[[cards]]
+kanji = '謙譲語'
+kana = 'けんじょうご'
+english = 'humble language (humble keigo); speaking about oneself to those in power'
+tags = ['uncommon']
+
+[[cards]]
+kanji = '尊敬語'
+kana = 'そんけいご'
+english = 'honorific language (honorific keigo); spoken about or to those in power'
+tags = ['uncommon']
+
+[[cards]]
+kanji = '丁寧語'
+kana = 'ていねいご'
+english = 'polite language (eg masu, desu)'
+tags = ['uncommon']
+
+[[cards]]
+kanji = '動詞'
+kana = 'どうし'
+english = 'verb'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
+kanji = '名詞'
+kana = 'めいし'
+english = 'noun'
+level = 'n2'
+tags = ['common']
+

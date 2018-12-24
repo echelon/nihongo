@@ -270,9 +270,9 @@ tags = []
 [[cards]]
 kanji = '皆さん'
 kana = 'みなさん'
-english = 'everyone'
+english = 'everyone (sonkeigo)'
 level = 'n5'
-tags = []
+tags = ['common', 'honorific', 'noun', 'respectful', 'sonkeigo']
 
 [[cards]]
 kanji = '皆'

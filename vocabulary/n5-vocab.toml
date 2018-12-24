@@ -514,7 +514,7 @@ tags = []
 [[cards]]
 kanji = '縦'
 kana = 'たて'
-english = 'length; height'
+english = 'the vertical/height; front-to-back/length'
 level = 'n5'
 tags = ['common', 'noun']
 

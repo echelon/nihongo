@@ -190,6 +190,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '名刺'
+kana = 'めいし'
+english = 'business card'
+level = 'n2'
+tags = ['common']
+
+[[cards]]
 kanji = '問題'
 kana = 'もんだい'
 english = 'question (on a test); problem'
