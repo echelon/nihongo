@@ -6,6 +6,15 @@ source = 'sekai-wa-fushigi-2'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '刀'
+kana = 'かたな'
+english = ''
+make_kanji_card = true
+hide_hiragana_card = true
+level = 'n3'
+tags = ['common', 'weapons']
+
+[[cards]]
 kanji = '現象'
 kana = 'げんしょう'
 english = 'phenomenon'
@@ -17,10 +26,17 @@ tags = ['common', 'noun']
 kanji = '品物'
 kana = 'しなもの'
 english = 'goods; articles; things'
-make_kanji_card = true
 level = 'n4'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '人工'
+kana = 'じんこう'
+english = 'artificial'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '外側'
@@ -38,11 +54,51 @@ level = 'n3'
 tags = ['adverbial-noun', 'common', 'no-adjective']
 
 [[cards]]
+kanji = '中止'
+kana = 'ちゅうし'
+english = 'suspension; discontinuance; interruption'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '天才'
+kana = 'てんさい'
+english = 'genius; prodigy'
+level = 'n1'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '花火'
+kana = 'はなび'
+english = 'fireworks'
+make_kanji_card = true
+hide_hiragana_card = true
+level = 'n2'
+tags = ['common']
+
+[[cards]]
 kanji = '半額'
 kana = 'はんがく'
 english = 'half price'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common']
+
+[[cards]]
+kanji = '不正'
+kana = 'ふせい'
+english = 'injustice'
+make_kanji_card = true
+hide_hiragana_card = true
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '水色'
+kana = 'みずいろ'
+english = 'light blue; aqua'
+source = 'wanikani'
+tags = ['appearance', 'colors', 'common', 'moun', 'no-adjective']
 
 [[cards]]
 kanji = '用意'

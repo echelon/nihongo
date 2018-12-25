@@ -27,6 +27,26 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '王'
+kana = 'おう'
+english = 'king; monarch; sovereign'
+make_kanji_card = true
+hide_hiragana_card = true
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '王様'
+kana = 'おうさま'
+english = 'king (sonkeigo)'
+make_kanji_card = true
+hide_hiragana_card = true
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '大勢'
 kana = 'おおぜい'
 english = 'crowd of people'
@@ -197,6 +217,24 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '女王'
+kana = 'じょおう'
+english = 'queen'
+make_kanji_card = true
+hide_hiragana_card = true
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '人口'
+kana = 'じんこう'
+english = 'population'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '祖父'
 kana = 'そふ'
 english = 'grandfather; old man'
@@ -238,6 +276,15 @@ kana = '～にん'
 english = 'counter for people'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '白人'
+kana = 'はくじん'
+english = 'white person; Caucasian'
+make_kanji_card = true
+hide_hiragana_card = true
+source = 'wanikani'
+tags = ['common', 'no-adjective']
 
 [[cards]]
 kanji = '母'

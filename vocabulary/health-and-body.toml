@@ -3,6 +3,7 @@ kanji = '足'
 kana = 'あし'
 english = 'foot; leg'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['body', 'common']
 
@@ -53,6 +54,7 @@ kanji = '体'
 kana = 'からだ'
 english = 'body'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -77,6 +79,7 @@ kana = 'くち'
 english = 'mouth; opening'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -85,6 +88,7 @@ kana = 'げんき'
 english = 'lively; healthy'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -121,6 +125,7 @@ kana = 'て'
 english = 'hand; arm'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -171,6 +176,7 @@ kana = 'ふとい'
 english = 'fat; thick'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -181,11 +187,19 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '骨'
+kana = 'ほね'
+english = 'bone'
+level = 'n3'
+tags = ['body', 'common']
+
+[[cards]]
 kanji = '耳'
 kana = 'みみ'
 english = 'ear'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -194,6 +208,7 @@ kana = 'め'
 english = 'eye; eyeball'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -202,4 +217,13 @@ kana = 'めがね'
 english = 'eyeglasses'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '目玉'
+kana = 'めだま'
+english = 'eyeball'
+make_kanji_card = true
+hide_hiragana_card = true
+source = 'wanikani'
+tags = ['body', 'common']
 

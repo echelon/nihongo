@@ -13,7 +13,6 @@ tags = ['common']
 kanji = '開く'
 kana = 'あく'
 english = 'to open (eg. doors); to open (eg. business); to become open'
-make_kanji_card = false
 verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
@@ -23,7 +22,6 @@ tags = ['common']
 kanji = '開ける'
 kana = 'あける'
 english = 'to open (eg. a door); to open (eg. for business)'
-make_kanji_card = false
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -34,6 +32,7 @@ kanji = '上げる'
 kana = 'あげる'
 english = 'to raise; to give'
 make_kanji_card = true
+hide_hiragana_card = true
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -102,6 +101,29 @@ verb-type = 'godan-su'
 transitive = true
 source = 'nihongo-charenji-n4-kotoba'
 level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '立つ'
+kana = 'たつ'
+english = 'to stand'
+make_kanji_card = true
+hide_hiragana_card = true
+verb-type = 'godan-tsu'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '立てる'
+kana = 'たてる'
+english = 'to stand up ~'
+make_kanji_card = true
+hide_hiragana_card = true
+verb-type = 'ichidan'
+transitive = true
+level = 'n4'
+source = 'wanikani'
 tags = ['common']
 
 [[cards]]

@@ -259,6 +259,15 @@ level = 'n5'
 tags = ['common', 'i-adjective']
 
 [[cards]]
+kanji = '正しい'
+kana = 'ただしい'
+english = 'correct; right'
+make_kanji_card = true
+hide_hiragana_card = true
+level = 'n4'
+tags = ['common', 'i-adjective']
+
+[[cards]]
 kanji = '大丈夫'
 kana = 'だいじょうぶ'
 english = 'safe; alright; OK; no thanks'
@@ -378,6 +387,8 @@ tags = ['common', 'i-adjectives']
 kanji = '下手'
 kana = 'へた'
 english = 'unskilled; unskillful'
+make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
 
@@ -399,6 +410,8 @@ tags = ['common', 'i-adjective']
 kanji = '丸い'
 kana = 'まるい'
 english = 'round; circular'
+make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'i-adjective']
 

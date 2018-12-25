@@ -25,6 +25,21 @@ source python/bin/activate
 pip install -r requirements.txt
 ```
 
+Card Templates
+--------------
+
+```toml
+[[cards]]
+kanji = ''
+kana = ''
+english = ''
+source = ''
+make_kanji_card = true
+hide_hiragana_card = true
+level = 'n'
+tags = []
+```
+
 JLPT
 ----
 

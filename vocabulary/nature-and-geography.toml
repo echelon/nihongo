@@ -10,6 +10,7 @@ kanji = '海'
 kana = 'うみ'
 english = 'sea; ocean'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -18,6 +19,7 @@ kanji = '川'
 kana = 'かわ'
 english = 'river'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -59,11 +61,27 @@ source = 'sekai-wa-fushigi-2'
 tags = ['common', 'geography']
 
 [[cards]]
+kanji = '地球'
+kana = 'ちきゅう'
+english = 'the Earth'
+level = 'n3'
+tags = ['common', 'no-adjective']
+
+[[cards]]
 kanji = '地図'
 kana = 'ちず'
 english = 'map'
 level = 'n5'
 tags = ['common']
+
+[[cards]]
+kanji = '土'
+kana = 'つち'
+english = 'earth, soil, dirt, clay, mud'
+make_kanji_card = true
+hide_hiragana_card = true
+level = 'n3'
+tags = ['common', 'earth', 'nature']
 
 [[cards]]
 kanji = '庭'

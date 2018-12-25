@@ -1,4 +1,10 @@
 [[cards]]
+kanji = '田舎'
+kana = 'いなか'
+english = 'countryside; rural area'
+tags = ['common', 'no-adjective', 'noun', 'places']
+
+[[cards]]
 kanji = 'スーパー'
 kana = 'スーパー'
 english = 'supermarket'
