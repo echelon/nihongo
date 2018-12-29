@@ -428,13 +428,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '自動車'
-kana = 'じどうしゃ'
-english = 'automobile'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'じゃあ'
 kana = 'じゃあ'
 english = 'well then...'
@@ -547,13 +540,6 @@ level = 'n5'
 tags = ['adverbial-noun', 'common', 'no-adjective']
 
 [[cards]]
-kanji = '地下鉄'
-kana = 'ちかてつ'
-english = 'underground train; subway'
-level = 'n5'
-tags = ['common', 'transportation']
-
-[[cards]]
 kanji = '茶色'
 kana = 'ちゃいろ'
 english = 'brown'
@@ -581,30 +567,6 @@ kanji = 'でも'
 kana = 'でも'
 english = 'but'
 level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '電気'
-kana = 'でんき'
-english = 'electricity'
-level = 'n5'
-make_kanji_card = true
-tags = []
-
-[[cards]]
-kanji = '電車'
-kana = 'でんしゃ'
-english = 'electric train'
-level = 'n5'
-make_kanji_card = true
-tags = []
-
-[[cards]]
-kanji = '電話'
-kana = 'でんわ'
-english = 'telephone; telephone call'
-level = 'n5'
-make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -755,13 +717,6 @@ tags = []
 kanji = '東'
 kana = 'ひがし'
 english = 'east'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '飛行機'
-kana = 'ひこうき'
-english = 'airplane'
 level = 'n5'
 tags = []
 

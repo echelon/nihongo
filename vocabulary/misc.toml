@@ -68,6 +68,13 @@ level = 'n1'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '日光'
+kana = 'にっこう'
+english = 'sunlight; sunshine; sunbeams'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '花火'
 kana = 'はなび'
 english = 'fireworks'

@@ -357,6 +357,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '役人'
+kana = 'やくにん'
+english = 'government official'
+level = 'n2'
+tags = ['common', 'government']
+
+[[cards]]
 kanji = '両親'
 kana = 'りょうしん'
 english = 'parents; both parents'

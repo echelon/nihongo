@@ -1,4 +1,10 @@
 [[cards]]
+kanji = '蟻'
+kana = 'あり'
+english = 'ant'
+tags = ['common', 'insect', 'noun']
+
+[[cards]]
 kanji = '犬'
 kana = 'いぬ'
 english = 'dog'
@@ -153,6 +159,12 @@ kana = 'まぐろ'
 english = 'tuna'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'fish']
+
+[[cards]]
+kanji = '蚯蚓'
+kana = 'みみず'
+english = 'earthworm'
+tags = ['insect', 'noun', 'uncommon']
 
 [[cards]]
 kanji = 'ペット'

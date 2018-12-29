@@ -64,6 +64,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '塵'
+kana = 'ごみ'
+english = 'trash; garbage'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '寝室'
 kana = 'しんしつ'
 english = 'bedroom'
@@ -138,6 +145,13 @@ kana = 'むら'
 english = 'village'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '屋根'
+kana = 'やね'
+english = 'roof'
+level = 'n3'
+tags = ['buildings', 'common', 'noun']
 
 [[cards]]
 kanji = 'アパート'

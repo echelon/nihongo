@@ -1,0 +1,59 @@
+[[cards]]
+kanji = '汽車'
+kana = 'きしゃ'
+english = 'train (long distance); steam train (original meaning)'
+level = 'n4'
+tags = ['common', 'noun', 'train', 'transportation']
+
+[[cards]]
+kanji = '自動車'
+kana = 'じどうしゃ'
+english = 'automobile'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '地下鉄'
+kana = 'ちかてつ'
+english = 'underground train; subway'
+level = 'n5'
+tags = ['common', 'transportation']
+
+[[cards]]
+kanji = '電気'
+kana = 'でんき'
+english = 'electricity'
+level = 'n5'
+make_kanji_card = true
+tags = []
+
+[[cards]]
+kanji = '電車'
+kana = 'でんしゃ'
+english = 'electric train'
+level = 'n5'
+make_kanji_card = true
+tags = []
+
+[[cards]]
+kanji = '電話'
+kana = 'でんわ'
+english = 'telephone; telephone call'
+level = 'n5'
+make_kanji_card = true
+tags = []
+
+[[cards]]
+kanji = '飛行機'
+kana = 'ひこうき'
+english = 'airplane'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '無線'
+kana = 'むせん'
+english = 'wireless; radio'
+level = 'n1'
+tags = ['common']
+
