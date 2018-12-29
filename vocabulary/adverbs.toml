@@ -14,6 +14,14 @@ source = 'manga'
 tags = ['adverb', 'uncommon']
 
 [[cards]]
+kanji = '何時でも'
+kana = 'いつでも'
+english = 'always; whenever'
+level = 'n3'
+explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
+tags = ['adverb', 'common']
+
+[[cards]]
 kanji = '必ず'
 kana = 'かならず'
 english = 'be sure to; always/necessarily; without fail'

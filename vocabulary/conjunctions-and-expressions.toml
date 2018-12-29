@@ -1,0 +1,98 @@
+[[cards]]
+kanji = 'ああ'
+kana = 'ああ'
+english = 'Ah!; Oh!; yes.'
+level = 'n5'
+tags = ['common', 'expression']
+
+[[cards]]
+kanji = 'あのう'
+kana = 'あのう'
+english = 'um...; well...'
+level = 'n5'
+tags = ['common', 'expressions']
+
+[[cards]]
+kanji = 'が'
+kana = 'が'
+english = 'and, but (links two clauses)'
+explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
+tags = ['common', 'conjunction']
+
+[[cards]]
+kanji = 'けど'
+kana = 'けど'
+english = 'however (links two clauses); however... (soft open ending)'
+level = 'n4'
+explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
+tags = ['common', 'conjunction', 'particle']
+
+[[cards]]
+kanji = '然し、'
+kana = 'しかし、'
+english = 'however (start of sentence; formal/storytelling)'
+level = 'n5'
+explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
+tags = ['common', 'conjunction']
+
+[[cards]]
+kanji = 'じゃあ'
+kana = 'じゃあ'
+english = 'well then...'
+level = 'n5'
+tags = ['common', 'conjunction']
+
+[[cards]]
+kanji = 'すると'
+kana = 'すると'
+english = 'just then'
+source = 'kachikachiyama'
+level = 'n4'
+tags = ['common', 'conjunction']
+
+[[cards]]
+kanji = 'そう言えば'
+kana = 'そういえば'
+english = 'if you say so; now that you mention it'
+level = 'n2'
+explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
+tags = ['common', 'expression']
+
+[[cards]]
+kanji = '然うして'
+kana = 'そうして'
+english = 'and then (does not imply chronological order)'
+level = 'n5'
+explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
+tags = ['common', 'conjunction']
+
+[[cards]]
+kanji = '其れから'
+kana = 'それから'
+english = 'after that (chronological order)'
+level = 'n5'
+explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
+tags = ['common', 'expression']
+
+[[cards]]
+kanji = '其れでは'
+kana = 'それでは'
+english = 'well then...; in that case...'
+level = 'n5'
+tags = ['common', 'expression']
+
+[[cards]]
+kanji = 'だって'
+kana = 'だって'
+english = 'after all, because (explains previous sentence)'
+explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
+tags = ['common', 'conjunction']
+
+[[cards]]
+kanji = 'でも、'
+kana = 'でも、'
+english = 'but (start of sentence; casual)'
+level = 'n5'
+explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
+tags = ['common', 'conjunction']
+
