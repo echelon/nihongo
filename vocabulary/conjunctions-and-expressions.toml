@@ -36,6 +36,14 @@ explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-p
 tags = ['common', 'conjunction']
 
 [[cards]]
+kanji = '然も'
+kana = 'しかも'
+english = 'furthermore'
+level = 'n3'
+explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
+tags = ['common', 'conjunction']
+
+[[cards]]
 kanji = 'じゃあ'
 kana = 'じゃあ'
 english = 'well then...'
@@ -80,6 +88,14 @@ kana = 'それでは'
 english = 'well then...; in that case...'
 level = 'n5'
 tags = ['common', 'expression']
+
+[[cards]]
+kanji = '其れに'
+kana = 'それに'
+english = 'moreover'
+level = 'n4'
+explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
+tags = ['common', 'conjunction']
 
 [[cards]]
 kanji = 'だって'

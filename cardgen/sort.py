@@ -74,9 +74,10 @@ def read_notes_from_toml(filename):
     contents = f.read()
     return toml.loads(contents, decoder=decoder)
 
+skipped_count = 0
+
 def sort_notes(note_toml_data):
   notes = []
-  skipped_count = 0
 
   for note in note_toml_data[INDEX_NAME]:
     if 'tags' in note and note['tags']:
@@ -97,7 +98,6 @@ def sort_notes(note_toml_data):
     notes.append(note)
 
   notes = sorted(notes, key=lambda v: v['kana'].lstrip('～')) # Sort by kana, ignore '～'
-  print('Skipped notes: {0}'.format(skipped_count))
 
   return { INDEX_NAME : notes }
 
@@ -116,12 +116,13 @@ for filename in glob.glob('**/*.toml', recursive=True):
     notes = read_notes_from_toml(filename)
     note_count = len(notes[INDEX_NAME])
     sorted_notes = sort_notes(notes)
-    print('{0: <40} : {1} notes'.format(filename, note_count))
+    print('{0: <50} : {1} notes'.format(filename, note_count))
     write_toml(sorted_notes, filename)
     total_notes += note_count
   except Exception as e:
     print('Error processing file: {0}'.format(filename))
     print(e)
 
+print('Skipped notes: {0}'.format(skipped_count))
 print('Total notes: {0}'.format(total_notes))
 

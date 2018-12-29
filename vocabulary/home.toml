@@ -1,4 +1,11 @@
 [[cards]]
+kanji = '壁'
+kana = 'かべ'
+english = 'wall; partition'
+level = 'n4'
+tags = ['common', 'noun', 'buildings']
+
+[[cards]]
 kanji = '家'
 kana = 'いえ'
 english = 'house; family; household'
