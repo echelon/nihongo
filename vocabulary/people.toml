@@ -210,6 +210,21 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '作者'
+kana = 'さくしゃ'
+english = 'author (of a particular work)'
+level = 'n2'
+source = 'read-nihon'
+tags = ['common', 'people']
+
+[[cards]]
+kanji = '作家'
+kana = 'さっか'
+english = 'author (profession)'
+level = 'n3'
+tags = ['common', 'people']
+
+[[cards]]
 kanji = '自分'
 kana = 'じぶん'
 english = 'myself; oneself'
@@ -233,6 +248,12 @@ english = 'population'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '声優'
+kana = 'せいゆう'
+english = 'actor; performer'
+tags = ['noun', 'people', 'uncommon']
 
 [[cards]]
 kanji = '祖父'
@@ -276,6 +297,13 @@ kana = '～にん'
 english = 'counter for people'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '俳優'
+kana = 'はいゆう'
+english = 'actor; performer'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun', 'people']
 
 [[cards]]
 kanji = '白人'
