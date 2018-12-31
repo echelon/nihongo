@@ -12,7 +12,7 @@ tags = ['common']
 [[cards]]
 kanji = '開く'
 kana = 'あく'
-english = 'to open (eg. doors); to open (eg. business); to become open'
+english = 'to become open (eg. doors); to become open (eg. business)'
 verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
@@ -21,7 +21,7 @@ tags = ['common']
 [[cards]]
 kanji = '開ける'
 kana = 'あける'
-english = 'to open (eg. a door); to open (eg. for business)'
+english = 'to open ~ (eg. a door); to open ~ (eg. for business)'
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -30,7 +30,7 @@ tags = ['common']
 [[cards]]
 kanji = '上げる'
 kana = 'あげる'
-english = 'to raise; to give'
+english = 'to raise ~; to give ~'
 make_kanji_card = true
 hide_hiragana_card = true
 verb-type = 'ichidan'
@@ -41,7 +41,7 @@ tags = ['common']
 [[cards]]
 kanji = '落ちる'
 kana = 'おちる'
-english = 'to fall down; to drop'
+english = 'to fall down'
 make_kanji_card = true
 verb-type = 'ichidan'
 transitive = false
@@ -51,7 +51,7 @@ tags = ['common']
 [[cards]]
 kanji = '返す'
 kana = 'かえす'
-english = 'to return (something); to restore; to put back'
+english = 'to return ~ (something); to restore ~; to put back ~'
 verb-type = 'godan-su'
 transitive = true
 level = 'n5'
@@ -60,7 +60,7 @@ tags = ['common']
 [[cards]]
 kanji = '貸す'
 kana = 'かす'
-english = 'to lend'
+english = 'to lend ~'
 level = 'n5'
 verb-type = 'godan-su'
 transitive = true
@@ -78,7 +78,7 @@ tags = ['common']
 [[cards]]
 kanji = '消す'
 kana = 'けす'
-english = 'to delete; to erase/cross out; to turn off power'
+english = 'to delete ~; to erase/cross out ~; to turn off ~s power'
 verb-type = 'godan-su'
 transitive = true
 level = 'n5'
@@ -96,7 +96,7 @@ tags = ['common']
 [[cards]]
 kanji = '足す'
 kana = 'たす'
-english = 'to add (numbers); to add (something)'
+english = 'to add ~ (numbers); to add ~ (to something)'
 verb-type = 'godan-su'
 transitive = true
 source = 'nihongo-charenji-n4-kotoba'
@@ -137,12 +137,32 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '出す'
+kana = 'だす'
+english = 'to take out ~'
+make_kanji_card = true
+hide_hiragana_card = true
+verb-type = 'godan-su'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '使う'
 kana = 'つかう'
-english = 'to use'
+english = 'to use ~'
 level = 'n5'
 verb-type = 'godan-u'
 transitive = true
+tags = ['common']
+
+[[cards]]
+kanji = '出る'
+kana = 'でる'
+english = 'to exit'
+verb-type = 'ichidan'
+transitive = false
+level = 'n5'
 tags = ['common']
 
 [[cards]]
@@ -166,10 +186,19 @@ tags = ['common']
 [[cards]]
 kanji = '無くす'
 kana = 'なくす'
-english = 'to lose (something)'
+english = 'to lose ~ (something)'
 level = 'n5'
 verb-type = 'godan-su'
 transitive = true
+tags = ['common']
+
+[[cards]]
+kanji = '盗む'
+kana = 'ぬすむ'
+english = 'to steal ~'
+verb-type = 'godan-mu'
+transitive = true
+level = 'n4'
 tags = ['common']
 
 [[cards]]
@@ -185,7 +214,7 @@ tags = ['common']
 [[cards]]
 kanji = '混ぜる'
 kana = 'まぜる'
-english = 'to mix; to stir; to blend'
+english = 'to mix ~; to stir ~; to blend ~'
 verb-type = 'ichidan'
 transitive = true
 source = 'sekai-wa-fushigi-2'

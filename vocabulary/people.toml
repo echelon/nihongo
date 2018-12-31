@@ -1,4 +1,18 @@
 [[cards]]
+kanji = '相手'
+kana = 'あいて'
+english = 'partner; opponent (sports)'
+level = 'n3'
+tags = ['common', 'noun', 'people']
+
+[[cards]]
+kanji = '赤ちゃん'
+kana = 'あかちゃん'
+english = 'baby'
+level = 'n4'
+tags = ['common', 'noun', 'people']
+
+[[cards]]
 kanji = '貴方'
 kana = 'あなた'
 english = 'you (equal or lower status); dear (wife to husband)'
@@ -256,6 +270,14 @@ english = 'actor; performer'
 tags = ['noun', 'people', 'uncommon']
 
 [[cards]]
+kanji = '選手'
+kana = 'せんしゅ'
+english = 'athelete; player (sports)'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'noun', 'sports']
+
+[[cards]]
 kanji = '祖父'
 kana = 'そふ'
 english = 'grandfather; old man'
@@ -277,6 +299,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '天才'
+kana = 'てんさい'
+english = 'genius'
+level = 'n1'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '年寄り'
 kana = 'としより'
 english = 'elderly person'
@@ -290,6 +320,13 @@ kana = 'ともだち'
 english = 'friend'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '泥棒'
+kana = 'どろぼう'
+english = 'thief'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '～人'
@@ -341,6 +378,13 @@ kana = 'ふたり'
 english = 'two people'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '星'
+kana = 'ほし'
+english = 'star'
+level = 'n4'
+tags = ['common', 'noun', 'space']
 
 [[cards]]
 kanji = '皆さん'

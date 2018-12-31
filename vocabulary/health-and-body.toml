@@ -157,6 +157,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = 'ひたい'
+kana = 'ひたい'
+english = 'forehead'
+level = 'n3'
+source = 'wanikani'
+tags = ['body', 'common', 'noun']
+
+[[cards]]
 kanji = '病院'
 kana = 'びょういん'
 english = 'hospital'

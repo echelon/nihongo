@@ -125,6 +125,7 @@ kanji = '駅'
 kana = 'えき'
 english = 'train station'
 make_kanji_card = true
+hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -496,6 +497,7 @@ kana = 'ちゃいろ'
 english = 'brown'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -511,6 +513,7 @@ kana = 'でぐち'
 english = 'exit'
 level = 'n5'
 make_kanji_card = true
+hide_hiragana_card = true
 tags = []
 
 [[cards]]

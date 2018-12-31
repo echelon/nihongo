@@ -17,7 +17,7 @@ tags = ['color', 'common', 'i-adjective']
 [[cards]]
 kanji = '明るい'
 kana = 'あかるい'
-english = 'light; bright; cheerful'
+english = 'light; bright; well-lit; cheerful'
 make_kanji_card = true
 level = 'n5'
 tags = ['appearance', 'common', 'i-adjective', 'mood']
@@ -51,6 +51,14 @@ english = 'sweet-tasting'
 make_kanji_card = true
 level = 'n5'
 tags = ['common', 'food', 'i-adjectives']
+
+[[cards]]
+kanji = '怪しい'
+kana = 'あやしい'
+english = 'sketchy; suspicious; ominous; dangerous'
+level = 'n2'
+source = 'wanikani'
+tags = ['common', 'i-adjective']
 
 [[cards]]
 kanji = '忙しい'

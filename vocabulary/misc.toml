@@ -1,4 +1,19 @@
 [[cards]]
+kanji = '愛'
+kana = 'あい'
+english = 'love; affection'
+level = 'n3'
+tags = ['common', 'noun', 'noun-suffix']
+
+[[cards]]
+kanji = '合図'
+kana = 'あいず'
+english = 'cue'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '内側'
 kana = 'うちがわ'
 english = 'interior'
@@ -31,11 +46,30 @@ source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '招待'
+kana = 'しょうたい'
+english = 'invitation'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '人工'
 kana = 'じんこう'
 english = 'artificial'
 level = 'n4'
 source = 'wanikani'
+make_kanji_card = true
+hide_hiragana_card = true
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '水中'
+kana = 'すいちゅう'
+english = 'underwater'
+source = 'wanikani'
+make_kanji_card = true
+hide_hiragana_card = true
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
@@ -65,6 +99,8 @@ kanji = '天才'
 kana = 'てんさい'
 english = 'genius; prodigy'
 level = 'n1'
+make_kanji_card = true
+hide_hiragana_card = true
 tags = ['common', 'noun']
 
 [[cards]]
@@ -72,6 +108,13 @@ kanji = '日光'
 kana = 'にっこう'
 english = 'sunlight; sunshine; sunbeams'
 level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '値段'
+kana = 'ねだん'
+english = 'price'
+level = 'n4'
 tags = ['common', 'noun']
 
 [[cards]]
@@ -91,6 +134,13 @@ source = 'nihongo-charenji-n4-kotoba'
 tags = ['common']
 
 [[cards]]
+kanji = '秘密'
+kana = 'ひみつ'
+english = 'secret'
+level = 'n3'
+tags = ['common', 'na-adjective', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '不正'
 kana = 'ふせい'
 english = 'injustice'
@@ -101,11 +151,27 @@ source = 'wanikani'
 tags = ['common', 'na-adjective', 'noun']
 
 [[cards]]
+kanji = '返事'
+kana = 'へんじ'
+english = 'response; reply; answer'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '水色'
 kana = 'みずいろ'
 english = 'light blue; aqua'
 source = 'wanikani'
+make_kanji_card = true
+hide_hiragana_card = true
 tags = ['appearance', 'colors', 'common', 'moun', 'no-adjective']
+
+[[cards]]
+kanji = '野球'
+kana = 'やきゅう'
+english = 'baseball'
+tags = ['common', 'noun', 'sports']
 
 [[cards]]
 kanji = '用意'

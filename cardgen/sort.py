@@ -77,6 +77,7 @@ def read_notes_from_toml(filename):
 skipped_count = 0
 
 def sort_notes(note_toml_data):
+  global skipped_count # TODO: Ugh. You monster.
   notes = []
 
   for note in note_toml_data[INDEX_NAME]:

@@ -2,7 +2,15 @@
 kanji = '田舎'
 kana = 'いなか'
 english = 'countryside; rural area'
+source = 'living-in-japan'
 tags = ['common', 'no-adjective', 'noun', 'places']
+
+[[cards]]
+kanji = 'コンビニ'
+kana = 'コンビニ'
+english = 'convenience store'
+source = 'wanikani'
+tags = ['common', 'gairaigo', 'noun', 'places']
 
 [[cards]]
 kanji = 'スーパー'

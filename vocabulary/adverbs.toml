@@ -39,6 +39,13 @@ level = 'n5'
 tags = ['adverb', 'common', 'noun']
 
 [[cards]]
+kanji = '全て'
+kana = 'すべて'
+english = 'completely'
+level = 'n3'
+tags = ['adverb', 'common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '大変'
 kana = 'たいへん'
 english = 'very; terrible'

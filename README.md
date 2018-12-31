@@ -40,6 +40,17 @@ level = 'n'
 tags = []
 ```
 
+Kanji
+-----
+- 2136 Jouyou kanji (elementary and middle school)
+  - 1006 taught in primary school (the kyouiku kanji)
+  - 1130 taught in secondary school
+  - 862 additional kanji allowed for person names (not in Jouyou)
+
+- Wanikani teaches:
+  - Kanji: 2027
+  - Vocab: 6287
+
 JLPT
 ----
 
