@@ -61,6 +61,13 @@ level = 'n3'
 tags = ['adverb', 'common', 'na-adjective', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '例えば'
+kana = 'たとえば'
+english = 'for example'
+level = 'n4'
+tags = ['adverb', 'common']
+
+[[cards]]
 kanji = '多分'
 kana = 'たぶん'
 english = 'perhaps; probably'

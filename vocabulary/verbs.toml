@@ -48,6 +48,15 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '怒る'
+kana = 'おこる'
+english = 'to get angry'
+verb-type = 'godan-ru'
+transitive = false
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '落ちる'
 kana = 'おちる'
 english = 'to fall down'
@@ -228,5 +237,14 @@ verb-type = 'ichidan'
 transitive = true
 source = 'sekai-wa-fushigi-2'
 level = 'n2'
+tags = ['common']
+
+[[cards]]
+kanji = '守る'
+kana = 'まもる'
+english = 'to protect'
+verb-type = 'godan-ru'
+transitive = false
+level = 'n3'
 tags = ['common']
 

@@ -78,6 +78,12 @@ english = 'bear'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '蜘蛛'
+kana = 'くも'
+english = 'spider'
+tags = ['animals', 'common', 'insects', 'noun']
+
+[[cards]]
 kanji = '子犬'
 kana = 'こいぬ'
 english = 'puppy'
@@ -145,6 +151,12 @@ kana = 'ねこ'
 english = 'cat'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '蜂'
+kana = 'はち'
+english = 'bee; wasp; hornet'
+tags = ['animals', 'common', 'insects', 'noun']
 
 [[cards]]
 kanji = '～匹'

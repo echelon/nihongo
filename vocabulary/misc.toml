@@ -38,6 +38,13 @@ source = 'sekai-wa-fushigi-2'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '最後'
+kana = 'さいご'
+english = 'end; conclusion; final'
+level = 'n4'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '品物'
 kana = 'しなもの'
 english = 'goods; articles; things'

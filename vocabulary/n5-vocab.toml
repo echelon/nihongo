@@ -102,7 +102,14 @@ kanji = '映画'
 kana = 'えいが'
 english = 'movie'
 level = 'n5'
-tags = []
+tags = ['common', 'entertainment', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '映画館'
+kana = 'えいがかん'
+english = 'movie theater'
+level = 'n5'
+tags = ['buildings', 'common', 'entertainment', 'noun', 'places']
 
 [[cards]]
 kanji = '英語'

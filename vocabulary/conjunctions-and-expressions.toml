@@ -20,6 +20,13 @@ explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-p
 tags = ['common', 'conjunction']
 
 [[cards]]
+kanji = '気をつける'
+kana = 'きをつける'
+english = 'to be careful; to take care'
+level = 'n2'
+tags = ['common', 'expression', 'ichidan-verb']
+
+[[cards]]
 kanji = 'けど'
 kana = 'けど'
 english = 'however (links two clauses); however... (soft open ending)'

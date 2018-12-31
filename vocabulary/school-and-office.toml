@@ -6,6 +6,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '科学'
+kana = 'かがく'
+english = 'science'
+level = 'n4'
+tags = ['common', 'field', 'noun']
+
+[[cards]]
 kanji = '紙'
 kana = 'かみ'
 english = 'paper'
