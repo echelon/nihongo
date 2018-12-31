@@ -39,6 +39,15 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '有る'
+kana = 'ある'
+english = 'to be, to exist, to have (inanimate)'
+verb-type = 'irregular'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '落ちる'
 kana = 'おちる'
 english = 'to fall down'

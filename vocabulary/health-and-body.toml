@@ -29,6 +29,13 @@ level = 'n5'
 tags = ['common', 'i-adjectives']
 
 [[cards]]
+kanji = '運動'
+kana = 'うんどう'
+english = 'exercise'
+level = 'n3'
+tags = ['activity', 'common', 'health', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = 'お腹'
 kana = 'おなか'
 english = 'stomach'

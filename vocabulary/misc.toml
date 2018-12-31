@@ -95,6 +95,13 @@ level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '包み'
+kana = 'つつみ'
+english = 'package; parcel; bundle'
+level = 'n3'
+tags = ['common', 'nouns']
+
+[[cards]]
 kanji = '天才'
 kana = 'てんさい'
 english = 'genius; prodigy'
