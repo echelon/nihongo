@@ -203,6 +203,13 @@ level = 'n5'
 tags = ['common', 'i-adjectives']
 
 [[cards]]
+kanji = '四角い'
+kana = 'しかくい'
+english = 'square; rectangular'
+level = 'n2'
+tags = ['common', 'i-adjective']
+
+[[cards]]
 kanji = '静か'
 kana = 'しずか'
 english = 'quiet; peaceful'

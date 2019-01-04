@@ -14,6 +14,36 @@ source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '垢'
+kana = 'あか'
+english = 'filth; dirt; grime'
+level = 'n1'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '医学'
+kana = 'いがく'
+english = 'medical science; medicine (field)'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '医師'
+kana = 'いし'
+english = 'physician (more formal term)'
+level = 'n3'
+source = 'boku-no-hero-academia-anime'
+tags = ['common', 'noun', 'people']
+
+[[cards]]
+kanji = '痛み'
+kana = 'いたみ'
+english = 'pain; injury; grief'
+level = 'n3'
+source = 'boku-no-hero-academia-anime'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '内側'
 kana = 'うちがわ'
 english = 'interior'
@@ -28,6 +58,20 @@ make_kanji_card = true
 hide_hiragana_card = true
 level = 'n3'
 tags = ['common', 'weapons']
+
+[[cards]]
+kanji = '彼女'
+kana = 'かのじょ'
+english = 'she; her'
+level = 'n4'
+tags = ['common', 'pronoun']
+
+[[cards]]
+kanji = '剃刀'
+kana = 'かみそり'
+english = 'razor'
+level = 'n2'
+tags = ['common']
 
 [[cards]]
 kanji = '現象'
@@ -59,6 +103,20 @@ english = 'invitation'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '砂利'
+kana = 'じゃり'
+english = 'gravel; pebbles'
+level = 'n1'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '準備'
+kana = 'じゅんび'
+english = 'preparation'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '人工'
@@ -118,6 +176,14 @@ hide_hiragana_card = true
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '扉'
+kana = 'とびら'
+english = 'gate'
+level = 'n1'
+source = 'tobira'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '日光'
 kana = 'にっこう'
 english = 'sunlight; sunshine; sunbeams'
@@ -146,6 +212,14 @@ kana = 'はんがく'
 english = 'half price'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common']
+
+[[cards]]
+kanji = '爆破'
+kana = 'ばくは'
+english = 'explosion'
+level = 'n1'
+source = 'boku-no-hero-academia-anime'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '秘密'
@@ -186,6 +260,13 @@ kanji = '野球'
 kana = 'やきゅう'
 english = 'baseball'
 tags = ['common', 'noun', 'sports']
+
+[[cards]]
+kanji = '郵便'
+kana = 'ゆうびん'
+english = 'postal service'
+level = 'n3'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '用意'

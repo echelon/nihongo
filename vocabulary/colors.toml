@@ -1,0 +1,13 @@
+[[cards]]
+kanji = '橙色'
+kana = 'だいだいいろ'
+english = 'orange (color of the fruit)'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '灰色'
+kana = 'はいいろ'
+english = 'gray; ashen'
+level = 'n2'
+tags = ['color', 'common', 'no-adjective', 'noun']
+

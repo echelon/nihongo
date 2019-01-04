@@ -126,6 +126,12 @@ english = 'early; soon'
 tags = ['adverb', 'common']
 
 [[cards]]
+kanji = '久しく'
+kana = 'ひさしく'
+english = 'for a long time'
+tags = ['adverb', 'uncommon']
+
+[[cards]]
 kanji = '吃驚'
 kana = 'びっくり'
 english = 'to be surprised; to be amazed; to get startled'

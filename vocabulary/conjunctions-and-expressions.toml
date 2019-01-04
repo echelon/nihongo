@@ -105,6 +105,12 @@ explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-p
 tags = ['common', 'conjunction']
 
 [[cards]]
+kanji = '為に'
+kana = 'ために'
+english = 'for the sake of; on behalf of'
+tags = ['common', 'conjunction']
+
+[[cards]]
 kanji = 'だって'
 kana = 'だって'
 english = 'after all, because (explains previous sentence)'

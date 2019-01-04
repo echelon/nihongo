@@ -1,18 +1,21 @@
 日本語
 ======
-My personal notes on the Japanese language.
+My personal notes and tools for learning the Japanese language.
 
 I'm also teaching my friends, so some of this will be structured to aid learning.
 
-Layout
-------
+File Layout
+-----------
 - `/vocabulary` - toml files with a wide variety of annotated vocabulary. These
   will be updated frequently during study.
+
+  Where possible, there will only be one English meaning provided for each
+  Japanese word. This is to aid in memorizing and recalling synonyms.
 
 - `/cardgen` - utilities for sorting and normalizing the vocabulary as well as
   tools to turn the vocabulary into Anki decks.
 
-There are other files elsewhere, but it's mostly legacy garbage.
+There are other files elsewhere, but it's mostly legacy garbage that can be ignored.
 
 Installation
 ------------
@@ -36,18 +39,18 @@ english = ''
 source = ''
 make_kanji_card = true
 hide_hiragana_card = true
-level = 'n'
+level = 'n[1-5]'
 tags = []
 ```
 
-Kanji
------
+Learning Kanji
+--------------
 - 2136 Jouyou kanji (elementary and middle school)
   - 1006 taught in primary school (the kyouiku kanji)
   - 1130 taught in secondary school
   - 862 additional kanji allowed for person names (not in Jouyou)
 
-- Wanikani teaches:
+- Wanikani is a useful SRS website that teaches:
   - Kanji: 2027
   - Vocab: 6287
 
@@ -56,17 +59,24 @@ JLPT
 
 Levels
 
-- n5: 800 vocab, 100 kanji. 150 hours of study. "Ability to understand some basic Japanese."
-- n4: 1.5k vocab, 300 kanji. 300 hours of study.
-- n3: 3.7k vocab, 650 kanji. 450 hours of study.
-- n2: 6k vocab, 1k kanji. 600 hours of study.
-- n1: 10k-18k vocab, 2k kanji. 900 hours of study. "Ability to read and understand anything."
+- n5: Basic. 800 vocab, 100 kanji. 150 hours of study.
+  "Ability to understand some basic Japanese."
+- n4: Elementary. 1.5k vocab, 300 kanji. 300 hours.
+  "Ability to understand basic Japanese."
+- n3: Intermediate. 3.7k vocab, 650 kanji. 450 hours.
+  "Ability to understand Japanese used in everyday situations to a certain degree."
+- n2: Pre-Advanced. 6k vocab, 1k kanji. 600 hours.
+  "Ability to understand Japanese used in everyday situations, and in a variety of
+  circumstances to a certain degree."
+- n1: Advanced. 10k-18k vocab, 2k kanji. 900 hours.
+  "The ability to understand Japanese used in a variety of circumstances."
 
 ### JLPT Links
 
 - [JLPT vocabulary lists](https://jlptstudy.net/N5/)
 - [Complete list of vocabulary for the JLPT N5](https://nihongoichiban.com/2011/04/30/complete-list-of-vocabulary-for-the-jlpt-n5/)
 - [About the JLPT](http://www.tanos.co.uk/jlpt/aboutjlpt/)
+- https://www.japanesewithanime.com/2016/10/koitsu-soitsu-aitsu-doitsu-meaning.html
 
 Misc Links
 -----

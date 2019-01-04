@@ -34,6 +34,13 @@ level = 'n5'
 tags = ['common', 'kosoado', 'locations', 'places']
 
 [[cards]]
+kanji = '此奴'
+kana = 'こいつ'
+english = 'this person; this guy'
+source = 'anime'
+tags = ['common', 'kosoado', 'pronoun']
+
+[[cards]]
 kanji = '此処'
 kana = 'ここ'
 english = 'here; this place'
