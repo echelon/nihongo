@@ -1,20 +1,4 @@
 [[cards]]
-kanji = '青い'
-kana = 'あおい'
-english = 'blue'
-make_kanji_card = true
-level = 'n5'
-tags = ['color', 'common', 'i-adjective']
-
-[[cards]]
-kanji = '赤い'
-kana = 'あかい'
-english = 'red'
-make_kanji_card = true
-level = 'n5'
-tags = ['color', 'common', 'i-adjective']
-
-[[cards]]
 kanji = '明るい'
 kana = 'あかるい'
 english = 'light; bright; well-lit; cheerful'
@@ -161,13 +145,6 @@ level = 'n5'
 tags = ['common', 'i-adjectives']
 
 [[cards]]
-kanji = '黄色い'
-kana = 'きいろい'
-english = 'yellow'
-level = 'n5'
-tags = ['common', 'i-adjectives']
-
-[[cards]]
 kanji = '汚い'
 kana = 'きたない'
 english = 'dirty; messy'
@@ -196,13 +173,6 @@ level = 'n3'
 tags = ['common', 'i-adjectives']
 
 [[cards]]
-kanji = '黒い'
-kana = 'くろい'
-english = 'black'
-level = 'n5'
-tags = ['common', 'i-adjectives']
-
-[[cards]]
 kanji = '四角い'
 kana = 'しかくい'
 english = 'square; rectangular'
@@ -215,13 +185,6 @@ kana = 'しずか'
 english = 'quiet; peaceful'
 level = 'n5'
 tags = ['common', 'na-adjectives']
-
-[[cards]]
-kanji = '白い'
-kana = 'しろい'
-english = 'white'
-level = 'n5'
-tags = ['common', 'i-adjective']
 
 [[cards]]
 kanji = '上手'

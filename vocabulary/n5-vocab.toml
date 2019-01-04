@@ -1,20 +1,4 @@
 [[cards]]
-kanji = '青'
-kana = 'あお'
-english = 'blue'
-level = 'n5'
-tags = ['color', 'common', 'no-adjective', 'noun']
-
-[[cards]]
-kanji = '赤'
-kana = 'あか'
-english = 'red'
-level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
-tags = ['color', 'common', 'no-adjective', 'noun']
-
-[[cards]]
 kanji = 'いい'
 kana = 'いい'
 english = 'good; OK'
@@ -53,15 +37,6 @@ tags = []
 kanji = '入口'
 kana = 'いりぐち'
 english = 'entrance; gate'
-make_kanji_card = true
-hide_hiragana_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '色'
-kana = 'いろ'
-english = 'color'
 make_kanji_card = true
 hide_hiragana_card = true
 level = 'n5'
@@ -238,13 +213,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '黄色'
-kana = 'きいろ'
-english = 'yellow'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '北'
 kana = 'きた'
 english = 'north'
@@ -292,13 +260,6 @@ tags = []
 kanji = '車'
 kana = 'くるま'
 english = 'car; vehicle'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '黒'
-kana = 'くろ'
-english = 'black'
 level = 'n5'
 tags = []
 
@@ -390,13 +351,6 @@ tags = []
 kanji = '写真'
 kana = 'しゃしん'
 english = 'photograph'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '白'
-kana = 'しろ'
-english = 'white'
 level = 'n5'
 tags = []
 
@@ -497,15 +451,6 @@ kana = 'ちかく'
 english = 'near; vicinity'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'no-adjective']
-
-[[cards]]
-kanji = '茶色'
-kana = 'ちゃいろ'
-english = 'brown'
-level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
-tags = []
 
 [[cards]]
 kanji = '次'
@@ -764,13 +709,6 @@ kana = 'みち'
 english = 'road; street'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = '緑'
-kana = 'みどり'
-english = 'green'
-level = 'n5'
-tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '南'
