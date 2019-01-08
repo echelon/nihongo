@@ -1,62 +1,17 @@
 [[cards]]
-kanji = '黒い'
-kana = 'くろい'
-english = 'black'
-level = 'n5'
-tags = ['common', 'i-adjectives']
-
-[[cards]]
-kanji = '白い'
-kana = 'しろい'
-english = 'white'
-level = 'n5'
-tags = ['common', 'i-adjective']
-
-[[cards]]
-kanji = '黒'
-kana = 'くろ'
-english = 'black'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '白'
-kana = 'しろ'
-english = 'white'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '茶色'
-kana = 'ちゃいろ'
-english = 'brown'
-level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
-tags = []
-
-[[cards]]
-kanji = '黄色い'
-kana = 'きいろい'
-english = 'yellow'
-level = 'n5'
-tags = ['common', 'i-adjectives']
-
-[[cards]]
-kanji = '色'
-kana = 'いろ'
-english = 'color'
-make_kanji_card = true
-hide_hiragana_card = true
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '青'
 kana = 'あお'
 english = 'blue'
 level = 'n5'
 tags = ['color', 'common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '青い'
+kana = 'あおい'
+english = 'blue'
+make_kanji_card = true
+level = 'n5'
+tags = ['color', 'common', 'i-adjective']
 
 [[cards]]
 kanji = '赤'
@@ -68,21 +23,6 @@ hide_hiragana_card = true
 tags = ['color', 'common', 'no-adjective', 'noun']
 
 [[cards]]
-kanji = '緑'
-kana = 'みどり'
-english = 'green'
-level = 'n5'
-tags = ['common', 'no-adjective', 'noun']
-
-[[cards]]
-kanji = '青い'
-kana = 'あおい'
-english = 'blue'
-make_kanji_card = true
-level = 'n5'
-tags = ['color', 'common', 'i-adjective']
-
-[[cards]]
 kanji = '赤い'
 kana = 'あかい'
 english = 'red'
@@ -91,10 +31,63 @@ level = 'n5'
 tags = ['color', 'common', 'i-adjective']
 
 [[cards]]
+kanji = '色'
+kana = 'いろ'
+english = 'color'
+make_kanji_card = true
+hide_hiragana_card = true
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '黄色い'
+kana = 'きいろい'
+english = 'yellow'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '黒'
+kana = 'くろ'
+english = 'black'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '黒い'
+kana = 'くろい'
+english = 'black'
+level = 'n5'
+tags = ['common', 'i-adjectives']
+
+[[cards]]
+kanji = '白'
+kana = 'しろ'
+english = 'white'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '白い'
+kana = 'しろい'
+english = 'white'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
 kanji = '橙色'
 kana = 'だいだいいろ'
 english = 'orange (color of the fruit)'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '茶色'
+kana = 'ちゃいろ'
+english = 'brown'
+level = 'n5'
+make_kanji_card = true
+hide_hiragana_card = true
+tags = []
 
 [[cards]]
 kanji = '灰色'
@@ -102,4 +95,11 @@ kana = 'はいいろ'
 english = 'gray; ashen'
 level = 'n2'
 tags = ['color', 'common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '緑'
+kana = 'みどり'
+english = 'green'
+level = 'n5'
+tags = ['common', 'no-adjective', 'noun']
 
