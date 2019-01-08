@@ -187,6 +187,16 @@ class Note(genanki.Note):
         return 2
     return 2
 
+def read_set(filename):
+  lines = []
+  with open(filename, 'r') as f:
+    lines = f.readlines()
+    lines = map(lambda x: x.strip(), lines)
+    lines = filter(None, lines)
+  return set(lines)
+
+KANJI_ONLY_VOCAB = read_set('config/kanji-only-vocab.txt')
+
 def read_vocabulary_notes(filename):
   with open(filename, 'r') as f:
     contents = f.read()
@@ -208,11 +218,18 @@ for filename in glob.glob('**/*.toml', recursive=True):
     if 'disabled' in n and n['disabled']:
       total_disabled += 1
       continue
+
+    if n['kanji'] in KANJI_ONLY_VOCAB:
+      n['make_kanji_card'] = True
+      n['make_hiragana_only_card'] = False
+
     note = Note(n)
+
     if note.make_kanji_card:
       total_kanji_only += 1
     if note.make_hiragana_only_card:
       total_hiragana_only += 1
+
     KANJI_CARD_DECK.add_note(note)
     total_notes += 1
     total_cards += note.card_count()
