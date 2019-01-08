@@ -196,6 +196,7 @@ def read_set(filename):
   return set(lines)
 
 KANJI_ONLY_VOCAB = read_set('config/kanji-only-vocab.txt')
+N4_VOCAB = read_set('temp/n4-vocab.txt')
 
 def read_vocabulary_notes(filename):
   with open(filename, 'r') as f:
@@ -218,6 +219,12 @@ for filename in glob.glob('**/*.toml', recursive=True):
     if 'disabled' in n and n['disabled']:
       total_disabled += 1
       continue
+
+    # TODO: Import N4 vocab
+    #if n['kanji'] in N4_VOCAB:
+    #  N4_VOCAB.remove(n['kanji'])
+    #if n['kana'] in N4_VOCAB:
+    #  N4_VOCAB.remove(n['kana'])
 
     if n['kanji'] in KANJI_ONLY_VOCAB:
       n['make_kanji_card'] = True
