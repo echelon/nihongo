@@ -44,11 +44,25 @@ source = 'boku-no-hero-academia-anime'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '命'
+kana = 'いのち'
+english = 'life force; lifespan'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '内側'
 kana = 'うちがわ'
 english = 'interior'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '会話'
+kana = 'かいわ'
+english = 'conversation'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '刀'
@@ -160,6 +174,13 @@ level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '月'
+kana = 'つき'
+english = 'moon'
+level = 'n3'
+tags = ['common', 'space']
+
+[[cards]]
 kanji = '包み'
 kana = 'つつみ'
 english = 'package; parcel; bundle'
@@ -267,6 +288,13 @@ kana = 'ゆうびん'
 english = 'postal service'
 level = 'n3'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '夢'
+kana = 'ゆめ'
+english = 'dream'
+level = 'n4'
+tags = ['common']
 
 [[cards]]
 kanji = '用意'

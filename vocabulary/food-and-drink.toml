@@ -348,6 +348,12 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = 'バナナ'
+kana = 'バナナ'
+english = 'banana'
+tags = ['common']
+
+[[cards]]
 kanji = 'パン'
 kana = 'パン'
 english = 'bread'
