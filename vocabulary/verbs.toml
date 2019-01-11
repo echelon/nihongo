@@ -72,6 +72,15 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '浴びる'
+kana = 'あびる'
+english = 'to bathe in ~ (eg. water, light); to take ~ (eg. shower)'
+verb-type = 'ichidan'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '有る'
 kana = 'ある'
 english = 'to be, to exist, to have (inanimate)'
@@ -88,6 +97,24 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n4'
 source = 'jlptstudy.net'
+tags = ['common']
+
+[[cards]]
+kanji = '生まれる'
+kana = 'うまれる'
+english = 'to be born'
+verb-type = 'ichidan'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '売る'
+kana = 'うる'
+english = 'to sell ~'
+verb-type = 'godan-ru'
+transitive = true
+level = 'n5'
 tags = ['common']
 
 [[cards]]
@@ -110,10 +137,28 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '泳ぐ'
+kana = 'およぐ'
+english = 'to swim'
+verb-type = 'godan-gu'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '返す'
 kana = 'かえす'
 english = 'to return ~ (something); to restore ~; to put back ~'
 verb-type = 'godan-su'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '書く'
+kana = 'かく'
+english = 'to write or compose ~'
+verb-type = 'godan-ku'
 transitive = true
 level = 'n5'
 tags = ['common']
@@ -254,6 +299,15 @@ transitive = true
 tags = ['common']
 
 [[cards]]
+kanji = '成る'
+kana = 'なる'
+english = 'to become; to reach'
+verb-type = 'godan-ru'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '盗む'
 kana = 'ぬすむ'
 english = 'to steal ~'
@@ -273,6 +327,51 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '履く'
+kana = 'はく'
+english = 'to put on or wear ~ (lower-body clothing)'
+verb-type = 'godan-ku'
+transitive = true
+level = 'n3'
+tags = ['common']
+
+[[cards]]
+kanji = '走る'
+kana = 'はしる'
+english = 'to run'
+verb-type = 'godan-ru'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '始まる'
+kana = 'はじまる'
+english = 'to begin'
+verb-type = 'godan-ru'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '働く'
+kana = 'はたらく'
+english = 'to work'
+verb-type = 'godan-ku'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '曲がる'
+kana = 'まがる'
+english = 'to bend; to twist; to turn'
+verb-type = 'godan-ru'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '混ぜる'
 kana = 'まぜる'
 english = 'to mix ~; to stir ~; to blend ~'
@@ -283,11 +382,30 @@ level = 'n2'
 tags = ['common']
 
 [[cards]]
+kanji = '待つ'
+kana = 'まつ'
+english = 'to wait; to wait on ~'
+verb-type = 'godan-tsu'
+transitive = true
+level = 'n5'
+note = 'both transitive and intransitive'
+tags = ['common', 'intransitive', 'transitive']
+
+[[cards]]
 kanji = '守る'
 kana = 'まもる'
 english = 'to protect'
 verb-type = 'godan-ru'
 transitive = false
 level = 'n3'
+tags = ['common']
+
+[[cards]]
+kanji = 'n5'
+kana = '飲む'
+english = 'のむ'
+verb-type = 'to drink ~; to swallow ~'
+transitive = true
+level = 'n5'
 tags = ['common']
 
