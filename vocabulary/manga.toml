@@ -1,7 +1,7 @@
 [[cards]]
 kanji = '愛好'
 kana = 'あいこう'
-english = 'love; adoration'
+english = 'adoration'
 source = 'manga'
 tags = ['common', 'noun', 'suru-verb']
 
@@ -26,9 +26,10 @@ tags = ['common', 'no-adjective', 'noun']
 [[cards]]
 kanji = '現実'
 kana = 'げんじつ'
-english = 'reality; actuality; hard fact'
+english = 'reality'
 level = 'n3'
 source = 'manga'
+explain = 'http://selftaughtjapanese.com/2015/04/30/words-to-express-truth-in-japanese/'
 tags = ['common', 'noun']
 
 [[cards]]

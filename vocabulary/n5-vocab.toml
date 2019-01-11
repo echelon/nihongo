@@ -657,8 +657,9 @@ tags = ['common', 'no-adjective', 'noun']
 [[cards]]
 kanji = '本当'
 kana = 'ほんとう'
-english = 'truth; reality'
+english = 'truth'
 level = 'n5'
+explain = 'http://selftaughtjapanese.com/2015/04/30/words-to-express-truth-in-japanese/'
 tags = ['adverb', 'common', 'na-adjective', 'no-adjective', 'noun']
 
 [[cards]]
