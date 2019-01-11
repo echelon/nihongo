@@ -7,6 +7,39 @@ hide_hiragana_card = true
 verb-type = 'godan-u'
 transitive = false
 level = 'n5'
+explain = 'https://www.tofugu.com/japanese/japanese-homophones/'
+tags = ['common']
+
+[[cards]]
+kanji = '合う'
+kana = 'あう'
+english = 'to do together; to match'
+verb-type = 'godan-u'
+transitive = false
+level = 'n4'
+source = 'jlptstudy.net'
+explain = 'https://www.tofugu.com/japanese/japanese-homophones/'
+tags = ['common']
+
+[[cards]]
+kanji = '上がる'
+kana = 'あがる'
+english = 'to rise'
+verb-type = 'godan-ru'
+transitive = false
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common']
+
+[[cards]]
+kanji = '空く'
+kana = 'あく'
+english = 'to be empty or open (eg. seat)'
+verb-type = 'godan-ku'
+transitive = false
+level = 'n4'
+source = 'jlptstudy.net'
+explain = 'https://forum.wordreference.com/threads/%E7%A9%BA%E3%81%8F-aku-suku.2664128/'
 tags = ['common']
 
 [[cards]]
@@ -45,6 +78,16 @@ english = 'to be, to exist, to have (inanimate)'
 verb-type = 'irregular'
 transitive = false
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '生きる'
+kana = 'いきる'
+english = 'to live; to exist'
+verb-type = 'ichidan'
+transitive = false
+level = 'n4'
+source = 'jlptstudy.net'
 tags = ['common']
 
 [[cards]]

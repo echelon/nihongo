@@ -37,3 +37,11 @@ english = 'noun'
 level = 'n2'
 tags = ['common']
 
+[[cards]]
+kanji = '文字'
+kana = 'もじ'
+english = 'letter (alphabet)'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'noun']
+
