@@ -13,13 +13,17 @@ from collections import OrderedDict
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
+INPUT_FILENAME = 'vocabulary/verbs.toml'
+OUTPUT_FILENAME = 'verb_card_deck_output.apkg'
+
 def read_verbs(filename):
   with open(filename, 'r') as f:
     contents = f.read()
     toml_dict = toml.loads(contents)
-    return toml_dict['verbs']
+    return toml_dict['cards']
 
-verbs = read_verbs('verbs.toml')
+verbs = read_verbs(INPUT_FILENAME)
+#verbs = filter(lambda x: 'english-conjugated' in x, verbs)
 
 class Verb:
   # Godan Ending -> Masu Stem
@@ -99,11 +103,16 @@ class Verb:
   }
 
   def __init__(self, verb_dict):
-    self.group = verb_dict['group']
+    self.group = verb_dict['verb-type']
     self.level = verb_dict['level']
     self.kanji = verb_dict['kanji']
     self.kana = verb_dict['kana']
-    self.english = verb_dict['english']
+
+    english = {}
+    if 'english-conjugated' in verb_dict:
+      english = verb_dict['english-conjugated']
+
+    self.english = english
 
   def present_indicative(self, polite=False, positive=False, kanji=False):
     """
@@ -298,6 +307,8 @@ class TestPresentIndicative(unittest.TestCase):
     self.assertEqual(v('遊ぶ', False, False, False), 'あそばなかっただろう')
 
 def main():
+  print('Printing verbs:')
+  print(len(verbs))
   for verb in verbs:
     print('============')
     verb = Verb(verb)

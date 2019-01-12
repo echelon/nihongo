@@ -2,8 +2,7 @@
 kanji = '会う'
 kana = 'あう'
 english = 'to meet'
-make_kanji_card = true
-hide_hiragana_card = true
+english-conjugated = { base = 'meet', past = 'met', plural = 'meets', continous = 'meeting' }
 verb-type = 'godan-u'
 transitive = false
 level = 'n5'
@@ -14,6 +13,7 @@ tags = ['common']
 kanji = '合う'
 kana = 'あう'
 english = 'to do together; to match'
+english-conjugated = { base = 'do together', past = 'did together', plural = 'does together', continous = 'doing together' }
 verb-type = 'godan-u'
 transitive = false
 level = 'n4'
@@ -25,6 +25,7 @@ tags = ['common']
 kanji = '上がる'
 kana = 'あがる'
 english = 'to rise'
+english-conjugated = { base = 'rise', past = 'rose', plural = 'rises', continous = 'rising' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
@@ -35,6 +36,7 @@ tags = ['common']
 kanji = '空く'
 kana = 'あく'
 english = 'to be empty or open (eg. seat)'
+english-conjugated = { base = 'be empty', past = 'was empty', plural = 'are empty', continous = 'being empty' }
 verb-type = 'godan-ku'
 transitive = false
 level = 'n4'
@@ -45,7 +47,8 @@ tags = ['common']
 [[cards]]
 kanji = '開く'
 kana = 'あく'
-english = 'to become open (eg. doors); to become open (eg. business)'
+english = 'to become open (eg. door); to become open (eg. business)'
+english-conjugated = { base = 'become open (eg. door)', past = 'became open (eg. door)', plural = 'becomes open (eg. doors)', continous = 'becoming open (eg. door)' }
 verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
@@ -72,6 +75,16 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '遊ぶ'
+kana = 'あそぶ'
+english = 'to play'
+english-conjugated = { base = 'play', past = 'played', plural = 'plays', continous = 'playing' }
+verb-type = 'godan-bu'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '浴びる'
 kana = 'あびる'
 english = 'to bathe in ~ (eg. water, light); to take ~ (eg. shower)'
@@ -90,6 +103,16 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '歩く'
+kana = 'あるく'
+english = 'to walk'
+english-conjugated = { base = 'walk', past = 'walked', plural = 'walks', continuous = 'walking' }
+verb-type = 'godan-ku'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '生きる'
 kana = 'いきる'
 english = 'to live; to exist'
@@ -97,6 +120,16 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n4'
 source = 'jlptstudy.net'
+tags = ['common']
+
+[[cards]]
+kanji = '撃つ'
+kana = 'うつ'
+english = 'to shoot ~'
+english-conjugation = { base = 'shoot', past = 'shot', plural = 'shoots', continous = 'shooting' }
+verb-type = 'godan-tsu'
+transitive = true
+level = 'n3'
 tags = ['common']
 
 [[cards]]
@@ -188,6 +221,26 @@ english = 'to delete ~; to erase/cross out ~; to turn off ~s power'
 verb-type = 'godan-su'
 transitive = true
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '答える'
+kana = 'こたえる'
+english = 'to answer'
+english-conjugation = { base = 'answer', past = 'answered', plural = 'answers', continous = 'answering' }
+verb-type = 'ichidan'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '探す'
+kana = 'さがす'
+english = 'to search'
+english-conjugation = { base = 'search', past = 'searched', plural = 'searches', continous = 'searching' }
+verb-type = 'godan-su'
+transitive = true
+level = 'n4'
 tags = ['common']
 
 [[cards]]
@@ -293,6 +346,7 @@ tags = ['common']
 kanji = '無くす'
 kana = 'なくす'
 english = 'to lose ~ (something)'
+english-conjugated = { base = 'lose', past = 'lost', plural = 'loses', continous = 'losing' }
 level = 'n5'
 verb-type = 'godan-su'
 transitive = true
@@ -302,6 +356,7 @@ tags = ['common']
 kanji = '成る'
 kana = 'なる'
 english = 'to become; to reach'
+english-conjugated = { base = 'become', past = 'became', plural = 'becomes', continous = 'becoming' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
@@ -320,6 +375,7 @@ tags = ['common']
 kanji = '残る'
 kana = 'のこる'
 english = 'to remain; to be left'
+english-conjugated = { base = 'remain', past = 'remained', plural = 'remains', continous = 'remaining' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'nihongo-charenji-n4-kotoba'
@@ -327,9 +383,30 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '上る'
+kana = 'のぼる'
+english = 'to climb'
+english-conjugation = { base = 'climb', past = 'climbed', plural = 'climbs', continous = 'climbing' }
+verb-type = 'godan-ru'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '飲む'
+kana = 'のむ'
+english = 'to drink ~; to swallow ~'
+english-conjugated = { base = 'drink', past = 'drank', plural = 'drinks', continous = 'drinking' }
+verb-type = 'godan-mu'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '履く'
 kana = 'はく'
 english = 'to put on or wear ~ (lower-body clothing)'
+english-conjugated = { base = 'wear', past = 'wore', plural = 'wears', continous = 'wearing' }
 verb-type = 'godan-ku'
 transitive = true
 level = 'n3'
@@ -339,6 +416,7 @@ tags = ['common']
 kanji = '走る'
 kana = 'はしる'
 english = 'to run'
+english-conjugated = { base = 'run', past = 'ran', plural = 'runs', continous = 'running' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
@@ -348,6 +426,7 @@ tags = ['common']
 kanji = '始まる'
 kana = 'はじまる'
 english = 'to begin'
+english-conjugated = { base = 'begin', past = 'began', plural = 'begins', continous = 'beginning' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
@@ -357,6 +436,7 @@ tags = ['common']
 kanji = '働く'
 kana = 'はたらく'
 english = 'to work'
+english-conjugated = { base = 'work', past = 'worked', plural = 'works', continous = 'working' }
 verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
@@ -366,6 +446,7 @@ tags = ['common']
 kanji = '曲がる'
 kana = 'まがる'
 english = 'to bend; to twist; to turn'
+english-conjugated = { base = 'twist', past = 'twisted', plural = 'twists', continous = 'twising' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
@@ -375,6 +456,7 @@ tags = ['common']
 kanji = '混ぜる'
 kana = 'まぜる'
 english = 'to mix ~; to stir ~; to blend ~'
+english-conjugated = { base = 'mix', past = 'mixed', plural = 'mixes', continous = 'mixing' }
 verb-type = 'ichidan'
 transitive = true
 source = 'sekai-wa-fushigi-2'
@@ -385,6 +467,7 @@ tags = ['common']
 kanji = '待つ'
 kana = 'まつ'
 english = 'to wait; to wait on ~'
+english-conjugated = { base = 'wait', past = 'waited', plural = 'waits', continous = 'waiting' }
 verb-type = 'godan-tsu'
 transitive = true
 level = 'n5'
@@ -395,17 +478,19 @@ tags = ['common', 'intransitive', 'transitive']
 kanji = '守る'
 kana = 'まもる'
 english = 'to protect'
+english-conjugated = { base = 'protect', past = 'protected', plural = 'protects', continous = 'protecting' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n3'
 tags = ['common']
 
 [[cards]]
-kanji = 'n5'
-kana = '飲む'
-english = 'のむ'
-verb-type = 'to drink ~; to swallow ~'
-transitive = true
+kanji = '読む'
+kana = 'よむ'
+english = 'to read'
+english-conjugated = { base = 'read', past = 'read', plural = 'reads', continous = 'reading' }
+verb-type = 'godan-mu'
+transitive = false
 level = 'n5'
 tags = ['common']
 
