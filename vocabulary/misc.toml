@@ -65,6 +65,14 @@ level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '数'
+kana = 'かず'
+english = 'amount'
+level = 'n3'
+source = 'https://iknow.jp/courses/566921'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '刀'
 kana = 'かたな'
 english = ''
@@ -94,6 +102,14 @@ english = 'phenomenon'
 level = 'n3'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '斯う'
+kana = 'こう'
+english = 'in this way; such; thus'
+level = 'n4'
+source = 'https://iknow.jp/courses/566921'
+tags = ['adverb', 'common']
 
 [[cards]]
 kanji = '最後'
@@ -266,6 +282,13 @@ english = 'response; reply; answer'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '別に'
+kana = 'べつに'
+english = 'not particularly'
+level = 'n3'
+tags = ['adverb', 'common']
 
 [[cards]]
 kanji = '水色'

@@ -145,6 +145,13 @@ level = 'n5'
 tags = ['common', 'i-adjectives']
 
 [[cards]]
+kanji = '簡単'
+kana = 'かんたん'
+english = 'simple; easy; uncomplicated'
+level = 'n4'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
 kanji = '汚い'
 kana = 'きたない'
 english = 'dirty; messy'
@@ -399,6 +406,14 @@ kana = 'みじかい'
 english = 'short (length or distance, not height)'
 level = 'n5'
 tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '醜い'
+kana = 'みにくい'
+english = 'ugly; unattractive'
+level = 'n2'
+source = 'https://www.japanesepod101.com/japanese-word-lists/'
+tags = ['common', 'i-adjectives']
 
 [[cards]]
 disabled = true
