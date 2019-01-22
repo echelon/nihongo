@@ -80,6 +80,12 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '渇き'
+kana = 'かわき'
+english = 'thirst'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '看護師'
 kana = 'かんごし'
 english = 'nurse'

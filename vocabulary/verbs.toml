@@ -123,6 +123,16 @@ source = 'jlptstudy.net'
 tags = ['common']
 
 [[cards]]
+kanji = '飢える'
+kana = 'うえる'
+english = 'to starve; to be famished; to be hungry'
+english-conjugated = { base = 'starve', past = 'starved', plural = 'starves', continous = 'starving' }
+verb-type = 'ichidan'
+transitive = false
+level = 'n2'
+tags = ['common']
+
+[[cards]]
 kanji = '撃つ'
 kana = 'うつ'
 english = 'to shoot ~'

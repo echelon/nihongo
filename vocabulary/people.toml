@@ -202,6 +202,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '看護師'
+kana = 'かんごし'
+english = 'hospital nurse'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '外国人'
 kana = 'がいこくじん'
 english = 'foreigner'
