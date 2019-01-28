@@ -25,10 +25,8 @@ tags = []
 kanji = 'お皿'
 kana = 'おさら'
 english = 'plate'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
-tags = []
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = 'お茶'
@@ -103,6 +101,13 @@ kana = 'さとう'
 english = 'sugar'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '皿'
+kana = 'さら'
+english = 'plate'
+level = 'n3'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '塩'
@@ -298,6 +303,12 @@ kana = 'りょうり'
 english = 'cooking; cuisine'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '林檎'
+kana = 'りんご'
+english = 'apple'
+tags = ['common', 'food', 'noun']
 
 [[cards]]
 kanji = '冷蔵庫'

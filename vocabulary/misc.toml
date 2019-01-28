@@ -44,6 +44,13 @@ source = 'boku-no-hero-academia-anime'
 tags = ['common', 'noun', 'people']
 
 [[cards]]
+kanji = '以上'
+kana = 'いじょう'
+english = 'more than ~'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'temporal-noun']
+
+[[cards]]
 kanji = '痛み'
 kana = 'いたみ'
 english = 'pain; injury; grief'
@@ -235,6 +242,20 @@ level = 'n4'
 tags = ['common', 'i-adjective']
 
 [[cards]]
+kanji = '盾'
+kana = 'たて'
+english = 'shield'
+level = 'n1'
+tags = ['armor', 'common', 'weapons']
+
+[[cards]]
+kanji = '力'
+kana = 'ちから'
+english = 'strength; energy; power; force; might'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '中古'
 kana = 'ちゅうこ'
 english = 'used; second-hand'
@@ -276,8 +297,6 @@ kanji = '天才'
 kana = 'てんさい'
 english = 'genius; prodigy'
 level = 'n1'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = ['common', 'noun']
 
 [[cards]]
@@ -287,6 +306,20 @@ english = 'gate'
 level = 'n1'
 source = 'tobira'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '道路'
+kana = 'どうろ'
+english = 'highway'
+level = 'n3'
+tags = ['common', 'noun', 'places']
+
+[[cards]]
+kanji = '虹'
+kana = 'にじ'
+english = 'rainbow'
+level = 'n2'
+tags = ['common', 'nature', 'outdoors']
 
 [[cards]]
 kanji = '日光'
@@ -334,6 +367,12 @@ source = 'boku-no-hero-academia-anime'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '非常口'
+kana = 'ひじょうぐち'
+english = 'emergency exit'
+tags = ['building', 'common', 'noun']
+
+[[cards]]
 kanji = '秘密'
 kana = 'ひみつ'
 english = 'secret'
@@ -349,6 +388,13 @@ hide_hiragana_card = true
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '船'
+kana = 'ふね'
+english = 'boat'
+level = 'n4'
+tags = ['common', 'noun', 'transportation']
 
 [[cards]]
 kanji = '返事'

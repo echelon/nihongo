@@ -139,6 +139,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '蜻蛉'
+kana = 'とんぼ'
+english = 'dragonfly'
+source = 'japan-trip'
+tags = ['animals', 'common', 'noun']
+
+[[cards]]
 kanji = '動物'
 kana = 'どうぶつ'
 english = 'animal'
@@ -166,6 +173,12 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '豚'
+kana = 'ぶた'
+english = 'pig'
+tags = ['animals', 'common', 'noun']
+
+[[cards]]
 kanji = '鮪'
 kana = 'まぐろ'
 english = 'tuna'
@@ -177,6 +190,13 @@ kanji = '蚯蚓'
 kana = 'みみず'
 english = 'earthworm'
 tags = ['insect', 'noun', 'uncommon']
+
+[[cards]]
+kanji = '虫'
+kana = 'むし'
+english = 'insect'
+level = 'n4'
+tags = ['animals', 'common', 'noun']
 
 [[cards]]
 kanji = 'ペット'

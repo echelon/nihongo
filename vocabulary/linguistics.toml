@@ -1,4 +1,10 @@
 [[cards]]
+kanji = '訓読み'
+kana = 'くんよみ'
+english = 'native Japanese reading of Chinese character'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '敬語'
 kana = 'けいご'
 english = 'honorific language'
