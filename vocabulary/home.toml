@@ -2,7 +2,6 @@
 kanji = '家'
 kana = 'いえ'
 english = 'house; family; household'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'family', 'home', 'places']
 
@@ -173,6 +172,13 @@ kana = 'シャワー'
 english = 'shower'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = 'シーツ'
+kana = 'シーツ'
+english = 'sheet; bed sheet'
+level = 'n2'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = 'ストーブ'

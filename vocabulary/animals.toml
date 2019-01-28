@@ -132,6 +132,13 @@ level = 'n3'
 tags = ['common', 'mammal', 'noun']
 
 [[cards]]
+kanji = '蝶'
+kana = 'ちょう'
+english = 'butterfly'
+level = 'n1'
+tags = ['animals', 'common', 'noun']
+
+[[cards]]
 kanji = '鳥'
 kana = 'とり'
 english = 'bird'
@@ -197,6 +204,13 @@ kana = 'むし'
 english = 'insect'
 level = 'n4'
 tags = ['animals', 'common', 'noun']
+
+[[cards]]
+kanji = '鰐'
+kana = 'わに'
+english = 'crocodile; alligator'
+source = 'wanikani'
+tags = ['animals', 'noun', 'uncommon']
 
 [[cards]]
 kanji = 'ペット'

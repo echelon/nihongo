@@ -132,6 +132,12 @@ source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '西瓜'
+kana = 'すいか'
+english = 'watermellon'
+tags = ['common', 'food', 'noun']
+
+[[cards]]
 kanji = '蕎麦'
 kana = 'そば'
 english = 'buckwheat; buckwheat noodles'

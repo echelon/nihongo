@@ -256,6 +256,14 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = 'ちゃんと'
+kana = 'ちゃんと'
+english = 'properly; diligently'
+level = 'n3'
+source = 'living-in-japan'
+tags = ['adverb', 'common', 'suru-verb']
+
+[[cards]]
 kanji = '中古'
 kana = 'ちゅうこ'
 english = 'used; second-hand'
@@ -359,6 +367,14 @@ source = 'nihongo-charenji-n4-kotoba'
 tags = ['common']
 
 [[cards]]
+kanji = '反対'
+kana = 'はんたい'
+english = 'opposite; inverse'
+level = 'n4'
+source = 'living-in-japan'
+tags = ['common', 'na-adjective', 'no-adjective', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '爆破'
 kana = 'ばくは'
 english = 'explosion'
@@ -371,6 +387,14 @@ kanji = '非常口'
 kana = 'ひじょうぐち'
 english = 'emergency exit'
 tags = ['building', 'common', 'noun']
+
+[[cards]]
+kanji = '酷い'
+kana = 'ひどい'
+english = 'cruel; heartless; violent'
+level = 'n4'
+source = 'anime'
+tags = ['common', 'i-adjective']
 
 [[cards]]
 kanji = '秘密'
@@ -420,6 +444,13 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '墓地'
+kana = 'ぼち'
+english = 'graveyard; cemetery'
+level = 'n1'
+tags = ['common', 'noun', 'places']
+
+[[cards]]
 kanji = '間違い'
 kana = 'まちがい'
 english = 'mistake; error'
@@ -449,11 +480,26 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '床'
+kana = 'ゆか'
+english = 'floor'
+level = 'n3'
+source = 'common'
+tags = ['buildings', 'common', 'noun']
+
+[[cards]]
 kanji = '夢'
 kana = 'ゆめ'
 english = 'dream'
 level = 'n4'
 tags = ['common']
+
+[[cards]]
+kanji = '用'
+kana = 'よう'
+english = 'task; business'
+level = 'n4'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '用意'
