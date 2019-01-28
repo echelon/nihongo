@@ -202,6 +202,12 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '金持ち'
+kana = 'かねもち'
+english = 'rich person'
+tags = ['common', 'noun', 'people']
+
+[[cards]]
 kanji = '看護師'
 kana = 'かんごし'
 english = 'hospital nurse'
@@ -212,9 +218,14 @@ tags = ['common']
 kanji = '外国人'
 kana = 'がいこくじん'
 english = 'foreigner'
-make_kanji_card = true
 level = 'n5'
-tags = []
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '外人'
+kana = 'がいじん'
+english = 'foreigner (less polite)'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '兄弟'
@@ -244,6 +255,14 @@ kana = 'さっか'
 english = 'author (profession)'
 level = 'n3'
 tags = ['common', 'people']
+
+[[cards]]
+kanji = '社長'
+kana = 'しゃちょう'
+english = 'company president; manager; director'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '自分'
@@ -324,8 +343,9 @@ tags = ['common', 'no-adjective', 'noun']
 [[cards]]
 kanji = '友達'
 kana = 'ともだち'
-english = 'friend'
+english = 'friend (spoken form)'
 level = 'n5'
+explain = 'https://hinative.com/en-US/questions/696835'
 tags = []
 
 [[cards]]
@@ -408,11 +428,34 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '息子'
+kana = 'むすこ'
+english = 'son'
+level = 'n4'
+tags = ['common', 'family', 'noun', 'people']
+
+[[cards]]
+kanji = '娘'
+kana = 'むすめ'
+english = '(my) daughter'
+level = 'n4'
+tags = ['common', 'family', 'noun', 'people']
+
+[[cards]]
 kanji = '役人'
 kana = 'やくにん'
 english = 'government official'
 level = 'n2'
 tags = ['common', 'government']
+
+[[cards]]
+kanji = '友人'
+kana = 'ゆうじん'
+english = 'friend (written form)'
+level = 'n3'
+source = 'wanikani'
+explain = 'https://hinative.com/en-US/questions/696835'
+tags = ['common', 'noun', 'people']
 
 [[cards]]
 kanji = '両親'

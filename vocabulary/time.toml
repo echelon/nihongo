@@ -117,6 +117,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '季節'
+kana = 'きせつ'
+english = 'season; time of year'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun', 'seasons']
+
+[[cards]]
 kanji = '昨日'
 kana = 'きのう'
 english = 'yesterday'
@@ -214,6 +222,13 @@ kana = 'ごぜん'
 english = 'morning; A.M.'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '最近'
+kana = 'さいきん'
+english = 'recently'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
 
 [[cards]]
 kanji = '先'

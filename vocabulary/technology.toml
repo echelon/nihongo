@@ -6,6 +6,13 @@ level = 'n4'
 tags = ['common', 'noun', 'train', 'transportation']
 
 [[cards]]
+kanji = '携帯'
+kana = 'けいたい'
+english = 'mobile phone'
+level = 'n1'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '自動車'
 kana = 'じどうしゃ'
 english = 'automobile'
@@ -34,6 +41,13 @@ english = 'electric train'
 level = 'n5'
 make_kanji_card = true
 tags = []
+
+[[cards]]
+kanji = '電卓'
+kana = 'でんたく'
+english = 'calculator'
+source = 'wanikani'
+tags = ['common']
 
 [[cards]]
 kanji = '電話'

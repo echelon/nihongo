@@ -13,6 +13,13 @@ level = 'n5'
 tags = ['common', 'expressions']
 
 [[cards]]
+kanji = 'かどうか'
+kana = 'かどうか'
+english = "whether or not (eg. I do't know whether or not I can come.)"
+source = 'wanikani'
+tags = ['common']
+
+[[cards]]
 kanji = 'が'
 kana = 'が'
 english = 'and, but (links two clauses)'
@@ -124,4 +131,12 @@ english = 'but (start of sentence; casual)'
 level = 'n5'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']
+
+[[cards]]
+kanji = 'どうせ'
+kana = 'どうせ'
+english = 'anyhow; at best'
+level = 'n2'
+source = 'wanikani'
+tags = ['adverb', 'common']
 

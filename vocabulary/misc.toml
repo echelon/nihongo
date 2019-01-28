@@ -21,6 +21,14 @@ level = 'n1'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '安心'
+kana = 'あんしん'
+english = 'relief; peace of mind'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'na-adjective', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '医学'
 kana = 'いがく'
 english = 'medical science; medicine (field)'
@@ -51,11 +59,25 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '内'
+kana = 'うち'
+english = 'inside; within; while'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '内側'
 kana = 'うちがわ'
 english = 'interior'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '思い'
+kana = 'おもい'
+english = 'thought; imagination'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '会話'
@@ -80,6 +102,14 @@ make_kanji_card = true
 hide_hiragana_card = true
 level = 'n3'
 tags = ['common', 'weapons']
+
+[[cards]]
+kanji = '勝ち'
+kana = 'かち'
+english = 'victory; win'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '彼女'
@@ -112,11 +142,26 @@ source = 'https://iknow.jp/courses/566921'
 tags = ['adverb', 'common']
 
 [[cards]]
+kanji = '心'
+kana = 'こころ'
+english = 'mind; heart; spirit'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '最後'
 kana = 'さいご'
 english = 'end; conclusion; final'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '姿勢'
+kana = 'しせい'
+english = 'posture; stance'
+level = 'n2'
+source = 'wanikani'
+tags = ['body', 'common', 'noun']
 
 [[cards]]
 kanji = '品物'
@@ -183,11 +228,34 @@ level = 'n3'
 tags = ['adverbial-noun', 'common', 'no-adjective']
 
 [[cards]]
+kanji = '正しい'
+kana = 'ただしい'
+english = 'correct'
+level = 'n4'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '中古'
+kana = 'ちゅうこ'
+english = 'used; second-hand'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'temporal-noun']
+
+[[cards]]
 kanji = '中止'
 kana = 'ちゅうし'
 english = 'suspension; discontinuance; interruption'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '注文'
+kana = 'ちゅうもん'
+english = 'order; request'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '月'
@@ -232,6 +300,13 @@ kanji = '値段'
 kana = 'ねだん'
 english = 'price'
 level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '外れ'
+kana = 'はずれ'
+english = 'extremity; verge; outskirts'
+source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
@@ -291,6 +366,21 @@ level = 'n3'
 tags = ['adverb', 'common']
 
 [[cards]]
+kanji = '褒美'
+kana = 'ほうび'
+english = 'reward'
+level = 'n1'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '間違い'
+kana = 'まちがい'
+english = 'mistake; error'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '水色'
 kana = 'みずいろ'
 english = 'light blue; aqua'
@@ -326,6 +416,14 @@ english = 'preparation; provision; arrangement'
 level = 'n4'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '羊毛'
+kana = 'ようもう'
+english = 'wool'
+level = 'n2'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '冷凍'

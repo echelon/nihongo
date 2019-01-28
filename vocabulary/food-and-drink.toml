@@ -248,6 +248,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '葡萄'
+kana = 'ぶどう'
+english = 'grape'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'food', 'noun']
+
+[[cards]]
 kanji = '不味い'
 kana = 'まずい'
 english = 'unappetising; unpleasant taste'

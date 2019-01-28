@@ -152,6 +152,16 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '生む'
+kana = 'うむ'
+english = 'to give birth to ~'
+english-conjugated = { base = 'give birth', past = 'gave birth', plural = 'gives birth', continous = 'giving birth' }
+verb-type = 'godan-mu'
+transitive = true
+level = 'n1'
+tags = ['common']
+
+[[cards]]
 kanji = '売る'
 kana = 'うる'
 english = 'to sell ~'
@@ -216,6 +226,16 @@ transitive = true
 tags = ['common']
 
 [[cards]]
+kanji = '勝つ'
+kana = 'かつ'
+english = 'to win'
+english-conjugated = { base = 'win', past = 'won', plural = 'wins', continous = 'winning' }
+verb-type = 'godan-tsu'
+transitive = false
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '曇る'
 kana = 'くもる'
 english = 'to get cloudy'
@@ -273,6 +293,16 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '正す'
+kana = 'ただす'
+english = 'to correct ~; to rectify ~'
+english-conjugated = { base = 'correct', past = 'corrected', plural = 'corrects', continous = 'correcting' }
+verb-type = 'godan-su'
+transitive = true
+source = 'wanikani'
+tags = ['common']
+
+[[cards]]
 kanji = '立つ'
 kana = 'たつ'
 english = 'to stand'
@@ -309,6 +339,7 @@ tags = ['common']
 kanji = '出す'
 kana = 'だす'
 english = 'to take out ~'
+english-conjugated = { base = 'take out', past = 'took out', plural = 'takes out', continous = 'taking out' }
 make_kanji_card = true
 hide_hiragana_card = true
 verb-type = 'godan-su'
@@ -320,6 +351,7 @@ tags = ['common']
 kanji = '使う'
 kana = 'つかう'
 english = 'to use ~'
+english-conjugated = { base = 'use', past = 'used', plural = 'uses', continous = 'using' }
 level = 'n5'
 verb-type = 'godan-u'
 transitive = true
@@ -329,6 +361,7 @@ tags = ['common']
 kanji = '出る'
 kana = 'でる'
 english = 'to exit'
+english-conjugated = { base = 'exit', past = 'exited', plural = 'exits', continous = 'exiting' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n5'
@@ -337,16 +370,28 @@ tags = ['common']
 [[cards]]
 kanji = '止まる'
 kana = 'とまる'
-english = 'to stop (moving); to come to a halt; to stop (doing)'
+english = 'to stop (moving, doing, ...); to come to a halt'
+english-conjugated = { base = 'stop', past = 'stopped', plural = 'stops', continous = 'stopping' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '止める'
+kana = 'とめる'
+english = 'to stop ~'
+english-conjugated = { base = 'stop', past = 'stopped', plural = 'stop', continous = 'stopping' }
+verb-type = 'ichidan'
+transitive = true
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '泣く'
 kana = 'なく'
 english = 'to cry'
+english-conjugated = { base = 'cry', past = 'cried', plural = 'cries', continous = 'crying' }
 level = 'n4'
 verb-type = 'godan-ku'
 transitive = false
@@ -443,6 +488,16 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '外れる'
+kana = 'はずれる'
+english = 'to be disconnected'
+english-conjugated = { base = 'be disconnected', past = 'been disconnected', plural = 'be disconnected', continous = 'being disconnected' }
+verb-type = 'ichidan'
+transitive = false
+level = 'n2'
+tags = ['common']
+
+[[cards]]
 kanji = '働く'
 kana = 'はたらく'
 english = 'to work'
@@ -450,6 +505,26 @@ english-conjugated = { base = 'work', past = 'worked', plural = 'works', contino
 verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '引く'
+kana = 'ひく'
+english = 'to pull ~; to subtract ~'
+english-conjugated = { base = 'pull', past = 'pulled', plural = 'pulls', continous = 'pulling' }
+verb-type = 'godan-ku'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '太る'
+kana = 'ふとる'
+english = 'to get fat'
+english-conjugated = { base = 'get fat', past = 'got fat', plural = 'gets fat', continous = 'getting fat' }
+verb-type = 'godan-ru'
+transitive = false
+level = 'n4'
 tags = ['common']
 
 [[cards]]
@@ -502,5 +577,26 @@ english-conjugated = { base = 'read', past = 'read', plural = 'reads', continous
 verb-type = 'godan-mu'
 transitive = false
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '分かる'
+kana = 'わかる'
+english = 'to understand'
+english-conjugated = { base = 'understand', past = 'understood', plural = 'understands', continous = 'understanding' }
+verb-type = 'godan-ru'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '分ける'
+kana = 'わける'
+english = 'to separate ~; to divide ~'
+english-conjugated = { base = 'separate', past = 'separated', plural = 'separates', continous = 'separating' }
+verb-type = 'ichidan'
+transitive = true
+level = 'n3'
+source = 'wanikani'
 tags = ['common']
 
