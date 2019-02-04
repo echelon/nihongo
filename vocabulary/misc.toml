@@ -21,12 +21,44 @@ level = 'n1'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '遊び'
+kana = 'あそび'
+english = 'playing'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'noun', 'noun-suffix']
+
+[[cards]]
 kanji = '安心'
 kana = 'あんしん'
 english = 'relief; peace of mind'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'na-adjective', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = 'あんな'
+kana = 'あんな'
+english = 'such (distant)'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'kosoado', 'pre-noun-adjectival']
+
+[[cards]]
+kanji = '以下'
+kana = 'いか'
+english = 'not exceeding; below ~'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '以外'
+kana = 'いがい'
+english = 'with the exception of'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['adverbial-noun', 'common']
 
 [[cards]]
 kanji = '医学'
@@ -59,6 +91,14 @@ source = 'boku-no-hero-academia-anime'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '糸'
+kana = 'いと'
+english = 'thread; yarn'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'noun', 'noun-suffix']
+
+[[cards]]
 kanji = '命'
 kana = 'いのち'
 english = 'life force; lifespan'
@@ -81,10 +121,26 @@ source = 'sekai-wa-fushigi-2'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '贈り物'
+kana = 'おくりもの'
+english = 'present; gift'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '思い'
 kana = 'おもい'
 english = 'thought; imagination'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '思わず'
+kana = 'おもわず'
+english = 'subconsciously; involuntarily'
+level = 'n3'
+source = 'wanikani'
+tags = ['adverb', 'common']
 
 [[cards]]
 kanji = '会話'
@@ -99,6 +155,13 @@ kana = 'かず'
 english = 'amount'
 level = 'n3'
 source = 'https://iknow.jp/courses/566921'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '方'
+kana = 'かた'
+english = 'person; way'
+level = 'n5'
 tags = ['common', 'noun']
 
 [[cards]]
@@ -126,11 +189,33 @@ level = 'n4'
 tags = ['common', 'pronoun']
 
 [[cards]]
+kanji = '黴'
+kana = 'かび'
+english = 'mold; mildew'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '剃刀'
 kana = 'かみそり'
 english = 'razor'
 level = 'n2'
 tags = ['common']
+
+[[cards]]
+kanji = '痒い'
+kana = 'かゆい'
+english = 'itchy'
+level = 'n2'
+tags = ['body', 'common', 'health', 'i-adjective']
+
+[[cards]]
+kanji = '完成'
+kana = 'かんせい'
+english = 'complete; completion'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '現象'
@@ -156,11 +241,26 @@ level = 'n4'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '怖い'
+kana = 'こわい'
+english = 'scary; frightening'
+level = 'n4'
+tags = ['common', 'i-adjective']
+
+[[cards]]
 kanji = '最後'
 kana = 'さいご'
 english = 'end; conclusion; final'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '市'
+kana = 'し'
+english = 'city'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun', 'suffix']
 
 [[cards]]
 kanji = '姿勢'
@@ -209,6 +309,14 @@ source = 'wanikani'
 make_kanji_card = true
 hide_hiragana_card = true
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '人生'
+kana = 'じんせい'
+english = 'human life'
+level = 'n3'
+source = 'office'
+tags = ['common']
 
 [[cards]]
 kanji = '水中'
@@ -266,10 +374,24 @@ tags = ['adverb', 'common', 'suru-verb']
 [[cards]]
 kanji = '中古'
 kana = 'ちゅうこ'
+english = 'used; secondhand'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'temporal-noun']
+
+[[cards]]
+kanji = '中古'
+kana = 'ちゅうこ'
 english = 'used; second-hand'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'temporal-noun']
+
+[[cards]]
+kanji = '中古車'
+kana = 'ちゅうこしゃ'
+english = 'used car'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '中止'
@@ -299,6 +421,13 @@ kana = 'つつみ'
 english = 'package; parcel; bundle'
 level = 'n3'
 tags = ['common', 'nouns']
+
+[[cards]]
+kanji = '手袋'
+kana = 'てぶくろ'
+english = 'glove; mitten'
+level = 'n4'
+tags = ['clothing', 'common', 'noun']
 
 [[cards]]
 kanji = '天才'
@@ -383,6 +512,14 @@ source = 'boku-no-hero-academia-anime'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '引き分け'
+kana = 'ひきわけ'
+english = 'tie (in a game)'
+level = 'n2'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '非常口'
 kana = 'ひじょうぐち'
 english = 'emergency exit'
@@ -436,10 +573,24 @@ level = 'n3'
 tags = ['adverb', 'common']
 
 [[cards]]
+kanji = '方'
+kana = 'ほう'
+english = 'direction; way; method; side'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '褒美'
 kana = 'ほうび'
 english = 'reward'
 level = 'n1'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '黒子'
+kana = 'ほくろ'
+english = 'mole; beauty spot'
 source = 'wanikani'
 tags = ['common', 'noun']
 
@@ -458,6 +609,20 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '丸ごと'
+kana = 'まるごと'
+english = 'wholly'
+level = 'n1'
+source = 'wanikani'
+tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '蜜柑'
+kana = 'みかん'
+english = 'mandarin orange'
+tags = ['common', 'food', 'fruit', 'noun']
+
+[[cards]]
 kanji = '水色'
 kana = 'みずいろ'
 english = 'light blue; aqua'
@@ -465,6 +630,29 @@ source = 'wanikani'
 make_kanji_card = true
 hide_hiragana_card = true
 tags = ['appearance', 'colors', 'common', 'moun', 'no-adjective']
+
+[[cards]]
+kanji = '若し'
+kana = 'もし'
+english = 'if; supposing'
+level = 'n4'
+tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '元'
+kana = 'もと'
+english = 'origin; source'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '矢'
+kana = 'や'
+english = 'arrow'
+level = 'n1'
+source = 'wanikani'
+tags = ['common', 'noun', 'weapon']
 
 [[cards]]
 kanji = '野球'
@@ -477,6 +665,14 @@ kanji = '郵便'
 kana = 'ゆうびん'
 english = 'postal service'
 level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '幽霊'
+kana = 'ゆうれい'
+english = 'specter; phantom'
+level = 'n1'
+source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
@@ -508,6 +704,13 @@ english = 'preparation; provision; arrangement'
 level = 'n4'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '妖怪'
+kana = 'ようかい'
+english = 'ghost'
+source = 'games'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '羊毛'

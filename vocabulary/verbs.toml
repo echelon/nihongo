@@ -85,6 +85,28 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '集まる'
+kana = 'あつまる'
+english = 'to gather; to assemble'
+english-conjugated = { base = 'gather', past = 'gathered', plural = 'gathers', continous = 'gathering' }
+verb-type = 'godan-ru'
+transitive = false
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common']
+
+[[cards]]
+kanji = '集める'
+kana = 'あつめる'
+english = 'to gather ~; to collect ~'
+english-conjugated = { base = 'gather', past = 'gathered', plural = 'gathers', continous = 'gathering' }
+verb-type = 'ichidan'
+transitive = true
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common']
+
+[[cards]]
 kanji = '浴びる'
 kana = 'あびる'
 english = 'to bathe in ~ (eg. water, light); to take ~ (eg. shower)'
@@ -283,6 +305,17 @@ transitive = false
 tags = ['common']
 
 [[cards]]
+kanji = '育つ'
+kana = 'そだつ'
+english = 'to be raised; to be brought up'
+english-conjugated = { base = 'raised', past = 'been raised', plural = 'are raised', continous = 'being raised' }
+verb-type = 'godan-tsu'
+transitive = false
+level = 'n3'
+source = 'wanikani'
+tags = ['common']
+
+[[cards]]
 kanji = '足す'
 kana = 'たす'
 english = 'to add ~ (numbers); to add ~ (to something)'
@@ -355,6 +388,16 @@ english-conjugated = { base = 'use', past = 'used', plural = 'uses', continous =
 level = 'n5'
 verb-type = 'godan-u'
 transitive = true
+tags = ['common']
+
+[[cards]]
+kanji = '出かける'
+kana = 'でかける'
+english = 'to go out; to set out'
+english-conjugated = { base = 'go out', past = 'went out', plural = 'goes out', continous = 'going out' }
+verb-type = 'ichidan'
+transitive = false
+level = 'n5'
 tags = ['common']
 
 [[cards]]

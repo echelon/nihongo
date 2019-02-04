@@ -641,13 +641,6 @@ level = 'n5'
 tags = ['common', 'noun']
 
 [[cards]]
-kanji = '方'
-kana = 'ほう'
-english = 'way; direction; method; side'
-level = 'n5'
-tags = ['common', 'noun']
-
-[[cards]]
 kanji = '他'
 kana = 'ほか'
 english = 'other (person, place, thing); the rest'
