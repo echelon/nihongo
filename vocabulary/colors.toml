@@ -103,3 +103,10 @@ english = 'green'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun']
 
+[[cards]]
+kanji = 'ピンク'
+kana = 'ピンク'
+english = 'pink'
+level = 'n2'
+tags = ['color', 'common', 'gairaigo', 'no-adjective', 'noun']
+

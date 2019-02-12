@@ -45,6 +45,14 @@ source = 'jlptstudy.net'
 tags = ['common', 'kosoado', 'pre-noun-adjectival']
 
 [[cards]]
+kanji = '案内'
+kana = 'あんない'
+english = 'guidance'
+level = 'n3'
+source = 'jlptstudy.net'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '以下'
 kana = 'いか'
 english = 'not exceeding; below ~'
@@ -91,12 +99,34 @@ source = 'boku-no-hero-academia-anime'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '一年生'
+kana = 'いちねんせい'
+english = 'first year student'
+tags = ['common', 'noun', 'person']
+
+[[cards]]
+kanji = '一杯'
+kana = 'いっぱい'
+english = 'full; amount necessary to fill a container'
+level = 'n4'
+source = 'irasshai'
+tags = ['adverb', 'common', 'na-adjective', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '糸'
 kana = 'いと'
 english = 'thread; yarn'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'noun-suffix']
+
+[[cards]]
+kanji = '以内'
+kana = 'いない'
+english = 'within; inside of'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'noun', 'suffix']
 
 [[cards]]
 kanji = '命'
@@ -121,12 +151,27 @@ source = 'sekai-wa-fushigi-2'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '宇宙'
+kana = 'うちゅう'
+english = 'universe; cosmos'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '贈り物'
 kana = 'おくりもの'
 english = 'present; gift'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = 'お前'
+kana = 'おまえ'
+english = 'you (familiar, male language, often derogatory)'
+level = 'n3'
+source = 'anime'
+tags = ['common', 'pronoun']
 
 [[cards]]
 kanji = '思い'
@@ -141,6 +186,12 @@ english = 'subconsciously; involuntarily'
 level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '会長'
+kana = 'かいちょう'
+english = 'chairman; president of a society'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '会話'
@@ -158,11 +209,26 @@ source = 'https://iknow.jp/courses/566921'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '火星'
+kana = 'かせい'
+english = 'Mars (planet)'
+level = 'n1'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun', 'space']
+
+[[cards]]
 kanji = '方'
 kana = 'かた'
 english = 'person; way'
 level = 'n5'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '硬い'
+kana = 'かたい'
+english = 'hard; solid; tough'
+level = 'n4'
+tags = ['common', 'i-adjectives']
 
 [[cards]]
 kanji = '刀'
@@ -218,6 +284,29 @@ source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '完成'
+kana = 'かんせい'
+english = 'complete; completion'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '消しゴム'
+kana = 'けしゴム'
+english = 'eraser'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = '原因'
+kana = 'げんいん'
+english = 'cause; origin; source'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '現象'
 kana = 'げんしょう'
 english = 'phenomenon'
@@ -232,6 +321,14 @@ english = 'in this way; such; thus'
 level = 'n4'
 source = 'https://iknow.jp/courses/566921'
 tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '交通'
+kana = 'こうつう'
+english = 'traffic'
+level = 'n4'
+source = 'nihongo-sou-matome'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '心'
@@ -287,6 +384,13 @@ source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '少年'
+kana = 'しょうねん'
+english = 'young boy; juvenile'
+level = 'n4'
+tags = ['common', 'noun', 'people']
+
+[[cards]]
 kanji = '砂利'
 kana = 'じゃり'
 english = 'gravel; pebbles'
@@ -328,6 +432,14 @@ hide_hiragana_card = true
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '総'
+kana = 'そう'
+english = 'gross; overall; whole'
+level = 'n1'
+source = 'nihongo-sou-matome'
+tags = ['common', 'noun', 'prefix']
+
+[[cards]]
 kanji = '外側'
 kana = 'そとがわ'
 english = 'exterior'
@@ -341,6 +453,14 @@ english = 'each'
 source = 'sekai-wa-fushigi-2'
 level = 'n3'
 tags = ['adverbial-noun', 'common', 'no-adjective']
+
+[[cards]]
+kanji = '宝'
+kana = 'たから'
+english = 'treasure'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '正しい'
@@ -437,6 +557,22 @@ level = 'n1'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '通り'
+kana = 'とおり'
+english = 'avenue; street'
+level = 'n3'
+source = 'jlptstudy.net'
+tags = ['adverbial-noun', 'common', 'noun']
+
+[[cards]]
+kanji = '特別'
+kana = 'とくべつ'
+english = 'special'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['adverb', 'common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '扉'
 kana = 'とびら'
 english = 'gate'
@@ -450,13 +586,6 @@ kana = 'どうろ'
 english = 'highway'
 level = 'n3'
 tags = ['common', 'noun', 'places']
-
-[[cards]]
-kanji = '虹'
-kana = 'にじ'
-english = 'rainbow'
-level = 'n2'
-tags = ['common', 'nature', 'outdoors']
 
 [[cards]]
 kanji = '日光'
@@ -483,8 +612,6 @@ tags = ['common', 'noun']
 kanji = '花火'
 kana = 'はなび'
 english = 'fireworks'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n2'
 tags = ['common']
 
@@ -551,6 +678,14 @@ source = 'wanikani'
 tags = ['common', 'na-adjective', 'noun']
 
 [[cards]]
+kanji = '普通'
+kana = 'ふつう'
+english = 'general; ordinary'
+level = 'n4'
+source = 'nihongo-sou-matome'
+tags = ['adverb', 'common', 'no-adjective']
+
+[[cards]]
 kanji = '船'
 kana = 'ふね'
 english = 'boat'
@@ -578,6 +713,14 @@ kana = 'ほう'
 english = 'direction; way; method; side'
 level = 'n3'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '宝石'
+kana = 'ほうせき'
+english = 'gem; jewel; precious stone'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '褒美'
@@ -609,6 +752,13 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '祭'
+kana = 'まつり'
+english = 'festival'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
 kanji = '丸ごと'
 kana = 'まるごと'
 english = 'wholly'
@@ -630,6 +780,22 @@ source = 'wanikani'
 make_kanji_card = true
 hide_hiragana_card = true
 tags = ['appearance', 'colors', 'common', 'moun', 'no-adjective']
+
+[[cards]]
+kanji = '名字'
+kana = 'みょうじ'
+english = 'family name'
+level = 'n2'
+source = 'wanikani'
+tags = ['common', 'names', 'noun', 'people']
+
+[[cards]]
+kanji = '申し訳ない'
+kana = 'もうしわけない'
+english = "I'm sorry; it's inexcusable; I feel guilty"
+level = 'n2'
+source = 'wanikani'
+tags = ['common', 'expression', 'i-adjective']
 
 [[cards]]
 kanji = '若し'
@@ -684,6 +850,14 @@ source = 'common'
 tags = ['buildings', 'common', 'noun']
 
 [[cards]]
+kanji = '輸入'
+kana = 'ゆにゅう'
+english = 'introduction; importation'
+level = 'n3'
+source = 'jlptstudy.net'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '夢'
 kana = 'ゆめ'
 english = 'dream'
@@ -721,11 +895,27 @@ source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '予約'
+kana = 'よやく'
+english = 'reservation; appointment'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '冷凍'
 kana = 'れいとう'
 english = 'freeze/freezing; cold storage; refridgeration'
 level = 'n2'
 source = 'nihongo-charenji-n4-kotoba'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '冷房'
+kana = 'れいぼう'
+english = 'air conditioning'
+level = 'n4'
+source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
@@ -743,4 +933,11 @@ english = 'sale'
 source = 'nihongo-charenji-n4-kotoba'
 level = 'n1'
 tags = ['common', 'gairaigo']
+
+[[cards]]
+kanji = 'ホッチキス'
+kana = 'ホッチキス'
+english = 'stapler'
+source = 'irasshai'
+tags = ['gairaigo', 'noun', 'uncommon']
 

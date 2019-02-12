@@ -29,6 +29,13 @@ level = 'n3'
 tags = ['common']
 
 [[cards]]
+kanji = '大雨'
+kana = 'おおあめ'
+english = 'heavy rain'
+source = 'wanikani'
+tags = ['common', 'nature', 'noun', 'rain', 'weather']
+
+[[cards]]
 kanji = '傘'
 kana = 'かさ'
 english = 'umbrella'

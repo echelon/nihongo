@@ -9,14 +9,12 @@ kanji = '犬'
 kana = 'いぬ'
 english = 'dog'
 level = 'n5'
-make_kanji_card = true
 tags = ['common', 'mammal']
 
 [[cards]]
 kanji = '牛'
 kana = 'うし'
 english = 'cow'
-make_kanji_card = true
 level = 'n3'
 tags = ['common', 'noun']
 
@@ -49,7 +47,6 @@ tags = ['common', 'noun']
 kanji = '亀'
 kana = 'かめ'
 english = 'turtle; tortoise'
-make_kanji_card = true
 tags = ['common', 'noun']
 
 [[cards]]
@@ -87,7 +84,6 @@ tags = ['animals', 'common', 'insects', 'noun']
 kanji = '子犬'
 kana = 'こいぬ'
 english = 'puppy'
-make_kanji_card = true
 tags = ['common', 'noun']
 
 [[cards]]
@@ -95,14 +91,12 @@ kanji = '子牛'
 kana = 'こうし'
 english = 'calf'
 level = 'n2'
-make_kanji_card = true
 tags = ['common', 'noun']
 
 [[cards]]
 kanji = '子猫'
 kana = 'こねこ'
 english = 'kitten'
-make_kanji_card = true
 tags = ['common', 'noun']
 
 [[cards]]
@@ -137,6 +131,13 @@ kana = 'ちょう'
 english = 'butterfly'
 level = 'n1'
 tags = ['animals', 'common', 'noun']
+
+[[cards]]
+kanji = '虎'
+kana = 'とら'
+english = 'tiger; drunkard (colloquial)'
+level = 'n3'
+tags = ['animal', 'common', 'noun']
 
 [[cards]]
 kanji = '鳥'

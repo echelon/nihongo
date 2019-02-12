@@ -47,6 +47,14 @@ source = 'jlptstudy.net'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '明日'
+kana = 'あす'
+english = 'tomorrow (more formal)'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['alternate', 'common', 'formal', 'temporal-noun']
+
+[[cards]]
 kanji = 'あっ'
 kana = 'あっ'
 english = 'ah; oh; hey!'
@@ -86,6 +94,90 @@ level = 'n4'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '一度'
+kana = 'いちど'
+english = 'once; one time; on one occasion'
+level = 'n4'
+source = 'irasshai'
+tags = ['adverbial noun', 'common']
+
+[[cards]]
+kanji = '一生懸命'
+kana = 'いっしょうけんめい'
+english = 'very hard; with utmost effort; for dear life'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '受付'
+kana = 'うけつけ'
+english = 'reception (desk); information desk'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['building', 'common', 'noun']
+
+[[cards]]
+kanji = '嘘'
+kana = 'うそ'
+english = 'lie'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '美しい'
+kana = 'うつくしい'
+english = 'beautiful; lovely'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '腕'
+kana = 'うで'
+english = 'arm'
+level = 'n4'
+tags = ['anatomy', 'body', 'common', 'noun']
+
+[[cards]]
+kanji = '裏'
+kana = 'うら'
+english = 'opposite side; other side; underside; bottom; behind'
+level = 'n4'
+source = 'zelda'
+tags = ['common', 'directions', 'noun']
+
+[[cards]]
+kanji = '運転手'
+kana = 'うんてんしゅ'
+english = 'driver; chauffer'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'job', 'noun', 'people']
+
+[[cards]]
+kanji = '枝'
+kana = 'えだ'
+english = 'branch; limb; twig'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'nature', 'noun']
+
+[[cards]]
+kanji = 'お祝い'
+kana = 'おいわい'
+english = 'congratulation; celebration; festival; celebatory gift'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = 'ずっと'
+kana = 'ずっと'
+english = 'continuously in some state (for a long time or distance); all along; the whole time; long ago; far away'
+level = 'n3'
+tags = ['adverb', 'anime', 'common']
+
+[[cards]]
 kanji = 'アクセサリー'
 kana = 'アクセサリー'
 english = 'accessory'
@@ -100,6 +192,13 @@ english = 'Asia'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = 'アナウンサー'
+kana = 'アナウンサー'
+english = 'announcer'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun', 'people']
 
 [[cards]]
 kanji = 'アフリカ'

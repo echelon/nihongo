@@ -42,6 +42,12 @@ level = 'n5'
 tags = ['common', 'nature', 'noun']
 
 [[cards]]
+kanji = '草地'
+kana = 'くさち'
+english = 'meadow, grassland'
+tags = ['nature', 'noun', 'outdoors', 'uncommon']
+
+[[cards]]
 kanji = '公園'
 kana = 'こうえん'
 english = '(public) park'
@@ -95,6 +101,13 @@ level = 'n3'
 tags = ['common', 'earth', 'nature']
 
 [[cards]]
+kanji = '虹'
+kana = 'にじ'
+english = 'rainbow'
+level = 'n2'
+tags = ['common', 'nature', 'outdoors']
+
+[[cards]]
 kanji = '庭'
 kana = 'にわ'
 english = 'garden'
@@ -116,6 +129,13 @@ level = 'n5'
 make_kanji_card = true
 hide_hiragana_card = true
 tags = []
+
+[[cards]]
+kanji = '湖'
+kana = 'みずうみ'
+english = 'lake'
+level = 'n4'
+tags = ['common', 'nature', 'noun', 'outdoors']
 
 [[cards]]
 kanji = '山'

@@ -2,7 +2,6 @@
 kanji = '秋'
 kana = 'あき'
 english = 'autumn; fall'
-make_kanji_card = true
 hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'noun', 'season', 'time']
@@ -315,6 +314,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '先日'
+kana = 'せんじつ'
+english = 'the other day (a recent day)'
+level = 'n3'
+tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun', 'time']
+
+[[cards]]
 kanji = '誕生日'
 kana = 'たんじょうび'
 english = 'birthday'
@@ -404,6 +410,21 @@ kana = '～ねん'
 english = 'counter for years'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '年中'
+kana = 'ねんじゅう'
+english = 'throughout the year; year round'
+level = 'n3'
+source = 'wanikani'
+tags = ['adverb', 'common', 'noun']
+
+[[cards]]
+kanji = '年内'
+kana = 'ねんない'
+english = 'by the end of the year; within the year'
+source = 'wanikani'
+tags = ['common', 'noun', 'time']
 
 [[cards]]
 kanji = '二十日'

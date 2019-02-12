@@ -98,7 +98,7 @@ tags = ['common']
 [[cards]]
 kanji = '集める'
 kana = 'あつめる'
-english = 'to gather ~; to collect ~'
+english = 'to gather ~; to assemble ~'
 english-conjugated = { base = 'gather', past = 'gathered', plural = 'gathers', continous = 'gathering' }
 verb-type = 'ichidan'
 transitive = true
@@ -113,6 +113,17 @@ english = 'to bathe in ~ (eg. water, light); to take ~ (eg. shower)'
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '謝る'
+kana = 'あやまる'
+english = 'to apologize'
+english-conjugated = { base = 'apologize', past = 'apologized', plural = 'apologizes', continous = 'apologizing' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'jlptstudy.net'
+level = 'n4'
 tags = ['common']
 
 [[cards]]
@@ -142,6 +153,83 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n4'
 source = 'jlptstudy.net'
+tags = ['common']
+
+[[cards]]
+kanji = '苛める'
+kana = 'いじめる'
+english = 'to bully ~'
+english-conjugated = { base = 'bully', past = 'bullied', plural = 'bullies', continous = 'bullying' }
+verb-type = 'ichidan'
+transitive = true
+level = 'n4'
+source = 'wanikani'
+tags = ['common']
+
+[[cards]]
+kanji = '急ぐ'
+kana = 'いそぐ'
+english = 'to hurry ~; to rush ~'
+english-conjugated = { base = 'hurry', past = 'hurried', plural = 'hurries', continous = 'hurrying' }
+verb-type = 'godan-gu'
+transitive = true
+source = 'jlptstudy.net'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '致す'
+kana = 'いたす'
+english = 'to do ~ (kenjougo)'
+english-conjugated = { base = 'do', past = 'did', plural = 'does', continous = 'doing' }
+verb-type = 'godan-su'
+transitive = true
+source = 'jlptstudy.net'
+level = 'n4'
+tags = ['common', 'kenjougo']
+
+[[cards]]
+kanji = '頂く'
+kana = 'いただく'
+english = 'to receive ~ (kenjougo); to accept ~ (kenjougo); to eat/drink ~ (kenjougo)'
+english-conjugated = { base = 'receive', past = 'received', plural = 'receives', continous = 'receiving' }
+verb-type = 'godan-ku'
+transitive = true
+source = 'jlptstudy.net'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '祈る'
+kana = 'いのる'
+english = 'to pray ~; to wish ~'
+english-conjugated = { base = 'pray', past = 'prayed', plural = 'prays', continous = 'praying' }
+verb-type = 'godan-ru'
+transitive = true
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common']
+
+[[cards]]
+kanji = 'いらっしゃる'
+kana = 'いらっしゃる'
+english = 'to come (sonkeigo); to go (sonkeigo)'
+english-conjugated = { base = 'come', past = 'came', plural = 'comes', continous = 'coming' }
+verb-type = 'godan-aru-special'
+transitive = false
+source = 'jlptstudy.net'
+level = 'n4'
+tags = ['common', 'sonkeigo']
+
+[[cards]]
+kanji = '植える'
+kana = 'うえる'
+english = 'to plant ~; to grow ~; to insert ~'
+english-conjugated = { base = 'plant', past = 'planted', plural = 'plants', continous = 'planting' }
+verb-type = 'ichidan'
+transitive = true
+source = 'jlptstudy.net'
+level = 'n4'
 tags = ['common']
 
 [[cards]]
@@ -273,6 +361,17 @@ english = 'to delete ~; to erase/cross out ~; to turn off ~s power'
 verb-type = 'godan-su'
 transitive = true
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '越える'
+kana = 'こえる'
+english = 'to pass over ~; to cross over ~; to go beyond ~'
+english-conjugated = { base = 'cross over', past = 'crossed over', plural = 'crosses over', continous = 'crossing over' }
+verb-type = 'ichidan'
+transitive = true
+source = 'wanikani'
+level = 'n3'
 tags = ['common']
 
 [[cards]]
@@ -409,6 +508,17 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n5'
 tags = ['common']
+
+[[cards]]
+kanji = '通る'
+kana = 'とおる'
+english = 'to go past; to go by'
+english-conjugated = { base = 'go past', past = 'went past', plural = 'goes past', continous = 'going past' }
+verb-type = ''
+transitive = false
+level = ''
+source = ''
+tags = []
 
 [[cards]]
 kanji = '止まる'
@@ -613,6 +723,17 @@ level = 'n3'
 tags = ['common']
 
 [[cards]]
+kanji = '向かう'
+kana = 'むかう'
+english = 'to face'
+english-conjugated = { base = 'face', past = 'faced', plural = 'faces', continous = 'facing' }
+verb-type = 'godan-u'
+transitive = false
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common']
+
+[[cards]]
 kanji = '読む'
 kana = 'よむ'
 english = 'to read'
@@ -620,6 +741,17 @@ english-conjugated = { base = 'read', past = 'read', plural = 'reads', continous
 verb-type = 'godan-mu'
 transitive = false
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '喜ぶ'
+kana = 'よろこ'
+english = 'to be delighted'
+english-conjugated = { base = 'be delighted', past = 'been delighted', plural = 'are delighted', continous = 'being delighted' }
+verb-type = 'godan-bu'
+transitive = false
+level = 'n4'
+source = 'jlptstudy.net'
 tags = ['common']
 
 [[cards]]
