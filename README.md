@@ -13,9 +13,11 @@ File Layout
   Japanese word. This is to aid in memorizing and recalling synonyms.
 
 - `/cardgen` - utilities for sorting and normalizing the vocabulary as well as
-  tools to turn the vocabulary into Anki decks.
+  tools to turn the vocabulary into Anki decks. The `sort` utility should be run
+  before changes to vocab toml files are committed.
 
 There are other files elsewhere, but it's mostly legacy garbage that can be ignored.
+I'll be removing it and tidying things up when I have the time.
 
 Installation
 ------------
@@ -31,16 +33,32 @@ pip install -r requirements.txt
 Card Templates
 --------------
 
+### For all vocab (except verbs)
+
 ```toml
 [[cards]]
-kanji = ''
-kana = ''
-english = ''
-source = ''
-make_kanji_card = true
-hide_hiragana_card = true
-level = 'n[1-5]'
-tags = []
+kanji = '' # Kanji. If gairaigo, katakana (which is also duplicated in kana for now).
+kana = '' # Hiragana or katakana to function as furigana.
+english = '' # English translation. Multiple definitions typically separated with ';'
+source = '' # Where this vocabulary word originated from
+level = 'n[1-5]' # JLPT level: n1, n2, n3, n4, n5. Omitted if not in JLPT.
+explain = '' # Optional URL for further reading
+tags = [] # grab bag of tags. 'common' is a tag used to denote frequent useage words
+```
+
+### For verbs
+
+```toml
+[[cards]]
+kanji = '' # Kanji. If gairaigo, katakana (which is also duplicated in kana for now).
+kana = '' # Hiragana or katakana to function as furigana.
+english = ''# English translation. Multiple definitions typically separated with ';'. If transitive, there is a '~' present.
+english-conjugated = { base = '', past = '', plural = '', continous = '' } # Conjugations
+verb-type = '' # ichidan, godan-mu, godan-bu, etc.
+transitive = false # whether the verb is transitive or not
+level = 'n[1-5]' # JLPT level: n1, n2, n3, n4, n5. Omitted if not in JLPT.
+explain = '' # Optional URL for further reading
+tags = [] # grab bag of tags. 'common' is a tag used to denote frequent useage words
 ```
 
 Learning Kanji
