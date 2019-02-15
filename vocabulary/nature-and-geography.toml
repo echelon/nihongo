@@ -9,8 +9,6 @@ tags = ['common', 'nature', 'noun', 'outdoors']
 kanji = '海'
 kana = 'うみ'
 english = 'sea; ocean'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -19,16 +17,12 @@ kanji = '火山'
 kana = 'かざん'
 english = 'volcano'
 level = 'n2'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '川'
 kana = 'かわ'
 english = 'river'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -36,8 +30,6 @@ tags = []
 kanji = '木'
 kana = 'き'
 english = 'tree; wood'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'nature', 'noun']
 
@@ -95,8 +87,6 @@ tags = ['common']
 kanji = '土'
 kana = 'つち'
 english = 'earth, soil, dirt, clay, mud'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n3'
 tags = ['common', 'earth', 'nature']
 
@@ -126,8 +116,6 @@ kanji = '花'
 kana = 'はな'
 english = 'flower'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -141,8 +129,6 @@ tags = ['common', 'nature', 'noun', 'outdoors']
 kanji = '山'
 kana = 'やま'
 english = 'mountain'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 

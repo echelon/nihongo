@@ -16,7 +16,6 @@ tags = ['common', 'furniture', 'home']
 kanji = '家'
 kana = 'うち'
 english = "house; home (one's own)"
-make_kanji_card = true
 level = 'n5'
 tags = []
 

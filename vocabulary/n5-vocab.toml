@@ -37,8 +37,6 @@ tags = []
 kanji = '入口'
 kana = 'いりぐち'
 english = 'entrance; gate'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -46,8 +44,6 @@ tags = []
 kanji = '上'
 kana = 'うえ'
 english = 'above; up; on top of'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -90,8 +86,6 @@ tags = ['buildings', 'common', 'entertainment', 'noun', 'places']
 kanji = '英語'
 kana = 'えいご'
 english = 'English language'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -106,8 +100,6 @@ tags = []
 kanji = '駅'
 kana = 'えき'
 english = 'train station'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -122,8 +114,6 @@ tags = []
 kanji = 'お金'
 kana = 'おかね'
 english = 'money'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -138,8 +128,6 @@ tags = []
 kanji = '同じ'
 kana = 'おなじ'
 english = 'same; identical'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'noun']
 
@@ -154,8 +142,6 @@ tags = []
 kanji = '会社'
 kana = 'かいしゃ'
 english = 'company; corporation'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -170,8 +156,6 @@ tags = []
 kanji = '買い物'
 kana = 'かいもの'
 english = 'shopping; purchased goods'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -207,8 +191,6 @@ tags = []
 kanji = '外国'
 kana = 'がいこく'
 english = 'foreign country'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -217,8 +199,6 @@ kanji = '北'
 kana = 'きた'
 english = 'north'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -464,8 +444,6 @@ kanji = '出口'
 kana = 'でぐち'
 english = 'exit'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -508,8 +486,6 @@ kanji = '中'
 kana = 'なか'
 english = 'inside; middle; center; among'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -524,8 +500,6 @@ kanji = '名前'
 kana = 'なまえ'
 english = 'name'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]

@@ -31,7 +31,6 @@ kanji = '電気'
 kana = 'でんき'
 english = 'electricity'
 level = 'n5'
-make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -39,7 +38,6 @@ kanji = '電車'
 kana = 'でんしゃ'
 english = 'electric train'
 level = 'n5'
-make_kanji_card = true
 tags = []
 
 [[cards]]
@@ -54,7 +52,6 @@ kanji = '電話'
 kana = 'でんわ'
 english = 'telephone; telephone call'
 level = 'n5'
-make_kanji_card = true
 tags = []
 
 [[cards]]

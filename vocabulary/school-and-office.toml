@@ -23,7 +23,6 @@ tags = []
 kanji = '学生'
 kana = 'がくせい'
 english = 'student'
-make_kanji_card = true
 level = 'n5'
 tags = []
 
@@ -31,7 +30,6 @@ tags = []
 kanji = '学校'
 kana = 'がっこう'
 english = 'school'
-make_kanji_card = true
 level = 'n5'
 tags = []
 

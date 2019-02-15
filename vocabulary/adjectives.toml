@@ -2,7 +2,6 @@
 kanji = '明るい'
 kana = 'あかるい'
 english = 'light; bright; well-lit; cheerful'
-make_kanji_card = true
 level = 'n5'
 tags = ['appearance', 'common', 'i-adjective', 'mood']
 
@@ -10,7 +9,6 @@ tags = ['appearance', 'common', 'i-adjective', 'mood']
 kanji = '新しい'
 kana = 'あたらしい'
 english = 'new'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'i-adjectives']
 
@@ -32,7 +30,6 @@ tags = ['common', 'expressions', 'i-adjectives']
 kanji = '甘い'
 kana = 'あまい'
 english = 'sweet-tasting'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'food', 'i-adjectives']
 
@@ -54,7 +51,6 @@ tags = ['common', 'i-adjectives']
 [[cards]]
 kanji = '色々'
 kana = 'いろいろ'
-make_kanji_card = true
 english = 'various'
 level = 'n5'
 tags = ['adverb', 'na-adjective', 'no-adjective', 'noun']
@@ -98,7 +94,6 @@ tags = ['common', 'i-adjectives']
 kanji = '大きい'
 kana = 'おおきい'
 english = 'big'
-make_kanji_card = true
 level = 'n5'
 tags = ['common', 'i-adjectives']
 
@@ -247,8 +242,6 @@ tags = ['common', 'i-adjective']
 kanji = '正しい'
 kana = 'ただしい'
 english = 'correct; right'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n4'
 tags = ['common', 'i-adjective']
 
@@ -257,7 +250,6 @@ kanji = '大丈夫'
 kana = 'だいじょうぶ'
 english = 'safe; alright; OK; no thanks'
 level = 'n5'
-make_kanji_card = true
 tags = ['adverb', 'common', 'na-adjective']
 
 [[cards]]
@@ -265,7 +257,6 @@ kanji = '大好き'
 kana = 'だいすき'
 english = 'lovable; like very much'
 level = 'n5'
-make_kanji_card = true
 tags = ['common', 'na-adjective']
 
 [[cards]]
@@ -273,7 +264,6 @@ kanji = '小さい'
 kana = 'ちいさい'
 english = 'small; little'
 level = 'n5'
-make_kanji_card = true
 tags = ['common', 'i-adjectives']
 
 [[cards]]
@@ -372,8 +362,6 @@ tags = ['common', 'i-adjectives']
 kanji = '下手'
 kana = 'へた'
 english = 'unskilled; unskillful'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
 
@@ -395,8 +383,6 @@ tags = ['common', 'i-adjective']
 kanji = '丸い'
 kana = 'まるい'
 english = 'round; circular'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'i-adjective']
 

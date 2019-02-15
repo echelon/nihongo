@@ -10,8 +10,6 @@ tags = ['common']
 kanji = '足'
 kana = 'あし'
 english = 'foot; leg'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = ['body', 'common']
 
@@ -89,8 +87,6 @@ tags = []
 kanji = '体'
 kana = 'からだ'
 english = 'body'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -128,8 +124,6 @@ kanji = '口'
 kana = 'くち'
 english = 'mouth; opening'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -152,8 +146,6 @@ kanji = '元気'
 kana = 'げんき'
 english = 'lively; healthy'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -197,8 +189,6 @@ kanji = '手'
 kana = 'て'
 english = 'hand; arm'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -291,8 +281,6 @@ kanji = '目'
 kana = 'め'
 english = 'eye; eyeball'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -306,8 +294,6 @@ tags = []
 kanji = '目玉'
 kana = 'めだま'
 english = 'eyeball'
-make_kanji_card = true
-hide_hiragana_card = true
 source = 'wanikani'
 tags = ['body', 'common']
 

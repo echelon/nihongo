@@ -23,7 +23,6 @@ tags = ['adverb', 'common', 'noun', 'question']
 kanji = '何時'
 kana = 'いつ'
 english = 'when'
-make_kanji_card = true
 level = 'n5'
 tags = []
 

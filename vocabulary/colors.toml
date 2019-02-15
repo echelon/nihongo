@@ -9,7 +9,6 @@ tags = ['color', 'common', 'no-adjective', 'noun']
 kanji = '青い'
 kana = 'あおい'
 english = 'blue'
-make_kanji_card = true
 level = 'n5'
 tags = ['color', 'common', 'i-adjective']
 
@@ -18,15 +17,12 @@ kanji = '赤'
 kana = 'あか'
 english = 'red'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = ['color', 'common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '赤い'
 kana = 'あかい'
 english = 'red'
-make_kanji_card = true
 level = 'n5'
 tags = ['color', 'common', 'i-adjective']
 
@@ -34,8 +30,6 @@ tags = ['color', 'common', 'i-adjective']
 kanji = '色'
 kana = 'いろ'
 english = 'color'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -85,8 +79,6 @@ kanji = '茶色'
 kana = 'ちゃいろ'
 english = 'brown'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]

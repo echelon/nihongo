@@ -128,7 +128,6 @@ tags = []
 kanji = '何方'
 kana = 'どちら'
 english = 'which way? ; where?'
-make_kanji_card = true
 level = 'n5'
 tags = []
 

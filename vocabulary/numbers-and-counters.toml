@@ -2,8 +2,6 @@
 kanji = '一'
 kana = 'いち'
 english = 'one'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = ['common', 'counting', 'numbers']
 
@@ -11,8 +9,6 @@ tags = ['common', 'counting', 'numbers']
 kanji = '一番'
 kana = 'いちばん'
 english = 'best; number one; first place'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -20,8 +16,6 @@ tags = []
 kanji = '五つ'
 kana = 'いつつ'
 english = 'five (things)'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -29,8 +23,6 @@ tags = []
 kanji = '～回'
 kana = '～かい'
 english = 'counter for occurrences'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -46,8 +38,6 @@ kanji = '九'
 kana = 'きゅう'
 english = 'nine'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -61,8 +51,6 @@ tags = []
 kanji = '九つ'
 kana = 'ここのつ'
 english = 'nine (things)'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -70,8 +58,6 @@ tags = []
 kanji = '五'
 kana = 'ご'
 english = 'five'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -94,8 +80,6 @@ kanji = '三'
 kana = 'さん'
 english = 'three'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -103,8 +87,6 @@ kanji = '四'
 kana = 'し'
 english = 'four'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -112,8 +94,6 @@ kanji = '七'
 kana = 'しち'
 english = 'seven'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -121,8 +101,6 @@ kanji = '十'
 kana = 'じゅう'
 english = 'ten'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -130,8 +108,6 @@ kanji = '千'
 kana = 'せん'
 english = 'thousand'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = ['common', 'numbers']
 
 [[cards]]
@@ -159,8 +135,6 @@ tags = []
 kanji = '七つ'
 kana = 'ななつ'
 english = 'seven (things)'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -169,8 +143,6 @@ kanji = '二'
 kana = 'に'
 english = 'two'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -178,16 +150,12 @@ kanji = '二十歳'
 kana = 'はたち'
 english = '20 years old'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
 kanji = '八'
 kana = 'はち'
 english = 'eight'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -196,8 +164,6 @@ kanji = '一つ'
 kana = 'ひとつ'
 english = 'one (thing)'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -205,8 +171,6 @@ kanji = '百'
 kana = 'ひゃく'
 english = 'hundred'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -214,8 +178,6 @@ kanji = '二つ'
 kana = 'ふたつ'
 english = 'two (things)'
 level = 'n5'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = []
 
 [[cards]]
@@ -229,8 +191,6 @@ tags = []
 kanji = '万'
 kana = 'まん'
 english = 'ten thousand'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -238,8 +198,6 @@ tags = []
 kanji = '三つ'
 kana = 'みっつ'
 english = 'three (things)'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -247,8 +205,6 @@ tags = []
 kanji = '六つ'
 kana = 'むっつ'
 english = 'six (things)'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -256,8 +212,6 @@ tags = []
 kanji = '八つ'
 kana = 'やっつ'
 english = 'eight (things)'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -265,8 +219,6 @@ tags = []
 kanji = '四つ'
 kana = 'よっつ'
 english = 'four (things)'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 
@@ -281,8 +233,6 @@ tags = []
 kanji = '六'
 kana = 'ろく'
 english = 'six'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n5'
 tags = []
 

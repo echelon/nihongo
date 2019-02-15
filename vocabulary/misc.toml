@@ -241,8 +241,6 @@ tags = ['common', 'i-adjectives']
 kanji = '刀'
 kana = 'かたな'
 english = ''
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n3'
 tags = ['common', 'weapons']
 
@@ -433,8 +431,6 @@ kana = 'じんこう'
 english = 'artificial'
 level = 'n4'
 source = 'wanikani'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
@@ -450,8 +446,6 @@ kanji = '水中'
 kana = 'すいちゅう'
 english = 'underwater'
 source = 'wanikani'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
@@ -716,8 +710,6 @@ tags = ['common', 'na-adjective', 'no-adjective', 'noun']
 kanji = '不正'
 kana = 'ふせい'
 english = 'injustice'
-make_kanji_card = true
-hide_hiragana_card = true
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'na-adjective', 'noun']
@@ -822,8 +814,6 @@ kanji = '水色'
 kana = 'みずいろ'
 english = 'light blue; aqua'
 source = 'wanikani'
-make_kanji_card = true
-hide_hiragana_card = true
 tags = ['appearance', 'colors', 'common', 'moun', 'no-adjective']
 
 [[cards]]
