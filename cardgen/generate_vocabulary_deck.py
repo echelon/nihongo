@@ -211,7 +211,7 @@ total_kanji_only = 0
 total_hiragana_only = 0
 
 for filename in glob.glob('**/*.toml', recursive=True):
-  if 'cardgen' in filename:
+  if 'cardgen' in filename or 'temp/' in filename:
     continue # XXX: Things here shouldn't be processed for now.
   print('Loading file: {0}'.format(filename))
   notes = read_vocabulary_notes(filename)
