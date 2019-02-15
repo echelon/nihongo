@@ -12,12 +12,25 @@ File Layout
   Where possible, there will only be one English meaning provided for each
   Japanese word. This is to aid in memorizing and recalling synonyms.
 
-- `/cardgen` - utilities for sorting and normalizing the vocabulary as well as
-  tools to turn the vocabulary into Anki decks. The `sort` utility should be run
-  before changes to vocab toml files are committed.
+  **Important Note:** From time to time I may change the English definitions of
+  words. This will not change the card's UUID / hash, so SRS data will be retained.
+  I'll also be moving vocabulary around and adjusting the tagging, but that should
+  be entirely non-destructive.
 
-There are other files elsewhere, but it's mostly legacy garbage that can be ignored.
-I'll be removing it and tidying things up when I have the time.
+- `/cardgen` - utilities for sorting and normalizing the vocabulary as well as
+  tools to turn the vocabulary into Anki decks. The `sort.py` normalization utility
+  should be run before any changes to vocab toml files are committed. This keeps the
+  vocab files clean and consistent.
+
+- `/config/kanji-only-vocab.txt` contains a newline-delimited set of vocab for which
+  furigana hints are not desired. The Anki deck generation code reads in this file and
+  will generate kanji-only cards for any vocab matching these entries in the 'kanji'
+  field. If you don't wish to use these settings (or wish to adjust them), empty the
+  file or adjust it per your preference. In the future such configuration files will be
+  moved outside of version control.
+
+There are other assorted files elsewhere in this repo, but it's mostly legacy garbage
+that can be ignored. I'll be removing it and tidying things up as I have the time.
 
 Installation
 ------------
@@ -29,6 +42,32 @@ python3 -m venv python
 source python/bin/activate
 pip install -r requirements.txt
 ```
+
+Usage
+-----
+(It's extremely useful to understand the difference between Anki "cards" and "notes"
+prior to reading this section. See their guide for details.)
+
+Since the Anki deck generation code in this repository uses stable names and UUIDs for
+the decks it generates, you can safely re-generate your decks and re-import them without
+losing your SRS timing data. This is immensely useful when making changes to the
+vocabulary (mutating, adding, or removing) or changing kanji-only configurations.
+
+Each TOML entry in the `vocabulary` directory corresponds to an anki "note" and can have
+several cards generated for it. The "kanji" and "kana" fields of the TOML vocabulary
+entries are used to generate the note's UUID, so changes to any fields _other_ than these
+two will allow the note and respective cards to retain their SRS history. If you change
+the kanji or kana, however, all learning data will be lost and the entry will be treated
+as new / unseen.
+
+If you change the kanji-only / furigana settings for any note, it changes which cards are
+generated for that note. This is because the generation code makes changes to the templates
+that render the undesired cards "empty"; Anki does not generate empty cards. It's important
+to mention, however, that Anki tries not to delete SRS data until you tell it. If you
+previously studied a card that you later hide (eg. by switching a furigana card to
+kanji-only), Anki will now show an "empty" front-facing card. To get rid of these (and
+purge the respective SRS data for the cards), select `Tools -> Empty Cards` (in Linux - not
+sure where this menu option lives for other OSes).
 
 Card Templates
 --------------
