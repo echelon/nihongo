@@ -201,20 +201,6 @@ level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'people']
 
 [[cards]]
-kanji = 'アフリカ'
-kana = 'アフリカ'
-english = 'Africa'
-level = 'n4'
-tags = ['common', 'gairaigo', 'no-adjective', 'noun']
-
-[[cards]]
-kanji = 'アメリカ'
-kana = 'アメリカ'
-english = 'America'
-level = 'n4'
-tags = ['common', 'gairaigo', 'noun']
-
-[[cards]]
 kanji = 'アルコール'
 kana = 'アルコール'
 english = 'alcohol'

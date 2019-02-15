@@ -158,6 +158,13 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '大きさ'
+kana = 'おおきさ'
+english = 'size; dimensions'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '贈り物'
 kana = 'おくりもの'
 english = 'present; gift'
@@ -292,6 +299,14 @@ source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '気分'
+kana = 'きぶん'
+english = 'feeling; mood'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '消しゴム'
 kana = 'けしゴム'
 english = 'eraser'
@@ -329,6 +344,14 @@ english = 'traffic'
 level = 'n4'
 source = 'nihongo-sou-matome'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '公用'
+kana = 'こうよう'
+english = 'government business; official business'
+level = 'n1'
+source = 'wanikani'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '心'
@@ -463,6 +486,14 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '竹'
+kana = 'たけ'
+english = 'bamboo'
+level = 'n2'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '正しい'
 kana = 'ただしい'
 english = 'correct'
@@ -586,6 +617,20 @@ kana = 'どうろ'
 english = 'highway'
 level = 'n3'
 tags = ['common', 'noun', 'places']
+
+[[cards]]
+kanji = '何か'
+kana = 'なにか'
+english = 'something'
+level = 'n3'
+tags = ['common', 'expression']
+
+[[cards]]
+kanji = '何も'
+kana = 'なにも'
+english = 'nothing'
+level = 'n3'
+tags = ['adverb', 'common', 'expression']
 
 [[cards]]
 kanji = '日光'
@@ -790,6 +835,14 @@ source = 'wanikani'
 tags = ['common', 'names', 'noun', 'people']
 
 [[cards]]
+kanji = '名人'
+kana = 'めいじん'
+english = 'master; expert'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'noun', 'person']
+
+[[cards]]
 kanji = '申し訳ない'
 kana = 'もうしわけない'
 english = "I'm sorry; it's inexcusable; I feel guilty"
@@ -863,6 +916,14 @@ kana = 'ゆめ'
 english = 'dream'
 level = 'n4'
 tags = ['common']
+
+[[cards]]
+kanji = '用'
+kana = 'よう'
+english = 'task'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun', 'noun-suffix']
 
 [[cards]]
 kanji = '用'

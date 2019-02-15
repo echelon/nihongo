@@ -7,15 +7,6 @@ tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 disabled = true
-kanji = '以上'
-kana = 'いじょう'
-english = 'not less than'
-level = 'n4'
-source = 'manga'
-tags = ['adverbial-noun', 'common', 'temporal-noun']
-
-[[cards]]
-disabled = true
 kanji = '各地'
 kana = 'かくち'
 english = 'every place'
@@ -79,6 +70,13 @@ kana = 'とくいたいしつ'
 english = 'idiosyncrasy'
 source = 'manga'
 tags = ['no-adjective', 'noun', 'uncommon']
+
+[[cards]]
+kanji = '何となく'
+kana = 'なんとなく'
+english = 'somehow or another; without knowing why'
+level = 'n2'
+tags = ['adverb', 'common', 'expressions']
 
 [[cards]]
 kanji = '発見'

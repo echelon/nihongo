@@ -111,7 +111,7 @@ def write_toml(note_toml_data, filename):
 
 total_notes = 0
 for filename in glob.glob('**/*.toml', recursive=True):
-  if 'cardgen' in filename:
+  if 'cardgen' in filename or 'temp/' in filename:
     continue # XXX: Things here shouldn't be processed for now.
   try:
     notes = read_notes_from_toml(filename)

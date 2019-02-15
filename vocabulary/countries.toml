@@ -1,0 +1,38 @@
+[[cards]]
+kanji = '韓国'
+kana = 'かんこく'
+english = 'South Korea'
+tags = ['common', 'countries', 'no-adjective', 'noun', 'world']
+
+[[cards]]
+kanji = '北朝鮮'
+kana = 'きたちょうせん'
+english = 'North Korea'
+tags = ['common', 'countries', 'noun', 'place', 'world']
+
+[[cards]]
+kanji = '朝鮮'
+kana = 'ちょうせん'
+english = 'Korea'
+tags = ['common', 'countries', 'noun', 'place', 'world']
+
+[[cards]]
+kanji = '米国'
+kana = 'べいこく'
+english = 'USA'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 'アフリカ'
+kana = 'アフリカ'
+english = 'Africa'
+level = 'n4'
+tags = ['common', 'gairaigo', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = 'アメリカ'
+kana = 'アメリカ'
+english = 'America'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+

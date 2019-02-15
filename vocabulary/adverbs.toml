@@ -154,6 +154,14 @@ source = 'nihongo-charenji-n4-kotoba'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 
 [[cards]]
+kanji = '先ず'
+kana = 'まず'
+english = 'first of all'
+level = 'n3'
+source = 'wanikani'
+tags = ['adverb', 'common']
+
+[[cards]]
 kanji = '未だ'
 kana = 'まだ'
 english = 'not yet; still; besides'

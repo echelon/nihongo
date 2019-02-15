@@ -222,6 +222,16 @@ level = 'n4'
 tags = ['common', 'sonkeigo']
 
 [[cards]]
+kanji = '入れる'
+kana = 'いれる'
+english = 'to put inside ~'
+english-conjugated = { base = 'put inside', past = 'put inside', plural = 'puts inside', continous = 'putting inside' }
+verb-type = 'ichidan'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '植える'
 kana = 'うえる'
 english = 'to plant ~; to grow ~; to insert ~'
@@ -343,6 +353,15 @@ english-conjugated = { base = 'win', past = 'won', plural = 'wins', continous = 
 verb-type = 'godan-tsu'
 transitive = false
 level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '擽る'
+kana = 'くすぐ'
+english = 'to tickle ~'
+english-conjugated = { base = 'tickle', past = 'tickled', plural = 'tickles', continous = 'tickling' }
+verb-type = 'godan-ru'
+transitive = true
 tags = ['common']
 
 [[cards]]
@@ -482,7 +501,7 @@ tags = ['common']
 [[cards]]
 kanji = '使う'
 kana = 'つかう'
-english = 'to use ~'
+english = 'to use ~ (colloquial)'
 english-conjugated = { base = 'use', past = 'used', plural = 'uses', continous = 'using' }
 level = 'n5'
 verb-type = 'godan-u'
@@ -731,6 +750,17 @@ verb-type = 'godan-u'
 transitive = false
 level = 'n4'
 source = 'jlptstudy.net'
+tags = ['common']
+
+[[cards]]
+kanji = '用いる'
+kana = 'もちいる'
+english = 'to use ~; to utilize ~ (literary)'
+english-conjugated = { base = 'use', past = 'used', plural = 'uses', continous = 'using' }
+verb-type = 'ichidan'
+transitive = true
+explain = 'https://www.japanesepod101.com/blog/yomi-and-breakdown-of-the-words/'
+level = 'n3'
 tags = ['common']
 
 [[cards]]
