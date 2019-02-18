@@ -24,7 +24,7 @@ tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun']
 
 [[cards]]
 kanji = '赤ん坊'
-kana = 'あかぼう'
+kana = 'あかんぼう'
 english = 'infant'
 level = 'n4'
 source = 'jlptstudy.net'
@@ -176,6 +176,14 @@ kana = 'ずっと'
 english = 'continuously in some state (for a long time or distance); all along; the whole time; long ago; far away'
 level = 'n3'
 tags = ['adverb', 'anime', 'common']
+
+[[cards]]
+kanji = '幼児'
+kana = 'ようじ'
+english = 'toddler'
+level = 'n2'
+source = 'jisho.org'
+tags = ['common', 'noun', 'people']
 
 [[cards]]
 kanji = 'アクセサリー'

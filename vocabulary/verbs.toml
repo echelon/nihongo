@@ -733,6 +733,36 @@ level = 'n3'
 tags = ['common']
 
 [[cards]]
+kanji = '見える'
+kana = 'みえる'
+english = 'can see'
+english-conjugated = { base = 'can see', past = 'could see', plural = 'can see', continous = 'can see' }
+verb-type = 'ichidan'
+transitive = false
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '見せる'
+kana = 'みせる'
+english = 'to show ~'
+english-conjugated = { base = 'show', past = 'showed', plural = 'shows', continous = 'showing' }
+verb-type = 'ichidan'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '見る'
+kana = 'みる'
+english = 'to see ~'
+english-conjugated = { base = 'see', past = 'saw', plural = 'sees', continous = 'seeing' }
+verb-type = 'ichidan'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '向かう'
 kana = 'むかう'
 english = 'to face'
@@ -752,6 +782,26 @@ verb-type = 'ichidan'
 transitive = true
 explain = 'https://www.japanesepod101.com/blog/yomi-and-breakdown-of-the-words/'
 level = 'n3'
+tags = ['common']
+
+[[cards]]
+kanji = '休む'
+kana = 'やすむ'
+english = 'to rest; to take a break; to take a day off'
+english-conjugated = { base = 'rest', past = 'rested', plural = 'rests', continous = 'resting' }
+verb-type = 'godan-mu'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '遣る'
+kana = 'やる'
+english = 'to do ~ (casual)'
+english-conjugated = { base = 'do', past = 'did', plural = 'does', continous = 'doing' }
+verb-type = 'godan-ru'
+transitive = true
+level = 'n1'
 tags = ['common']
 
 [[cards]]

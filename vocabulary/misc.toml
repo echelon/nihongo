@@ -187,12 +187,28 @@ english = 'thought; imagination'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '主に'
+kana = 'おもに'
+english = 'mainly'
+level = 'n3'
+source = 'wanikani'
+tags = ['adverb', 'common']
+
+[[cards]]
 kanji = '思わず'
 kana = 'おもわず'
 english = 'subconsciously; involuntarily'
 level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '貝'
+kana = 'かい'
+english = 'shellfish; shell; seashell'
+level = 'n2'
+source = 'wanikani'
+tags = ['animal', 'biology', 'common', 'noun']
 
 [[cards]]
 kanji = '会長'
@@ -297,10 +313,32 @@ source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = 'きちんと'
+kana = 'きちんと'
+english = 'neatly; accurately'
+level = 'n3'
+source = 'wanikani'
+tags = ['adverb', 'common', 'suru-verb']
+
+[[cards]]
 kanji = '気分'
 kana = 'きぶん'
 english = 'feeling; mood'
 level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '休止'
+kana = 'きゅうし'
+english = 'pause'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '休日'
+kana = 'きゅうじつ'
+english = 'day off'
 source = 'wanikani'
 tags = ['common', 'noun']
 
@@ -366,6 +404,13 @@ level = 'n4'
 tags = ['common', 'i-adjective']
 
 [[cards]]
+kanji = 'ご主人'
+kana = 'ごしゅじん'
+english = 'husband'
+level = 'n4'
+tags = ['common', 'noun', 'people']
+
+[[cards]]
 kanji = '最後'
 kana = 'さいご'
 english = 'end; conclusion; final'
@@ -379,6 +424,14 @@ english = 'city'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suffix']
+
+[[cards]]
+kanji = '仕方'
+kana = 'しかた'
+english = 'method'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '姿勢'
@@ -397,6 +450,13 @@ source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '主人'
+kana = 'しゅじん'
+english = 'head of (a) household'
+source = 'wanikani'
+tags = ['common', 'noun', 'people']
+
+[[cards]]
 kanji = '招待'
 kana = 'しょうたい'
 english = 'invitation'
@@ -412,6 +472,14 @@ level = 'n4'
 tags = ['common', 'noun', 'people']
 
 [[cards]]
+kanji = '字'
+kana = 'じ'
+english = 'character (ie kanji)'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'japanese', 'language', 'noun', 'writing']
+
+[[cards]]
 kanji = '砂利'
 kana = 'じゃり'
 english = 'gravel; pebbles'
@@ -424,6 +492,14 @@ kana = 'じゅんび'
 english = 'preparation'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '女性'
+kana = 'じょせい'
+english = 'female gender'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun', 'people']
 
 [[cards]]
 kanji = '人工'
@@ -502,6 +578,21 @@ level = 'n1'
 tags = ['armor', 'common', 'weapons']
 
 [[cards]]
+kanji = '他人'
+kana = 'たにん'
+english = 'another person; others'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'noun', 'people']
+
+[[cards]]
+kanji = '男性'
+kana = 'だんせい'
+english = 'male gender'
+level = 'n4'
+tags = ['common', 'no-adjective', 'noun', 'people']
+
+[[cards]]
 kanji = '力'
 kana = 'ちから'
 english = 'strength; energy; power; force; might'
@@ -559,6 +650,13 @@ kana = 'つき'
 english = 'moon'
 level = 'n3'
 tags = ['common', 'space']
+
+[[cards]]
+kanji = '月見'
+kana = 'つきみ'
+english = 'moon viewing'
+source = 'wanikani'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '包み'
@@ -655,6 +753,14 @@ level = 'n2'
 tags = ['common']
 
 [[cards]]
+kanji = '花見'
+kana = 'はなみ'
+english = 'cherry blossom viewing'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '半額'
 kana = 'はんがく'
 english = 'half price'
@@ -707,12 +813,27 @@ level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '百万'
+kana = 'ひゃくまん'
+english = 'one million'
+source = 'wanikani'
+tags = ['common', 'noun', 'number']
+
+[[cards]]
 kanji = '不正'
 kana = 'ふせい'
 english = 'injustice'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '不足'
+kana = 'ふそく'
+english = 'shortage'
+level = 'n3'
+source = 'wanikani'
+tags = ['common', 'na-adjective', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '普通'
@@ -775,6 +896,14 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '本気'
+kana = 'ほんき'
+english = 'seriousness; sanctity'
+level = 'n1'
+source = 'wanikani'
+tags = ['common', 'na-adjective', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '墓地'
 kana = 'ぼち'
 english = 'graveyard; cemetery'
@@ -804,6 +933,14 @@ source = 'wanikani'
 tags = ['adverb', 'common']
 
 [[cards]]
+kanji = '見方'
+kana = 'みかた'
+english = 'viewpoint'
+level = 'n1'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '蜜柑'
 kana = 'みかん'
 english = 'mandarin orange'
@@ -819,10 +956,25 @@ tags = ['appearance', 'colors', 'common', 'moun', 'no-adjective']
 [[cards]]
 kanji = '名字'
 kana = 'みょうじ'
+english = 'family name (surname)'
+level = 'n2'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '名字'
+kana = 'みょうじ'
 english = 'family name'
 level = 'n2'
 source = 'wanikani'
 tags = ['common', 'names', 'noun', 'people']
+
+[[cards]]
+kanji = '村人'
+kana = 'むらびと'
+english = 'villager'
+source = 'smashbros'
+tags = ['common', 'noun', 'people']
 
 [[cards]]
 kanji = '名人'
@@ -908,6 +1060,14 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '世'
+kana = 'よ'
+english = 'world'
+level = 'n1'
+source = 'wanikani'
+tags = ['common', 'geography', 'noun', 'world']
+
+[[cards]]
 kanji = '用'
 kana = 'よう'
 english = 'task'
@@ -944,6 +1104,14 @@ english = 'wool'
 level = 'n2'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '予定'
+kana = 'よてい'
+english = 'plans; arrangement'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '予約'
