@@ -3,5 +3,5 @@ cached-property==1.5.1
 frozendict==1.2
 genanki==0.6.3
 pystache==0.5.4
-PyYAML==3.13
+PyYAML==4.2b4
 toml==0.10.0
