@@ -1,0 +1,51 @@
+[[cards]]
+kanji = '蟻'
+kana = 'あり'
+english = 'ant'
+tags = ['common', 'insect', 'noun']
+
+[[cards]]
+kanji = '蜘蛛'
+kana = 'くも'
+english = 'spider'
+tags = ['animals', 'common', 'insects', 'noun']
+
+[[cards]]
+kanji = '蜚蠊'
+kana = 'ごきぶり'
+english = 'cockroach'
+tags = ['common', 'insect', 'noun']
+
+[[cards]]
+kanji = '蝶'
+kana = 'ちょう'
+english = 'butterfly'
+level = 'n1'
+tags = ['animals', 'common', 'noun']
+
+[[cards]]
+kanji = '蜻蛉'
+kana = 'とんぼ'
+english = 'dragonfly'
+source = 'japan-trip'
+tags = ['animals', 'common', 'noun']
+
+[[cards]]
+kanji = '蜂'
+kana = 'はち'
+english = 'bee; wasp; hornet'
+tags = ['animals', 'common', 'insects', 'noun']
+
+[[cards]]
+kanji = '蚯蚓'
+kana = 'みみず'
+english = 'earthworm'
+tags = ['insect', 'noun', 'uncommon']
+
+[[cards]]
+kanji = '虫'
+kana = 'むし'
+english = 'insect'
+level = 'n4'
+tags = ['animals', 'common', 'noun']
+
