@@ -13,53 +13,15 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
-kanji = '海老'
-kana = 'えび'
-english = 'shrimp; lobster'
-tags = ['common', 'noun']
-
-[[cards]]
 kanji = '狼'
 kana = 'おおかみ'
 english = 'wolf'
 tags = ['common', 'noun']
 
 [[cards]]
-kanji = '蛙'
-kana = 'かえる'
-english = 'frog'
-level = 'n5'
-tags = ['common', 'noun']
-
-[[cards]]
-kanji = '蟹'
-kana = 'かに'
-english = 'crab'
-tags = ['common', 'noun']
-
-[[cards]]
-kanji = '亀'
-kana = 'かめ'
-english = 'turtle; tortoise'
-tags = ['common', 'noun']
-
-[[cards]]
-kanji = '烏'
-kana = 'からす'
-english = 'raven; crow'
-tags = ['common', 'noun']
-
-[[cards]]
 kanji = '狐'
 kana = 'きつね'
 english = 'fox'
-tags = ['common', 'noun']
-
-[[cards]]
-kanji = '金魚'
-kana = 'きんぎょ'
-english = 'goldfish'
-level = 'n2'
 tags = ['common', 'noun']
 
 [[cards]]
@@ -115,30 +77,9 @@ level = 'n3'
 tags = ['animal', 'common', 'noun']
 
 [[cards]]
-kanji = '鳥'
-kana = 'とり'
-english = 'bird'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '動物'
-kana = 'どうぶつ'
-english = 'animal'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '猫'
 kana = 'ねこ'
 english = 'cat'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '～匹'
-kana = '～ひき'
-english = 'counter for small animals'
 level = 'n5'
 tags = []
 
@@ -147,25 +88,4 @@ kanji = '豚'
 kana = 'ぶた'
 english = 'pig'
 tags = ['animals', 'common', 'noun']
-
-[[cards]]
-kanji = '鮪'
-kana = 'まぐろ'
-english = 'tuna'
-source = 'sekai-wa-fushigi-2'
-tags = ['common', 'fish']
-
-[[cards]]
-kanji = '鰐'
-kana = 'わに'
-english = 'crocodile; alligator'
-source = 'wanikani'
-tags = ['animals', 'noun', 'uncommon']
-
-[[cards]]
-kanji = 'ペット'
-kana = 'ペット'
-english = 'pet'
-level = 'n5'
-tags = []
 

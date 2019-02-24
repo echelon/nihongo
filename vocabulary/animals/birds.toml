@@ -1,0 +1,13 @@
+[[cards]]
+kanji = '烏'
+kana = 'からす'
+english = 'raven; crow'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '鳥'
+kana = 'とり'
+english = 'bird'
+level = 'n5'
+tags = []
+

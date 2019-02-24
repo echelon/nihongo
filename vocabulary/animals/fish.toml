@@ -1,0 +1,14 @@
+[[cards]]
+kanji = '金魚'
+kana = 'きんぎょ'
+english = 'goldfish'
+level = 'n2'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '鮪'
+kana = 'まぐろ'
+english = 'tuna'
+source = 'sekai-wa-fushigi-2'
+tags = ['common', 'fish']
+

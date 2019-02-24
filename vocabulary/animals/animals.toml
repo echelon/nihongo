@@ -1,0 +1,53 @@
+[[cards]]
+kanji = '海老'
+kana = 'えび'
+english = 'shrimp; lobster'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '蛙'
+kana = 'かえる'
+english = 'frog'
+level = 'n5'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '蟹'
+kana = 'かに'
+english = 'crab'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '亀'
+kana = 'かめ'
+english = 'turtle; tortoise'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '動物'
+kana = 'どうぶつ'
+english = 'animal'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '～匹'
+kana = '～ひき'
+english = 'counter for small animals'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '鰐'
+kana = 'わに'
+english = 'crocodile; alligator'
+source = 'wanikani'
+tags = ['animals', 'noun', 'uncommon']
+
+[[cards]]
+kanji = 'ペット'
+kana = 'ペット'
+english = 'pet'
+level = 'n5'
+tags = []
+
