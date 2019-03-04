@@ -20,27 +20,6 @@ level = 'n5'
 tags = ['common', 'people', 'pronouns']
 
 [[cards]]
-kanji = '兄'
-kana = 'あに'
-english = 'older brother (humble/kenjougo)'
-level = 'n5'
-tags = ['common', 'family', 'humble', 'kenjougo', 'people']
-
-[[cards]]
-kanji = '姉'
-kana = 'あね'
-english = 'older sister (humble/kenjougo)'
-level = 'n5'
-tags = ['common', 'family', 'humble', 'kenjougo', 'people']
-
-[[cards]]
-kanji = '妹'
-kana = 'いもうと'
-english = 'younger sister (humble / kenjougo)'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '王'
 kana = 'おう'
 english = 'king; monarch; sovereign'
@@ -64,48 +43,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'お母さん'
-kana = 'おかあさん'
-english = 'mother (honorific/respectful/sonkeigo)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '奥さん'
-kana = 'おくさん'
-english = 'wife (honorific/respectful/sonkeigo)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お祖父さん'
-kana = 'おじいさん'
-english = 'grandfather; male senior citizen'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '伯父さん'
-kana = 'おじさん'
-english = 'uncle; old man'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お父さん'
-kana = 'おとうさん'
-english = 'father (honorific/respectful/sonkeigo)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '弟'
-kana = 'おとうと'
-english = 'little brother (humble/kenjougo)'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '男'
 kana = 'おとこ'
 english = 'man; male'
@@ -123,34 +60,6 @@ tags = []
 kanji = '大人'
 kana = 'おとな'
 english = 'adult'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お兄さん'
-kana = 'おにいさん'
-english = 'older brother (honorific/respectful/sonkeigo)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お姉さん'
-kana = 'おねえさん'
-english = 'older sister (honorific/respectful/sonkeigo)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お祖母さん'
-kana = 'おばあさん'
-english = 'grandmother'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '伯母さん'
-kana = 'おばさん'
-english = 'aunt (honorific/respectful/sonkeigo)'
 level = 'n5'
 tags = []
 
@@ -214,13 +123,6 @@ kanji = '外人'
 kana = 'がいじん'
 english = 'foreigner (less polite)'
 tags = ['common', 'noun']
-
-[[cards]]
-kanji = '兄弟'
-kana = 'きょうだい'
-english = 'siblings'
-level = 'n5'
-tags = []
 
 [[cards]]
 kanji = '警官'
@@ -290,27 +192,6 @@ source = 'wanikani'
 tags = ['common', 'noun', 'sports']
 
 [[cards]]
-kanji = '祖父'
-kana = 'そふ'
-english = 'grandfather; old man'
-level = 'n5'
-tags = ['common', 'family', 'people']
-
-[[cards]]
-kanji = '祖母'
-kana = 'そぼ'
-english = 'grandmother'
-level = 'n4'
-tags = ['common', 'family', 'people']
-
-[[cards]]
-kanji = '父'
-kana = 'ちち'
-english = "(one's own) father (humble/kenjougo)"
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '天才'
 kana = 'てんさい'
 english = 'genius'
@@ -363,13 +244,6 @@ source = 'wanikani'
 tags = ['common', 'no-adjective']
 
 [[cards]]
-kanji = '母'
-kana = 'はは'
-english = "(one's own) mother (humble/kenjougo)"
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '人'
 kana = 'ひと'
 english = 'man; person'
@@ -412,20 +286,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '息子'
-kana = 'むすこ'
-english = 'son'
-level = 'n4'
-tags = ['common', 'family', 'noun', 'people']
-
-[[cards]]
-kanji = '娘'
-kana = 'むすめ'
-english = '(my) daughter'
-level = 'n4'
-tags = ['common', 'family', 'noun', 'people']
-
-[[cards]]
 kanji = '役人'
 kana = 'やくにん'
 english = 'government official'
@@ -440,13 +300,6 @@ level = 'n3'
 source = 'wanikani'
 explain = 'https://hinative.com/en-US/questions/696835'
 tags = ['common', 'noun', 'people']
-
-[[cards]]
-kanji = '両親'
-kana = 'りょうしん'
-english = 'parents; both parents'
-level = 'n5'
-tags = []
 
 [[cards]]
 kanji = '若い'

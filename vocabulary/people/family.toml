@@ -1,0 +1,147 @@
+[[cards]]
+kanji = '兄'
+kana = 'あに'
+english = "(one's own) older brother (kenjougo)"
+level = 'n5'
+tags = ['common', 'family', 'humble', 'kenjougo', 'people']
+
+[[cards]]
+kanji = '姉'
+kana = 'あね'
+english = "(one's own) older sister (kenjougo)"
+level = 'n5'
+tags = ['common', 'family', 'humble', 'kenjougo', 'people']
+
+[[cards]]
+kanji = '妹'
+kana = 'いもうと'
+english = "(one's own) younger sister (kenjougo)"
+level = 'n5'
+tags = ['common', 'family', 'humble', 'kenjougo', 'people']
+
+[[cards]]
+kanji = 'お母さん'
+kana = 'おかあさん'
+english = 'mother (sonkeigo)'
+level = 'n5'
+tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
+
+[[cards]]
+kanji = '奥さん'
+kana = 'おくさん'
+english = 'wife (sonkeigo)'
+level = 'n5'
+tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
+
+[[cards]]
+kanji = 'お祖父さん'
+kana = 'おじいさん'
+english = 'grandfather; male senior citizen (sonkeigo)'
+level = 'n5'
+tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
+
+[[cards]]
+kanji = '伯父さん'
+kana = 'おじさん'
+english = 'uncle; old man (sonkeigo)'
+level = 'n5'
+tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
+
+[[cards]]
+kanji = 'お父さん'
+kana = 'おとうさん'
+english = 'father (sonkeigo)'
+level = 'n5'
+tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
+
+[[cards]]
+kanji = '弟'
+kana = 'おとうと'
+english = "(one's own) little brother (kenjougo)"
+level = 'n5'
+tags = ['common', 'family', 'humble', 'kenjougo', 'people']
+
+[[cards]]
+kanji = 'お兄さん'
+kana = 'おにいさん'
+english = 'older brother (sonkeigo)'
+level = 'n5'
+tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
+
+[[cards]]
+kanji = 'お姉さん'
+kana = 'おねえさん'
+english = 'older sister (sonkeigo)'
+level = 'n5'
+tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
+
+[[cards]]
+kanji = 'お祖母さん'
+kana = 'おばあさん'
+english = 'grandmother (sonkeigo)'
+level = 'n5'
+tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
+
+[[cards]]
+kanji = '伯母さん'
+kana = 'おばさん'
+english = 'aunt (sonkeigo)'
+level = 'n5'
+tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
+
+[[cards]]
+kanji = '兄弟'
+kana = 'きょうだい'
+english = 'siblings'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '祖父'
+kana = 'そふ'
+english = "(one's own) grandfather; old man"
+level = 'n5'
+tags = ['common', 'family', 'humble', 'kenjougo', 'people']
+
+[[cards]]
+kanji = '祖母'
+kana = 'そぼ'
+english = "(one's own) grandmother"
+level = 'n4'
+tags = ['common', 'family', 'humble', 'kenjougo', 'people']
+
+[[cards]]
+kanji = '父'
+kana = 'ちち'
+english = "(one's own) father (kenjougo)"
+level = 'n5'
+tags = ['common', 'family', 'humble', 'kenjougo', 'people']
+
+[[cards]]
+kanji = '母'
+kana = 'はは'
+english = "(one's own) mother (kenjougo)"
+level = 'n5'
+tags = ['common', 'family', 'humble', 'kenjougo', 'people']
+
+[[cards]]
+kanji = '息子'
+kana = 'むすこ'
+english = 'son'
+level = 'n4'
+tags = ['common', 'family', 'noun', 'people']
+
+[[cards]]
+kanji = '娘'
+kana = 'むすめ'
+english = 'daughter'
+level = 'n4'
+tags = ['common', 'family', 'noun', 'people']
+
+[[cards]]
+kanji = '両親'
+kana = 'りょうしん'
+english = 'parents; both parents'
+level = 'n5'
+tags = ['common', 'family', 'noun', 'people']
+

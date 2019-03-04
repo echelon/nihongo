@@ -1,0 +1,30 @@
+[[cards]]
+kanji = '歩く'
+kana = 'あるく'
+english = 'to walk'
+english-conjugated = { base = 'walk', past = 'walked', plural = 'walks', continuous = 'walking' }
+verb-type = 'godan-ku'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '履く'
+kana = 'はく'
+english = 'to put on or wear ~ (lower-body clothing)'
+english-conjugated = { base = 'wear', past = 'wore', plural = 'wears', continous = 'wearing' }
+verb-type = 'godan-ku'
+transitive = true
+level = 'n3'
+tags = ['common']
+
+[[cards]]
+kanji = '走る'
+kana = 'はしる'
+english = 'to run'
+english-conjugated = { base = 'run', past = 'ran', plural = 'runs', continous = 'running' }
+verb-type = 'godan-ru'
+transitive = false
+level = 'n5'
+tags = ['common']
+

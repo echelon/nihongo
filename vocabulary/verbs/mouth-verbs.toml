@@ -1,0 +1,52 @@
+[[cards]]
+kanji = '言う'
+kana = 'いう'
+english = 'to say (quoting); to call something (its name)'
+english-conjugated = { base = 'say', past = 'said', plural = 'says', continuous = 'saying' }
+verb-type = 'godan-u'
+transitive = false
+level = 'n5'
+explain = 'https://kawakawalearningstudio.com/all/use-said-japanese/'
+tags = ['common']
+
+[[cards]]
+kanji = '歌う'
+kana = 'うたう'
+english = 'to sing'
+english-conjugated = { base = 'sing', past = 'sang', plural = 'sings', continuous = 'singing' }
+verb-type = 'godan-u'
+transitive = false
+level = 'n5'
+tags = ['common', 'transitive-and-intransitive']
+
+[[cards]]
+kanji = '答える'
+kana = 'こたえる'
+english = 'to answer'
+english-conjugation = { base = 'answer', past = 'answered', plural = 'answers', continous = 'answering' }
+verb-type = 'ichidan'
+transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '喋る'
+kana = 'しゃべる'
+english = 'to talk (chat); to chat; to chatter'
+english-conjugation = { base = 'chat', past = 'chatted', plural = 'chats', continous = 'chatting' }
+level = 'n3'
+verb-type = 'godan-ru'
+transitive = false
+explain = 'https://kawakawalearningstudio.com/all/use-said-japanese/'
+tags = ['common']
+
+[[cards]]
+kanji = '話す'
+kana = 'はなす'
+english = 'to speak ~; to talk ~'
+english-conjugated = { base = 'speak', past = 'spoke', plural = 'speaks', continuous = 'speaking' }
+verb-type = 'godan-su'
+transitive = true
+level = 'n5'
+tags = ['common']
+
