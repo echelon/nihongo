@@ -109,21 +109,25 @@ def write_toml(note_toml_data, filename):
   with open(filename, 'w') as f:
     f.write(toml_contents)
 
-total_notes = 0
-for filename in glob.glob('**/*.toml', recursive=True):
-  if 'cardgen' in filename or 'temp/' in filename:
-    continue # XXX: Things here shouldn't be processed for now.
-  try:
-    notes = read_notes_from_toml(filename)
-    note_count = len(notes[INDEX_NAME])
-    sorted_notes = sort_notes(notes)
-    print('{0: <50} : {1} notes'.format(filename, note_count))
-    write_toml(sorted_notes, filename)
-    total_notes += note_count
-  except Exception as e:
-    print('Error processing file: {0}'.format(filename))
-    print(e)
+def main():
+  total_notes = 0
+  for filename in glob.glob('**/*.toml', recursive=True):
+    if 'cardgen' in filename or 'temp/' in filename:
+      continue # XXX: Things here shouldn't be processed for now.
+    try:
+      notes = read_notes_from_toml(filename)
+      note_count = len(notes[INDEX_NAME])
+      sorted_notes = sort_notes(notes)
+      print('{0: <50} : {1} notes'.format(filename, note_count))
+      write_toml(sorted_notes, filename)
+      total_notes += note_count
+    except Exception as e:
+      print('Error processing file: {0}'.format(filename))
+      print(e)
 
-print('Skipped notes: {0}'.format(skipped_count))
-print('Total notes: {0}'.format(total_notes))
+  print('Skipped notes: {0}'.format(skipped_count))
+  print('Total notes: {0}'.format(total_notes))
+
+if __name__ == '__main__':
+    main()
 
