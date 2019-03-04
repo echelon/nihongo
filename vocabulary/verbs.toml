@@ -125,6 +125,16 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '洗う'
+kana = 'あらう'
+english = 'to wash ~'
+english-conjugated = { base = 'wash', past = 'washed', plural = 'washes', continuous = 'washing' }
+verb-type = 'godan-u'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '有る'
 kana = 'ある'
 english = 'to be, to exist, to have (inanimate)'
@@ -141,6 +151,17 @@ english-conjugated = { base = 'walk', past = 'walked', plural = 'walks', continu
 verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '言う'
+kana = 'いう'
+english = 'to say (quoting); to call something (its name)'
+english-conjugated = { base = 'say', past = 'said', plural = 'says', continuous = 'saying' }
+verb-type = 'godan-u'
+transitive = false
+level = 'n5'
+explain = 'https://kawakawalearningstudio.com/all/use-said-japanese/'
 tags = ['common']
 
 [[cards]]
@@ -251,6 +272,16 @@ level = 'n2'
 tags = ['common']
 
 [[cards]]
+kanji = '歌う'
+kana = 'うたう'
+english = 'to sing'
+english-conjugated = { base = 'sing', past = 'sang', plural = 'sings', continuous = 'singing' }
+verb-type = 'godan-u'
+transitive = false
+level = 'n5'
+tags = ['common', 'transitive-and-intransitive']
+
+[[cards]]
 kanji = '撃つ'
 kana = 'うつ'
 english = 'to shoot ~'
@@ -312,6 +343,16 @@ kana = 'およぐ'
 english = 'to swim'
 verb-type = 'godan-gu'
 transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '買う'
+kana = 'かう'
+english = 'to buy ~'
+english-conjugated = { base = 'buy', past = 'bought', plural = 'buys', continuous = 'buying' }
+verb-type = 'godan-u'
+transitive = true
 level = 'n5'
 tags = ['common']
 
@@ -424,10 +465,22 @@ tags = ['common']
 [[cards]]
 kanji = '喋る'
 kana = 'しゃべる'
-english = 'to chat; to chatter'
+english = 'to talk (chat); to chat; to chatter'
+english-conjugation = { base = 'chat', past = 'chatted', plural = 'chats', continous = 'chatting' }
 level = 'n3'
 verb-type = 'godan-ru'
 transitive = false
+explain = 'https://kawakawalearningstudio.com/all/use-said-japanese/'
+tags = ['common']
+
+[[cards]]
+kanji = '座る'
+kana = 'すわる'
+english = 'to sit'
+english-conjugated = { base = 'sit', past = 'sat', plural = 'sits', continuous = 'sitting' }
+verb-type = 'godan-ru'
+transitive = false
+level = 'n5'
 tags = ['common']
 
 [[cards]]
@@ -445,6 +498,7 @@ tags = ['common']
 kanji = '足す'
 kana = 'たす'
 english = 'to add ~ (numbers); to add ~ (to something)'
+english-conjugation = { base = 'add', past = 'added', plural = 'adds', continous = 'adding' }
 verb-type = 'godan-su'
 transitive = true
 source = 'nihongo-charenji-n4-kotoba'
@@ -535,11 +589,21 @@ kanji = '通る'
 kana = 'とおる'
 english = 'to go past; to go by'
 english-conjugated = { base = 'go past', past = 'went past', plural = 'goes past', continous = 'going past' }
-verb-type = ''
+verb-type = 'godan-ru'
 transitive = false
-level = ''
-source = ''
-tags = []
+level = 'n4'
+source = 'wanikani'
+tags = ['common']
+
+[[cards]]
+kanji = '飛ぶ'
+kana = 'とぶ'
+english = 'to fly; to jump'
+english-conjugated = { base = 'fly', past = 'flew', plural = 'flies', continuous = 'flying' }
+verb-type = 'godan-bu'
+transitive = false
+level = 'n5'
+tags = ['common']
 
 [[cards]]
 kanji = '止まる'
@@ -678,6 +742,16 @@ english = 'to work'
 english-conjugated = { base = 'work', past = 'worked', plural = 'works', continous = 'working' }
 verb-type = 'godan-ku'
 transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '話す'
+kana = 'はなす'
+english = 'to speak ~; to talk ~'
+english-conjugated = { base = 'speak', past = 'spoke', plural = 'speaks', continuous = 'speaking' }
+verb-type = 'godan-su'
+transitive = true
 level = 'n5'
 tags = ['common']
 
