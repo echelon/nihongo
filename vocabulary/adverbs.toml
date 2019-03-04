@@ -41,7 +41,7 @@ kanji = '全て'
 kana = 'すべて'
 english = 'completely'
 level = 'n3'
-tags = ['adverb', 'common', 'no-adjective', 'noun']
+tags = ['adverb', 'anime', 'common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '大変'

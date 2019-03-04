@@ -1,11 +1,4 @@
 [[cards]]
-kanji = '愛'
-kana = 'あい'
-english = 'love; affection'
-level = 'n3'
-tags = ['common', 'noun', 'noun-suffix']
-
-[[cards]]
 kanji = '合図'
 kana = 'あいず'
 english = 'cue'
@@ -283,6 +276,14 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '神'
+kana = 'かみ'
+english = 'god; deity; spirit'
+source = 'anime'
+level = 'n3'
+tags = ['anime', 'common', 'noun', 'noun-prefix', 'religion']
+
+[[cards]]
 kanji = '剃刀'
 kana = 'かみそり'
 english = 'razor'
@@ -295,6 +296,13 @@ kana = 'かゆい'
 english = 'itchy'
 level = 'n2'
 tags = ['body', 'common', 'health', 'i-adjective']
+
+[[cards]]
+kanji = '管'
+kana = 'かん'
+english = 'pipe; tube'
+level = 'n3'
+tags = ['common', 'noun', 'noun-suffix']
 
 [[cards]]
 kanji = '完成'
@@ -321,14 +329,6 @@ source = 'wanikani'
 tags = ['adverb', 'common', 'suru-verb']
 
 [[cards]]
-kanji = '気分'
-kana = 'きぶん'
-english = 'feeling; mood'
-level = 'n4'
-source = 'wanikani'
-tags = ['common', 'noun']
-
-[[cards]]
 kanji = '休止'
 kana = 'きゅうし'
 english = 'pause'
@@ -343,11 +343,34 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '金'
+kana = 'きん'
+english = 'gold'
+source = 'irasshai'
+level = 'n5'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '消しゴム'
 kana = 'けしゴム'
 english = 'eraser'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = '研究'
+kana = 'けんきゅう'
+english = 'research'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '研究室'
+kana = 'けんきゅうしつ'
+english = 'laboratory'
+source = 'jlptstudy'
+level = 'n4'
+tags = ['common', 'noun', 'places', 'science']
 
 [[cards]]
 kanji = '原因'
@@ -372,6 +395,13 @@ english = 'in this way; such; thus'
 level = 'n4'
 source = 'https://iknow.jp/courses/566921'
 tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '鉱山'
+kana = 'こうざん'
+english = 'mine (for ore)'
+level = 'n1'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '交通'
@@ -402,6 +432,13 @@ kana = 'こわい'
 english = 'scary; frightening'
 level = 'n4'
 tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '今回'
+kana = 'こんかい'
+english = 'this time; lately'
+level = 'n3'
+tags = ['adverbial-noun', 'anime', 'common', 'temporal-noun']
 
 [[cards]]
 kanji = 'ご主人'
@@ -472,6 +509,27 @@ level = 'n4'
 tags = ['common', 'noun', 'people']
 
 [[cards]]
+kanji = '信仰'
+kana = 'しんこう'
+english = 'religious faith; creed'
+level = 'n1'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = 'しんどい'
+kana = 'しんどい'
+english = 'tired; frazzled'
+source = 'anime'
+tags = ['anime', 'common', 'i-adjective']
+
+[[cards]]
+kanji = '信念'
+kana = 'しんねん'
+english = 'belief; conviction'
+source = 'anime'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '字'
 kana = 'じ'
 english = 'character (ie kanji)'
@@ -540,12 +598,27 @@ source = 'sekai-wa-fushigi-2'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = 'その他'
+kana = 'そのほか'
+english = 'etc.'
+source = 'japanese-shipping-forms'
+level = 'n2'
+tags = ['adverbial-noun', 'common', 'conjugation']
+
+[[cards]]
 kanji = '夫れ夫れ'
 kana = 'それぞれ'
 english = 'each'
 source = 'sekai-wa-fushigi-2'
 level = 'n3'
 tags = ['adverbial-noun', 'common', 'no-adjective']
+
+[[cards]]
+kanji = '田'
+kana = 'た'
+english = 'rice paddy'
+level = 'n3'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '宝'
@@ -666,6 +739,14 @@ level = 'n3'
 tags = ['common', 'nouns']
 
 [[cards]]
+kanji = '梅雨'
+kana = 'つゆ'
+english = 'rainy season (June - July)'
+source = 'anime'
+level = 'n3'
+tags = ['anime', 'common', 'noun', 'temporal']
+
+[[cards]]
 kanji = '手袋'
 kana = 'てぶくろ'
 english = 'glove; mitten'
@@ -677,6 +758,13 @@ kanji = '天才'
 kana = 'てんさい'
 english = 'genius; prodigy'
 level = 'n1'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '電話番号'
+kana = 'でんわばんごう'
+english = 'phone number'
+source = 'irasshai'
 tags = ['common', 'noun']
 
 [[cards]]
@@ -784,6 +872,14 @@ source = 'boku-no-hero-academia-anime'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '日'
+kana = 'ひ'
+english = 'day; sun'
+source = 'irasshai'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun']
+
+[[cards]]
 kanji = '引き分け'
 kana = 'ひきわけ'
 english = 'tie (in a game)'
@@ -796,6 +892,13 @@ kanji = '非常口'
 kana = 'ひじょうぐち'
 english = 'emergency exit'
 tags = ['building', 'common', 'noun']
+
+[[cards]]
+kanji = '非常に'
+kana = 'ひじょうに'
+english = 'extremely; exceedingly'
+level = 'n4'
+tags = ['adverb', 'common']
 
 [[cards]]
 kanji = '酷い'
@@ -818,6 +921,14 @@ kana = 'ひゃくまん'
 english = 'one million'
 source = 'wanikani'
 tags = ['common', 'noun', 'number']
+
+[[cards]]
+kanji = '昼休み'
+kana = 'ひるやすみ'
+english = 'lunch break'
+source = 'jlptstudy'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'temporal-noun', 'time', 'work']
 
 [[cards]]
 kanji = '不正'
@@ -1022,6 +1133,13 @@ english = 'baseball'
 tags = ['common', 'noun', 'sports']
 
 [[cards]]
+kanji = '柔らかい'
+kana = 'やわらかい'
+english = 'soft; tender'
+level = 'n4'
+tags = ['common', 'feeling', 'i-adjective']
+
+[[cards]]
 kanji = '郵便'
 kana = 'ゆうびん'
 english = 'postal service'
@@ -1144,6 +1262,13 @@ english = 'discount; rebate'
 level = 'n2'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = 'エスカレーター'
+kana = 'エスカレーター'
+english = 'escalator'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
 
 [[cards]]
 kanji = 'セール'

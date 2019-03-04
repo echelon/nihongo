@@ -85,6 +85,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '海賊'
+kana = 'かいぞく'
+english = 'pirate'
+source = 'anime'
+tags = ['anime', 'common', 'noun', 'people']
+
+[[cards]]
 kanji = '家族'
 kana = 'かぞく'
 english = 'family'
@@ -130,6 +137,13 @@ kana = 'けいかん'
 english = 'police'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '子供'
+kana = 'こども'
+english = 'child'
+level = 'n5'
+tags = ['common', 'noun', 'people']
 
 [[cards]]
 kanji = '作者'
@@ -230,6 +244,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '人間'
+kana = 'にんげん'
+english = 'human being; mankind'
+level = 'n3'
+tags = ['anime', 'common', 'noun', 'people']
+
+[[cards]]
 kanji = '俳優'
 kana = 'はいゆう'
 english = 'actor; performer'
@@ -249,6 +270,13 @@ kana = 'ひと'
 english = 'man; person'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '人々'
+kana = 'ひとびと'
+english = 'people; each person'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun', 'people']
 
 [[cards]]
 kanji = '一人'

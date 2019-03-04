@@ -110,6 +110,13 @@ level = 'n2'
 tags = ['common', 'furniture']
 
 [[cards]]
+kanji = '電球'
+kana = 'でんきゅう'
+english = 'light bulb'
+level = 'n2'
+tags = ['common']
+
+[[cards]]
 kanji = '戸'
 kana = 'と'
 english = 'Japanese-style door'
@@ -164,6 +171,13 @@ kana = 'アパート'
 english = 'apartment'
 level = 'n5'
 tags = ['buildings', 'common', 'gairaigo', 'home', 'places']
+
+[[cards]]
+kanji = 'ゴミ箱'
+kana = 'ゴミばこ'
+english = 'trash can'
+source = 'irasshai'
+tags = ['common']
 
 [[cards]]
 kanji = 'シャワー'

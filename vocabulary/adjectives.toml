@@ -154,13 +154,6 @@ level = 'n5'
 tags = ['common', 'i-adjectives']
 
 [[cards]]
-kanji = '嫌い'
-kana = 'きらい'
-english = 'dislike; hate'
-level = 'n5'
-tags = ['common', 'na-adjective']
-
-[[cards]]
 kanji = '綺麗'
 kana = 'きれい'
 english = 'pretty; clean; tidy'
@@ -202,13 +195,6 @@ english = 'refreshing; brisk'
 level = 'n1'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'i-adjectives']
-
-[[cards]]
-kanji = '好き'
-kana = 'すき'
-english = 'liking; fondness; favorite; love'
-level = 'n5'
-tags = ['common', 'na-adjective', 'noun']
 
 [[cards]]
 kanji = '少ない'

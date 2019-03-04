@@ -76,6 +76,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '胡椒'
+kana = 'こしょう'
+english = 'pepper'
+level = 'n2'
+tags = ['common', 'food', 'noun']
+
+[[cards]]
 kanji = 'ご飯'
 kana = 'ごはん'
 english = 'cooked rice; meal'

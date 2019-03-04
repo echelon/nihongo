@@ -1,4 +1,11 @@
 [[cards]]
+kanji = '機関'
+kana = 'きかん'
+english = 'engine'
+level = 'n3'
+tags = ['cars', 'common', 'physics', 'technology', 'vehicles']
+
+[[cards]]
 kanji = '汽車'
 kana = 'きしゃ'
 english = 'train (long distance); steam train (original meaning)'

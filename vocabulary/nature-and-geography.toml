@@ -13,6 +13,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '海岸'
+kana = 'かいがん'
+english = 'coast; beach'
+level = 'n4'
+tags = ['common', 'no-adjective', 'noun', 'ocean']
+
+[[cards]]
 kanji = '火山'
 kana = 'かざん'
 english = 'volcano'
@@ -32,6 +39,13 @@ kana = 'き'
 english = 'tree; wood'
 level = 'n5'
 tags = ['common', 'nature', 'noun']
+
+[[cards]]
+kanji = '草'
+kana = 'くさ'
+english = 'grass'
+level = 'n4'
+tags = ['common', 'nature', 'plants']
 
 [[cards]]
 kanji = '草地'
@@ -117,6 +131,13 @@ kana = 'はな'
 english = 'flower'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '林'
+kana = 'はやし'
+english = 'woods; forest'
+level = 'n4'
+tags = ['common', 'nature', 'places', 'plants']
 
 [[cards]]
 kanji = '湖'

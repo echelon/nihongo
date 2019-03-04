@@ -279,13 +279,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '子供'
-kana = 'こども'
-english = 'child'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '～語'
 kana = '～ご'
 english = 'language (suffix); counter for words'
