@@ -9,11 +9,21 @@ This is undone by running the normalization code, `sort.py`.
 """
 
 import glob
-
 from collections import OrderedDict
+
+from toml.decoder import InlineTableDict
+
 from sort import read_notes_from_toml
 from sort import write_toml
 from sort import INDEX_NAME
+
+class DynamicInlineTableDict(dict, InlineTableDict):
+  """
+  Concrete implementation of a dictionary that will be encoded as an
+  inline table in TOML. See the encoder library for details on how
+  this is used.
+  """
+  pass
 
 def insert_blanks(notes, filename):
   blank_note = OrderedDict()
@@ -31,8 +41,10 @@ def insert_blanks(notes, filename):
       ('continuous', ''),
     ])
 
+    conjugated = DynamicInlineTableDict(conjugated)
+
     keys.extend([
-      #('english-conjugated', conjugated),
+      ('english-conjugated', conjugated),
       ('verb-type', ''),
       ('transitive', False),
     ])

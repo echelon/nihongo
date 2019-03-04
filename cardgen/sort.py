@@ -18,6 +18,8 @@ unicode = str
 def _dump_str(v):
   """
   Function lifted and modified from original python toml library.
+  This was cutomized to selectively switch the quote escaping. The
+  upstream library code is broken.
   """
   if sys.version_info < (3,) and hasattr(v, 'decode') and isinstance(v, str):
     v = v.decode('utf-8')
