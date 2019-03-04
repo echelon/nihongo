@@ -118,6 +118,14 @@ level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 
 [[cards]]
+kanji = '妻'
+kana = 'つま'
+english = "(one's own) wife"
+source = 'jlptstudy'
+level = 'n4'
+tags = ['common', 'family', 'humble', 'kenjougo', 'people']
+
+[[cards]]
 kanji = '母'
 kana = 'はは'
 english = "(one's own) mother (kenjougo)"

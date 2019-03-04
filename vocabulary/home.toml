@@ -20,6 +20,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '屋上'
+kana = 'おくじょう'
+english = 'rooftop'
+source = 'jlptstudy'
+level = 'n4'
+tags = ['architecture', 'buildings', 'common', 'noun']
+
+[[cards]]
 kanji = 'お手洗い'
 kana = 'おてあらい'
 english = 'toilet; lavatory'
@@ -32,6 +40,13 @@ kana = 'おふろ'
 english = 'bath'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '鏡'
+kana = 'かがみ'
+english = 'mirror'
+level = 'n4'
+tags = ['common', 'home', 'noun', 'restroom']
 
 [[cards]]
 kanji = '家具'

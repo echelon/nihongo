@@ -147,6 +147,13 @@ level = 'n4'
 tags = ['common', 'nature', 'noun', 'outdoors']
 
 [[cards]]
+kanji = '森'
+kana = 'もり'
+english = 'big forest'
+level = 'n4'
+tags = ['common', 'nature', 'noun']
+
+[[cards]]
 kanji = '山'
 kana = 'やま'
 english = 'mountain'
