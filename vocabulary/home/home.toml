@@ -6,38 +6,9 @@ level = 'n5'
 tags = ['common', 'family', 'home', 'places']
 
 [[cards]]
-kanji = '椅子'
-kana = 'いす'
-english = 'chair; stool'
-level = 'n5'
-tags = ['common', 'furniture', 'home']
-
-[[cards]]
 kanji = '家'
 kana = 'うち'
 english = "house; home (one's own)"
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '屋上'
-kana = 'おくじょう'
-english = 'rooftop'
-source = 'jlptstudy'
-level = 'n4'
-tags = ['architecture', 'buildings', 'common', 'noun']
-
-[[cards]]
-kanji = 'お手洗い'
-kana = 'おてあらい'
-english = 'toilet; lavatory'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お風呂'
-kana = 'おふろ'
-english = 'bath'
 level = 'n5'
 tags = []
 
@@ -47,13 +18,6 @@ kana = 'かがみ'
 english = 'mirror'
 level = 'n4'
 tags = ['common', 'home', 'noun', 'restroom']
-
-[[cards]]
-kanji = '家具'
-kana = 'かぐ'
-english = 'furniture'
-level = 'n3'
-tags = ['common', 'furniture']
 
 [[cards]]
 kanji = '家庭'
@@ -70,38 +34,11 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '壁'
-kana = 'かべ'
-english = 'wall; partition'
-level = 'n4'
-tags = ['buildings', 'common', 'noun']
-
-[[cards]]
-kanji = '玄関'
-kana = 'げんかん'
-english = 'entrance; front door; foyer'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '塵'
 kana = 'ごみ'
 english = 'trash; garbage'
 level = 'n3'
 tags = ['common', 'noun']
-
-[[cards]]
-kanji = '寝室'
-kana = 'しんしつ'
-english = 'bedroom'
-tags = ['common']
-
-[[cards]]
-kanji = '寝台'
-kana = 'しんだい'
-english = 'bed; couch'
-level = 'n2'
-tags = ['common', 'furniture']
 
 [[cards]]
 kanji = '石鹸'
@@ -118,13 +55,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '箪笥'
-kana = 'たんす'
-english = 'dresser; chest'
-level = 'n2'
-tags = ['common', 'furniture']
-
-[[cards]]
 kanji = '電球'
 kana = 'でんきゅう'
 english = 'light bulb'
@@ -132,53 +62,11 @@ level = 'n2'
 tags = ['common']
 
 [[cards]]
-kanji = '戸'
-kana = 'と'
-english = 'Japanese-style door'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '風呂'
-kana = 'ふろ'
-english = 'bath; bathtub'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '部屋'
-kana = 'へや'
-english = 'room'
-level = 'n5'
-tags = ['buildings', 'common', 'places']
-
-[[cards]]
-kanji = '本棚'
-kana = 'ほんだな'
-english = 'bookcase'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '窓'
-kana = 'まど'
-english = 'window'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '村'
 kana = 'むら'
 english = 'village'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = '屋根'
-kana = 'やね'
-english = 'roof'
-level = 'n3'
-tags = ['buildings', 'common', 'noun']
 
 [[cards]]
 kanji = 'アパート'
@@ -223,13 +111,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'テーブル'
-kana = 'テーブル'
-english = 'table'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'トイレ'
 kana = 'トイレ'
 english = 'toilet; restroom'
@@ -247,13 +128,6 @@ tags = []
 kanji = 'プール'
 kana = 'プール'
 english = 'pool'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ベッド'
-kana = 'ベッド'
-english = 'bed'
 level = 'n5'
 tags = []
 

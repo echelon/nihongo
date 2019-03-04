@@ -1,0 +1,77 @@
+[[cards]]
+kanji = '屋上'
+kana = 'おくじょう'
+english = 'rooftop'
+source = 'jlptstudy'
+level = 'n4'
+tags = ['architecture', 'buildings', 'common', 'noun']
+
+[[cards]]
+kanji = 'お手洗い'
+kana = 'おてあらい'
+english = 'toilet; lavatory'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'お風呂'
+kana = 'おふろ'
+english = 'bath'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '壁'
+kana = 'かべ'
+english = 'wall; partition'
+level = 'n4'
+tags = ['buildings', 'common', 'noun']
+
+[[cards]]
+kanji = '玄関'
+kana = 'げんかん'
+english = 'entrance; front door; foyer'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '寝室'
+kana = 'しんしつ'
+english = 'bedroom'
+tags = ['common']
+
+[[cards]]
+kanji = '戸'
+kana = 'と'
+english = 'Japanese-style door'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '風呂'
+kana = 'ふろ'
+english = 'bath; bathtub'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '部屋'
+kana = 'へや'
+english = 'room'
+level = 'n5'
+tags = ['buildings', 'common', 'places']
+
+[[cards]]
+kanji = '窓'
+kana = 'まど'
+english = 'window'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '屋根'
+kana = 'やね'
+english = 'roof'
+level = 'n3'
+tags = ['buildings', 'common', 'noun']
+

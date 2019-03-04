@@ -1,0 +1,47 @@
+[[cards]]
+kanji = '愛'
+kana = 'あい'
+english = 'love; affection'
+level = 'n3'
+tags = ['common', 'noun', 'noun-suffix']
+
+[[cards]]
+kanji = '感じ'
+kana = 'かんじ'
+english = 'sense; impression; feeling (eg. towards music or art)'
+level = 'n3'
+explain = 'https://www.learn-japanese-adventure.com/what-is-the-difference-between-kimochi-kibun-and-choushi.html'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '気分'
+kana = 'きぶん'
+english = 'feeling (physical); mood'
+level = 'n4'
+source = 'wanikani'
+explain = 'https://www.learn-japanese-adventure.com/what-is-the-difference-between-kimochi-kibun-and-choushi.html'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '気持ち'
+kana = 'きもち'
+english = 'feeling (mental); mood'
+source = 'anime'
+level = 'n4'
+explain = 'https://www.learn-japanese-adventure.com/what-is-the-difference-between-kimochi-kibun-and-choushi.html'
+tags = ['adverb', 'common', 'noun']
+
+[[cards]]
+kanji = '嫌い'
+kana = 'きらい'
+english = 'dislike; hate'
+level = 'n5'
+tags = ['common', 'na-adjective']
+
+[[cards]]
+kanji = '好き'
+kana = 'すき'
+english = 'liking; fondness; favorite; love'
+level = 'n5'
+tags = ['common', 'na-adjective', 'noun']
+
