@@ -37,6 +37,7 @@ From Reviews
 - 一生 whole life
 - 生える to grow
 - 生まれ birthplace
+- 宝 treasure
 
 
 From Example Sentences
