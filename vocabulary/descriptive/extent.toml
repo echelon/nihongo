@@ -1,0 +1,37 @@
+[[cards]]
+kanji = '余り'
+kana = 'あまり'
+english = 'not very; not much'
+level = 'n5'
+tags = ['adverb', 'common', 'na-adjective', 'no-adjective']
+
+[[cards]]
+kanji = '凄く'
+kana = 'すごく'
+english = 'awfully; immensely'
+explain = 'http://nihonshock.com/2009/11/stop-saying-totemo/'
+tags = ['adverb', 'uncommon']
+
+[[cards]]
+kanji = '大変'
+kana = 'たいへん'
+english = 'very; terrible'
+level = 'n5'
+tags = ['adverb', 'common', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '迚も'
+kana = 'とても'
+english = 'very ; exceedingly'
+level = 'n5'
+explain = 'http://nihonshock.com/2009/11/stop-saying-totemo/'
+tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '非常に'
+kana = 'ひじょうに'
+english = 'extremely; exceedingly'
+level = 'n4'
+explain = 'http://nihonshock.com/2009/11/stop-saying-totemo/'
+tags = ['adverb', 'common']
+

@@ -946,13 +946,6 @@ english = 'emergency exit'
 tags = ['building', 'common', 'noun']
 
 [[cards]]
-kanji = '非常に'
-kana = 'ひじょうに'
-english = 'extremely; exceedingly'
-level = 'n4'
-tags = ['adverb', 'common']
-
-[[cards]]
 kanji = '酷い'
 kana = 'ひどい'
 english = 'cruel; heartless; violent'

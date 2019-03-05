@@ -1,11 +1,4 @@
 [[cards]]
-kanji = '余り'
-kana = 'あまり'
-english = 'not very; not much'
-level = 'n5'
-tags = ['adverb', 'common', 'na-adjective', 'no-adjective']
-
-[[cards]]
 disabled = true
 kanji = '何時しか'
 kana = 'いつしか'
@@ -42,13 +35,6 @@ kana = 'すべて'
 english = 'completely'
 level = 'n3'
 tags = ['adverb', 'anime', 'common', 'no-adjective', 'noun']
-
-[[cards]]
-kanji = '大変'
-kana = 'たいへん'
-english = 'very; terrible'
-level = 'n5'
-tags = ['adverb', 'common', 'na-adjective', 'noun']
 
 [[cards]]
 kanji = 'たっぷり'
@@ -99,13 +85,6 @@ kana = 'とくに'
 english = 'particularly; especially'
 source = 'nihongo-charenji-n4-kotoba'
 level = 'n4'
-tags = ['adverb', 'common']
-
-[[cards]]
-kanji = '迚も'
-kana = 'とても'
-english = 'very ; exceedingly'
-level = 'n5'
 tags = ['adverb', 'common']
 
 [[cards]]
