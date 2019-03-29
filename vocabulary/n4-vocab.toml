@@ -171,6 +171,14 @@ source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '近所'
+kana = 'きんじょ'
+english = 'neighborhood'
+source = 'jlptstudy'
+level = 'n4'
+tags = ['no-adjective', 'noun', 'places']
+
+[[cards]]
 kanji = 'ずっと'
 kana = 'ずっと'
 english = 'continuously in some state (for a long time or distance); all along; the whole time; long ago; far away'
@@ -184,6 +192,14 @@ english = 'toddler'
 level = 'n2'
 source = 'jisho.org'
 tags = ['common', 'noun', 'people']
+
+[[cards]]
+kanji = '忘れ物'
+kana = 'わすれもの'
+english = 'lost item; something forgotten'
+source = 'jlpt-study'
+level = 'n4'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = 'アクセサリー'

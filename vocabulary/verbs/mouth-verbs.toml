@@ -50,3 +50,14 @@ transitive = true
 level = 'n5'
 tags = ['common']
 
+[[cards]]
+kanji = '笑う'
+kana = 'わらう'
+english = 'to laugh'
+english-conjugated = { base = 'laugh', past = 'laughed', continuous = 'laughing', plural = 'laughs' }
+verb-type = 'godan-u'
+transitive = false
+source = 'jlpt-study'
+level = 'n4'
+tags = ['common']
+

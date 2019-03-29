@@ -544,6 +544,16 @@ source = 'wanikani'
 tags = ['common']
 
 [[cards]]
+kanji = '届ける'
+kana = 'とどける'
+english = 'to report ~; to deliver ~'
+english-conjugated = { base = 'report', past = 'reported', continuous = 'reporting', plural = 'reports' }
+verb-type = 'ichidan'
+transitive = true
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '飛ぶ'
 kana = 'とぶ'
 english = 'to fly; to jump'
@@ -570,6 +580,17 @@ english = 'to stop ~'
 english-conjugated = { base = 'stop', past = 'stopped', plural = 'stop', continous = 'stopping' }
 verb-type = 'ichidan'
 transitive = true
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '取り替える'
+kana = 'とりかえる'
+english = 'to exchange ~'
+english-conjugated = { continuous = 'exchanging', base = 'exchange', past = 'exchanged', plural = 'exchanges' }
+verb-type = 'ichidan'
+transitive = true
+source = 'jlpt-study'
 level = 'n4'
 tags = ['common']
 
