@@ -41,6 +41,27 @@ explain = 'https://kawakawalearningstudio.com/all/use-said-japanese/'
 tags = ['common']
 
 [[cards]]
+kanji = '食べる'
+kana = 'たべる'
+english = 'to eat ~'
+english-conjugated = { continuous = 'eating', base = 'eat', plural = 'eats', past = 'ate' }
+verb-type = 'ichidan'
+transitive = true
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '飲む'
+kana = 'のむ'
+english = 'to drink ~; to swallow ~'
+english-conjugated = { base = 'drink', past = 'drank', plural = 'drinks', continous = 'drinking' }
+verb-type = 'godan-mu'
+transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '話す'
 kana = 'はなす'
 english = 'to speak ~; to talk ~'

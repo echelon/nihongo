@@ -289,12 +289,34 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '置く'
+kana = 'おく'
+english = 'to put ~; to place ~'
+english-conjugated = { base = 'put', past = 'put', plural = 'puts', continuous = 'putting' }
+verb-type = 'godan-ku'
+transitive = true
+source = 'n5-study'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '怒る'
 kana = 'おこる'
 english = 'to get angry'
 verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '教える'
+kana = 'おしえる'
+english = 'to teach ~; to instruct ~'
+english-conjugated = { plural = 'teaches', past = 'taught', base = 'teach', continuous = 'teaching' }
+verb-type = 'ichidan'
+transitive = true
+source = 'n5-study'
+level = 'n5'
 tags = ['common']
 
 [[cards]]
@@ -422,6 +444,28 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '死ぬ'
+kana = 'しぬ'
+english = 'to die'
+english-conjugated = { plural = 'dies', past = 'died', continuous = 'dying', base = 'die' }
+verb-type = 'godan-nu'
+transitive = false
+source = 'n5-study'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '知る'
+kana = 'しる'
+english = 'to know ~; to be aware of ~'
+english-conjugated = { plural = 'knows', base = 'know', past = 'knew', continuous = 'knowing' }
+verb-type = 'godan-ru'
+transitive = true
+source = 'n5-study'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '座る'
 kana = 'すわる'
 english = 'to sit'
@@ -499,6 +543,17 @@ english = 'to take out ~'
 english-conjugated = { base = 'take out', past = 'took out', plural = 'takes out', continous = 'taking out' }
 verb-type = 'godan-su'
 transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '違う'
+kana = 'ちがう'
+english = 'to differ from; to be incorrect'
+english-conjugated = { plural = 'differs', base = 'differ', continuous = 'differing', past = 'differed' }
+verb-type = 'godan-u'
+transitive = false
+source = 'irasshai'
 level = 'n5'
 tags = ['common']
 
@@ -651,16 +706,6 @@ english = 'to climb'
 english-conjugation = { base = 'climb', past = 'climbed', plural = 'climbs', continous = 'climbing' }
 verb-type = 'godan-ru'
 transitive = false
-level = 'n5'
-tags = ['common']
-
-[[cards]]
-kanji = '飲む'
-kana = 'のむ'
-english = 'to drink ~; to swallow ~'
-english-conjugated = { base = 'drink', past = 'drank', plural = 'drinks', continous = 'drinking' }
-verb-type = 'godan-mu'
-transitive = true
 level = 'n5'
 tags = ['common']
 
