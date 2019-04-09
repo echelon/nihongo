@@ -1,0 +1,21 @@
+[[cards]]
+kanji = '知る'
+kana = 'しる'
+english = 'to know ~; to be aware of ~'
+english-conjugated = { plural = 'knows', base = 'know', past = 'knew', continuous = 'knowing' }
+verb-type = 'godan-ru'
+transitive = true
+source = 'n5-study'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '分かる'
+kana = 'わかる'
+english = 'to understand'
+english-conjugated = { base = 'understand', past = 'understood', plural = 'understands', continous = 'understanding' }
+verb-type = 'godan-ru'
+transitive = false
+level = 'n5'
+tags = ['common']
+

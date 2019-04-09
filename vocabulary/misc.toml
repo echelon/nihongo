@@ -14,6 +14,14 @@ level = 'n1'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '足跡'
+kana = 'あしあと'
+english = 'footprints'
+source = 'bonobono-anime'
+level = 'n2'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '遊び'
 kana = 'あそび'
 english = 'playing'
@@ -485,6 +493,14 @@ level = 'n4'
 tags = ['common', 'noun', 'people']
 
 [[cards]]
+kanji = '最高'
+kana = 'さいこう'
+english = 'wonderful; best; most; highest'
+source = 'bonobono-anime'
+level = 'n3'
+tags = ['common', 'na-adjective', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '最後'
 kana = 'さいご'
 english = 'end; conclusion; final'
@@ -498,6 +514,14 @@ english = 'city'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suffix']
+
+[[cards]]
+kanji = '幸せ'
+kana = 'しあわせ'
+english = 'happiness; good fortune; luck'
+source = 'bonobono-anime'
+level = 'n3'
+tags = ['common', 'na-adjective', 'noun']
 
 [[cards]]
 kanji = '仕方'
@@ -656,6 +680,14 @@ kana = 'た'
 english = 'rice paddy'
 level = 'n3'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '退屈'
+kana = 'たいくつ'
+english = 'boredom; tedium'
+source = 'bonobono-anime'
+level = 'n3'
+tags = ['common', 'na-adjective', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '宝'
@@ -1193,6 +1225,14 @@ english = 'baseball'
 tags = ['common', 'noun', 'sports']
 
 [[cards]]
+kanji = '矢っ張り'
+kana = 'やっぱり'
+english = 'as expected; in any case; still'
+source = 'bonobono-anime'
+level = 'n2'
+tags = ['adverb', 'common']
+
+[[cards]]
 kanji = '柔らかい'
 kana = 'やわらかい'
 english = 'soft; tender'
@@ -1300,6 +1340,14 @@ source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '乱暴'
+kana = 'らんぼう'
+english = 'violence; assault; reckless'
+source = 'bonobono-anime'
+level = 'n2'
+tags = ['common', 'na-adjective', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '冷凍'
 kana = 'れいとう'
 english = 'freeze/freezing; cold storage; refridgeration'
@@ -1327,6 +1375,13 @@ tags = ['common', 'noun']
 kanji = 'エスカレーター'
 kana = 'エスカレーター'
 english = 'escalator'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'ガラス'
+kana = 'ガラス'
+english = 'glass'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 

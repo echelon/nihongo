@@ -6,6 +6,14 @@ source = 'living-in-japan'
 tags = ['common', 'no-adjective', 'noun', 'places']
 
 [[cards]]
+kanji = '空港'
+kana = 'くうこう'
+english = 'airport'
+source = 'n4-study'
+level = 'n4'
+tags = ['common', 'places', 'travel']
+
+[[cards]]
 kanji = '港'
 kana = 'みなと'
 english = 'harbor; port'

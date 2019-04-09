@@ -20,6 +20,17 @@ level = 'n5'
 tags = ['common', 'transitive-and-intransitive']
 
 [[cards]]
+kanji = '噛む'
+kana = 'かむ'
+english = 'to bite ~; to chew ~'
+english-conjugated = { base = 'bite', plural = 'bites', past = 'bit', continuous = 'biting' }
+verb-type = 'godan-mu'
+transitive = true
+source = 'n4vocab'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '答える'
 kana = 'こたえる'
 english = 'to answer'

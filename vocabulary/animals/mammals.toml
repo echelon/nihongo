@@ -25,6 +25,13 @@ english = 'fox'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '屈狸'
+kana = 'くずり'
+english = 'wolverine'
+source = 'bonobono-anime'
+tags = ['animal', 'mammal', 'noun', 'uncommon']
+
+[[cards]]
 kanji = '熊'
 kana = 'くま'
 english = 'bear'

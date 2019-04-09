@@ -24,6 +24,12 @@ english = 'turtle; tortoise'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '狸'
+kana = 'たぬき'
+english = 'tanuki (raccoon dog)'
+tags = ['common']
+
+[[cards]]
 kanji = '動物'
 kana = 'どうぶつ'
 english = 'animal'

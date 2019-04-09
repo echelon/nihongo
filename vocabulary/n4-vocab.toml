@@ -171,6 +171,61 @@ source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '会議'
+kana = 'かいぎ'
+english = 'meeting; conference'
+source = 'n4-study'
+level = 'n4'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '会議室'
+kana = 'かいぎしつ'
+english = 'conference room'
+source = 'n4-study'
+level = 'n4'
+tags = ['common', 'noun', 'office', 'place']
+
+[[cards]]
+kanji = '必ず'
+kana = 'かならず'
+english = 'always; certainly; invariably; without exception'
+source = 'bonobono-anime'
+level = 'n4'
+tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '関係'
+kana = 'かんけい'
+english = 'relationship; connection'
+source = 'n4-study'
+level = 'n4'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '気'
+kana = 'き'
+english = 'spirit; mind; heart; nature; feelings'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '機会'
+kana = 'きかい'
+english = 'chance; opportunity'
+source = 'n4-study'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '危険'
+kana = 'きけん'
+english = 'danger; peril'
+source = 'n4-study'
+level = 'n4'
+tags = ['na-adjective', 'noun']
+
+[[cards]]
 kanji = '近所'
 kana = 'きんじょ'
 english = 'neighborhood'
@@ -179,11 +234,27 @@ level = 'n4'
 tags = ['no-adjective', 'noun', 'places']
 
 [[cards]]
+kanji = '具合'
+kana = 'ぐあい'
+english = 'condition; state'
+source = 'n4-study'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = 'ずっと'
 kana = 'ずっと'
 english = 'continuously in some state (for a long time or distance); all along; the whole time; long ago; far away'
 level = 'n3'
 tags = ['adverb', 'anime', 'common']
+
+[[cards]]
+kanji = '真ん中'
+kana = 'まんなか'
+english = 'midpoint; center; heart'
+source = 'bonobono-anime'
+level = 'n4'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '幼児'

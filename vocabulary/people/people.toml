@@ -110,6 +110,7 @@ kanji = '金持ち'
 kana = 'かねもち'
 english = 'rich person'
 tags = ['common', 'noun', 'people']
+level = 'n4'
 
 [[cards]]
 kanji = '看護師'

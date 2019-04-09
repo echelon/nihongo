@@ -83,17 +83,6 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
-kanji = '集まる'
-kana = 'あつまる'
-english = 'to gather; to assemble'
-english-conjugated = { base = 'gather', past = 'gathered', plural = 'gathers', continous = 'gathering' }
-verb-type = 'godan-ru'
-transitive = false
-level = 'n4'
-source = 'jlptstudy.net'
-tags = ['common']
-
-[[cards]]
 kanji = '集める'
 kana = 'あつめる'
 english = 'to gather ~; to assemble ~'
@@ -300,15 +289,6 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
-kanji = '怒る'
-kana = 'おこる'
-english = 'to get angry'
-verb-type = 'godan-ru'
-transitive = false
-level = 'n4'
-tags = ['common']
-
-[[cards]]
 kanji = '教える'
 kana = 'おしえる'
 english = 'to teach ~; to instruct ~'
@@ -450,17 +430,6 @@ english = 'to die'
 english-conjugated = { plural = 'dies', past = 'died', continuous = 'dying', base = 'die' }
 verb-type = 'godan-nu'
 transitive = false
-source = 'n5-study'
-level = 'n5'
-tags = ['common']
-
-[[cards]]
-kanji = '知る'
-kana = 'しる'
-english = 'to know ~; to be aware of ~'
-english-conjugated = { plural = 'knows', base = 'know', past = 'knew', continuous = 'knowing' }
-verb-type = 'godan-ru'
-transitive = true
 source = 'n5-study'
 level = 'n5'
 tags = ['common']
@@ -650,16 +619,6 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
-kanji = '泣く'
-kana = 'なく'
-english = 'to cry'
-english-conjugated = { base = 'cry', past = 'cried', plural = 'cries', continous = 'crying' }
-level = 'n4'
-verb-type = 'godan-ku'
-transitive = false
-tags = ['common']
-
-[[cards]]
 kanji = '無くす'
 kana = 'なくす'
 english = 'to lose ~ (something)'
@@ -841,27 +800,6 @@ english-conjugated = { base = 'do', past = 'did', plural = 'does', continous = '
 verb-type = 'godan-ru'
 transitive = true
 level = 'n1'
-tags = ['common']
-
-[[cards]]
-kanji = '喜ぶ'
-kana = 'よろこ'
-english = 'to be delighted'
-english-conjugated = { base = 'be delighted', past = 'been delighted', plural = 'are delighted', continous = 'being delighted' }
-verb-type = 'godan-bu'
-transitive = false
-level = 'n4'
-source = 'jlptstudy.net'
-tags = ['common']
-
-[[cards]]
-kanji = '分かる'
-kana = 'わかる'
-english = 'to understand'
-english-conjugated = { base = 'understand', past = 'understood', plural = 'understands', continous = 'understanding' }
-verb-type = 'godan-ru'
-transitive = false
-level = 'n5'
 tags = ['common']
 
 [[cards]]
