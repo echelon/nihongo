@@ -79,6 +79,14 @@ level = 'n2'
 tags = ['adverb', 'common', 'expressions']
 
 [[cards]]
+kanji = '恥ずかしい'
+kana = 'はずかしい'
+english = 'embarassed; humiliated; shy'
+source = 'anime'
+level = 'n4'
+tags = ['common', 'i-adjective']
+
+[[cards]]
 kanji = '発見'
 kana = 'はっけん'
 english = 'discovery; finding'

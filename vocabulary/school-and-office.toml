@@ -216,6 +216,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '留学'
+kana = 'りゅうがく'
+english = 'study abroad'
+level = 'n3'
+tags = ['common', 'noun', 'school', 'study', 'suru-verb']
+
+[[cards]]
 kanji = '留学生'
 kana = 'りゅうがくせい'
 english = 'foreign exchange student'

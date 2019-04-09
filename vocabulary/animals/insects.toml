@@ -37,6 +37,12 @@ english = 'bee; wasp; hornet'
 tags = ['animals', 'common', 'insects', 'noun']
 
 [[cards]]
+kanji = '蛍'
+kana = 'ほたる'
+english = 'firefly'
+tags = ['common', 'insect', 'noun']
+
+[[cards]]
 kanji = '蚯蚓'
 kana = 'みみず'
 english = 'earthworm'

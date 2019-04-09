@@ -14,6 +14,13 @@ level = 'n4'
 tags = ['common', 'places', 'travel']
 
 [[cards]]
+kanji = '日本'
+kana = 'にほん'
+english = 'Japan'
+level = 'n3'
+tags = ['common', 'noun', 'places']
+
+[[cards]]
 kanji = '港'
 kana = 'みなと'
 english = 'harbor; port'
