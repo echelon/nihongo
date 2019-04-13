@@ -125,6 +125,14 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '大気'
+kana = 'たいき'
+english = 'atmosphere'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '台風'
 kana = 'たいふう'
 english = 'typhoon; hurricane'

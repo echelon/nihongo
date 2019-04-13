@@ -479,6 +479,13 @@ level = 'n4'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '小文字'
+kana = 'こもじ'
+english = 'lowercase letter'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '怖い'
 kana = 'こわい'
 english = 'scary; frightening'
@@ -633,6 +640,14 @@ english = 'female gender'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'people']
+
+[[cards]]
+kanji = '自立'
+kana = 'じりつ'
+english = 'independence; self-reliance'
+source = 'bonobono + wanikani'
+level = 'n1'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '人工'
@@ -945,6 +960,14 @@ english = 'cherry blossom viewing'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '早口'
+kana = 'はやくち'
+english = 'fast talking'
+source = 'wanikani'
+level = 'n2'
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '半額'

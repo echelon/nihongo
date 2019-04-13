@@ -91,6 +91,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '皮'
+kana = 'かわ'
+english = 'skin; hide'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '渇き'
 kana = 'かわき'
 english = 'thirst'

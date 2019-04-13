@@ -37,6 +37,14 @@ level = 'n3'
 tags = ['common']
 
 [[cards]]
+kanji = '方言'
+kana = 'ほうげん'
+english = 'dialect'
+source = 'living-in-japan; wanikani'
+level = 'n2'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '名詞'
 kana = 'めいし'
 english = 'noun'

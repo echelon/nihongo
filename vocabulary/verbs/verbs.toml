@@ -289,6 +289,17 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '行う'
+kana = 'おこなう'
+english = 'to perform ~; to carry out ~'
+english-conjugated = { base = 'perform', past = 'performed', plural = 'performs', continuous = 'performing' }
+verb-type = 'godan-u'
+transitive = true
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'unusual-reading']
+
+[[cards]]
 kanji = '教える'
 kana = 'おしえる'
 english = 'to teach ~; to instruct ~'
@@ -669,6 +680,17 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '生える'
+kana = 'はえる'
+english = 'to grow'
+english-conjugated = { base = 'grow', past = 'grew', plural = 'grows', continuous = 'growing' }
+verb-type = 'ichidan'
+transitive = false
+source = 'wanikani'
+level = 'n2'
+tags = ['common']
+
+[[cards]]
 kanji = '始まる'
 kana = 'はじまる'
 english = 'to begin'
@@ -749,6 +771,16 @@ transitive = true
 level = 'n5'
 note = 'both transitive and intransitive'
 tags = ['common', 'intransitive', 'transitive']
+
+[[cards]]
+kanji = '学ぶ'
+kana = 'まなぶ'
+english = 'to study; to learn'
+english-conjugated = { base = 'study', past = 'studied', plural = 'studies', continuous = 'studying' }
+verb-type = 'godan-bu'
+transitive = false
+level = 'n3'
+tags = ['common', 'unsure-if-transitive']
 
 [[cards]]
 kanji = '守る'
