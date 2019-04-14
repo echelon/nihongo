@@ -227,6 +227,14 @@ source = 'wanikani'
 tags = ['animal', 'biology', 'common', 'noun']
 
 [[cards]]
+kanji = '海外'
+kana = 'かいがい'
+english = 'foreign; overseas'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '会長'
 kana = 'かいちょう'
 english = 'chairman; president of a society'
@@ -366,12 +374,27 @@ source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '学年'
+kana = 'がくねん'
+english = 'school year'
+source = 'wanikani'
+level = 'n2'
+tags = ['common', 'noun', 'school']
+
+[[cards]]
 kanji = 'きちんと'
 kana = 'きちんと'
 english = 'neatly; accurately'
 level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common', 'suru-verb']
+
+[[cards]]
+kanji = '休学'
+kana = 'きゅうがく'
+english = 'temporary absence from school'
+level = 'n1'
+tags = ['common']
 
 [[cards]]
 kanji = '休止'
@@ -394,6 +417,20 @@ english = 'gold'
 source = 'irasshai'
 level = 'n5'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '近日'
+kana = 'きんじつ'
+english = 'in a few days; soon'
+source = 'wanikani'
+tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
+
+[[cards]]
+kanji = '近年'
+kana = 'きんねん'
+english = 'recent years'
+source = 'wanikani'
+tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
 
 [[cards]]
 kanji = '消しゴム'
@@ -425,6 +462,13 @@ level = 'n4'
 tags = ['common', 'noun', 'places', 'science']
 
 [[cards]]
+kanji = '月光'
+kana = 'げっこう'
+english = 'moonlight'
+source = 'wanikani'
+tags = ['common']
+
+[[cards]]
 kanji = '原因'
 kana = 'げんいん'
 english = 'cause; origin; source'
@@ -447,6 +491,14 @@ english = 'in this way; such; thus'
 level = 'n4'
 source = 'https://iknow.jp/courses/566921'
 tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '工学'
+kana = 'こうがく'
+english = 'engineering'
+source = 'wanikani'
+level = 'n1'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '鉱山'
@@ -486,6 +538,13 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '古来'
+kana = 'こらい'
+english = 'ancient; from time immemorial'
+source = 'wanikani'
+tags = ['adverb', 'common', 'no-adjective', 'noun', 'time']
+
+[[cards]]
 kanji = '怖い'
 kana = 'こわい'
 english = 'scary; frightening'
@@ -520,6 +579,14 @@ kana = 'さいご'
 english = 'end; conclusion; final'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '作用'
+kana = 'さよう'
+english = 'action'
+source = 'wanikani'
+level = 'n1'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '市'
@@ -926,6 +993,14 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '入社'
+kana = 'にゅうしゃ'
+english = 'joining a company'
+source = 'wanikani'
+level = 'n2'
+tags = ['noun', 'suru-verb', 'work']
+
+[[cards]]
 kanji = '値段'
 kana = 'ねだん'
 english = 'price'
@@ -1076,6 +1151,22 @@ level = 'n4'
 tags = ['common', 'noun', 'transportation']
 
 [[cards]]
+kanji = '不明'
+kana = 'ふめい'
+english = 'unclear'
+source = 'japanese chatroom; wanikani'
+level = 'n1'
+tags = ['common', 'na-adjective', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '文学'
+kana = 'ぶんがく'
+english = 'literature'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '返事'
 kana = 'へんじ'
 english = 'response; reply; answer'
@@ -1127,6 +1218,14 @@ english = 'seriousness; sanctity'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '本来'
+kana = 'ほんらい'
+english = 'originally'
+source = 'wanikani'
+level = 'n2'
+tags = ['adverbial-noun', 'common']
 
 [[cards]]
 kanji = '墓地'
@@ -1374,6 +1473,14 @@ english = 'plans; arrangement'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '世の中'
+kana = 'よのなか'
+english = 'society'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'expression', 'noun', 'people']
 
 [[cards]]
 kanji = '予約'
