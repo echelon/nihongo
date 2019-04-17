@@ -265,6 +265,22 @@ source = 'jisho.org'
 tags = ['common', 'noun', 'people']
 
 [[cards]]
+kanji = '理由'
+kana = 'りゆう'
+english = 'reason; motive'
+source = 'n4'
+level = 'n4study'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '両方'
+kana = 'りょうほう'
+english = 'both; both sides'
+source = 'n4study'
+level = 'n4'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '忘れ物'
 kana = 'わすれもの'
 english = 'lost item; something forgotten'

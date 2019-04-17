@@ -240,6 +240,17 @@ level = 'n2'
 tags = ['common']
 
 [[cards]]
+kanji = '動く'
+kana = 'うごく'
+english = 'to move'
+english-conjugated = { plural = 'moves', past = 'moved', base = 'move', continuous = 'moving' }
+verb-type = 'godan-ku'
+transitive = false
+source = 'howls moving castle'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '撃つ'
 kana = 'うつ'
 english = 'to shoot ~'
