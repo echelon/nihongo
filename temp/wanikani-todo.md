@@ -14,7 +14,6 @@ From Reviews
 - 中央 center
 - 平ら flat
 - 平日 weekdays
-- 打つ to hit
 - 一打 strike
 - 氷 ice
 - かき氷 shaved ice

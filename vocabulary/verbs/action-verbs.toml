@@ -1,0 +1,11 @@
+[[cards]]
+kanji = '打つ'
+kana = 'うつ'
+english = 'to hit ~; to strike ~'
+english-conjugated = { base = 'hit', plural = 'hits', continuous = 'hitting', past = 'had hit' }
+verb-type = 'godan-tsu'
+transitive = true
+source = 'wanikani'
+level = 'n4'
+tags = ['common']
+

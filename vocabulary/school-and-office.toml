@@ -34,6 +34,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '教科書'
+kana = 'きょうかしょ'
+english = 'textbook'
+source = 'irasshai'
+level = 'n3'
+tags = ['book', 'common', 'noun', 'reading', 'school']
+
+[[cards]]
 kanji = '教室'
 kana = 'きょうしつ'
 english = 'classroom'

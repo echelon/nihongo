@@ -281,8 +281,9 @@ tags = ['common', 'no-adjective', 'noun', 'space']
 [[cards]]
 kanji = '方'
 kana = 'かた'
-english = 'person; way'
+english = '(1.) direction; way; person (2.) side; type'
 level = 'n5'
+explain = 'https://thejapanesepage.com/tjpforum/viewtopic.php?t=15824'
 tags = ['common', 'noun']
 
 [[cards]]
@@ -313,6 +314,15 @@ english = 'victory; win'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '可也'
+kana = 'かなり'
+english = 'considerably; fairly; very'
+source = 'nihonshock.com'
+level = 'n3'
+explain = 'http://nihonshock.com/2009/11/stop-saying-totemo/'
+tags = ['adverb', 'common', 'degree', 'na-adective', 'no-adjective']
 
 [[cards]]
 kanji = '彼女'
@@ -372,6 +382,14 @@ english = 'complete; completion'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '外来'
+kana = 'がいらい'
+english = 'imported'
+source = 'wanikani'
+level = 'n1'
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '学年'
@@ -619,6 +637,14 @@ english = 'posture; stance'
 level = 'n2'
 source = 'wanikani'
 tags = ['body', 'common', 'noun']
+
+[[cards]]
+kanji = '失敗'
+kana = 'しっぱい'
+english = 'failure; mistake; blunder'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '品物'
@@ -1187,6 +1213,15 @@ kana = 'ほう'
 english = 'direction; way; method; side'
 level = 'n3'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '方向'
+kana = 'ほうこう'
+english = 'direction; bearing'
+source = 'wanikani'
+level = 'n3'
+explain = 'https://thejapanesepage.com/tjpforum/viewtopic.php?t=15824'
+tags = ['common', 'direction', 'noun']
 
 [[cards]]
 kanji = '宝石'
