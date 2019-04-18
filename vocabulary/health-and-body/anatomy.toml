@@ -1,0 +1,165 @@
+[[cards]]
+kanji = ' てくび 手首'
+kana = ' てくび 手首'
+english = 'wrist'
+source = 'wanikani/jisho'
+level = 'n2'
+tags = ['body', 'common', 'noun']
+
+[[cards]]
+kanji = '足'
+kana = 'あし'
+english = 'foot; leg'
+level = 'n5'
+tags = ['body', 'common']
+
+[[cards]]
+kanji = '足首'
+kana = 'あしくび'
+english = 'ankle'
+source = 'wanikani/jisho'
+tags = ['body', 'common', 'noun']
+
+[[cards]]
+kanji = '頭'
+kana = 'あたま'
+english = 'head'
+level = 'n5'
+tags = ['anatomy', 'body', 'common']
+
+[[cards]]
+kanji = '腕'
+kana = 'うで'
+english = 'arm'
+level = 'n4'
+tags = ['body', 'noun']
+
+[[cards]]
+kanji = 'お腹'
+kana = 'おなか'
+english = 'stomach'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '顔'
+kana = 'かお'
+english = 'face'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '踵'
+kana = 'かかと'
+english = 'heel'
+level = 'n1'
+tags = ['body', 'common']
+
+[[cards]]
+kanji = '体'
+kana = 'からだ'
+english = 'body'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '皮'
+kana = 'かわ'
+english = 'skin; hide'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '筋肉'
+kana = 'きんにく'
+english = 'muscle'
+level = 'n3'
+source = 'manga'
+tags = ['common']
+
+[[cards]]
+kanji = '口'
+kana = 'くち'
+english = 'mouth; opening'
+level = 'n5'
+tags = ['body', 'common', 'noun']
+
+[[cards]]
+kanji = '首'
+kana = 'くび'
+english = 'neck'
+level = 'n4'
+tags = ['body', 'common']
+
+[[cards]]
+kanji = '手'
+kana = 'て'
+english = 'hand; arm'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '涙'
+kana = 'なみだ'
+english = 'tear(s)'
+level = 'n3'
+tags = ['body', 'common']
+
+[[cards]]
+kanji = '鼻'
+kana = 'はな'
+english = 'nose'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '額'
+kana = 'ひたい'
+english = 'forehead'
+level = 'n3'
+source = 'wanikani'
+tags = ['body', 'common', 'noun']
+
+[[cards]]
+kanji = '骨'
+kana = 'ほね'
+english = 'bone'
+level = 'n3'
+tags = ['body', 'common']
+
+[[cards]]
+kanji = '眉毛'
+kana = 'まゆげ'
+english = 'eyebrow'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '耳'
+kana = 'みみ'
+english = 'ear'
+level = 'n5'
+tags = ['body', 'common', 'noun']
+
+[[cards]]
+kanji = '目'
+kana = 'め'
+english = 'eye; eyeball'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '目玉'
+kana = 'めだま'
+english = 'eyeball'
+source = 'wanikani'
+tags = ['body', 'common']
+
+[[cards]]
+kanji = '指'
+kana = 'ゆび'
+english = 'finger; toe'
+level = 'n4'
+tags = ['body', 'common']
+

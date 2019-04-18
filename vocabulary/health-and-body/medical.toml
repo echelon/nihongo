@@ -1,0 +1,29 @@
+[[cards]]
+kanji = '医者'
+kana = 'いしゃ'
+english = 'doctor'
+level = 'n5'
+tags = ['common', 'people']
+
+[[cards]]
+kanji = '看護師'
+kana = 'かんごし'
+english = 'nurse'
+level = 'n4'
+source = 'https://www.japanesepod101.com/japanese-word-lists/'
+tags = ['common', 'noun', 'people', 'profession']
+
+[[cards]]
+kanji = '薬'
+kana = 'くすり'
+english = 'medicine'
+level = 'n5'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '病院'
+kana = 'びょういん'
+english = 'hospital'
+level = 'n5'
+tags = []
+
