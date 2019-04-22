@@ -226,6 +226,9 @@ for filename in glob.glob('**/*.toml', recursive=True):
     #if n['kana'] in N4_VOCAB:
     #  N4_VOCAB.remove(n['kana'])
 
+    if 'kanji' not in n:
+      raise Exception("Key 'kanji' not in note: {}".format(n))
+
     if n['kanji'] in KANJI_ONLY_VOCAB:
       n['make_kanji_card'] = True
       n['make_hiragana_only_card'] = False

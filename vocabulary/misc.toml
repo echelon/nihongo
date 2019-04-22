@@ -949,7 +949,7 @@ level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'people']
 
 [[cards]]
-Kanji = '地下'
+kanji = '地下'
 kana = 'ちか'
 english = 'underground'
 source = 'wanikani'
@@ -1081,7 +1081,7 @@ source = 'irasshai'
 tags = ['common', 'noun']
 
 [[cards]]
-Kanji = '逃亡'
+kanji = '逃亡'
 kana = 'とうぼう'
 english = 'escape'
 level = 'n1'
