@@ -4,6 +4,10 @@ Vocab from Wanikani
 From Reviews
 ------------
 
+- 死亡 death  
+- 無くなる to be lost (n4)
+- 逃亡 escape
+
 - 平気 calm
 - 代わる to replace
 - 一代 lifetime

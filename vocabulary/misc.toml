@@ -159,6 +159,13 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = 'うんち'
+kana = 'うんち'
+english = "poop (children's language)"
+source = 'wanikani'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '運転'
 kana = 'うんてん'
 english = 'driving; operating a machine'
@@ -316,6 +323,14 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '活用'
+kana = 'かつよう'
+english = 'conjugation'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'grammar', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '可也'
 kana = 'かなり'
 english = 'considerably; fairly; very'
@@ -400,6 +415,14 @@ level = 'n2'
 tags = ['common', 'noun', 'school']
 
 [[cards]]
+kanji = '記事'
+kana = 'きじ'
+english = 'article; news story'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'media', 'noun']
+
+[[cards]]
 kanji = 'きちんと'
 kana = 'きちんと'
 english = 'neatly; accurately'
@@ -442,6 +465,13 @@ kana = 'きんじつ'
 english = 'in a few days; soon'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
+
+[[cards]]
+kanji = '金星'
+kana = 'きんせい'
+english = 'Venus (planet)'
+source = 'wanikani'
+tags = ['common', 'noun', 'planet', 'space']
 
 [[cards]]
 kanji = '近年'
@@ -639,6 +669,14 @@ source = 'wanikani'
 tags = ['body', 'common', 'noun']
 
 [[cards]]
+kanji = '死体'
+kana = 'したい'
+english = 'dead body'
+source = 'wanikani'
+level = 'n2'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '失敗'
 kana = 'しっぱい'
 english = 'failure; mistake; blunder'
@@ -655,11 +693,35 @@ source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '姉妹'
+kana = 'しまい'
+english = 'sisters'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'family', 'noun', 'people']
+
+[[cards]]
 kanji = '主人'
 kana = 'しゅじん'
 english = 'head of (a) household'
 source = 'wanikani'
 tags = ['common', 'noun', 'people']
+
+[[cards]]
+kanji = '出血'
+kana = 'しゅっけつ'
+english = 'bleeding'
+source = 'wanikani'
+level = 'n1'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '正直'
+kana = 'しょうじき'
+english = 'honest'
+source = 'wanikani'
+level = 'n3'
+tags = ['common']
 
 [[cards]]
 kanji = '招待'
@@ -675,6 +737,14 @@ kana = 'しょうねん'
 english = 'young boy; juvenile'
 level = 'n4'
 tags = ['common', 'noun', 'people']
+
+[[cards]]
+kanji = '私立'
+kana = 'しりつ'
+english = 'private (establishment)'
+source = 'wanikani'
+level = 'n2'
+tags = ['business', 'common', 'noun', 'place']
 
 [[cards]]
 kanji = '信仰'
@@ -704,6 +774,13 @@ english = 'character (ie kanji)'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'japanese', 'language', 'noun', 'writing']
+
+[[cards]]
+kanji = '次回'
+kana = 'じかい'
+english = 'next time'
+source = 'wanikani'
+tags = ['adverbial-noun', 'common', 'temporal-noun']
 
 [[cards]]
 kanji = '実際'
@@ -759,10 +836,25 @@ source = 'office'
 tags = ['common']
 
 [[cards]]
+kanji = '水星'
+kana = 'すいせい'
+english = 'Mercury (planet)'
+source = 'wanikani'
+tags = ['noun', 'planet', 'space', 'uncommon']
+
+[[cards]]
 kanji = '水中'
 kana = 'すいちゅう'
 english = 'underwater'
 source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '全国'
+kana = 'ぜんこく'
+english = 'nationwide'
+source = 'wanikani'
+level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
@@ -857,6 +949,14 @@ level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'people']
 
 [[cards]]
+Kanji = '地下'
+kana = 'ちか'
+english = 'underground'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '力'
 kana = 'ちから'
 english = 'strength; energy; power; force; might'
@@ -909,6 +1009,12 @@ source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '就いて'
+kana = 'ついて'
+english = 'about; concerning; regarding'
+tags = ['common', 'expression']
+
+[[cards]]
 kanji = '月'
 kana = 'つき'
 english = 'moon'
@@ -953,6 +1059,14 @@ level = 'n4'
 tags = ['clothing', 'common', 'noun']
 
 [[cards]]
+kanji = '点'
+kana = 'てん'
+english = 'point; dot; spot; mark'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '天才'
 kana = 'てんさい'
 english = 'genius; prodigy'
@@ -965,6 +1079,13 @@ kana = 'でんわばんごう'
 english = 'phone number'
 source = 'irasshai'
 tags = ['common', 'noun']
+
+[[cards]]
+Kanji = '逃亡'
+kana = 'とうぼう'
+english = 'escape'
+level = 'n1'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '通り'
@@ -983,6 +1104,14 @@ source = 'jlptstudy.net'
 tags = ['adverb', 'common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '土地'
+kana = 'とち'
+english = 'plot of land; lot'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '扉'
 kana = 'とびら'
 english = 'gate'
@@ -996,6 +1125,13 @@ kana = 'どうろ'
 english = 'highway'
 level = 'n3'
 tags = ['common', 'noun', 'places']
+
+[[cards]]
+kanji = '土星'
+kana = 'どせい'
+english = 'Saturn (planet)'
+source = 'wanikani'
+tags = ['common', 'noun', 'planet', 'space']
 
 [[cards]]
 kanji = '何か'
@@ -1025,6 +1161,13 @@ english = 'joining a company'
 source = 'wanikani'
 level = 'n2'
 tags = ['noun', 'suru-verb', 'work']
+
+[[cards]]
+kanji = '人形'
+kana = 'にんぎょう'
+english = 'doll'
+level = 'n4'
+tags = ['common', 'noun', 'toy']
 
 [[cards]]
 kanji = '値段'
@@ -1146,6 +1289,14 @@ level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time', 'work']
 
 [[cards]]
+kanji = '不安'
+kana = 'ふあん'
+english = 'anxiety'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'emotion', 'feeling', 'na-adjective', 'noun']
+
+[[cards]]
 kanji = '不正'
 kana = 'ふせい'
 english = 'injustice'
@@ -1183,6 +1334,22 @@ english = 'unclear'
 source = 'japanese chatroom; wanikani'
 level = 'n1'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '物価'
+kana = 'ぶっか'
+english = 'cost of living'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '文化'
+kana = 'ぶんか'
+english = 'culture'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun', 'society']
 
 [[cards]]
 kanji = '文学'
@@ -1374,6 +1541,14 @@ source = 'wanikani'
 tags = ['common', 'expression', 'i-adjective']
 
 [[cards]]
+kanji = '目次'
+kana = 'もくじ'
+english = 'table of contents'
+source = 'wanikani'
+level = 'n2'
+tags = ['books', 'common', 'index', 'noun', 'reading']
+
+[[cards]]
 kanji = '若し'
 kana = 'もし'
 english = 'if; supposing'
@@ -1532,6 +1707,21 @@ english = 'violence; assault; reckless'
 source = 'bonobono-anime'
 level = 'n2'
 tags = ['common', 'na-adjective', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '両日'
+kana = 'りょうじつ'
+english = 'both days'
+source = 'wanikani'
+tags = ['common', 'temporal-noun', 'time']
+
+[[cards]]
+kanji = '両方'
+kana = 'りょうほう'
+english = 'both'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '冷凍'

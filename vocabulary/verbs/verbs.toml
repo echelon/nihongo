@@ -641,6 +641,27 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '直す'
+kana = 'なおす'
+english = 'to fix ~'
+english-conjugated = { base = 'fix', past = 'fixed', plural = 'fixes', continuous = 'fixining' }
+verb-type = 'godan-su'
+transitive = true
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '直る'
+kana = 'なおる'
+english = 'to be fixed'
+english-conjugated = { base = 'be fixed', past = 'been fixed', plural = 'be fixed', continuous = 'being fixed' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'wanikani'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '無くす'
 kana = 'なくす'
 english = 'to lose ~ (something)'
