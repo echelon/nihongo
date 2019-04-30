@@ -481,6 +481,14 @@ source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
 
 [[cards]]
+kanji = '計画'
+kana = 'けいかく'
+english = 'project; plan'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '消しゴム'
 kana = 'けしゴム'
 english = 'eraser'
@@ -1174,6 +1182,13 @@ kanji = '値段'
 kana = 'ねだん'
 english = 'price'
 level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '年次'
+kana = 'ねんじ'
+english = 'annual; yearly'
+source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
