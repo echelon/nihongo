@@ -276,7 +276,7 @@ kanji = '言葉'
 kana = 'ことば'
 english = 'word; language'
 level = 'n5'
-tags = []
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '～語'

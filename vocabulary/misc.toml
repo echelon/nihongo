@@ -791,6 +791,14 @@ source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 
 [[cards]]
+kanji = '事件'
+kana = 'じけん'
+english = 'event; incident; case; plot'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '実際'
 kana = 'じっさい'
 english = 'practical; practicality'
@@ -1236,12 +1244,27 @@ source = 'nihongo-charenji-n4-kotoba'
 tags = ['common']
 
 [[cards]]
+kanji = '犯罪者'
+kana = 'はんざいしゃ'
+english = 'criminal (already been sentence)'
+source = 'curtis'
+tags = ['common']
+
+[[cards]]
 kanji = '反対'
 kana = 'はんたい'
 english = 'opposite; inverse'
 level = 'n4'
 source = 'living-in-japan'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '犯人'
+kana = 'はんにん'
+english = 'criminal'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun', 'people']
 
 [[cards]]
 kanji = '爆破'
@@ -1274,12 +1297,28 @@ english = 'emergency exit'
 tags = ['building', 'common', 'noun']
 
 [[cards]]
+kanji = '必死'
+kana = 'ひっし'
+english = 'frantic'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'na-adjective', 'no-adjective']
+
+[[cards]]
 kanji = '酷い'
 kana = 'ひどい'
 english = 'cruel; heartless; violent'
 level = 'n4'
 source = 'anime'
 tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '皮肉'
+kana = 'ひにく'
+english = 'irony'
+source = 'wanikani'
+level = 'n2'
+tags = ['common', 'na-adjective', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '秘密'
@@ -1722,6 +1761,14 @@ english = 'violence; assault; reckless'
 source = 'bonobono-anime'
 level = 'n2'
 tags = ['common', 'na-adjective', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '理由'
+kana = 'りゆう'
+english = 'reason; pretext; motive'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '両日'

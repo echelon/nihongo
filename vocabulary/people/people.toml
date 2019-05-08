@@ -322,6 +322,13 @@ level = 'n2'
 tags = ['common', 'government']
 
 [[cards]]
+kanji = '奴ら'
+kana = 'やつら'
+english = 'they; those guys'
+source = 'wanikani'
+tags = ['common', 'people', 'pronoun']
+
+[[cards]]
 kanji = '友人'
 kana = 'ゆうじん'
 english = 'friend (written form)'

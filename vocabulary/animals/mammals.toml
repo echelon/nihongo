@@ -64,6 +64,12 @@ level = 'n3'
 tags = ['common', 'mammal', 'noun']
 
 [[cards]]
+kanji = '鹿'
+kana = 'しか'
+english = 'deer'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '獅子'
 kana = 'しし'
 english = 'lion'

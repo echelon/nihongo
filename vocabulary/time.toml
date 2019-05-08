@@ -140,6 +140,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '月末'
+kana = 'げつまつ'
+english = 'end of the month'
+source = 'wanikani'
+level = 'n2'
+tags = ['adverbial-noun', 'common', 'temporal-noun']
+
+[[cards]]
 kanji = '月曜日'
 kana = 'げつようび'
 english = 'Monday'
@@ -408,6 +416,13 @@ source = 'wanikani'
 tags = ['common', 'noun', 'time']
 
 [[cards]]
+kanji = '年末'
+kana = 'ねんまつ'
+english = 'end of the year'
+source = 'wanikani'
+tags = ['adverbial-noun', 'common', 'temporal-noun']
+
+[[cards]]
 kanji = '二十日'
 kana = 'はつか'
 english = '20th day of the month; 20 days'
@@ -518,6 +533,13 @@ kana = 'みっか'
 english = 'third day of the month; three days'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '未来'
+kana = 'みらい'
+english = 'the future (usually distant)'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '六日'

@@ -49,6 +49,22 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '高校'
+kana = 'こうこう'
+english = 'high school'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'grade', 'noun', 'place', 'school']
+
+[[cards]]
+kanji = '高校生'
+kana = 'こうこうせい'
+english = 'high school student'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'noun', 'people', 'school']
+
+[[cards]]
 kanji = '作文'
 kana = 'さくぶん'
 english = 'essay writing; composition'
@@ -124,6 +140,29 @@ kana = 'だいがく'
 english = 'university'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '中学'
+kana = 'ちゅうがく'
+english = 'middle school'
+source = 'irasshai'
+level = 'n3'
+tags = ['common', 'noun', 'school']
+
+[[cards]]
+kanji = '中学生'
+kana = 'ちゅうがくせい'
+english = 'middle school student'
+source = 'irasshai'
+tags = ['common', 'noun', 'people', 'school']
+
+[[cards]]
+kanji = '中学校'
+kana = 'ちゅうがっこう'
+english = 'middle school'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'grade', 'noun', 'place', 'school']
 
 [[cards]]
 kanji = '机'

@@ -187,14 +187,6 @@ level = 'n4'
 tags = ['common', 'noun', 'office', 'place']
 
 [[cards]]
-kanji = '必ず'
-kana = 'かならず'
-english = 'always; certainly; invariably; without exception'
-source = 'bonobono-anime'
-level = 'n4'
-tags = ['adverb', 'common']
-
-[[cards]]
 kanji = '関係'
 kana = 'かんけい'
 english = 'relationship; connection'
