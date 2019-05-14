@@ -100,6 +100,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '心理学'
+kana = 'しんりがく'
+english = 'psychology'
+source = 'wanikani'
+tags = ['common', 'noun', 'school', 'subject']
+
+[[cards]]
 kanji = '辞書'
 kana = 'じしょ'
 english = 'dictionary'
@@ -163,6 +170,14 @@ english = 'middle school'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'grade', 'noun', 'place', 'school']
+
+[[cards]]
+kanji = '地理'
+kana = 'ちり'
+english = 'geography'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun', 'school', 'subject']
 
 [[cards]]
 kanji = '机'

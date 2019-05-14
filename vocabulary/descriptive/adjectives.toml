@@ -70,13 +70,6 @@ level = 'n5'
 tags = ['i-adjective']
 
 [[cards]]
-kanji = '嬉しい'
-kana = 'うれしい'
-english = 'happy; glad'
-level = 'n3'
-tags = ['common', 'i-adjective']
-
-[[cards]]
 kanji = '美味しい'
 kana = 'おいしい'
 english = 'delicious'

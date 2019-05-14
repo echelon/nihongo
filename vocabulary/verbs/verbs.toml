@@ -581,8 +581,8 @@ tags = ['common']
 [[cards]]
 kanji = '通る'
 kana = 'とおる'
-english = 'to go past; to go by'
-english-conjugated = { base = 'go past', past = 'went past', plural = 'goes past', continous = 'going past' }
+english = 'to pass'
+english-conjugated = { base = 'pass', past = 'passed', plural = 'passes', continous = 'going past' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n4'

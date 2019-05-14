@@ -240,6 +240,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '週末'
+kana = 'しゅうまつ'
+english = 'weekend'
+source = 'irasshai'
+tags = ['common', 'week']
+
+[[cards]]
 kanji = '醤油'
 kana = 'しょうゆ'
 english = 'soy sauce'
@@ -357,6 +364,14 @@ kana = 'とし'
 english = 'year'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '同時'
+kana = 'どうじ'
+english = 'same time; concurrent'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '土曜日'

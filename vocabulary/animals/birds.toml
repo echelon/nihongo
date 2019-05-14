@@ -11,3 +11,11 @@ english = 'bird'
 level = 'n5'
 tags = []
 
+[[cards]]
+kanji = '白鳥'
+kana = 'はくちょう'
+english = 'swan'
+source = 'wanikani'
+level = 'n4'
+tags = ['animal', 'common', 'voice']
+
