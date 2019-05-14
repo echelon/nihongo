@@ -10,6 +10,17 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '信じる'
+kana = 'しんじる'
+english = 'to believe in ~'
+english-conjugated = { base = 'believe in', past = 'believed in', plural = 'believes in', continuous = 'believing in' }
+verb-type = 'ichidan'
+transitive = true
+source = 'wanikani; anime'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
 kanji = '分かる'
 kana = 'わかる'
 english = 'to understand'

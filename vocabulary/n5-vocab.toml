@@ -279,13 +279,6 @@ level = 'n5'
 tags = ['common', 'noun']
 
 [[cards]]
-kanji = '～語'
-kana = '～ご'
-english = 'language (suffix); counter for words'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'さあ'
 kana = 'さあ'
 english = 'come on...; well...; about that...'
@@ -382,13 +375,6 @@ kana = 'たくさん'
 english = 'a lot; many; much'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'noun']
-
-[[cards]]
-kanji = '～達'
-kana = '～たち'
-english = 'pluralizing suffix'
-level = 'n5'
-tags = []
 
 [[cards]]
 kanji = '縦'

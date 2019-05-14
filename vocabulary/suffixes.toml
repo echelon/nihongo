@@ -1,0 +1,30 @@
+[[cards]]
+kanji = '～頃'
+kana = '～ころ'
+english = 'around time ~; (approximate) time ~'
+source = 'wanikani'
+level = 'n3'
+tags = ['adverbial-noun', 'common', 'noun', 'noun-suffix']
+
+[[cards]]
+kanji = '～語'
+kana = '～ご'
+english = 'language (suffix); counter for words'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '市'
+kana = 'し'
+english = 'city'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun', 'suffix']
+
+[[cards]]
+kanji = '～達'
+kana = '～たち'
+english = 'pluralizing suffix'
+level = 'n5'
+tags = []
+

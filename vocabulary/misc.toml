@@ -645,14 +645,6 @@ level = 'n1'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
-kanji = '市'
-kana = 'し'
-english = 'city'
-level = 'n4'
-source = 'wanikani'
-tags = ['common', 'noun', 'suffix']
-
-[[cards]]
 kanji = '幸せ'
 kana = 'しあわせ'
 english = 'happiness; good fortune; luck'

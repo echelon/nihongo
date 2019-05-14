@@ -13,6 +13,14 @@ explain = 'http://nihonshock.com/2009/11/stop-saying-totemo/'
 tags = ['adverb', 'uncommon']
 
 [[cards]]
+kanji = '随分'
+kana = 'ずいぶん'
+english = 'extremely; surprisingly'
+source = 'wanikani; anime'
+level = 'n3'
+tags = ['adverb', 'adverb-taking-to-particle', 'common']
+
+[[cards]]
 kanji = '大変'
 kana = 'たいへん'
 english = 'very; terrible'
