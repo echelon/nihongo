@@ -13,6 +13,14 @@ level = 'n5'
 tags = ['common', 'expressions']
 
 [[cards]]
+kanji = '一体'
+kana = 'いったい'
+english = '(what) the heck; wtf'
+source = 'wanikani'
+level = 'n3'
+tags = ['adverb', 'common', 'noun']
+
+[[cards]]
 kanji = 'かどうか'
 kana = 'かどうか'
 english = "whether or not (eg. I do't know whether or not I can come.)"

@@ -266,6 +266,14 @@ source = 'wanikani'
 tags = ['common', 'no-adjective']
 
 [[cards]]
+kanji = '馬鹿'
+kana = 'ばか'
+english = 'idiot'
+source = 'i have always known this'
+level = 'n3'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
 kanji = '人'
 kana = 'ひと'
 english = 'man; person'

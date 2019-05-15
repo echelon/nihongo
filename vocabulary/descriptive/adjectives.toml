@@ -317,6 +317,14 @@ level = 'n5'
 tags = ['common', 'i-adjective']
 
 [[cards]]
+kanji = '馬鹿らしい'
+kana = 'ばからしい'
+english = 'absurd'
+source = 'jisho'
+level = 'n2'
+tags = ['common', 'i-adjective']
+
+[[cards]]
 kanji = '低い'
 kana = 'ひくい'
 english = 'short (height); low (rank, value)'

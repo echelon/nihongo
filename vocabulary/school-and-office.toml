@@ -100,6 +100,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '小学生'
+kana = 'しょうがくせい'
+english = 'elementary school student'
+source = 'irasshai'
+level = 'n2'
+tags = ['common', 'noun', 'people', 'student']
+
+[[cards]]
 kanji = '心理学'
 kana = 'しんりがく'
 english = 'psychology'
@@ -149,12 +157,27 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '大学生'
+kana = 'だいがくせい'
+english = 'university student'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'noun', 'people', 'student']
+
+[[cards]]
 kanji = '中学'
 kana = 'ちゅうがく'
 english = 'middle school'
 source = 'irasshai'
 level = 'n3'
 tags = ['common', 'noun', 'school']
+
+[[cards]]
+kanji = '中学生'
+kana = 'ちゅうがくせい'
+english = 'middle school student'
+source = 'irasshai'
+tags = ['common', 'noun', 'people', 'student']
 
 [[cards]]
 kanji = '中学生'

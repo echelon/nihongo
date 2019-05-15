@@ -234,6 +234,13 @@ source = 'wanikani'
 tags = ['adverb', 'common']
 
 [[cards]]
+kanji = 'お湯'
+kana = 'おゆ'
+english = 'hot water'
+level = 'n4'
+tags = ['common', 'drink', 'noun']
+
+[[cards]]
 kanji = '貝'
 kana = 'かい'
 english = 'shellfish; shell; seashell'
@@ -776,6 +783,21 @@ source = 'anime'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '心理'
+kana = 'しんり'
+english = 'state of mind'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '心理学'
+kana = 'しんりがく'
+english = 'psychology'
+source = 'jisho'
+tags = ['common', 'degree', 'noun', 'profession', 'subject']
+
+[[cards]]
 kanji = '字'
 kana = 'じ'
 english = 'character (ie kanji)'
@@ -797,6 +819,14 @@ english = 'event; incident; case; plot'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '時代'
+kana = 'じだい'
+english = 'period; epoch'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun', 'temporal-noun']
 
 [[cards]]
 kanji = '実際'
@@ -1033,6 +1063,14 @@ source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '〜丁目'
+kana = 'ちょうめ'
+english = 'district of a town'
+source = 'living in japan'
+level = 'n1'
+tags = ['common', 'noun', 'places']
+
+[[cards]]
 kanji = '就いて'
 kana = 'ついて'
 english = 'about; concerning; regarding'
@@ -1074,6 +1112,13 @@ english = 'rainy season (June - July)'
 source = 'anime'
 level = 'n3'
 tags = ['anime', 'common', 'noun', 'temporal']
+
+[[cards]]
+kanji = '手作り'
+kana = 'てづくり'
+english = 'handmade'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '手袋'
@@ -1500,6 +1545,13 @@ source = 'wanikani'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '本当に'
+kana = 'ほんとうに'
+english = 'really'
+source = 'irasshai'
+tags = ['adverb', 'common']
+
+[[cards]]
 kanji = '本来'
 kana = 'ほんらい'
 english = 'originally'
@@ -1631,6 +1683,14 @@ kanji = '若し'
 kana = 'もし'
 english = 'if; supposing'
 level = 'n4'
+tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '最も'
+kana = 'もっとも'
+english = 'most'
+source = 'wanikani'
+level = 'n3'
 tags = ['adverb', 'common']
 
 [[cards]]
