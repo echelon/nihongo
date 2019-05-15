@@ -1,7 +1,15 @@
 [[cards]]
+kanji = '音読み'
+kana = 'おんよみ'
+english = 'Chinese-derived reading of Kanji'
+source = 'irasshai'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '訓読み'
 kana = 'くんよみ'
-english = 'native Japanese reading of Chinese character'
+source = 'irasshai'
+english = 'native Japanese reading of Kanji'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]

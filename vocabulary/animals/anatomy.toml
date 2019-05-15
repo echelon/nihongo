@@ -1,0 +1,16 @@
+[[cards]]
+kanji = '嘴'
+kana = 'くちばし'
+english = 'beak; bill'
+source = 'jisho'
+level = 'n1'
+tags = ['birds', 'common', 'noun']
+
+[[cards]]
+kanji = '翼'
+kana = 'つばさ'
+english = 'wing'
+source = 'manga'
+level = 'n3'
+tags = ['birds', 'common', 'noun']
+

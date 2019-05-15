@@ -409,6 +409,16 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '築く'
+kana = 'きずく'
+english = 'to build ~; to construct ~'
+english-conjugated = { base = 'build', plural = 'builds', past = 'built', continuous = 'building' }
+verb-type = 'godan-ku'
+transitive = true
+level = 'n1'
+tags = ['common']
+
+[[cards]]
 kanji = '擽る'
 kana = 'くすぐ'
 english = 'to tickle ~'

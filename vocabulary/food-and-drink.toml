@@ -118,6 +118,12 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '生姜'
+kana = 'しょうが'
+english = 'ginger'
+tags = ['common', 'food', 'noun']
+
+[[cards]]
 kanji = '食堂'
 kana = 'しょくどう'
 english = 'cafeteria; dining hall'

@@ -217,6 +217,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '手帳'
+kana = 'てちょう'
+english = 'notebook; memo pad'
+level = 'n2'
+tags = ['common', 'noun', 'school']
+
+[[cards]]
 kanji = '図書館'
 kana = 'としょかん'
 english = 'library'

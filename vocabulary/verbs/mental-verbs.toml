@@ -1,4 +1,15 @@
 [[cards]]
+kanji = '思う'
+kana = 'おもう'
+english = 'to think ~'
+english-conjugated = { base = 'think', plural = 'thinks', past = 'thought', continuous = 'thinking' }
+verb-type = 'godan-u'
+transitive = true
+source = 'irasshai'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '知る'
 kana = 'しる'
 english = 'to know ~; to be aware of ~'

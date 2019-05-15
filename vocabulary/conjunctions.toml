@@ -1,26 +1,4 @@
 [[cards]]
-kanji = '嗚呼'
-kana = 'ああ'
-english = 'Ah!; Oh!; yes.'
-level = 'n5'
-tags = ['common', 'expression']
-
-[[cards]]
-kanji = 'あのう'
-kana = 'あのう'
-english = 'um...; well...'
-level = 'n5'
-tags = ['common', 'expressions']
-
-[[cards]]
-kanji = '一体'
-kana = 'いったい'
-english = '(what) the heck; wtf'
-source = 'wanikani'
-level = 'n3'
-tags = ['adverb', 'common', 'noun']
-
-[[cards]]
 kanji = 'かどうか'
 kana = 'かどうか'
 english = "whether or not (eg. I do't know whether or not I can come.)"
@@ -33,13 +11,6 @@ kana = 'が'
 english = 'and, but (links two clauses)'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']
-
-[[cards]]
-kanji = '気をつける'
-kana = 'きをつける'
-english = 'to be careful; to take care'
-level = 'n2'
-tags = ['common', 'expression', 'ichidan-verb']
 
 [[cards]]
 kanji = 'けど'
@@ -81,35 +52,12 @@ level = 'n4'
 tags = ['common', 'conjunction']
 
 [[cards]]
-kanji = 'そう言えば'
-kana = 'そういえば'
-english = 'if you say so; now that you mention it'
-level = 'n2'
-explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
-tags = ['common', 'expression']
-
-[[cards]]
 kanji = '然うして'
 kana = 'そうして'
 english = 'and then (does not imply chronological order)'
 level = 'n5'
 explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
 tags = ['common', 'conjunction']
-
-[[cards]]
-kanji = '其れから'
-kana = 'それから'
-english = 'after that (chronological order)'
-level = 'n5'
-explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
-tags = ['common', 'expression']
-
-[[cards]]
-kanji = '其れでは'
-kana = 'それでは'
-english = 'well then...; in that case...'
-level = 'n5'
-tags = ['common', 'expression']
 
 [[cards]]
 kanji = '其れに'
@@ -147,11 +95,4 @@ english = 'anyhow; at best'
 level = 'n2'
 source = 'wanikani'
 tags = ['adverb', 'common']
-
-[[cards]]
-kanji = 'どれ位'
-kana = 'どれくらい / どれぐらい'
-english = 'how much; how long; how far'
-source = 'irasshai'
-tags = ['adverbial-noun', 'common', 'expression']
 
