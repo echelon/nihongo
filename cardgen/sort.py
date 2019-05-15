@@ -111,7 +111,29 @@ def write_toml(note_toml_data, filename):
   with open(filename, 'w') as f:
     f.write(toml_contents)
 
+def sort_kanji_only_config():
+  filename = 'config/kanji-only-vocab.txt'
+  kanji = set()
+  line_count = 0
+  with open(filename, 'r') as f:
+    for line in f:
+      kanji.add(line.strip())
+      line_count += 1
+
+  kanji = sorted(kanji)
+  unique_count = len(kanji)
+
+  with open(filename, 'w') as f:
+    for k in kanji:
+      f.write('{}\n'.format(k))
+
+  duplicate_characters = line_count - unique_count
+  print('==== Kanji-only config ==== ')
+  print('  Duplicate characters: {0}'.format(duplicate_characters))
+  print('  Total Kanji-only vocab: {0}'.format(unique_count))
+
 def main():
+  print('==== Notes files ==== ')
   total_notes = 0
   for filename in glob.glob('**/*.toml', recursive=True):
     if 'cardgen' in filename or 'temp/' in filename:
@@ -127,8 +149,11 @@ def main():
       print('Error processing file: {0}'.format(filename))
       print(e)
 
-  print('Skipped notes: {0}'.format(skipped_count))
-  print('Total notes: {0}'.format(total_notes))
+  print('==== Overall notes stats ====')
+  print('  Skipped notes: {0}'.format(skipped_count))
+  print('  Total notes: {0}'.format(total_notes))
+
+  sort_kanji_only_config()
 
 if __name__ == '__main__':
     main()
