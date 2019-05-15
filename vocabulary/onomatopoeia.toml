@@ -1,0 +1,36 @@
+[[cards]]
+kanji = 'きらきら'
+kana = 'きらきら'
+english = 'glittering; sparkling'
+source = 'wanikani'
+tags = ['adverb', 'adverb-taking-to', 'common', 'suru-verb']
+
+[[cards]]
+kanji = 'ふんわり'
+kana = 'ふんわり'
+english = 'gently; fluffily'
+source = 'food-package'
+tags = ['common', 'onomatopoeia']
+
+[[cards]]
+kanji = 'ニコニコ'
+kana = 'ニコニコ'
+english = 'smilingly; with a friendly grin'
+level = 'n2'
+tags = ['adverb', 'adverb-taking-to', 'common', 'suru-verb']
+
+[[cards]]
+kanji = 'ペコペコ'
+kana = 'ペコペコ'
+english = 'very hungry; starving'
+source = 'irasshai'
+level = 'n1'
+tags = ['adverb', 'adverb-taking-to', 'common', 'na-adjective', 'suru-verb']
+
+[[cards]]
+kanji = 'ペラペラ'
+kana = 'ペラペラ'
+english = 'fluently (speaking)'
+source = 'irasshai'
+tags = ['adverb', 'adverb-taking-to', 'common', 'na-adjective']
+

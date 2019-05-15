@@ -764,6 +764,16 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '光る'
+kana = 'ひかる'
+english = 'to shine'
+english-conjugated = { plural = 'shines', base = 'shine', continuous = 'shining', past = 'shined' }
+verb-type = 'godan-ru'
+transitive = false
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '引く'
 kana = 'ひく'
 english = 'to pull ~; to subtract ~'

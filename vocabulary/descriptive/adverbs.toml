@@ -114,13 +114,6 @@ level = 'n3'
 tags = ['adverb', 'common', 'suru-verb']
 
 [[cards]]
-kanji = 'ふんわり'
-kana = 'ふんわり'
-english = 'gently; fluffily'
-source = 'food-package'
-tags = ['common', 'onomatopoeia']
-
-[[cards]]
 kanji = '殆ど'
 kana = 'ほとんど'
 english = 'mostly; most (of); almost'

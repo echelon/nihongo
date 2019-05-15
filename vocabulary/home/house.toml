@@ -32,7 +32,7 @@ kanji = '玄関'
 kana = 'げんかん'
 english = 'entrance; front door; foyer'
 level = 'n5'
-tags = []
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '寝室'

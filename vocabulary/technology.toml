@@ -55,6 +55,14 @@ source = 'wanikani'
 tags = ['common']
 
 [[cards]]
+kanji = '電池'
+kana = 'でんち'
+english = 'battery'
+source = 'wanikani'
+level = 'n2'
+tags = ['common', 'electronics', 'noun']
+
+[[cards]]
 kanji = '電話'
 kana = 'でんわ'
 english = 'telephone; telephone call'

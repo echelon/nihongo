@@ -34,6 +34,14 @@ level = 'n5'
 tags = ['common', 'places']
 
 [[cards]]
+kanji = '以後'
+kana = 'いご'
+english = 'from now on; hereafter'
+source = 'wanikani'
+level = 'n2'
+tags = ['common', 'temporal-noun']
+
+[[cards]]
 kanji = '一日'
 kana = 'いちにち'
 english = 'one day (duration)'
@@ -224,6 +232,14 @@ kana = 'さき'
 english = 'the previous; the former; the future'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '再来週'
+kana = 'さらいしゅう'
+english = 'week after next'
+source = 'irasshai'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'temporal-noun']
 
 [[cards]]
 kanji = '再来年'

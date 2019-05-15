@@ -148,3 +148,10 @@ level = 'n2'
 source = 'wanikani'
 tags = ['adverb', 'common']
 
+[[cards]]
+kanji = 'どれ位'
+kana = 'どれくらい / どれぐらい'
+english = 'how much; how long; how far'
+source = 'irasshai'
+tags = ['adverbial-noun', 'common', 'expression']
+

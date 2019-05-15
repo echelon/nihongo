@@ -177,6 +177,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '住民'
+kana = 'じゅうみん'
+english = 'resident'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun', 'people']
+
+[[cards]]
 kanji = '女王'
 kana = 'じょおう'
 english = 'queen'
@@ -205,6 +213,13 @@ english = 'athelete; player (sports)'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'sports']
+
+[[cards]]
+kanji = '町民'
+kana = 'ちょうみん'
+english = 'townspeople'
+source = 'wanikani'
+tags = ['common', 'people', 'town']
 
 [[cards]]
 kanji = '天才'

@@ -31,19 +31,19 @@ kanji = '本棚'
 kana = 'ほんだな'
 english = 'bookcase'
 level = 'n5'
-tags = []
+tags = ['books', 'common', 'furniture', 'noun', 'reading']
 
 [[cards]]
 kanji = 'テーブル'
 kana = 'テーブル'
 english = 'table'
 level = 'n5'
-tags = []
+tags = ['common', 'gairaigo', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = 'ベッド'
 kana = 'ベッド'
 english = 'bed'
 level = 'n5'
-tags = []
+tags = ['bedroom', 'common', 'gairaigo', 'noun']
 

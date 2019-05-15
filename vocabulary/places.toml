@@ -14,6 +14,14 @@ level = 'n4'
 tags = ['common', 'places', 'travel']
 
 [[cards]]
+kanji = '世界'
+kana = 'せかい'
+english = 'the world'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '日本'
 kana = 'にほん'
 english = 'Japan'
