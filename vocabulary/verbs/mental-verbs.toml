@@ -1,4 +1,15 @@
 [[cards]]
+kanji = '選ぶ'
+kana = 'えらぶ'
+english = 'to choose ~; to select ~'
+english-conjugated = { base = 'choose', past = 'chose', plural = 'choses', continuous = 'choosing' }
+verb-type = 'godan-bu'
+transitive = true
+source = 'jlpt-test; irasshai'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '思い出す'
 kana = 'おもいだす'
 english = 'to remember ~; to recollect ~'
@@ -60,6 +71,17 @@ english = 'to understand'
 english-conjugated = { base = 'understand', past = 'understood', plural = 'understands', continous = 'understanding' }
 verb-type = 'godan-ru'
 transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '忘れる'
+kana = 'わすれる'
+english = 'to forget ~'
+english-conjugated = { base = 'forget', past = 'forgot', plural = 'forgets', continuous = 'forgetting' }
+verb-type = 'ichidan'
+transitive = true
+source = 'irasshai'
 level = 'n5'
 tags = ['common']
 

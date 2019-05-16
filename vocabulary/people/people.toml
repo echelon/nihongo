@@ -215,6 +215,14 @@ source = 'wanikani'
 tags = ['common', 'noun', 'sports']
 
 [[cards]]
+kanji = '大統領'
+kana = 'だいとうりょう'
+english = 'president (of a nation or company)'
+source = 'stay in japan'
+level = 'n3'
+tags = ['common', 'company', 'noun', 'people', 'politics', 'work']
+
+[[cards]]
 kanji = '町民'
 kana = 'ちょうみん'
 english = 'townspeople'

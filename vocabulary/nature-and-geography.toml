@@ -6,6 +6,13 @@ level = 'n5'
 tags = ['common', 'nature', 'noun', 'outdoors']
 
 [[cards]]
+kanji = '岩'
+kana = 'いわ'
+english = 'boulder; crag; cliff'
+level = 'n3'
+tags = ['common', 'nature', 'noun', 'outdoors']
+
+[[cards]]
 kanji = '海'
 kana = 'うみ'
 english = 'sea; ocean'

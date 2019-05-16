@@ -122,6 +122,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '辞典'
+kana = 'じてん'
+english = 'dictionary, lexicon'
+level = 'n4'
+tags = ['common', 'grammar', 'noun', 'school']
+
+[[cards]]
 kanji = '字引'
 kana = 'じびき'
 english = 'dictionary (older word)'

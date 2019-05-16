@@ -1375,6 +1375,13 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '非常'
+kana = 'ひじょう'
+english = 'emergency'
+level = 'n3'
+tags = ['common', 'na-adjective', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '非常口'
 kana = 'ひじょうぐち'
 english = 'emergency exit'
@@ -1952,6 +1959,12 @@ kana = 'ホッチキス'
 english = 'stapler'
 source = 'irasshai'
 tags = ['gairaigo', 'noun', 'uncommon']
+
+[[cards]]
+kanji = 'リサイクル'
+kana = 'リサイクル'
+english = 'recycling'
+tags = ['common', 'gairaigo', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = 'よろしい'

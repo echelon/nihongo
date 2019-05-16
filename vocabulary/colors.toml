@@ -96,6 +96,14 @@ level = 'n5'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '紫'
+kana = 'むらさき'
+english = 'purple'
+source = 'irasshai'
+level = 'n2'
+tags = ['colors', 'common', 'noun']
+
+[[cards]]
 kanji = 'ピンク'
 kana = 'ピンク'
 english = 'pink'

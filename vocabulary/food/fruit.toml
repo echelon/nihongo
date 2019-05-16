@@ -26,6 +26,14 @@ english = 'apple'
 tags = ['common', 'food', 'noun']
 
 [[cards]]
+kanji = 'オレンジ'
+kana = 'オレンジ'
+english = 'orange (fruit, color)'
+source = 'irasshai'
+level = 'n1'
+tags = ['colors', 'common', 'food', 'fruit', 'gairaigo', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = 'バナナ'
 kana = 'バナナ'
 english = 'banana'

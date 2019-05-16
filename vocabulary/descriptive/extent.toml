@@ -43,3 +43,9 @@ level = 'n4'
 explain = 'http://nihonshock.com/2009/11/stop-saying-totemo/'
 tags = ['adverb', 'common']
 
+[[cards]]
+kanji = '酷く'
+kana = 'ひどく'
+english = 'terribly; awfully; very much'
+tags = ['adverb', 'common']
+

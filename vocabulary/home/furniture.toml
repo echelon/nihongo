@@ -34,6 +34,13 @@ level = 'n5'
 tags = ['books', 'common', 'furniture', 'noun', 'reading']
 
 [[cards]]
+kanji = 'ソファ'
+kana = 'ソファ'
+english = 'sofa'
+level = 'n3'
+tags = ['common', 'furniture', 'gairaigo', 'noun']
+
+[[cards]]
 kanji = 'テーブル'
 kana = 'テーブル'
 english = 'table'
