@@ -18,12 +18,6 @@ english = 'crab'
 tags = ['common', 'noun']
 
 [[cards]]
-kanji = '亀'
-kana = 'かめ'
-english = 'turtle; tortoise'
-tags = ['common', 'noun']
-
-[[cards]]
 kanji = '狸'
 kana = 'たぬき'
 english = 'tanuki (raccoon dog)'
@@ -42,19 +36,6 @@ kana = '～ひき'
 english = 'counter for small animals'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = '蛇'
-kana = 'へび'
-english = 'snake'
-tags = ['animal', 'common', 'noun', 'reptile']
-
-[[cards]]
-kanji = '鰐'
-kana = 'わに'
-english = 'crocodile; alligator'
-source = 'wanikani'
-tags = ['animals', 'noun', 'uncommon']
 
 [[cards]]
 kanji = 'ペット'
