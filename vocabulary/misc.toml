@@ -218,6 +218,14 @@ level = 'n4'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '思い出'
+kana = 'おもで'
+english = 'memories; recollections'
+source = 'irasshai'
+level = 'n3'
+tags = ['common', 'mind', 'noun']
+
+[[cards]]
 kanji = '主に'
 kana = 'おもに'
 english = 'mainly'
@@ -369,14 +377,6 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
-kanji = '神'
-kana = 'かみ'
-english = 'god; deity; spirit'
-source = 'anime'
-level = 'n3'
-tags = ['anime', 'common', 'noun', 'noun-prefix', 'religion']
-
-[[cards]]
 kanji = '剃刀'
 kana = 'かみそり'
 english = 'razor'
@@ -412,6 +412,14 @@ english = 'complete; completion'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '完全'
+kana = 'かんぜん'
+english = 'perfect; complete'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'na-adjective', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '外来'
@@ -964,6 +972,13 @@ english = 'boredom; tedium'
 source = 'bonobono-anime'
 level = 'n3'
 tags = ['common', 'na-adjective', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '大作'
+kana = 'たいさく'
+english = 'large-scale work; masterpiece; opus'
+source = 'wanikani'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '宝'
@@ -1582,6 +1597,14 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '全く'
+kana = 'まったく'
+english = 'completely'
+source = 'wanikani'
+level = 'n3'
+tags = ['adverb', 'common', 'no-adjective']
+
+[[cards]]
 kanji = '祭'
 kana = 'まつり'
 english = 'festival'
@@ -1671,6 +1694,14 @@ source = 'wanikani'
 tags = ['common', 'noun', 'person']
 
 [[cards]]
+kanji = '目茶苦茶'
+kana = 'めちゃくちゃ'
+english = 'absurd; unreasonable'
+source = 'wanikani'
+level = 'n2'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
 kanji = '申し訳ない'
 kana = 'もうしわけない'
 english = "I'm sorry; it's inexcusable; I feel guilty"
@@ -1746,14 +1777,6 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
-kanji = '幽霊'
-kana = 'ゆうれい'
-english = 'specter; phantom'
-level = 'n1'
-source = 'wanikani'
-tags = ['common', 'noun']
-
-[[cards]]
 kanji = '床'
 kana = 'ゆか'
 english = 'floor'
@@ -1806,13 +1829,6 @@ english = 'preparation; provision; arrangement'
 level = 'n4'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun', 'suru-verb']
-
-[[cards]]
-kanji = '妖怪'
-kana = 'ようかい'
-english = 'ghost'
-source = 'games'
-tags = ['common', 'noun']
 
 [[cards]]
 kanji = '羊毛'

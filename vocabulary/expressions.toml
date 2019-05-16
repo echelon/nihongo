@@ -65,3 +65,11 @@ source = 'irasshai; anime'
 level = 'n4'
 tags = ['adverb', 'common', 'expression']
 
+[[cards]]
+kanji = 'もう一度'
+kana = 'もういちど'
+english = 'one more time; once again'
+source = 'irasshai'
+level = 'n5'
+tags = ['common', 'count', 'expression', 'numbers']
+

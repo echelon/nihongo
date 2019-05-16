@@ -201,6 +201,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '茄子'
+kana = 'なす'
+english = 'eggplant'
+source = 'wanikani'
+tags = ['common', 'food', 'noun', 'vegetable']
+
+[[cards]]
 kanji = '生'
 kana = 'なま'
 english = 'raw; uncooked; fresh'

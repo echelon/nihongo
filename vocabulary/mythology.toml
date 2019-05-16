@@ -1,0 +1,47 @@
+[[cards]]
+kanji = '悪魔'
+kana = 'あくま'
+english = 'devil; demon'
+source = 'anime; jisho'
+level = 'n3'
+tags = ['common', 'monster', 'mythical', 'noun']
+
+[[cards]]
+kanji = '鬼'
+kana = 'おに'
+english = 'demon; ogre'
+source = 'majoras mask'
+level = 'n3'
+tags = ['common', 'monster', 'mythical', 'noun']
+
+[[cards]]
+kanji = '怪獣'
+kana = 'かいじゅう'
+english = 'monster'
+source = 'films'
+level = 'n1'
+tags = ['common', 'monster', 'mythical', 'noun']
+
+[[cards]]
+kanji = '神'
+kana = 'かみ'
+english = 'god; deity; spirit'
+source = 'anime'
+level = 'n3'
+tags = ['anime', 'common', 'noun', 'noun-prefix', 'religion']
+
+[[cards]]
+kanji = '幽霊'
+kana = 'ゆうれい'
+english = 'specter; phantom'
+level = 'n1'
+source = 'wanikani'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '妖怪'
+kana = 'ようかい'
+english = 'ghost'
+source = 'games'
+tags = ['common', 'noun']
+

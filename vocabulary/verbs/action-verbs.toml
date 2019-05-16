@@ -9,3 +9,25 @@ source = 'wanikani'
 level = 'n4'
 tags = ['common']
 
+[[cards]]
+kanji = '近づく'
+kana = 'ちかづく'
+english = 'to get close to; to approach'
+english-conjugated = { base = 'get close', past = 'got close', plural = 'get close', continuous = 'getting close' }
+verb-type = 'godan-ku'
+transitive = false
+source = 'wanikani'
+level = 'n1'
+tags = ['common']
+
+[[cards]]
+kanji = '逃げる'
+kana = 'にげる'
+english = 'to escape; to run away'
+english-conjugated = { base = 'escape', past = 'escaped', plural = 'escapes', continuous = 'escaping' }
+verb-type = 'ichidan'
+transitive = false
+source = 'wanikani'
+level = 'n4'
+tags = ['common']
+

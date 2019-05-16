@@ -44,6 +44,12 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '蛇'
+kana = 'へび'
+english = 'snake'
+tags = ['animal', 'common', 'noun', 'reptile']
+
+[[cards]]
 kanji = '鰐'
 kana = 'わに'
 english = 'crocodile; alligator'

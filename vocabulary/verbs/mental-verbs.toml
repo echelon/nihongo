@@ -1,4 +1,15 @@
 [[cards]]
+kanji = '思い出す'
+kana = 'おもいだす'
+english = 'to remember ~; to recollect ~'
+english-conjugated = { base = 'remember', past = 'remembered', plural = 'remembers', continuous = 'remembering' }
+verb-type = 'godan-su'
+transitive = true
+source = 'irasshai; anime'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '思う'
 kana = 'おもう'
 english = 'to think ~'
@@ -29,6 +40,17 @@ verb-type = 'ichidan'
 transitive = true
 source = 'wanikani; anime'
 level = 'n3'
+tags = ['common']
+
+[[cards]]
+kanji = '見直す'
+kana = 'みなおす'
+english = 'to reevaluate ~; to look at ~ again'
+english-conjugated = { base = 'reevaluate', past = 'reevaluated', plural = 'reevaluates', continuous = 'reevaluating' }
+verb-type = 'godan-su'
+transitive = true
+source = 'wanikani'
+level = 'n2'
 tags = ['common']
 
 [[cards]]
