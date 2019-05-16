@@ -1,0 +1,33 @@
+[[cards]]
+kanji = '果物'
+kana = 'くだもの'
+english = 'fruit'
+level = 'n5'
+tags = ['common', 'food', 'fruit', 'noun']
+
+[[cards]]
+kanji = '西瓜'
+kana = 'すいか'
+english = 'watermellon'
+tags = ['common', 'food', 'noun']
+
+[[cards]]
+kanji = '葡萄'
+kana = 'ぶどう'
+english = 'grape'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'food', 'noun']
+
+[[cards]]
+kanji = '林檎'
+kana = 'りんご'
+english = 'apple'
+tags = ['common', 'food', 'noun']
+
+[[cards]]
+kanji = 'バナナ'
+kana = 'バナナ'
+english = 'banana'
+tags = ['common']
+

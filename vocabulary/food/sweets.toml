@@ -1,0 +1,21 @@
+[[cards]]
+kanji = '飴'
+kana = 'あめ'
+english = 'hard candy; toffee'
+level = 'n5'
+tags = ['common', 'food']
+
+[[cards]]
+kanji = 'お菓子'
+kana = 'おかし'
+english = 'candy; confections'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '砂糖'
+kana = 'さとう'
+english = 'sugar'
+level = 'n5'
+tags = []
+

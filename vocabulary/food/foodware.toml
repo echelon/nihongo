@@ -1,0 +1,56 @@
+[[cards]]
+kanji = 'お皿'
+kana = 'おさら'
+english = 'plate'
+level = 'n5'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = 'お弁当'
+kana = 'おべんとう'
+english = 'Japanese boxed lunch'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '皿'
+kana = 'さら'
+english = 'plate'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '茶碗'
+kana = 'ちゃわん'
+english = 'rice bowl; tea cup'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '箸'
+kana = 'はし'
+english = 'chopsticks'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'スプーン'
+kana = 'スプーン'
+english = 'spoon'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'ナイフ'
+kana = 'ナイフ'
+english = 'knife'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = 'フォーク'
+kana = 'フォーク'
+english = 'fork'
+level = 'n5'
+tags = []
+

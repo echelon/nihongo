@@ -6,37 +6,9 @@ level = 'n5'
 tags = ['common', 'food']
 
 [[cards]]
-kanji = '飴'
-kana = 'あめ'
-english = 'hard candy; toffee'
-level = 'n5'
-tags = ['common', 'food']
-
-[[cards]]
-kanji = 'お菓子'
-kana = 'おかし'
-english = 'candy; confections'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お皿'
-kana = 'おさら'
-english = 'plate'
-level = 'n5'
-tags = ['common', 'noun']
-
-[[cards]]
 kanji = 'お茶'
 kana = 'おちゃ'
 english = 'tea (usu. green)'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'お弁当'
-kana = 'おべんとう'
-english = 'Japanese boxed lunch'
 level = 'n5'
 tags = []
 
@@ -48,23 +20,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '牛肉'
-kana = 'ぎゅうにく'
-english = 'beef'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '牛乳'
 kana = 'ぎゅうにゅう'
 english = "(cow's) milk"
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '果物'
-kana = 'くだもの'
-english = 'fruit'
 level = 'n5'
 tags = []
 
@@ -88,27 +46,6 @@ kana = 'ごはん'
 english = 'cooked rice; meal'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = '魚'
-kana = 'さかな'
-english = 'fish'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '砂糖'
-kana = 'さとう'
-english = 'sugar'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '皿'
-kana = 'さら'
-english = 'plate'
-level = 'n3'
-tags = ['common', 'noun']
 
 [[cards]]
 kanji = '塩'
@@ -139,12 +76,6 @@ source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
 
 [[cards]]
-kanji = '西瓜'
-kana = 'すいか'
-english = 'watermellon'
-tags = ['common', 'food', 'noun']
-
-[[cards]]
 kanji = '蕎麦'
 kana = 'そば'
 english = 'buckwheat; buckwheat noodles'
@@ -159,30 +90,9 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '卵'
-kana = 'たまご'
-english = 'egg'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '玉ねぎ'
-kana = 'たまねぎ'
-english = 'onion'
-source = 'wanikani'
-tags = ['common', 'food']
-
-[[cards]]
 kanji = '台所'
 kana = 'だいどころ'
 english = 'kitchen'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '茶碗'
-kana = 'ちゃわん'
-english = 'rice bowl; tea cup'
 level = 'n5'
 tags = []
 
@@ -194,33 +104,12 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '鳥肉'
-kana = 'とりにく'
-english = 'chicken meat; bird meat'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '茄子'
-kana = 'なす'
-english = 'eggplant'
-source = 'wanikani'
-tags = ['common', 'food', 'noun', 'vegetable']
-
-[[cards]]
 kanji = '生'
 kana = 'なま'
 english = 'raw; uncooked; fresh'
 source = 'sekai-wa-fushigi-2'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun', 'prefix']
-
-[[cards]]
-kanji = '肉'
-kana = 'にく'
-english = 'meat'
-level = 'n5'
-tags = []
 
 [[cards]]
 kanji = '飲み物'
@@ -237,13 +126,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '箸'
-kana = 'はし'
-english = 'chopsticks'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '晩御飯'
 kana = 'ばんごはん'
 english = 'dinner'
@@ -256,21 +138,6 @@ kana = 'ひるはん'
 english = 'lunch'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = '豚肉'
-kana = 'ぶたにく'
-english = 'pork'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '葡萄'
-kana = 'ぶどう'
-english = 'grape'
-level = 'n4'
-source = 'wanikani'
-tags = ['common', 'food', 'noun']
 
 [[cards]]
 kanji = '不味い'
@@ -294,13 +161,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '野菜'
-kana = 'やさい'
-english = 'vegetable'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '夕飯'
 kana = 'ゆうはん'
 english = 'evening meal (5-7pmish)'
@@ -313,12 +173,6 @@ kana = 'りょうり'
 english = 'cooking; cuisine'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = '林檎'
-kana = 'りんご'
-english = 'apple'
-tags = ['common', 'food', 'noun']
 
 [[cards]]
 kanji = '冷蔵庫'
@@ -356,31 +210,11 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = 'スプーン'
-kana = 'スプーン'
-english = 'spoon'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = 'ナイフ'
-kana = 'ナイフ'
-english = 'knife'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = 'バター'
 kana = 'バター'
 english = 'butter'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = 'バナナ'
-kana = 'バナナ'
-english = 'banana'
-tags = ['common']
 
 [[cards]]
 kanji = 'パン'
@@ -395,13 +229,6 @@ kana = 'ビール'
 english = 'beer'
 level = 'n3'
 tags = ['common', 'drink', 'gairaigo', 'noun']
-
-[[cards]]
-kanji = 'フォーク'
-kana = 'フォーク'
-english = 'fork'
-level = 'n5'
-tags = []
 
 [[cards]]
 kanji = 'レストラン'

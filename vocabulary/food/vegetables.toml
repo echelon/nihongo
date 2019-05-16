@@ -1,0 +1,21 @@
+[[cards]]
+kanji = '玉ねぎ'
+kana = 'たまねぎ'
+english = 'onion'
+source = 'wanikani'
+tags = ['common', 'food', 'noun', 'vegetable']
+
+[[cards]]
+kanji = '茄子'
+kana = 'なす'
+english = 'eggplant'
+source = 'wanikani'
+tags = ['common', 'food', 'noun', 'vegetable']
+
+[[cards]]
+kanji = '野菜'
+kana = 'やさい'
+english = 'vegetable'
+level = 'n5'
+tags = ['common', 'food', 'no-adjective', 'noun', 'vegetable']
+
