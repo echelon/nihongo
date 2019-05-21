@@ -94,6 +94,17 @@ source = 'jlptstudy.net'
 tags = ['common']
 
 [[cards]]
+kanji = '当てる'
+kana = 'あてる'
+english = 'to hit ~; to guess ~'
+english-conjugated = { base = 'hit', past = 'had hit', continuous = 'hitting', plural = 'hits' }
+verb-type = 'ichidan'
+transitive = true
+source = 'wanikani'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
 kanji = '浴びる'
 kana = 'あびる'
 english = 'to bathe in ~ (eg. water, light); to take ~ (eg. shower)'
@@ -771,6 +782,17 @@ english-conjugated = { base = 'work', past = 'worked', plural = 'works', contino
 verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '化ける'
+kana = 'ばける'
+english = 'to transform'
+english-conjugated = { plural = 'transforms', base = 'transform', continuous = 'transforming', past = 'transformed' }
+verb-type = 'ichidan'
+transitive = false
+source = 'wanikani'
+level = 'n1'
 tags = ['common']
 
 [[cards]]

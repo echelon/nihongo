@@ -1,12 +1,4 @@
 [[cards]]
-kanji = ' てくび 手首'
-kana = ' てくび 手首'
-english = 'wrist'
-source = 'wanikani/jisho'
-level = 'n2'
-tags = ['body', 'common', 'noun']
-
-[[cards]]
 kanji = '足'
 kana = 'あし'
 english = 'foot; leg'
@@ -39,14 +31,14 @@ kanji = 'お腹'
 kana = 'おなか'
 english = 'stomach'
 level = 'n5'
-tags = []
+tags = ['body']
 
 [[cards]]
 kanji = '顔'
 kana = 'かお'
 english = 'face'
 level = 'n5'
-tags = []
+tags = ['body']
 
 [[cards]]
 kanji = '踵'
@@ -60,7 +52,7 @@ kanji = '体'
 kana = 'からだ'
 english = 'body'
 level = 'n5'
-tags = []
+tags = ['body']
 
 [[cards]]
 kanji = '皮'
@@ -97,7 +89,15 @@ kanji = '手'
 kana = 'て'
 english = 'hand; arm'
 level = 'n5'
-tags = []
+tags = ['body']
+
+[[cards]]
+kanji = '手首'
+kana = 'てくび'
+english = 'wrist'
+source = 'wanikani/jisho'
+level = 'n2'
+tags = ['body', 'common', 'noun']
 
 [[cards]]
 kanji = '涙'
@@ -112,6 +112,22 @@ kana = 'はな'
 english = 'nose'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '膝'
+kana = 'ひざ'
+english = 'knee'
+source = 'wanikani'
+level = 'n3'
+tags = ['body', 'common', 'leg', 'noun']
+
+[[cards]]
+kanji = '肘'
+kana = 'ひじ'
+english = 'elbow'
+source = 'jisho'
+level = 'n2'
+tags = ['arm', 'body', 'common', 'noun']
 
 [[cards]]
 kanji = '額'
