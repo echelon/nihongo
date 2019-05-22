@@ -700,6 +700,13 @@ level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '失礼'
+kana = 'しつれい'
+english = 'rude'
+source = 'irasshai'
+tags = ['na-adjective', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '品物'
 kana = 'しなもの'
 english = 'goods; articles; things'
@@ -864,6 +871,14 @@ kana = 'じゅんび'
 english = 'preparation'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '自由'
+kana = 'じゆう'
+english = 'freedom'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'expression', 'na-adjective', 'noun']
 
 [[cards]]
 kanji = '女性'

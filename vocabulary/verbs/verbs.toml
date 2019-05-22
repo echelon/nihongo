@@ -262,6 +262,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '失う'
+kana = 'うしなう'
+english = 'to lose ~'
+english-conjugated = { base = 'lose', plural = 'loses', continuous = 'losing', past = 'lost' }
+verb-type = 'godan-u'
+transitive = true
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'how-to-conjugate']
+
+[[cards]]
 kanji = '撃つ'
 kana = 'うつ'
 english = 'to shoot ~'

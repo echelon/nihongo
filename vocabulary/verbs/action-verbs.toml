@@ -10,6 +10,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '決める'
+kana = 'きめる'
+english = 'to decide ~'
+english-conjugated = { plural = 'decides', base = 'decide', continuous = 'decides', past = 'decided' }
+verb-type = 'ichidan'
+transitive = true
+source = 'wanikani'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '近づく'
 kana = 'ちかづく'
 english = 'to get close to; to approach'
@@ -18,6 +29,17 @@ verb-type = 'godan-ku'
 transitive = false
 source = 'wanikani'
 level = 'n1'
+tags = ['common']
+
+[[cards]]
+kanji = '投げる'
+kana = 'なげる'
+english = 'to throw ~'
+english-conjugated = { base = 'throw', plural = 'throws', continuous = 'throwing', past = 'threw' }
+verb-type = 'ichidan'
+transitive = true
+source = 'wanikani'
+level = 'n4'
 tags = ['common']
 
 [[cards]]
