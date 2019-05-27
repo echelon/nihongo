@@ -196,7 +196,7 @@ class Verb:
   def past_indicative(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Past Indicative form.
-    Means "[Verb]ed", "Have [Verb]ed", "Didn't [Verb]", or "Haven't [Verb]ed"
+    Means "[Verb]ed"/"Have [Verb]ed" or "Didn't [Verb]"/"Haven't [Verb]ed"
     """
     if polite:
       verb = self.present_indicative(polite=True, positive=positive, kanji=kanji)
@@ -219,6 +219,18 @@ class Verb:
     verb = self.past_indicative(polite=False, positive=positive, kanji=kanji)
     suffix = "でしょう" if polite else "だろう"
     return verb + suffix
+
+  def present_progressive(self, polite=False, positive=False, kanji=False):
+    """
+    Return the verb in Present Progressive form.
+    Means "[Verb]ing" or  "Not [Verb]ing"
+    """
+    te_form_base = self._te(self.kanji) if kanji else self._te(self.kana)
+    if polite:
+      suffix = 'います' if positive else 'いません'
+    else:
+      suffix = 'いる' if positive else 'いない'
+    return te_form_base + suffix
 
   def _masu(self, base):
     # TODO: Update to be called like _ta(kanji=False)
@@ -274,7 +286,7 @@ class Verb:
 
 VERB_HASH = { verb['kanji'] : Verb(verb) for verb in verbs }
 
-class TestPresentIndicative(unittest.TestCase):
+class TestVerbConjugation(unittest.TestCase):
 
   def test_present_indicative(self):
     def v(verb, polite, positive, kanji):
@@ -317,6 +329,20 @@ class TestPresentIndicative(unittest.TestCase):
     self.assertEqual(v('遊ぶ', False, True, False), 'あそんだだろう')
     self.assertEqual(v('遊ぶ', False, False, True), '遊ばなかっただろう')
     self.assertEqual(v('遊ぶ', False, False, False), 'あそばなかっただろう')
+
+  def test_present_progressive(self):
+    def v(verb, polite, positive, kanji):
+      return VERB_HASH[verb].present_progressive(polite, positive, kanji)
+    # Polite
+    self.assertEqual(v('泣く', True, True, True), '泣いています')
+    self.assertEqual(v('泣く', True, True, False), 'ないています')
+    self.assertEqual(v('近づく', True, False, True), '近づいていません')
+    self.assertEqual(v('近づく', True, False, False), 'ちかづいていません')
+    # Plain
+    self.assertEqual(v('決める', False, True, True), '決めている')
+    self.assertEqual(v('決める', False, True, False), 'きめている')
+    self.assertEqual(v('打つ', False, False, True), '打っていない')
+    self.assertEqual(v('打つ', False, False, False), 'うっていない')
 
 def main():
   print('Printing verbs:')
@@ -363,6 +389,13 @@ def main():
       positive = i//2 % 2 == 0
       kanji = i % 2 == 0
       print(verb.past_presumptive(polite=polite, positive=positive, kanji=kanji))
+
+    print()
+    for i in range(8):
+      polite = i//4 % 2 == 0
+      positive = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.present_progressive(polite=polite, positive=positive, kanji=kanji))
 
 
 if __name__ == '__main__':
