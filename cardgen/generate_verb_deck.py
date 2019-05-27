@@ -265,10 +265,25 @@ class Verb:
       verb = self.kanji if kanji else self.kana
       for before, after in Verb.ENDING_U_TO_E.items():
         if verb.endswith(before):
-          return re.sub(before + '$', after, verb) + 'ば'
+          base = re.sub(before + '$', after, verb)
+          return base + 'ば'
     else:
       verb = self.present_indicative(polite=False, positive=False, kanji=kanji)
       return re.sub('い$', 'ければ', verb)
+
+  def conditional(self, polite=False, positive=False, kanji=False):
+    """
+    Return the verb in Conditional form.
+    Means "If One [Verb]" or  "If One Does Not [Verb]"
+    """
+    base = self.past_indicative(polite=polite, positive=positive, kanji=kanji)
+    return base + 'ら'
+
+  # TODO: POTENTIAL FORM
+
+  # TODO: CAUSATIVE FORM
+
+  # TODO: PASSIVE FORM
 
   def _masu(self, kanji=False):
     base = self.kanji if kanji else self.kana
@@ -450,6 +465,20 @@ class TestVerbConjugation(unittest.TestCase):
     self.assertEqual(v('待つ', False, True), '待たなければ')
     self.assertEqual(v('待つ', False, False), 'またなければ')
 
+  def test_conditional(self):
+    def v(verb, polite, positive, kanji):
+      return VERB_HASH[verb].conditional(polite, positive, kanji)
+    # Polite
+    self.assertEqual(v('上がる', True, True, True), '上がりましたら')
+    self.assertEqual(v('上がる', True, True, False), 'あがりましたら')
+    self.assertEqual(v('泣く', True, False, True), '泣きませんでしたら')
+    self.assertEqual(v('泣く', True, False, False), 'なきませんでしたら')
+    # Plain
+    self.assertEqual(v('見える', False, True, True), '見えたら')
+    self.assertEqual(v('見える', False, True, False), 'みえたら')
+    self.assertEqual(v('飲む', False, False, True), '飲まなかったら')
+    self.assertEqual(v('飲む', False, False, False), 'のまなかったら')
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -516,6 +545,12 @@ def main():
       kanji = i % 2 == 0
       print(verb.provisional(positive=positive, kanji=kanji))
 
+    print()
+    for i in range(8):
+      polite = i//4 % 2 == 0
+      positive = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.conditional(polite=polite, positive=positive, kanji=kanji))
 
 if __name__ == '__main__':
   parser = ArgumentParser()
