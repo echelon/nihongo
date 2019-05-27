@@ -58,6 +58,7 @@ tags = ['common']
 kanji = '開ける'
 kana = 'あける'
 english = 'to open ~ (eg. a door); to open ~ (eg. for business)'
+english-conjugated = { base = 'open', past = 'opened', plural = 'opens', continous = 'opening' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -67,6 +68,7 @@ tags = ['common']
 kanji = '上げる'
 kana = 'あげる'
 english = 'to raise ~; to give ~'
+english-conjugated = { base = 'raise', past = 'raised', plural = 'raises', continous = 'raising' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -108,6 +110,7 @@ tags = ['common']
 kanji = '浴びる'
 kana = 'あびる'
 english = 'to bathe in ~ (eg. water, light); to take ~ (eg. shower)'
+english-conjugated = { base = 'bathe', past = 'bathed', plural = 'bathes', continous = 'bathing' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -138,6 +141,7 @@ tags = ['common']
 kanji = '有る'
 kana = 'ある'
 english = 'to be, to exist, to have (inanimate)'
+english-conjugated = { base = 'exist', past = 'existed', plural = 'exists', continous = 'existing' }
 verb-type = 'irregular'
 transitive = false
 level = 'n5'
@@ -147,6 +151,7 @@ tags = ['common']
 kanji = '生きる'
 kana = 'いきる'
 english = 'to live; to exist'
+english-conjugated = { base = 'live', past = 'lived', plural = 'lives', continous = 'living' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n4'
@@ -276,7 +281,7 @@ tags = ['common', 'how-to-conjugate']
 kanji = '撃つ'
 kana = 'うつ'
 english = 'to shoot ~'
-english-conjugation = { base = 'shoot', past = 'shot', plural = 'shoots', continous = 'shooting' }
+english-conjugated = { base = 'shoot', past = 'shot', plural = 'shoots', continous = 'shooting' }
 verb-type = 'godan-tsu'
 transitive = true
 level = 'n3'
@@ -286,6 +291,7 @@ tags = ['common']
 kanji = '生まれる'
 kana = 'うまれる'
 english = 'to be born'
+english-conjugated = { base = 'be born', past = 'been born', plural = 'be born', continous = 'being born' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n5'
@@ -305,6 +311,7 @@ tags = ['common']
 kanji = '売る'
 kana = 'うる'
 english = 'to sell ~'
+english-conjugated = { base = 'sell', past = 'sold', plural = 'sells', continous = 'selling' }
 verb-type = 'godan-ru'
 transitive = true
 level = 'n5'
@@ -347,6 +354,7 @@ tags = ['common']
 kanji = '落ちる'
 kana = 'おちる'
 english = 'to fall down'
+english-conjugated = { base = 'fall down', past = 'fell down', plural = 'falls down', continuous = 'falling down' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n4'
@@ -356,6 +364,7 @@ tags = ['common']
 kanji = '泳ぐ'
 kana = 'およぐ'
 english = 'to swim'
+english-conjugated = { base = 'swim', past = 'swam', plural = 'swims', continuous = 'swimming' }
 verb-type = 'godan-gu'
 transitive = false
 level = 'n5'
@@ -375,6 +384,7 @@ tags = ['common']
 kanji = '返す'
 kana = 'かえす'
 english = 'to return ~ (something); to restore ~; to put back ~'
+english-conjugated = { base = 'return', past = 'returned', plural = 'returns', continuous = 'returning' }
 verb-type = 'godan-su'
 transitive = true
 level = 'n5'
@@ -384,6 +394,7 @@ tags = ['common']
 kanji = '書く'
 kana = 'かく'
 english = 'to write or compose ~'
+english-conjugated = { base = 'write', past = 'wrote', plural = 'writes', continuous = 'writing' }
 verb-type = 'godan-ku'
 transitive = true
 level = 'n5'
@@ -415,6 +426,7 @@ tags = ['common']
 kanji = '貸す'
 kana = 'かす'
 english = 'to lend ~'
+english-conjugated = { base = 'lend', past = 'lent', plural = 'lends', continous = 'lending' }
 level = 'n5'
 verb-type = 'godan-su'
 transitive = true
@@ -453,6 +465,7 @@ tags = ['common']
 kanji = '曇る'
 kana = 'くもる'
 english = 'to get cloudy'
+english-conjugated = { base = 'get cloudy', past = 'got cloudy', plural = 'gets cloudy', continous = 'getting cloudy' }
 level = 'n5'
 verb-type = 'godan-ru'
 transitive = false
@@ -462,6 +475,7 @@ tags = ['common']
 kanji = '消す'
 kana = 'けす'
 english = 'to delete ~; to erase/cross out ~; to turn off ~s power'
+english-conjugated = { base = 'delete', past = 'deleted', plural = 'deletes', continous = 'deleting' }
 verb-type = 'godan-su'
 transitive = true
 level = 'n5'
@@ -482,7 +496,7 @@ tags = ['common']
 kanji = '探す'
 kana = 'さがす'
 english = 'to search'
-english-conjugation = { base = 'search', past = 'searched', plural = 'searches', continous = 'searching' }
+english-conjugated = { base = 'search', past = 'searched', plural = 'searches', continous = 'searching' }
 verb-type = 'godan-su'
 transitive = true
 level = 'n4'
@@ -524,7 +538,7 @@ tags = ['common']
 kanji = '足す'
 kana = 'たす'
 english = 'to add ~ (numbers); to add ~ (to something)'
-english-conjugation = { base = 'add', past = 'added', plural = 'adds', continous = 'adding' }
+english-conjugated = { base = 'add', past = 'added', plural = 'adds', continous = 'adding' }
 verb-type = 'godan-su'
 transitive = true
 source = 'nihongo-charenji-n4-kotoba'
@@ -545,6 +559,7 @@ tags = ['common']
 kanji = '立つ'
 kana = 'たつ'
 english = 'to stand'
+english-conjugated = { base = 'stand', past = 'stood', plural = 'stands', continous = 'standing' }
 verb-type = 'godan-tsu'
 transitive = false
 level = 'n5'
@@ -554,6 +569,7 @@ tags = ['common']
 kanji = '立てる'
 kana = 'たてる'
 english = 'to stand up ~'
+english-conjugated = { base = 'stand up', past = 'stood up', plural = 'stands up', continous = 'standing up' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n4'
@@ -564,6 +580,7 @@ tags = ['common']
 kanji = '足りる'
 kana = 'たりる'
 english = 'to be sufficient; to be enough'
+english-conjugated = { base = 'be sufficient', past = 'been sufficient', plural = 'are sufficient', continous = 'being sufficient' }
 verb-type = 'ichidan'
 transitive = false
 source = 'nihongo-charenji-n4-kotoba'
@@ -728,6 +745,7 @@ tags = ['common']
 kanji = '盗む'
 kana = 'ぬすむ'
 english = 'to steal ~'
+english-conjugated = { base = 'steal', past = 'stole', plural = 'steals', continous = 'stealing' }
 verb-type = 'godan-mu'
 transitive = true
 level = 'n4'
@@ -748,7 +766,7 @@ tags = ['common']
 kanji = '上る'
 kana = 'のぼる'
 english = 'to climb'
-english-conjugation = { base = 'climb', past = 'climbed', plural = 'climbs', continous = 'climbing' }
+english-conjugated = { base = 'climb', past = 'climbed', plural = 'climbs', continous = 'climbing' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'

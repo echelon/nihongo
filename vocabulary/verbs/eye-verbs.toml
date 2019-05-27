@@ -1,8 +1,8 @@
 [[cards]]
 kanji = '見える'
 kana = 'みえる'
-english = 'can see'
-english-conjugated = { base = 'can see', past = 'could see', plural = 'can see', continous = 'can see' }
+english = 'to be able to see'
+english-conjugated = { base = 'be able to see', past = 'was able to see', plural = 'are able to see', continous = 'being able to see' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n4'

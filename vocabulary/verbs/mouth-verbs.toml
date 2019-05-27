@@ -34,7 +34,7 @@ tags = ['common']
 kanji = '答える'
 kana = 'こたえる'
 english = 'to answer'
-english-conjugation = { base = 'answer', past = 'answered', plural = 'answers', continous = 'answering' }
+english-conjugated = { base = 'answer', past = 'answered', plural = 'answers', continous = 'answering' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n5'
@@ -44,7 +44,7 @@ tags = ['common']
 kanji = '喋る'
 kana = 'しゃべる'
 english = 'to talk (chat); to chat; to chatter'
-english-conjugation = { base = 'chat', past = 'chatted', plural = 'chats', continous = 'chatting' }
+english-conjugated = { base = 'chat', past = 'chatted', plural = 'chats', continous = 'chatting' }
 level = 'n3'
 verb-type = 'godan-ru'
 transitive = false

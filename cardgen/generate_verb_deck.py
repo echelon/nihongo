@@ -144,6 +144,12 @@ class Verb:
       else:
         return self._nai(kanji=kanji)
 
+  def english_present_indicative(self, positive=False):
+    if positive:
+      return 'will ' + self.english['base']
+    else:
+      return 'won\'t ' + self.english['base']
+
   def presumptive(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Presumptive form.
@@ -344,7 +350,7 @@ class Verb:
 
 VERB_HASH = { verb['kanji'] : Verb(verb) for verb in verbs }
 
-class TestVerbConjugation(unittest.TestCase):
+class TestJapaneseVerbConjugation(unittest.TestCase):
 
   def test_present_indicative(self):
     def v(verb, polite, positive, kanji):
@@ -511,6 +517,32 @@ class TestVerbConjugation(unittest.TestCase):
     self.assertEqual(v('飲む', False, False, True), '飲めない')
     self.assertEqual(v('飲む', False, False, False), 'のめない')
 
+class TestEnglishVerbConjugation(unittest.TestCase):
+
+  def test_english_present_indicative(self):
+    def v(verb, positive):
+      return VERB_HASH[verb].english_present_indicative(positive)
+    # simple verbs
+    self.assertEqual(v('歩く', True), 'will walk')
+    self.assertEqual(v('歩く', False), "won't walk")
+    self.assertEqual(v('走る', True), 'will run')
+    self.assertEqual(v('走る', False), "won't run")
+    # do verbs
+    self.assertEqual(v('合う', True), 'will do together')
+    self.assertEqual(v('合う', False), "won't do together")
+    # be verbs
+    self.assertEqual(v('悩む', True), 'will be worried')
+    self.assertEqual(v('悩む', False), "won't be worried")
+    self.assertEqual(v('見える', True), 'will be able to see')
+    self.assertEqual(v('見える', False), "won't be able to see")
+    # multi word verbs
+    self.assertEqual(v('近づく', True), 'will get close')
+    self.assertEqual(v('近づく', False), "won't get close")
+    self.assertEqual(v('信じる', True), 'will believe in')
+    self.assertEqual(v('信じる', False), "won't believe in")
+    self.assertEqual(v('出す', True), 'will take out')
+    self.assertEqual(v('出す', False), "won't take out")
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -590,6 +622,10 @@ def main():
       positive = i//2 % 2 == 0
       kanji = i % 2 == 0
       print(verb.potential(polite=polite, positive=positive, kanji=kanji))
+
+    print()
+    print(verb.english_present_indicative(positive=True))
+    print(verb.english_present_indicative(positive=False))
 
 if __name__ == '__main__':
   parser = ArgumentParser()

@@ -2,6 +2,7 @@
 kanji = '怒る'
 kana = 'おこる'
 english = 'to get angry'
+english-conjugated = { base = 'get angry', past = 'got angry', plural = 'gets angry', continous = 'getting angry' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
