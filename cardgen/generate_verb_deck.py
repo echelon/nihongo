@@ -114,6 +114,18 @@ class Verb:
     'る' : 'れ', # godan-ru, not ichidan!
   }
 
+  ENDING_U_TO_E = {
+    'う' : 'え',
+    'く' : 'け',
+    'ぐ' : 'げ',
+    'す' : 'せ',
+    'つ' : 'て',
+    'ぬ' : 'ね',
+    'ぶ' : 'べ',
+    'む' : 'め',
+    'る' : 'れ', # godan-ru, not ichidan! (in the case of provisional, it doesn't matter)
+  }
+
   def __init__(self, verb_dict):
     self.level = verb_dict['level'] if 'level' in verb_dict else None
     self.group = verb_dict['verb-type']
@@ -234,7 +246,7 @@ class Verb:
 
   def past_progressive(self, polite=False, positive=False, kanji=False):
     """
-    Return the verb in past Progressive form.
+    Return the verb in Past Progressive form.
     Means "Was [Verb]ing" or  "Wasn't [Verb]ing"
     """
     te_form_base = self._te(kanji=kanji)
@@ -243,6 +255,20 @@ class Verb:
     else:
       suffix = 'いた' if positive else 'いなかった'
     return te_form_base + suffix
+
+  def provisional(self, positive=False, kanji=False):
+    """
+    Return the verb in Provisional form.
+    Means "If One [Verb]" or  "If One Does Not [Verb]"
+    """
+    if positive:
+      verb = self.kanji if kanji else self.kana
+      for before, after in Verb.ENDING_U_TO_E.items():
+        if verb.endswith(before):
+          return re.sub(before + '$', after, verb) + 'ば'
+    else:
+      verb = self.present_indicative(polite=False, positive=False, kanji=kanji)
+      return re.sub('い$', 'ければ', verb)
 
   def _masu(self, kanji=False):
     base = self.kanji if kanji else self.kana
@@ -407,6 +433,23 @@ class TestVerbConjugation(unittest.TestCase):
     self.assertEqual(v('思い出す', False, False, True), '思い出していなかった')
     self.assertEqual(v('思い出す', False, False, False), 'おもいだしていなかった')
 
+  def test_provisional(self):
+    def v(verb, positive, kanji):
+      return VERB_HASH[verb].provisional(positive, kanji)
+    # Positive
+    self.assertEqual(v('知る', True, True), '知れば')
+    self.assertEqual(v('知る', True, False), 'しれば')
+    # Negative
+    self.assertEqual(v('見せる', False, True), '見せなければ')
+    self.assertEqual(v('見せる', False, False), 'みせなければ')
+    # Once more, for good measure,
+    # Positive
+    self.assertEqual(v('学ぶ', True, True), '学べば')
+    self.assertEqual(v('学ぶ', True, False), 'まなべば')
+    # Negative
+    self.assertEqual(v('待つ', False, True), '待たなければ')
+    self.assertEqual(v('待つ', False, False), 'またなければ')
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -466,6 +509,12 @@ def main():
       positive = i//2 % 2 == 0
       kanji = i % 2 == 0
       print(verb.past_progressive(polite=polite, positive=positive, kanji=kanji))
+
+    print()
+    for i in range(4):
+      positive = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.provisional(positive=positive, kanji=kanji))
 
 
 if __name__ == '__main__':
