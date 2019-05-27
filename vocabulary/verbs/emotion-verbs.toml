@@ -30,7 +30,7 @@ tags = ['common']
 
 [[cards]]
 kanji = '喜ぶ'
-kana = 'よろこ'
+kana = 'よろこぶ'
 english = 'to be delighted'
 english-conjugated = { base = 'be delighted', past = 'been delighted', plural = 'are delighted', continous = 'being delighted' }
 verb-type = 'godan-bu'

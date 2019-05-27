@@ -4,8 +4,9 @@
 Generate Anki deck for verb conjugations.
 """
 
-import sys
+import glob
 import re
+import sys
 import toml
 import unittest
 from argparse import ArgumentParser
@@ -13,17 +14,28 @@ from collections import OrderedDict
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
-INPUT_FILENAME = 'vocabulary/verbs.toml'
 OUTPUT_FILENAME = 'verb_card_deck_output.apkg'
 
-def read_verbs(filename):
-  with open(filename, 'r') as f:
-    contents = f.read()
-    toml_dict = toml.loads(contents)
-    return toml_dict['cards']
+def read_verbs():
+  def read_notes(filename):
+    with open(filename, 'r') as f:
+      contents = f.read()
+      toml_dict = toml.loads(contents)
+      return toml_dict['cards']
 
-verbs = read_verbs(INPUT_FILENAME)
-#verbs = filter(lambda x: 'english-conjugated' in x, verbs)
+  all_notes = []
+  for filename in glob.glob('vocabulary/verbs/*.toml', recursive=True):
+    if 'cardgen' in filename or 'temp/' in filename:
+      continue # XXX: Things here shouldn't be processed for now.
+    print('Loading file: {0}'.format(filename))
+    notes = read_notes(filename)
+    for n in notes:
+      if 'disabled' in n and n['disabled']:
+        continue
+      all_notes.append(n)
+  return all_notes
+
+verbs = read_verbs()
 
 class Verb:
   # Godan Ending -> Masu Stem
@@ -103,8 +115,8 @@ class Verb:
   }
 
   def __init__(self, verb_dict):
+    self.level = verb_dict['level'] if 'level' in verb_dict else None
     self.group = verb_dict['verb-type']
-    self.level = verb_dict['level']
     self.kanji = verb_dict['kanji']
     self.kana = verb_dict['kana']
 
