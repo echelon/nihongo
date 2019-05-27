@@ -314,6 +314,30 @@ class TestVerbConjugation(unittest.TestCase):
     self.assertEqual(v('歩く', False, False, True), '歩かない')
     self.assertEqual(v('歩く', False, False, False), 'あるかない')
 
+  def test_presumptive(self):
+    def v(verb, polite, positive, kanji):
+      return VERB_HASH[verb].presumptive(polite, positive, kanji)
+    # Polite
+    self.assertEqual(v('言う', True, True, True), '言うでしょう')
+    self.assertEqual(v('言う', True, True, False), 'いうでしょう')
+    self.assertEqual(v('噛む', True, False, True), '噛まないでしょう')
+    self.assertEqual(v('噛む', True, False, False), 'かまないでしょう')
+    # Plain
+    self.assertEqual(v('噛む', False, True, True), '噛むだろう')
+    self.assertEqual(v('噛む', False, True, False), 'かむだろう')
+    self.assertEqual(v('言う', False, False, True), '言わないだろう')
+    self.assertEqual(v('言う', False, False, False), 'いわないだろう')
+
+  def test_volitional(self):
+    def v(verb, polite, kanji):
+      return VERB_HASH[verb].volitional(polite, kanji)
+    # Polite
+    self.assertEqual(v('浴びる', True, True), '浴びましょう')
+    self.assertEqual(v('浴びる', True, False), 'あびましょう')
+    # Plain
+    self.assertEqual(v('謝る', False, True), '謝ろう')
+    self.assertEqual(v('謝る', False, False), 'あやまろう')
+
   def test_imperative(self):
     def v(verb, polite, positive, kanji):
       return VERB_HASH[verb].imperative(polite, positive, kanji)
