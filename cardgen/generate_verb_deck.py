@@ -159,6 +159,12 @@ class Verb:
     suffix = "でしょう" if polite else "だろう"
     return verb + suffix
 
+  def english_presumptive(self, positive=False):
+    if positive:
+      return 'will probably ' + self.english['base']
+    else:
+      return 'probably won\'t ' + self.english['base']
+
   def volitional(self, polite=False, kanji=False):
     """
     Return the verb in Volitional form.
@@ -543,6 +549,30 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('出す', True), 'will take out')
     self.assertEqual(v('出す', False), "won't take out")
 
+  def test_english_presumptive(self):
+    def v(verb, positive):
+      return VERB_HASH[verb].english_presumptive(positive)
+    # simple verbs
+    self.assertEqual(v('歩く', True), 'will probably walk')
+    self.assertEqual(v('歩く', False), "probably won't walk")
+    self.assertEqual(v('走る', True), 'will probably run')
+    self.assertEqual(v('走る', False), "probably won't run")
+    # do verbs
+    self.assertEqual(v('合う', True), 'will probably do together')
+    self.assertEqual(v('合う', False), "probably won't do together")
+    # be verbs
+    self.assertEqual(v('悩む', True), 'will probably be worried')
+    self.assertEqual(v('悩む', False), "probably won't be worried")
+    self.assertEqual(v('見える', True), 'will probably be able to see')
+    self.assertEqual(v('見える', False), "probably won't be able to see")
+    # multi word verbs
+    self.assertEqual(v('近づく', True), 'will probably get close')
+    self.assertEqual(v('近づく', False), "probably won't get close")
+    self.assertEqual(v('信じる', True), 'will probably believe in')
+    self.assertEqual(v('信じる', False), "probably won't believe in")
+    self.assertEqual(v('出す', True), 'will probably take out')
+    self.assertEqual(v('出す', False), "probably won't take out")
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -626,6 +656,10 @@ def main():
     print()
     print(verb.english_present_indicative(positive=True))
     print(verb.english_present_indicative(positive=False))
+
+    print()
+    print(verb.english_presumptive(positive=True))
+    print(verb.english_presumptive(positive=False))
 
 if __name__ == '__main__':
   parser = ArgumentParser()
