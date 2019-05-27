@@ -102,18 +102,8 @@ class Verb:
     'る' : 'ろう', # godan-ru, not ichidan!
   }
 
-  GODAN_TO_PLAIN_IMPERATIVE = {
-    'う' : 'え',
-    'く' : 'け',
-    'ぐ' : 'げ',
-    'す' : 'せ',
-    'つ' : 'て',
-    'ぬ' : 'ね',
-    'ぶ' : 'べ',
-    'む' : 'め',
-    'る' : 'れ', # godan-ru, not ichidan!
-  }
-
+  # NB/NOTE: The 'ru' here is 'godan-ru', not 'ichidan'!
+  # In the case of provisional verbs, it does not matter.
   ENDING_U_TO_E = {
     'う' : 'え',
     'く' : 'け',
@@ -123,7 +113,7 @@ class Verb:
     'ぬ' : 'ね',
     'ぶ' : 'べ',
     'む' : 'め',
-    'る' : 'れ', # godan-ru, not ichidan! (in the case of provisional, it doesn't matter)
+    'る' : 'れ', # godan-ru
   }
 
   def __init__(self, verb_dict):
@@ -198,7 +188,7 @@ class Verb:
         if self.group == 'ichidan':
           return re.sub('る$', 'ろ', verb)
         else:
-          for godan_end, ending in Verb.GODAN_TO_PLAIN_IMPERATIVE.items():
+          for godan_end, ending in Verb.ENDING_U_TO_E.items():
             if verb.endswith(godan_end):
               return re.sub(godan_end + '$', ending, verb)
       else:
@@ -235,7 +225,7 @@ class Verb:
   def present_progressive(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Present Progressive form.
-    Means "[Verb]ing" or  "Not [Verb]ing"
+    Means "[Verb]ing" or "Not [Verb]ing"
     """
     te_form_base = self._te(kanji=kanji)
     if polite:
@@ -247,7 +237,7 @@ class Verb:
   def past_progressive(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Past Progressive form.
-    Means "Was [Verb]ing" or  "Wasn't [Verb]ing"
+    Means "Was [Verb]ing" or "Wasn't [Verb]ing"
     """
     te_form_base = self._te(kanji=kanji)
     if polite:
@@ -259,7 +249,7 @@ class Verb:
   def provisional(self, positive=False, kanji=False):
     """
     Return the verb in Provisional form.
-    Means "If One [Verb]" or  "If One Does Not [Verb]"
+    Means "If One [Verb]" or "If One Does Not [Verb]"
     """
     if positive:
       verb = self.kanji if kanji else self.kana
@@ -274,12 +264,28 @@ class Verb:
   def conditional(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Conditional form.
-    Means "If One [Verb]" or  "If One Does Not [Verb]"
+    Means "If One [Verb]" or "If One Does Not [Verb]"
     """
     base = self.past_indicative(polite=polite, positive=positive, kanji=kanji)
     return base + 'ら'
 
-  # TODO: POTENTIAL FORM
+  def potential(self, polite=False, positive=False, kanji=False):
+    """
+    Return the verb in Potential form.
+    Means "Can [Verb]" or "Cannot [Verb]"
+    """
+    verb = self.kanji if kanji else self.kana
+    if self.group == 'ichidan':
+      base = re.sub('る$', 'られ', verb)
+    else:
+      for before, after in Verb.ENDING_U_TO_E.items():
+        if verb.endswith(before):
+          base = re.sub(before + '$', after, verb)
+          break
+    if polite:
+      return base + 'ます' if positive else base + 'ません'
+    else:
+      return base + 'る' if positive else base + 'ない'
 
   # TODO: CAUSATIVE FORM
 
@@ -479,6 +485,32 @@ class TestVerbConjugation(unittest.TestCase):
     self.assertEqual(v('飲む', False, False, True), '飲まなかったら')
     self.assertEqual(v('飲む', False, False, False), 'のまなかったら')
 
+  def test_potential(self):
+    def v(verb, polite, positive, kanji):
+      return VERB_HASH[verb].potential(polite, positive, kanji)
+    # Ichidan (as it has ~rare~),
+    # Polite
+    self.assertEqual(v('開ける', True, True, True), '開けられます')
+    self.assertEqual(v('開ける', True, True, False), 'あけられます')
+    self.assertEqual(v('上げる', True, False, True), '上げられません')
+    self.assertEqual(v('上げる', True, False, False), 'あげられません')
+    # Plain
+    self.assertEqual(v('浴びる', False, True, True), '浴びられる')
+    self.assertEqual(v('浴びる', False, True, False), 'あびられる')
+    self.assertEqual(v('決める', False, False, True), '決められない')
+    self.assertEqual(v('決める', False, False, False), 'きめられない')
+    # Godan,
+    # Polite
+    self.assertEqual(v('打つ', True, True, True), '打てます')
+    self.assertEqual(v('打つ', True, True, False), 'うてます')
+    self.assertEqual(v('泣く', True, False, True), '泣けません')
+    self.assertEqual(v('泣く', True, False, False), 'なけません')
+    # Plain
+    self.assertEqual(v('思う', False, True, True), '思える')
+    self.assertEqual(v('思う', False, True, False), 'おもえる')
+    self.assertEqual(v('飲む', False, False, True), '飲めない')
+    self.assertEqual(v('飲む', False, False, False), 'のめない')
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -551,6 +583,13 @@ def main():
       positive = i//2 % 2 == 0
       kanji = i % 2 == 0
       print(verb.conditional(polite=polite, positive=positive, kanji=kanji))
+
+    print()
+    for i in range(8):
+      polite = i//4 % 2 == 0
+      positive = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.potential(polite=polite, positive=positive, kanji=kanji))
 
 if __name__ == '__main__':
   parser = ArgumentParser()
