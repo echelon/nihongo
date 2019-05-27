@@ -302,6 +302,20 @@ class TestVerbConjugation(unittest.TestCase):
     self.assertEqual(v('歩く', False, False, True), '歩かない')
     self.assertEqual(v('歩く', False, False, False), 'あるかない')
 
+  def test_imperative(self):
+    def v(verb, polite, positive, kanji):
+      return VERB_HASH[verb].imperative(polite, positive, kanji)
+    # Polite
+    self.assertEqual(v('見る', True, True, True), '見てください')
+    self.assertEqual(v('見る', True, True, False), 'みてください')
+    self.assertEqual(v('読む', True, False, True), '読まないでください')
+    self.assertEqual(v('読む', True, False, False), 'よまないでください')
+    # Plain
+    self.assertEqual(v('見る', False, True, True), '見ろ')
+    self.assertEqual(v('見る', False, True, False), 'みろ')
+    self.assertEqual(v('読む', False, False, True), '読むな')
+    self.assertEqual(v('読む', False, False, False), 'よむな')
+
   def test_past_indicative(self):
     def v(verb, polite, positive, kanji):
       return VERB_HASH[verb].past_indicative(polite, positive, kanji)
