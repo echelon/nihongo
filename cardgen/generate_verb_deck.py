@@ -210,6 +210,12 @@ class Verb:
         dictionary = self.kanji if kanji else self.kana
         return dictionary + 'な'
 
+  def english_imperative(self, positive=False):
+    if positive:
+      return 'do {}!'.format(self.english['base'])
+    else:
+      return 'don\'t {}!'.format(self.english['base'])
+
   def past_indicative(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Past Indicative form.
@@ -592,6 +598,30 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('信じる'), "let's believe in")
     self.assertEqual(v('出す'), "let's take out")
 
+  def test_english_imperative(self):
+    def v(verb, positive):
+      return VERB_HASH[verb].english_imperative(positive)
+    # simple verbs
+    self.assertEqual(v('歩く', True), 'do walk!')
+    self.assertEqual(v('歩く', False), "don't walk!")
+    self.assertEqual(v('走る', True), 'do run!')
+    self.assertEqual(v('走る', False), "don't run!")
+    # do verbs
+    self.assertEqual(v('合う', True), 'do do together!')
+    self.assertEqual(v('合う', False), "don't do together!")
+    # be verbs
+    self.assertEqual(v('悩む', True), 'do be worried!')
+    self.assertEqual(v('悩む', False), "don't be worried!")
+    self.assertEqual(v('見える', True), 'do be able to see!')
+    self.assertEqual(v('見える', False), "don't be able to see!")
+    # multi word verbs
+    self.assertEqual(v('近づく', True), 'do get close!')
+    self.assertEqual(v('近づく', False), "don't get close!")
+    self.assertEqual(v('信じる', True), 'do believe in!')
+    self.assertEqual(v('信じる', False), "don't believe in!")
+    self.assertEqual(v('出す', True), 'do take out!')
+    self.assertEqual(v('出す', False), "don't take out!")
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -682,6 +712,10 @@ def main():
 
     print()
     print(verb.english_volitional())
+
+    print()
+    print(verb.english_imperative(positive=True))
+    print(verb.english_imperative(positive=False))
 
 if __name__ == '__main__':
   parser = ArgumentParser()
