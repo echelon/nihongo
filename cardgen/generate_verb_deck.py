@@ -174,7 +174,7 @@ class Verb:
     """
     if polite:
       if positive:
-        base = self._te(self.kanji) if kanji else self._te(self.kana)
+        base = self._te(kanji=kanji)
       else:
         # eg. aruku -> arukanai de kudasai
         verb = self.present_indicative(polite=False, positive=False, kanji=kanji)
@@ -225,7 +225,7 @@ class Verb:
     Return the verb in Present Progressive form.
     Means "[Verb]ing" or  "Not [Verb]ing"
     """
-    te_form_base = self._te(self.kanji) if kanji else self._te(self.kana)
+    te_form_base = self._te(kanji=kanji)
     if polite:
       suffix = 'います' if positive else 'いません'
     else:
@@ -266,8 +266,8 @@ class Verb:
     if replaced:
       return replaced + 'ない'
 
-  def _te(self, base):
-    # TODO: Update to be called like _ta(kanji=False)
+  def _te(self, kanji=False):
+    base = self.kanji if kanji else self.kana
     if self.group == 'ichidan':
       return re.sub('る$', 'て', base)
     else:
