@@ -234,6 +234,15 @@ class Verb:
         verb = self.present_indicative(positive=False, polite=False, kanji=kanji)
         return re.sub('い$', 'かった', verb)
 
+  def english_past_indicative(self, positive=False):
+    if positive:
+      return self.english['past']
+    else:
+      past = 'didn\'t {}'.format(self.english['base'])
+      # fix bad grammar
+      past = re.sub("didn't be\\b", "wasn't", past)
+      return past
+
   def past_presumptive(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Past Presumptive form.
@@ -622,6 +631,30 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('出す', True), 'do take out!')
     self.assertEqual(v('出す', False), "don't take out!")
 
+  def test_english_past_indicative(self):
+    def v(verb, positive):
+      return VERB_HASH[verb].english_past_indicative(positive)
+    # simple verbs
+    self.assertEqual(v('歩く', True), 'walked')
+    self.assertEqual(v('歩く', False), "didn't walk")
+    self.assertEqual(v('走る', True), 'ran')
+    self.assertEqual(v('走る', False), "didn't run")
+    # do verbs
+    self.assertEqual(v('合う', True), 'did together')
+    self.assertEqual(v('合う', False), "didn't do together")
+    # be verbs
+    self.assertEqual(v('悩む', True), 'was worried')
+    self.assertEqual(v('悩む', False), "wasn't worried")
+    self.assertEqual(v('見える', True), 'was able to see')
+    self.assertEqual(v('見える', False), "wasn't able to see")
+    # multi word verbs
+    self.assertEqual(v('近づく', True), 'got close')
+    self.assertEqual(v('近づく', False), "didn't get close")
+    self.assertEqual(v('信じる', True), 'believed in')
+    self.assertEqual(v('信じる', False), "didn't believe in")
+    self.assertEqual(v('出す', True), 'took out')
+    self.assertEqual(v('出す', False), "didn't take out")
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -716,6 +749,10 @@ def main():
     print()
     print(verb.english_imperative(positive=True))
     print(verb.english_imperative(positive=False))
+
+    print()
+    print(verb.english_past_indicative(positive=True))
+    print(verb.english_past_indicative(positive=False))
 
 if __name__ == '__main__':
   parser = ArgumentParser()
