@@ -232,6 +232,18 @@ class Verb:
       suffix = 'いる' if positive else 'いない'
     return te_form_base + suffix
 
+  def past_progressive(self, polite=False, positive=False, kanji=False):
+    """
+    Return the verb in past Progressive form.
+    Means "Was [Verb]ing" or  "Wasn't [Verb]ing"
+    """
+    te_form_base = self._te(kanji=kanji)
+    if polite:
+      suffix = 'いました' if positive else 'いませんでした'
+    else:
+      suffix = 'いた' if positive else 'いなかった'
+    return te_form_base + suffix
+
   def _masu(self, base):
     # TODO: Update to be called like _ta(kanji=False)
     replaced = None
@@ -358,6 +370,20 @@ class TestVerbConjugation(unittest.TestCase):
     self.assertEqual(v('打つ', False, False, True), '打っていない')
     self.assertEqual(v('打つ', False, False, False), 'うっていない')
 
+  def test_past_progressive(self):
+    def v(verb, polite, positive, kanji):
+      return VERB_HASH[verb].past_progressive(polite, positive, kanji)
+    # Polite
+    self.assertEqual(v('走る', True, True, True), '走っていました')
+    self.assertEqual(v('走る', True, True, False), 'はしっていました')
+    self.assertEqual(v('走る', True, False, True), '走っていませんでした')
+    self.assertEqual(v('走る', True, False, False), 'はしっていませんでした')
+    # Plain
+    self.assertEqual(v('思い出す', False, True, True), '思い出していた')
+    self.assertEqual(v('思い出す', False, True, False), 'おもいだしていた')
+    self.assertEqual(v('思い出す', False, False, True), '思い出していなかった')
+    self.assertEqual(v('思い出す', False, False, False), 'おもいだしていなかった')
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -410,6 +436,13 @@ def main():
       positive = i//2 % 2 == 0
       kanji = i % 2 == 0
       print(verb.present_progressive(polite=polite, positive=positive, kanji=kanji))
+
+    print()
+    for i in range(8):
+      polite = i//4 % 2 == 0
+      positive = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.past_progressive(polite=polite, positive=positive, kanji=kanji))
 
 
 if __name__ == '__main__':
