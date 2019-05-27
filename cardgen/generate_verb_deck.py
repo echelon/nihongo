@@ -133,14 +133,14 @@ class Verb:
     """
     if polite:
       if positive:
-        return self._masu(self.kanji) if kanji else self._masu(self.kana)
+        return self._masu(kanji=kanji)
       else:
-        return self._masen(self.kanji) if kanji else self._masen(self.kana)
+        return self._masen(kanji=kanji)
     else:
       if positive:
         return self.kanji if kanji else self.kana
       else:
-        return self._nai(self.kanji) if kanji else self._nai(self.kana)
+        return self._nai(kanji=kanji)
 
   def presumptive(self, polite=False, positive=False, kanji=False):
     """
@@ -244,8 +244,8 @@ class Verb:
       suffix = 'いた' if positive else 'いなかった'
     return te_form_base + suffix
 
-  def _masu(self, base):
-    # TODO: Update to be called like _ta(kanji=False)
+  def _masu(self, kanji=False):
+    base = self.kanji if kanji else self.kana
     replaced = None
     if self.group == 'ichidan':
       replaced = re.sub('る$', '', base)
@@ -258,14 +258,13 @@ class Verb:
     if replaced:
       return replaced + 'ます'
 
-  def _masen(self, base):
-    # TODO: Update to be called like _ta(kanji=False)
-    masu = self._masu(base)
+  def _masen(self, kanji=False):
+    masu = self._masu(kanji=kanji)
     if masu:
       return re.sub('ます$', 'ません', masu)
 
-  def _nai(self, base):
-    # TODO: Update to be called like _ta(kanji=False)
+  def _nai(self, kanji=False):
+    base = self.kanji if kanji else self.kana
     replaced = None
     if self.group == 'ichidan':
       replaced = re.sub('る$', '', base)
