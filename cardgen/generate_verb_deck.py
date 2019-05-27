@@ -181,6 +181,9 @@ class Verb:
           if verb.endswith(godan_end):
             return re.sub(godan_end + '$', ending, verb)
 
+  def english_volitional(self):
+    return 'let\'s ' + self.english['base']
+
   def imperative(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Imperative form.
@@ -573,6 +576,22 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('出す', True), 'will probably take out')
     self.assertEqual(v('出す', False), "probably won't take out")
 
+  def test_english_volitional(self):
+    def v(verb):
+      return VERB_HASH[verb].english_volitional()
+    # simple verbs
+    self.assertEqual(v('歩く'), "let's walk")
+    self.assertEqual(v('走る'), "let's run")
+    # do verbs
+    self.assertEqual(v('合う'), "let's do together")
+    # be verbs
+    self.assertEqual(v('悩む'), "let's be worried")
+    self.assertEqual(v('見える'), "let's be able to see")
+    # multi word verbs
+    self.assertEqual(v('近づく'), "let's get close")
+    self.assertEqual(v('信じる'), "let's believe in")
+    self.assertEqual(v('出す'), "let's take out")
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -660,6 +679,9 @@ def main():
     print()
     print(verb.english_presumptive(positive=True))
     print(verb.english_presumptive(positive=False))
+
+    print()
+    print(verb.english_volitional())
 
 if __name__ == '__main__':
   parser = ArgumentParser()
