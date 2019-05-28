@@ -334,7 +334,22 @@ class Verb:
       suffix = 'せる' if positive else 'せない'
     return base + suffix
 
-  # TODO: PASSIVE FORM
+  def passive(self, polite=False, positive=False, kanji=False):
+    """
+    Return the verb in Passive form.
+    Means "Be [Verb]" or "Not Be [Verb]"
+    """
+    if self.group == 'ichidan':
+      base = self.kanji if kanji else self.kana
+      base = re.sub('る$', 'ら', base)
+    else:
+      nai_form = self._nai(kanji=kanji)
+      base = re.sub('ない$', '', nai_form)
+    if polite:
+      suffix = 'れます' if positive else 'れません'
+    else:
+      suffix = 'れる' if positive else 'れない'
+    return base + suffix
 
   def _masu(self, kanji=False):
     base = self.kanji if kanji else self.kana
@@ -582,6 +597,32 @@ class TestJapaneseVerbConjugation(unittest.TestCase):
     self.assertEqual(v('飲む', False, False, True), '飲ませない')
     self.assertEqual(v('飲む', False, False, False), 'のませない')
 
+  def test_passive(self):
+    def v(verb, polite, positive, kanji):
+      return VERB_HASH[verb].passive(polite, positive, kanji)
+    # Ichidan (as it has ~saseru~),
+    # Polite
+    self.assertEqual(v('開ける', True, True, True), '開けられます')
+    self.assertEqual(v('開ける', True, True, False), 'あけられます')
+    self.assertEqual(v('上げる', True, False, True), '上げられません')
+    self.assertEqual(v('上げる', True, False, False), 'あげられません')
+    # Plain
+    self.assertEqual(v('浴びる', False, True, True), '浴びられる')
+    self.assertEqual(v('浴びる', False, True, False), 'あびられる')
+    self.assertEqual(v('決める', False, False, True), '決められない')
+    self.assertEqual(v('決める', False, False, False), 'きめられない')
+    # Godan,
+    # Polite
+    self.assertEqual(v('打つ', True, True, True), '打たれます')
+    self.assertEqual(v('打つ', True, True, False), 'うたれます')
+    self.assertEqual(v('泣く', True, False, True), '泣かれません')
+    self.assertEqual(v('泣く', True, False, False), 'なかれません')
+    # Plain
+    self.assertEqual(v('思う', False, True, True), '思われる')
+    self.assertEqual(v('思う', False, True, False), 'おもわれる')
+    self.assertEqual(v('飲む', False, False, True), '飲まれない')
+    self.assertEqual(v('飲む', False, False, False), 'のまれない')
+
 class TestEnglishVerbConjugation(unittest.TestCase):
 
   def test_english_present_indicative(self):
@@ -782,6 +823,13 @@ def main():
       positive = i//2 % 2 == 0
       kanji = i % 2 == 0
       print(verb.causative(polite=polite, positive=positive, kanji=kanji))
+
+    print()
+    for i in range(8):
+      polite = i//4 % 2 == 0
+      positive = i//2 % 2 == 0
+      kanji = i % 2 == 0
+      print(verb.passive(polite=polite, positive=positive, kanji=kanji))
 
     print()
     print(verb.english_present_indicative(positive=True))
