@@ -249,8 +249,18 @@ class Verb:
     Means "Probably [Verb]ed" or "Probably Didn't [Verb]"
     """
     verb = self.past_indicative(polite=False, positive=positive, kanji=kanji)
-    suffix = "でしょう" if polite else "だろう"
+    suffix = 'でしょう' if polite else 'だろう'
     return verb + suffix
+
+  def english_past_presumptive(self, positive=False):
+    if positive:
+      past = 'probably {}'.format(self.english['past'])
+      past = re.sub('probably was\\b', 'was probably', past) # better wording
+      return past
+    else:
+      past = 'probably didn\'t {}'.format(self.english['base'])
+      past = re.sub('didn\'t be\\b', 'wasn\'t', past) # fix bad grammar
+      return past
 
   def present_progressive(self, polite=False, positive=False, kanji=False):
     """
@@ -737,6 +747,31 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('出す', True), 'took out')
     self.assertEqual(v('出す', False), "didn't take out")
 
+  def test_english_past_presumptive(self):
+    def v(verb, positive):
+      return VERB_HASH[verb].english_past_presumptive(positive)
+    # simple verbs
+    self.assertEqual(v('歩く', True), 'probably walked')
+    self.assertEqual(v('歩く', False), "probably didn't walk")
+    self.assertEqual(v('走る', True), 'probably ran')
+    self.assertEqual(v('走る', False), "probably didn't run")
+    # do verbs
+    self.assertEqual(v('合う', True), 'probably did together')
+    self.assertEqual(v('合う', False), "probably didn't do together")
+    # be verbs
+    self.assertEqual(v('悩む', True), 'was probably worried')
+    self.assertEqual(v('悩む', False), "probably wasn't worried")
+    self.assertEqual(v('見える', True), 'was probably able to see')
+    self.assertEqual(v('見える', False), "probably wasn't able to see")
+    # multi word verbs
+    self.assertEqual(v('近づく', True), 'probably got close')
+    self.assertEqual(v('近づく', False), "probably didn't get close")
+    self.assertEqual(v('信じる', True), 'probably believed in')
+    self.assertEqual(v('信じる', False), "probably didn't believe in")
+    self.assertEqual(v('出す', True), 'probably took out')
+    self.assertEqual(v('出す', False), "probably didn't take out")
+
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -849,6 +884,10 @@ def main():
     print()
     print(verb.english_past_indicative(positive=True))
     print(verb.english_past_indicative(positive=False))
+
+    print()
+    print(verb.english_past_presumptive(positive=True))
+    print(verb.english_past_presumptive(positive=False))
 
 if __name__ == '__main__':
   parser = ArgumentParser()
