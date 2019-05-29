@@ -990,150 +990,52 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('出す', True), 'be taken out')
     self.assertEqual(v('出す', False), 'not be taken out')
 
-def main():
-  print('Printing verbs:')
-  print(len(verbs))
-  for verb in verbs:
-    print('============')
-    verb = Verb(verb)
-    for i in range(8):
-      polite = i//4 % 2 == 0
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.present_indicative(polite=polite, positive=positive, kanji=kanji))
+class TestJapaneseVerbConjugation(unittest.TestCase):
 
-    print()
-    for i in range(8):
-      polite = i//4 % 2 == 0
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.presumptive(polite=polite, positive=positive, kanji=kanji))
+  def test_all_vocab_can_be_generated(self):
+    verbs = VERB_HASH.values()
+    for verb in verbs:
+      for i in range(8):
+        polite = i//4 % 2 == 0
+        positive = i//2 % 2 == 0
+        kanji = i % 2 == 0
 
-    print()
-    for i in range(4):
-      polite = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.volitional(polite=polite, kanji=kanji))
+        self.assertIsInstance(verb.present_indicative(polite=polite, positive=positive, kanji=kanji), str)
+        self.assertIsInstance(verb.presumptive(polite=polite, positive=positive, kanji=kanji), str)
+        self.assertIsInstance(verb.imperative(polite=polite, positive=positive, kanji=kanji), str)
+        self.assertIsInstance(verb.past_indicative(polite=polite, positive=positive, kanji=kanji), str)
+        self.assertIsInstance(verb.past_presumptive(polite=polite, positive=positive, kanji=kanji), str)
+        self.assertIsInstance(verb.present_progressive(polite=polite, positive=positive, kanji=kanji), str)
+        self.assertIsInstance(verb.past_progressive(polite=polite, positive=positive, kanji=kanji), str)
+        self.assertIsInstance(verb.conditional(polite=polite, positive=positive, kanji=kanji), str)
+        self.assertIsInstance(verb.potential(polite=polite, positive=positive, kanji=kanji), str)
+        self.assertIsInstance(verb.causative(polite=polite, positive=positive, kanji=kanji), str)
+        self.assertIsInstance(verb.passive(polite=polite, positive=positive, kanji=kanji), str)
 
-    print()
-    for i in range(8):
-      polite = i//4 % 2 == 0
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.imperative(polite=polite, positive=positive, kanji=kanji))
+      for i in range(4):
+        polite = i//2 % 2 == 0
+        positive = polite
+        kanji = i % 2 == 0
 
-    print()
-    for i in range(8):
-      polite = i//4 % 2 == 0
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.past_indicative(polite=polite, positive=positive, kanji=kanji))
+        self.assertIsInstance(verb.volitional(polite=polite, kanji=kanji), str)
+        self.assertIsInstance(verb.provisional(positive=positive, kanji=kanji), str)
 
-    print()
-    for i in range(8):
-      polite = i//4 % 2 == 0
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.past_presumptive(polite=polite, positive=positive, kanji=kanji))
+      for i in range(2):
+        positive = i % 2 == 0
+        self.assertIsInstance(verb.english_present_indicative(positive=positive), str)
+        self.assertIsInstance(verb.english_presumptive(positive=positive), str)
+        self.assertIsInstance(verb.english_imperative(positive=positive), str)
+        self.assertIsInstance(verb.english_past_indicative(positive=positive), str)
+        self.assertIsInstance(verb.english_past_presumptive(positive=positive), str)
+        self.assertIsInstance(verb.english_present_progressive(positive=positive), str)
+        self.assertIsInstance(verb.english_past_progressive(positive=positive), str)
+        self.assertIsInstance(verb.english_provisional(positive=positive), str)
+        self.assertIsInstance(verb.english_conditional(positive=positive), str)
+        self.assertIsInstance(verb.english_potential(positive=positive), str)
+        self.assertIsInstance(verb.english_causative(positive=positive), str)
+        self.assertIsInstance(verb.english_passive(positive=positive), str)
 
-    print()
-    for i in range(8):
-      polite = i//4 % 2 == 0
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.present_progressive(polite=polite, positive=positive, kanji=kanji))
-
-    print()
-    for i in range(8):
-      polite = i//4 % 2 == 0
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.past_progressive(polite=polite, positive=positive, kanji=kanji))
-
-    print()
-    for i in range(4):
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.provisional(positive=positive, kanji=kanji))
-
-    print()
-    for i in range(8):
-      polite = i//4 % 2 == 0
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.conditional(polite=polite, positive=positive, kanji=kanji))
-
-    print()
-    for i in range(8):
-      polite = i//4 % 2 == 0
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.potential(polite=polite, positive=positive, kanji=kanji))
-
-    print()
-    for i in range(8):
-      polite = i//4 % 2 == 0
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.causative(polite=polite, positive=positive, kanji=kanji))
-
-    print()
-    for i in range(8):
-      polite = i//4 % 2 == 0
-      positive = i//2 % 2 == 0
-      kanji = i % 2 == 0
-      print(verb.passive(polite=polite, positive=positive, kanji=kanji))
-
-    print()
-    print(verb.english_present_indicative(positive=True))
-    print(verb.english_present_indicative(positive=False))
-
-    print()
-    print(verb.english_presumptive(positive=True))
-    print(verb.english_presumptive(positive=False))
-
-    print()
-    print(verb.english_volitional())
-
-    print()
-    print(verb.english_imperative(positive=True))
-    print(verb.english_imperative(positive=False))
-
-    print()
-    print(verb.english_past_indicative(positive=True))
-    print(verb.english_past_indicative(positive=False))
-
-    print()
-    print(verb.english_past_presumptive(positive=True))
-    print(verb.english_past_presumptive(positive=False))
-
-    print()
-    print(verb.english_present_progressive(positive=True))
-    print(verb.english_present_progressive(positive=False))
-
-    print()
-    print(verb.english_past_progressive(positive=True))
-    print(verb.english_past_progressive(positive=False))
-
-    print()
-    print(verb.english_provisional(positive=True))
-    print(verb.english_provisional(positive=False))
-
-    print()
-    print(verb.english_conditional(positive=True))
-    print(verb.english_conditional(positive=False))
-
-    print()
-    print(verb.english_potential(positive=True))
-    print(verb.english_potential(positive=False))
-
-    print()
-    print(verb.english_causative(positive=True))
-    print(verb.english_causative(positive=False))
-
-    print()
-    print(verb.english_passive(positive=True))
-    print(verb.english_passive(positive=False))
+      self.assertIsInstance(verb.english_volitional(), str)
 
 if __name__ == '__main__':
   parser = ArgumentParser()
