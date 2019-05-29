@@ -404,6 +404,14 @@ class Verb:
       suffix = 'れる' if positive else 'れない'
     return base + suffix
 
+  def english_passive(self, positive=False):
+    if positive:
+      passive = 'be {}'.format(self.english['past'])
+      return re.sub('be was\\b', 'be', passive) # fix bad grammar
+    else:
+      passive = 'not be {}'.format(self.english['past'])
+      return re.sub('be was\\b', 'be', passive) # fix bad grammar
+
   def _masu(self, kanji=False):
     base = self.kanji if kanji else self.kana
     replaced = None
@@ -787,7 +795,7 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('近づく', False), "didn't get close")
     self.assertEqual(v('信じる', True), 'believed in')
     self.assertEqual(v('信じる', False), "didn't believe in")
-    self.assertEqual(v('出す', True), 'took out')
+    self.assertEqual(v('出す', True), 'taken out')
     self.assertEqual(v('出す', False), "didn't take out")
 
   def test_english_past_presumptive(self):
@@ -811,7 +819,7 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('近づく', False), "probably didn't get close")
     self.assertEqual(v('信じる', True), 'probably believed in')
     self.assertEqual(v('信じる', False), "probably didn't believe in")
-    self.assertEqual(v('出す', True), 'probably took out')
+    self.assertEqual(v('出す', True), 'probably taken out')
     self.assertEqual(v('出す', False), "probably didn't take out")
 
   def test_english_present_progressive(self):
@@ -958,6 +966,30 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('出す', True), 'make take out')
     self.assertEqual(v('出す', False), 'not make take out')
 
+  def test_english_passive(self):
+    def v(verb, positive):
+      return VERB_HASH[verb].english_passive(positive)
+    # simple verbs
+    self.assertEqual(v('歩く', True), 'be walked')
+    self.assertEqual(v('歩く', False), 'not be walked')
+    self.assertEqual(v('走る', True), 'be ran')
+    self.assertEqual(v('走る', False), 'not be ran')
+    # do verbs
+    self.assertEqual(v('合う', True), 'be did together')
+    self.assertEqual(v('合う', False), 'not be did together')
+    # be verbs
+    self.assertEqual(v('悩む', True), 'be worried')
+    self.assertEqual(v('悩む', False), 'not be worried')
+    self.assertEqual(v('見える', True), 'be able to see')
+    self.assertEqual(v('見える', False), 'not be able to see')
+    # multi word verbs
+    self.assertEqual(v('近づく', True), 'be got close')
+    self.assertEqual(v('近づく', False), 'not be got close')
+    self.assertEqual(v('信じる', True), 'be believed in')
+    self.assertEqual(v('信じる', False), 'not be believed in')
+    self.assertEqual(v('出す', True), 'be taken out')
+    self.assertEqual(v('出す', False), 'not be taken out')
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -1099,6 +1131,9 @@ def main():
     print(verb.english_causative(positive=True))
     print(verb.english_causative(positive=False))
 
+    print()
+    print(verb.english_passive(positive=True))
+    print(verb.english_passive(positive=False))
 
 if __name__ == '__main__':
   parser = ArgumentParser()
