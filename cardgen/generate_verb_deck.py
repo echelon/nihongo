@@ -357,6 +357,12 @@ class Verb:
     else:
       return base + 'る' if positive else base + 'ない'
 
+  def english_potential(self, positive=False):
+    if positive:
+      return 'can {}'.format(self.english['base'])
+    else:
+      return 'can\'t {}'.format(self.english['base'])
+
   def causative(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Causative form.
@@ -897,6 +903,30 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('出す', True), 'if one takes out')
     self.assertEqual(v('出す', False), 'if one doesn\'t take out')
 
+  def test_english_potential(self):
+    def v(verb, positive):
+      return VERB_HASH[verb].english_potential(positive)
+    # simple verbs
+    self.assertEqual(v('歩く', True), 'can walk')
+    self.assertEqual(v('歩く', False), 'can\'t walk')
+    self.assertEqual(v('走る', True), 'can run')
+    self.assertEqual(v('走る', False), 'can\'t run')
+    # do verbs
+    self.assertEqual(v('合う', True), 'can do together')
+    self.assertEqual(v('合う', False), 'can\'t do together')
+    # be verbs
+    self.assertEqual(v('悩む', True), 'can be worried')
+    self.assertEqual(v('悩む', False), 'can\'t be worried')
+    self.assertEqual(v('見える', True), 'can be able to see')
+    self.assertEqual(v('見える', False), 'can\'t be able to see')
+    # multi word verbs
+    self.assertEqual(v('近づく', True), 'can get close')
+    self.assertEqual(v('近づく', False), 'can\'t get close')
+    self.assertEqual(v('信じる', True), 'can believe in')
+    self.assertEqual(v('信じる', False), 'can\'t believe in')
+    self.assertEqual(v('出す', True), 'can take out')
+    self.assertEqual(v('出す', False), 'can\'t take out')
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -1029,6 +1059,10 @@ def main():
     print()
     print(verb.english_conditional(positive=True))
     print(verb.english_conditional(positive=False))
+
+    print()
+    print(verb.english_potential(positive=True))
+    print(verb.english_potential(positive=False))
 
 if __name__ == '__main__':
   parser = ArgumentParser()
