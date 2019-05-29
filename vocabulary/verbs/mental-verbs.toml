@@ -68,7 +68,7 @@ tags = ['common']
 kanji = '分かる'
 kana = 'わかる'
 english = 'to understand'
-english-conjugated = { base = 'understand', past = 'understood', plural = 'understands', continous = 'understanding' }
+english-conjugated = { base = 'understand', past = 'understood', plural = 'understands', continuous = 'understanding' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'

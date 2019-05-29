@@ -2,7 +2,7 @@
 kanji = '見える'
 kana = 'みえる'
 english = 'to be able to see'
-english-conjugated = { base = 'be able to see', past = 'was able to see', plural = 'are able to see', continous = 'being able to see' }
+english-conjugated = { base = 'be able to see', past = 'was able to see', plural = 'are able to see', continuous = 'being able to see' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n4'
@@ -12,7 +12,7 @@ tags = ['common']
 kanji = '見せる'
 kana = 'みせる'
 english = 'to show ~'
-english-conjugated = { base = 'show', past = 'showed', plural = 'shows', continous = 'showing' }
+english-conjugated = { base = 'show', past = 'showed', plural = 'shows', continuous = 'showing' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -22,7 +22,7 @@ tags = ['common']
 kanji = '見る'
 kana = 'みる'
 english = 'to see ~'
-english-conjugated = { base = 'see', past = 'saw', plural = 'sees', continous = 'seeing' }
+english-conjugated = { base = 'see', past = 'saw', plural = 'sees', continuous = 'seeing' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -32,7 +32,7 @@ tags = ['common']
 kanji = '読む'
 kana = 'よむ'
 english = 'to read'
-english-conjugated = { base = 'read', past = 'read', plural = 'reads', continous = 'reading' }
+english-conjugated = { base = 'read', past = 'read', plural = 'reads', continuous = 'reading' }
 verb-type = 'godan-mu'
 transitive = false
 level = 'n5'

@@ -2,7 +2,7 @@
 kanji = '怒る'
 kana = 'おこる'
 english = 'to get angry'
-english-conjugated = { base = 'get angry', past = 'got angry', plural = 'gets angry', continous = 'getting angry' }
+english-conjugated = { base = 'get angry', past = 'got angry', plural = 'gets angry', continuous = 'getting angry' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
@@ -12,7 +12,7 @@ tags = ['common']
 kanji = '泣く'
 kana = 'なく'
 english = 'to cry'
-english-conjugated = { base = 'cry', past = 'cried', plural = 'cries', continous = 'crying' }
+english-conjugated = { base = 'cry', past = 'cried', plural = 'cries', continuous = 'crying' }
 level = 'n4'
 verb-type = 'godan-ku'
 transitive = false
@@ -33,7 +33,7 @@ tags = ['common']
 kanji = '喜ぶ'
 kana = 'よろこぶ'
 english = 'to be delighted'
-english-conjugated = { base = 'be delighted', past = 'been delighted', plural = 'are delighted', continous = 'being delighted' }
+english-conjugated = { base = 'be delighted', past = 'been delighted', plural = 'are delighted', continuous = 'being delighted' }
 verb-type = 'godan-bu'
 transitive = false
 level = 'n4'

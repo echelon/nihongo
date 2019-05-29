@@ -274,6 +274,12 @@ class Verb:
       suffix = 'いる' if positive else 'いない'
     return te_form_base + suffix
 
+  def english_present_progressive(self, positive=False):
+    if positive:
+      return self.english['continuous']
+    else:
+      return 'not {}'.format(self.english['continuous'])
+
   def past_progressive(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Past Progressive form.
@@ -771,6 +777,29 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('出す', True), 'probably took out')
     self.assertEqual(v('出す', False), "probably didn't take out")
 
+  def test_english_present_progressive(self):
+    def v(verb, positive):
+      return VERB_HASH[verb].english_present_progressive(positive)
+    # simple verbs
+    self.assertEqual(v('歩く', True), 'walking')
+    self.assertEqual(v('歩く', False), 'not walking')
+    self.assertEqual(v('走る', True), 'running')
+    self.assertEqual(v('走る', False), 'not running')
+    # do verbs
+    self.assertEqual(v('合う', True), 'doing together')
+    self.assertEqual(v('合う', False), 'not doing together')
+    # be verbs
+    self.assertEqual(v('悩む', True), 'being worried')
+    self.assertEqual(v('悩む', False), 'not being worried')
+    self.assertEqual(v('見える', True), 'being able to see')
+    self.assertEqual(v('見える', False), 'not being able to see')
+    # multi word verbs
+    self.assertEqual(v('近づく', True), 'getting close')
+    self.assertEqual(v('近づく', False), 'not getting close')
+    self.assertEqual(v('信じる', True), 'believing in')
+    self.assertEqual(v('信じる', False), 'not believing in')
+    self.assertEqual(v('出す', True), 'taking out')
+    self.assertEqual(v('出す', False), 'not taking out')
 
 def main():
   print('Printing verbs:')
@@ -888,6 +917,11 @@ def main():
     print()
     print(verb.english_past_presumptive(positive=True))
     print(verb.english_past_presumptive(positive=False))
+
+    print()
+    print(verb.english_present_progressive(positive=True))
+    print(verb.english_present_progressive(positive=False))
+
 
 if __name__ == '__main__':
   parser = ArgumentParser()

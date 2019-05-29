@@ -12,7 +12,7 @@ tags = ['common']
 kanji = '履く'
 kana = 'はく'
 english = 'to put on or wear ~ (lower-body clothing)'
-english-conjugated = { base = 'wear', past = 'wore', plural = 'wears', continous = 'wearing' }
+english-conjugated = { base = 'wear', past = 'wore', plural = 'wears', continuous = 'wearing' }
 verb-type = 'godan-ku'
 transitive = true
 level = 'n3'
@@ -22,7 +22,7 @@ tags = ['common']
 kanji = '走る'
 kana = 'はしる'
 english = 'to run'
-english-conjugated = { base = 'run', past = 'ran', plural = 'runs', continous = 'running' }
+english-conjugated = { base = 'run', past = 'ran', plural = 'runs', continuous = 'running' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
