@@ -292,6 +292,12 @@ class Verb:
       suffix = 'いた' if positive else 'いなかった'
     return te_form_base + suffix
 
+  def english_past_progressive(self, positive=False):
+    if positive:
+      return 'was {}'.format(self.english['continuous'])
+    else:
+      return 'wasn\'t {}'.format(self.english['continuous'])
+
   def provisional(self, positive=False, kanji=False):
     """
     Return the verb in Provisional form.
@@ -801,6 +807,30 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('出す', True), 'taking out')
     self.assertEqual(v('出す', False), 'not taking out')
 
+  def test_english_past_progressive(self):
+    def v(verb, positive):
+      return VERB_HASH[verb].english_past_progressive(positive)
+    # simple verbs
+    self.assertEqual(v('歩く', True), 'was walking')
+    self.assertEqual(v('歩く', False), 'wasn\'t walking')
+    self.assertEqual(v('走る', True), 'was running')
+    self.assertEqual(v('走る', False), 'wasn\'t running')
+    # do verbs
+    self.assertEqual(v('合う', True), 'was doing together')
+    self.assertEqual(v('合う', False), 'wasn\'t doing together')
+    # be verbs
+    self.assertEqual(v('悩む', True), 'was being worried')
+    self.assertEqual(v('悩む', False), 'wasn\'t being worried')
+    self.assertEqual(v('見える', True), 'was being able to see')
+    self.assertEqual(v('見える', False), 'wasn\'t being able to see')
+    # multi word verbs
+    self.assertEqual(v('近づく', True), 'was getting close')
+    self.assertEqual(v('近づく', False), 'wasn\'t getting close')
+    self.assertEqual(v('信じる', True), 'was believing in')
+    self.assertEqual(v('信じる', False), 'wasn\'t believing in')
+    self.assertEqual(v('出す', True), 'was taking out')
+    self.assertEqual(v('出す', False), 'wasn\'t taking out')
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -921,6 +951,10 @@ def main():
     print()
     print(verb.english_present_progressive(positive=True))
     print(verb.english_present_progressive(positive=False))
+
+    print()
+    print(verb.english_past_progressive(positive=True))
+    print(verb.english_past_progressive(positive=False))
 
 
 if __name__ == '__main__':
