@@ -380,6 +380,13 @@ class Verb:
       suffix = 'せる' if positive else 'せない'
     return base + suffix
 
+  def english_causative(self, positive=False):
+    if positive:
+      causative = 'make {}'.format(self.english['base'])
+    else:
+      causative = 'not make {}'.format(self.english['base'])
+    return re.sub('\\sbe\\s', ' ', causative) # fix bad grammar
+
   def passive(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Passive form.
@@ -927,6 +934,30 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('出す', True), 'can take out')
     self.assertEqual(v('出す', False), 'can\'t take out')
 
+  def test_english_causative(self):
+    def v(verb, positive):
+      return VERB_HASH[verb].english_causative(positive)
+    # simple verbs
+    self.assertEqual(v('歩く', True), 'make walk')
+    self.assertEqual(v('歩く', False), 'not make walk')
+    self.assertEqual(v('走る', True), 'make run')
+    self.assertEqual(v('走る', False), 'not make run')
+    # do verbs
+    self.assertEqual(v('合う', True), 'make do together')
+    self.assertEqual(v('合う', False), 'not make do together')
+    # be verbs
+    self.assertEqual(v('悩む', True), 'make worried')
+    self.assertEqual(v('悩む', False), 'not make worried')
+    self.assertEqual(v('見える', True), 'make able to see')
+    self.assertEqual(v('見える', False), 'not make able to see')
+    # multi word verbs
+    self.assertEqual(v('近づく', True), 'make get close')
+    self.assertEqual(v('近づく', False), 'not make get close')
+    self.assertEqual(v('信じる', True), 'make believe in')
+    self.assertEqual(v('信じる', False), 'not make believe in')
+    self.assertEqual(v('出す', True), 'make take out')
+    self.assertEqual(v('出す', False), 'not make take out')
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -1063,6 +1094,11 @@ def main():
     print()
     print(verb.english_potential(positive=True))
     print(verb.english_potential(positive=False))
+
+    print()
+    print(verb.english_causative(positive=True))
+    print(verb.english_causative(positive=False))
+
 
 if __name__ == '__main__':
   parser = ArgumentParser()
