@@ -313,6 +313,14 @@ class Verb:
       verb = self.present_indicative(polite=False, positive=False, kanji=kanji)
       return re.sub('い$', 'ければ', verb)
 
+  def english_provisional(self, positive=False):
+    if positive:
+      provisional = 'if one {}'.format(self.english['plural'])
+      return re.sub('one are\\b', 'one is', provisional) # fix bad grammar
+    else:
+      provisional = 'if one doesn\'t {}'.format(self.english['base'])
+      return re.sub('doesn\'t be\\b', 'isn\'t', provisional) # fix bad grammar
+
   def conditional(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Conditional form.
@@ -831,6 +839,30 @@ class TestEnglishVerbConjugation(unittest.TestCase):
     self.assertEqual(v('出す', True), 'was taking out')
     self.assertEqual(v('出す', False), 'wasn\'t taking out')
 
+  def test_english_provisional(self):
+    def v(verb, positive):
+      return VERB_HASH[verb].english_provisional(positive)
+    # simple verbs
+    self.assertEqual(v('歩く', True), 'if one walks')
+    self.assertEqual(v('歩く', False), 'if one doesn\'t walk')
+    self.assertEqual(v('走る', True), 'if one runs')
+    self.assertEqual(v('走る', False), 'if one doesn\'t run')
+    # do verbs
+    self.assertEqual(v('合う', True), 'if one does together')
+    self.assertEqual(v('合う', False), 'if one doesn\'t do together')
+    # be verbs
+    self.assertEqual(v('悩む', True), 'if one is worried')
+    self.assertEqual(v('悩む', False), 'if one isn\'t worried')
+    self.assertEqual(v('見える', True), 'if one is able to see')
+    self.assertEqual(v('見える', False), 'if one isn\'t able to see')
+    # multi word verbs
+    self.assertEqual(v('近づく', True), 'if one gets close')
+    self.assertEqual(v('近づく', False), 'if one doesn\'t get close')
+    self.assertEqual(v('信じる', True), 'if one believes in')
+    self.assertEqual(v('信じる', False), 'if one doesn\'t believe in')
+    self.assertEqual(v('出す', True), 'if one takes out')
+    self.assertEqual(v('出す', False), 'if one doesn\'t take out')
+
 def main():
   print('Printing verbs:')
   print(len(verbs))
@@ -955,6 +987,10 @@ def main():
     print()
     print(verb.english_past_progressive(positive=True))
     print(verb.english_past_progressive(positive=False))
+
+    print()
+    print(verb.english_provisional(positive=True))
+    print(verb.english_provisional(positive=False))
 
 
 if __name__ == '__main__':

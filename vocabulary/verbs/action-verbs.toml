@@ -24,7 +24,7 @@ tags = ['common']
 kanji = '近づく'
 kana = 'ちかづく'
 english = 'to get close to; to approach'
-english-conjugated = { base = 'get close', past = 'got close', plural = 'get close', continuous = 'getting close' }
+english-conjugated = { base = 'get close', past = 'got close', plural = 'gets close', continuous = 'getting close' }
 verb-type = 'godan-ku'
 transitive = false
 source = 'wanikani'
