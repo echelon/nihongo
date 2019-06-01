@@ -524,7 +524,7 @@ class Conjugation:
     self.has_negative = has_negative
     self.has_polite = has_polite
 
-  def field_name_prefix(self):
+  def conjugation_name(self):
     return self.name.strip().lower().replace(' ', '_')
 
   # TODO: Test
@@ -535,7 +535,7 @@ class Conjugation:
     # ordering here directly maps to field numberings.
     fields = []
 
-    prefix = self.field_name_prefix() + '_'
+    prefix = self.conjugation_name() + '_'
 
     fields.extend([
       prefix + 'plain_positive_kanji',
@@ -560,6 +560,54 @@ class Conjugation:
         ])
 
     return fields
+
+  def map_verb_fields(self, verb):
+    # NB: DO NOT CHANGE THE ORDER. APPEND ONLY.
+    # I have not tested this, but Anki has the potential to lose SRS data
+    # or get cards/fields out of sync if the field numbers change. The
+    # ordering here directly maps to field numberings.
+    field_values = []
+
+    # TODO: Instead of having one monolithic class 'Verb', have a base class
+    # and then subclasses that implement each conjugation's rules. Then we
+    # don't need to dynamic dispatch, you can just call `conjugate(...)`.
+    method_name = self.conjugation_name()
+    method = getattr(verb, method_name)
+
+    if self.has_polite:
+      if self.has_negative:
+        field_values.extend([
+          method(polite=False, positive=True, kanji=True),
+          method(polite=False, positive=True, kanji=False),
+          method(polite=False, positive=False, kanji=True),
+          method(polite=False, positive=False, kanji=False),
+          method(polite=True, positive=True, kanji=True),
+          method(polite=True, positive=True, kanji=False),
+          method(polite=True, positive=False, kanji=True),
+          method(polite=True, positive=False, kanji=False),
+        ])
+      else:
+        field_values.extend([
+          method(polite=False, kanji=True),
+          method(polite=False, kanji=False),
+          method(polite=True, kanji=True),
+          method(polite=True, kanji=False),
+        ])
+    else:
+      if self.has_negative:
+        field_values.extend([
+          method(positive=True, kanji=True),
+          method(positive=True, kanji=False),
+          method(positive=False, kanji=True),
+          method(positive=False, kanji=False),
+        ])
+      else:
+        field_values.extend([
+          method(kanji=True),
+          method(kanji=False),
+        ])
+
+    return field_values
 
 # NB: DO NOT CHANGE THE ORDER. APPEND ONLY.
 # I have not tested this, but Anki has the potential to lose SRS data
@@ -1241,7 +1289,34 @@ class TestConjugator(unittest.TestCase):
         'fake_verb_form_plain_positive_kana',
       ])
 
+  def test_field_mapping(self):
+    c = Conjugation('Present Indicative')
+    self.assertListEqual(c.map_verb_fields(VERB_HASH['歩く']), [
+        '歩く',
+        'あるく',
+        '歩かない',
+        'あるかない',
+        '歩きます',
+        'あるきます',
+        '歩きません',
+        'あるきません',
+      ])
 
+    c = Conjugation('Volitional', has_negative=False)
+    self.assertListEqual(c.map_verb_fields(VERB_HASH['信じる']), [
+        '信じよう',
+        'しんじよう',
+        '信じましょう',
+        'しんじましょう',
+      ])
+
+    c = Conjugation('Provisional', has_polite=False)
+    self.assertListEqual(c.map_verb_fields(VERB_HASH['合う']), [
+        '合えば',
+        'あえば',
+        '合わなければ',
+        'あわなければ',
+      ])
 
 if __name__ == '__main__':
   parser = ArgumentParser()
