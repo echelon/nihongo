@@ -1318,6 +1318,15 @@ class TestConjugator(unittest.TestCase):
         'あわなければ',
       ])
 
+  def test_all_verbs_can_conjugate(self):
+    tested_cases = 0
+    for conjugation in CONJUGATIONS:
+      for verb in VERB_HASH.values():
+        self.assertGreater(len(conjugation.map_verb_fields(verb)), 0)
+        tested_cases += 1
+
+    self.assertGreater(tested_cases, 200)
+
 if __name__ == '__main__':
   parser = ArgumentParser()
   parser.add_argument('--test', help='run the unit tests', action="store_true")
