@@ -479,12 +479,9 @@ KANJI_CARD_MODEL = genanki.Model(
   fields=[
     # NB: Make changes to the Anki deck model fields using the
     # Anki interface first, or imports won't work as expected.
-    {'name': 'Kanji'},
-    {'name': 'Kana'},
-    {'name': 'English'},
-    {'name': 'Make Furigana Card?'},
-    {'name': 'Make Kanji Card?'},
-    {'name': 'Make Hiragana-only Card?'},
+    {'name': 'base_kanji'},
+    {'name': 'base_kana'},
+    {'name': 'base_english'},
   ],
   # NB: Add or remove templates (with the same names) using the
   # Anki interface first, or imports won't work as expected.
@@ -522,7 +519,7 @@ KANJI_CARD_MODEL = genanki.Model(
   ''')
 
 class Conjugation:
-  def __init__(self, name, has_negative: True, has_polite: True):
+  def __init__(self, name, has_negative=True, has_polite=True):
     self.name = name
     self.has_negative = has_negative
     self.has_polite = has_polite
@@ -531,35 +528,35 @@ class Conjugation:
     return self.name.strip().lower().replace(' ', '_')
 
   # TODO: Test
-  def get_field_names(self):
+  def field_names(self):
     # NB: DO NOT CHANGE THE ORDER. APPEND ONLY.
     # I have not tested this, but Anki has the potential to lose SRS data
     # or get cards/fields out of sync if the field numbers change. The
     # ordering here directly maps to field numberings.
     fields = []
 
-    prefix = self.field_name_prefix + '_'
+    prefix = self.field_name_prefix() + '_'
 
     fields.extend([
-      prefix + '_plain_positive_kanji',
-      prefix + '_plain_positive_kana',
+      prefix + 'plain_positive_kanji',
+      prefix + 'plain_positive_kana',
     ])
 
     if self.has_negative:
       fields.extend([
-        prefix + '_plain_negative_kanji',
-        prefix + '_plain_negative_kana',
+        prefix + 'plain_negative_kanji',
+        prefix + 'plain_negative_kana',
       ])
 
     if self.has_polite:
       fields.extend([
-        prefix + '_polite_positive_kanji',
-        prefix + '_polite_positive_kana',
+        prefix + 'polite_positive_kanji',
+        prefix + 'polite_positive_kana',
       ])
       if self.has_negative:
         fields.extend([
-          prefix + '_polite_negative_kanji',
-          prefix + '_polite_negative_kana',
+          prefix + 'polite_negative_kanji',
+          prefix + 'polite_negative_kana',
         ])
 
     return fields
@@ -1210,10 +1207,39 @@ class TestJapaneseVerbConjugation(unittest.TestCase):
 class TestConjugator(unittest.TestCase):
 
   def test_field_ordering(self):
-    c = Conjugation('Present Indicative'),
+    c = Conjugation('Present Indicative')
+    self.assertListEqual(c.field_names(), [
+        'present_indicative_plain_positive_kanji',
+        'present_indicative_plain_positive_kana',
+        'present_indicative_plain_negative_kanji',
+        'present_indicative_plain_negative_kana',
+        'present_indicative_polite_positive_kanji',
+        'present_indicative_polite_positive_kana',
+        'present_indicative_polite_negative_kanji',
+        'present_indicative_polite_negative_kana',
+      ])
 
-    Conjugation('Presumptive'),
-    Conjugation('Volitional', has_negative=False),
+    c = Conjugation('Volitional', has_negative=False)
+    self.assertListEqual(c.field_names(), [
+        'volitional_plain_positive_kanji',
+        'volitional_plain_positive_kana',
+        'volitional_polite_positive_kanji',
+        'volitional_polite_positive_kana',
+      ])
+
+    c = Conjugation('Provisional', has_polite=False)
+    self.assertListEqual(c.field_names(), [
+        'provisional_plain_positive_kanji',
+        'provisional_plain_positive_kana',
+        'provisional_plain_negative_kanji',
+        'provisional_plain_negative_kana',
+      ])
+
+    c = Conjugation('Fake Verb Form', has_polite=False, has_negative=False)
+    self.assertListEqual(c.field_names(), [
+        'fake_verb_form_plain_positive_kanji',
+        'fake_verb_form_plain_positive_kana',
+      ])
 
 
 
