@@ -486,6 +486,10 @@ class Conjugation:
 
     prefix = self.conjugation_name() + '_'
 
+    fields.append(prefix + 'english_positive')
+    if self.has_negative:
+      fields.append(prefix + 'english_negative')
+
     fields.extend([
       prefix + 'plain_positive_kanji',
       prefix + 'plain_positive_kana',
@@ -521,11 +525,15 @@ class Conjugation:
     # and then subclasses that implement each conjugation's rules. Then we
     # don't need to dynamic dispatch, you can just call `conjugate(...)`.
     method_name = self.conjugation_name()
+    english_method_name = 'english_' + method_name
     method = getattr(verb, method_name)
+    english_method = getattr(verb, english_method_name)
 
     if self.has_polite:
       if self.has_negative:
         field_values.extend([
+          english_method(positive=True),
+          english_method(positive=False),
           method(polite=False, positive=True, kanji=True),
           method(polite=False, positive=True, kanji=False),
           method(polite=False, positive=False, kanji=True),
@@ -537,6 +545,7 @@ class Conjugation:
         ])
       else:
         field_values.extend([
+          english_method(),
           method(polite=False, kanji=True),
           method(polite=False, kanji=False),
           method(polite=True, kanji=True),
@@ -545,6 +554,8 @@ class Conjugation:
     else:
       if self.has_negative:
         field_values.extend([
+          english_method(positive=True),
+          english_method(positive=False),
           method(positive=True, kanji=True),
           method(positive=True, kanji=False),
           method(positive=False, kanji=True),
@@ -552,6 +563,7 @@ class Conjugation:
         ])
       else:
         field_values.extend([
+          english_method(),
           method(kanji=True),
           method(kanji=False),
         ])
