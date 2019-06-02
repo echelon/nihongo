@@ -122,6 +122,8 @@ class Verb:
     self.kanji = verb_dict['kanji']
     self.kana = verb_dict['kana']
 
+    self.english_summary = verb_dict['english']
+
     english = {}
     if 'english-conjugated' in verb_dict:
       english = verb_dict['english-conjugated']
@@ -465,58 +467,6 @@ class Verb:
 
 VERB_HASH = { verb['kanji'] : Verb(verb) for verb in verbs }
 
-# use random.randrange(1 << 30, 1 << 31) to generate a suitable model_id,
-# and hardcode it into your Model definition.
-
-KANJI_CARD_DECK = genanki.Deck(
-  2000002000, # XXX: DO NOT CHANGE
-  'Generated Japanese Verb Conjugation') # XXX: DO NOT CHANGE
-
-KANJI_CARD_MODEL = genanki.Model(
-  2000002001, # XXX: DO NOT CHANGE
-  'Generated Japanese Verb Conjugation Model', # The name of the model can change.
-  fields=[
-    # NB: Make changes to the Anki deck model fields using the
-    # Anki interface first, or imports won't work as expected.
-    {'name': 'base_kanji'},
-    {'name': 'base_kana'},
-    {'name': 'base_english'},
-  ],
-  # NB: Add or remove templates (with the same names) using the
-  # Anki interface first, or imports won't work as expected.
-  templates=[
-    # Card 1 - Front: English; Back: English + Kanji + Kana
-    {
-      'name': 'English',
-      'qfmt': '{{English}}',
-      'afmt': '''
-{{English}}
-
-<hr id="answer">
-
-<div>{{Kanji}}</div>
-<div id="hint">{{Kana}}</div>
-'''
-    },
-  ],
-  css = '''
-.card {
-  font-family: arial;
-  font-size: 20px;
-  text-align: center;
-  color: black;
-  background-color: white;
-}
-
-#hint {
-  color: #00f;
-}
-
-#hint div {
-  display: inline;
-}
-  ''')
-
 class Conjugation:
   def __init__(self, name, has_negative=True, has_polite=True):
     self.name = name
@@ -608,6 +558,7 @@ class Conjugation:
 
     return field_values
 
+# TODO: Test that order does not change.
 # NB: DO NOT CHANGE THE ORDER. APPEND ONLY.
 # I have not tested this, but Anki has the potential to lose SRS data
 # or get cards/fields out of sync if the field numbers change. The
@@ -628,40 +579,95 @@ CONJUGATIONS = [
   Conjugation('Passive'),
 ]
 
+# use random.randrange(1 << 30, 1 << 31) to generate a suitable model_id,
+# and hardcode it into your Model definition.
+
+VERB_CARD_DECK = genanki.Deck(
+  2000002000, # XXX: DO NOT CHANGE
+  'Generated Japanese Verb Conjugation') # XXX: DO NOT CHANGE
+
+MODEL_FIELDS = [
+  # NB: Make changes to the Anki deck model fields using the
+  # Anki interface first, or imports won't work as expected.
+  {'name': 'base_kanji'},
+  {'name': 'base_kana'},
+  {'name': 'base_english'},
+]
+
+for conjugation in CONJUGATIONS:
+  fields = [{'name': field_name } for field_name in conjugation.field_names()]
+  MODEL_FIELDS.extend(fields)
+
+VERB_CARD_MODEL = genanki.Model(
+  # XXX: DO NOT CHANGE
+  2000002001,
+
+  # The name of the model can change.
+  'Generated Japanese Verb Conjugation Model',
+
+  # NB: Make changes to the Anki deck model fields using the
+  # Anki interface first, or imports won't work as expected.
+  fields=MODEL_FIELDS,
+
+  # NB: Add or remove templates (with the same names) using the
+  # Anki interface first, or imports won't work as expected.
+  templates=[
+    # Card 1 - Front: English; Back: English + Kanji + Kana
+    {
+      'name': 'English',
+      'qfmt': '{{English}}',
+      'afmt': '''
+{{English}}
+
+<hr id="answer">
+
+<div>{{Kanji}}</div>
+<div id="hint">{{Kana}}</div>
+'''
+    },
+  ],
+  css = '''
+.card {
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+#hint {
+  color: #00f;
+}
+
+#hint div {
+  display: inline;
+}
+  ''')
+
 class Note(genanki.Note):
   def __init__(self, verb):
-    #self.kanji = verb_dict['kanji']
-    #self.kana = verb_dict['kana']
-    #self.english = verb_dict['english']
+    self.kanji = verb.kanji
+    self.kana = verb.kana
+    self.english_summary = verb.english_summary
     #self.level = verb_dict['level'] if 'level' in verb_dict else None
     #self.tags = verb_dict['tags'] if 'tags' in verb_dict else []
+    self.tags = ['verb']
 
-    if self.level:
-      self.tags.append(self.level)
-
-    if 'make_kanji_card' in verb_dict and verb_dict['make_kanji_card']:
-      self.make_kanji_card = 'y'
-      self.make_furigana_card = ''
-    else:
-      self.make_kanji_card = ''
-      self.make_furigana_card = 'y'
-
-    if 'make_hiragana_only_card' in verb_dict and verb_dict['make_hiragana_only_card']:
-      self.make_hiragana_only_card = 'y'
-    else:
-      self.make_hiragana_only_card = ''
-
-    sort_field = self.kana
+    #if self.level:
+    #  self.tags.append(self.level)
 
     # NB: Must match order of model.
     fields = [
-      self.base_kanji,
-      self.base_kana,
-      self.base_english,
-      self.level,
+      self.kanji,
+      self.kana,
+      self.english_summary,
+      #self.level,
     ]
 
-    super().__init__(model=KANJI_CARD_MODEL,
+    for conjugation in CONJUGATIONS:
+      fields.extend(conjugation.map_verb_fields(verb))
+
+    super().__init__(model=VERB_CARD_MODEL,
         fields=fields,
         sort_field=self.kana,
         tags=self.tags,
@@ -671,13 +677,20 @@ class Note(genanki.Note):
   def guid(self):
     return genanki.guid_for(self.kanji, self.kana)
 
-  def card_count(self):
-    if self.make_kanji_card == 'y':
-      if self.make_hiragana_only_card == 'y':
-        return 3
-      else:
-        return 2
-    return 2
+  #def card_count(self):
+  #  if self.make_kanji_card == 'y':
+  #    if self.make_hiragana_only_card == 'y':
+  #      return 3
+  #    else:
+  #      return 2
+  #  return 2
+
+def main():
+  for verb in VERB_HASH.values():
+    note = Note(verb)
+    VERB_CARD_DECK.add_note(note)
+
+  genanki.Package(VERB_CARD_DECK).write_to_file(OUTPUT_FILENAME)
 
 if __name__ == '__main__':
   parser = ArgumentParser()
