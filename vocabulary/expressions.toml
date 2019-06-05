@@ -28,6 +28,13 @@ level = 'n2'
 tags = ['common', 'expression', 'ichidan-verb']
 
 [[cards]]
+kanji = 'すれば'
+kana = 'すれば'
+english = 'if so'
+source = 'wanikani; anime'
+tags = ['common', 'expression']
+
+[[cards]]
 kanji = 'そう言えば'
 kana = 'そういえば'
 english = 'if you say so; now that you mention it'
@@ -49,6 +56,14 @@ kana = 'それでは'
 english = 'well then...; in that case...'
 level = 'n5'
 tags = ['common', 'expression']
+
+[[cards]]
+kanji = '努めて'
+kana = 'つとめて'
+english = 'as much as possible'
+source = 'wanikani'
+level = 'n1'
+tags = ['adverb', 'common']
 
 [[cards]]
 kanji = 'どれ位'

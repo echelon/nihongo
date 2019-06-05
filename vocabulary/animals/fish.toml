@@ -6,6 +6,13 @@ level = 'n2'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '鮫'
+kana = 'さめ'
+english = 'shark'
+source = 'wanikani'
+tags = ['animals', 'common', 'fish']
+
+[[cards]]
 kanji = '鮪'
 kana = 'まぐろ'
 english = 'tuna'

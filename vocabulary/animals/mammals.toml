@@ -13,6 +13,14 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '馬'
+kana = 'うま'
+english = 'horse'
+source = 'irasshai'
+level = 'n3'
+tags = ['animal', 'common', 'domesticated', 'mammal', 'noun']
+
+[[cards]]
 kanji = '狼'
 kana = 'おおかみ'
 english = 'wolf'

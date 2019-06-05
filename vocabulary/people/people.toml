@@ -297,6 +297,14 @@ level = 'n3'
 tags = ['common', 'na-adjective', 'noun']
 
 [[cards]]
+kanji = '髭'
+kana = 'ひげ'
+english = 'mustache'
+source = 'irasshai'
+level = 'n4'
+tags = ['body', 'common', 'facial-hair', 'noun', 'people', 'style']
+
+[[cards]]
 kanji = '人'
 kana = 'ひと'
 english = 'man; person'

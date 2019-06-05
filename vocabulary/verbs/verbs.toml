@@ -503,6 +503,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '支える'
+kana = 'ささえる'
+english = 'to support ~'
+english-conjugated = { base = 'support', past = 'supported', plural = 'supports', continuous = 'supporting' }
+verb-type = 'ichidan'
+transitive = true
+source = 'wanikani'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
 kanji = '死ぬ'
 kana = 'しぬ'
 english = 'to die'
@@ -510,6 +521,17 @@ english-conjugated = { plural = 'dies', past = 'died', continuous = 'dying', bas
 verb-type = 'godan-nu'
 transitive = false
 source = 'n5-study'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '住む'
+kana = 'すむ'
+english = 'to reside; to live'
+english-conjugated = { base = 'reside', past = 'resided', plural = 'resides', continuous = 'residing' }
+verb-type = 'godan-mu'
+transitive = false
+source = 'irasshai'
 level = 'n5'
 tags = ['common']
 
@@ -543,6 +565,17 @@ verb-type = 'godan-su'
 transitive = true
 source = 'nihongo-charenji-n4-kotoba'
 level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '助ける'
+kana = 'たすける'
+english = 'to save ~; to rescue ~'
+english-conjugated = { base = 'save', past = 'saved', plural = 'saves', continuous = 'saving' }
+verb-type = 'ichidan'
+transitive = true
+source = 'irasshai; anime'
+level = 'n3'
 tags = ['common']
 
 [[cards]]

@@ -19,3 +19,15 @@ english = 'sugar'
 level = 'n5'
 tags = []
 
+[[cards]]
+kanji = 'チョコ'
+kana = 'チョコ'
+english = 'chocolate (shortened)'
+tags = ['candy', 'common', 'noun', 'sweets']
+
+[[cards]]
+kanji = 'チョコレート'
+kana = 'チョコレート'
+english = 'chocolate'
+tags = ['candy', 'common', 'noun', 'sweets']
+

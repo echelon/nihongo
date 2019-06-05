@@ -188,6 +188,13 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '大声'
+kana = 'おおごえ'
+english = 'loud voice'
+source = 'wanikani'
+tags = ['common', 'communication', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '贈り物'
 kana = 'おくりもの'
 english = 'present; gift'
@@ -879,6 +886,14 @@ english = 'freedom'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'expression', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '助言'
+kana = 'じょげん'
+english = 'advice'
+source = 'wanikani'
+level = 'n1'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '女性'
@@ -1716,6 +1731,14 @@ source = 'wanikani'
 tags = ['common', 'noun', 'person']
 
 [[cards]]
+kanji = '迷惑'
+kana = 'めいわく'
+english = 'trouble; nuisance'
+source = 'wanikani; anime'
+level = 'n3'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
 kanji = '目茶苦茶'
 kana = 'めちゃくちゃ'
 english = 'absurd; unreasonable'
@@ -1782,6 +1805,14 @@ kana = 'やっぱり'
 english = 'as expected; in any case; still'
 source = 'bonobono-anime'
 level = 'n2'
+tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '矢張り'
+kana = 'やはり'
+english = 'likewise; as expected'
+source = 'n4-vocab'
+level = 'n3'
 tags = ['adverb', 'common']
 
 [[cards]]

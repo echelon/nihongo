@@ -1,4 +1,11 @@
 [[cards]]
+kanji = '医大'
+kana = 'いだい'
+english = 'medical university'
+source = 'wanikani'
+tags = ['common', 'noun', 'place', 'school']
+
+[[cards]]
 kanji = '鉛筆'
 kana = 'えんぴつ'
 english = 'pencil'
@@ -47,6 +54,14 @@ kana = 'きょうしつ'
 english = 'classroom'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '経済'
+kana = 'けいざい'
+english = 'economics; business; finance'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '高校'
