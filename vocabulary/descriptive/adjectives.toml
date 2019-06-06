@@ -147,6 +147,14 @@ level = 'n5'
 tags = ['common', 'i-adjectives']
 
 [[cards]]
+kanji = '厳しい'
+kana = 'きびしい'
+english = 'strict, unsparing'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'i-adjective']
+
+[[cards]]
 kanji = '綺麗'
 kana = 'きれい'
 english = 'pretty; clean; tidy'

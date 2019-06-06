@@ -133,6 +133,14 @@ english = 'foreigner (less polite)'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '学者'
+kana = 'がくしゃ'
+english = 'scholar'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun', 'people']
+
+[[cards]]
 kanji = '警官'
 kana = 'けいかん'
 english = 'police'
@@ -147,19 +155,12 @@ level = 'n5'
 tags = ['common', 'noun', 'people']
 
 [[cards]]
-kanji = '作者'
-kana = 'さくしゃ'
-english = 'author (of a particular work)'
-level = 'n2'
-source = 'read-nihon'
-tags = ['common', 'people']
-
-[[cards]]
-kanji = '作家'
-kana = 'さっか'
-english = 'author (profession)'
-level = 'n3'
-tags = ['common', 'people']
+kanji = '市民'
+kana = 'しみん'
+english = 'citizen; city inhabitant'
+source = 'n4-vocab'
+level = 'n4'
+tags = ['common', 'noun', 'people']
 
 [[cards]]
 kanji = '社長'

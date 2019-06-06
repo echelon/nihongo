@@ -526,6 +526,14 @@ level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 
 [[cards]]
+kanji = '決心'
+kana = 'けっしん'
+english = 'determination'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '煙'
 kana = 'けむり'
 english = 'smoke; fumes'
@@ -600,6 +608,14 @@ english = 'traffic'
 level = 'n4'
 source = 'nihongo-sou-matome'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '公平'
+kana = 'こうへい'
+english = 'fairness'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'na-adjective', 'noun']
 
 [[cards]]
 kanji = '公用'
@@ -758,6 +774,14 @@ kana = 'しゅるい'
 english = 'category; type; kind'
 source = 'wanikani'
 level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '詳細'
+kana = 'しょうさい'
+english = 'details'
+source = 'wanikani'
+level = 'n1'
 tags = ['common', 'noun']
 
 [[cards]]
@@ -1961,6 +1985,14 @@ english = 'freeze/freezing; cold storage; refridgeration'
 level = 'n2'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '連絡'
+kana = 'れんらく'
+english = 'contact; get in touch'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'no-adjective', 'suru-verb']
 
 [[cards]]
 kanji = '割引'

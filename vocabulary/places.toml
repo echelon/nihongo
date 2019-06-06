@@ -14,6 +14,14 @@ level = 'n4'
 tags = ['common', 'places', 'travel']
 
 [[cards]]
+kanji = '住所'
+kana = 'じゅうしょ'
+english = 'address (of a house); residence'
+source = 'irasshai?; wanikani; japanese forms'
+level = 'n4'
+tags = ['common', 'noun', 'places']
+
+[[cards]]
 kanji = '世界'
 kana = 'せかい'
 english = 'the world'

@@ -1,0 +1,31 @@
+[[cards]]
+kanji = '作者'
+kana = 'さくしゃ'
+english = 'author (of a particular work)'
+level = 'n2'
+source = 'read-nihon'
+tags = ['books', 'common', 'people', 'writing']
+
+[[cards]]
+kanji = '作家'
+kana = 'さっか'
+english = 'author (profession)'
+level = 'n3'
+tags = ['books', 'common', 'people', 'writing']
+
+[[cards]]
+kanji = '小説'
+kana = 'しょうせつ'
+english = 'novel; short story'
+source = 'wanikani'
+level = 'n4'
+tags = ['books', 'common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '本'
+kana = 'ほん'
+english = 'book'
+source = 'irasshai'
+level = 'n5'
+tags = ['common', 'noun']
+

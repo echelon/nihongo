@@ -172,6 +172,21 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '卒業'
+kana = 'そつぎょう'
+english = 'graduation'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'noun', 'school', 'suru-verb']
+
+[[cards]]
+kanji = '卒業生'
+kana = 'そつぎょうせい'
+english = 'graduate; alumnus'
+source = 'jisho'
+tags = ['common', 'noun', 'school', 'suru-verb']
+
+[[cards]]
 kanji = '大学'
 kana = 'だいがく'
 english = 'university'
@@ -284,13 +299,6 @@ tags = []
 kanji = '勉強'
 kana = 'べんきょう'
 english = 'study; diligence'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '本'
-kana = 'ほん'
-english = 'book'
 level = 'n5'
 tags = []
 
