@@ -570,6 +570,71 @@ class Conjugation:
 
     return field_values
 
+  # TODO: Test
+  # FIXME: cleanup
+  def templates(self):
+    # NB: DO NOT CHANGE THE ORDER. APPEND ONLY.
+    templates = []
+
+    prefix = self.conjugation_name() + '_'
+
+    templates.extend(self.card_templates(prefix + 'english_positive', prefix + 'plain_positive_'))
+
+    if self.has_negative:
+      templates.extend(self.card_templates(prefix + 'english_negative', prefix + 'plain_negative_'))
+
+
+    if self.has_polite:
+      templates.extend(self.card_templates(prefix + 'english_positive', prefix + 'polite_positive_'))
+
+      if self.has_negative:
+        templates.extend(self.card_templates(prefix + 'english_negative',
+          prefix + 'polite_negative_'))
+
+    return templates
+
+  def card_templates(self, question_field, answer_field):
+    templates = []
+    templates.append(self.card_template(question_field, answer_field))
+    templates.append(self.card_template(answer_field, question_field))
+    return templates
+
+  # TODO/FIXME: This is really gross, but I want to finish this...
+  def card_template(self, question_field, answer_field):
+    card_name = question_field # FIXME: Gross.
+
+    question = question_field
+    if question_field.endswith('_'): # FIXME: Awful heuristic
+      question = '{}kanji ({}kana)'
+
+    answer = answer_field
+    if answer_field.endswith('_'):
+      answer = '{}kanji ({}kana)'
+
+    if 'polite' in answer:
+      question += ' (polite)'
+    elif 'plain' in answer:
+      question += ' (plain)'
+
+    return {
+      'name': card_name,
+      'qfmt': '{{{}}}'.format(question),
+      'afmt': '''
+{{question}}
+
+<hr id="answer">
+
+{{answer}}
+
+<br>
+
+<div>{{base_kanji}}</div>
+<div>{{base_kana}}</div>
+<div>{{base_english}}</div>
+'''.format(question, answer),
+  }
+
+
 # TODO: Test that order does not change.
 # NB: DO NOT CHANGE THE ORDER. APPEND ONLY.
 # I have not tested this, but Anki has the potential to lose SRS data
@@ -606,9 +671,14 @@ MODEL_FIELDS = [
   {'name': 'base_english'},
 ]
 
+TEMPLATES = []
+
 for conjugation in CONJUGATIONS:
   fields = [{'name': field_name } for field_name in conjugation.field_names()]
   MODEL_FIELDS.extend(fields)
+
+  TEMPLATES.extend(conjugation.templates())
+
 
 VERB_CARD_MODEL = genanki.Model(
   # XXX: DO NOT CHANGE
@@ -623,21 +693,8 @@ VERB_CARD_MODEL = genanki.Model(
 
   # NB: Add or remove templates (with the same names) using the
   # Anki interface first, or imports won't work as expected.
-  templates=[
-    # Card 1 - Front: English; Back: English + Kanji + Kana
-    {
-      'name': 'English',
-      'qfmt': '{{English}}',
-      'afmt': '''
-{{English}}
+  templates=TEMPLATES,
 
-<hr id="answer">
-
-<div>{{Kanji}}</div>
-<div id="hint">{{Kana}}</div>
-'''
-    },
-  ],
   css = '''
 .card {
   font-family: arial;
