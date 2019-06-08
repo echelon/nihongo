@@ -730,6 +730,7 @@ class Note(genanki.Note):
   def __init__(self, verb):
     self.kanji = verb.kanji
     self.kana = verb.kana
+    self.group = verb.group
     self.english_summary = verb.english_summary
     #self.level = verb_dict['level'] if 'level' in verb_dict else None
     #self.tags = verb_dict['tags'] if 'tags' in verb_dict else []
@@ -757,7 +758,9 @@ class Note(genanki.Note):
 
   @property
   def guid(self):
-    return genanki.guid_for(self.kanji, self.kana)
+    # These can actually match across decks and models, so be careful! If you use the
+    # same guid for notes in another model/deck, you'll confuse Anki on import.
+    return genanki.guid_for('verb_conjugation', self.kanji, self.kana, self.group)
 
   #def card_count(self):
   #  if self.make_kanji_card == 'y':
