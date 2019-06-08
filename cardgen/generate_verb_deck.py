@@ -605,33 +605,46 @@ class Conjugation:
 
     question = question_field
     if question_field.endswith('_'): # FIXME: Awful heuristic
-      question = '{}kanji ({}kana)'
+      question = '{{{{{}kanji}}}} ({{{{{}kana}}}})'.format(question, question)
 
     answer = answer_field
     if answer_field.endswith('_'):
-      answer = '{}kanji ({}kana)'
+      answer = '{{{{{}kanji}}}} ({{{{{}kana}}}})'.format(answer, answer)
+    else:
+      # English
+      answer = '{{{{{}}}}}'.format(answer)
 
+    # English prompts
     if 'polite' in answer:
-      question += ' (polite)'
+      question = '{{{{{}}}}} (polite)'.format(question)
     elif 'plain' in answer:
-      question += ' (plain)'
+      question = '{{{{{}}}}} (plain)'.format(question)
 
+    print(question, answer)
     return {
       'name': card_name,
       'qfmt': '{{{}}}'.format(question),
       'afmt': '''
-{{question}}
+{question}
 
 <hr id="answer">
 
-{{answer}}
+{answer}
 
 <br>
 
-<div>{{base_kanji}}</div>
-<div>{{base_kana}}</div>
-<div>{{base_english}}</div>
-'''.format(question, answer),
+<table>
+  <tr>
+    <td>{{{{base_kanji}}}}</td>
+  </tr>
+  <tr>
+    <td>{{{{base_kana}}}}</td>
+  </tr>
+  <tr>
+    <td>{{{{base_english}}}}</td>
+  </tr>
+</table>
+'''.format(question=question, answer=answer),
   }
 
 
