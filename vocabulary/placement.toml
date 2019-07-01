@@ -1,0 +1,71 @@
+[[cards]]
+kanji = '上'
+kana = 'うえ'
+english = 'above; up; on top of'
+level = 'n5'
+tags = ['adverbial-noun', 'common', 'no-adjective', 'noun', 'noun-suffix']
+
+[[cards]]
+kanji = '後ろ'
+kana = 'うしろ'
+english = 'behind'
+level = 'n5'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '表'
+kana = 'おもて'
+english = 'surface; front; outside; face'
+source = 'wanikani; anime'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '下'
+kana = 'した'
+english = 'below; under; bottom'
+level = 'n5'
+tags = ['common', 'no-adjective', 'noun', 'noun-prefix']
+
+[[cards]]
+kanji = '外'
+kana = 'そと'
+english = 'outside; exterior'
+level = 'n5'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '側'
+kana = 'そば'
+english = 'near; close; vicinity'
+level = 'n5'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '近く'
+kana = 'ちかく'
+english = 'near; vicinity'
+level = 'n5'
+tags = ['adverbial-noun', 'common', 'no-adjective']
+
+[[cards]]
+kanji = '中'
+kana = 'なか'
+english = 'inside; middle; center; among'
+level = 'n5'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '前'
+kana = 'まえ'
+english = 'before; in front of'
+level = 'n5'
+tags = ['adverbial-noun', 'common', 'suffix', 'temporal-noun']
+
+[[cards]]
+kanji = '向こう'
+kana = 'むこう'
+english = 'opposite side; far away; beyond; over there'
+level = 'n5'
+tags = ['common', 'noun']
+
