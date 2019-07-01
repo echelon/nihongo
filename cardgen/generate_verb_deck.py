@@ -605,11 +605,13 @@ class Conjugation:
 
     question = question_field
     if question_field.endswith('_'): # FIXME: Awful heuristic
-      question = '{{{{{}kanji}}}} ({{{{{}kana}}}})'.format(question, question)
+      question = '<span class="kanji">{{{{{}kanji}}}}</span> '.format(question) + \
+          '<span class="kana">{{{{{}kana}}}}</span>'.format(question)
 
     answer = answer_field
     if answer_field.endswith('_'):
-      answer = '{{{{{}kanji}}}} ({{{{{}kana}}}})'.format(answer, answer)
+      answer = '<span class="kanji">{{{{{}kanji}}}}</span> '.format(answer) + \
+          '<span class="kana">{{{{{}kana}}}}</span>'.format(answer)
     else:
       # English
       answer = '{{{{{}}}}}'.format(answer)
@@ -620,28 +622,39 @@ class Conjugation:
     elif 'plain' in answer:
       question = '{{{{{}}}}} (plain)'.format(question)
 
-    print(question, answer)
     return {
       'name': card_name,
-      'qfmt': '{{{}}}'.format(question),
+      'qfmt': '<span class="question">' + question + '</span>',
       'afmt': '''
-{question}
+<span class="question">{question}</span>
 
 <hr id="answer">
 
 {answer}
 
 <br>
+<br>
 
 <table>
   <tr>
+    <th>kanji</th>
     <td>{{{{base_kanji}}}}</td>
   </tr>
   <tr>
+    <th>kana</th>
     <td>{{{{base_kana}}}}</td>
   </tr>
   <tr>
+    <th>group</th>
+    <td>{{{{base_kana}}}}</td>
+  </tr>
+  <tr>
+    <th>def</th>
     <td>{{{{base_english}}}}</td>
+  </tr>
+  <tr>
+    <th>level</th>
+    <td>{{{{level}}}}</td>
   </tr>
 </table>
 '''.format(question=question, answer=answer),
@@ -682,6 +695,8 @@ MODEL_FIELDS = [
   {'name': 'base_kanji'},
   {'name': 'base_kana'},
   {'name': 'base_english'},
+  {'name': 'group'},
+  {'name': 'level'},
 ]
 
 TEMPLATES = []
@@ -724,7 +739,23 @@ VERB_CARD_MODEL = genanki.Model(
 #hint div {
   display: inline;
 }
-  ''')
+
+.question {
+  font-size: 1.5em;
+}
+
+.kana {
+  color: #00f;
+}
+
+.kana:before { content: '(' }
+.kana:after { content: ')' }
+
+table {
+  border: 1px solid #ccc;
+  margin: auto;
+}
+''')
 
 class Note(genanki.Note):
   def __init__(self, verb):
@@ -732,7 +763,7 @@ class Note(genanki.Note):
     self.kana = verb.kana
     self.group = verb.group
     self.english_summary = verb.english_summary
-    #self.level = verb_dict['level'] if 'level' in verb_dict else None
+    self.level = verb.level
     #self.tags = verb_dict['tags'] if 'tags' in verb_dict else []
     self.tags = ['verb']
 
@@ -744,7 +775,8 @@ class Note(genanki.Note):
       self.kanji,
       self.kana,
       self.english_summary,
-      #self.level,
+      self.group,
+      self.level,
     ]
 
     for conjugation in CONJUGATIONS:
