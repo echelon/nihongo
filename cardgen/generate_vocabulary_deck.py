@@ -135,12 +135,15 @@ KANJI_CARD_MODEL = genanki.Model(
   ''')
 
 class Note(genanki.Note):
-  def __init__(self, verb_dict):
+  def __init__(self, verb_dict, suspended=False):
     self.kanji = verb_dict['kanji']
     self.kana = verb_dict['kana']
     self.english = verb_dict['english']
     self.level = verb_dict['level'] if 'level' in verb_dict else None
     self.tags = verb_dict['tags'] if 'tags' in verb_dict else []
+
+    # Suspended notes will not show up for review until removed from suspension.
+    self.suspended = suspended
 
     if self.level:
       self.tags.append(self.level)
@@ -179,6 +182,17 @@ class Note(genanki.Note):
   def guid(self):
     return genanki.guid_for(self.kanji, self.kana)
 
+  @genanki.cached_property
+  def cards(self):
+    # We use cached_property instead of initializing in the constructor so that
+    # the user can set the model after calling __init__ and it'll still work.
+    rv = []
+    for card_ord, any_or_all, required_field_ords in self.model._req:
+      op = {'any': any, 'all': all}[any_or_all]
+      if op(self.fields[ord_] for ord_ in required_field_ords):
+        rv.append(genanki.Card(card_ord, self.suspended))
+    return rv
+
   def card_count(self):
     if self.make_kanji_card == 'y':
       if self.make_hiragana_only_card == 'y':
@@ -196,7 +210,7 @@ def read_set(filename):
   return set(lines)
 
 KANJI_ONLY_VOCAB = read_set('config/kanji-only-vocab.txt')
-N4_VOCAB = read_set('temp/n4-vocab.txt')
+SUSPENDED_VOCAB = read_set('config/suspended.txt')
 
 def read_vocabulary_notes(filename):
   with open(filename, 'r') as f:
@@ -206,7 +220,8 @@ def read_vocabulary_notes(filename):
 
 total_notes = 0
 total_cards = 0
-total_disabled = 0
+total_disabled = 0 # TODO: Deprecate and remove
+total_suspended = 0
 total_kanji_only = 0
 total_hiragana_only = 0
 
@@ -217,14 +232,8 @@ for filename in glob.glob('**/*.toml', recursive=True):
   notes = read_vocabulary_notes(filename)
   for n in notes:
     if 'disabled' in n and n['disabled']:
-      total_disabled += 1
+      total_disabled += 1 # TODO: Deprecate and remove
       continue
-
-    # TODO: Import N4 vocab
-    #if n['kanji'] in N4_VOCAB:
-    #  N4_VOCAB.remove(n['kanji'])
-    #if n['kana'] in N4_VOCAB:
-    #  N4_VOCAB.remove(n['kana'])
 
     if 'kanji' not in n:
       raise Exception("Key 'kanji' not in note: {}".format(n))
@@ -233,7 +242,12 @@ for filename in glob.glob('**/*.toml', recursive=True):
       n['make_kanji_card'] = True
       n['make_hiragana_only_card'] = False
 
-    note = Note(n)
+    suspended = False
+    if n['kanji'] in SUSPENDED_VOCAB:
+      suspended = True
+      total_suspended += 1
+
+    note = Note(n, suspended=suspended)
 
     if note.make_kanji_card:
       total_kanji_only += 1
@@ -246,7 +260,8 @@ for filename in glob.glob('**/*.toml', recursive=True):
 
 print('Total cards: {0}'.format(total_cards))
 print('Total notes: {0}'.format(total_notes))
-print('  > notes disabled: {0}'.format(total_disabled))
+print('  > notes disabled (deprecated): {0}'.format(total_disabled))
+print('  > notes suspended: {0}'.format(total_suspended))
 print('  > notes /w kanji-only cards: {0}'.format(total_kanji_only))
 print('  > notes w/ hiragana-only cards: {0}'.format(total_hiragana_only))
 print('Output file: {0}'.format(OUTPUT_FILENAME))

@@ -111,8 +111,7 @@ def write_toml(note_toml_data, filename):
   with open(filename, 'w') as f:
     f.write(toml_contents)
 
-def sort_kanji_only_config():
-  filename = 'config/kanji-only-vocab.txt'
+def sort_set_file(filename):
   kanji = set()
   line_count = 0
   with open(filename, 'r') as f:
@@ -128,9 +127,9 @@ def sort_kanji_only_config():
       f.write('{}\n'.format(k))
 
   duplicate_characters = line_count - unique_count
-  print('==== Kanji-only config ==== ')
-  print('  Duplicate characters: {0}'.format(duplicate_characters))
-  print('  Total Kanji-only vocab: {0}'.format(unique_count))
+  print('==== Sorted Set File {0} ==== '.format(filename))
+  print('  Duplicate entries: {0}'.format(duplicate_characters))
+  print('  Total unique entries: {0}'.format(unique_count))
 
 def main():
   print('==== Notes files ==== ')
@@ -153,7 +152,8 @@ def main():
   print('  Skipped notes: {0}'.format(skipped_count))
   print('  Total notes: {0}'.format(total_notes))
 
-  sort_kanji_only_config()
+  sort_set_file('config/kanji-only-vocab.txt')
+  sort_set_file('config/suspended.txt')
 
 if __name__ == '__main__':
     main()
