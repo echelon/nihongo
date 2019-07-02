@@ -145,6 +145,9 @@ class Note(genanki.Note):
     # Suspended notes will not show up for review until removed from suspension.
     self.suspended = suspended
 
+    if suspended:
+      self.tags.append('suspended')
+
     if self.level:
       self.tags.append(self.level)
 
@@ -190,7 +193,7 @@ class Note(genanki.Note):
     for card_ord, any_or_all, required_field_ords in self.model._req:
       op = {'any': any, 'all': all}[any_or_all]
       if op(self.fields[ord_] for ord_ in required_field_ords):
-        rv.append(genanki.Card(card_ord, self.suspended))
+        rv.append(genanki.Card(card_ord, suspend=self.suspended))
     return rv
 
   def card_count(self):
@@ -248,6 +251,8 @@ for filename in glob.glob('**/*.toml', recursive=True):
       total_suspended += 1
 
     note = Note(n, suspended=suspended)
+    for card in note.cards:
+      card.suspend = True
 
     if note.make_kanji_card:
       total_kanji_only += 1
