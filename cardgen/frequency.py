@@ -75,10 +75,12 @@ def get_file_lines(filename):
 def get_word_frequency_pairs(filename):
   """
   Gets the (word, frequency) tuples in a file.
-  Filters out the ignore list of words.
+  Filters out comments and the ignore list of words.
   """
   words = get_file_lines(filename)
-  return { word : rank for rank, word in enumerate(words) if word not in IGNORE_WORDS }
+  return { word : rank for rank, word in enumerate(words) \
+          if word not in IGNORE_WORDS \
+          and not word.startswith('#') }
 
 def read_notes_from_toml(filename):
   # Maintain key ordering in each item
@@ -110,14 +112,20 @@ def main():
     existing_words.add(note['kanji'])
     existing_words.add(note['kana'])
 
+  # TODO: This code is messy af
+  # TODO: Anime 250 list: https://owlcation.com/humanities/250-anime-japanese-words-phrases
+  # TODO: 500 common verbs list: https://www.linguajunkie.com/japanese/japanese-verbs-list
   wp_10k_lookup = get_word_frequency_pairs('lists/wikipedia_10k.txt')
   f_3k_lookup  = get_word_frequency_pairs('lists/Japanese-Word-Frequency-List-1-3000.txt')
+  kore_6k_lookup = get_word_frequency_pairs('lists/optimized_kore_frequency.txt') # Not frequency!
 
   for word in existing_words:
     if word in f_3k_lookup:
       del f_3k_lookup[word]
     if word in wp_10k_lookup:
       del wp_10k_lookup[word]
+    if word in kore_6k_lookup:
+      del kore_6k_lookup[word]
 
   print('\n\n==== 3k list ====\n')
   for k, v in f_3k_lookup.items():
@@ -133,10 +141,13 @@ def main():
   for word in common_frequency_set:
     avg_frequency = (f_3k_lookup[word] + wp_10k_lookup[word])/2.0
     common_frequency[word] = avg_frequency
-
   in_order = [(k, common_frequency[k]) for k in sorted(common_frequency, key=common_frequency.get)]
   for word, freq in in_order:
     print(word, freq)
+
+  print('\n\n==== Reddit Kore 6k useful list ({}) ====\n'.format(len(kore_6k_lookup.items())))
+  for k, v in kore_6k_lookup.items():
+    print(k, v)
 
 if __name__ == '__main__':
     main()
