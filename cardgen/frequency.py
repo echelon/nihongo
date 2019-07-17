@@ -124,6 +124,7 @@ def main():
   wiktionary_n5 = get_word_frequency_pairs('lists/jlpt_n5_wiktionary.txt')
   wiktionary_n4 = get_word_frequency_pairs('lists/jlpt_n4_wiktionary.txt')
   wiktionary_n3 = get_word_frequency_pairs('lists/jlpt_n3_wiktionary.txt')
+  wanikani_vocab = get_word_frequency_pairs('lists/wanikani_vocab.txt')
 
   for word in existing_words:
     if word in f_3k_lookup:
@@ -138,6 +139,8 @@ def main():
       del wiktionary_n4[word]
     if word in wiktionary_n3:
       del wiktionary_n3[word]
+    if word in wanikani_vocab:
+      del wanikani_vocab[word]
 
   print('\n\n==== 3k list ====\n')
   for k, v in f_3k_lookup.items():
@@ -162,16 +165,21 @@ def main():
     print(k, v)
 
   print('\n\n==== JLPT N5 ({}) ====\n'.format(len(wiktionary_n5.items())))
-  for k, v in wiktionary_n5.items():
-    print(k, v)
+  for word in wiktionary_n5.keys():
+    print(word)
 
   print('\n\n==== JLPT N4 ({}) ====\n'.format(len(wiktionary_n4.items())))
-  for k, v in wiktionary_n4.items():
-    print(k, v)
+  for word in wiktionary_n4.keys():
+    print(word)
 
   print('\n\n==== JLPT N3 ({}) ====\n'.format(len(wiktionary_n3.items())))
-  for k, v in wiktionary_n3.items():
-    print(k, v)
+  for word in wiktionary_n3.keys():
+    print(word)
+
+  print('\n\n==== Wanikani Vocab ({}) ====\n'.format(len(wanikani_vocab.items())))
+  for word in wanikani_vocab.keys():
+    print(word)
+
 
 if __name__ == '__main__':
     main()
