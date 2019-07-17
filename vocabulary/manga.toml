@@ -6,6 +6,14 @@ source = 'manga'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = 'お土産'
+kana = 'おみやげ'
+english = 'present; souveir'
+source = 'irasshai; anime; db super'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
 disabled = true
 kanji = '各地'
 kana = 'かくち'
@@ -56,12 +64,36 @@ source = 'manga'
 tags = ['common', 'manga']
 
 [[cards]]
+kanji = '存在'
+kana = 'そんざい'
+english = 'existence; being'
+source = 'anime; db super'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '互い'
 kana = 'たがい'
 english = 'mutual; reciprocal'
 level = 'n3'
 source = 'manga'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '確か'
+kana = 'たしか'
+english = 'certain; positive'
+source = 'anime; db super'
+level = 'n4'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '大体'
+kana = 'だいたい'
+english = 'main point; gist'
+source = 'anime; db super; wanikani'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun']
 
 [[cards]]
 disabled = true
@@ -85,6 +117,14 @@ english = 'embarassed; humiliated; shy'
 source = 'anime'
 level = 'n4'
 tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = 'はっきり'
+kana = 'はっきり'
+english = 'clearly'
+source = 'anime; db super'
+level = 'n4'
+tags = ['adverb', 'adverb-to', 'common', 'verb-suru']
 
 [[cards]]
 kanji = '発見'
@@ -111,6 +151,14 @@ english = 'safe and quietness'
 level = 'n3'
 source = 'manga'
 tags = ['common']
+
+[[cards]]
+kanji = '全く'
+kana = 'まったく'
+english = 'completely'
+source = 'anime; db super'
+level = 'n3'
+tags = ['adverb', 'common', 'no-adjective']
 
 [[cards]]
 disabled = true

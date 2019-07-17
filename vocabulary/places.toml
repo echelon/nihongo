@@ -6,12 +6,33 @@ source = 'living-in-japan'
 tags = ['common', 'no-adjective', 'noun', 'places']
 
 [[cards]]
+kanji = '映画館'
+kana = 'えいがかん'
+english = 'movie theater'
+level = 'n5'
+tags = ['buildings', 'common', 'entertainment', 'noun', 'places']
+
+[[cards]]
+kanji = '外国'
+kana = 'がいこく'
+english = 'foreign country'
+level = 'n5'
+tags = []
+
+[[cards]]
 kanji = '空港'
 kana = 'くうこう'
 english = 'airport'
 source = 'n4-study'
 level = 'n4'
 tags = ['common', 'places', 'travel']
+
+[[cards]]
+kanji = '国'
+kana = 'くに'
+english = 'country'
+level = 'n5'
+tags = []
 
 [[cards]]
 kanji = '住所'
@@ -30,11 +51,35 @@ level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '所'
+kana = 'ところ'
+english = 'place; area (can be abstract; less formal)'
+level = 'n5'
+explain = 'https://japanese.stackexchange.com/questions/58236/difference-between-%E5%A0%B4%E6%89%80-and-%E6%89%80'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '日本'
 kana = 'にほん'
 english = 'Japan'
 level = 'n3'
 tags = ['common', 'noun', 'places']
+
+[[cards]]
+kanji = '場所'
+kana = 'ばしょ'
+english = 'place (always physical, slightly more formal)'
+source = 'irasshai; anime'
+level = 'n4'
+explain = 'https://japanese.stackexchange.com/questions/58236/difference-between-%E5%A0%B4%E6%89%80-and-%E6%89%80'
+tags = ['common', 'noun', 'places']
+
+[[cards]]
+kanji = '町'
+kana = 'まち'
+english = 'town; city'
+level = 'n5'
+tags = []
 
 [[cards]]
 kanji = '港'

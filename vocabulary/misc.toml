@@ -482,6 +482,14 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '曲'
+kana = 'きょく'
+english = 'piece of music; track (on a record)'
+source = 'wanikani; wikipedia 10k frequent'
+level = 'n1'
+tags = ['common', 'music', 'noun', 'noun-suffix']
+
+[[cards]]
 kanji = '金'
 kana = 'きん'
 english = 'gold'
@@ -569,6 +577,14 @@ english = 'cause; origin; source'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '現在'
+kana = 'げんざい'
+english = 'present time'
+source = 'wikipedia 10k frequent'
+level = 'n3'
+tags = ['adverbial-noun', 'common', 'temporal-noun']
 
 [[cards]]
 kanji = '現象'
@@ -683,6 +699,14 @@ level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '作品'
+kana = 'さくひん'
+english = 'work (film, book, etc.); production; performance'
+source = 'wikipedia 10k frequent; manga labels'
+level = 'n3'
+tags = ['common', 'labels', 'noun']
+
+[[cards]]
 kanji = '作用'
 kana = 'さよう'
 english = 'action'
@@ -736,6 +760,14 @@ english = 'goods; articles; things'
 level = 'n4'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '島'
+kana = 'しま'
+english = 'island'
+source = 'irasshai; wikipedia 10k frequent'
+level = 'n4'
+tags = ['common', 'geography', 'noun', 'places']
 
 [[cards]]
 kanji = '姉妹'
@@ -808,6 +840,14 @@ level = 'n4'
 tags = ['common', 'noun', 'people']
 
 [[cards]]
+kanji = '使用'
+kana = 'しよう'
+english = 'use; application'
+source = 'wikipedia 10k frequent; wanikani'
+level = 'n3'
+tags = ['common', 'noun', 'suru verb']
+
+[[cards]]
 kanji = '私立'
 kana = 'しりつ'
 english = 'private (establishment)'
@@ -873,6 +913,15 @@ english = 'event; incident; case; plot'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '自身'
+kana = 'じしん'
+english = '~ oneself (used as suffix)'
+source = 'wikipedia 10k frequent'
+level = 'n3'
+explain = 'https://japanese.stackexchange.com/questions/27910/%E8%87%AA%E5%88%86-and-%E8%87%AA%E8%BA%AB-whats-the-difference'
+tags = ['common', 'noun', 'noun-suffix']
 
 [[cards]]
 kanji = '時代'
@@ -974,6 +1023,14 @@ level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '線'
+kana = 'せん'
+english = 'line'
+source = 'wikipedia 10k frequent; wanikani'
+level = 'n4'
+tags = ['common', 'noun', 'noun-suffix']
+
+[[cards]]
 kanji = '全国'
 kana = 'ぜんこく'
 english = 'nationwide'
@@ -1071,6 +1128,14 @@ english = 'another person; others'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'people']
+
+[[cards]]
+kanji = '為'
+kana = 'ため'
+english = 'sake; purpose; benefit'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '男性'
@@ -1189,6 +1254,14 @@ english = 'rainy season (June - July)'
 source = 'anime'
 level = 'n3'
 tags = ['anime', 'common', 'noun', 'temporal']
+
+[[cards]]
+kanji = '鉄道'
+kana = 'てつどう'
+english = 'railroad'
+source = 'wikipedia 10k frequent'
+level = 'n3'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '手作り'
@@ -1352,6 +1425,14 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '発売'
+kana = 'はつばい'
+english = 'sale; offering for sale'
+source = 'wikipedia 10k frequent; wanikani'
+level = 'n2'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '花火'
 kana = 'はなび'
 english = 'fireworks'
@@ -1448,6 +1529,14 @@ english = 'frantic'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective']
+
+[[cards]]
+kanji = '必要'
+kana = 'ひつよう'
+english = 'necessary'
+source = 'irasshai; anime'
+level = 'n4'
+tags = ['common', 'na-adjective']
 
 [[cards]]
 kanji = '酷い'
@@ -1604,6 +1693,14 @@ english = 'gem; jewel; precious stone'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '放送'
+kana = 'ほうそう'
+english = 'broadcast; broadcasting'
+source = 'wikipedia 10k frequent'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '褒美'

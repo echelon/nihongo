@@ -41,20 +41,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '上'
-kana = 'うえ'
-english = 'above; up; on top of'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '後ろ'
-kana = 'うしろ'
-english = 'behind'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '歌'
 kana = 'うた'
 english = 'song'
@@ -74,13 +60,6 @@ kana = 'えいが'
 english = 'movie'
 level = 'n5'
 tags = ['common', 'entertainment', 'no-adjective', 'noun']
-
-[[cards]]
-kanji = '映画館'
-kana = 'えいがかん'
-english = 'movie theater'
-level = 'n5'
-tags = ['buildings', 'common', 'entertainment', 'noun', 'places']
 
 [[cards]]
 kanji = '英語'
@@ -188,13 +167,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '外国'
-kana = 'がいこく'
-english = 'foreign country'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '北'
 kana = 'きた'
 english = 'north'
@@ -226,13 +198,6 @@ tags = []
 kanji = '下さい'
 kana = 'ください'
 english = 'please [give/do] for me'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '国'
-kana = 'くに'
-english = 'country'
 level = 'n5'
 tags = []
 
@@ -307,13 +272,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '下'
-kana = 'した'
-english = 'below; under; bottom'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '写真'
 kana = 'しゃしん'
 english = 'photograph'
@@ -347,20 +305,6 @@ kana = 'そう'
 english = 'seems like; really; appears to be the case'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = '外'
-kana = 'そと'
-english = 'outside; exterior'
-level = 'n5'
-tags = ['common', 'noun']
-
-[[cards]]
-kanji = '側'
-kana = 'そば'
-english = 'near; close; vicinity'
-level = 'n5'
-tags = ['common', 'noun']
 
 [[cards]]
 kanji = '大使館'
@@ -405,13 +349,6 @@ level = 'n5'
 tags = ['common', 'pre-noun-adjectival']
 
 [[cards]]
-kanji = '近く'
-kana = 'ちかく'
-english = 'near; vicinity'
-level = 'n5'
-tags = ['adverbial-noun', 'common', 'no-adjective']
-
-[[cards]]
 kanji = '次'
 kana = 'つぎ'
 english = 'next'
@@ -422,13 +359,6 @@ tags = ['common', 'no-adjective', 'noun']
 kanji = '出口'
 kana = 'でぐち'
 english = 'exit'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '所'
-kana = 'ところ'
-english = 'place; area'
 level = 'n5'
 tags = []
 
@@ -457,13 +387,6 @@ tags = []
 kanji = '無い'
 kana = 'ない'
 english = "nonexistent; not being (there); doesn't have"
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '中'
-kana = 'なか'
-english = 'inside; middle; center; among'
 level = 'n5'
 tags = []
 
@@ -609,32 +532,11 @@ explain = 'http://selftaughtjapanese.com/2015/04/30/words-to-express-truth-in-ja
 tags = ['adverb', 'common', 'na-adjective', 'no-adjective', 'noun']
 
 [[cards]]
-kanji = '前'
-kana = 'まえ'
-english = 'before; in front of'
-level = 'n5'
-tags = ['adverbial-noun', 'common', 'suffix', 'temporal-noun']
-
-[[cards]]
-kanji = '～前'
-kana = '～まえ'
-english = 'in front of ～'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '又'
 kana = 'また'
 english = 'again'
 level = 'n5'
 tags = ['adverb', 'common', 'conjunction', 'prefix']
-
-[[cards]]
-kanji = '町'
-kana = 'まち'
-english = 'town; city'
-level = 'n5'
-tags = []
 
 [[cards]]
 kanji = '右'
@@ -663,13 +565,6 @@ kana = 'みなみ'
 english = 'south'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = '向こう'
-kana = 'むこう'
-english = 'opposite side; far away; beyond; over there'
-level = 'n5'
-tags = ['common', 'noun']
 
 [[cards]]
 kanji = 'もしもし'
