@@ -113,11 +113,17 @@ def main():
     existing_words.add(note['kana'])
 
   # TODO: This code is messy af
+
   # TODO: Anime 250 list: https://owlcation.com/humanities/250-anime-japanese-words-phrases
   # TODO: 500 common verbs list: https://www.linguajunkie.com/japanese/japanese-verbs-list
   wp_10k_lookup = get_word_frequency_pairs('lists/wikipedia_10k.txt')
   f_3k_lookup  = get_word_frequency_pairs('lists/Japanese-Word-Frequency-List-1-3000.txt')
+
+  # Not frequency lists
   kore_6k_lookup = get_word_frequency_pairs('lists/optimized_kore_frequency.txt') # Not frequency!
+  wiktionary_n5 = get_word_frequency_pairs('lists/jlpt_n5_wiktionary.txt')
+  wiktionary_n4 = get_word_frequency_pairs('lists/jlpt_n4_wiktionary.txt')
+  wiktionary_n3 = get_word_frequency_pairs('lists/jlpt_n3_wiktionary.txt')
 
   for word in existing_words:
     if word in f_3k_lookup:
@@ -126,6 +132,12 @@ def main():
       del wp_10k_lookup[word]
     if word in kore_6k_lookup:
       del kore_6k_lookup[word]
+    if word in wiktionary_n5:
+      del wiktionary_n5[word]
+    if word in wiktionary_n4:
+      del wiktionary_n4[word]
+    if word in wiktionary_n3:
+      del wiktionary_n3[word]
 
   print('\n\n==== 3k list ====\n')
   for k, v in f_3k_lookup.items():
@@ -147,6 +159,18 @@ def main():
 
   print('\n\n==== Reddit Kore 6k useful list ({}) ====\n'.format(len(kore_6k_lookup.items())))
   for k, v in kore_6k_lookup.items():
+    print(k, v)
+
+  print('\n\n==== JLPT N5 ({}) ====\n'.format(len(wiktionary_n5.items())))
+  for k, v in wiktionary_n5.items():
+    print(k, v)
+
+  print('\n\n==== JLPT N4 ({}) ====\n'.format(len(wiktionary_n4.items())))
+  for k, v in wiktionary_n4.items():
+    print(k, v)
+
+  print('\n\n==== JLPT N3 ({}) ====\n'.format(len(wiktionary_n3.items())))
+  for k, v in wiktionary_n3.items():
     print(k, v)
 
 if __name__ == '__main__':
