@@ -1,0 +1,64 @@
+[[cards]]
+kanji = 'オートバイ'
+kana = 'オートバイ'
+english = 'motorcycle'
+source = 'n4 wiktionary'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun', 'transportation']
+
+[[cards]]
+kanji = 'ガス'
+kana = 'ガス'
+english = 'gas'
+source = 'n4 wiktionary'
+level = 'n4'
+tags = ['chemistry', 'common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'ガソリン'
+kana = 'ガソリン'
+english = 'gasoline'
+source = 'n4 wiktionary'
+level = 'n4'
+tags = ['automotive', 'common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'サンドイッチ'
+kana = 'サンドイッチ'
+english = 'sandwich'
+source = 'irasshai; n4 wiktionary'
+level = 'n4'
+tags = ['common', 'food', 'gairaigo']
+
+[[cards]]
+kanji = 'ジャム'
+kana = 'ジャム'
+english = 'jam'
+source = 'n4 wiktionary'
+level = 'n4'
+tags = ['common', 'food', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'ステレオ'
+kana = 'ステレオ'
+english = 'stereo'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'スーツ'
+kana = 'スーツ'
+english = 'suit (gairaigo)'
+source = 'n4 wiktionary'
+level = 'n4'
+tags = ['clothing', 'common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'テキスト'
+kana = 'テキスト'
+english = 'text'
+source = 'n4 wiktionary'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
