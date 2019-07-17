@@ -63,12 +63,22 @@ IGNORE_WORDS = set([
 
 INDEX_NAME = 'cards'
 
-def get_frequency_list(filename):
-  frequency_list = []
+def get_file_lines(filename):
+  lines = []
   with open(filename, 'r') as f:
     for line in f:
-      frequency_list.append(line.strip())
-  return frequency_list
+      line = line.strip()
+      if line:
+        lines.append(line)
+  return lines
+
+def get_word_frequency_pairs(filename):
+  """
+  Gets the (word, frequency) tuples in a file.
+  Filters out the ignore list of words.
+  """
+  words = get_file_lines(filename)
+  return { word : rank for rank, word in enumerate(words) if word not in IGNORE_WORDS }
 
 def read_notes_from_toml(filename):
   # Maintain key ordering in each item
@@ -100,11 +110,8 @@ def main():
     existing_words.add(note['kanji'])
     existing_words.add(note['kana'])
 
-  wp_10k = get_frequency_list('lists/wikipedia_10k.txt')
-  f_3k = get_frequency_list('lists/Japanese-Word-Frequency-List-1-3000.txt')
-
-  wp_10k_lookup = { word : rank for rank, word in enumerate(wp_10k) }
-  f_3k_lookup = { word : rank for rank, word in enumerate(f_3k) }
+  wp_10k_lookup = get_word_frequency_pairs('lists/wikipedia_10k.txt')
+  f_3k_lookup  = get_word_frequency_pairs('lists/Japanese-Word-Frequency-List-1-3000.txt')
 
   for word in existing_words:
     if word in f_3k_lookup:
@@ -112,15 +119,24 @@ def main():
     if word in wp_10k_lookup:
       del wp_10k_lookup[word]
 
-  print('==== 3k list ====')
+  print('\n\n==== 3k list ====\n')
   for k, v in f_3k_lookup.items():
-    if k not in IGNORE_WORDS:
-      print(k, v)
+    print(k, v)
 
-  print('==== Wikipedia 10k list ====')
+  print('\n\n==== Wikipedia 10k list ====\n')
   for k, v in wp_10k_lookup.items():
-    if k not in IGNORE_WORDS:
-      print(k, v)
+    print(k, v)
+
+  print('\n\n==== Both lists ====\n')
+  common_frequency_set = set(wp_10k_lookup.keys()).intersection(set(f_3k_lookup.keys()))
+  common_frequency = {}
+  for word in common_frequency_set:
+    avg_frequency = (f_3k_lookup[word] + wp_10k_lookup[word])/2.0
+    common_frequency[word] = avg_frequency
+
+  in_order = [(k, common_frequency[k]) for k in sorted(common_frequency, key=common_frequency.get)]
+  for word, freq in in_order:
+    print(word, freq)
 
 if __name__ == '__main__':
     main()
