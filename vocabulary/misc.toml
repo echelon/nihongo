@@ -1531,6 +1531,14 @@ level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective']
 
 [[cards]]
+kanji = '必要'
+kana = 'ひつよう'
+english = 'necessary'
+source = 'irasshai; anime'
+level = 'n4'
+tags = ['common', 'na-adjective']
+
+[[cards]]
 kanji = '酷い'
 kana = 'ひどい'
 english = 'cruel; heartless; violent'
