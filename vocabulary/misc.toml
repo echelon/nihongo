@@ -915,6 +915,15 @@ level = 'n3'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '自身'
+kana = 'じしん'
+english = '~ oneself (used as suffix)'
+source = 'wikipedia 10k frequent'
+level = 'n3'
+explain = 'https://japanese.stackexchange.com/questions/27910/%E8%87%AA%E5%88%86-and-%E8%87%AA%E8%BA%AB-whats-the-difference'
+tags = ['common', 'noun', 'noun-suffix']
+
+[[cards]]
 kanji = '時代'
 kana = 'じだい'
 english = 'period; epoch'

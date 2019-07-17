@@ -62,13 +62,6 @@ level = 'n5'
 tags = ['common', 'entertainment', 'no-adjective', 'noun']
 
 [[cards]]
-kanji = '映画館'
-kana = 'えいがかん'
-english = 'movie theater'
-level = 'n5'
-tags = ['buildings', 'common', 'entertainment', 'noun', 'places']
-
-[[cards]]
 kanji = '英語'
 kana = 'えいご'
 english = 'English language'
@@ -174,13 +167,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '外国'
-kana = 'がいこく'
-english = 'foreign country'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '北'
 kana = 'きた'
 english = 'north'
@@ -212,13 +198,6 @@ tags = []
 kanji = '下さい'
 kana = 'ください'
 english = 'please [give/do] for me'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '国'
-kana = 'くに'
-english = 'country'
 level = 'n5'
 tags = []
 
@@ -380,13 +359,6 @@ tags = ['common', 'no-adjective', 'noun']
 kanji = '出口'
 kana = 'でぐち'
 english = 'exit'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '所'
-kana = 'ところ'
-english = 'place; area'
 level = 'n5'
 tags = []
 
@@ -565,13 +537,6 @@ kana = 'また'
 english = 'again'
 level = 'n5'
 tags = ['adverb', 'common', 'conjunction', 'prefix']
-
-[[cards]]
-kanji = '町'
-kana = 'まち'
-english = 'town; city'
-level = 'n5'
-tags = []
 
 [[cards]]
 kanji = '右'
