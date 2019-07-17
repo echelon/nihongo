@@ -13,6 +13,13 @@ source = 'food-package'
 tags = ['common', 'onomatopoeia']
 
 [[cards]]
+kanji = 'わくわく'
+kana = 'わくわく'
+english = 'excited; nervous; trembling (ono)'
+source = 'anime; db super'
+tags = ['adverb', 'adverb-to', 'common', 'suru-verb']
+
+[[cards]]
 kanji = 'ニコニコ'
 kana = 'ニコニコ'
 english = 'smilingly; with a friendly grin'
