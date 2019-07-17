@@ -23,6 +23,22 @@ level = 'n4'
 tags = ['automotive', 'common', 'gairaigo', 'noun']
 
 [[cards]]
+kanji = 'コンピューター'
+kana = 'コンピューター'
+english = 'computer'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'electronics', 'gairaigo', 'noun', 'technology']
+
+[[cards]]
+kanji = 'コート'
+kana = 'コート'
+english = 'coat'
+source = 'irasshai'
+level = 'n5'
+tags = ['clothing', 'common', 'gairaigo', 'noun']
+
+[[cards]]
 kanji = 'サンドイッチ'
 kana = 'サンドイッチ'
 english = 'sandwich'
@@ -47,6 +63,13 @@ level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 
 [[cards]]
+kanji = 'ステーキ'
+kana = 'ステーキ'
+english = 'steak'
+level = 'n4'
+tags = ['common', 'food', 'gairaigo', 'noun']
+
+[[cards]]
 kanji = 'スーツ'
 kana = 'スーツ'
 english = 'suit (gairaigo)'
@@ -61,4 +84,18 @@ english = 'text'
 source = 'n4 wiktionary'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'テープレコーダー'
+kana = 'テープレコーダー'
+english = 'tape recorder'
+level = 'n5'
+tags = ['common', 'dated', 'electronics', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'メートル'
+kana = 'メートル'
+english = 'meter'
+level = 'n5'
+tags = ['common', 'dimensions', 'gairaigo', 'measure', 'noun']
 

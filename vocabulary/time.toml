@@ -234,6 +234,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = 'さ来月'
+kana = 'さらいげつ'
+english = 'month after next'
+source = 'n4 wiktionary'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
+
+[[cards]]
 kanji = '再来週'
 kana = 'さらいしゅう'
 english = 'week after next'
@@ -649,6 +657,14 @@ kana = 'らいしゅう'
 english = 'next week'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '来年'
+kana = 'らいねん'
+english = 'next year'
+source = 'irasshai'
+level = 'n5'
+tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun', 'time']
 
 [[cards]]
 kanji = 'カレンダー'
