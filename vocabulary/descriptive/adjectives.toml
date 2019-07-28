@@ -27,13 +27,6 @@ level = 'n5'
 tags = ['common', 'expressions', 'i-adjectives']
 
 [[cards]]
-kanji = '甘い'
-kana = 'あまい'
-english = 'sweet-tasting'
-level = 'n5'
-tags = ['common', 'food', 'i-adjectives']
-
-[[cards]]
 kanji = '怪しい'
 kana = 'あやしい'
 english = 'sketchy; suspicious; ominous; dangerous'
@@ -56,25 +49,11 @@ level = 'n5'
 tags = ['adverb', 'na-adjective', 'no-adjective', 'noun']
 
 [[cards]]
-kanji = '薄い'
-kana = 'うすい'
-english = 'thin; weak (eg. taste)'
-level = 'n5'
-tags = ['common', 'i-adjectives']
-
-[[cards]]
 kanji = '煩い'
 kana = 'うるさい'
 english = 'loud; annoying'
 level = 'n5'
 tags = ['i-adjective']
-
-[[cards]]
-kanji = '美味しい'
-kana = 'おいしい'
-english = 'delicious'
-level = 'n5'
-tags = ['common', 'i-adjectives']
 
 [[cards]]
 kanji = '多い'
@@ -108,13 +87,6 @@ tags = ['common', 'i-adjective']
 kanji = '面白い'
 kana = 'おもしろい'
 english = 'interesting; amusing'
-level = 'n5'
-tags = ['common', 'i-adjectives']
-
-[[cards]]
-kanji = '辛い'
-kana = 'からい'
-english = 'spicy; hot; salty'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 

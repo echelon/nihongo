@@ -146,13 +146,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '不味い'
-kana = 'まずい'
-english = 'unappetising; unpleasant taste'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '水'
 kana = 'みず'
 english = 'water'
