@@ -1309,9 +1309,10 @@ tags = ['common', 'noun', 'suru-verb']
 [[cards]]
 kanji = '通り'
 kana = 'とおり'
-english = 'avenue; street'
+english = 'street or avenue (in a town)'
 level = 'n3'
 source = 'jlptstudy.net'
+explain = 'https://hinative.com/en-US/questions/240900'
 tags = ['adverbial-noun', 'common', 'noun']
 
 [[cards]]
@@ -1341,8 +1342,9 @@ tags = ['common', 'noun']
 [[cards]]
 kanji = '道路'
 kana = 'どうろ'
-english = 'highway'
+english = 'paved road or highway'
 level = 'n3'
+explain = 'https://hinative.com/en-US/questions/9825'
 tags = ['common', 'noun', 'places']
 
 [[cards]]

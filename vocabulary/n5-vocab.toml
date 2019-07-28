@@ -555,9 +555,10 @@ tags = []
 [[cards]]
 kanji = '道'
 kana = 'みち'
-english = 'road; street'
+english = 'road, street, path (all inclusive)'
 level = 'n5'
-tags = []
+explain = 'https://hinative.com/en-US/questions/240900'
+tags = ['common', 'noun', 'transportation']
 
 [[cards]]
 kanji = '南'
