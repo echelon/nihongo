@@ -42,7 +42,7 @@ tags = ['common']
 [[cards]]
 kanji = '最初'
 kana = 'さいしょ'
-english = 'beginning; outset'
+english = 'first; beginning; outset'
 level = 'n4'
 source = 'manga'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
