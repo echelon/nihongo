@@ -778,6 +778,14 @@ level = 'n3'
 tags = ['common', 'family', 'noun', 'people']
 
 [[cards]]
+kanji = '集中'
+kana = 'しゅうちゅう'
+english = 'concentration'
+source = 'wanikani; anime'
+level = 'n3'
+tags = ['common', 'mental', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '主人'
 kana = 'しゅじん'
 english = 'head of (a) household'
@@ -1411,6 +1419,14 @@ kana = 'ねんじ'
 english = 'annual; yearly'
 source = 'wanikani'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '農民'
+kana = 'のうみん'
+english = 'peasants'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun', 'people']
 
 [[cards]]
 kanji = '柱'
