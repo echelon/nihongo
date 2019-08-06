@@ -35,6 +35,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '工場'
+kana = 'こうじょう'
+english = 'factory'
+source = 'wanikani'
+level = 'n4'
+tags = ['business', 'common', 'industry', 'noun', 'places']
+
+[[cards]]
 kanji = '住所'
 kana = 'じゅうしょ'
 english = 'address (of a house); residence'

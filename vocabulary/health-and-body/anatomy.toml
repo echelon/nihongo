@@ -138,6 +138,14 @@ source = 'wanikani'
 tags = ['body', 'common', 'noun']
 
 [[cards]]
+kanji = '瞳'
+kana = 'ひとみ'
+english = 'pupil (eye)'
+source = 'frequency-list'
+level = 'n2'
+tags = ['body', 'common', 'eye', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '骨'
 kana = 'ほね'
 english = 'bone'

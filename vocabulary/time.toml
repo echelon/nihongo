@@ -84,6 +84,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '開始'
+kana = 'かいし'
+english = 'start (literary?)'
+source = 'wanikani; frequency'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '～か月'
 kana = '～かげつ'
 english = 'counter for number of months'
