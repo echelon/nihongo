@@ -1,0 +1,18 @@
+[[cards]]
+type = 'grammar'
+kanji = 'だい'
+kana = 'だい'
+question = '〜{}？'
+english = 'grammar: familiar language, marks wh-question (what, where, who)'
+source = 'grammar-dict-basic'
+tags = ['common', 'particle']
+
+[[cards]]
+type = 'grammar'
+kanji = '許り'
+kana = 'ばかり'
+question = 'noun+{}'
+english = 'grammar: only (noun) (todo: this is used for many constructions)'
+source = 'grammar-dict-basic'
+tags = ['common', 'particle']
+
