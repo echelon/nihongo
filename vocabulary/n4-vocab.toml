@@ -241,10 +241,106 @@ level = 'n3'
 tags = ['adverb', 'anime', 'common']
 
 [[cards]]
+kanji = '政治'
+kana = 'せいじ'
+english = 'politics'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['common', 'noun', 'politics', 'profession']
+
+[[cards]]
+kanji = '西洋'
+kana = 'せいよう'
+english = 'the West; western countries'
+source = 'n4-wikipedia; wanikani'
+level = 'n4'
+tags = ['common', 'geography', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '戦争'
+kana = 'せんそう'
+english = 'war'
+source = 'anime; wikipedia-n4'
+level = 'n4'
+tags = ['common', 'fighting', 'noun', 'suru-verb', 'war']
+
+[[cards]]
+kanji = '途中'
+kana = 'とちゅう'
+english = 'on the way; en route'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'temporal-noun', 'travel']
+
+[[cards]]
+kanji = '二階建て'
+kana = 'にかいだて'
+english = 'two-story building'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['buildings', 'common', 'noun', 'places']
+
+[[cards]]
+kanji = '発音'
+kana = 'はつおん'
+english = 'pronunciation'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'language', 'noun', 'speaking', 'suru-verb']
+
+[[cards]]
+kanji = '船'
+kana = 'ふね'
+english = 'boat'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'noun', 'ocean', 'transportation', 'vehicle']
+
+[[cards]]
+kanji = '不便'
+kana = 'ふべん'
+english = 'inconvenience'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '法律'
+kana = 'ほうりつ'
+english = 'law'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['common', 'government', 'no-adjective', 'noun', 'profession']
+
+[[cards]]
 kanji = '真ん中'
 kana = 'まんなか'
 english = 'midpoint; center; heart'
 source = 'bonobono-anime'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '木綿'
+kana = 'もめん'
+english = 'cotton (material)'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['clothing', 'common', 'fabric', 'material', 'noun']
+
+[[cards]]
+kanji = 'やっと'
+kana = 'やっと'
+english = "barely!; by the skin of one's teeth"
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['adverb', 'common', 'onomatopoeia']
+
+[[cards]]
+kanji = '用事'
+kana = 'ようじ'
+english = 'tasks; things to do'
+source = 'n4-wikipedia'
 level = 'n4'
 tags = ['common', 'noun']
 
@@ -273,12 +369,28 @@ level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '留守'
+kana = 'るす'
+english = 'absent; away from home'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '忘れ物'
 kana = 'わすれもの'
 english = 'lost item; something forgotten'
 source = 'jlpt-study'
 level = 'n4'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '割合'
+kana = 'わりあい'
+english = 'rate; ratio; percentage'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['adverb', 'common', 'math', 'noun']
 
 [[cards]]
 kanji = 'アクセサリー'

@@ -1,0 +1,30 @@
+[[cards]]
+kanji = '経済'
+kana = 'けいざい'
+english = 'economics; business; finance'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '産業'
+kana = 'さんぎょう'
+english = 'industry'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['no-adjective', 'noun']
+
+[[cards]]
+kanji = '仕事'
+kana = 'しごと'
+english = 'work; job'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '名刺'
+kana = 'めいし'
+english = 'business card'
+level = 'n2'
+tags = ['common']
+

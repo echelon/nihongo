@@ -1,6 +1,14 @@
 [[cards]]
 kanji = '明るい'
 kana = 'あかるい'
+english = 'bright; well-lit'
+source = 'irasshai'
+level = 'n5'
+tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '明るい'
+kana = 'あかるい'
 english = 'light; bright; well-lit; cheerful'
 level = 'n5'
 tags = ['appearance', 'common', 'i-adjective', 'mood']
@@ -296,6 +304,14 @@ level = 'n5'
 tags = ['common', 'i-adjectives']
 
 [[cards]]
+kanji = '苦い'
+kana = 'にがい'
+english = 'bitter-tasting'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'flavor', 'food', 'i-adjective', 'sense']
+
+[[cards]]
 kanji = '賑やか'
 kana = 'にぎやか'
 english = 'bustling; busy; lively'
@@ -316,6 +332,14 @@ kana = 'ぬるい'
 english = 'lukewarm'
 level = 'n5'
 tags = ['common', 'i-adjective']
+
+[[cards]]
+kanji = '眠い'
+kana = 'ねむい'
+english = 'sleepy'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'feelings', 'i-adjectives', 'sleep', 'tired']
 
 [[cards]]
 kanji = '早い'

@@ -255,6 +255,14 @@ kana = 'さらいしゅう'
 english = 'week after next'
 source = 'irasshai'
 level = 'n4'
+tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
+
+[[cards]]
+kanji = '再来週'
+kana = 'さらいしゅう'
+english = 'week after next'
+source = 'irasshai'
+level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 
 [[cards]]

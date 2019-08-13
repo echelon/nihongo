@@ -85,6 +85,14 @@ level = 'n4'
 tags = ['body', 'common']
 
 [[cards]]
+kanji = '血'
+kana = 'ち'
+english = 'blood'
+source = 'wanikani; anime'
+level = 'n4'
+tags = ['body', 'common', 'health', 'noun']
+
+[[cards]]
 kanji = '手'
 kana = 'て'
 english = 'hand; arm'

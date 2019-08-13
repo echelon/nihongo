@@ -6,6 +6,14 @@ source = 'living-in-japan'
 tags = ['common', 'no-adjective', 'noun', 'places']
 
 [[cards]]
+kanji = '売り場'
+kana = 'うりば'
+english = 'sales floor; counter; selling area'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['common', 'noun', 'store']
+
+[[cards]]
 kanji = '映画館'
 kana = 'えいがかん'
 english = 'movie theater'

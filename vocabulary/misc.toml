@@ -677,6 +677,14 @@ level = 'n3'
 tags = ['adverbial-noun', 'anime', 'common', 'temporal-noun']
 
 [[cards]]
+kanji = '混凝土'
+kana = 'こんくりいと'
+english = 'concrete (material)'
+source = 'jisho'
+level = 'n2'
+tags = ['building', 'common', 'construction', 'material', 'noun']
+
+[[cards]]
 kanji = 'ご主人'
 kana = 'ごしゅじん'
 english = 'husband'
@@ -2100,6 +2108,14 @@ english = 'freeze/freezing; cold storage; refridgeration'
 level = 'n2'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '煉瓦'
+kana = 'れんが'
+english = 'brick'
+source = 'jisho'
+level = 'n2'
+tags = ['building', 'common', 'material', 'noun']
 
 [[cards]]
 kanji = '連絡'

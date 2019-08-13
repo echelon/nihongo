@@ -56,14 +56,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '経済'
-kana = 'けいざい'
-english = 'economics; business; finance'
-source = 'wanikani'
-level = 'n4'
-tags = ['common', 'noun', 'suru-verb']
-
-[[cards]]
 kanji = '高校'
 kana = 'こうこう'
 english = 'high school'
@@ -92,13 +84,6 @@ kana = 'しけん'
 english = 'exam'
 level = 'n4'
 tags = ['common', 'noun', 'school', 'suru-verb']
-
-[[cards]]
-kanji = '仕事'
-kana = 'しごと'
-english = 'work; job'
-level = 'n5'
-tags = []
 
 [[cards]]
 kanji = '質問'
@@ -322,13 +307,6 @@ kana = 'むずかしい'
 english = 'difficult'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = '名刺'
-kana = 'めいし'
-english = 'business card'
-level = 'n2'
-tags = ['common']
 
 [[cards]]
 kanji = '問題'
