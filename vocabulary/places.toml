@@ -43,6 +43,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '郊外'
+kana = 'こうがい'
+english = 'suburb'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['city', 'common', 'geography', 'noun', 'places']
+
+[[cards]]
 kanji = '工場'
 kana = 'こうじょう'
 english = 'factory'

@@ -61,6 +61,11 @@ IGNORE_WORDS = set([
  'ン',
 ])
 
+# I already have these words (perhaps a different politeness or kanji)
+DUPLICATE_WORDS = Set.new([
+  'お祭り',
+])
+
 INDEX_NAME = 'cards'
 
 def get_file_lines(filename):
@@ -80,6 +85,7 @@ def get_word_frequency_pairs(filename):
   words = get_file_lines(filename)
   return { word : rank for rank, word in enumerate(words) \
           if word not in IGNORE_WORDS \
+          and word not in DUPLICATE_WORDS \
           and not word.startswith('#') }
 
 def read_notes_from_toml(filename):

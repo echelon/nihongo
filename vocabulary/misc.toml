@@ -203,6 +203,14 @@ source = 'jlptstudy.net'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '踊り'
+kana = 'おどり'
+english = 'dance'
+source = 'irasshai; anime'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = 'お前'
 kana = 'おまえ'
 english = 'you (familiar, male language, often derogatory)'
@@ -482,6 +490,14 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '興味'
+kana = 'きょうみ'
+english = 'interest (in something); curiosity (about something)'
+source = 'n4-study'
+level = 'n4'
+tags = ['common', 'hobby', 'noun']
+
+[[cards]]
 kanji = '曲'
 kana = 'きょく'
 english = 'piece of music; track (on a record)'
@@ -647,6 +663,15 @@ kana = 'こころ'
 english = 'mind; heart; spirit'
 level = 'n4'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '細かい'
+kana = 'こまかい'
+english = 'small parts; detailed; fine'
+source = 'n4-study'
+level = 'n4'
+explain = 'https://hinative.com/ja/questions/5390425'
+tags = ['common', 'i-adjective']
 
 [[cards]]
 kanji = '小文字'
@@ -1029,6 +1054,14 @@ kana = 'すいちゅう'
 english = 'underwater'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '生活'
+kana = 'せいかつ'
+english = 'living; livelihood'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '説明'

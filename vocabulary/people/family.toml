@@ -90,6 +90,24 @@ level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 
 [[cards]]
+kanji = '親'
+kana = 'おや'
+english = 'mother OR father (singular); parent'
+source = 'wanikani; movies'
+level = 'n4'
+explain = 'https://hinative.com/ja/questions/1301745'
+tags = ['common', 'family', 'noun', 'people']
+
+[[cards]]
+kanji = '家内'
+kana = 'かない'
+english = '(my) wife (polite humble)'
+source = 'n4-wikipedia'
+level = 'n4'
+explain = 'https://japanese.stackexchange.com/a/14787'
+tags = ['common', 'family', 'noun', 'people']
+
+[[cards]]
 kanji = '兄弟'
 kana = 'きょうだい'
 english = 'siblings'

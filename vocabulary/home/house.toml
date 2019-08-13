@@ -7,6 +7,15 @@ level = 'n4'
 tags = ['architecture', 'buildings', 'common', 'noun']
 
 [[cards]]
+kanji = 'お宅'
+kana = 'おたく'
+english = 'your house; your home; your family'
+source = 'n4-wikipedia; irasshai'
+level = 'n4'
+explain = 'https://hinative.com/en-US/questions/7647808'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = 'お手洗い'
 kana = 'おてあらい'
 english = 'toilet; lavatory'
