@@ -34,6 +34,17 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '数'
+kana = 'かず'
+english = 'number; amount'
+level = 'n3'
+source = 'https://iknow.jp/courses/566921'
+explain = 'https://www.reddit.com/r/LearnJapanese/comments/3q2ebm/%E5%8F%B7_vs_%E6%95%B0_what_is_the_difference/'
+explain2 = 'https://hinative.com/en-US/questions/217667'
+explain3 = 'https://www.japanesewithanime.com/2017/05/ichiban-ichigou-difference.html'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '九'
 kana = 'きゅう'
 english = 'nine'
@@ -60,6 +71,17 @@ kana = 'ご'
 english = 'five'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '～号'
+kana = '～ごう'
+english = 'number (suffix for label or designation)'
+source = 'japan'
+level = 'n1'
+explain = 'https://www.reddit.com/r/LearnJapanese/comments/3q2ebm/%E5%8F%B7_vs_%E6%95%B0_what_is_the_difference/'
+explain2 = 'https://hinative.com/en-US/questions/217667'
+explain3 = 'https://www.japanesewithanime.com/2017/05/ichiban-ichigou-difference.html'
+tags = ['common', 'noun', 'noun-suffix', 'numbers', 'suffix']
 
 [[cards]]
 kanji = '～歳'
@@ -118,6 +140,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '電話番号'
+kana = 'でんわばんごう'
+english = 'phone number'
+source = 'irasshai'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '十'
 kana = 'とお'
 english = 'ten (things)'
@@ -160,6 +189,26 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '～番'
+kana = '～ばん'
+english = '(counter) number in a series; ～st/th best'
+level = 'n5'
+explain = 'https://www.reddit.com/r/LearnJapanese/comments/3q2ebm/%E5%8F%B7_vs_%E6%95%B0_what_is_the_difference/'
+explain2 = 'https://hinative.com/en-US/questions/217667'
+explain3 = 'https://www.japanesewithanime.com/2017/05/ichiban-ichigou-difference.html'
+tags = ['common', 'counter', 'noun']
+
+[[cards]]
+kanji = '番号'
+kana = 'ばんごう'
+english = 'number (series of digits or identifier)'
+level = 'n5'
+explain = 'https://www.reddit.com/r/LearnJapanese/comments/3q2ebm/%E5%8F%B7_vs_%E6%95%B0_what_is_the_difference/'
+explain2 = 'https://hinative.com/en-US/questions/217667'
+explain3 = 'https://www.japanesewithanime.com/2017/05/ichiban-ichigou-difference.html'
+tags = ['common', 'noun', 'number']
+
+[[cards]]
 kanji = '一つ'
 kana = 'ひとつ'
 english = 'one (thing)'
@@ -172,6 +221,13 @@ kana = 'ひゃく'
 english = 'hundred'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '百万'
+kana = 'ひゃくまん'
+english = 'one million'
+source = 'wanikani'
+tags = ['common', 'noun', 'number']
 
 [[cards]]
 kanji = '二つ'
