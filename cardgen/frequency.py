@@ -4,12 +4,14 @@
 Determine which frequent words are missing
 """
 
-import sys
+import argparse
 import glob
+import sys
 import toml
-from toml.encoder import TomlEncoder
-from toml.decoder import TomlDecoder
+
 from collections import OrderedDict
+from toml.decoder import TomlDecoder
+from toml.encoder import TomlEncoder
 
 IGNORE_WORDS = set([
  '\ufeffの', # Should probably just fix the list instead
@@ -62,7 +64,7 @@ IGNORE_WORDS = set([
 ])
 
 # I already have these words (perhaps a different politeness or kanji)
-DUPLICATE_WORDS = Set.new([
+DUPLICATE_WORDS = set([
   'お祭り',
 ])
 
@@ -88,37 +90,68 @@ def get_word_frequency_pairs(filename):
           and word not in DUPLICATE_WORDS \
           and not word.startswith('#') }
 
-def read_notes_from_toml(filename):
-  # Maintain key ordering in each item
-  decoder = TomlDecoder(_dict=OrderedDict)
-  with open(filename, 'r') as f:
-    contents = f.read()
-    return toml.loads(contents, decoder=decoder)
+class NoteLibrary:
+  def __init__(self):
+    self.notes = set()
 
-def read_all_notes():
-  all_notes = []
-  for filename in glob.glob('**/*.toml', recursive=True):
-    if 'cardgen' in filename or 'temp/' in filename:
-      continue # XXX: Things here shouldn't be processed for now.
-    try:
-      notes = read_notes_from_toml(filename)
-      notes = notes[INDEX_NAME]
-      all_notes.extend(notes)
-    except Exception as e:
-      print('Error processing file: {0}'.format(filename))
-      print(e)
-  return all_notes
+  def check_in_library(self, word):
+    if not self.notes:
+      self.notes = self.load_library()
+    return word in self.notes
+
+  def load_library(self):
+    if not self.notes:
+      self.notes = self.do_load_library()
+
+  @staticmethod
+  def do_load_library():
+    all_notes = NoteLibrary.import_all_notes()
+    note_word_set = set()
+    for note in all_notes:
+      # NB: Words might be recorded as kanji or kana in frequency data
+      note_word_set.add(note['kanji'])
+      note_word_set.add(note['kana'])
+      # Also get rid of characters we might not match on
+      note_word_set.add(note['kanji'].replace('～', ''))
+      note_word_set.add(note['kana'].replace('～', ''))
+    return note_word_set
+
+  @staticmethod
+  def import_all_notes():
+    all_notes = []
+    for filename in glob.glob('**/*.toml', recursive=True):
+      if 'cardgen' in filename or 'temp/' in filename:
+        continue # XXX: Things here shouldn't be processed for now.
+      try:
+        notes = NoteLibrary.read_notes_from_toml_file(filename)
+        notes = notes[INDEX_NAME]
+        all_notes.extend(notes)
+      except Exception as e:
+        print('Error processing file: {0}'.format(filename))
+        print(e)
+    return all_notes
+
+  @staticmethod
+  def read_notes_from_toml_file(filename):
+    # Maintain key ordering in each item
+    decoder = TomlDecoder(_dict=OrderedDict)
+    with open(filename, 'r') as f:
+      contents = f.read()
+      return toml.loads(contents, decoder=decoder)
+
+class Reports:
+  def __init__(self):
+    self.note_library = NoteLibrary()
+    self.note_library.load_library()
+
+  def wanikani_most_frequent(self, omit_library=True):
+    """Wanikani omissions, ordered by most frequent."""
+    self.wanikani_vocab = get_word_frequency_pairs('lists/wanikani_vocab.txt') # NB: Not frequency!
 
 def main():
-  all_notes = read_all_notes()
-
-  existing_words = set()
-  for note in all_notes:
-    # NB: Words might be recorded as kanji or kana in frequency data
-    existing_words.add(note['kanji'])
-    existing_words.add(note['kana'])
-
   # TODO: This code is messy af
+  note_library = NoteLibrary()
+  note_library.load_library()
 
   # TODO: Anime 250 list: https://owlcation.com/humanities/250-anime-japanese-words-phrases
   # TODO: 500 common verbs list: https://www.linguajunkie.com/japanese/japanese-verbs-list
@@ -132,7 +165,7 @@ def main():
   wiktionary_n3 = get_word_frequency_pairs('lists/jlpt_n3_wiktionary.txt')
   wanikani_vocab = get_word_frequency_pairs('lists/wanikani_vocab.txt')
 
-  for word in existing_words:
+  for word in note_library.notes:
     if word in f_3k_lookup:
       del f_3k_lookup[word]
     if word in wp_10k_lookup:
@@ -147,6 +180,18 @@ def main():
       del wiktionary_n3[word]
     if word in wanikani_vocab:
       del wanikani_vocab[word]
+
+  # Wanikani most frequent
+  filtered = {}
+  for word, frequency in wp_10k_lookup.items():
+    if word in wanikani_vocab:
+      filtered[word] = frequency
+
+  for k, v in filtered.items():
+    print(k, v)
+
+  if True:
+    return
 
   print('\n\n==== 3k list ====\n')
   for k, v in f_3k_lookup.items():
@@ -185,7 +230,6 @@ def main():
   print('\n\n==== Wanikani Vocab ({}) ====\n'.format(len(wanikani_vocab.items())))
   for word in wanikani_vocab.keys():
     print(word)
-
 
 if __name__ == '__main__':
     main()
