@@ -778,6 +778,14 @@ level = 'n3'
 tags = ['common', 'family', 'noun', 'people']
 
 [[cards]]
+kanji = '集中'
+kana = 'しゅうちゅう'
+english = 'concentrate'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'mental', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '主人'
 kana = 'しゅじん'
 english = 'head of (a) household'
@@ -790,6 +798,14 @@ kana = 'しゅっけつ'
 english = 'bleeding'
 source = 'wanikani'
 level = 'n1'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '出発'
+kana = 'しゅっぱつ'
+english = 'departure'
+source = 'wanikani; airport'
+level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
@@ -1291,6 +1307,14 @@ kana = 'てんさい'
 english = 'genius; prodigy'
 level = 'n1'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '伝説'
+kana = 'でんせつ'
+english = 'legend'
+source = 'zelda'
+level = 'n1'
+tags = ['common', 'fantasy', 'favorite words', 'noun', 'storytelling']
 
 [[cards]]
 kanji = '電話番号'
@@ -1907,6 +1931,14 @@ english = 'origin; source'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '物語'
+kana = 'ものがたり'
+english = 'tale'
+source = 'anime; videogames'
+level = 'n3'
+tags = ['common', 'fantasy', 'favorite words', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '矢'
