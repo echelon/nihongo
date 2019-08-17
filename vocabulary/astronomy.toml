@@ -1,0 +1,36 @@
+[[cards]]
+kanji = '火星'
+kana = 'かせい'
+english = 'Mars (planet)'
+level = 'n1'
+source = 'wanikani'
+tags = ['common', 'no-adjective', 'noun', 'space']
+
+[[cards]]
+kanji = '金星'
+kana = 'きんせい'
+english = 'Venus (planet)'
+source = 'wanikani'
+tags = ['common', 'noun', 'planet', 'space']
+
+[[cards]]
+kanji = '水星'
+kana = 'すいせい'
+english = 'Mercury (planet)'
+source = 'wanikani'
+tags = ['noun', 'planet', 'space', 'uncommon']
+
+[[cards]]
+kanji = '月'
+kana = 'つき'
+english = 'moon'
+level = 'n3'
+tags = ['common', 'space']
+
+[[cards]]
+kanji = '土星'
+kana = 'どせい'
+english = 'Saturn (planet)'
+source = 'wanikani'
+tags = ['common', 'noun', 'planet', 'space']
+

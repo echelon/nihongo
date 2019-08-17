@@ -1,0 +1,32 @@
+[[cards]]
+kanji = '計画'
+kana = 'けいかく'
+english = 'project; plan'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '支度'
+kana = 'したく'
+english = 'preparation; arrangements'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '積もり'
+kana = 'つもり'
+english = 'intention; plan'
+source = 'jlptstudy'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '予定'
+kana = 'よてい'
+english = 'plans; arrangement'
+level = 'n4'
+source = 'wanikani'
+tags = ['common', 'noun', 'suru-verb']
+

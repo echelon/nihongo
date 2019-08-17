@@ -21,6 +21,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '指す'
+kana = 'さす'
+english = 'to point'
+english-conjugated = { base = 'point', past = 'pointed', plural = 'points', continuous = 'pointing' }
+verb-type = 'godan-su'
+transitive = true
+source = 'wanikani'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
 kanji = '近づく'
 kana = 'ちかづく'
 english = 'to get close to; to approach'

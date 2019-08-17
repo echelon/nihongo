@@ -520,6 +520,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '秒'
+kana = 'びょう'
+english = 'second (unit of time)'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'measurement', 'noun', 'time', 'unit']
+
+[[cards]]
 kanji = '二日'
 kana = 'ふつか'
 english = 'second day of the month; two days'

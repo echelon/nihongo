@@ -1,0 +1,11 @@
+[[cards]]
+kanji = '拾う'
+kana = 'ひろう'
+english = 'to pick up ~'
+english-conjugated = { base = 'pick up', past = 'picked up', plural = 'picks up', continuous = 'picking up' }
+verb-type = 'godan-u'
+transitive = true
+source = 'wanikani'
+level = 'n4'
+tags = ['common']
+

@@ -472,6 +472,17 @@ transitive = false
 tags = ['common']
 
 [[cards]]
+kanji = '苦しむ'
+kana = 'くるしむ'
+english = 'to suffer'
+english-conjugated = { base = 'suffer', past = 'suffered', plural = 'suffers', continuous = 'suffering' }
+verb-type = 'godan-mu'
+transitive = false
+source = 'wanikani'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
 kanji = '消す'
 kana = 'けす'
 english = 'to delete ~; to erase/cross out ~; to turn off ~s power'
@@ -543,6 +554,17 @@ english-conjugated = { base = 'sit', past = 'sat', plural = 'sits', continuous =
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '注ぐ'
+kana = 'そそぐ'
+english = 'to pour ~'
+english-conjugated = { base = 'pour', past = 'poured', plural = 'pours', continuous = 'pouring' }
+verb-type = 'godan-gu'
+transitive = true
+source = 'wanikani'
+level = 'n3'
 tags = ['common']
 
 [[cards]]
@@ -844,6 +866,17 @@ english-conjugated = { base = 'work', past = 'worked', plural = 'works', continu
 verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '放す'
+kana = 'はなす'
+english = 'to release ~'
+english-conjugated = { base = 'release', past = 'released', plural = 'releases', continuous = 'releasing' }
+verb-type = 'godan-su'
+transitive = true
+source = 'wanikani'
+level = 'n3'
 tags = ['common']
 
 [[cards]]

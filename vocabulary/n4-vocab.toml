@@ -257,6 +257,14 @@ level = 'n4'
 tags = ['common', 'fighting', 'noun', 'suru-verb', 'war']
 
 [[cards]]
+kanji = '注意'
+kana = 'ちゅうい'
+english = 'caution; being careful'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '途中'
 kana = 'とちゅう'
 english = 'on the way; en route'

@@ -62,6 +62,14 @@ source = 'jlptstudy.net'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '意外'
+kana = 'いがい'
+english = 'unexpected; surprising'
+source = 'wanikani'
+level = 'n3'
+tags = ['adverb-to', 'common', 'na-adjective', 'noun']
+
+[[cards]]
 kanji = '以外'
 kana = 'いがい'
 english = 'with the exception of'
@@ -308,14 +316,6 @@ level = 'n4'
 tags = ['common', 'disaster', 'noun']
 
 [[cards]]
-kanji = '火星'
-kana = 'かせい'
-english = 'Mars (planet)'
-level = 'n1'
-source = 'wanikani'
-tags = ['common', 'no-adjective', 'noun', 'space']
-
-[[cards]]
 kanji = '方'
 kana = 'かた'
 english = '(1.) direction; way; person (2.) side; type'
@@ -513,26 +513,11 @@ source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
 
 [[cards]]
-kanji = '金星'
-kana = 'きんせい'
-english = 'Venus (planet)'
-source = 'wanikani'
-tags = ['common', 'noun', 'planet', 'space']
-
-[[cards]]
 kanji = '近年'
 kana = 'きんねん'
 english = 'recent years'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
-
-[[cards]]
-kanji = '計画'
-kana = 'けいかく'
-english = 'project; plan'
-source = 'wanikani'
-level = 'n3'
-tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '消しゴム'
@@ -545,6 +530,14 @@ tags = ['common', 'gairaigo', 'noun']
 kanji = '決心'
 kana = 'けっしん'
 english = 'determination'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '決定'
+kana = 'けってい'
+english = 'decision'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
@@ -1042,13 +1035,6 @@ source = 'office'
 tags = ['common']
 
 [[cards]]
-kanji = '水星'
-kana = 'すいせい'
-english = 'Mercury (planet)'
-source = 'wanikani'
-tags = ['noun', 'planet', 'space', 'uncommon']
-
-[[cards]]
 kanji = '水中'
 kana = 'すいちゅう'
 english = 'underwater'
@@ -1268,13 +1254,6 @@ english = 'about; concerning; regarding'
 tags = ['common', 'expression']
 
 [[cards]]
-kanji = '月'
-kana = 'つき'
-english = 'moon'
-level = 'n3'
-tags = ['common', 'space']
-
-[[cards]]
 kanji = '月見'
 kana = 'つきみ'
 english = 'moon viewing'
@@ -1287,14 +1266,6 @@ kana = 'つつみ'
 english = 'package; parcel; bundle'
 level = 'n3'
 tags = ['common', 'nouns']
-
-[[cards]]
-kanji = '積もり'
-kana = 'つもり'
-english = 'intention; plan'
-source = 'jlptstudy'
-level = 'n4'
-tags = ['common', 'noun']
 
 [[cards]]
 kanji = '梅雨'
@@ -1403,13 +1374,6 @@ english = 'paved road or highway'
 level = 'n3'
 explain = 'https://hinative.com/en-US/questions/9825'
 tags = ['common', 'noun', 'places']
-
-[[cards]]
-kanji = '土星'
-kana = 'どせい'
-english = 'Saturn (planet)'
-source = 'wanikani'
-tags = ['common', 'noun', 'planet', 'space']
 
 [[cards]]
 kanji = '何か'
@@ -1758,7 +1722,7 @@ tags = ['common', 'no-adjective', 'noun']
 kanji = '放送'
 kana = 'ほうそう'
 english = 'broadcast; broadcasting'
-source = 'wikipedia 10k frequent'
+source = 'wikipedia 10k frequent; wanikani; lots of frequency lists'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
@@ -2079,14 +2043,6 @@ english = 'wool'
 level = 'n2'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
-
-[[cards]]
-kanji = '予定'
-kana = 'よてい'
-english = 'plans; arrangement'
-level = 'n4'
-source = 'wanikani'
-tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '世の中'
