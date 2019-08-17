@@ -475,20 +475,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '～番'
-kana = '～ばん'
-english = 'number in a series; ～st/th best'
-level = 'n5'
-tags = []
-
-[[cards]]
-kanji = '番号'
-kana = 'ばんごう'
-english = 'number'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '東'
 kana = 'ひがし'
 english = 'east'

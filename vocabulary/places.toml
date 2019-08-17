@@ -6,6 +6,14 @@ source = 'living-in-japan'
 tags = ['common', 'no-adjective', 'noun', 'places']
 
 [[cards]]
+kanji = '売り場'
+kana = 'うりば'
+english = 'sales floor; counter; selling area'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['common', 'noun', 'store']
+
+[[cards]]
 kanji = '映画館'
 kana = 'えいがかん'
 english = 'movie theater'
@@ -33,6 +41,22 @@ kana = 'くに'
 english = 'country'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '郊外'
+kana = 'こうがい'
+english = 'suburb'
+source = 'n4-wikipedia'
+level = 'n4'
+tags = ['city', 'common', 'geography', 'noun', 'places']
+
+[[cards]]
+kanji = '工場'
+kana = 'こうじょう'
+english = 'factory'
+source = 'wanikani'
+level = 'n4'
+tags = ['business', 'common', 'industry', 'noun', 'places']
 
 [[cards]]
 kanji = '住所'

@@ -203,6 +203,14 @@ source = 'jlptstudy.net'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '踊り'
+kana = 'おどり'
+english = 'dance'
+source = 'irasshai; anime'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = 'お前'
 kana = 'おまえ'
 english = 'you (familiar, male language, often derogatory)'
@@ -298,14 +306,6 @@ english = 'fire; conflaguration'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['common', 'disaster', 'noun']
-
-[[cards]]
-kanji = '数'
-kana = 'かず'
-english = 'amount'
-level = 'n3'
-source = 'https://iknow.jp/courses/566921'
-tags = ['common', 'noun']
 
 [[cards]]
 kanji = '火星'
@@ -482,6 +482,14 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '興味'
+kana = 'きょうみ'
+english = 'interest (in something); curiosity (about something)'
+source = 'n4-study'
+level = 'n4'
+tags = ['common', 'hobby', 'noun']
+
+[[cards]]
 kanji = '曲'
 kana = 'きょく'
 english = 'piece of music; track (on a record)'
@@ -649,6 +657,15 @@ level = 'n4'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '細かい'
+kana = 'こまかい'
+english = 'small parts; detailed; fine'
+source = 'n4-study'
+level = 'n4'
+explain = 'https://hinative.com/ja/questions/5390425'
+tags = ['common', 'i-adjective']
+
+[[cards]]
 kanji = '小文字'
 kana = 'こもじ'
 english = 'lowercase letter'
@@ -675,6 +692,14 @@ kana = 'こんかい'
 english = 'this time; lately'
 level = 'n3'
 tags = ['adverbial-noun', 'anime', 'common', 'temporal-noun']
+
+[[cards]]
+kanji = '混凝土'
+kana = 'こんくりいと'
+english = 'concrete (material)'
+source = 'jisho'
+level = 'n2'
+tags = ['building', 'common', 'construction', 'material', 'noun']
 
 [[cards]]
 kanji = 'ご主人'
@@ -780,8 +805,8 @@ tags = ['common', 'family', 'noun', 'people']
 [[cards]]
 kanji = '集中'
 kana = 'しゅうちゅう'
-english = 'concentrate'
-source = 'wanikani'
+english = 'concentration'
+source = 'wanikani; anime'
 level = 'n3'
 tags = ['common', 'mental', 'noun', 'suru-verb']
 
@@ -1029,6 +1054,14 @@ kana = 'すいちゅう'
 english = 'underwater'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '生活'
+kana = 'せいかつ'
+english = 'living; livelihood'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '説明'
@@ -1437,6 +1470,14 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '農民'
+kana = 'のうみん'
+english = 'peasants'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun', 'people']
+
+[[cards]]
 kanji = '柱'
 kana = 'はしら'
 english = 'pillar; post'
@@ -1586,13 +1627,6 @@ kana = 'ひみつ'
 english = 'secret'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
-
-[[cards]]
-kanji = '百万'
-kana = 'ひゃくまん'
-english = 'one million'
-source = 'wanikani'
-tags = ['common', 'noun', 'number']
 
 [[cards]]
 kanji = '昼休み'
@@ -2116,6 +2150,14 @@ english = 'freeze/freezing; cold storage; refridgeration'
 level = 'n2'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '煉瓦'
+kana = 'れんが'
+english = 'brick'
+source = 'jisho'
+level = 'n2'
+tags = ['building', 'common', 'material', 'noun']
 
 [[cards]]
 kanji = '連絡'

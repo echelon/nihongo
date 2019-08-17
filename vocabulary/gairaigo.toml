@@ -7,6 +7,14 @@ level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'transportation']
 
 [[cards]]
+kanji = 'カーテン'
+kana = 'カーテン'
+english = 'curtain'
+source = 'n4-wiki'
+level = 'n4'
+tags = ['common', 'house', 'noun', 'window']
+
+[[cards]]
 kanji = 'ガス'
 kana = 'ガス'
 english = 'gas'
@@ -23,6 +31,30 @@ level = 'n4'
 tags = ['automotive', 'common', 'gairaigo', 'noun']
 
 [[cards]]
+kanji = 'ガソリンスタンド'
+kana = 'ガソリンスタンド'
+english = 'gas station'
+source = 'n4-wiki'
+level = 'n4'
+tags = ['common', 'noun', 'places', 'travel']
+
+[[cards]]
+kanji = 'ケーキ'
+kana = 'ケーキ'
+english = 'cake'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'dessert', 'food', 'noun']
+
+[[cards]]
+kanji = 'コンサート'
+kana = 'コンサート'
+english = 'concert'
+source = 'n4-wiki'
+level = 'n4'
+tags = ['common', 'event', 'music', 'noun']
+
+[[cards]]
 kanji = 'コンピューター'
 kana = 'コンピューター'
 english = 'computer'
@@ -37,6 +69,22 @@ english = 'coat'
 source = 'irasshai'
 level = 'n5'
 tags = ['clothing', 'common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'サラダ'
+kana = 'サラダ'
+english = 'salad'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'food', 'noun']
+
+[[cards]]
+kanji = 'サンダル'
+kana = 'サンダル'
+english = 'sandals'
+source = 'n4-study'
+level = 'n4'
+tags = ['clothing', 'common', 'footwear', 'noun', 'shoes']
 
 [[cards]]
 kanji = 'サンドイッチ'
@@ -84,6 +132,14 @@ english = 'text'
 source = 'n4 wiktionary'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'テープ'
+kana = 'テープ'
+english = 'tape'
+source = 'irasshai'
+level = 'n5'
+tags = ['common', 'noun', 'office']
 
 [[cards]]
 kanji = 'テープレコーダー'

@@ -6,6 +6,14 @@ source = 'wanikani'
 tags = ['adverb', 'adverb-taking-to', 'common', 'suru-verb']
 
 [[cards]]
+kanji = 'どんどん'
+kana = 'どんどん'
+english = 'rapidly; drumming; pounding'
+source = 'n4-wikipedia; ramen'
+level = 'n4'
+tags = ['adverb', 'adverb-to', 'common']
+
+[[cards]]
 kanji = 'ふんわり'
 kana = 'ふんわり'
 english = 'gently; fluffily'

@@ -84,6 +84,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '開始'
+kana = 'かいし'
+english = 'start (literary?)'
+source = 'wanikani; frequency'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '～か月'
 kana = '～かげつ'
 english = 'counter for number of months'
@@ -238,6 +246,14 @@ kanji = 'さ来月'
 kana = 'さらいげつ'
 english = 'month after next'
 source = 'n4 wiktionary'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
+
+[[cards]]
+kanji = '再来週'
+kana = 'さらいしゅう'
+english = 'week after next'
+source = 'irasshai'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
 

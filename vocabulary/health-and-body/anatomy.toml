@@ -85,6 +85,14 @@ level = 'n4'
 tags = ['body', 'common']
 
 [[cards]]
+kanji = '血'
+kana = 'ち'
+english = 'blood'
+source = 'wanikani; anime'
+level = 'n4'
+tags = ['body', 'common', 'health', 'noun']
+
+[[cards]]
 kanji = '手'
 kana = 'て'
 english = 'hand; arm'
@@ -136,6 +144,14 @@ english = 'forehead'
 level = 'n3'
 source = 'wanikani'
 tags = ['body', 'common', 'noun']
+
+[[cards]]
+kanji = '瞳'
+kana = 'ひとみ'
+english = 'pupil (eye)'
+source = 'frequency-list'
+level = 'n2'
+tags = ['body', 'common', 'eye', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '骨'

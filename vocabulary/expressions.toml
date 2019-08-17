@@ -21,6 +21,14 @@ level = 'n3'
 tags = ['adverb', 'common', 'noun']
 
 [[cards]]
+kanji = 'うん'
+kana = 'うん'
+english = 'yes; yeah; hmm (casual)'
+source = 'irasshai; anime'
+level = 'n4'
+tags = ['common', 'expression']
+
+[[cards]]
 kanji = '気をつける'
 kana = 'きをつける'
 english = 'to be careful; to take care'

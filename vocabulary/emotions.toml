@@ -1,0 +1,39 @@
+[[cards]]
+kanji = '嬉しい'
+kana = 'うれしい'
+english = 'happy; glad'
+level = 'n3'
+tags = ['common', 'emotion', 'i-adjective']
+
+[[cards]]
+kanji = '悲しい'
+kana = 'かなしい'
+english = 'sad'
+source = 'irasshai; anime'
+level = 'n4'
+tags = ['common', 'emotion', 'i-adjective']
+
+[[cards]]
+kanji = '寂しい'
+kana = 'さびしい'
+english = 'lonely'
+source = 'irasshai; anime'
+level = 'n4'
+tags = ['common', 'emotion', 'i-adjective']
+
+[[cards]]
+kanji = '幸せ'
+kana = 'しあわせ'
+english = 'happiness; good fortune; luck'
+source = 'bonobono-anime'
+level = 'n3'
+tags = ['common', 'emotion', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '心配'
+kana = 'しんぱい'
+english = 'worry'
+source = 'wanikani; anime?'
+level = 'n3'
+tags = ['common', 'emotion', 'na-adjective', 'noun', 'suru-verb']
+
