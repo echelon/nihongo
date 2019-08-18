@@ -133,6 +133,16 @@ class Reports:
     # Average frequency from all lists
     self.averaged_frequency = {}
 
+  def build_ordered_frequency_list(self, list_name):
+    if list_name not in self.frequencies:
+      raise Exception('List {} not in frequency sets.'.format(list_name))
+    unordered_list = []
+    for word, frequency in self.frequencies[list_name].items():
+      unordered_list.append((word, frequency))
+    #sorted_tuples = sorted(unordered_list, key=lambda tup: tup[1])
+    #return map(lambda tup: tup[0], sorted_tuples)
+    return sorted(unordered_list, key=lambda tup: tup[1])
+
   def calculate_average_frequency(self):
     # NB: Mathematically, this is a lie.
     word_tally = {}
@@ -162,15 +172,33 @@ class Reports:
 
     return word_tally
 
+  def print_anime_not_in_anki(self):
+    """
+    Cumulative frequency points (a steep curve with a very long tail)
+      24.99% -  # 29 (number of words needed)
+      50.01% -  # 261
+      60.01% -  # 572
+      65.01% -  # 833
+      70.00% -  # 1,210
+      75.00% -  # 1,750
+      80.00% -  # 2,568
+      85.00% -  # 3,887
+      90.00% -  # 6,224
+      95.00% -  # 11,275
+      98.00% -  # 18,928
+    """
+    word_frequencies = self.build_ordered_frequency_list('anime_45k')
+    for word, frequency in word_frequencies[0:261]:
+      if word in self.note_library.notes:
+        continue
+      print(u'{:<5} : {}'.format(frequency, word))
+
 
 def main():
   # TODO: This code is messy af
-  note_library = NoteLibrary()
-  note_library.load_library()
-
   reports = Reports()
 
-  reports.calculate_average_frequency()
+  reports.print_anime_not_in_anki()
   return
 
 
