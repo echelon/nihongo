@@ -15,62 +15,15 @@ from collections import OrderedDict
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
+from constants import HIRAGANA
 from constants import IGNORE_SYMBOLS
-
-IGNORE_WORDS = set([
- 'あ',
- 'う',
- 'お',
- 'か',
- 'から',
- 'く',
- 'げ',
- 'こ',
- 'こと',
- 'さ',
- 'じゃ',
- 'する',
- 'せる',
- 'そんな',
- 'ぞ',
- 'ため',
- 'だ',
- 'だけ',
- 'って',
- 'つ',
- 'で',
- 'です',
- 'でも',
- 'ど',
- 'な',
- 'など',
- 'ぬ',
- 'ね',
- 'の',
- 'のに',
- 'ば',
- 'へ',
- 'ます',
- 'まで',
- 'も',
- 'ら',
- 'り',
- 'る',
- 'れる',
- 'ろ',
- 'わ',
- 'を',
- 'ん',
- 'スる',
- 'ド',
- 'ン',
-])
+from constants import IGNORE_WORDS
+from constants import KATAKANA
 
 # I already have these words (perhaps a different politeness or kanji)
 DUPLICATE_WORDS = set([
   'お祭り',
 ])
-
 
 INDEX_NAME = 'cards'
 
@@ -192,7 +145,9 @@ class Reports:
     # Unsorted (word,avg) tuples
     averaged_frequencies = []
     for word, frequencies in word_tally.items():
-      if word in IGNORE_WORDS \
+      if word in HIRAGANA \
+          or word in KATAKANA \
+          or word in IGNORE_WORDS \
           or word in IGNORE_SYMBOLS \
           or word in string.ascii_letters \
           or word in string.digits:
