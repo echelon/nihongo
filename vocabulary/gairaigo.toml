@@ -47,6 +47,13 @@ level = 'n4'
 tags = ['common', 'dessert', 'food', 'noun']
 
 [[cards]]
+kanji = 'ゲーム'
+kana = 'ゲーム'
+english = 'game'
+level = 'n3'
+tags = ['common', 'gairaigo', 'games', 'noun', 'video games']
+
+[[cards]]
 kanji = 'コンサート'
 kana = 'コンサート'
 english = 'concert'
@@ -149,9 +156,34 @@ level = 'n5'
 tags = ['common', 'dated', 'electronics', 'gairaigo', 'noun']
 
 [[cards]]
+kanji = 'データ'
+kana = 'データ'
+english = 'data'
+level = 'n1'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'ドラゴン'
+kana = 'ドラゴン'
+english = 'dragon (gairaigo)'
+tags = ['common', 'gairaigo', 'monster', 'mythology', 'noun']
+
+[[cards]]
+kanji = 'ハンター'
+kana = 'ハンター'
+english = 'hunter'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
 kanji = 'メートル'
 kana = 'メートル'
 english = 'meter'
 level = 'n5'
 tags = ['common', 'dimensions', 'gairaigo', 'measure', 'noun']
+
+[[cards]]
+kanji = 'ライブ'
+kana = 'ライブ'
+english = 'live (eg performance, concert)'
+tags = ['common', 'gairaigo', 'noun', 'noun-or-verb-acting-prenominally']
 

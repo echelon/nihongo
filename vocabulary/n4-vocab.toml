@@ -281,6 +281,15 @@ level = 'n4'
 tags = ['buildings', 'common', 'noun', 'places']
 
 [[cards]]
+kanji = '筈'
+kana = 'はず'
+english = 'expectation that something will or would have taken place'
+source = 'anime-frequency'
+level = 'n4'
+explain = 'http://maggiesensei.com/2012/11/14/request-lesson-how-and-when-to-use-%E3%81%AF%E3%81%9Ahazu/'
+tags = ['common', 'grammar']
+
+[[cards]]
 kanji = '発音'
 kana = 'はつおん'
 english = 'pronunciation'
@@ -375,6 +384,15 @@ english = 'absent; away from home'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '訳'
+kana = 'わけ'
+english = 'draw conclusion from reasoning'
+source = 'anime-frequency'
+level = 'n4'
+explain = 'http://www.guidetojapanese.org/learn/grammar/reasoning'
+tags = ['common']
 
 [[cards]]
 kanji = '忘れ物'

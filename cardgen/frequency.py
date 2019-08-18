@@ -25,6 +25,8 @@ DUPLICATE_WORDS = set([
   'お祭り',
 ])
 
+IGNORE_SET = set().union(HIRAGANA, KATAKANA, IGNORE_WORDS, IGNORE_SYMBOLS)
+
 INDEX_NAME = 'cards'
 
 def load_file_lines(filename):
@@ -188,7 +190,9 @@ class Reports:
       98.00% -  # 18,928
     """
     word_frequencies = self.build_ordered_frequency_list('anime_45k')
-    for word, frequency in word_frequencies[0:261]:
+    for word, frequency in word_frequencies[0:1210]:
+      if word in IGNORE_SET:
+        continue
       if word in self.note_library.notes:
         continue
       print(u'{:<5} : {}'.format(frequency, word))

@@ -32,6 +32,14 @@ explain = 'http://selftaughtjapanese.com/2015/04/30/words-to-express-truth-in-ja
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '後輩'
+kana = 'こうはい'
+english = 'junior (at school or work)'
+source = 'anime; irasshai'
+level = 'n2'
+tags = ['anime', 'common', 'noun']
+
+[[cards]]
 kanji = '個性'
 kana = 'こせい'
 english = 'individuality; personality'
@@ -64,6 +72,14 @@ source = 'manga'
 tags = ['common', 'manga']
 
 [[cards]]
+kanji = '先輩'
+kana = 'せんぱい'
+english = 'senior (at school or work)'
+source = 'anime; irasshai'
+level = 'n4'
+tags = ['anime', 'common', 'noun']
+
+[[cards]]
 kanji = '存在'
 kana = 'そんざい'
 english = 'existence; being'
@@ -94,6 +110,13 @@ english = 'main point; gist'
 source = 'anime; db super; wanikani'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun']
+
+[[cards]]
+kanji = '天使'
+kana = 'てんし'
+english = 'angel'
+source = 'anime'
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 disabled = true
@@ -135,6 +158,21 @@ source = 'manga'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '化け物'
+kana = 'ばけもの'
+english = 'goblin'
+source = 'anime-frequency'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '光'
+kana = 'ひかり'
+english = 'light'
+source = 'anime'
+level = 'n4'
+tags = ['anime', 'common', 'noun']
+
+[[cards]]
 disabled = true
 kanji = '平等'
 kana = 'びょうどう'
@@ -153,6 +191,14 @@ source = 'manga'
 tags = ['common']
 
 [[cards]]
+kanji = '真逆'
+kana = 'まさか'
+english = "by no means! never! you don't say!"
+source = 'anime'
+level = 'n3'
+tags = ['adverb', 'common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = '全く'
 kana = 'まったく'
 english = 'completely'
@@ -167,4 +213,11 @@ kana = 'ゆるし'
 english = 'forgiveness; pardon'
 source = 'manga'
 tags = ['common']
+
+[[cards]]
+kanji = 'アニメ'
+kana = 'アニメ'
+english = 'anime'
+source = 'anime'
+tags = ['common', 'noun']
 

@@ -504,6 +504,17 @@ level = 'n3'
 tags = ['common']
 
 [[cards]]
+kanji = '殺す'
+kana = 'ころす'
+english = 'to kill ~'
+english-conjugated = { continuous = 'killing', base = 'kill', past = 'killed', plural = 'kills' }
+verb-type = 'godan-su'
+transitive = true
+source = 'anime'
+level = 'n3'
+tags = ['anime', 'common']
+
+[[cards]]
 kanji = '探す'
 kana = 'さがす'
 english = 'to search'
@@ -931,6 +942,17 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '負ける'
+kana = 'まける'
+english = 'to lose'
+english-conjugated = { base = 'lose', past = 'lost', plural = 'loses', continuous = 'losing' }
+verb-type = 'ichidan'
+transitive = false
+source = 'anime'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '混ぜる'
 kana = 'まぜる'
 english = 'to mix ~; to stir ~; to blend ~'
@@ -1002,6 +1024,17 @@ english-conjugated = { base = 'rest', past = 'rested', plural = 'rests', continu
 verb-type = 'godan-mu'
 transitive = false
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '止める'
+kana = 'やめる'
+english = 'to stop ~'
+english-conjugated = { past = 'stopped', base = 'stop', plural = 'stops', continuous = 'stopping' }
+verb-type = 'ichidan'
+transitive = true
+source = 'anime'
+level = 'n4'
 tags = ['common']
 
 [[cards]]

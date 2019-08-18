@@ -1,0 +1,32 @@
+[[cards]]
+kanji = '俺'
+kana = 'おれ'
+english = 'I; me (male, rough/arrogant)'
+source = 'anime'
+level = 'n1'
+tags = ['anime', 'common', 'pronoun']
+
+[[cards]]
+kanji = '貴様'
+kana = 'きさま'
+english = 'you bastard'
+source = 'anime'
+tags = ['pronoun', 'uncommon', 'uncommon-but-ive-heard-this']
+
+[[cards]]
+kanji = '私たち'
+kana = 'わたしたち'
+english = 'we (less formal)'
+source = 'irasshai'
+explain = 'https://japanese.stackexchange.com/a/36681'
+tags = ['common', 'pronoun']
+
+[[cards]]
+kanji = '我々'
+kana = 'われわれ'
+english = 'we (more formal)'
+source = 'anime'
+level = 'n3'
+explain = 'https://japanese.stackexchange.com/a/36681'
+tags = ['anime', 'common', 'pronoun']
+

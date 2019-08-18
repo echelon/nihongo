@@ -142,6 +142,20 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '近日'
+kana = 'きんじつ'
+english = 'in a few days; soon'
+source = 'wanikani'
+tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
+
+[[cards]]
+kanji = '近年'
+kana = 'きんねん'
+english = 'recent years'
+source = 'wanikani'
+tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
+
+[[cards]]
 kanji = '金曜日'
 kana = 'きんようび'
 english = 'Friday'
@@ -171,6 +185,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '現在'
+kana = 'げんざい'
+english = 'present time'
+source = 'wikipedia 10k frequent'
+level = 'n3'
+tags = ['adverbial-noun', 'common', 'temporal-noun']
+
+[[cards]]
 kanji = '九日'
 kana = 'ここのか'
 english = 'the ninth of the month; nine days'
@@ -185,6 +207,21 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '古来'
+kana = 'こらい'
+english = 'ancient; from time immemorial'
+source = 'wanikani'
+tags = ['adverb', 'common', 'no-adjective', 'noun', 'time']
+
+[[cards]]
+kanji = '今回'
+kana = 'こんかい'
+english = 'this time; lately'
+level = 'n3'
+explain = 'https://japanese.stackexchange.com/a/52295'
+tags = ['adverbial-noun', 'anime', 'common', 'temporal-noun']
+
+[[cards]]
 kanji = '今月'
 kana = 'こんげつ'
 english = 'this month'
@@ -197,6 +234,15 @@ kana = 'こんしゅう'
 english = 'this week'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '今度'
+kana = 'こんど'
+english = 'this time (or next time)'
+source = 'anime'
+level = 'n4'
+explain = 'https://japanese.stackexchange.com/a/52295'
+tags = ['adverbial-noun', 'common', 'temporal-noun']
 
 [[cards]]
 kanji = '今晩'
@@ -299,6 +345,13 @@ kana = '～じ'
 english = "hour; o'clock"
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '次回'
+kana = 'じかい'
+english = 'next time'
+source = 'wanikani'
+tags = ['adverbial-noun', 'common', 'temporal-noun']
 
 [[cards]]
 kanji = '時間'
@@ -520,6 +573,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '昼休み'
+kana = 'ひるやすみ'
+english = 'lunch break'
+source = 'jlptstudy'
+level = 'n4'
+tags = ['adverbial-noun', 'common', 'temporal-noun', 'time', 'work']
+
+[[cards]]
 kanji = '秒'
 kana = 'びょう'
 english = 'second (unit of time)'
@@ -689,6 +750,13 @@ english = 'next year'
 source = 'irasshai'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun', 'time']
+
+[[cards]]
+kanji = '両日'
+kana = 'りょうじつ'
+english = 'both days'
+source = 'wanikani'
+tags = ['common', 'temporal-noun', 'time']
 
 [[cards]]
 kanji = 'カレンダー'

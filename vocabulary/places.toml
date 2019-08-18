@@ -75,6 +75,14 @@ level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '谷'
+kana = 'たに'
+english = 'valley'
+source = 'anime-nausicaa'
+level = 'n3'
+tags = ['anime', 'common', 'geography', 'noun', 'places']
+
+[[cards]]
 kanji = '所'
 kana = 'ところ'
 english = 'place; area (can be abstract; less formal)'

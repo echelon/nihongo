@@ -445,6 +445,14 @@ level = 'n2'
 tags = ['common', 'noun', 'school']
 
 [[cards]]
+kanji = '記憶'
+kana = 'きおく'
+english = 'recollection'
+source = 'anime-frequent'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '記事'
 kana = 'きじ'
 english = 'article; news story'
@@ -506,20 +514,6 @@ level = 'n5'
 tags = ['common', 'noun']
 
 [[cards]]
-kanji = '近日'
-kana = 'きんじつ'
-english = 'in a few days; soon'
-source = 'wanikani'
-tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
-
-[[cards]]
-kanji = '近年'
-kana = 'きんねん'
-english = 'recent years'
-source = 'wanikani'
-tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
-
-[[cards]]
 kanji = '消しゴム'
 kana = 'けしゴム'
 english = 'eraser'
@@ -578,14 +572,6 @@ english = 'cause; origin; source'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
-
-[[cards]]
-kanji = '現在'
-kana = 'げんざい'
-english = 'present time'
-source = 'wikipedia 10k frequent'
-level = 'n3'
-tags = ['adverbial-noun', 'common', 'temporal-noun']
 
 [[cards]]
 kanji = '現象'
@@ -650,6 +636,14 @@ level = 'n4'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '事'
+kana = 'こと'
+english = 'thing'
+source = 'irasshai'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '細かい'
 kana = 'こまかい'
 english = 'small parts; detailed; fine'
@@ -666,25 +660,11 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
-kanji = '古来'
-kana = 'こらい'
-english = 'ancient; from time immemorial'
-source = 'wanikani'
-tags = ['adverb', 'common', 'no-adjective', 'noun', 'time']
-
-[[cards]]
 kanji = '怖い'
 kana = 'こわい'
 english = 'scary; frightening'
 level = 'n4'
 tags = ['common', 'i-adjective']
-
-[[cards]]
-kanji = '今回'
-kana = 'こんかい'
-english = 'this time; lately'
-level = 'n3'
-tags = ['adverbial-noun', 'anime', 'common', 'temporal-noun']
 
 [[cards]]
 kanji = '混凝土'
@@ -874,6 +854,14 @@ level = 'n4'
 tags = ['common', 'noun', 'people']
 
 [[cards]]
+kanji = '勝負'
+kana = 'しょうぶ'
+english = 'match; victory or defeat'
+source = 'wanikani'
+level = 'n2'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '使用'
 kana = 'しよう'
 english = 'use; application'
@@ -934,13 +922,6 @@ source = 'wanikani'
 tags = ['common', 'japanese', 'language', 'noun', 'writing']
 
 [[cards]]
-kanji = '次回'
-kana = 'じかい'
-english = 'next time'
-source = 'wanikani'
-tags = ['adverbial-noun', 'common', 'temporal-noun']
-
-[[cards]]
 kanji = '事件'
 kana = 'じけん'
 english = 'event; incident; case; plot'
@@ -973,6 +954,14 @@ level = 'n3'
 tags = ['adverb', 'common', 'no-adjective', 'noun']
 
 [[cards]]
+kanji = '邪魔'
+kana = 'じゃま'
+english = 'hindrance'
+source = 'anime-frequent'
+level = 'n3'
+tags = ['common', 'na-adjective', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '砂利'
 kana = 'じゃり'
 english = 'gravel; pebbles'
@@ -993,6 +982,14 @@ english = 'freedom'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'expression', 'na-adjective', 'noun']
+
+[[cards]]
+kanji = '状況'
+kana = 'じょうきょう'
+english = 'state of affairs (around you); circumstances'
+source = 'anime-frequency'
+level = 'n3'
+tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
 kanji = '助言'
@@ -1171,6 +1168,14 @@ english = 'sake; purpose; benefit'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '大事'
+kana = 'だいじ'
+english = 'important; serious'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'na-adjective', 'noun']
 
 [[cards]]
 kanji = '男性'
@@ -1390,6 +1395,14 @@ level = 'n3'
 tags = ['adverb', 'common', 'expression']
 
 [[cards]]
+kanji = '匂い'
+kana = 'におい'
+english = 'smell (usually bad); odor; stench'
+source = 'irasshai'
+level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '日記'
 kana = 'にっき'
 english = 'diary; journal'
@@ -1440,6 +1453,14 @@ english = 'peasants'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun', 'people']
+
+[[cards]]
+kanji = '能力'
+kana = 'のうりょく'
+english = 'ability'
+source = 'anime-frequency'
+level = 'n3'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '柱'
@@ -1591,14 +1612,6 @@ kana = 'ひみつ'
 english = 'secret'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
-
-[[cards]]
-kanji = '昼休み'
-kana = 'ひるやすみ'
-english = 'lunch break'
-source = 'jlptstudy'
-level = 'n4'
-tags = ['adverbial-noun', 'common', 'temporal-noun', 'time', 'work']
 
 [[cards]]
 kanji = '不安'
@@ -2085,13 +2098,6 @@ level = 'n4'
 tags = ['common', 'noun']
 
 [[cards]]
-kanji = '両日'
-kana = 'りょうじつ'
-english = 'both days'
-source = 'wanikani'
-tags = ['common', 'temporal-noun', 'time']
-
-[[cards]]
 kanji = '両方'
 kana = 'りょうほう'
 english = 'both'
@@ -2122,6 +2128,14 @@ english = 'contact; get in touch'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'no-adjective', 'suru-verb']
+
+[[cards]]
+kanji = '訳無い'
+kana = 'わけない'
+english = 'there is no reasonable conclusion *OR* requires no explanation (easy)'
+source = 'anime'
+explain = 'http://www.guidetojapanese.org/learn/grammar/reasoning'
+tags = ['i-adjective', 'uncommon', 'uncommon-but-ive-heard-this']
 
 [[cards]]
 kanji = '割引'
