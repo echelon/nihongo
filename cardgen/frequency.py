@@ -6,6 +6,8 @@ Determine which frequent words are missing
 
 import argparse
 import glob
+import statistics
+import string
 import sys
 import toml
 
@@ -13,8 +15,9 @@ from collections import OrderedDict
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
+from constants import IGNORE_SYMBOLS
+
 IGNORE_WORDS = set([
- '\ufeffの', # Should probably just fix the list instead
  'あ',
  'う',
  'お',
@@ -68,9 +71,10 @@ DUPLICATE_WORDS = set([
   'お祭り',
 ])
 
+
 INDEX_NAME = 'cards'
 
-def get_file_lines(filename):
+def load_file_lines(filename):
   lines = []
   with open(filename, 'r') as f:
     for line in f:
@@ -79,16 +83,31 @@ def get_file_lines(filename):
         lines.append(line)
   return lines
 
-def get_word_frequency_pairs(filename):
+def load_word_frequency_map(filename):
   """
-  Gets the (word, frequency) tuples in a file.
+  Gets the {word => frequency} map in a file.
   Filters out comments and the ignore list of words.
   """
-  words = get_file_lines(filename)
+  words = load_file_lines(filename)
   return { word : rank for rank, word in enumerate(words) \
           if word not in IGNORE_WORDS \
           and word not in DUPLICATE_WORDS \
           and not word.startswith('#') }
+
+def load_word_set(filename):
+  """
+  Load the word set in a file.
+  Filters out comments and the ignore list of words.
+  """
+  word_set = set()
+  words = load_file_lines(filename)
+  for word in words:
+    if word in IGNORE_WORDS \
+        or word in DUPLICATE_WORDS \
+        or word.startswith('#'):
+      continue
+    word_set.add(word)
+  return word_set
 
 class NoteLibrary:
   def __init__(self):
@@ -144,26 +163,73 @@ class Reports:
     self.note_library = NoteLibrary()
     self.note_library.load_library()
 
-  def wanikani_most_frequent(self, omit_library=True):
-    """Wanikani omissions, ordered by most frequent."""
-    self.wanikani_vocab = get_word_frequency_pairs('lists/wanikani_vocab.txt') # NB: Not frequency!
+    # Word sets
+    self.wanikani_vocab_set = load_word_set('lists/wanikani_vocab.txt') # Needs frequent rebuild
+    self.wiktionary_n5 = load_word_set('lists/jlpt_n5_wiktionary.txt')
+    self.wiktionary_n4 = load_word_set('lists/jlpt_n4_wiktionary.txt')
+    self.wiktionary_n3 = load_word_set('lists/jlpt_n3_wiktionary.txt')
+
+    # Word => frequency maps
+    self.frequencies = {
+      'anime_45k': load_word_frequency_map('lists/anime_45k_relevant_words.txt'),
+      'leeds_15k' : load_word_frequency_map('lists/leeds_15k_frequency.txt'),
+      'novel_3k' : load_word_frequency_map('lists/Japanese-Word-Frequency-List-1-3000.txt'),
+      'wikipedia_10k' : load_word_frequency_map('lists/wikipedia_10k.txt'),
+    }
+
+    # Average frequency from all lists
+    self.averaged_frequency = {}
+
+  def calculate_average_frequency(self):
+    # NB: Mathematically, this is a lie.
+    word_tally = {}
+    for frequency_map in self.frequencies.values():
+      for word, frequency in frequency_map.items():
+        if word not in word_tally:
+          word_tally[word] = []
+        word_tally[word].append(frequency)
+
+    # Unsorted (word,avg) tuples
+    averaged_frequencies = []
+    for word, frequencies in word_tally.items():
+      if word in IGNORE_WORDS \
+          or word in IGNORE_SYMBOLS \
+          or word in string.ascii_letters \
+          or word in string.digits:
+        continue
+      avg = float(statistics.mean(frequencies))
+      averaged_frequencies.append((word, avg))
+
+    sorted_frequencies = sorted(averaged_frequencies, key=lambda tup: tup[1])
+
+    for word, frequency in sorted_frequencies[0:500]:
+      print(word, frequency)
+
+    return word_tally
+
 
 def main():
   # TODO: This code is messy af
   note_library = NoteLibrary()
   note_library.load_library()
 
+  reports = Reports()
+
+  reports.calculate_average_frequency()
+  return
+
+
   # TODO: Anime 250 list: https://owlcation.com/humanities/250-anime-japanese-words-phrases
   # TODO: 500 common verbs list: https://www.linguajunkie.com/japanese/japanese-verbs-list
-  wp_10k_lookup = get_word_frequency_pairs('lists/wikipedia_10k.txt')
-  f_3k_lookup  = get_word_frequency_pairs('lists/Japanese-Word-Frequency-List-1-3000.txt')
+  wp_10k_lookup = load_word_frequency_map('lists/wikipedia_10k.txt')
+  f_3k_lookup  = load_word_frequency_map('lists/Japanese-Word-Frequency-List-1-3000.txt')
 
   # Not frequency lists
-  kore_6k_lookup = get_word_frequency_pairs('lists/optimized_kore_frequency.txt') # Not frequency!
-  wiktionary_n5 = get_word_frequency_pairs('lists/jlpt_n5_wiktionary.txt')
-  wiktionary_n4 = get_word_frequency_pairs('lists/jlpt_n4_wiktionary.txt')
-  wiktionary_n3 = get_word_frequency_pairs('lists/jlpt_n3_wiktionary.txt')
-  wanikani_vocab = get_word_frequency_pairs('lists/wanikani_vocab.txt')
+  kore_6k_lookup = load_word_frequency_map('lists/optimized_kore_frequency.txt') # Not frequency!
+  wiktionary_n5 = load_word_frequency_map('lists/jlpt_n5_wiktionary.txt')
+  wiktionary_n4 = load_word_frequency_map('lists/jlpt_n4_wiktionary.txt')
+  wiktionary_n3 = load_word_frequency_map('lists/jlpt_n3_wiktionary.txt')
+  wanikani_vocab = load_word_frequency_map('lists/wanikani_vocab.txt')
 
   for word in note_library.notes:
     if word in f_3k_lookup:

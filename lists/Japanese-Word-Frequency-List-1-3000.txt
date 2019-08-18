@@ -1,4 +1,8 @@
-﻿の
+# Japanese novels as material. Algorithm compiled over 65 million words.
+# Taken from http://www.offbeatband.com/2010/12/the-most-commonly-used-japanese-words-by-frequency/
+# Original source: Mike “Pomax” Kamermans from nihongoresources.com 
+#
+の
 た
 に
 は
