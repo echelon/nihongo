@@ -54,6 +54,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '並べる'
+kana = 'ならべる'
+english = 'to line up ~; to enumerate ~'
+english-conjugated = { plural = 'lines up', base = 'line up', continuous = 'lining up', past = 'lined up' }
+verb-type = 'ichidan'
+transitive = true
+source = 'n4-list'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '逃げる'
 kana = 'にげる'
 english = 'to escape; to run away'

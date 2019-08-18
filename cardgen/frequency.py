@@ -197,12 +197,21 @@ class Reports:
         continue
       print(u'{:<5} : {}'.format(frequency, word))
 
+  def print_n4_not_in_anki(self):
+    for word in self.wiktionary_n5:
+      if word in IGNORE_SET:
+        continue
+      if word in self.note_library.notes:
+        continue
+      print (word)
+
 
 def main():
   # TODO: This code is messy af
   reports = Reports()
 
-  reports.print_anime_not_in_anki()
+  #reports.print_anime_not_in_anki()
+  reports.print_n4_not_in_anki()
   return
 
 
