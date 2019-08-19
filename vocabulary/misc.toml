@@ -211,6 +211,22 @@ source = 'jlptstudy.net'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = 'お釣り'
+kana = 'おつり'
+english = 'change (for a purchase)'
+source = 'n4-wiki'
+level = 'n4'
+tags = ['common', 'money', 'noun', 'shopping']
+
+[[cards]]
+kanji = '音'
+kana = 'おと'
+english = 'sound; noise'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'hearing', 'noun', 'noun-suffix', 'sounds']
+
+[[cards]]
 kanji = '踊り'
 kana = 'おどり'
 english = 'dance'
@@ -760,6 +776,14 @@ source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '暫く'
+kana = 'しばらく'
+english = 'for a moment OR for awhile'
+source = 'n4-wiki'
+level = 'n4'
+tags = ['adverb', 'common', 'suru-verb']
+
+[[cards]]
 kanji = '島'
 kana = 'しま'
 english = 'island'
@@ -1047,6 +1071,14 @@ level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '生産'
+kana = 'せいさん'
+english = 'production; manufacture'
+source = 'n4-wiki'
+level = 'n4'
+tags = ['common', 'industry', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '説明'
 kana = 'せつめい'
 english = 'explanation; exposition'
@@ -1303,6 +1335,14 @@ level = 'n4'
 tags = ['clothing', 'common', 'noun']
 
 [[cards]]
+kanji = '寺'
+kana = 'てら'
+english = 'Buddhist temple'
+source = 'japan; n4-wiki'
+level = 'n4'
+tags = ['buildings', 'common', 'culture', 'noun', 'places', 'religion']
+
+[[cards]]
 kanji = '点'
 kana = 'てん'
 english = 'point; dot; spot; mark'
@@ -1469,6 +1509,14 @@ english = 'ability'
 source = 'anime-frequency'
 level = 'n3'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '葉'
+kana = 'は'
+english = 'leaf; blade of grass; pine needle'
+source = 'wanikani; n4-wiki'
+level = 'n4'
+tags = ['biology', 'botany', 'common', 'nature', 'noun', 'plants']
 
 [[cards]]
 kanji = '柱'

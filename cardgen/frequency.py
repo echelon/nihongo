@@ -200,7 +200,7 @@ class Reports:
       print(u'{:<5} : {}'.format(frequency, word))
 
   def print_n4_not_in_anki(self):
-    for word in self.wiktionary_n5:
+    for word in self.wiktionary_n4:
       if word in IGNORE_SET:
         continue
       if word in self.note_library.notes:

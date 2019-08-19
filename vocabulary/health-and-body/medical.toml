@@ -21,6 +21,14 @@ level = 'n5'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '入院'
+kana = 'にゅういん'
+english = 'hospitalization'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '病院'
 kana = 'びょういん'
 english = 'hospital'
