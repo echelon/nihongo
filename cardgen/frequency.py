@@ -181,18 +181,26 @@ class Reports:
     Cumulative frequency points (a steep curve with a very long tail)
       24.99% -  # 29 (number of words needed)
       50.01% -  # 261
+      58.28% -  # 500
       60.01% -  # 572
       65.01% -  # 833
+      67.46% -  # 1,000
       70.00% -  # 1,210
+      72.91% -  # 1,500
       75.00% -  # 1,750
+      76.78% -  # 2,000
+      79.66% -  # 2,500
       80.00% -  # 2,568
+      81.93% -  # 3,000
       85.00% -  # 3,887
+      85.32% -  # 4,000
+      87.78% -  # 5,000
       90.00% -  # 6,224
       95.00% -  # 11,275
       98.00% -  # 18,928
     """
     word_frequencies = self.build_ordered_frequency_list('anime_45k')
-    for word, frequency in word_frequencies[0:261]:
+    for word, frequency in word_frequencies[0:1000]:
       if word in IGNORE_SET:
         continue
       if word in self.note_library.notes:
