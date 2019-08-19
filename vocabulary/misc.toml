@@ -1311,6 +1311,14 @@ level = 'n4'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '店員'
+kana = 'てんいん'
+english = 'shop assistant'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '天才'
 kana = 'てんさい'
 english = 'genius; prodigy'

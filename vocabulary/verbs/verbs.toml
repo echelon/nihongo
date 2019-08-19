@@ -318,6 +318,17 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '起きる'
+kana = 'おきる'
+english = 'to wake up'
+english-conjugated = { plural = 'wakes up', continuous = 'waking up', base = 'wake up', past = 'woke up' }
+verb-type = 'ichidan'
+transitive = false
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '置く'
 kana = 'おく'
 english = 'to put ~; to place ~'
@@ -504,6 +515,28 @@ level = 'n3'
 tags = ['common']
 
 [[cards]]
+kanji = '困る'
+kana = 'こまる'
+english = 'to be troubled; to have difficulty'
+english-conjugated = { continuous = 'being troubled', past = 'been troubled', base = 'be troubled', plural = 'are troubled' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '込む'
+kana = 'こむ'
+english = 'to be crowded'
+english-conjugated = { base = 'be crowded', past = 'was crowded', plural = 'are crowded', continuous = 'is crowded' }
+verb-type = 'godan-mu'
+transitive = false
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '殺す'
 kana = 'ころす'
 english = 'to kill ~'
@@ -544,6 +577,28 @@ verb-type = 'godan-nu'
 transitive = false
 source = 'n5-study'
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '吸う'
+kana = 'すう'
+english = 'to smoke ~; to inhale ~'
+english-conjugated = { continuous = 'smoking', base = 'smoke', plural = 'smokes', past = 'smoked' }
+verb-type = 'godan-u'
+transitive = true
+source = 'stay-in-japan'
+level = 'n5'
+tags = ['commmon']
+
+[[cards]]
+kanji = '滑る'
+kana = 'すべる'
+english = 'to glide; to slide'
+english-conjugated = { continuous = 'gliding', base = 'glide', past = 'glided', plural = 'glides' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'wiki-n4'
+level = 'n4'
 tags = ['common']
 
 [[cards]]
@@ -788,6 +843,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '鳴く'
+kana = 'なく'
+english = 'to sing (bird); to chirp'
+english-conjugated = { plural = 'chrips', past = 'chirped', base = 'chirp', continuous = 'chirping' }
+verb-type = 'godan-ku'
+transitive = false
+source = 'wanikani'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '無くす'
 kana = 'なくす'
 english = 'to lose ~ (something)'
@@ -795,6 +861,17 @@ english-conjugated = { base = 'lose', past = 'lost', plural = 'loses', continuou
 level = 'n5'
 verb-type = 'godan-su'
 transitive = true
+tags = ['common']
+
+[[cards]]
+kanji = '並ぶ'
+kana = 'ならぶ'
+english = 'to line up'
+english-conjugated = { plural = 'lines up', continuous = 'lining up', base = 'line up', past = 'lined up' }
+verb-type = 'godan-bu'
+transitive = false
+source = 'wiki-n5'
+level = 'n5'
 tags = ['common']
 
 [[cards]]
@@ -891,6 +968,17 @@ level = 'n3'
 tags = ['common']
 
 [[cards]]
+kanji = '張る'
+kana = 'はる'
+english = 'to stick ~; to paste ~; to affix ~'
+english-conjugated = { continuous = 'sticking', base = 'stick', past = 'stuck', plural = 'sticks' }
+verb-type = 'godan-ru'
+transitive = true
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '化ける'
 kana = 'ばける'
 english = 'to transform'
@@ -929,6 +1017,17 @@ english-conjugated = { base = 'get fat', past = 'got fat', plural = 'gets fat', 
 verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '降る'
+kana = 'ふる'
+english = 'to fall (rain, snow, etc.)'
+english-conjugated = { base = 'fall', continuous = 'falling', plural = 'falls', past = 'fell' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'wiki-n5'
+level = 'n5'
 tags = ['common']
 
 [[cards]]

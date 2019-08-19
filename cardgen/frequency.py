@@ -23,6 +23,8 @@ from constants import KATAKANA
 # I already have these words (perhaps a different politeness or kanji)
 DUPLICATE_WORDS = set([
   'お祭り',
+  '昼御飯', # Less common
+  '朝御飯', # Less common
 ])
 
 IGNORE_SET = set().union(HIRAGANA, KATAKANA, IGNORE_WORDS, IGNORE_SYMBOLS)

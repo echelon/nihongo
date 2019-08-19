@@ -154,6 +154,14 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '天気予報'
+kana = 'てんきよほう'
+english = 'weather forecast'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'noun', 'weather']
+
+[[cards]]
 kanji = '晴れ'
 kana = 'はれ'
 english = 'clear weather; fine weather'

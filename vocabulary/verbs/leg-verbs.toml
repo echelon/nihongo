@@ -9,16 +9,6 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
-kanji = '履く'
-kana = 'はく'
-english = 'to put on or wear ~ (lower-body clothing)'
-english-conjugated = { base = 'wear', past = 'wore', plural = 'wears', continuous = 'wearing' }
-verb-type = 'godan-ku'
-transitive = true
-level = 'n3'
-tags = ['common']
-
-[[cards]]
 kanji = '走る'
 kana = 'はしる'
 english = 'to run'

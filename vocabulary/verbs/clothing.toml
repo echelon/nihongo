@@ -1,0 +1,21 @@
+[[cards]]
+kanji = '着る'
+kana = 'きる'
+english = 'to put on or wear ~ (from the shoulders down)'
+english-conjugated = { continuous = 'wearing', base = 'wear', past = 'wore', plural = 'wears' }
+verb-type = 'ichidan'
+transitive = true
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '履く'
+kana = 'はく'
+english = 'to put on or wear ~ (lower-body clothing)'
+english-conjugated = { base = 'wear', past = 'wore', plural = 'wears', continuous = 'wearing' }
+verb-type = 'godan-ku'
+transitive = true
+level = 'n3'
+tags = ['common']
+

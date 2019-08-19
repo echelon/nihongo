@@ -133,12 +133,43 @@ level = 'n4'
 tags = ['clothing', 'common', 'gairaigo', 'noun']
 
 [[cards]]
+kanji = 'スーツケース'
+kana = 'スーツケース'
+english = 'suitcase'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun', 'office', 'work']
+
+[[cards]]
+kanji = 'ソフト'
+kana = 'ソフト'
+english = 'soft (gairaigo)'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'na-adjective', 'no-adjective']
+
+[[cards]]
+kanji = 'タイプ'
+kana = 'タイプ'
+english = 'type (gairaigo)'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
 kanji = 'テキスト'
 kana = 'テキスト'
 english = 'text'
 source = 'n4 wiktionary'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'テニス'
+kana = 'テニス'
+english = 'tennis'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun', 'sport']
 
 [[cards]]
 kanji = 'テープ'
@@ -175,6 +206,46 @@ english = 'hunter'
 tags = ['common', 'gairaigo', 'noun']
 
 [[cards]]
+kanji = 'ハンドバッグ'
+kana = 'ハンドバッグ'
+english = 'handbag; purse'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'パソコン'
+kana = 'パソコン'
+english = 'personal computer'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'gairaigo', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = 'パート'
+kana = 'パート'
+english = 'part'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'ファックス'
+kana = 'ファックス'
+english = 'fax'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = 'ベル'
+kana = 'ベル'
+english = 'bell (gairaigo)'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
 kanji = 'メートル'
 kana = 'メートル'
 english = 'meter'
@@ -186,4 +257,20 @@ kanji = 'ライブ'
 kana = 'ライブ'
 english = 'live (eg performance, concert)'
 tags = ['common', 'gairaigo', 'noun', 'noun-or-verb-acting-prenominally']
+
+[[cards]]
+kanji = 'レジ'
+kana = 'レジ'
+english = '(cash) register'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'ワープロ'
+kana = 'ワープロ'
+english = 'word processor'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'computer', 'gairaigo', 'noun', 'program']
 

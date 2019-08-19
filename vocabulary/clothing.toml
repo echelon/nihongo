@@ -13,6 +13,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '着物'
+kana = 'きもの'
+english = 'clothing; ALSO traditional clothing type'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['clothing', 'common', 'noun']
+
+[[cards]]
 kanji = '靴'
 kana = 'くつ'
 english = 'shoes'

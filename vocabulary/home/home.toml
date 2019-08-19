@@ -55,6 +55,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '畳'
+kana = 'たたみ'
+english = 'a type of Japanese mat; straw floor coverings'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = '電球'
 kana = 'でんきゅう'
 english = 'light bulb'

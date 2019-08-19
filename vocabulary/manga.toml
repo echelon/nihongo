@@ -207,6 +207,22 @@ level = 'n3'
 tags = ['adverb', 'common', 'no-adjective']
 
 [[cards]]
+kanji = '漫画'
+kana = 'まんが'
+english = 'manga'
+source = 'manga; anime'
+level = 'n4'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '約束'
+kana = 'やくそく'
+english = 'promise'
+source = 'anime'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 disabled = true
 kanji = '許し'
 kana = 'ゆるし'

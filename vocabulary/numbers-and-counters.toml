@@ -20,6 +20,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '億'
+kana = 'おく'
+english = 'hudred million'
+source = 'n4-wiki'
+level = 'n4'
+tags = ['common', 'numeric']
+
+[[cards]]
 kanji = '～回'
 kana = '～かい'
 english = 'counter for occurrences'
