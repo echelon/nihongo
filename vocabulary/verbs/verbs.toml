@@ -159,6 +159,18 @@ source = 'jlptstudy.net'
 tags = ['common']
 
 [[cards]]
+kanji = '行く'
+kana = 'いく'
+english = 'to go'
+english-conjugated = { continuous = 'going', base = 'go', plural = 'goes', past = 'went' }
+verb-type = 'godan-ku'
+verb-type2 = 'todo-godan-iku-yuku-special-class'
+transitive = false
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '苛める'
 kana = 'いじめる'
 english = 'to bully ~'
@@ -223,6 +235,17 @@ transitive = false
 source = 'jlptstudy.net'
 level = 'n4'
 tags = ['common', 'sonkeigo']
+
+[[cards]]
+kanji = '居る'
+kana = 'いる'
+english = 'to be (animate)'
+english-conjugated = { plural = 'are', past = 'was', continuous = 'being', base = 'be' }
+verb-type = 'ichidan'
+transitive = false
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
 
 [[cards]]
 kanji = '入れる'
@@ -382,6 +405,17 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '終わる'
+kana = 'おわる'
+english = 'to finish; to end'
+english-conjugated = { past = 'finished', continuous = 'finishing', plural = 'finishes', base = 'finish' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '買う'
 kana = 'かう'
 english = 'to buy ~'
@@ -398,6 +432,17 @@ english = 'to return ~ (something); to restore ~; to put back ~'
 english-conjugated = { base = 'return', past = 'returned', plural = 'returns', continuous = 'returning' }
 verb-type = 'godan-su'
 transitive = true
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '帰る'
+kana = 'かえる'
+english = 'to return; to go home'
+english-conjugated = { past = 'returned', plural = 'returns', continuous = 'returning', base = 'return' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'irasshai'
 level = 'n5'
 tags = ['common']
 
@@ -454,6 +499,39 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '変わる'
+kana = 'かわる'
+english = 'to change; to be transformed'
+english-conjugated = { base = 'change', continuous = 'changing', past = 'changed', plural = 'changes' }
+verb-type = 'godan-ru'
+transitive = true
+source = 'anime-freq'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '考える'
+kana = 'かんがえる'
+english = 'to think about ~'
+english-conjugated = { continuous = 'thinking about', base = 'think about', past = 'thought about', plural = 'thinks about' }
+verb-type = 'ichidan'
+transitive = true
+source = 'irasshai'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '聞く'
+kana = 'きく'
+english = 'to hear ~'
+english-conjugated = { past = 'heard', continuous = 'hearing', base = 'hear', plural = 'hears' }
+verb-type = 'godan-ku'
+transitive = true
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '築く'
 kana = 'きずく'
 english = 'to build ~; to construct ~'
@@ -480,6 +558,18 @@ english-conjugated = { base = 'get cloudy', past = 'got cloudy', plural = 'gets 
 level = 'n5'
 verb-type = 'godan-ru'
 transitive = false
+tags = ['common']
+
+[[cards]]
+kanji = '来る'
+kana = 'くる'
+english = 'to come'
+english-conjugated = { past = 'came', plural = 'comes', base = 'come', continuous = 'coming' }
+verb-type = 'godan-ru'
+verb-type2 = 'todo-kuru-verb-special-class'
+transitive = false
+source = 'irasshai'
+level = 'n5'
 tags = ['common']
 
 [[cards]]
@@ -667,6 +757,17 @@ level = 'n3'
 tags = ['common']
 
 [[cards]]
+kanji = '戦う'
+kana = 'たたかう'
+english = 'to make war; to do battle; to compete'
+english-conjugated = { plural = 'makes war', base = 'make war', continuous = 'making war', past = 'made war' }
+verb-type = 'godan-u'
+transitive = false
+source = 'anime-freq'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
 kanji = '正す'
 kana = 'ただす'
 english = 'to correct ~; to rectify ~'
@@ -695,6 +796,17 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n4'
 source = 'wanikani'
+tags = ['common']
+
+[[cards]]
+kanji = '頼む'
+kana = 'たのむ'
+english = 'to request ~; to beg ~'
+english-conjugated = { past = 'requested', continuous = 'requesting', base = 'request', plural = 'requests' }
+verb-type = 'godan-mu'
+transitive = true
+source = 'anime-freq'
+level = 'n5'
 tags = ['common']
 
 [[cards]]
@@ -740,12 +852,45 @@ transitive = true
 tags = ['common']
 
 [[cards]]
+kanji = '作る'
+kana = 'つくる'
+english = 'to make ~'
+english-conjugated = { plural = 'makes', base = 'make', continuous = 'making', past = 'made' }
+verb-type = 'godan-ru'
+transitive = true
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '続ける'
+kana = 'つづける'
+english = 'to continue ~; to keep up ~'
+english-conjugated = { past = 'continued', base = 'continue', continuous = 'continuing', plural = 'continues' }
+verb-type = 'ichidan'
+transitive = true
+source = 'anime-freq'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '出かける'
 kana = 'でかける'
 english = 'to go out; to set out'
 english-conjugated = { base = 'go out', past = 'went out', plural = 'goes out', continuous = 'going out' }
 verb-type = 'ichidan'
 transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '出来る'
+kana = 'できる'
+english = 'to be able to do'
+english-conjugated = { past = 'was able', base = 'be able', plural = 'are able', continuous = 'being able' }
+verb-type = 'ichidan'
+transitive = false
+source = 'irasshai'
 level = 'n5'
 tags = ['common']
 
@@ -819,6 +964,17 @@ verb-type = 'ichidan'
 transitive = true
 source = 'jlpt-study'
 level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '取る'
+kana = 'とる'
+english = 'to take ~; to pick up ~; ...'
+english-conjugated = { past = 'took', continuous = 'taking', plural = 'takes', base = 'take' }
+verb-type = 'godan-ru'
+transitive = true
+source = 'irasshai'
+level = 'n5'
 tags = ['common']
 
 [[cards]]
@@ -912,6 +1068,17 @@ english = 'to climb'
 english-conjugated = { base = 'climb', past = 'climbed', plural = 'climbs', continuous = 'climbing' }
 verb-type = 'godan-ru'
 transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '入る'
+kana = 'はいる'
+english = 'to enter'
+english-conjugated = { plural = 'enters', base = 'enter', past = 'entered', continuous = 'entering' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'irasshai'
 level = 'n5'
 tags = ['common']
 
@@ -1116,6 +1283,17 @@ level = 'n3'
 tags = ['common']
 
 [[cards]]
+kanji = '戻る'
+kana = 'もどる'
+english = 'to turn back (eg halfway)'
+english-conjugated = { base = 'turn back', continuous = 'turning back', past = 'turned back', plural = 'turns back' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'anime-freq'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '休む'
 kana = 'やすむ'
 english = 'to rest; to take a break; to take a day off'
@@ -1144,6 +1322,17 @@ english-conjugated = { base = 'do', past = 'did', plural = 'does', continuous = 
 verb-type = 'godan-ru'
 transitive = true
 level = 'n1'
+tags = ['common']
+
+[[cards]]
+kanji = '呼ぶ'
+kana = 'よぶ'
+english = 'to call out to ~; to summon ~; to invite ~'
+english-conjugated = { base = 'call out', plural = 'calls out', past = 'called out', continuous = 'calling out' }
+verb-type = 'godan-bu'
+transitive = true
+source = 'anime-freq'
+level = 'n5'
 tags = ['common']
 
 [[cards]]

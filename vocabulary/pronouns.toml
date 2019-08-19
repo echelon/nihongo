@@ -14,6 +14,22 @@ source = 'anime'
 tags = ['pronoun', 'uncommon', 'uncommon-but-ive-heard-this']
 
 [[cards]]
+kanji = '君'
+kana = 'きみ'
+english = 'you; buddy; pal'
+source = 'anime'
+level = 'n4'
+tags = ['common', 'pronoun']
+
+[[cards]]
+kanji = '僕'
+kana = 'ぼく'
+english = 'I; me (male language)'
+source = 'irasshai; anime'
+level = 'n4'
+tags = ['anime', 'common', 'male', 'male-language', 'pronoun']
+
+[[cards]]
 kanji = '私たち'
 kana = 'わたしたち'
 english = 'we (less formal)'

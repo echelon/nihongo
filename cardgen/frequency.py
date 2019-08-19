@@ -192,7 +192,7 @@ class Reports:
       98.00% -  # 18,928
     """
     word_frequencies = self.build_ordered_frequency_list('anime_45k')
-    for word, frequency in word_frequencies[0:1210]:
+    for word, frequency in word_frequencies[0:261]:
       if word in IGNORE_SET:
         continue
       if word in self.note_library.notes:
@@ -207,15 +207,13 @@ class Reports:
         continue
       print (word)
 
-
 def main():
   # TODO: This code is messy af
   reports = Reports()
 
-  #reports.print_anime_not_in_anki()
-  reports.print_n4_not_in_anki()
+  reports.print_anime_not_in_anki()
+  #reports.print_n4_not_in_anki()
   return
-
 
   # TODO: Anime 250 list: https://owlcation.com/humanities/250-anime-japanese-words-phrases
   # TODO: 500 common verbs list: https://www.linguajunkie.com/japanese/japanese-verbs-list
@@ -254,9 +252,6 @@ def main():
   for k, v in filtered.items():
     print(k, v)
 
-  if True:
-    return
-
   print('\n\n==== 3k list ====\n')
   for k, v in f_3k_lookup.items():
     print(k, v)
@@ -274,26 +269,6 @@ def main():
   in_order = [(k, common_frequency[k]) for k in sorted(common_frequency, key=common_frequency.get)]
   for word, freq in in_order:
     print(word, freq)
-
-  print('\n\n==== Reddit Kore 6k useful list ({}) ====\n'.format(len(kore_6k_lookup.items())))
-  for k, v in kore_6k_lookup.items():
-    print(k, v)
-
-  print('\n\n==== JLPT N5 ({}) ====\n'.format(len(wiktionary_n5.items())))
-  for word in wiktionary_n5.keys():
-    print(word)
-
-  print('\n\n==== JLPT N4 ({}) ====\n'.format(len(wiktionary_n4.items())))
-  for word in wiktionary_n4.keys():
-    print(word)
-
-  print('\n\n==== JLPT N3 ({}) ====\n'.format(len(wiktionary_n3.items())))
-  for word in wiktionary_n3.keys():
-    print(word)
-
-  print('\n\n==== Wanikani Vocab ({}) ====\n'.format(len(wanikani_vocab.items())))
-  for word in wanikani_vocab.keys():
-    print(word)
 
 if __name__ == '__main__':
     main()

@@ -1313,6 +1313,14 @@ level = 'n3'
 tags = ['anime', 'common', 'noun', 'temporal']
 
 [[cards]]
+kanji = '敵'
+kana = 'てき'
+english = 'opponent; rival'
+source = 'anime-freq'
+level = 'n3'
+tags = ['anime', 'common', 'noun', 'people']
+
+[[cards]]
 kanji = '鉄道'
 kana = 'てつどう'
 english = 'railroad'

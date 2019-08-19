@@ -148,6 +148,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '子'
+kana = 'こ'
+english = 'child'
+source = 'irasshai'
+level = 'n4'
+tags = ['age', 'common', 'noun', 'noun-suffix', 'people', 'young']
+
+[[cards]]
 kanji = '子供'
 kana = 'こども'
 english = 'child'

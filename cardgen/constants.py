@@ -184,6 +184,7 @@ IGNORE_SYMBOLS = set([
 # NB: Some particles, words, or segments that come up in frequency lists
 IGNORE_WORDS = set([
  'から',
+ 'くん', # Anime freq (TODO suffix)
  'こと',
  'じゃ',
  'する',
@@ -199,8 +200,12 @@ IGNORE_WORDS = set([
  'ます',
  'まで',
  'れる',
+ 'オレ', # In anime frequency list
  'スる',
+ 'ダメ', # In anime frequency list
  'ド',
+ 'バカ', # In anime frequency list
+ 'ホント', # In anime freq
  'ン',
 ])
 
