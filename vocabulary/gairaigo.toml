@@ -15,6 +15,13 @@ level = 'n4'
 tags = ['common', 'house', 'noun', 'window']
 
 [[cards]]
+kanji = 'カード'
+kana = 'カード'
+english = 'card'
+level = 'n3'
+tags = ['common', 'electronics', 'gairaigo', 'noun']
+
+[[cards]]
 kanji = 'ガス'
 kana = 'ガス'
 english = 'gas'

@@ -1,4 +1,11 @@
 [[cards]]
+kanji = '貴方'
+kana = 'あんた'
+english = 'you (familiar form of "anata")'
+source = 'anime-freq'
+tags = ['common', 'pronoun']
+
+[[cards]]
 kanji = '俺'
 kana = 'おれ'
 english = 'I; me (male, rough/arrogant)'
@@ -28,6 +35,13 @@ english = 'I; me (male language)'
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['anime', 'common', 'male', 'male-language', 'pronoun']
+
+[[cards]]
+kanji = '奴'
+kana = 'やつ'
+english = 'fellow; chap (derogatory)'
+source = 'anime-freq'
+tags = ['anime', 'common', 'derogatory', 'pronoun', 'rude']
 
 [[cards]]
 kanji = '私たち'

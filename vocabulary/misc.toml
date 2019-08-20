@@ -729,6 +729,14 @@ level = 'n1'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '残念'
+kana = 'ざんねん'
+english = 'regrettable; unfortunate'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
 kanji = '仕方'
 kana = 'しかた'
 english = 'method'
@@ -1721,6 +1729,14 @@ tags = ['adverb', 'common', 'no-adjective']
 kanji = '船'
 kana = 'ふね'
 english = 'boat'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'noun', 'ocean', 'transportation', 'vehicle']
+
+[[cards]]
+kanji = '船'
+kana = 'ふね'
+english = 'boat'
 level = 'n4'
 tags = ['common', 'noun', 'transportation']
 
@@ -1832,6 +1848,14 @@ kana = 'ほんとうに'
 english = 'really'
 source = 'irasshai'
 tags = ['adverb', 'common']
+
+[[cards]]
+kanji = '翻訳'
+kana = 'ほんやく'
+english = 'translation'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '本来'
@@ -1961,6 +1985,14 @@ level = 'n3'
 tags = ['common', 'na-adjective', 'noun']
 
 [[cards]]
+kanji = '珍しい'
+kana = 'めずらしい'
+english = 'unusual; rare; curious'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'i-adjective']
+
+[[cards]]
 kanji = '目茶苦茶'
 kana = 'めちゃくちゃ'
 english = 'absurd; unreasonable'
@@ -1983,6 +2015,14 @@ english = 'table of contents'
 source = 'wanikani'
 level = 'n2'
 tags = ['books', 'common', 'index', 'noun', 'reading']
+
+[[cards]]
+kanji = '目的'
+kana = 'もくてき'
+english = 'goal; aim'
+source = 'anime-freq'
+level = 'n3'
+tags = ['common', 'noun']
 
 [[cards]]
 kanji = '若し'

@@ -395,6 +395,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '覚える'
+kana = 'おぼえる'
+english = 'to memorize ~'
+english-conjugated = { continuous = 'memorizing', base = 'memorize', plural = 'memorizes', past = 'memorized' }
+verb-type = 'ichidan'
+transitive = true
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '泳ぐ'
 kana = 'およぐ'
 english = 'to swim'
@@ -479,6 +490,17 @@ level = 'n3'
 tags = ['common']
 
 [[cards]]
+kanji = '飾る'
+kana = 'かざる'
+english = 'to decorate ~'
+english-conjugated = { plural = 'decorates', past = 'decorated', continuous = 'decorating', base = 'decorate' }
+verb-type = 'godan-ru'
+transitive = true
+source = 'wiki-n4'
+level = 'n4'
+tags = ['comon']
+
+[[cards]]
 kanji = '貸す'
 kana = 'かす'
 english = 'to lend ~'
@@ -518,6 +540,16 @@ verb-type = 'ichidan'
 transitive = true
 source = 'irasshai'
 level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '頑張る'
+kana = 'がんばる'
+english = 'to persevere'
+english-conjugated = { past = 'persevered', continuous = 'persevering', plural = 'perseveres', base = 'persevere' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'irasshai; anime'
 tags = ['common']
 
 [[cards]]
@@ -842,6 +874,16 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = 'ちまう'
+kana = 'ちまう'
+english = 'to do completely ~ (kantou dialect)'
+english-conjugated = { past = 'did completely', base = 'do completely', plural = 'does completely', continuous = 'doing completely' }
+verb-type = 'godan-u'
+transitive = true
+source = 'anime-freq'
+tags = ['anime', 'dialect', 'kantou', 'uncommon']
+
+[[cards]]
 kanji = '使う'
 kana = 'つかう'
 english = 'to use ~ (colloquial)'
@@ -849,6 +891,17 @@ english-conjugated = { base = 'use', past = 'used', plural = 'uses', continuous 
 level = 'n5'
 verb-type = 'godan-u'
 transitive = true
+tags = ['common']
+
+[[cards]]
+kanji = '着く'
+kana = 'つく'
+english = 'to arrive'
+english-conjugated = { base = 'arrive', continuous = 'arriving', plural = 'arrives', past = 'arrived' }
+verb-type = 'godan-ku'
+transitive = false
+source = 'anime-freq'
+level = 'n5'
 tags = ['common']
 
 [[cards]]

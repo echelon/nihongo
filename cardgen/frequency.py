@@ -16,9 +16,10 @@ from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
 from constants import HIRAGANA
+from constants import IGNORE_MISC
 from constants import IGNORE_SYMBOLS
-from constants import IGNORE_WORDS
 from constants import KATAKANA
+from constants import PARTICLES
 
 # I already have these words (perhaps a different politeness or kanji)
 DUPLICATE_WORDS = set([
@@ -27,7 +28,7 @@ DUPLICATE_WORDS = set([
   '朝御飯', # Less common
 ])
 
-IGNORE_SET = set().union(HIRAGANA, KATAKANA, IGNORE_WORDS, IGNORE_SYMBOLS)
+IGNORE_SET = set().union(HIRAGANA, KATAKANA, PARTICLES, IGNORE_SYMBOLS, IGNORE_MISC)
 
 INDEX_NAME = 'cards'
 
@@ -47,8 +48,7 @@ def load_word_frequency_map(filename):
   """
   words = load_file_lines(filename)
   return { word : rank for rank, word in enumerate(words) \
-          if word not in IGNORE_WORDS \
-          and word not in DUPLICATE_WORDS \
+          if word not in IGNORE_SET \
           and not word.startswith('#') }
 
 def load_word_set(filename):
@@ -59,7 +59,7 @@ def load_word_set(filename):
   word_set = set()
   words = load_file_lines(filename)
   for word in words:
-    if word in IGNORE_WORDS \
+    if word in IGNORE_SET \
         or word in DUPLICATE_WORDS \
         or word.startswith('#'):
       continue
@@ -121,10 +121,14 @@ class Reports:
     self.note_library.load_library()
 
     # Word sets
-    self.wanikani_vocab_set = load_word_set('lists/wanikani_vocab.txt') # Needs frequent rebuild
-    self.wiktionary_n5 = load_word_set('lists/jlpt_n5_wiktionary.txt')
-    self.wiktionary_n4 = load_word_set('lists/jlpt_n4_wiktionary.txt')
-    self.wiktionary_n3 = load_word_set('lists/jlpt_n3_wiktionary.txt')
+    # TODO: Anime 250 list: https://owlcation.com/humanities/250-anime-japanese-words-phrases
+    # TODO: 500 common verbs list: https://www.linguajunkie.com/japanese/japanese-verbs-list
+    self.vocabulary_sets = {
+      'jlpt_n5': load_word_set('lists/jlpt_n5_wiktionary.txt'),
+      'jlpt_n4': load_word_set('lists/jlpt_n4_wiktionary.txt'),
+      'jlpt_n3': load_word_set('lists/jlpt_n3_wiktionary.txt'),
+      'wanikani': load_word_set('lists/wanikani_vocab.txt'),
+    }
 
     # Word => frequency maps
     self.frequencies = {
@@ -176,7 +180,7 @@ class Reports:
 
     return word_tally
 
-  def print_anime_not_in_anki(self):
+  def print_anime_not_in_anki(self, limit=None):
     """
     Cumulative frequency points (a steep curve with a very long tail)
       24.99% -  # 29 (number of words needed)
@@ -200,15 +204,17 @@ class Reports:
       98.00% -  # 18,928
     """
     word_frequencies = self.build_ordered_frequency_list('anime_45k')
-    for word, frequency in word_frequencies[0:1000]:
+    for word, frequency in word_frequencies[0:limit]:
       if word in IGNORE_SET:
         continue
       if word in self.note_library.notes:
         continue
       print(u'{:<5} : {}'.format(frequency, word))
 
-  def print_n4_not_in_anki(self):
-    for word in self.wiktionary_n4:
+  def print_set_not_in_anki(self, set_name):
+    if set_name not in self.vocabulary_sets:
+      raise Exception('Set {} not in vocabulary sets.'.format(set_name))
+    for word in self.vocabulary_sets[set_name]:
       if word in IGNORE_SET:
         continue
       if word in self.note_library.notes:
@@ -219,64 +225,10 @@ def main():
   # TODO: This code is messy af
   reports = Reports()
 
-  reports.print_anime_not_in_anki()
-  #reports.print_n4_not_in_anki()
-  return
+  reports.print_set_not_in_anki('jlpt_n4')
+  #reports.print_set_not_in_anki('wanikani')
+  #reports.print_anime_not_in_anki(572)
 
-  # TODO: Anime 250 list: https://owlcation.com/humanities/250-anime-japanese-words-phrases
-  # TODO: 500 common verbs list: https://www.linguajunkie.com/japanese/japanese-verbs-list
-  wp_10k_lookup = load_word_frequency_map('lists/wikipedia_10k.txt')
-  f_3k_lookup  = load_word_frequency_map('lists/Japanese-Word-Frequency-List-1-3000.txt')
-
-  # Not frequency lists
-  kore_6k_lookup = load_word_frequency_map('lists/optimized_kore_frequency.txt') # Not frequency!
-  wiktionary_n5 = load_word_frequency_map('lists/jlpt_n5_wiktionary.txt')
-  wiktionary_n4 = load_word_frequency_map('lists/jlpt_n4_wiktionary.txt')
-  wiktionary_n3 = load_word_frequency_map('lists/jlpt_n3_wiktionary.txt')
-  wanikani_vocab = load_word_frequency_map('lists/wanikani_vocab.txt')
-
-  for word in note_library.notes:
-    if word in f_3k_lookup:
-      del f_3k_lookup[word]
-    if word in wp_10k_lookup:
-      del wp_10k_lookup[word]
-    if word in kore_6k_lookup:
-      del kore_6k_lookup[word]
-    if word in wiktionary_n5:
-      del wiktionary_n5[word]
-    if word in wiktionary_n4:
-      del wiktionary_n4[word]
-    if word in wiktionary_n3:
-      del wiktionary_n3[word]
-    if word in wanikani_vocab:
-      del wanikani_vocab[word]
-
-  # Wanikani most frequent
-  filtered = {}
-  for word, frequency in wp_10k_lookup.items():
-    if word in wanikani_vocab:
-      filtered[word] = frequency
-
-  for k, v in filtered.items():
-    print(k, v)
-
-  print('\n\n==== 3k list ====\n')
-  for k, v in f_3k_lookup.items():
-    print(k, v)
-
-  print('\n\n==== Wikipedia 10k list ====\n')
-  for k, v in wp_10k_lookup.items():
-    print(k, v)
-
-  print('\n\n==== Both lists ====\n')
-  common_frequency_set = set(wp_10k_lookup.keys()).intersection(set(f_3k_lookup.keys()))
-  common_frequency = {}
-  for word in common_frequency_set:
-    avg_frequency = (f_3k_lookup[word] + wp_10k_lookup[word])/2.0
-    common_frequency[word] = avg_frequency
-  in_order = [(k, common_frequency[k]) for k in sorted(common_frequency, key=common_frequency.get)]
-  for word, freq in in_order:
-    print(word, freq)
 
 if __name__ == '__main__':
     main()

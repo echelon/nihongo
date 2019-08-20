@@ -74,6 +74,14 @@ level = 'n1'
 tags = ['adverb', 'common']
 
 [[cards]]
+kanji = '取りあえず'
+kana = 'とりあえず'
+english = 'first of all'
+source = 'anime-freq'
+level = 'n1'
+tags = ['adverb', 'common', 'expression']
+
+[[cards]]
 kanji = 'どれ位'
 kana = 'どれくらい / どれぐらい'
 english = 'how much; how long; how far'

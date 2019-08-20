@@ -146,6 +146,18 @@ KATAKANA = set([
   'ン',
 ])
 
+PARTICLES = set([
+ 'から',
+ 'くん',
+ 'こと',
+ 'だけ',
+ 'でも',
+ 'など',
+ 'のに',
+ 'まで',
+ 'より',
+])
+
 IGNORE_SYMBOLS = set([
   '|',
   '…',
@@ -182,30 +194,26 @@ IGNORE_SYMBOLS = set([
 ])
 
 # NB: Some particles, words, or segments that come up in frequency lists
-IGNORE_WORDS = set([
- 'から',
- 'くん', # Anime freq (TODO suffix)
- 'こと',
- 'じゃ',
- 'する',
- 'せる',
- 'そんな',
- 'ため',
- 'だけ',
- 'って',
- 'です',
- 'でも',
- 'など',
- 'のに',
- 'ます',
- 'まで',
- 'れる',
- 'オレ', # In anime frequency list
- 'スる',
- 'ダメ', # In anime frequency list
- 'ド',
- 'バカ', # In anime frequency list
- 'ホント', # In anime freq
- 'ン',
+# TODO: many of these are grammar points and deserve attention
+IGNORE_MISC = set([
+  'かも',
+  'じゃ',
+  'する',
+  'せる',
+  'そんな',
+  'ため',
+  'ちゃう',
+  'って',
+  'てる',
+  'です',
+  'なん',
+  'ます',
+  'れる',
+  'オレ', # In anime frequency list
+  'スる',
+  'ダメ', # In anime frequency list
+  'ド',
+  'バカ', # In anime frequency list
+  'ホント', # In anime freq
+  'ン',
 ])
-

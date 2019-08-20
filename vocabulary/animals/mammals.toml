@@ -117,3 +117,10 @@ kana = 'ぶた'
 english = 'pig'
 tags = ['animals', 'common', 'noun']
 
+[[cards]]
+kanji = 'パンダ'
+kana = 'パンダ'
+english = 'panda'
+source = 'anime-freq'
+tags = ['animal', 'common', 'mammal', 'noun']
+
