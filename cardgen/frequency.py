@@ -19,6 +19,7 @@ from constants import HIRAGANA
 from constants import IGNORE_MISC
 from constants import IGNORE_SYMBOLS
 from constants import KATAKANA
+from constants import OTHER_FORMS
 from constants import PARTICLES
 
 # I already have these words (perhaps a different politeness or kanji)
@@ -28,7 +29,7 @@ DUPLICATE_WORDS = set([
   '朝御飯', # Less common
 ])
 
-IGNORE_SET = set().union(HIRAGANA, KATAKANA, PARTICLES, IGNORE_SYMBOLS, IGNORE_MISC)
+IGNORE_SET = set().union(HIRAGANA, KATAKANA, PARTICLES, IGNORE_SYMBOLS, IGNORE_MISC, OTHER_FORMS)
 
 INDEX_NAME = 'cards'
 

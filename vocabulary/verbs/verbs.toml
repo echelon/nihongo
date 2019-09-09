@@ -553,6 +553,17 @@ source = 'irasshai; anime'
 tags = ['common']
 
 [[cards]]
+kanji = '消える'
+kana = 'きえる'
+english = 'to vanish; to disappear'
+english-conjugated = { past = 'vanished', base = 'vanish', plural = 'vanishes', continuous = 'vanishing' }
+verb-type = 'ichidan'
+transitive = false
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '聞く'
 kana = 'きく'
 english = 'to hear ~'
@@ -689,6 +700,18 @@ transitive = true
 source = 'wanikani'
 level = 'n3'
 tags = ['common']
+
+[[cards]]
+kanji = '差す'
+kana = 'さす'
+english = 'to raise hands; to hold (an umbrella) overhead'
+english-conjugated = { past = 'raised', base = 'raise', plural = 'raises', continuous = 'raising' }
+verb-type = 'godan-su'
+transitive = false
+source = 'wiki-n5'
+level = 'n5'
+explain = 'https://en.wiktionary.org/wiki/%E5%B7%AE%E3%81%99'
+tags = ['bad-jisho', 'common']
 
 [[cards]]
 kanji = '死ぬ'
@@ -894,6 +917,17 @@ transitive = true
 tags = ['common']
 
 [[cards]]
+kanji = '疲れる'
+kana = 'つかれる'
+english = 'to get tired'
+english-conjugated = { past = 'got tired', continuous = 'getting tired', plural = 'gets tired', base = 'get tired' }
+verb-type = 'ichidan'
+transitive = false
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '着く'
 kana = 'つく'
 english = 'to arrive'
@@ -1020,6 +1054,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '撮る'
+kana = 'とる'
+english = 'to take ~ (eg a photo)'
+english-conjugated = { base = 'take a photo', plural = 'takes a photo', past = 'took a photo', continuous = 'taking a photo' }
+verb-type = 'godan-ru'
+transitive = true
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '取る'
 kana = 'とる'
 english = 'to take ~; to pick up ~; ...'
@@ -1094,6 +1139,17 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '脱ぐ'
+kana = 'ぬぐ'
+english = 'to undress ~; to take off ~ (clothes, shoes)'
+english-conjugated = { base = 'undress', past = 'undressed', plural = 'undresses', continuous = 'undressing' }
+verb-type = 'godan-gu'
+transitive = true
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '盗む'
 kana = 'ぬすむ'
 english = 'to steal ~'
@@ -1121,6 +1177,17 @@ english = 'to climb'
 english-conjugated = { base = 'climb', past = 'climbed', plural = 'climbs', continuous = 'climbing' }
 verb-type = 'godan-ru'
 transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '乗る'
+kana = 'のる'
+english = 'to ride (train, car, plane, bus...)'
+english-conjugated = { plural = 'rides', continuous = 'riding', base = 'ride', past = 'rode' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'irasshai'
 level = 'n5'
 tags = ['common']
 
@@ -1230,6 +1297,17 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '吹く'
+kana = 'ふく'
+english = 'to blow ~ (eg. wind)'
+english-conjugated = { past = 'blew', plural = 'blows', base = 'blow', continuous = 'blowing' }
+verb-type = 'godan-ku'
+transitive = true
+source = 'irasshai'
+level = 'n5'
+tags = ['common', 'transitive-and-intransitive']
+
+[[cards]]
 kanji = '太る'
 kana = 'ふとる'
 english = 'to get fat'
@@ -1247,6 +1325,17 @@ english-conjugated = { base = 'fall', continuous = 'falling', plural = 'falls', 
 verb-type = 'godan-ru'
 transitive = false
 source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '曲がる'
+kana = 'まがる'
+english = 'to bend'
+english-conjugated = { plural = 'bends', base = 'bend', continuous = 'bending', past = 'bent' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'wanikani; wiki-n5'
 level = 'n5'
 tags = ['common']
 
@@ -1311,6 +1400,17 @@ english-conjugated = { base = 'protect', past = 'protected', plural = 'protects'
 verb-type = 'godan-ru'
 transitive = false
 level = 'n3'
+tags = ['common']
+
+[[cards]]
+kanji = '磨く'
+kana = 'みがく'
+english = 'to brush ~ (eg teeth); to polish ~'
+english-conjugated = { plural = 'polishes', continuous = 'polishing', past = 'polished', base = 'polish' }
+verb-type = 'godan-ku'
+transitive = true
+source = 'wiki-n5'
+level = 'n5'
 tags = ['common']
 
 [[cards]]
@@ -1397,5 +1497,16 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n3'
 source = 'wanikani'
+tags = ['common']
+
+[[cards]]
+kanji = 'コピーする'
+kana = 'コピーする'
+english = 'to make a copy'
+english-conjugated = { past = 'made a copy', continuous = 'making a copy', base = 'make a copy', plural = 'makes a copy' }
+verb-type = 'suru-verb'
+transitive = true
+source = 'irasshai'
+level = 'n5'
 tags = ['common']
 

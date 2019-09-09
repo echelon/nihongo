@@ -46,6 +46,22 @@ level = 'n4'
 tags = ['common', 'noun', 'places', 'travel']
 
 [[cards]]
+kanji = '瓩'
+kana = 'キログラム'
+english = 'kilogram'
+source = 'wiki-n5'
+level = 'n5'
+tags = ['ateji', 'common', 'dimensions', 'gairaigo', 'mass', 'noun', 'numbers', 'unit-of-measure', 'weight']
+
+[[cards]]
+kanji = '粁'
+kana = 'キロメートル'
+english = 'kilometer'
+source = 'wiki-n5'
+level = 'n5'
+tags = ['ateji', 'common', 'dimensions', 'distance', 'gairaigo', 'noun', 'numbers', 'unit-of-measure']
+
+[[cards]]
 kanji = 'ケーキ'
 kana = 'ケーキ'
 english = 'cake'
@@ -264,6 +280,21 @@ kanji = 'ライブ'
 kana = 'ライブ'
 english = 'live (eg performance, concert)'
 tags = ['common', 'gairaigo', 'noun', 'noun-or-verb-acting-prenominally']
+
+[[cards]]
+kanji = 'ラジオカセット'
+kana = 'ラジオカセット'
+english = 'radio-cassette (full word)'
+source = 'wiki-n5'
+tags = ['gairaigo', 'noun', 'uncommon']
+
+[[cards]]
+kanji = 'ラジカセ'
+kana = 'ラジカセ'
+english = 'radio-cassette player (shortened word)'
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common', 'gairaigo', 'noun', 'old-technology', 'technology']
 
 [[cards]]
 kanji = 'レジ'

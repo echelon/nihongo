@@ -217,3 +217,12 @@ IGNORE_MISC = set([
   'ホント', # In anime freq
   'ン',
 ])
+
+# Alternate kanji for the same words
+OTHER_FORMS = set([
+  'さ来年', # 再来年
+  'とり肉', # 鳥肉
+  '速い', # 早い
+  '鶏肉', # 鳥肉
+])
+
