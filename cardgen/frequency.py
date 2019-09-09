@@ -55,6 +55,7 @@ def load_word_set(filename):
   """
   Load the word set in a file.
   Filters out comments and the ignore list of words.
+  Splits lines with `/` into multiple words.
   """
   word_set = set()
   words = load_file_lines(filename)
@@ -63,7 +64,10 @@ def load_word_set(filename):
         or word in DUPLICATE_WORDS \
         or word.startswith('#'):
       continue
-    word_set.add(word)
+    word_list = word.split('/')
+    word_list = [w.strip() for w in word_list]
+    for w in word_list:
+      word_set.add(w)
   return word_set
 
 class NoteLibrary:
@@ -225,7 +229,7 @@ def main():
   # TODO: This code is messy af
   reports = Reports()
 
-  reports.print_set_not_in_anki('jlpt_n4')
+  reports.print_set_not_in_anki('jlpt_n5')
   #reports.print_set_not_in_anki('wanikani')
   #reports.print_anime_not_in_anki(572)
 
