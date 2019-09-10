@@ -34,6 +34,14 @@ level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 
 [[cards]]
+kanji = '伯父'
+kana = 'おじ'
+english = 'uncle'
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common', 'family', 'noun', 'people']
+
+[[cards]]
 kanji = 'お祖父さん'
 kana = 'おじいさん'
 english = 'grandfather; male senior citizen (sonkeigo)'

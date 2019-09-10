@@ -340,6 +340,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '将来'
+kana = 'しょうらい'
+english = 'future (usually near); prospects'
+source = 'irasshai?'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '～時'
 kana = '～じ'
 english = "hour; o'clock"

@@ -385,6 +385,17 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '押す'
+kana = 'おす'
+english = 'to push; to press'
+english-conjugated = { continuous = 'pushing', past = 'pushed', base = 'push', plural = 'pushes' }
+verb-type = 'godan-su'
+transitive = false
+source = 'n5-wiki'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '落ちる'
 kana = 'おちる'
 english = 'to fall down'
@@ -423,6 +434,28 @@ english = 'to swim'
 english-conjugated = { base = 'swim', past = 'swam', plural = 'swims', continuous = 'swimming' }
 verb-type = 'godan-gu'
 transitive = false
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '降りる'
+kana = 'おりる'
+english = 'to descend'
+english-conjugated = { base = 'descend', continuous = 'descending', past = 'descended', plural = 'descends' }
+verb-type = 'ichidan'
+transitive = false
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '終わる'
+kana = 'おわる'
+english = 'to end; to finish'
+english-conjugated = { base = 'end', past = 'ended', continuous = 'ending', plural = 'ends' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'irasshai'
 level = 'n5'
 tags = ['common']
 
@@ -799,6 +832,17 @@ verb-type = 'ichidan'
 transitive = true
 source = 'wiki-n5-vocab'
 level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '調べる'
+kana = 'しらべる'
+english = 'to investigate ~'
+english-conjugated = { plural = 'investigates', base = 'investigate', past = 'investigated', continuous = 'investigating' }
+verb-type = 'ichidan'
+transitive = true
+source = 'irasshai'
+level = 'n4'
 tags = ['common']
 
 [[cards]]
@@ -1206,6 +1250,17 @@ transitive = true
 tags = ['common']
 
 [[cards]]
+kanji = '習う'
+kana = 'ならう'
+english = 'to be taught ~; to take lessons in ~'
+english-conjugated = { plural = 'are taught', base = 'be taught', past = 'been taught', continuous = 'being taught' }
+verb-type = 'godan-u'
+transitive = true
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '並ぶ'
 kana = 'ならぶ'
 english = 'to line up'
@@ -1543,6 +1598,17 @@ verb-type = 'ichidan'
 transitive = true
 explain = 'https://www.japanesepod101.com/blog/yomi-and-breakdown-of-the-words/'
 level = 'n3'
+tags = ['common']
+
+[[cards]]
+kanji = '持つ'
+kana = 'もつ'
+english = 'to hold ~ (in hand)'
+english-conjugated = { continuous = 'holding', base = 'hold', plural = 'holds', past = 'held' }
+verb-type = 'godan-tsu'
+transitive = true
+source = 'irasshai'
+level = 'n5'
 tags = ['common']
 
 [[cards]]

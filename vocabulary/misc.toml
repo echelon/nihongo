@@ -30,6 +30,14 @@ source = 'jlptstudy.net'
 tags = ['common', 'noun', 'noun-suffix']
 
 [[cards]]
+kanji = '厚い'
+kana = 'あつい'
+english = 'thick'
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common', 'dimensional-quantity', 'i-adjective']
+
+[[cards]]
 kanji = '安心'
 kana = 'あんしん'
 english = 'relief; peace of mind'
@@ -575,6 +583,14 @@ level = 'n4'
 tags = ['common', 'noun', 'places', 'science']
 
 [[cards]]
+kanji = '見物'
+kana = 'けんぶつ'
+english = 'sightseeing'
+source = 'wanikani'
+level = 'n4'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
 kanji = '月光'
 kana = 'げっこう'
 english = 'moonlight'
@@ -975,6 +991,14 @@ kana = 'じけん'
 english = 'event; incident; case; plot'
 source = 'wanikani'
 level = 'n3'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '事故'
+kana = 'じこ'
+english = 'accident'
+source = 'wiki-n4'
+level = 'n4'
 tags = ['common', 'noun']
 
 [[cards]]

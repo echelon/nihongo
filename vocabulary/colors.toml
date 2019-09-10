@@ -34,6 +34,13 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '黄色'
+kana = 'きいろ'
+english = 'yellow'
+level = 'n5'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
 kanji = '黄色い'
 kana = 'きいろい'
 english = 'yellow'
