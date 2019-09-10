@@ -395,6 +395,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '踊る'
+kana = 'おどる'
+english = 'to dance'
+english-conjugated = { base = 'dance', plural = 'dances', past = 'danced', continuous = 'dancing' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'irasshai'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '覚える'
 kana = 'おぼえる'
 english = 'to memorize ~'
@@ -521,6 +532,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '借りる'
+kana = 'かりる'
+english = 'to borrow ~; to rent ~; to have a loan for ~'
+english-conjugated = { base = 'borrow', past = 'borrowed', continuous = 'borrowing', plural = 'borrows' }
+verb-type = 'ichidan'
+transitive = false
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '変わる'
 kana = 'かわる'
 english = 'to change; to be transformed'
@@ -582,6 +604,17 @@ english-conjugated = { base = 'build', plural = 'builds', past = 'built', contin
 verb-type = 'godan-ku'
 transitive = true
 level = 'n1'
+tags = ['common']
+
+[[cards]]
+kanji = '切る'
+kana = 'きる'
+english = 'to cut ~'
+english-conjugated = { base = 'cut', past = 'had cut', continuous = 'cutting', plural = 'cuts' }
+verb-type = 'godan-ru'
+transitive = true
+source = 'irasshai'
+level = 'n5'
 tags = ['common']
 
 [[cards]]
@@ -691,6 +724,28 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '咲く'
+kana = 'さく'
+english = 'to bloom'
+english-conjugated = { plural = 'blooms', continuous = 'blooming', past = 'bloomed', base = 'bloom' }
+verb-type = 'godan-ku'
+transitive = false
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '避ける'
+kana = 'さける'
+english = 'to avoid ~'
+english-conjugated = { base = 'avoid', plural = 'avoids', continuous = 'avoiding', past = 'avoided' }
+verb-type = 'ichidan'
+transitive = true
+source = 'anime-freq'
+level = 'n3'
+tags = ['common']
+
+[[cards]]
 kanji = '支える'
 kana = 'ささえる'
 english = 'to support ~'
@@ -721,6 +776,28 @@ english-conjugated = { plural = 'dies', past = 'died', continuous = 'dying', bas
 verb-type = 'godan-nu'
 transitive = false
 source = 'n5-study'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '閉まる'
+kana = 'しまる'
+english = 'to shut; to close; to be closed'
+english-conjugated = { base = 'shut', continuous = 'shutting', plural = 'shuts', past = 'had shut' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '締める'
+kana = 'しめる'
+english = 'to tie ~; to tighten; to fasten ~ (eg necktie or belt)'
+english-conjugated = { continuous = 'tightening', base = 'tighten', plural = 'tightens', past = 'tightened' }
+verb-type = 'ichidan'
+transitive = true
+source = 'wiki-n5-vocab'
 level = 'n5'
 tags = ['common']
 
@@ -961,6 +1038,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '勤める'
+kana = 'つとめる'
+english = 'to work for ~; to be employed at ~; to serve in ~'
+english-conjugated = { base = 'work for', continuous = 'working for', plural = 'works for', past = 'worked for' }
+verb-type = 'ichidan'
+transitive = true
+source = 'irasshai; wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '出かける'
 kana = 'でかける'
 english = 'to go out; to set out'
@@ -1160,6 +1248,17 @@ level = 'n4'
 tags = ['common']
 
 [[cards]]
+kanji = '寝る'
+kana = 'ねる'
+english = 'to lie down; to sleep (lying down)'
+english-conjugated = { base = 'lie down', continuous = 'lying down', past = 'lied down', plural = 'lies down' }
+verb-type = 'ichidan'
+transitive = false
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
 kanji = '残る'
 kana = 'のこる'
 english = 'to remain; to be left'
@@ -1261,6 +1360,17 @@ english = 'to stick ~; to paste ~; to affix ~'
 english-conjugated = { continuous = 'sticking', base = 'stick', past = 'stuck', plural = 'sticks' }
 verb-type = 'godan-ru'
 transitive = true
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '晴れる'
+kana = 'はれる'
+english = 'to be sunny; to stop raining; to clear up'
+english-conjugated = { plural = 'clears up', past = 'cleared up', base = 'clear up', continuous = 'clearing up' }
+verb-type = 'ichidan'
+transitive = false
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
@@ -1489,6 +1599,17 @@ level = 'n5'
 tags = ['common']
 
 [[cards]]
+kanji = '寄る'
+kana = 'よる'
+english = 'to approach'
+english-conjugated = { base = 'approach', past = 'approached', continuous = 'approaching', plural = 'approaches' }
+verb-type = 'godan-ru'
+transitive = false
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
 kanji = '分ける'
 kana = 'わける'
 english = 'to separate ~; to divide ~'
@@ -1497,6 +1618,17 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n3'
 source = 'wanikani'
+tags = ['common']
+
+[[cards]]
+kanji = '渡す'
+kana = 'わたす'
+english = 'to ferry across ~ (eg river); to traverse ~'
+english-conjugated = { plural = 'traverses', continuous = 'traversing', past = 'traversed', base = 'traverse' }
+verb-type = 'godan-su'
+transitive = true
+source = 'wiki-n5'
+level = 'n5'
 tags = ['common']
 
 [[cards]]

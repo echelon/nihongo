@@ -6,6 +6,14 @@ source = 'manga'
 tags = ['common', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = '運命'
+kana = 'うんめい'
+english = 'destiny'
+source = 'anime-frequency'
+level = 'n1'
+tags = ['common', 'noun']
+
+[[cards]]
 kanji = 'お土産'
 kana = 'おみやげ'
 english = 'present; souveir'
@@ -21,6 +29,14 @@ english = 'every place'
 level = 'n2'
 source = 'manga'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '決して'
+kana = 'けっして'
+english = 'by no means!'
+source = 'anime; jpop'
+level = 'n4'
+tags = ['adverb', 'anime', 'common']
 
 [[cards]]
 kanji = '現実'
@@ -78,6 +94,14 @@ english = 'senior (at school or work)'
 source = 'anime; irasshai'
 level = 'n4'
 tags = ['anime', 'common', 'noun']
+
+[[cards]]
+kanji = '絶対'
+kana = 'ぜったい'
+english = 'definitely'
+source = 'anime'
+level = 'n3'
+tags = ['adverb', 'anime', 'common']
 
 [[cards]]
 kanji = '存在'
@@ -215,12 +239,26 @@ level = 'n4'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '若しも'
+kana = 'もしも'
+english = 'if (adverb)'
+source = 'anime-frequency'
+tags = ['adverb', 'common']
+
+[[cards]]
 kanji = '約束'
 kana = 'やくそく'
 english = 'promise'
 source = 'anime'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = 'やばい'
+kana = 'やばい'
+english = 'risky (colloqial)'
+source = 'anime-frequency'
+tags = ['common', 'i-adjective']
 
 [[cards]]
 disabled = true

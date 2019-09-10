@@ -70,6 +70,14 @@ level = 'n5'
 tags = []
 
 [[cards]]
+kanji = '指輪'
+kana = 'ゆびわ'
+english = 'ring (for finger)'
+source = 'irasshai'
+level = 'n4'
+tags = ['attire', 'clothing', 'common', 'noun']
+
+[[cards]]
 kanji = '洋服'
 kana = 'ようふく'
 english = 'Western-style clothes'

@@ -737,6 +737,14 @@ level = 'n4'
 tags = ['common', 'na-adjective', 'noun']
 
 [[cards]]
+kanji = '試合'
+kana = 'しあい'
+english = 'match; game'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'competition', 'game', 'noun', 'sports', 'suru-verb']
+
+[[cards]]
 kanji = '仕方'
 kana = 'しかた'
 english = 'method'
@@ -853,6 +861,14 @@ english = 'category; type; kind'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '紹介'
+kana = 'しょうかい'
+english = 'introduction; presentation; listing'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = '詳細'
@@ -1238,6 +1254,14 @@ kana = 'ちから'
 english = 'strength; energy; power; force; might'
 level = 'n4'
 tags = ['common']
+
+[[cards]]
+kanji = '些とも'
+kana = 'ちっとも'
+english = 'not at all (neg. verb)'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['adverb', 'common']
 
 [[cards]]
 kanji = 'ちゃんと'

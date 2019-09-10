@@ -28,3 +28,11 @@ english = 'pluralizing suffix'
 level = 'n5'
 tags = []
 
+[[cards]]
+kanji = '～ちゃん'
+kana = '～ちゃん'
+english = 'suffix for familiar person (familiar language)'
+source = 'anime'
+level = 'n4'
+tags = ['anime', 'common', 'cute', 'name', 'suffix']
+

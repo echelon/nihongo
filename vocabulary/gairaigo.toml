@@ -133,6 +133,14 @@ level = 'n4'
 tags = ['common', 'food', 'gairaigo', 'noun']
 
 [[cards]]
+kanji = 'スクリーン'
+kana = 'スクリーン'
+english = 'screen'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
 kanji = 'ステレオ'
 kana = 'ステレオ'
 english = 'stereo'
@@ -253,12 +261,36 @@ level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 
 [[cards]]
+kanji = 'ビル'
+kana = 'ビル'
+english = 'multi-floor building (gairaigo)'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'ピアノ'
+kana = 'ピアノ'
+english = 'piano'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
 kanji = 'ファックス'
 kana = 'ファックス'
 english = 'fax'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = 'プレゼント'
+kana = 'プレゼント'
+english = 'present (gairaigo)'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
 
 [[cards]]
 kanji = 'ベル'
@@ -297,9 +329,32 @@ level = 'n5'
 tags = ['common', 'gairaigo', 'noun', 'old-technology', 'technology']
 
 [[cards]]
+kanji = 'リポート'
+kana = 'リポート'
+english = 'report (gairaigo #2)'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'リーダー'
+kana = 'リーダー'
+english = 'leader (gairaigo)'
+source = 'anime-freq'
+tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
 kanji = 'レジ'
 kana = 'レジ'
 english = '(cash) register'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'レポート'
+kana = 'レポート'
+english = 'report (gairaigo #1)'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
