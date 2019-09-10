@@ -38,6 +38,14 @@ level = 'n5'
 tags = ['common', 'dimensional-quantity', 'i-adjective']
 
 [[cards]]
+kanji = '穴'
+kana = 'あな'
+english = 'hole'
+source = 'anime'
+level = 'n3'
+tags = ['common', 'noun', 'noun-suffix']
+
+[[cards]]
 kanji = '安心'
 kana = 'あんしん'
 english = 'relief; peace of mind'
@@ -2208,6 +2216,14 @@ english = 'wool'
 level = 'n2'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
+
+[[cards]]
+kanji = '余計'
+kana = 'よけい'
+english = 'too many'
+source = 'anime-freq'
+level = 'n2'
+tags = ['common', 'na-adjective', 'noun']
 
 [[cards]]
 kanji = '世の中'

@@ -206,6 +206,13 @@ source = 'manga'
 tags = ['common']
 
 [[cards]]
+kanji = '部活'
+kana = 'ぶかつ'
+english = 'club activities'
+source = 'anime-freq'
+tags = ['common']
+
+[[cards]]
 disabled = true
 kanji = '無事'
 kana = 'ぶじ'

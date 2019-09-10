@@ -1,4 +1,11 @@
 [[cards]]
+kanji = 'アイドル'
+kana = 'アイドル'
+english = 'member of a jpop band'
+source = 'jpop; culture'
+tags = ['common', 'gairaigo', 'noun', 'people']
+
+[[cards]]
 kanji = 'オートバイ'
 kana = 'オートバイ'
 english = 'motorcycle'
@@ -188,6 +195,14 @@ level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 
 [[cards]]
+kanji = 'タイム'
+kana = 'タイム'
+english = 'time (gairaigo)'
+source = 'anime-freq'
+level = 'n1'
+tags = ['common', 'gairaigo']
+
+[[cards]]
 kanji = 'テキスト'
 kana = 'テキスト'
 english = 'text'
@@ -285,6 +300,13 @@ level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'suru-verb']
 
 [[cards]]
+kanji = 'ブロック'
+kana = 'ブロック'
+english = 'block; blocking'
+source = 'anime-freq'
+tags = ['common', 'gairaigo']
+
+[[cards]]
 kanji = 'プレゼント'
 kana = 'プレゼント'
 english = 'present (gairaigo)'
@@ -299,6 +321,14 @@ english = 'bell (gairaigo)'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
+
+[[cards]]
+kanji = 'マスター'
+kana = 'マスター'
+english = 'master (gairaigo)'
+source = 'anime-freq'
+level = 'n3'
+tags = ['common', 'gairaigo', 'noun', 'suru-verb']
 
 [[cards]]
 kanji = 'メートル'
