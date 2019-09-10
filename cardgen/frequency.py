@@ -231,7 +231,13 @@ def main():
 
   parser = argparse.ArgumentParser(description='Stats on Anki notes')
   parser.add_argument('--jlpt', dest='jlpt', nargs='+', default=[],
-      help='show not in Anki (n5, n4, etc.)')
+      help='show JLPT vocab not in Anki (n5, n4, etc.)')
+  parser.add_argument('--anime', dest='anime', action='store_true',
+      help='show anime vocab not in Anki (ordered by frequency)')
+  parser.add_argument('--wanikani', dest='wanikani', action='store_true',
+      help='show Wanikani not in Anki (ordered by frequency)')
+  parser.add_argument('--limit', dest='limit', type=int,
+      help='limit the number of results')
   args = parser.parse_args()
   show_help = True
 
@@ -243,6 +249,14 @@ def main():
     'n5': 'jlpt_n5',
   }
 
+  if args.anime:
+    reports.print_anime_not_in_anki(args.limit)
+    show_help = False
+
+  if args.wanikani:
+    reports.print_set_not_in_anki('wanikani')
+    show_help = False
+
   for n in args.jlpt:
     n = n.lower()
     if n in jlpt:
@@ -251,9 +265,6 @@ def main():
 
   if show_help:
     parser.print_help()
-  #reports.print_set_not_in_anki('wanikani')
-  #reports.print_anime_not_in_anki(572)
-
 
 if __name__ == '__main__':
     main()
