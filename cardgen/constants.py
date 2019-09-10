@@ -222,6 +222,9 @@ IGNORE_MISC = set([
 OTHER_FORMS = set([
   'さ来年', # 再来年
   'とり肉', # 鳥肉
+  '円い', # FIXME: 丸い, though technically the meanings differ
+  '昨夜', # 夕べ
+  '登る', # 上る
   '速い', # 早い
   '鶏肉', # 鳥肉
 ])

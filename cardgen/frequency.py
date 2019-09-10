@@ -227,10 +227,30 @@ class Reports:
       print (word)
 
 def main():
-  # TODO: This code is messy af
+  import argparse
+
+  parser = argparse.ArgumentParser(description='Stats on Anki notes')
+  parser.add_argument('--jlpt', dest='jlpt', nargs='+', default=[],
+      help='show not in Anki (n5, n4, etc.)')
+  args = parser.parse_args()
+  show_help = True
+
   reports = Reports()
 
-  reports.print_set_not_in_anki('jlpt_n5')
+  jlpt = {
+    'n3': 'jlpt_n3',
+    'n4': 'jlpt_n4',
+    'n5': 'jlpt_n5',
+  }
+
+  for n in args.jlpt:
+    n = n.lower()
+    if n in jlpt:
+      reports.print_set_not_in_anki(jlpt[n])
+      show_help = False
+
+  if show_help:
+    parser.print_help()
   #reports.print_set_not_in_anki('wanikani')
   #reports.print_anime_not_in_anki(572)
 
