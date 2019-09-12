@@ -21,8 +21,8 @@ explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-p
 tags = ['common', 'conjunction', 'particle']
 
 [[cards]]
-kanji = '然し、'
-kana = 'しかし、'
+kanji = '然し'
+kana = 'しかし'
 english = 'however (start of sentence; formal/storytelling)'
 level = 'n5'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
@@ -60,6 +60,14 @@ explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sore
 tags = ['common', 'conjunction']
 
 [[cards]]
+kanji = 'そして'
+kana = 'そして'
+english = 'and'
+source = 'irasshai'
+level = 'n5'
+tags = ['common', 'conjunction', 'grammar']
+
+[[cards]]
 kanji = '其れに'
 kana = 'それに'
 english = 'moreover'
@@ -78,6 +86,14 @@ kanji = 'だって'
 kana = 'だって'
 english = 'after all, because (explains previous sentence)'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
+tags = ['common', 'conjunction']
+
+[[cards]]
+kanji = 'では'
+kana = 'では'
+english = 'then'
+source = 'irasshai; anime'
+level = 'n5'
 tags = ['common', 'conjunction']
 
 [[cards]]

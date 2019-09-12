@@ -1,4 +1,10 @@
 [[cards]]
+kanji = 'じゃが芋'
+kana = 'じゃがいも'
+english = 'potato'
+tags = ['common', 'food', 'healthy', 'noun', 'vegetable']
+
+[[cards]]
 kanji = '玉ねぎ'
 kana = 'たまねぎ'
 english = 'onion'
@@ -11,6 +17,12 @@ kana = 'なす'
 english = 'eggplant'
 source = 'wanikani'
 tags = ['common', 'food', 'noun', 'vegetable']
+
+[[cards]]
+kanji = '人参'
+kana = 'にんじん'
+english = 'carrot'
+tags = ['common', 'food', 'healthy', 'noun', 'vegetable']
 
 [[cards]]
 kanji = '野菜'

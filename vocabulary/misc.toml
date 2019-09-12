@@ -212,6 +212,14 @@ source = 'wanikani'
 tags = ['common', 'noun']
 
 [[cards]]
+kanji = '大きな'
+kana = 'おおきな'
+english = 'big'
+source = 'wiki-n5; irasshai?'
+level = 'n5'
+tags = ['noun', 'pre-noun-adjectival']
+
+[[cards]]
 kanji = '大声'
 kana = 'おおごえ'
 english = 'loud voice'
@@ -538,6 +546,14 @@ level = 'n1'
 tags = ['common', 'music', 'noun', 'noun-suffix']
 
 [[cards]]
+kanji = '曲線'
+kana = 'きょくせん'
+english = 'curve'
+source = 'wanikani'
+level = 'n2'
+tags = ['common', 'line', 'noun', 'shape']
+
+[[cards]]
 kanji = '金'
 kana = 'きん'
 english = 'gold'
@@ -651,6 +667,14 @@ english = 'traffic'
 level = 'n4'
 source = 'nihongo-sou-matome'
 tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '講堂'
+kana = 'こうどう'
+english = 'auditorium; lecture hall'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common']
 
 [[cards]]
 kanji = '公平'
@@ -1250,6 +1274,14 @@ source = 'wanikani'
 tags = ['common', 'noun', 'people']
 
 [[cards]]
+kanji = '楽しみ'
+kana = 'たのしみ'
+english = 'enjoyment; pleasure'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'na-adjective', 'noun']
+
+[[cards]]
 kanji = '為'
 kana = 'ため'
 english = 'sake; purpose; benefit'
@@ -1491,6 +1523,14 @@ english = 'gate'
 level = 'n1'
 source = 'tobira'
 tags = ['common', 'noun']
+
+[[cards]]
+kanji = '道具'
+kana = 'どうぐ'
+english = 'tool'
+source = 'wanikani'
+level = 'n4'
+tags = ['common']
 
 [[cards]]
 kanji = '道路'

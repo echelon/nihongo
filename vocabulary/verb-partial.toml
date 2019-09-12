@@ -1,0 +1,88 @@
+[[cards]]
+kanji = '要る'
+kana = 'いる'
+english = 'to be needed'
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '掛かる'
+kana = 'かかる'
+english = 'to take (time or money)'
+source = 'n5-wiki'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '片付ける'
+kana = 'かたづける'
+english = 'to tidy up ~'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '閉める'
+kana = 'しめる'
+english = 'to close ~; to shut ~'
+source = 'irasshai?'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '育てる'
+kana = 'そだてる'
+english = 'to raise ~'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '捕まえる'
+kana = 'つかまえる'
+english = 'to catch ~; to arrrest ~'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '付ける'
+kana = 'つける'
+english = 'to attach ~'
+source = 'wanikani'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '包む'
+kana = 'つつむ'
+english = 'to wrap ~; to pack ~'
+source = 'wiki-n4'
+level = 'n4'
+tags = ['common']
+
+[[cards]]
+kanji = '張る'
+kana = 'はる'
+english = 'to affix ~; to paste ~'
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '弾く'
+kana = 'ひく'
+english = 'to play ~ (stringed instrument)'
+source = 'irasshai'
+level = 'n5'
+tags = ['common']
+
+[[cards]]
+kanji = '渡る'
+kana = 'わたる'
+english = 'to cross over'
+source = 'wiki-n5'
+level = 'n5'
+tags = ['common']
+
