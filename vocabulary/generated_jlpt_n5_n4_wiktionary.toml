@@ -1,0 +1,1712 @@
+[[cards]]
+kanji = 'あ'
+kana = 'あ'
+english = 'Ah'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'おいでになる'
+kana = 'おいでになる'
+english = '(respectful) to be'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'おかげ'
+kana = 'おかげ'
+english = 'owing to, thanks to'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'おかしい'
+kana = 'おかしい'
+english = 'strange or funny'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'おっしゃる'
+kana = 'おっしゃる'
+english = '(respectful) to say'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'お嬢さん'
+kana = 'おじょうさん'
+english = 'young lady'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'お礼'
+kana = 'おれい'
+english = 'expression of gratitude'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'お祭り'
+kana = 'おまつり'
+english = 'festival'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'お見舞い'
+kana = 'おみまい'
+english = 'calling on someone who is ill, enquiry'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'お金持ち'
+kana = 'おかねもち'
+english = 'rich man'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'きっと'
+kana = 'きっと'
+english = 'surely'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'くれる'
+kana = 'くれる'
+english = 'to give'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'けれど'
+kana = 'けれど'
+english = 'however'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'けれども'
+kana = 'けれども'
+english = 'however'
+source = 'wiktionary'
+level = 'n5'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'けんかする'
+kana = 'けんかする'
+english = 'to quarrel'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'ごちそう'
+kana = 'ごちそう'
+english = 'a feast'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'このあいだ'
+kana = 'このあいだ'
+english = 'the other day,recently'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'このごろ'
+kana = 'このごろ'
+english = 'these days,nowadays'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'ごらんになる'
+kana = 'ごらんになる'
+english = '(respectful) to see'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'これから'
+kana = 'これから'
+english = 'after this'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'ご存じ'
+kana = 'ごぞんじ'
+english = '(respect form ) to know'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'さっき'
+kana = 'さっき'
+english = 'some time ago'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'しっかり'
+kana = 'しっかり'
+english = 'firmly,steadily'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'じゃ'
+kana = 'じゃ'
+english = 'well then…'
+source = 'wiktionary'
+level = 'n5'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'すっかり'
+kana = 'すっかり'
+english = 'completely'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'すっと'
+kana = 'すっと'
+english = 'straight,all of a sudden'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'すり'
+kana = 'すり'
+english = 'pickpocket'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'する'
+kana = 'する'
+english = 'to do'
+source = 'wiktionary'
+level = 'n5'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'それで'
+kana = 'それで'
+english = 'because of that'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'それほど'
+kana = 'それほど'
+english = 'to that extent'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'そろそろ'
+kana = 'そろそろ'
+english = 'gradually,soon'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'そんな'
+kana = 'そんな'
+english = 'that sort of'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'そんなに'
+kana = 'そんなに'
+english = 'so much,like that'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'たいてい'
+kana = 'たいてい'
+english = 'usually'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'だから'
+kana = 'だから'
+english = 'so,therefore'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'たまに'
+kana = 'たまに'
+english = 'occasionally'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'チェックする'
+kana = 'チェックする'
+english = 'to check'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'チェックする'
+kana = 'チェックする'
+english = 'to check'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'でも'
+kana = 'でも'
+english = 'but'
+source = 'wiktionary'
+level = 'n5'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'とうとう'
+kana = 'とうとう'
+english = 'finally, after all'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'とこや'
+kana = 'とこや'
+english = 'barber'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'なさる'
+kana = 'なさる'
+english = '(respectful) to do'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'など'
+kana = 'など'
+english = 'et cetera'
+source = 'wiktionary'
+level = 'n5'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'なるべく'
+kana = 'なるべく'
+english = 'as much as possible'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'ぬれる'
+kana = 'ぬれる'
+english = 'to get wet'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'ひきだす'
+kana = 'ひきだす'
+english = 'to withdraw'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'ほめる'
+kana = 'ほめる'
+english = 'to praise'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'または'
+kana = 'または'
+english = 'or,otherwise'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'もうすぐ'
+kana = 'もうすぐ'
+english = 'soon'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = 'ゆっくりと'
+kana = 'ゆっくりと'
+english = 'slowly'
+source = 'wiktionary'
+level = 'n5'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '下げる'
+kana = 'さげる'
+english = 'to hang,to lower,to move back'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '下る'
+kana = 'さがる'
+english = 'to get down,to descend'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '下宿'
+kana = 'げしゅく'
+english = 'lodging'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '下着'
+kana = 'したぎ'
+english = 'underwear'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '久しぶり'
+kana = 'ひさしぶり'
+english = 'after a long time'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '乗り換える'
+kana = 'のりかえる'
+english = 'to change between buses or trains'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '乗り物'
+kana = 'のりもの'
+english = 'vehicle'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '乾く'
+kana = 'かわく'
+english = 'to get dry'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '予習'
+kana = 'よしゅう'
+english = 'preparation for a lesson'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '事務所'
+kana = 'じむしょ'
+english = 'office'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '亡くなる'
+kana = 'なくなる'
+english = 'to die'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '代わり'
+kana = 'かわり'
+english = 'substitute,alternate'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '会場'
+kana = 'かいじょう'
+english = 'assembly hall or meeting place'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '伝える'
+kana = 'つたえる'
+english = 'to report'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '似る'
+kana = 'にる'
+english = 'to be similar'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '倍'
+kana = 'ばい'
+english = 'double'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '倒れる'
+kana = 'たおれる'
+english = 'to break down'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '入学'
+kana = 'にゅうがくする'
+english = 'to enter school or university'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '公務員'
+kana = 'こうむいん'
+english = 'civil servant, government worker'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '写す'
+kana = 'うつす'
+english = 'to copy or photograph'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '冷える'
+kana = 'ひえる'
+english = 'to grow cold'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '凄い'
+kana = 'すごい'
+english = 'terrific'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '別'
+kana = 'べつ'
+english = 'different'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '別れる'
+kana = 'わかれる'
+english = 'to separate'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '利用'
+kana = 'りよう'
+english = 'utilization'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '割れる'
+kana = 'われる'
+english = 'to break'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '動物園'
+kana = 'どうぶつえん'
+english = 'zoo'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '十分'
+kana = 'じゅうぶん'
+english = 'enough'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '参る'
+kana = 'まいる'
+english = '(humble) to go,to come'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '受ける'
+kana = 'うける'
+english = 'to take a lesson or test'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '召し上がる'
+kana = 'めしあがる'
+english = '(polite) to eat'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '味噌'
+kana = 'みそ'
+english = 'miso, soybean paste'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '回る'
+kana = 'まわる'
+english = 'to go around'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '国際'
+kana = 'こくさい'
+english = 'international'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '坂'
+kana = 'さか'
+english = 'slope,hill'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '場合'
+kana = 'ばあい'
+english = 'situation'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '塗る'
+kana = 'ぬる'
+english = 'to paint, to colour, to plaster'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '増える'
+kana = 'ふえる'
+english = 'to increase'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '壊す'
+kana = 'こわす'
+english = 'to break'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '壊れる'
+kana = 'こわれる'
+english = 'to be broken'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '大分'
+kana = 'だいぶ'
+english = 'greatly'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '夫'
+kana = 'おっと'
+english = 'husband'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '始める'
+kana = 'はじめる'
+english = 'to begin'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '客'
+kana = 'きゃく'
+english = 'guest,customer'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '寝坊'
+kana = 'ねぼう'
+english = 'sleeping in late'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '尋ねる'
+kana = 'たずねる'
+english = 'to ask'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '小学校'
+kana = 'しょうがっこう'
+english = 'elementary school'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '小鳥'
+kana = 'ことり'
+english = 'small bird'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '展覧会'
+kana = 'てんらんかい'
+english = 'exhibition'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '工業'
+kana = 'こうぎょう'
+english = 'the manufacturing industry'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '差し上げる'
+kana = 'さしあげる'
+english = '(polite) to give'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '布団'
+kana = 'ふとん'
+english = 'Japanese bedding, futon'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '席'
+kana = 'せき'
+english = 'seat'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '帰り'
+kana = 'かえり'
+english = 'return'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '引き出し'
+kana = 'ひきだし'
+english = 'drawer,drawing out'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '引っ越す'
+kana = 'ひっこす'
+english = 'to move house'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '役に立つ'
+kana = 'やくにたつ'
+english = 'to be helpful'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '復習'
+kana = 'ふくしゅう'
+english = 'revision'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '急行'
+kana = 'きゅうこう'
+english = 'speedy, express'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '慣れる'
+kana = 'なれる'
+english = 'to grow accustomed to'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '手伝う'
+kana = 'てつだう'
+english = 'to assist'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '払う'
+kana = 'はらう'
+english = 'to pay'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '技術'
+kana = 'ぎじゅつ'
+english = 'art,technology,skill'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '折る'
+kana = 'おる'
+english = 'to break or to fold'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '折れる'
+kana = 'おれる'
+english = 'to break or be folded'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '押し入れ'
+kana = 'おしいれ'
+english = 'closet'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '拝見'
+kana = 'はいけんする'
+english = '(humble) to look at'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '捨てる'
+kana = 'すてる'
+english = 'to throw away'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '揺れる'
+kana = 'ゆれる'
+english = 'to shake,to sway'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '故障'
+kana = 'こしょうする'
+english = 'to break-down'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '教会'
+kana = 'きょうかい'
+english = 'church'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '教育'
+kana = 'きょういく'
+english = 'education'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '数学'
+kana = 'すうがく'
+english = 'mathematics,arithmetic'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '文法'
+kana = 'ぶんぽう'
+english = 'grammar'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '新聞社'
+kana = 'しんぶんしゃ'
+english = 'newspaper company'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '旅館'
+kana = 'りょかん'
+english = 'Japanese hotel'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '昼御飯'
+kana = 'ひるごはん'
+english = 'midday meal'
+source = 'wiktionary'
+level = 'n5'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '昼間'
+kana = 'ひるま'
+english = 'daytime,during the day'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '景色'
+kana = 'けしき'
+english = 'scene,landscape'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '暖房'
+kana = 'だんぼう'
+english = 'heating'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '暮れる'
+kana = 'くれる'
+english = 'to get dark,to come to an end'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '柔道'
+kana = 'じゅうどう'
+english = 'judo'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '校長'
+kana = 'こうちょう'
+english = 'headmaster'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '棚'
+kana = 'たな'
+english = 'shelves'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '楽む'
+kana = 'たのしむ'
+english = 'to enjoy oneself'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '止む'
+kana = 'やむ'
+english = 'to stop'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '歯医者'
+kana = 'はいしゃ'
+english = 'dentist'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '歴史'
+kana = 'れきし'
+english = 'history'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '比べる'
+kana = 'くらべる'
+english = 'to compare'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '毛'
+kana = 'け'
+english = 'hair or fur'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '水泳'
+kana = 'すいえい'
+english = 'swimming'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '水道'
+kana = 'すいどう'
+english = 'water supply'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '汚れる'
+kana = 'よごれる'
+english = 'to get dirty'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '決る'
+kana = 'きまる'
+english = 'to be decided'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '沸かす'
+kana = 'わかす'
+english = 'to boil,to heat'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '沸く'
+kana = 'わく'
+english = 'to boil, to grow hot,to get excited'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '注射'
+kana = 'ちゅうしゃ'
+english = 'injection'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '泳ぎ方'
+kana = 'およぎかた'
+english = 'way of swimming'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '深い'
+kana = 'ふかい'
+english = 'deep'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '湯'
+kana = 'ゆ'
+english = 'hot water'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '無くなる'
+kana = 'なくなる'
+english = 'to disappear,to get lost'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '焼く'
+kana = 'やく'
+english = 'to bake,to grill'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '焼ける'
+kana = 'やける'
+english = 'to burn,to be roasted'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '熱'
+kana = 'ねつ'
+english = 'fever'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '特急'
+kana = 'とっきゅう'
+english = 'limited express train (faster than an express train)'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '申し上げる'
+kana = 'もうしあげる'
+english = '(humble) to say,to tell'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '申す'
+kana = 'もうす'
+english = '(humble) to be called,to say'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '番組'
+kana = 'ばんぐみ'
+english = 'television or radio program'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '痩せる'
+kana = 'やせる'
+english = 'to become thin'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '盛ん'
+kana = 'さかん'
+english = 'popularity,prosperous'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '眠る'
+kana = 'ねむる'
+english = 'to sleep'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '知らせる'
+kana = 'しらせる'
+english = 'to notify'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '砂'
+kana = 'すな'
+english = 'sand'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '神社'
+kana = 'じんじゃ'
+english = 'Shinto shrine'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '移る'
+kana = 'うつる'
+english = 'to move house or transfer'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '競争'
+kana = 'きょうそう'
+english = 'competition'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '答'
+kana = 'こたえ'
+english = 'response'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '米'
+kana = 'こめ'
+english = 'uncooked rice'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '終わり'
+kana = 'おわり'
+english = 'the end'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '絹'
+kana = 'きぬ'
+english = 'silk'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '続く'
+kana = 'つづく'
+english = 'to be continued'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '美術館'
+kana = 'びじゅつかん'
+english = 'art gallery'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '聞こえる'
+kana = 'きこえる'
+english = 'to be heard'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '落す'
+kana = 'おとす'
+english = 'to drop'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '複雑'
+kana = 'ふくざつ'
+english = 'complexity,complication'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '見つかる'
+kana = 'みつかる'
+english = 'to be discovered'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '見つける'
+kana = 'みつける'
+english = 'to discover'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '規則'
+kana = 'きそく'
+english = 'regulations'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '親切'
+kana = 'しんせつ'
+english = 'kindness'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '触る'
+kana = 'さわる'
+english = 'to touch'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '訪ねる'
+kana = 'たずねる'
+english = 'to visit'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '課長'
+kana = 'かちょう'
+english = 'section manager'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '講義'
+kana = 'こうぎ'
+english = 'lecture'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '警察'
+kana = 'けいさつ'
+english = 'police'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '貿易'
+kana = 'ぼうえき'
+english = 'trade'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '起す'
+kana = 'おこす'
+english = 'to wake'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '踏む'
+kana = 'ふむ'
+english = 'to step on'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '迎える'
+kana = 'むかえる'
+english = 'to go out to meet'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '退院'
+kana = 'たいいんする'
+english = 'to leave hospital'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '送る'
+kana = 'おくる'
+english = 'to send'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '通う'
+kana = 'かよう'
+english = 'to commute'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '進む'
+kana = 'すすむ'
+english = 'to make progress'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '遅れる'
+kana = 'おくれる'
+english = 'to be late'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '運ぶ'
+kana = 'はこぶ'
+english = 'to transport'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '過ぎる'
+kana = 'すぎる'
+english = 'to exceed'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '遠く'
+kana = 'とおく'
+english = 'distant'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '遠慮'
+kana = 'えんりょする'
+english = 'to be reserved, to be restrained'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '適当'
+kana = 'てきとう'
+english = 'suitability'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '部長'
+kana = 'ぶちょう'
+english = 'head of a section'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '都合'
+kana = 'つごう'
+english = 'circumstances,convenience'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '釣る'
+kana = 'つる'
+english = 'to fish'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '間に合う'
+kana = 'まにあう'
+english = 'to be in time for'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '間違える'
+kana = 'まちがえる'
+english = 'to make a mistake'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '降り出す'
+kana = 'ふりだす'
+english = 'to start to rain'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '隅'
+kana = 'すみ'
+english = 'corner,nook'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '集る'
+kana = 'あつまる'
+english = 'to gather'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '電報'
+kana = 'でんぽう'
+english = 'telegram'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '電灯'
+kana = 'でんとう'
+english = 'electric light'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '飛行場'
+kana = 'ひこうじょう'
+english = 'airport'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '食料品'
+kana = 'しょくりょうひん'
+english = 'groceries'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '駐車場'
+kana = 'ちゅうしゃじょう'
+english = 'parking lot'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '騒ぐ'
+kana = 'さわぐ'
+english = 'to make noise,to be excited'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '驚く'
+kana = 'おどろく'
+english = 'to be surprised'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '高等学校'
+kana = 'こうとうがっこう'
+english = 'high school'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
