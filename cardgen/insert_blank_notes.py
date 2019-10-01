@@ -3,7 +3,7 @@
 """
 Insert blank notes at the top of every set of cards.
 
-Useful for creating new cards in bulk with an editor. 
+Useful for creating new cards in bulk with an editor.
 
 This is undone by running the normalization code, `sort.py`.
 """

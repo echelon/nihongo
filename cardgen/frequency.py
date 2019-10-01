@@ -9,11 +9,6 @@ import glob
 import statistics
 import string
 import sys
-import toml
-
-from collections import OrderedDict
-from toml.decoder import TomlDecoder
-from toml.encoder import TomlEncoder
 
 from constants import HIRAGANA
 from constants import IGNORE_MISC
@@ -21,6 +16,7 @@ from constants import IGNORE_SYMBOLS
 from constants import KATAKANA
 from constants import OTHER_FORMS
 from constants import PARTICLES
+from library import NoteLibrary
 
 # I already have these words (perhaps a different politeness or kanji)
 DUPLICATE_WORDS = set([
@@ -30,8 +26,6 @@ DUPLICATE_WORDS = set([
 ])
 
 IGNORE_SET = set().union(HIRAGANA, KATAKANA, PARTICLES, IGNORE_SYMBOLS, IGNORE_MISC, OTHER_FORMS)
-
-INDEX_NAME = 'cards'
 
 def load_file_lines(filename):
   lines = []
@@ -70,55 +64,6 @@ def load_word_set(filename):
     for w in word_list:
       word_set.add(w)
   return word_set
-
-class NoteLibrary:
-  def __init__(self):
-    self.notes = set()
-
-  def check_in_library(self, word):
-    if not self.notes:
-      self.notes = self.load_library()
-    return word in self.notes
-
-  def load_library(self):
-    if not self.notes:
-      self.notes = self.do_load_library()
-
-  @staticmethod
-  def do_load_library():
-    all_notes = NoteLibrary.import_all_notes()
-    note_word_set = set()
-    for note in all_notes:
-      # NB: Words might be recorded as kanji or kana in frequency data
-      note_word_set.add(note['kanji'])
-      note_word_set.add(note['kana'])
-      # Also get rid of characters we might not match on
-      note_word_set.add(note['kanji'].replace('～', ''))
-      note_word_set.add(note['kana'].replace('～', ''))
-    return note_word_set
-
-  @staticmethod
-  def import_all_notes():
-    all_notes = []
-    for filename in glob.glob('**/*.toml', recursive=True):
-      if 'cardgen' in filename or 'temp/' in filename:
-        continue # XXX: Things here shouldn't be processed for now.
-      try:
-        notes = NoteLibrary.read_notes_from_toml_file(filename)
-        notes = notes[INDEX_NAME]
-        all_notes.extend(notes)
-      except Exception as e:
-        print('Error processing file: {0}'.format(filename))
-        print(e)
-    return all_notes
-
-  @staticmethod
-  def read_notes_from_toml_file(filename):
-    # Maintain key ordering in each item
-    decoder = TomlDecoder(_dict=OrderedDict)
-    with open(filename, 'r') as f:
-      contents = f.read()
-      return toml.loads(contents, decoder=decoder)
 
 class Reports:
   def __init__(self):
