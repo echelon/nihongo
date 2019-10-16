@@ -1,3 +1,14 @@
+# From https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Japanese
+#
+# This was drawn from the complete dump of the Japanese Wikipedia on April 20, 2013
+# which was run through a morphological analyzer called JUMAN. This is a list of lemmas,
+# not inflected forms, where homographs are counted as a single lemma. The lemma may not
+# be the most common form.
+#
+# The 10,000 most frequent words accounted for 92% of all occurrences, the top 5000
+# accounted for 86%, the top 2000 accounted for 76%, and the top 1000 accounted for 68%.
+# In total, nearly 226 million words consisting of just over 163,000 lemmas were counted.
+#
 の
 に
 する
