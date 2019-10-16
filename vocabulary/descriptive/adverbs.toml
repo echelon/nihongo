@@ -6,7 +6,7 @@ english = 'unnoticed; unawares'
 source = 'manga'
 tags = ['adverb', 'uncommon']
 highest_frequency = 12106
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '何時でも'
@@ -24,7 +24,7 @@ source = 'nihongo-charenji-n4-kotoba; bonobono-anime'
 level = 'n4'
 tags = ['adverb', 'common']
 highest_frequency = 439
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '少し'
@@ -33,7 +33,7 @@ english = 'small quantity; little; few'
 level = 'n5'
 tags = ['adverb', 'common', 'noun']
 highest_frequency = 193
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '全て'
@@ -42,7 +42,7 @@ english = 'everything; completely'
 level = 'n3'
 tags = ['adverb', 'anime', 'common', 'no-adjective', 'noun']
 highest_frequency = 187
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'たっぷり'
@@ -52,7 +52,7 @@ source = 'food-package'
 level = 'n3'
 tags = ['adverb', 'common', 'na-adjective', 'no-adjective', 'noun']
 highest_frequency = 2092
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '例えば'
@@ -61,7 +61,7 @@ english = 'for example'
 level = 'n4'
 tags = ['adverb', 'common']
 highest_frequency = 572
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '多分'
@@ -70,7 +70,7 @@ english = 'perhaps; probably'
 level = 'n5'
 tags = ['adverb', 'common']
 highest_frequency = 838
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '段々'
@@ -79,7 +79,7 @@ english = 'gradually; little by little'
 level = 'n5'
 tags = ['adverb', 'common']
 highest_frequency = 2517
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '丁度'
@@ -88,7 +88,7 @@ english = 'exactly; right'
 level = 'n5'
 tags = ['adverb', 'common']
 highest_frequency = 908
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '一寸'
@@ -97,7 +97,7 @@ english = 'a little; somewhat; excuse me!'
 level = 'n5'
 tags = ['adverb', 'common']
 highest_frequency = 225
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '特に'
@@ -107,7 +107,7 @@ source = 'nihongo-charenji-n4-kotoba; anime; db super'
 level = 'n4'
 tags = ['adverb', 'common']
 highest_frequency = 242
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '初めて'
@@ -116,7 +116,7 @@ english = 'for the first time'
 level = 'n5'
 tags = ['adverb', 'common', 'no-adjective']
 highest_frequency = 293
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '早く'
@@ -124,7 +124,7 @@ kana = 'はやく'
 english = 'early; soon'
 tags = ['adverb', 'common']
 highest_frequency = 8851
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '久しく'
@@ -139,7 +139,7 @@ english = 'to be surprised; to be amazed; to get startled'
 level = 'n3'
 tags = ['adverb', 'common', 'suru-verb']
 highest_frequency = 1972
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '殆ど'
@@ -149,7 +149,7 @@ level = 'n4'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 highest_frequency = 476
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '先ず'
@@ -159,7 +159,7 @@ level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common']
 highest_frequency = 653
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '未だ'
@@ -168,7 +168,7 @@ english = 'not yet; still; besides'
 level = 'n5'
 tags = ['adverb', 'common']
 highest_frequency = 150
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '真っ直ぐ'
@@ -177,7 +177,7 @@ english = 'straight ahead; direct'
 level = 'n5'
 tags = ['adverb', 'common', 'na-adjective', 'noun']
 highest_frequency = 1844
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = 'もう'
@@ -186,7 +186,7 @@ english = 'already; again'
 level = 'n5'
 tags = ['adverb', 'common']
 highest_frequency = 36
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'もっと'
@@ -195,7 +195,7 @@ english = 'more; longer; further'
 level = 'n5'
 tags = ['adverb', 'common']
 highest_frequency = 160
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'ゆっくり'
@@ -204,7 +204,7 @@ english = 'slowly; at ease'
 level = 'n5'
 tags = ['adverb', 'common', 'noun', 'suru-verb']
 highest_frequency = 456
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '良く'
@@ -213,5 +213,5 @@ english = 'well; skillfully; frequently'
 level = 'n5'
 tags = ['adverb', 'common']
 highest_frequency = 336
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 

@@ -5,7 +5,7 @@ english = 'you (familiar form of "anata")'
 source = 'anime-freq'
 tags = ['common', 'pronoun']
 highest_frequency = 1022
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '俺'
@@ -15,7 +15,7 @@ source = 'anime'
 level = 'n1'
 tags = ['anime', 'common', 'pronoun']
 highest_frequency = 20
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '貴様'
@@ -24,7 +24,7 @@ english = 'you bastard'
 source = 'anime'
 tags = ['pronoun', 'uncommon', 'uncommon-but-ive-heard-this']
 highest_frequency = 224
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '君'
@@ -34,7 +34,7 @@ source = 'anime'
 level = 'n4'
 tags = ['common', 'pronoun']
 highest_frequency = 30
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '僕'
@@ -44,7 +44,7 @@ source = 'irasshai; anime'
 level = 'n4'
 tags = ['anime', 'common', 'male', 'male-language', 'pronoun']
 highest_frequency = 48
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '奴'
@@ -53,7 +53,7 @@ english = 'fellow; chap (derogatory)'
 source = 'anime-freq'
 tags = ['anime', 'common', 'derogatory', 'pronoun', 'rude']
 highest_frequency = 185
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '私たち'
@@ -72,5 +72,5 @@ level = 'n3'
 explain = 'https://japanese.stackexchange.com/a/36681'
 tags = ['anime', 'common', 'pronoun']
 highest_frequency = 335
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

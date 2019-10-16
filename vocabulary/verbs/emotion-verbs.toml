@@ -8,7 +8,7 @@ transitive = false
 level = 'n4'
 tags = ['common']
 highest_frequency = 381
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '泣く'
@@ -20,7 +20,7 @@ verb-type = 'godan-ku'
 transitive = false
 tags = ['common']
 highest_frequency = 326
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '悩む'
@@ -33,7 +33,7 @@ source = 'bonobono-anime'
 level = 'n3'
 tags = ['common']
 highest_frequency = 1640
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '喜ぶ'
@@ -46,5 +46,5 @@ level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common']
 highest_frequency = 721
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

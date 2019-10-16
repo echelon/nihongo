@@ -5,7 +5,7 @@ english = 'chair; stool'
 level = 'n5'
 tags = ['common', 'furniture', 'home']
 highest_frequency = 817
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '家具'
@@ -14,7 +14,7 @@ english = 'furniture'
 level = 'n3'
 tags = ['common', 'furniture']
 highest_frequency = 925
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '寝台'
@@ -23,7 +23,7 @@ english = 'bed; couch'
 level = 'n2'
 tags = ['common', 'furniture']
 highest_frequency = 7267
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '箪笥'
@@ -32,7 +32,7 @@ english = 'dresser; chest'
 level = 'n2'
 tags = ['common', 'furniture']
 highest_frequency = 20971
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '本棚'
@@ -41,7 +41,7 @@ english = 'bookcase'
 level = 'n5'
 tags = ['books', 'common', 'furniture', 'noun', 'reading']
 highest_frequency = 8427
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'ソファ'
@@ -50,7 +50,7 @@ english = 'sofa'
 level = 'n3'
 tags = ['common', 'furniture', 'gairaigo', 'noun']
 highest_frequency = 12082
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'テーブル'
@@ -59,7 +59,7 @@ english = 'table'
 level = 'n5'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
 highest_frequency = 787
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = 'ベッド'
@@ -68,5 +68,5 @@ english = 'bed'
 level = 'n5'
 tags = ['bedroom', 'common', 'gairaigo', 'noun']
 highest_frequency = 686
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 

@@ -5,7 +5,7 @@ english = 'blue'
 level = 'n5'
 tags = ['color', 'common', 'no-adjective', 'noun']
 highest_frequency = 1279
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '青い'
@@ -14,7 +14,7 @@ english = 'blue'
 level = 'n5'
 tags = ['color', 'common', 'i-adjective']
 highest_frequency = 1098
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '赤'
@@ -23,7 +23,7 @@ english = 'red'
 level = 'n5'
 tags = ['color', 'common', 'no-adjective', 'noun']
 highest_frequency = 925
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '赤い'
@@ -32,7 +32,7 @@ english = 'red'
 level = 'n5'
 tags = ['color', 'common', 'i-adjective']
 highest_frequency = 586
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '色'
@@ -41,7 +41,7 @@ english = 'color'
 level = 'n5'
 tags = []
 highest_frequency = 310
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '黄色'
@@ -50,7 +50,7 @@ english = 'yellow'
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
 highest_frequency = 4120
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '黄色い'
@@ -59,7 +59,7 @@ english = 'yellow'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 7289
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '黒'
@@ -68,7 +68,7 @@ english = 'black'
 level = 'n5'
 tags = []
 highest_frequency = 604
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '黒い'
@@ -77,7 +77,7 @@ english = 'black'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 439
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '白'
@@ -86,7 +86,7 @@ english = 'white'
 level = 'n5'
 tags = []
 highest_frequency = 494
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '白い'
@@ -95,7 +95,7 @@ english = 'white'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 293
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '橙色'
@@ -110,7 +110,7 @@ english = 'brown'
 level = 'n5'
 tags = []
 highest_frequency = 10627
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '灰色'
@@ -119,7 +119,7 @@ english = 'gray; ashen'
 level = 'n2'
 tags = ['color', 'common', 'no-adjective', 'noun']
 highest_frequency = 2200
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '緑'
@@ -128,7 +128,7 @@ english = 'green'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun']
 highest_frequency = 989
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '紫'
@@ -138,7 +138,7 @@ source = 'irasshai'
 level = 'n2'
 tags = ['colors', 'common', 'noun']
 highest_frequency = 4143
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'ピンク'
@@ -147,5 +147,5 @@ english = 'pink'
 level = 'n2'
 tags = ['color', 'common', 'gairaigo', 'no-adjective', 'noun']
 highest_frequency = 2853
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 

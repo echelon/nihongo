@@ -5,7 +5,7 @@ english = 'coat'
 level = 'n5'
 tags = []
 highest_frequency = 8853
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '鞄'
@@ -14,7 +14,7 @@ english = 'bag; briefcase; basket'
 level = 'n5'
 tags = []
 highest_frequency = 2374
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '着物'
@@ -24,7 +24,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['clothing', 'common', 'noun']
 highest_frequency = 2240
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '靴'
@@ -33,7 +33,7 @@ english = 'shoes'
 level = 'n5'
 tags = []
 highest_frequency = 1110
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '靴下'
@@ -42,7 +42,7 @@ english = 'socks'
 level = 'n5'
 tags = []
 highest_frequency = 11045
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '財布'
@@ -51,7 +51,7 @@ english = 'wallet'
 level = 'n5'
 tags = []
 highest_frequency = 4229
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '背広'
@@ -60,7 +60,7 @@ english = 'business suit'
 level = 'n5'
 tags = []
 highest_frequency = 43112
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '洗濯'
@@ -69,7 +69,7 @@ english = 'laundry; washing'
 level = 'n5'
 tags = []
 highest_frequency = 3454
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '服'
@@ -78,7 +78,7 @@ english = 'clothes (esp. Western)'
 level = 'n5'
 tags = []
 highest_frequency = 557
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '帽子'
@@ -87,7 +87,7 @@ english = 'hat'
 level = 'n5'
 tags = []
 highest_frequency = 2217
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '指輪'
@@ -97,7 +97,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['attire', 'clothing', 'common', 'noun']
 highest_frequency = 3918
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '洋服'
@@ -106,7 +106,7 @@ english = 'Western-style clothes'
 level = 'n5'
 tags = []
 highest_frequency = 6718
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'シャツ'
@@ -115,7 +115,7 @@ english = 'shirt'
 level = 'n5'
 tags = []
 highest_frequency = 2280
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = 'スカート'
@@ -124,7 +124,7 @@ english = 'skirt'
 level = 'n5'
 tags = []
 highest_frequency = 1600
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = 'スリッパ'
@@ -133,7 +133,7 @@ english = 'slippers'
 level = 'n5'
 tags = []
 highest_frequency = 16824
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'ズボン'
@@ -142,7 +142,7 @@ english = 'pants (from French)'
 level = 'n5'
 tags = []
 highest_frequency = 2478
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = 'セーター'
@@ -151,7 +151,7 @@ english = 'sweater'
 level = 'n5'
 tags = []
 highest_frequency = 12776
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'ネクタイ'
@@ -160,7 +160,7 @@ english = 'necktie'
 level = 'n5'
 tags = []
 highest_frequency = 9284
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'ハンカチ'
@@ -169,7 +169,7 @@ english = 'handkerchief'
 level = 'n5'
 tags = []
 highest_frequency = 8824
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'ボタン'
@@ -178,7 +178,7 @@ english = 'button'
 level = 'n5'
 tags = []
 highest_frequency = 2464
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'ポケット'
@@ -187,7 +187,7 @@ english = 'pocket'
 level = 'n5'
 tags = []
 highest_frequency = 1454
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = 'ワイシャツ'
@@ -196,5 +196,5 @@ english = 'business shirt (lit. white shirt)'
 level = 'n5'
 tags = []
 highest_frequency = 23882
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

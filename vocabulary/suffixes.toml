@@ -21,7 +21,7 @@ level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suffix']
 highest_frequency = 237
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '～達'

@@ -6,7 +6,7 @@ source = 'irasshai'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 1005
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '明るい'
@@ -15,7 +15,7 @@ english = 'light; bright; well-lit; cheerful'
 level = 'n5'
 tags = ['appearance', 'common', 'i-adjective', 'mood']
 highest_frequency = 1005
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '新しい'
@@ -24,7 +24,7 @@ english = 'new'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 357
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '熱い'
@@ -33,7 +33,7 @@ english = 'hot (thing); passionate'
 level = 'n5'
 tags = ['common', 'i-adjectives', 'temperature']
 highest_frequency = 879
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '危ない'
@@ -42,7 +42,7 @@ english = 'dangerous; watch out!'
 level = 'n5'
 tags = ['common', 'expressions', 'i-adjectives']
 highest_frequency = 628
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '怪しい'
@@ -52,7 +52,7 @@ level = 'n2'
 source = 'wanikani'
 tags = ['common', 'i-adjective']
 highest_frequency = 1860
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '忙しい'
@@ -61,7 +61,7 @@ english = 'busy; hectic'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 1072
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '色々'
@@ -70,7 +70,7 @@ english = 'various'
 level = 'n5'
 tags = ['adverb', 'na-adjective', 'no-adjective', 'noun']
 highest_frequency = 731
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '煩い'
@@ -79,7 +79,7 @@ english = 'loud; annoying'
 level = 'n5'
 tags = ['i-adjective']
 highest_frequency = 2309
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '多い'
@@ -88,7 +88,7 @@ english = 'many'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 77
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '大きい'
@@ -97,7 +97,7 @@ english = 'big'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 249
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '遅い'
@@ -106,7 +106,7 @@ english = 'slow ; late'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 401
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '重い'
@@ -115,7 +115,7 @@ english = 'heavy'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 794
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '面白い'
@@ -124,7 +124,7 @@ english = 'interesting; amusing'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 423
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '軽い'
@@ -133,7 +133,7 @@ english = 'light (weight); non-serious'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 568
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '可愛い'
@@ -142,7 +142,7 @@ english = 'cute; adorable'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 554
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '簡単'
@@ -151,7 +151,7 @@ english = 'simple; easy; uncomplicated'
 level = 'n4'
 tags = ['common', 'na-adjective', 'noun']
 highest_frequency = 464
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '汚い'
@@ -160,7 +160,7 @@ english = 'dirty; messy'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 1844
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '厳しい'
@@ -170,7 +170,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['common', 'i-adjective']
 highest_frequency = 1193
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '綺麗'
@@ -179,7 +179,7 @@ english = 'pretty; clean; tidy'
 level = 'n5'
 tags = ['common', 'na-adjective']
 highest_frequency = 1107
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '臭い'
@@ -188,7 +188,7 @@ english = 'stinky; smelly'
 level = 'n3'
 tags = ['common', 'i-adjectives']
 highest_frequency = 1788
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '四角い'
@@ -197,7 +197,7 @@ english = 'square; rectangular'
 level = 'n2'
 tags = ['common', 'i-adjective']
 highest_frequency = 17855
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '静か'
@@ -206,7 +206,7 @@ english = 'quiet; peaceful'
 level = 'n5'
 tags = ['common', 'na-adjectives']
 highest_frequency = 607
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '上手'
@@ -215,7 +215,7 @@ english = 'skillful'
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
 highest_frequency = 1682
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '清々しい'
@@ -225,7 +225,7 @@ level = 'n1'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'i-adjectives']
 highest_frequency = 17840
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '少ない'
@@ -234,7 +234,7 @@ english = 'few; scarce'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 504
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '狭い'
@@ -243,7 +243,7 @@ english = 'narrow; confined; cramped'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 1375
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '大切'
@@ -252,7 +252,7 @@ english = 'important; necessary'
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
 highest_frequency = 507
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '高い'
@@ -261,7 +261,7 @@ english = 'tall; high; expensive'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 172
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '正しい'
@@ -270,7 +270,7 @@ english = 'correct; right'
 level = 'n4'
 tags = ['common', 'i-adjective']
 highest_frequency = 1002
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '大丈夫'
@@ -279,7 +279,7 @@ english = 'safe; alright; OK; no thanks'
 level = 'n5'
 tags = ['adverb', 'common', 'na-adjective']
 highest_frequency = 74
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '大好き'
@@ -288,7 +288,7 @@ english = 'lovable; like very much'
 level = 'n5'
 tags = ['common', 'na-adjective']
 highest_frequency = 724
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '小さい'
@@ -297,7 +297,7 @@ english = 'small; little'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 470
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '近い'
@@ -306,7 +306,7 @@ english = 'near; close by'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 616
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '詰らない'
@@ -315,7 +315,7 @@ english = 'dull; uninteresting; boring; insignificant'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 2989
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '強い'
@@ -324,7 +324,7 @@ english = 'strong; powerful'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 152
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '丁寧'
@@ -333,7 +333,7 @@ english = 'polite; courteous; conscientious'
 level = 'n4'
 tags = ['common', 'na-adjective', 'noun']
 highest_frequency = 3183
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '遠い'
@@ -342,7 +342,7 @@ english = 'far; distant'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 620
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '長い'
@@ -351,7 +351,7 @@ english = 'long (distance)'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 284
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '苦い'
@@ -361,7 +361,7 @@ source = 'wanikani'
 level = 'n4'
 tags = ['common', 'flavor', 'food', 'i-adjective', 'sense']
 highest_frequency = 4185
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '賑やか'
@@ -370,7 +370,7 @@ english = 'bustling; busy; lively'
 level = 'n5'
 tags = ['common', 'na-adjective']
 highest_frequency = 6815
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '人気'
@@ -380,7 +380,7 @@ source = 'sekai-wa-fushigi-2'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
 highest_frequency = 587
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '温い'
@@ -389,7 +389,7 @@ english = 'lukewarm'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 17159
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '眠い'
@@ -399,7 +399,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['common', 'feelings', 'i-adjectives', 'sleep', 'tired']
 highest_frequency = 2216
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '早い'
@@ -408,7 +408,7 @@ english = 'quick; fast; early (in the day)'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 102
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '馬鹿らしい'
@@ -418,7 +418,7 @@ source = 'jisho'
 level = 'n2'
 tags = ['common', 'i-adjective']
 highest_frequency = 36010
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '低い'
@@ -427,7 +427,7 @@ english = 'short (height); low (rank, value)'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 751
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '広い'
@@ -436,7 +436,7 @@ english = 'wide; vast; spacious'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 703
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '古い'
@@ -445,7 +445,7 @@ english = 'old (things not people); aged; ancient'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 1175
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '下手'
@@ -454,7 +454,7 @@ english = 'unskilled; unskillful'
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
 highest_frequency = 1773
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '便利'
@@ -463,7 +463,7 @@ english = 'convenient; handy; useful'
 level = 'n5'
 tags = ['common', 'na-adjective']
 highest_frequency = 1798
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '欲しい'
@@ -472,7 +472,7 @@ english = 'desired; want; wished for; need'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 343
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '丸い'
@@ -481,7 +481,7 @@ english = 'round; circular'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 1608
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '短い'
@@ -490,7 +490,7 @@ english = 'short (length or distance, not height)'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 1094
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '醜い'
@@ -500,7 +500,7 @@ level = 'n2'
 source = 'https://www.japanesepod101.com/japanese-word-lists/'
 tags = ['common', 'i-adjectives']
 highest_frequency = 3583
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 disabled = true
@@ -510,7 +510,7 @@ english = 'varied; all sorts; many'
 source = 'sekai-wa-fushigi-2'
 tags = ['na-adjective', 'no-adjective', 'noun', 'uncommon']
 highest_frequency = 11984
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '易しい'
@@ -519,7 +519,7 @@ english = 'easy; simple'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 2187
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '安い'
@@ -528,7 +528,7 @@ english = 'cheap; inexpensive'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 1025
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '有名'
@@ -537,7 +537,7 @@ english = 'famous'
 level = 'n5'
 tags = ['common', 'na-adjective']
 highest_frequency = 667
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '弱い'
@@ -546,7 +546,7 @@ english = 'weak; frail'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 613
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '立派'
@@ -555,7 +555,7 @@ english = 'splendid; fine; handsome'
 level = 'n5'
 tags = ['common', 'na-adjective']
 highest_frequency = 1234
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '悪い'
@@ -564,5 +564,5 @@ english = 'bad; poor; inferior; evil'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 94
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

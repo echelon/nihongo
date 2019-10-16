@@ -6,7 +6,7 @@ level = 'n2'
 source = 'wanikani'
 tags = ['common']
 highest_frequency = 32716
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '息'
@@ -15,7 +15,7 @@ english = 'breath; breathing'
 level = 'n3'
 tags = ['biology', 'common', 'noun']
 highest_frequency = 354
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '痛い'
@@ -24,7 +24,7 @@ english = 'painful ; sore'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 highest_frequency = 305
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '運動'
@@ -33,7 +33,7 @@ english = 'exercise'
 level = 'n3'
 tags = ['activity', 'common', 'health', 'noun', 'suru-verb']
 highest_frequency = 402
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '風邪'
@@ -42,7 +42,7 @@ english = 'cold; illness'
 level = 'n5'
 tags = []
 highest_frequency = 1477
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '渇き'
@@ -50,7 +50,7 @@ kana = 'かわき'
 english = 'thirst'
 tags = ['common', 'noun']
 highest_frequency = 13433
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '怪我'
@@ -60,7 +60,7 @@ level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
 highest_frequency = 1718
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '元気'
@@ -69,7 +69,7 @@ english = 'lively; healthy'
 level = 'n5'
 tags = []
 highest_frequency = 440
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '声'
@@ -78,7 +78,7 @@ english = 'voice'
 level = 'n5'
 tags = []
 highest_frequency = 78
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '丈夫'
@@ -87,7 +87,7 @@ english = 'healthy; strong; solid; robust'
 level = 'n5'
 tags = []
 highest_frequency = 6059
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '背'
@@ -96,7 +96,7 @@ english = 'height'
 level = 'n5'
 tags = []
 highest_frequency = 642
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '背中'
@@ -106,7 +106,7 @@ level = 'n4'
 source = 'https://www.japanesepod101.com/japanese-word-lists/'
 tags = ['body', 'common']
 highest_frequency = 512
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '煙草'
@@ -115,7 +115,7 @@ english = 'tabacco; cigarettes'
 level = 'n5'
 tags = []
 highest_frequency = 1847
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '歯'
@@ -124,7 +124,7 @@ english = 'tooth'
 level = 'n5'
 tags = []
 highest_frequency = 1318
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '灰皿'
@@ -133,7 +133,7 @@ english = 'ashtray'
 level = 'n5'
 tags = []
 highest_frequency = 26550
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '病気'
@@ -142,7 +142,7 @@ english = 'sickness; illness; disease'
 level = 'n5'
 tags = []
 highest_frequency = 1650
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '太い'
@@ -151,7 +151,7 @@ english = 'fat; thick'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 1459
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '細い'
@@ -160,7 +160,7 @@ english = 'thin; slender'
 level = 'n5'
 tags = []
 highest_frequency = 981
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '眼鏡'
@@ -169,5 +169,5 @@ english = 'eyeglasses'
 level = 'n5'
 tags = []
 highest_frequency = 2571
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 

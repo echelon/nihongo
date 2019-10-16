@@ -6,7 +6,7 @@ source = 'jisho'
 level = 'n1'
 tags = ['birds', 'common', 'noun']
 highest_frequency = 26989
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '翼'
@@ -16,5 +16,5 @@ source = 'manga'
 level = 'n3'
 tags = ['birds', 'common', 'noun']
 highest_frequency = 1089
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 

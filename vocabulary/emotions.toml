@@ -5,7 +5,7 @@ english = 'happy; glad'
 level = 'n3'
 tags = ['common', 'emotion', 'i-adjective']
 highest_frequency = 511
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '悲しい'
@@ -15,7 +15,7 @@ source = 'irasshai; anime'
 level = 'n4'
 tags = ['common', 'emotion', 'i-adjective']
 highest_frequency = 1159
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '寂しい'
@@ -25,7 +25,7 @@ source = 'irasshai; anime'
 level = 'n4'
 tags = ['common', 'emotion', 'i-adjective']
 highest_frequency = 775
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '幸せ'
@@ -35,7 +35,7 @@ source = 'bonobono-anime'
 level = 'n3'
 tags = ['common', 'emotion', 'na-adjective', 'noun']
 highest_frequency = 544
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '心配'
@@ -45,5 +45,5 @@ source = 'wanikani; anime?'
 level = 'n3'
 tags = ['common', 'emotion', 'na-adjective', 'noun', 'suru-verb']
 highest_frequency = 245
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

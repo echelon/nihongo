@@ -6,7 +6,7 @@ source = 'jlptstudy'
 level = 'n4'
 tags = ['architecture', 'buildings', 'common', 'noun']
 highest_frequency = 2727
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'お宅'
@@ -17,7 +17,7 @@ level = 'n4'
 explain = 'https://hinative.com/en-US/questions/7647808'
 tags = ['common', 'noun']
 highest_frequency = 9285
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'お手洗い'
@@ -40,7 +40,7 @@ english = 'wall; partition'
 level = 'n4'
 tags = ['buildings', 'common', 'noun']
 highest_frequency = 346
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '玄関'
@@ -49,7 +49,7 @@ english = 'entrance; front door; foyer'
 level = 'n5'
 tags = ['common', 'noun']
 highest_frequency = 1259
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '寝室'
@@ -57,7 +57,7 @@ kana = 'しんしつ'
 english = 'bedroom'
 tags = ['common']
 highest_frequency = 10415
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '戸'
@@ -66,7 +66,7 @@ english = 'Japanese-style door'
 level = 'n5'
 tags = []
 highest_frequency = 1286
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '風呂'
@@ -75,7 +75,7 @@ english = 'bath; bathtub'
 level = 'n5'
 tags = []
 highest_frequency = 859
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '部屋'
@@ -84,7 +84,7 @@ english = 'room'
 level = 'n5'
 tags = ['buildings', 'common', 'places']
 highest_frequency = 200
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '窓'
@@ -93,7 +93,7 @@ english = 'window'
 level = 'n5'
 tags = []
 highest_frequency = 387
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '屋根'
@@ -102,5 +102,5 @@ english = 'roof'
 level = 'n3'
 tags = ['buildings', 'common', 'noun']
 highest_frequency = 1796
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 

@@ -5,7 +5,7 @@ english = 'autumn; fall'
 level = 'n5'
 tags = ['common', 'noun', 'season', 'time']
 highest_frequency = 804
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '朝'
@@ -14,7 +14,7 @@ english = 'morning'
 level = 'n5'
 tags = ['common', 'time']
 highest_frequency = 358
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '明後日'
@@ -23,7 +23,7 @@ english = 'day after tomorrow'
 level = 'n5'
 tags = ['common', 'time']
 highest_frequency = 7488
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '明日'
@@ -32,7 +32,7 @@ english = 'tomorrow'
 level = 'n5'
 tags = ['common', 'time']
 highest_frequency = 205
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '後'
@@ -41,7 +41,7 @@ english = 'after; in the future'
 level = 'n5'
 tags = ['common', 'places']
 highest_frequency = 50
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '以後'
@@ -51,7 +51,7 @@ source = 'wanikani'
 level = 'n2'
 tags = ['common', 'temporal-noun']
 highest_frequency = 758
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '一日'
@@ -67,7 +67,7 @@ english = 'five days; fifth day of the month'
 level = 'n5'
 tags = []
 highest_frequency = 531
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '何時も'
@@ -76,7 +76,7 @@ english = 'always'
 level = 'n5'
 tags = []
 highest_frequency = 298
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '今'
@@ -85,7 +85,7 @@ english = 'now'
 level = 'n5'
 tags = []
 highest_frequency = 38
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '一昨日'
@@ -94,7 +94,7 @@ english = 'day before yesterday'
 level = 'n5'
 tags = []
 highest_frequency = 7223
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '一昨年'
@@ -103,7 +103,7 @@ english = 'year before last'
 level = 'n5'
 tags = []
 highest_frequency = 7565
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '開始'
@@ -113,7 +113,7 @@ source = 'wanikani; frequency'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
 highest_frequency = 151
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '～か月'
@@ -129,7 +129,7 @@ english = 'Tuesday'
 level = 'n5'
 tags = []
 highest_frequency = 5083
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '～月'
@@ -146,7 +146,7 @@ level = 'n4'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'seasons']
 highest_frequency = 2035
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '昨日'
@@ -155,7 +155,7 @@ english = 'yesterday'
 level = 'n5'
 tags = []
 highest_frequency = 329
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '今日'
@@ -164,7 +164,7 @@ english = 'today'
 level = 'n5'
 tags = []
 highest_frequency = 73
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '去年'
@@ -173,7 +173,7 @@ english = 'last year'
 level = 'n5'
 tags = []
 highest_frequency = 1757
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '近日'
@@ -182,7 +182,7 @@ english = 'in a few days; soon'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
 highest_frequency = 12973
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '近年'
@@ -191,7 +191,7 @@ english = 'recent years'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
 highest_frequency = 892
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '金曜日'
@@ -200,7 +200,7 @@ english = 'Friday'
 level = 'n5'
 tags = []
 highest_frequency = 3535
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '今朝'
@@ -209,7 +209,7 @@ english = 'this morning'
 level = 'n5'
 tags = []
 highest_frequency = 2296
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '月末'
@@ -219,7 +219,7 @@ source = 'wanikani'
 level = 'n2'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 highest_frequency = 11098
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '月曜日'
@@ -228,7 +228,7 @@ english = 'Monday'
 level = 'n5'
 tags = []
 highest_frequency = 3880
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '現在'
@@ -238,7 +238,7 @@ source = 'wikipedia 10k frequent'
 level = 'n3'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 highest_frequency = 49
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '九日'
@@ -254,7 +254,7 @@ english = 'this year'
 level = 'n5'
 tags = []
 highest_frequency = 537
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '古来'
@@ -263,7 +263,7 @@ english = 'ancient; from time immemorial'
 source = 'wanikani'
 tags = ['adverb', 'common', 'no-adjective', 'noun', 'time']
 highest_frequency = 7798
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '今回'
@@ -273,7 +273,7 @@ level = 'n3'
 explain = 'https://japanese.stackexchange.com/a/52295'
 tags = ['adverbial-noun', 'anime', 'common', 'temporal-noun']
 highest_frequency = 265
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '今月'
@@ -282,7 +282,7 @@ english = 'this month'
 level = 'n5'
 tags = []
 highest_frequency = 2758
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '今週'
@@ -291,7 +291,7 @@ english = 'this week'
 level = 'n5'
 tags = []
 highest_frequency = 1906
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '今度'
@@ -302,7 +302,7 @@ level = 'n4'
 explain = 'https://japanese.stackexchange.com/a/52295'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 highest_frequency = 280
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '今晩'
@@ -311,7 +311,7 @@ english = 'tonight; this evening (7-10pmish)'
 level = 'n5'
 tags = []
 highest_frequency = 5611
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '今夜'
@@ -321,7 +321,7 @@ source = 'nihongo-charenji-n4-kotoba'
 level = 'n4'
 tags = ['common']
 highest_frequency = 1193
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '午後'
@@ -330,7 +330,7 @@ english = 'afternoon; P.M.'
 level = 'n5'
 tags = []
 highest_frequency = 893
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '午前'
@@ -339,7 +339,7 @@ english = 'morning; A.M.'
 level = 'n5'
 tags = []
 highest_frequency = 1266
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '最近'
@@ -348,7 +348,7 @@ english = 'recently'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
 highest_frequency = 285
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '先'
@@ -357,7 +357,7 @@ english = 'the previous; the former; the future'
 level = 'n5'
 tags = []
 highest_frequency = 155
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'さ来月'
@@ -375,7 +375,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
 highest_frequency = 16679
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '再来週'
@@ -385,7 +385,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 highest_frequency = 16679
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '再来年'
@@ -394,7 +394,7 @@ english = 'year after next'
 level = 'n5'
 tags = []
 highest_frequency = 19580
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '～週間'
@@ -410,7 +410,7 @@ english = 'weekend'
 source = 'irasshai'
 tags = ['common', 'week']
 highest_frequency = 2813
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '醤油'
@@ -419,7 +419,7 @@ english = 'soy sauce'
 level = 'n5'
 tags = []
 highest_frequency = 5689
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '将来'
@@ -429,7 +429,7 @@ source = 'irasshai?'
 level = 'n4'
 tags = ['common']
 highest_frequency = 966
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '～時'
@@ -445,7 +445,7 @@ english = 'next time'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 highest_frequency = 364
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '時間'
@@ -454,7 +454,7 @@ english = 'time'
 level = 'n5'
 tags = []
 highest_frequency = 107
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '～時間'
@@ -477,7 +477,7 @@ english = 'Wednesday'
 level = 'n5'
 tags = []
 highest_frequency = 5361
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '直ぐ'
@@ -486,7 +486,7 @@ english = 'soon; immediately'
 level = 'n5'
 tags = []
 highest_frequency = 182
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '直ぐに'
@@ -496,7 +496,7 @@ source = 'n4-study'
 level = 'n5'
 tags = ['adverb', 'common']
 highest_frequency = 10196
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '先月'
@@ -505,7 +505,7 @@ english = 'last month'
 level = 'n5'
 tags = []
 highest_frequency = 5010
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '先週'
@@ -514,7 +514,7 @@ english = 'last week'
 level = 'n5'
 tags = []
 highest_frequency = 2319
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '先日'
@@ -523,7 +523,7 @@ english = 'the other day (a recent day)'
 level = 'n3'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun', 'time']
 highest_frequency = 1209
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '誕生日'
@@ -532,7 +532,7 @@ english = 'birthday'
 level = 'n5'
 tags = []
 highest_frequency = 5299
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '一日'
@@ -562,7 +562,7 @@ english = 'sometimes; at times'
 level = 'n5'
 tags = []
 highest_frequency = 2100
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '時計'
@@ -571,7 +571,7 @@ english = 'watch; clock'
 level = 'n5'
 tags = []
 highest_frequency = 1756
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '年'
@@ -580,7 +580,7 @@ english = 'year'
 level = 'n5'
 tags = []
 highest_frequency = 18
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '同時'
@@ -590,7 +590,7 @@ source = 'wanikani'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
 highest_frequency = 1710
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '土曜日'
@@ -599,7 +599,7 @@ english = 'Saturday'
 level = 'n5'
 tags = []
 highest_frequency = 2947
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '夏'
@@ -608,7 +608,7 @@ english = 'summer'
 level = 'n5'
 tags = []
 highest_frequency = 459
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '七日'
@@ -631,7 +631,7 @@ english = 'Sunday'
 level = 'n5'
 tags = []
 highest_frequency = 2682
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '～年'
@@ -648,7 +648,7 @@ level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common', 'noun']
 highest_frequency = 5611
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '年内'
@@ -657,7 +657,7 @@ english = 'by the end of the year; within the year'
 source = 'wanikani'
 tags = ['common', 'noun', 'time']
 highest_frequency = 10113
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '年末'
@@ -666,7 +666,7 @@ english = 'end of the year'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 highest_frequency = 4816
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '二十日'
@@ -682,7 +682,7 @@ english = 'spring'
 level = 'n5'
 tags = []
 highest_frequency = 413
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '晩'
@@ -691,7 +691,7 @@ english = 'evening (7-10pmish)'
 level = 'n5'
 tags = []
 highest_frequency = 1643
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '一月'
@@ -700,7 +700,7 @@ english = 'one month'
 level = 'n5'
 tags = []
 highest_frequency = 5291
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '暇'
@@ -709,7 +709,7 @@ english = 'free time; leisure'
 level = 'n5'
 tags = []
 highest_frequency = 869
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '昼'
@@ -718,7 +718,7 @@ english = 'noon'
 level = 'n5'
 tags = []
 highest_frequency = 2376
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '昼休み'
@@ -728,7 +728,7 @@ source = 'jlptstudy'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time', 'work']
 highest_frequency = 4890
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '秒'
@@ -738,7 +738,7 @@ source = 'wanikani'
 level = 'n3'
 tags = ['common', 'measurement', 'noun', 'time', 'unit']
 highest_frequency = 831
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '二日'
@@ -754,7 +754,7 @@ english = 'winter'
 level = 'n5'
 tags = []
 highest_frequency = 1144
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '～分'
@@ -770,7 +770,7 @@ english = 'every morning'
 level = 'n5'
 tags = []
 highest_frequency = 7512
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '毎週'
@@ -779,7 +779,7 @@ english = 'every wek'
 level = 'n5'
 tags = []
 highest_frequency = 1853
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '毎月'
@@ -788,7 +788,7 @@ english = 'every month'
 level = 'n5'
 tags = []
 highest_frequency = 3809
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '毎日'
@@ -797,7 +797,7 @@ english = 'every day'
 level = 'n5'
 tags = []
 highest_frequency = 649
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '毎年'
@@ -806,7 +806,7 @@ english = 'every year'
 level = 'n5'
 tags = []
 highest_frequency = 1054
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '毎晩'
@@ -815,7 +815,7 @@ english = 'every night'
 level = 'n5'
 tags = []
 highest_frequency = 7857
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '三日'
@@ -831,7 +831,7 @@ english = 'the future (usually distant)'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
 highest_frequency = 366
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '六日'
@@ -848,7 +848,7 @@ source = 'sekai-wa-fushigi-2'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
 highest_frequency = 342
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '木曜日'
@@ -857,7 +857,7 @@ english = 'Thursday'
 level = 'n5'
 tags = []
 highest_frequency = 5266
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '休み'
@@ -866,7 +866,7 @@ english = 'rest; vacation; holiday'
 level = 'n5'
 tags = []
 highest_frequency = 1077
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '夕方'
@@ -875,7 +875,7 @@ english = 'evening or dusk (before sunset; 5-7pmish)'
 level = 'n5'
 tags = []
 highest_frequency = 2184
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '夕べ'
@@ -884,7 +884,7 @@ english = 'evening (5-7pmish); last night'
 level = 'n5'
 tags = []
 highest_frequency = 9837
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '八日'
@@ -907,7 +907,7 @@ english = 'evening; night (after 10pm)'
 level = 'n5'
 tags = []
 highest_frequency = 207
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '来月'
@@ -916,7 +916,7 @@ english = 'next month'
 level = 'n5'
 tags = []
 highest_frequency = 6212
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '来週'
@@ -925,7 +925,7 @@ english = 'next week'
 level = 'n5'
 tags = []
 highest_frequency = 2140
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '来年'
@@ -935,7 +935,7 @@ source = 'irasshai'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun', 'time']
 highest_frequency = 1994
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '両日'
@@ -951,5 +951,5 @@ english = 'calendar'
 level = 'n5'
 tags = []
 highest_frequency = 5594
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 

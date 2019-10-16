@@ -7,7 +7,7 @@ english = 'grammar: familiar language, marks wh-question (what, where, who)'
 source = 'grammar-dict-basic'
 tags = ['common', 'particle']
 highest_frequency = 589
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 type = 'grammar'
@@ -18,5 +18,5 @@ english = 'grammar: only (noun) (todo: this is used for many constructions)'
 source = 'grammar-dict-basic'
 tags = ['common', 'particle']
 highest_frequency = 194
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 

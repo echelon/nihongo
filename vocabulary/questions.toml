@@ -5,7 +5,7 @@ english = 'how (polite)'
 level = 'n5'
 tags = ['adverb', 'common', 'na-adjective', 'question']
 highest_frequency = 4193
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '幾つ'
@@ -14,7 +14,7 @@ english = 'how many? ; how old?'
 level = 'n5'
 tags = ['adverb', 'common', 'question']
 highest_frequency = 1524
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '幾ら'
@@ -23,7 +23,7 @@ english = 'how much? ; how many?'
 level = 'n5'
 tags = ['adverb', 'common', 'noun', 'question']
 highest_frequency = 928
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '何時'
@@ -32,7 +32,7 @@ english = 'when'
 level = 'n5'
 tags = []
 highest_frequency = 282
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '誰'
@@ -41,7 +41,7 @@ english = 'who'
 level = 'n5'
 tags = []
 highest_frequency = 56
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '誰か'
@@ -50,7 +50,7 @@ english = 'somebody; anybody'
 level = 'n5'
 tags = []
 highest_frequency = 1034
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '如何'
@@ -59,7 +59,7 @@ english = 'how?'
 level = 'n5'
 tags = []
 highest_frequency = 82
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '如何して'
@@ -68,7 +68,7 @@ english = 'why?'
 level = 'n5'
 tags = []
 highest_frequency = 146
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '何方'
@@ -77,7 +77,7 @@ english = 'who? (honorific/respectful/sonkeigo)'
 level = 'n5'
 tags = []
 highest_frequency = 5733
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'どんな'
@@ -86,7 +86,7 @@ english = 'what kind of? ; like what?'
 level = 'n5'
 tags = []
 highest_frequency = 345
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '何故'
@@ -95,5 +95,5 @@ english = 'why? (formal)'
 level = 'n5'
 tags = []
 highest_frequency = 1618
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

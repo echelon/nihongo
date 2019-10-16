@@ -5,7 +5,7 @@ english = 'partner; opponent (sports)'
 level = 'n3'
 tags = ['common', 'noun', 'people']
 highest_frequency = 173
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '赤ちゃん'
@@ -14,7 +14,7 @@ english = 'baby'
 level = 'n4'
 tags = ['common', 'noun', 'people']
 highest_frequency = 3651
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '貴方'
@@ -23,7 +23,7 @@ english = 'you (equal or lower status); dear (wife to husband)'
 level = 'n5'
 tags = ['common', 'people', 'pronouns']
 highest_frequency = 1022
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '王'
@@ -33,7 +33,7 @@ source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
 highest_frequency = 194
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '王様'
@@ -43,7 +43,7 @@ source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
 highest_frequency = 1902
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '大勢'
@@ -52,7 +52,7 @@ english = 'crowd of people'
 level = 'n5'
 tags = []
 highest_frequency = 2531
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '男'
@@ -61,7 +61,7 @@ english = 'man; male'
 level = 'n5'
 tags = []
 highest_frequency = 86
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '男の子'
@@ -70,7 +70,7 @@ english = 'boy'
 level = 'n5'
 tags = []
 highest_frequency = 1558
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '大人'
@@ -79,7 +79,7 @@ english = 'adult'
 level = 'n5'
 tags = []
 highest_frequency = 596
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'お巡りさん'
@@ -88,7 +88,7 @@ english = 'police officer (friendly term)'
 level = 'n5'
 tags = []
 highest_frequency = 18423
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '女'
@@ -97,7 +97,7 @@ english = 'woman; female'
 level = 'n5'
 tags = []
 highest_frequency = 110
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '女の子'
@@ -106,7 +106,7 @@ english = 'girl'
 level = 'n5'
 tags = []
 highest_frequency = 374
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '海賊'
@@ -115,7 +115,7 @@ english = 'pirate'
 source = 'anime'
 tags = ['anime', 'common', 'noun', 'people']
 highest_frequency = 925
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '家族'
@@ -124,7 +124,7 @@ english = 'family'
 level = 'n5'
 tags = []
 highest_frequency = 580
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '方'
@@ -133,7 +133,7 @@ english = 'person (sonkeigo); method or way of'
 level = 'n5'
 tags = []
 highest_frequency = 88
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '金持ち'
@@ -142,7 +142,7 @@ english = 'rich person'
 tags = ['common', 'noun', 'people']
 level = 'n4'
 highest_frequency = 3937
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '看護師'
@@ -164,7 +164,7 @@ kana = 'がいじん'
 english = 'foreigner (less polite)'
 tags = ['common', 'noun']
 highest_frequency = 7719
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '学者'
@@ -174,7 +174,7 @@ source = 'wanikani'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun', 'people']
 highest_frequency = 674
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '警官'
@@ -183,7 +183,7 @@ english = 'police'
 level = 'n5'
 tags = []
 highest_frequency = 2475
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '子'
@@ -193,7 +193,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['age', 'common', 'noun', 'noun-suffix', 'people', 'young']
 highest_frequency = 70
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '子供'
@@ -202,7 +202,7 @@ english = 'child'
 level = 'n5'
 tags = ['common', 'noun', 'people']
 highest_frequency = 263
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '市民'
@@ -212,7 +212,7 @@ source = 'n4-vocab'
 level = 'n4'
 tags = ['common', 'noun', 'people']
 highest_frequency = 973
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '社長'
@@ -222,7 +222,7 @@ level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun']
 highest_frequency = 914
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '自分'
@@ -231,7 +231,7 @@ english = 'myself; oneself'
 level = 'n5'
 tags = []
 highest_frequency = 57
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '住民'
@@ -241,7 +241,7 @@ source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'people']
 highest_frequency = 938
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '女王'
@@ -251,7 +251,7 @@ source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
 highest_frequency = 1777
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '人口'
@@ -261,7 +261,7 @@ level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun']
 highest_frequency = 282
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '声優'
@@ -269,7 +269,7 @@ kana = 'せいゆう'
 english = 'actor; performer'
 tags = ['noun', 'people', 'uncommon']
 highest_frequency = 1493
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '選手'
@@ -279,7 +279,7 @@ level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'sports']
 highest_frequency = 78
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '大統領'
@@ -289,7 +289,7 @@ source = 'stay in japan'
 level = 'n3'
 tags = ['common', 'company', 'noun', 'people', 'politics', 'work']
 highest_frequency = 530
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '町民'
@@ -298,7 +298,7 @@ english = 'townspeople'
 source = 'wanikani'
 tags = ['common', 'people', 'town']
 highest_frequency = 12512
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '天才'
@@ -308,7 +308,7 @@ level = 'n1'
 source = 'wanikani'
 tags = ['common', 'noun']
 highest_frequency = 1373
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '年寄り'
@@ -318,7 +318,7 @@ source = 'sekai-wa-fushigi-2'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
 highest_frequency = 5774
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '友達'
@@ -328,7 +328,7 @@ level = 'n5'
 explain = 'https://hinative.com/en-US/questions/696835'
 tags = []
 highest_frequency = 235
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '泥棒'
@@ -337,7 +337,7 @@ english = 'thief'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
 highest_frequency = 2626
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '～人'
@@ -353,7 +353,7 @@ english = 'human being; mankind'
 level = 'n3'
 tags = ['anime', 'common', 'noun', 'people']
 highest_frequency = 105
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '俳優'
@@ -362,7 +362,7 @@ english = 'actor; performer'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun', 'people']
 highest_frequency = 860
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '白人'
@@ -371,7 +371,7 @@ english = 'white person; Caucasian'
 source = 'wanikani'
 tags = ['common', 'no-adjective']
 highest_frequency = 3511
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '馬鹿'
@@ -381,7 +381,7 @@ source = 'i have always known this'
 level = 'n3'
 tags = ['common', 'na-adjective', 'noun']
 highest_frequency = 694
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '髭'
@@ -391,7 +391,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['body', 'common', 'facial-hair', 'noun', 'people', 'style']
 highest_frequency = 6735
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '人'
@@ -400,7 +400,7 @@ english = 'man; person'
 level = 'n5'
 tags = []
 highest_frequency = 22
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '人々'
@@ -409,7 +409,7 @@ english = 'people; each person'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'people']
 highest_frequency = 526
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '一人'
@@ -418,7 +418,7 @@ english = 'one person'
 level = 'n5'
 tags = []
 highest_frequency = 344
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '二人'
@@ -427,7 +427,7 @@ english = 'two people'
 level = 'n5'
 tags = []
 highest_frequency = 714
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '星'
@@ -436,7 +436,7 @@ english = 'star'
 level = 'n4'
 tags = ['common', 'noun', 'space']
 highest_frequency = 263
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '皆さん'
@@ -445,7 +445,7 @@ english = 'everyone (sonkeigo)'
 level = 'n5'
 tags = ['common', 'honorific', 'noun', 'respectful', 'sonkeigo']
 highest_frequency = 460
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '皆'
@@ -454,7 +454,7 @@ english = 'everyone'
 level = 'n5'
 tags = []
 highest_frequency = 232
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '役人'
@@ -463,7 +463,7 @@ english = 'government official'
 level = 'n2'
 tags = ['common', 'government']
 highest_frequency = 4421
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '奴ら'
@@ -472,7 +472,7 @@ english = 'they; those guys'
 source = 'wanikani'
 tags = ['common', 'people', 'pronoun']
 highest_frequency = 545
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '友人'
@@ -483,7 +483,7 @@ source = 'wanikani'
 explain = 'https://hinative.com/en-US/questions/696835'
 tags = ['common', 'noun', 'people']
 highest_frequency = 870
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '若い'
@@ -492,7 +492,7 @@ english = 'young; youthful'
 level = 'n5'
 tags = []
 highest_frequency = 386
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '私'
@@ -501,7 +501,7 @@ english = 'I; me (more formal)'
 level = 'n5'
 tags = []
 highest_frequency = 17
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '私'
@@ -510,5 +510,5 @@ english = 'I; me'
 level = 'n5'
 tags = []
 highest_frequency = 17
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

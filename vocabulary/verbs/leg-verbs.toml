@@ -8,7 +8,7 @@ transitive = false
 level = 'n5'
 tags = ['common']
 highest_frequency = 224
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '走る'
@@ -20,5 +20,5 @@ transitive = false
 level = 'n5'
 tags = ['common']
 highest_frequency = 290
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 

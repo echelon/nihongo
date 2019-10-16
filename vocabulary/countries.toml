@@ -4,7 +4,7 @@ kana = 'かんこく'
 english = 'South Korea'
 tags = ['common', 'countries', 'no-adjective', 'noun', 'world']
 highest_frequency = 611
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '北朝鮮'
@@ -12,7 +12,7 @@ kana = 'きたちょうせん'
 english = 'North Korea'
 tags = ['common', 'countries', 'noun', 'place', 'world']
 highest_frequency = 1170
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '朝鮮'
@@ -20,7 +20,7 @@ kana = 'ちょうせん'
 english = 'Korea'
 tags = ['common', 'countries', 'noun', 'place', 'world']
 highest_frequency = 921
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '米国'
@@ -28,7 +28,7 @@ kana = 'べいこく'
 english = 'USA'
 tags = ['common', 'noun']
 highest_frequency = 720
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'アフリカ'
@@ -37,7 +37,7 @@ english = 'Africa'
 level = 'n4'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
 highest_frequency = 1301
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'アメリカ'
@@ -46,5 +46,5 @@ english = 'America'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 93
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 

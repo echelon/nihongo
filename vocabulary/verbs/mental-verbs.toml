@@ -9,7 +9,7 @@ source = 'jlpt-test; irasshai'
 level = 'n4'
 tags = ['common']
 highest_frequency = 409
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '思い出す'
@@ -22,7 +22,7 @@ source = 'irasshai; anime'
 level = 'n4'
 tags = ['common']
 highest_frequency = 527
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '思う'
@@ -35,7 +35,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['common']
 highest_frequency = 35
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '知る'
@@ -48,7 +48,7 @@ source = 'n5-study'
 level = 'n5'
 tags = ['common']
 highest_frequency = 54
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '信じる'
@@ -61,7 +61,7 @@ source = 'wanikani; anime'
 level = 'n3'
 tags = ['common']
 highest_frequency = 220
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '見直す'
@@ -74,7 +74,7 @@ source = 'wanikani'
 level = 'n2'
 tags = ['common']
 highest_frequency = 3749
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '分かる'
@@ -86,7 +86,7 @@ transitive = false
 level = 'n5'
 tags = ['common']
 highest_frequency = 45
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '忘れる'
@@ -99,5 +99,5 @@ source = 'irasshai'
 level = 'n5'
 tags = ['common']
 highest_frequency = 187
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

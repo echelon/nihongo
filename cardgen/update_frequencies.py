@@ -21,10 +21,10 @@ def main():
   }
 
   frequency_list_names = {
-    'anime_45k': 'Anime 45k',
-    'leeds_15k' : 'Leeds 15k',
-    'novel_3k' : 'Novel 3k',
-    'wikipedia_10k' : 'Wikipedia 10k',
+    'anime_45k': 'Anime',
+    'leeds_15k' : 'Leeds',
+    'novel_3k' : 'Novels',
+    'wikipedia_10k' : 'Wikipedia',
   }
 
   print('==== Notes files ==== ')

@@ -6,7 +6,7 @@ source = 'irasshai'
 level = 'n5'
 tags = ['common']
 highest_frequency = 15
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '掛かる'
@@ -16,7 +16,7 @@ source = 'n5-wiki'
 level = 'n5'
 tags = ['common']
 highest_frequency = 233
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '片付ける'
@@ -26,7 +26,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
 highest_frequency = 2723
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '閉める'
@@ -36,7 +36,7 @@ source = 'irasshai?'
 level = 'n5'
 tags = ['common']
 highest_frequency = 2432
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '育てる'
@@ -46,7 +46,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
 highest_frequency = 1786
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '捕まえる'
@@ -56,7 +56,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
 highest_frequency = 1033
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '付ける'
@@ -66,7 +66,7 @@ source = 'wanikani'
 level = 'n5'
 tags = ['common']
 highest_frequency = 289
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '包む'
@@ -76,7 +76,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
 highest_frequency = 927
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '張る'
@@ -86,7 +86,7 @@ source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
 highest_frequency = 1188
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '弾く'
@@ -96,7 +96,7 @@ source = 'irasshai'
 level = 'n5'
 tags = ['common']
 highest_frequency = 1171
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '渡る'
@@ -106,5 +106,5 @@ source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
 highest_frequency = 342
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 

@@ -5,7 +5,7 @@ english = 'dog'
 level = 'n5'
 tags = ['common', 'mammal']
 highest_frequency = 566
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '牛'
@@ -14,7 +14,7 @@ english = 'cow'
 level = 'n3'
 tags = ['common', 'noun']
 highest_frequency = 2170
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '馬'
@@ -24,7 +24,7 @@ source = 'irasshai'
 level = 'n3'
 tags = ['animal', 'common', 'domesticated', 'mammal', 'noun']
 highest_frequency = 286
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '狼'
@@ -32,7 +32,7 @@ kana = 'おおかみ'
 english = 'wolf'
 tags = ['common', 'noun']
 highest_frequency = 1968
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '狐'
@@ -40,7 +40,7 @@ kana = 'きつね'
 english = 'fox'
 tags = ['common', 'noun']
 highest_frequency = 2063
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '屈狸'
@@ -55,7 +55,7 @@ kana = 'くま'
 english = 'bear'
 tags = ['common', 'noun']
 highest_frequency = 2833
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '子犬'
@@ -63,7 +63,7 @@ kana = 'こいぬ'
 english = 'puppy'
 tags = ['common', 'noun']
 highest_frequency = 10402
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '子牛'
@@ -78,7 +78,7 @@ kana = 'こねこ'
 english = 'kitten'
 tags = ['common', 'noun']
 highest_frequency = 6293
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '猿'
@@ -87,7 +87,7 @@ english = 'monkey'
 level = 'n3'
 tags = ['common', 'mammal', 'noun']
 highest_frequency = 1278
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '鹿'
@@ -95,7 +95,7 @@ kana = 'しか'
 english = 'deer'
 tags = ['common', 'noun']
 highest_frequency = 206
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '獅子'
@@ -103,7 +103,7 @@ kana = 'しし'
 english = 'lion'
 tags = ['common', 'mammal', 'noun']
 highest_frequency = 6788
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '象'
@@ -112,7 +112,7 @@ english = 'elephant'
 level = 'n3'
 tags = ['common', 'mammal', 'noun']
 highest_frequency = 1713
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '虎'
@@ -121,7 +121,7 @@ english = 'tiger'
 level = 'n3'
 tags = ['animal', 'common', 'noun']
 highest_frequency = 2301
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '猫'
@@ -130,7 +130,7 @@ english = 'cat'
 level = 'n5'
 tags = []
 highest_frequency = 574
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '羊'
@@ -139,7 +139,7 @@ english = 'sheep'
 source = 'wanikani'
 tags = ['animal', 'common', 'noun']
 highest_frequency = 3609
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '豚'
@@ -147,7 +147,7 @@ kana = 'ぶた'
 english = 'pig'
 tags = ['animals', 'common', 'noun']
 highest_frequency = 1924
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'パンダ'
@@ -156,5 +156,5 @@ english = 'panda'
 source = 'anime-freq'
 tags = ['animal', 'common', 'mammal', 'noun']
 highest_frequency = 577
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

@@ -6,5 +6,5 @@ source = 'wanikani; anime'
 explain = 'https://www.italki.com/question/75853'
 tags = ['anime', 'hougen', 'kansai', 'osaka', 'slang', 'uncommon']
 highest_frequency = 3274
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

@@ -5,7 +5,7 @@ english = 'beef'
 level = 'n5'
 tags = []
 highest_frequency = 5755
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '魚'
@@ -14,7 +14,7 @@ english = 'fish'
 level = 'n5'
 tags = []
 highest_frequency = 1381
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '卵'
@@ -23,7 +23,7 @@ english = 'egg'
 level = 'n5'
 tags = []
 highest_frequency = 1761
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '鳥肉'
@@ -39,7 +39,7 @@ english = 'meat'
 level = 'n5'
 tags = []
 highest_frequency = 395
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '豚肉'
@@ -48,5 +48,5 @@ english = 'pork'
 level = 'n5'
 tags = []
 highest_frequency = 10890
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 

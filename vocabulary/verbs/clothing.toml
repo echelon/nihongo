@@ -9,7 +9,7 @@ source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
 highest_frequency = 545
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '履く'
@@ -21,5 +21,5 @@ transitive = true
 level = 'n3'
 tags = ['common']
 highest_frequency = 1240
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 

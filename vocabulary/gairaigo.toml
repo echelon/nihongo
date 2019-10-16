@@ -5,7 +5,7 @@ english = 'member of a jpop band'
 source = 'jpop; culture'
 tags = ['common', 'gairaigo', 'noun', 'people']
 highest_frequency = 1222
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'オートバイ'
@@ -15,7 +15,7 @@ source = 'n4 wiktionary'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'transportation']
 highest_frequency = 5227
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'カーテン'
@@ -25,7 +25,7 @@ source = 'n4-wiki'
 level = 'n4'
 tags = ['common', 'house', 'noun', 'window']
 highest_frequency = 7697
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'カード'
@@ -34,7 +34,7 @@ english = 'card'
 level = 'n3'
 tags = ['common', 'electronics', 'gairaigo', 'noun']
 highest_frequency = 533
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'ガス'
@@ -44,7 +44,7 @@ source = 'n4 wiktionary'
 level = 'n4'
 tags = ['chemistry', 'common', 'gairaigo', 'noun']
 highest_frequency = 1430
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'ガソリン'
@@ -54,7 +54,7 @@ source = 'n4 wiktionary'
 level = 'n4'
 tags = ['automotive', 'common', 'gairaigo', 'noun']
 highest_frequency = 4438
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'ガソリンスタンド'
@@ -64,7 +64,7 @@ source = 'n4-wiki'
 level = 'n4'
 tags = ['common', 'noun', 'places', 'travel']
 highest_frequency = 38279
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '瓩'
@@ -74,7 +74,7 @@ source = 'wiki-n5'
 level = 'n5'
 tags = ['ateji', 'common', 'dimensions', 'gairaigo', 'mass', 'noun', 'numbers', 'unit-of-measure', 'weight']
 highest_frequency = 23914
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '粁'
@@ -84,7 +84,7 @@ source = 'wiki-n5'
 level = 'n5'
 tags = ['ateji', 'common', 'dimensions', 'distance', 'gairaigo', 'noun', 'numbers', 'unit-of-measure']
 highest_frequency = 22582
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'ケーキ'
@@ -94,7 +94,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['common', 'dessert', 'food', 'noun']
 highest_frequency = 1396
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'ゲーム'
@@ -103,7 +103,7 @@ english = 'game'
 level = 'n3'
 tags = ['common', 'gairaigo', 'games', 'noun', 'video games']
 highest_frequency = 158
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'コンサート'
@@ -113,7 +113,7 @@ source = 'n4-wiki'
 level = 'n4'
 tags = ['common', 'event', 'music', 'noun']
 highest_frequency = 1868
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'コンピューター'
@@ -123,7 +123,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['common', 'electronics', 'gairaigo', 'noun', 'technology']
 highest_frequency = 930
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'コート'
@@ -133,7 +133,7 @@ source = 'irasshai'
 level = 'n5'
 tags = ['clothing', 'common', 'gairaigo', 'noun']
 highest_frequency = 2719
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = 'サラダ'
@@ -143,7 +143,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['common', 'food', 'noun']
 highest_frequency = 5417
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'サンダル'
@@ -153,7 +153,7 @@ source = 'n4-study'
 level = 'n4'
 tags = ['clothing', 'common', 'footwear', 'noun', 'shoes']
 highest_frequency = 13167
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'サンドイッチ'
@@ -163,7 +163,7 @@ source = 'irasshai; n4 wiktionary'
 level = 'n4'
 tags = ['common', 'food', 'gairaigo']
 highest_frequency = 10232
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'ジャム'
@@ -173,7 +173,7 @@ source = 'n4 wiktionary'
 level = 'n4'
 tags = ['common', 'food', 'gairaigo', 'noun']
 highest_frequency = 9839
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'スクリーン'
@@ -183,7 +183,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 2238
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = 'ステレオ'
@@ -193,7 +193,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 6757
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'ステーキ'
@@ -202,7 +202,7 @@ english = 'steak'
 level = 'n4'
 tags = ['common', 'food', 'gairaigo', 'noun']
 highest_frequency = 8610
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'スーツ'
@@ -212,7 +212,7 @@ source = 'n4 wiktionary'
 level = 'n4'
 tags = ['clothing', 'common', 'gairaigo', 'noun']
 highest_frequency = 4681
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'スーツケース'
@@ -222,7 +222,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'office', 'work']
 highest_frequency = 30094
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'ソフト'
@@ -232,7 +232,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'na-adjective', 'no-adjective']
 highest_frequency = 996
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'タイプ'
@@ -242,7 +242,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 1055
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'タイム'
@@ -252,7 +252,7 @@ source = 'anime-freq'
 level = 'n1'
 tags = ['common', 'gairaigo']
 highest_frequency = 1198
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'テキスト'
@@ -262,7 +262,7 @@ source = 'n4 wiktionary'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 2331
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'テニス'
@@ -271,7 +271,7 @@ english = 'tennis'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'sport']
 highest_frequency = 2395
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'テープ'
@@ -281,7 +281,7 @@ source = 'irasshai'
 level = 'n5'
 tags = ['common', 'noun', 'office']
 highest_frequency = 3837
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'テープレコーダー'
@@ -290,7 +290,7 @@ english = 'tape recorder'
 level = 'n5'
 tags = ['common', 'dated', 'electronics', 'gairaigo', 'noun']
 highest_frequency = 37501
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'データ'
@@ -299,7 +299,7 @@ english = 'data'
 level = 'n1'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 594
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'ドラゴン'
@@ -307,7 +307,7 @@ kana = 'ドラゴン'
 english = 'dragon (gairaigo)'
 tags = ['common', 'gairaigo', 'monster', 'mythology', 'noun']
 highest_frequency = 1147
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'ハンター'
@@ -315,7 +315,7 @@ kana = 'ハンター'
 english = 'hunter'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 1189
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'ハンドバッグ'
@@ -333,7 +333,7 @@ source = 'irasshai'
 level = 'n4'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
 highest_frequency = 898
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'パート'
@@ -343,7 +343,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 3795
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'ビル'
@@ -353,7 +353,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 797
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'ピアノ'
@@ -363,7 +363,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 1517
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'ファックス'
@@ -373,7 +373,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'suru-verb']
 highest_frequency = 10478
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'ブロック'
@@ -382,7 +382,7 @@ english = 'block; blocking'
 source = 'anime-freq'
 tags = ['common', 'gairaigo']
 highest_frequency = 1142
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'プレゼント'
@@ -392,7 +392,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 1341
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'ベル'
@@ -402,7 +402,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 2086
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = 'マスター'
@@ -412,7 +412,7 @@ source = 'anime-freq'
 level = 'n3'
 tags = ['common', 'gairaigo', 'noun', 'suru-verb']
 highest_frequency = 372
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'メートル'
@@ -421,7 +421,7 @@ english = 'meter'
 level = 'n5'
 tags = ['common', 'dimensions', 'gairaigo', 'measure', 'noun']
 highest_frequency = 678
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = 'ライブ'
@@ -429,7 +429,7 @@ kana = 'ライブ'
 english = 'live (eg performance, concert)'
 tags = ['common', 'gairaigo', 'noun', 'noun-or-verb-acting-prenominally']
 highest_frequency = 916
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'ラジオカセット'
@@ -446,7 +446,7 @@ source = 'wiki-n5'
 level = 'n5'
 tags = ['common', 'gairaigo', 'noun', 'old-technology', 'technology']
 highest_frequency = 34005
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'リポート'
@@ -456,7 +456,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 11125
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'リーダー'
@@ -465,7 +465,7 @@ english = 'leader (gairaigo)'
 source = 'anime-freq'
 tags = ['common', 'no-adjective', 'noun']
 highest_frequency = 1525
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'レジ'
@@ -475,7 +475,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 6245
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'レポート'
@@ -485,7 +485,7 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 highest_frequency = 1557
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = 'ワープロ'
@@ -495,5 +495,5 @@ source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'computer', 'gairaigo', 'noun', 'program']
 highest_frequency = 11338
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 

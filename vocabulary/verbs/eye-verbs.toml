@@ -8,7 +8,7 @@ transitive = false
 level = 'n4'
 tags = ['common']
 highest_frequency = 123
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '見せる'
@@ -20,7 +20,7 @@ transitive = true
 level = 'n5'
 tags = ['common']
 highest_frequency = 252
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '見る'
@@ -32,7 +32,7 @@ transitive = true
 level = 'n5'
 tags = ['common']
 highest_frequency = 41
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '読む'
@@ -44,5 +44,5 @@ transitive = false
 level = 'n5'
 tags = ['common']
 highest_frequency = 214
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 

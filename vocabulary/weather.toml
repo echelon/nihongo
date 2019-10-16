@@ -5,7 +5,7 @@ english = 'warm (air temp)'
 level = 'n5'
 tags = ['common', 'i-adjective', 'temperature', 'weather']
 highest_frequency = 2522
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '暑い'
@@ -14,7 +14,7 @@ english = 'hot; warm'
 level = 'n5'
 tags = ['common', 'i-adjectives', 'weather']
 highest_frequency = 1505
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '雨'
@@ -23,7 +23,7 @@ english = 'rain'
 level = 'n5'
 tags = ['common', 'weather']
 highest_frequency = 804
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '嵐'
@@ -32,7 +32,7 @@ english = 'storm'
 level = 'n3'
 tags = ['common']
 highest_frequency = 2866
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '大雨'
@@ -41,7 +41,7 @@ english = 'heavy rain'
 source = 'wanikani'
 tags = ['common', 'nature', 'noun', 'rain', 'weather']
 highest_frequency = 9634
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '傘'
@@ -50,7 +50,7 @@ english = 'umbrella'
 level = 'n5'
 tags = ['accessories', 'clothing', 'common', 'weather']
 highest_frequency = 2872
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '風'
@@ -59,7 +59,7 @@ english = 'wind; breeze'
 level = 'n5'
 tags = ['common']
 highest_frequency = 252
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '雷'
@@ -68,7 +68,7 @@ english = 'lightning; thunder'
 level = 'n3'
 tags = ['common']
 highest_frequency = 2604
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '気温'
@@ -77,7 +77,7 @@ english = 'atmospheric temperature'
 level = 'n3'
 tags = ['common']
 highest_frequency = 3166
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '霧'
@@ -86,7 +86,7 @@ english = 'fog; mist'
 level = 'n3'
 tags = ['common']
 highest_frequency = 751
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '空気'
@@ -95,7 +95,7 @@ english = 'air; atmosphere; mood'
 level = 'n4'
 tags = ['common']
 highest_frequency = 764
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '雲'
@@ -104,7 +104,7 @@ english = 'cloud'
 level = 'n4'
 tags = ['common']
 highest_frequency = 1156
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '曇り'
@@ -120,7 +120,7 @@ english = 'dark; gloomy; depressed'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 614
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '氷'
@@ -129,7 +129,7 @@ english = 'ice'
 level = 'n3'
 tags = ['common']
 highest_frequency = 2387
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '寒い'
@@ -138,7 +138,7 @@ english = 'cold (weather)'
 level = 'n5'
 tags = ['common', 'i-adjective']
 highest_frequency = 1137
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '涼しい'
@@ -147,7 +147,7 @@ english = 'cool (temperature); refreshing'
 level = 'n5'
 tags = ['common']
 highest_frequency = 5291
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '空'
@@ -156,7 +156,7 @@ english = 'sky'
 level = 'n5'
 tags = ['common']
 highest_frequency = 265
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '大気'
@@ -166,7 +166,7 @@ source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
 highest_frequency = 3581
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '台風'
@@ -175,7 +175,7 @@ english = 'typhoon; hurricane'
 level = 'n4'
 tags = ['common']
 highest_frequency = 3624
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '露'
@@ -184,7 +184,7 @@ english = 'dew'
 level = 'n1'
 tags = ['common']
 highest_frequency = 2880
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '天気'
@@ -193,7 +193,7 @@ english = 'weather'
 level = 'n5'
 tags = ['common']
 highest_frequency = 1920
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '天気予報'
@@ -210,7 +210,7 @@ english = 'clear weather; fine weather'
 level = 'n5'
 tags = ['common']
 highest_frequency = 6326
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '吹雪'
@@ -219,7 +219,7 @@ english = 'snow storm; blizzard'
 level = 'n2'
 tags = ['common']
 highest_frequency = 2597
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '雪'
@@ -228,5 +228,5 @@ english = 'snow'
 level = 'n5'
 tags = ['common']
 highest_frequency = 368
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

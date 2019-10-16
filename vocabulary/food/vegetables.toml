@@ -4,7 +4,7 @@ kana = 'じゃがいも'
 english = 'potato'
 tags = ['common', 'food', 'healthy', 'noun', 'vegetable']
 highest_frequency = 38995
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '玉ねぎ'
@@ -13,7 +13,7 @@ english = 'onion'
 source = 'wanikani'
 tags = ['common', 'food', 'noun', 'vegetable']
 highest_frequency = 13106
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '茄子'
@@ -22,7 +22,7 @@ english = 'eggplant'
 source = 'wanikani'
 tags = ['common', 'food', 'noun', 'vegetable']
 highest_frequency = 1277
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '人参'
@@ -30,7 +30,7 @@ kana = 'にんじん'
 english = 'carrot'
 tags = ['common', 'food', 'healthy', 'noun', 'vegetable']
 highest_frequency = 14442
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '野菜'
@@ -39,5 +39,5 @@ english = 'vegetable'
 level = 'n5'
 tags = ['common', 'food', 'no-adjective', 'noun', 'vegetable']
 highest_frequency = 2086
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 

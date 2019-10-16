@@ -5,7 +5,7 @@ english = 'pond'
 level = 'n5'
 tags = ['common', 'nature', 'noun', 'outdoors']
 highest_frequency = 1405
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '岩'
@@ -14,7 +14,7 @@ english = 'boulder; crag; cliff'
 level = 'n3'
 tags = ['common', 'nature', 'noun', 'outdoors']
 highest_frequency = 1253
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '海'
@@ -23,7 +23,7 @@ english = 'sea; ocean'
 level = 'n5'
 tags = []
 highest_frequency = 256
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '海岸'
@@ -32,7 +32,7 @@ english = 'coast; beach'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'ocean']
 highest_frequency = 1835
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '火山'
@@ -41,7 +41,7 @@ english = 'volcano'
 level = 'n2'
 tags = ['common', 'no-adjective', 'noun']
 highest_frequency = 3205
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '川'
@@ -50,7 +50,7 @@ english = 'river'
 level = 'n5'
 tags = []
 highest_frequency = 98
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '木'
@@ -59,7 +59,7 @@ english = 'tree; wood'
 level = 'n5'
 tags = ['common', 'nature', 'noun']
 highest_frequency = 425
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '草'
@@ -68,7 +68,7 @@ english = 'grass'
 level = 'n4'
 tags = ['common', 'nature', 'plants']
 highest_frequency = 1539
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '草地'
@@ -83,7 +83,7 @@ english = '(public) park'
 level = 'n5'
 tags = []
 highest_frequency = 531
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '潮'
@@ -92,7 +92,7 @@ english = 'tide; current; sea water'
 level = 'n1'
 tags = ['common']
 highest_frequency = 4633
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '滝'
@@ -102,7 +102,7 @@ level = 'n2'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'geography', 'nature']
 highest_frequency = 3162
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '地域'
@@ -112,7 +112,7 @@ level = 'n3'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'geography']
 highest_frequency = 134
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '地球'
@@ -121,7 +121,7 @@ english = 'the Earth'
 level = 'n3'
 tags = ['common', 'no-adjective']
 highest_frequency = 616
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '地図'
@@ -130,7 +130,7 @@ english = 'map'
 level = 'n5'
 tags = ['common']
 highest_frequency = 2259
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '土'
@@ -139,7 +139,7 @@ english = 'earth, soil, dirt, clay, mud'
 level = 'n3'
 tags = ['common', 'earth', 'nature']
 highest_frequency = 982
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '虹'
@@ -148,7 +148,7 @@ english = 'rainbow'
 level = 'n2'
 tags = ['common', 'nature', 'outdoors']
 highest_frequency = 5557
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '庭'
@@ -157,7 +157,7 @@ english = 'garden'
 level = 'n5'
 tags = []
 highest_frequency = 1273
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '灰'
@@ -166,7 +166,7 @@ english = 'ash; ashes'
 level = 'n3'
 tags = ['common', 'fire', 'nature']
 highest_frequency = 342
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '花'
@@ -175,7 +175,7 @@ english = 'flower'
 level = 'n5'
 tags = []
 highest_frequency = 297
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '林'
@@ -184,7 +184,7 @@ english = 'woods; forest'
 level = 'n4'
 tags = ['common', 'nature', 'places', 'plants']
 highest_frequency = 865
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '湖'
@@ -193,7 +193,7 @@ english = 'lake'
 level = 'n4'
 tags = ['common', 'nature', 'noun', 'outdoors']
 highest_frequency = 859
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '森'
@@ -202,7 +202,7 @@ english = 'big forest'
 level = 'n4'
 tags = ['common', 'nature', 'noun']
 highest_frequency = 606
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '山'
@@ -211,5 +211,5 @@ english = 'mountain'
 level = 'n5'
 tags = []
 highest_frequency = 124
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 

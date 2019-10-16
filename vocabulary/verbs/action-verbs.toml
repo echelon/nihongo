@@ -9,7 +9,7 @@ source = 'wanikani'
 level = 'n4'
 tags = ['common']
 highest_frequency = 635
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '決める'
@@ -22,7 +22,7 @@ source = 'wanikani'
 level = 'n4'
 tags = ['common']
 highest_frequency = 278
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '指す'
@@ -35,7 +35,7 @@ source = 'wanikani'
 level = 'n3'
 tags = ['common']
 highest_frequency = 808
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '近づく'
@@ -48,7 +48,7 @@ source = 'wanikani'
 level = 'n1'
 tags = ['common']
 highest_frequency = 570
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '投げる'
@@ -61,7 +61,7 @@ source = 'wanikani'
 level = 'n4'
 tags = ['common']
 highest_frequency = 1360
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '並べる'
@@ -74,7 +74,7 @@ source = 'n4-list'
 level = 'n5'
 tags = ['common']
 highest_frequency = 2168
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '逃げる'
@@ -87,5 +87,5 @@ source = 'wanikani'
 level = 'n4'
 tags = ['common']
 highest_frequency = 179
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 

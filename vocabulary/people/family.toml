@@ -5,7 +5,7 @@ english = "(one's own) older brother (kenjougo)"
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 highest_frequency = 505
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '姉'
@@ -14,7 +14,7 @@ english = "(one's own) older sister (kenjougo)"
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 highest_frequency = 320
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '妹'
@@ -23,7 +23,7 @@ english = "(one's own) younger sister (kenjougo)"
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 highest_frequency = 493
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'お母さん'
@@ -32,7 +32,7 @@ english = 'mother (sonkeigo)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 highest_frequency = 347
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '奥さん'
@@ -41,7 +41,7 @@ english = 'wife (sonkeigo)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 highest_frequency = 2135
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '伯父'
@@ -51,7 +51,7 @@ source = 'wiki-n5'
 level = 'n5'
 tags = ['common', 'family', 'noun', 'people']
 highest_frequency = 3155
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'お祖父さん'
@@ -60,7 +60,7 @@ english = 'grandfather; male senior citizen (sonkeigo)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 highest_frequency = 6182
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '伯父さん'
@@ -69,7 +69,7 @@ english = 'uncle; old man (sonkeigo)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 highest_frequency = 1921
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = 'お父さん'
@@ -78,7 +78,7 @@ english = 'father (sonkeigo)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 highest_frequency = 470
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '弟'
@@ -87,7 +87,7 @@ english = "(one's own) little brother (kenjougo)"
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 highest_frequency = 953
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = 'お兄さん'
@@ -110,7 +110,7 @@ english = 'grandmother (sonkeigo)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 highest_frequency = 9363
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '伯母さん'
@@ -119,7 +119,7 @@ english = 'aunt (sonkeigo)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 highest_frequency = 3230
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '親'
@@ -130,7 +130,7 @@ level = 'n4'
 explain = 'https://hinative.com/ja/questions/1301745'
 tags = ['common', 'family', 'noun', 'people']
 highest_frequency = 923
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '家内'
@@ -141,7 +141,7 @@ level = 'n4'
 explain = 'https://japanese.stackexchange.com/a/14787'
 tags = ['common', 'family', 'noun', 'people']
 highest_frequency = 9088
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '兄弟'
@@ -150,7 +150,7 @@ english = 'siblings'
 level = 'n5'
 tags = []
 highest_frequency = 1150
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '祖父'
@@ -159,7 +159,7 @@ english = "(one's own) grandfather; old man"
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 highest_frequency = 2943
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '祖母'
@@ -168,7 +168,7 @@ english = "(one's own) grandmother"
 level = 'n4'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 highest_frequency = 6476
-highest_frequency_source = 'Leeds 15k'
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '父'
@@ -177,7 +177,7 @@ english = "(one's own) father (kenjougo)"
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 highest_frequency = 332
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '妻'
@@ -187,7 +187,7 @@ source = 'jlptstudy'
 level = 'n4'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 highest_frequency = 684
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '母'
@@ -196,7 +196,7 @@ english = "(one's own) mother (kenjougo)"
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 highest_frequency = 501
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '息子'
@@ -205,7 +205,7 @@ english = 'son'
 level = 'n4'
 tags = ['common', 'family', 'noun', 'people']
 highest_frequency = 896
-highest_frequency_source = 'Wikipedia 10k'
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '娘'
@@ -214,7 +214,7 @@ english = 'daughter'
 level = 'n4'
 tags = ['common', 'family', 'noun', 'people']
 highest_frequency = 301
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '両親'
@@ -223,5 +223,5 @@ english = 'parents; both parents'
 level = 'n5'
 tags = ['common', 'family', 'noun', 'people']
 highest_frequency = 1629
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 

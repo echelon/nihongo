@@ -9,7 +9,7 @@ level = 'n5'
 explain = 'https://kawakawalearningstudio.com/all/use-said-japanese/'
 tags = ['common']
 highest_frequency = 24
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '歌う'
@@ -21,7 +21,7 @@ transitive = false
 level = 'n5'
 tags = ['common', 'transitive-and-intransitive']
 highest_frequency = 713
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '噛む'
@@ -34,7 +34,7 @@ source = 'n4vocab'
 level = 'n4'
 tags = ['common']
 highest_frequency = 2616
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '答える'
@@ -46,7 +46,7 @@ transitive = false
 level = 'n5'
 tags = ['common']
 highest_frequency = 274
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '喋る'
@@ -59,7 +59,7 @@ transitive = false
 explain = 'https://kawakawalearningstudio.com/all/use-said-japanese/'
 tags = ['common']
 highest_frequency = 1577
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '食べる'
@@ -72,7 +72,7 @@ source = 'irasshai'
 level = 'n5'
 tags = ['common']
 highest_frequency = 123
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '飲む'
@@ -84,7 +84,7 @@ transitive = true
 level = 'n5'
 tags = ['common']
 highest_frequency = 397
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '話す'
@@ -96,7 +96,7 @@ transitive = true
 level = 'n5'
 tags = ['common']
 highest_frequency = 249
-highest_frequency_source = 'Anime 45k'
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '笑う'
@@ -109,5 +109,5 @@ source = 'jlpt-study'
 level = 'n4'
 tags = ['common']
 highest_frequency = 203
-highest_frequency_source = 'Novel 3k'
+highest_frequency_source = 'Novels'
 
