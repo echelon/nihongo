@@ -4,6 +4,8 @@ kana = 'きらきら'
 english = 'glittering; sparkling'
 source = 'wanikani'
 tags = ['adverb', 'adverb-taking-to', 'common', 'suru-verb']
+highest_frequency = 11450
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'どんどん'
@@ -12,6 +14,8 @@ english = 'rapidly; drumming; pounding'
 source = 'n4-wikipedia; ramen'
 level = 'n4'
 tags = ['adverb', 'adverb-to', 'common']
+highest_frequency = 1364
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ふんわり'
@@ -19,6 +23,8 @@ kana = 'ふんわり'
 english = 'gently; fluffily'
 source = 'food-package'
 tags = ['common', 'onomatopoeia']
+highest_frequency = 18702
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'わくわく'
@@ -26,6 +32,8 @@ kana = 'わくわく'
 english = 'excited; nervous; trembling (ono)'
 source = 'anime; db super'
 tags = ['adverb', 'adverb-to', 'common', 'suru-verb']
+highest_frequency = 5534
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ニコニコ'
@@ -33,6 +41,8 @@ kana = 'ニコニコ'
 english = 'smilingly; with a friendly grin'
 level = 'n2'
 tags = ['adverb', 'adverb-taking-to', 'common', 'suru-verb']
+highest_frequency = 8025
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = 'ペコペコ'
@@ -41,6 +51,8 @@ english = 'very hungry; starving'
 source = 'irasshai'
 level = 'n1'
 tags = ['adverb', 'adverb-taking-to', 'common', 'na-adjective', 'suru-verb']
+highest_frequency = 15433
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ペラペラ'
@@ -48,4 +60,6 @@ kana = 'ペラペラ'
 english = 'fluently (speaking)'
 source = 'irasshai'
 tags = ['adverb', 'adverb-taking-to', 'common', 'na-adjective']
+highest_frequency = 14942
+highest_frequency_source = 'Anime 45k'
 

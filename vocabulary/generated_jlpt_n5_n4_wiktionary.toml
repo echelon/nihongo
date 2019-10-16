@@ -21,6 +21,8 @@ english = 'owing to, thanks to'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 615
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'おかしい'
@@ -29,6 +31,8 @@ english = 'strange or funny'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 451
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'おっしゃる'
@@ -37,6 +41,8 @@ english = '(respectful) to say'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1265
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'お嬢さん'
@@ -45,6 +51,8 @@ english = 'young lady'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3250
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'お礼'
@@ -53,6 +61,8 @@ english = 'expression of gratitude'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1463
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'お祭り'
@@ -61,6 +71,8 @@ english = 'festival'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 6716
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'お見舞い'
@@ -85,6 +97,8 @@ english = 'surely'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 198
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'くれる'
@@ -93,6 +107,8 @@ english = 'to give'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 37
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'けれど'
@@ -101,6 +117,8 @@ english = 'however'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 259
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'けれども'
@@ -109,6 +127,8 @@ english = 'however'
 source = 'wiktionary'
 level = 'n5'
 tags = ['generated', 'tsv']
+highest_frequency = 263
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'けんかする'
@@ -125,6 +145,8 @@ english = 'a feast'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 4974
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'このあいだ'
@@ -141,6 +163,8 @@ english = 'these days,nowadays'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 10215
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'ごらんになる'
@@ -157,6 +181,8 @@ english = 'after this'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 251
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ご存じ'
@@ -165,6 +191,8 @@ english = '(respect form ) to know'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3869
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'さっき'
@@ -173,6 +201,8 @@ english = 'some time ago'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 212
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'しっかり'
@@ -181,6 +211,8 @@ english = 'firmly,steadily'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 540
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'じゃ'
@@ -197,6 +229,8 @@ english = 'completely'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 924
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'すっと'
@@ -205,6 +239,8 @@ english = 'straight,all of a sudden'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 10983
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'すり'
@@ -213,6 +249,8 @@ english = 'pickpocket'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 5843
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'する'
@@ -229,6 +267,8 @@ english = 'because of that'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 791
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'それほど'
@@ -237,6 +277,8 @@ english = 'to that extent'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1602
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'そろそろ'
@@ -245,6 +287,8 @@ english = 'gradually,soon'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 392
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'そんな'
@@ -261,6 +305,8 @@ english = 'so much,like that'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 314
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'たいてい'
@@ -269,6 +315,8 @@ english = 'usually'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 4571
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'だから'
@@ -277,6 +325,8 @@ english = 'so,therefore'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 244
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'たまに'
@@ -285,6 +335,8 @@ english = 'occasionally'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2979
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'チェックする'
@@ -317,6 +369,8 @@ english = 'finally, after all'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1787
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'とこや'
@@ -333,6 +387,8 @@ english = '(respectful) to do'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 130
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'など'
@@ -349,6 +405,8 @@ english = 'as much as possible'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3288
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ぬれる'
@@ -357,6 +415,8 @@ english = 'to get wet'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 7563
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ひきだす'
@@ -373,6 +433,8 @@ english = 'to praise'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 8066
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'または'
@@ -381,6 +443,8 @@ english = 'or,otherwise'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 522
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = 'もうすぐ'
@@ -389,6 +453,8 @@ english = 'soon'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1058
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ゆっくりと'
@@ -405,6 +471,8 @@ english = 'to hang,to lower,to move back'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1078
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '下る'
@@ -413,6 +481,8 @@ english = 'to get down,to descend'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2211
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '下宿'
@@ -421,6 +491,8 @@ english = 'lodging'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 12784
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '下着'
@@ -429,6 +501,8 @@ english = 'underwear'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2427
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '久しぶり'
@@ -437,6 +511,8 @@ english = 'after a long time'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 653
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '乗り換える'
@@ -445,6 +521,8 @@ english = 'to change between buses or trains'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 8624
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '乗り物'
@@ -453,6 +531,8 @@ english = 'vehicle'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 9588
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '乾く'
@@ -461,6 +541,8 @@ english = 'to get dry'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3708
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '予習'
@@ -469,6 +551,8 @@ english = 'preparation for a lesson'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 12291
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '事務所'
@@ -477,6 +561,8 @@ english = 'office'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1436
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '亡くなる'
@@ -485,6 +571,8 @@ english = 'to die'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1257
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '代わり'
@@ -493,6 +581,8 @@ english = 'substitute,alternate'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 678
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '会場'
@@ -501,6 +591,8 @@ english = 'assembly hall or meeting place'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1298
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '伝える'
@@ -509,6 +601,8 @@ english = 'to report'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 606
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '似る'
@@ -517,6 +611,8 @@ english = 'to be similar'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 481
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '倍'
@@ -525,6 +621,8 @@ english = 'double'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1140
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '倒れる'
@@ -533,6 +631,8 @@ english = 'to break down'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 891
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '入学'
@@ -541,6 +641,8 @@ english = 'to enter school or university'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1134
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '公務員'
@@ -549,6 +651,8 @@ english = 'civil servant, government worker'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2335
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '写す'
@@ -557,6 +661,8 @@ english = 'to copy or photograph'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 5052
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '冷える'
@@ -565,6 +671,8 @@ english = 'to grow cold'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 5048
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '凄い'
@@ -573,6 +681,8 @@ english = 'terrific'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1187
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '別'
@@ -581,6 +691,8 @@ english = 'different'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 388
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '別れる'
@@ -589,6 +701,8 @@ english = 'to separate'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1933
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '利用'
@@ -597,6 +711,8 @@ english = 'utilization'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 173
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '割れる'
@@ -605,6 +721,8 @@ english = 'to break'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1615
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '動物園'
@@ -621,6 +739,8 @@ english = 'enough'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 675
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '参る'
@@ -629,6 +749,8 @@ english = '(humble) to go,to come'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1264
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '受ける'
@@ -637,6 +759,8 @@ english = 'to take a lesson or test'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 76
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '召し上がる'
@@ -645,6 +769,8 @@ english = '(polite) to eat'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 5829
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '味噌'
@@ -653,6 +779,8 @@ english = 'miso, soybean paste'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 7053
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '回る'
@@ -661,6 +789,8 @@ english = 'to go around'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 837
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '国際'
@@ -669,6 +799,8 @@ english = 'international'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 176
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '坂'
@@ -677,6 +809,8 @@ english = 'slope,hill'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1616
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '場合'
@@ -685,6 +819,8 @@ english = 'situation'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 79
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '塗る'
@@ -693,6 +829,8 @@ english = 'to paint, to colour, to plaster'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2858
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '増える'
@@ -701,6 +839,8 @@ english = 'to increase'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 762
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '壊す'
@@ -709,6 +849,8 @@ english = 'to break'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 939
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '壊れる'
@@ -717,6 +859,8 @@ english = 'to be broken'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1132
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '大分'
@@ -725,6 +869,8 @@ english = 'greatly'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1931
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '夫'
@@ -733,6 +879,8 @@ english = 'husband'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 893
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '始める'
@@ -741,6 +889,8 @@ english = 'to begin'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 154
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '客'
@@ -749,6 +899,8 @@ english = 'guest,customer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 799
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '寝坊'
@@ -757,6 +909,8 @@ english = 'sleeping in late'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 6168
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '尋ねる'
@@ -765,6 +919,8 @@ english = 'to ask'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 972
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '小学校'
@@ -773,6 +929,8 @@ english = 'elementary school'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 489
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '小鳥'
@@ -781,6 +939,8 @@ english = 'small bird'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2089
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '展覧会'
@@ -797,6 +957,8 @@ english = 'the manufacturing industry'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 651
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '差し上げる'
@@ -805,6 +967,8 @@ english = '(polite) to give'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3617
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '布団'
@@ -813,6 +977,8 @@ english = 'Japanese bedding, futon'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2767
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '席'
@@ -821,6 +987,8 @@ english = 'seat'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 657
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '帰り'
@@ -829,6 +997,8 @@ english = 'return'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1101
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '引き出し'
@@ -837,6 +1007,8 @@ english = 'drawer,drawing out'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 11851
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '引っ越す'
@@ -845,6 +1017,8 @@ english = 'to move house'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 4018
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '役に立つ'
@@ -853,6 +1027,8 @@ english = 'to be helpful'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1737
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '復習'
@@ -861,6 +1037,8 @@ english = 'revision'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 8843
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '急行'
@@ -869,6 +1047,8 @@ english = 'speedy, express'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1653
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '慣れる'
@@ -877,6 +1057,8 @@ english = 'to grow accustomed to'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1084
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '手伝う'
@@ -885,6 +1067,8 @@ english = 'to assist'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 632
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '払う'
@@ -893,6 +1077,8 @@ english = 'to pay'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1371
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '技術'
@@ -901,6 +1087,8 @@ english = 'art,technology,skill'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 314
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '折る'
@@ -909,6 +1097,8 @@ english = 'to break or to fold'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2210
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '折れる'
@@ -917,6 +1107,8 @@ english = 'to break or be folded'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2404
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '押し入れ'
@@ -925,6 +1117,8 @@ english = 'closet'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 17450
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '拝見'
@@ -933,6 +1127,8 @@ english = '(humble) to look at'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 4775
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '捨てる'
@@ -941,6 +1137,8 @@ english = 'to throw away'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 479
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '揺れる'
@@ -949,6 +1147,8 @@ english = 'to shake,to sway'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1634
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '故障'
@@ -957,6 +1157,8 @@ english = 'to break-down'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2584
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '教会'
@@ -965,6 +1167,8 @@ english = 'church'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 510
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '教育'
@@ -973,6 +1177,8 @@ english = 'education'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 240
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '数学'
@@ -981,6 +1187,8 @@ english = 'mathematics,arithmetic'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2176
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '文法'
@@ -989,6 +1197,8 @@ english = 'grammar'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 4804
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '新聞社'
@@ -1005,6 +1215,8 @@ english = 'Japanese hotel'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 6516
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '昼御飯'
@@ -1021,6 +1233,8 @@ english = 'daytime,during the day'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3303
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '景色'
@@ -1029,6 +1243,8 @@ english = 'scene,landscape'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1859
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '暖房'
@@ -1037,6 +1253,8 @@ english = 'heating'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 8641
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '暮れる'
@@ -1045,6 +1263,8 @@ english = 'to get dark,to come to an end'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 97
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '柔道'
@@ -1053,6 +1273,8 @@ english = 'judo'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3479
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '校長'
@@ -1061,6 +1283,8 @@ english = 'headmaster'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2711
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '棚'
@@ -1069,6 +1293,8 @@ english = 'shelves'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2530
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '楽む'
@@ -1077,6 +1303,8 @@ english = 'to enjoy oneself'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 31421
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '止む'
@@ -1085,6 +1313,8 @@ english = 'to stop'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1672
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '歯医者'
@@ -1093,6 +1323,8 @@ english = 'dentist'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 8602
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '歴史'
@@ -1101,6 +1333,8 @@ english = 'history'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 308
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '比べる'
@@ -1109,6 +1343,8 @@ english = 'to compare'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 973
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '毛'
@@ -1117,6 +1353,8 @@ english = 'hair or fur'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1435
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '水泳'
@@ -1125,6 +1363,8 @@ english = 'swimming'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3696
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '水道'
@@ -1133,6 +1373,8 @@ english = 'water supply'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3908
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '汚れる'
@@ -1141,6 +1383,8 @@ english = 'to get dirty'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2737
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '決る'
@@ -1149,6 +1393,8 @@ english = 'to be decided'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 8763
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '沸かす'
@@ -1157,6 +1403,8 @@ english = 'to boil,to heat'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 13573
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '沸く'
@@ -1165,6 +1413,8 @@ english = 'to boil, to grow hot,to get excited'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1546
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '注射'
@@ -1173,6 +1423,8 @@ english = 'injection'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 7368
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '泳ぎ方'
@@ -1181,6 +1433,8 @@ english = 'way of swimming'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 23327
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '深い'
@@ -1189,6 +1443,8 @@ english = 'deep'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 437
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '湯'
@@ -1197,6 +1453,8 @@ english = 'hot water'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2576
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '無くなる'
@@ -1205,6 +1463,8 @@ english = 'to disappear,to get lost'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1702
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '焼く'
@@ -1213,6 +1473,8 @@ english = 'to bake,to grill'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1451
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '焼ける'
@@ -1221,6 +1483,8 @@ english = 'to burn,to be roasted'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3520
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '熱'
@@ -1229,6 +1493,8 @@ english = 'fever'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1501
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '特急'
@@ -1237,6 +1503,8 @@ english = 'limited express train (faster than an express train)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1569
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '申し上げる'
@@ -1245,6 +1513,8 @@ english = '(humble) to say,to tell'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 603
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '申す'
@@ -1253,6 +1523,8 @@ english = '(humble) to be called,to say'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 665
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '番組'
@@ -1261,6 +1533,8 @@ english = 'television or radio program'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 95
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '痩せる'
@@ -1269,6 +1543,8 @@ english = 'to become thin'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 5134
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '盛ん'
@@ -1277,6 +1553,8 @@ english = 'popularity,prosperous'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2236
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '眠る'
@@ -1285,6 +1563,8 @@ english = 'to sleep'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 859
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '知らせる'
@@ -1293,6 +1573,8 @@ english = 'to notify'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3213
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '砂'
@@ -1301,6 +1583,8 @@ english = 'sand'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1642
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '神社'
@@ -1309,6 +1593,8 @@ english = 'Shinto shrine'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 696
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '移る'
@@ -1317,6 +1603,8 @@ english = 'to move house or transfer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1137
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '競争'
@@ -1325,6 +1613,8 @@ english = 'competition'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1424
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '答'
@@ -1333,6 +1623,8 @@ english = 'response'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 5268
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '米'
@@ -1341,6 +1633,8 @@ english = 'uncooked rice'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 299
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '終わり'
@@ -1357,6 +1651,8 @@ english = 'silk'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 7627
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '続く'
@@ -1365,6 +1661,8 @@ english = 'to be continued'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 262
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '美術館'
@@ -1373,6 +1671,8 @@ english = 'art gallery'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3038
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '聞こえる'
@@ -1381,6 +1681,8 @@ english = 'to be heard'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 369
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '落す'
@@ -1389,6 +1691,8 @@ english = 'to drop'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 9655
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '複雑'
@@ -1397,6 +1701,8 @@ english = 'complexity,complication'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1892
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '見つかる'
@@ -1405,6 +1711,8 @@ english = 'to be discovered'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 614
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '見つける'
@@ -1413,6 +1721,8 @@ english = 'to discover'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 375
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '規則'
@@ -1421,6 +1731,8 @@ english = 'regulations'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2348
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '親切'
@@ -1429,6 +1741,8 @@ english = 'kindness'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 4590
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '触る'
@@ -1437,6 +1751,8 @@ english = 'to touch'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 993
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '訪ねる'
@@ -1445,6 +1761,8 @@ english = 'to visit'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2742
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '課長'
@@ -1453,6 +1771,8 @@ english = 'section manager'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 3392
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '講義'
@@ -1461,6 +1781,8 @@ english = 'lecture'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2590
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '警察'
@@ -1469,6 +1791,8 @@ english = 'police'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 534
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '貿易'
@@ -1477,6 +1801,8 @@ english = 'trade'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2003
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '起す'
@@ -1485,6 +1811,8 @@ english = 'to wake'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 12842
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '踏む'
@@ -1493,6 +1821,8 @@ english = 'to step on'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1789
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '迎える'
@@ -1501,6 +1831,8 @@ english = 'to go out to meet'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 752
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '退院'
@@ -1509,6 +1841,8 @@ english = 'to leave hospital'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 4714
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '送る'
@@ -1517,6 +1851,8 @@ english = 'to send'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 597
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '通う'
@@ -1525,6 +1861,8 @@ english = 'to commute'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1443
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '進む'
@@ -1533,6 +1871,8 @@ english = 'to make progress'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 571
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '遅れる'
@@ -1541,6 +1881,8 @@ english = 'to be late'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1312
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '運ぶ'
@@ -1549,6 +1891,8 @@ english = 'to transport'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 847
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '過ぎる'
@@ -1557,6 +1901,8 @@ english = 'to exceed'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 350
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '遠く'
@@ -1565,6 +1911,8 @@ english = 'distant'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1578
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '遠慮'
@@ -1573,6 +1921,8 @@ english = 'to be reserved, to be restrained'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1600
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '適当'
@@ -1581,6 +1931,8 @@ english = 'suitability'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1575
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '部長'
@@ -1589,6 +1941,8 @@ english = 'head of a section'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 884
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '都合'
@@ -1597,6 +1951,8 @@ english = 'circumstances,convenience'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1777
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '釣る'
@@ -1605,6 +1961,8 @@ english = 'to fish'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 532
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '間に合う'
@@ -1613,6 +1971,8 @@ english = 'to be in time for'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 934
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '間違える'
@@ -1621,6 +1981,8 @@ english = 'to make a mistake'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1353
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '降り出す'
@@ -1629,6 +1991,8 @@ english = 'to start to rain'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 13223
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '隅'
@@ -1637,6 +2001,8 @@ english = 'corner,nook'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 1700
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '集る'
@@ -1645,6 +2011,8 @@ english = 'to gather'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 10718
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '電報'
@@ -1653,6 +2021,8 @@ english = 'telegram'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 8381
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '電灯'
@@ -1661,6 +2031,8 @@ english = 'electric light'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 12133
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '飛行場'
@@ -1669,6 +2041,8 @@ english = 'airport'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 10663
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '食料品'
@@ -1693,6 +2067,8 @@ english = 'to make noise,to be excited'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 2159
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '驚く'
@@ -1701,6 +2077,8 @@ english = 'to be surprised'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+highest_frequency = 505
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '高等学校'

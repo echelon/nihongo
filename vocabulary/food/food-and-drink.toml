@@ -11,6 +11,8 @@ kana = 'おちゃ'
 english = 'tea (usu. green)'
 level = 'n5'
 tags = []
+highest_frequency = 1167
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '喫茶店'
@@ -18,6 +20,8 @@ kana = 'きっさてん'
 english = 'coffee shop'
 level = 'n5'
 tags = []
+highest_frequency = 4559
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '牛乳'
@@ -25,6 +29,8 @@ kana = 'ぎゅうにゅう'
 english = "(cow's) milk"
 level = 'n5'
 tags = []
+highest_frequency = 3260
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '紅茶'
@@ -32,6 +38,8 @@ kana = 'こうちゃ'
 english = 'black tea'
 level = 'n5'
 tags = []
+highest_frequency = 6128
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '胡椒'
@@ -39,6 +47,8 @@ kana = 'こしょう'
 english = 'pepper'
 level = 'n2'
 tags = ['common', 'food', 'noun']
+highest_frequency = 19577
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ご飯'
@@ -46,6 +56,8 @@ kana = 'ごはん'
 english = 'cooked rice; meal'
 level = 'n5'
 tags = []
+highest_frequency = 816
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '塩'
@@ -53,12 +65,16 @@ kana = 'しお'
 english = 'salt'
 level = 'n5'
 tags = []
+highest_frequency = 1721
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '生姜'
 kana = 'しょうが'
 english = 'ginger'
 tags = ['common', 'food', 'noun']
+highest_frequency = 4987
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '食堂'
@@ -66,6 +82,8 @@ kana = 'しょくどう'
 english = 'cafeteria; dining hall'
 level = 'n5'
 tags = []
+highest_frequency = 2968
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '食品'
@@ -74,6 +92,8 @@ english = 'foodstuffs; food products'
 level = 'n3'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
+highest_frequency = 1995
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '蕎麦'
@@ -81,6 +101,8 @@ kana = 'そば'
 english = 'buckwheat; buckwheat noodles'
 level = 'n2'
 tags = ['common', 'food']
+highest_frequency = 698
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '堆肥'
@@ -94,6 +116,8 @@ kana = 'たべもの'
 english = 'food'
 level = 'n5'
 tags = []
+highest_frequency = 2710
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '台所'
@@ -101,6 +125,8 @@ kana = 'だいどころ'
 english = 'kitchen'
 level = 'n5'
 tags = []
+highest_frequency = 2463
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '冷たい'
@@ -108,6 +134,8 @@ kana = 'つめたい'
 english = 'cold (to the touch); coldhearted'
 level = 'n5'
 tags = []
+highest_frequency = 882
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '生'
@@ -116,6 +144,8 @@ english = 'raw; uncooked; fresh'
 source = 'sekai-wa-fushigi-2'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun', 'prefix']
+highest_frequency = 189
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '飲み物'
@@ -123,6 +153,8 @@ kana = 'のみもの'
 english = 'drink; beverage'
 level = 'n5'
 tags = []
+highest_frequency = 3591
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '～杯'
@@ -151,6 +183,8 @@ kana = 'みず'
 english = 'water'
 level = 'n5'
 tags = []
+highest_frequency = 287
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '八百屋'
@@ -158,6 +192,8 @@ kana = 'やおや'
 english = 'greengrocer'
 level = 'n5'
 tags = []
+highest_frequency = 23473
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '夕飯'
@@ -165,6 +201,8 @@ kana = 'ゆうはん'
 english = 'evening meal (5-7pmish)'
 level = 'n5'
 tags = []
+highest_frequency = 4265
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '料理'
@@ -172,6 +210,8 @@ kana = 'りょうり'
 english = 'cooking; cuisine'
 level = 'n5'
 tags = []
+highest_frequency = 508
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '冷蔵庫'
@@ -179,6 +219,8 @@ kana = 'れいぞうこ'
 english = 'refrigerator'
 level = 'n5'
 tags = []
+highest_frequency = 4726
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'カップ'
@@ -186,6 +228,8 @@ kana = 'カップ'
 english = 'cup'
 level = 'n5'
 tags = []
+highest_frequency = 1727
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = 'カレー'
@@ -193,6 +237,8 @@ kana = 'カレー'
 english = 'curry'
 level = 'n5'
 tags = []
+highest_frequency = 1340
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'コップ'
@@ -200,6 +246,8 @@ kana = 'コップ'
 english = 'cup'
 level = 'n5'
 tags = []
+highest_frequency = 9323
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '珈琲'
@@ -207,12 +255,16 @@ kana = 'コーヒー'
 english = 'coffee'
 level = 'n5'
 tags = []
+highest_frequency = 2286
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'スパイス'
 kana = 'スパイス'
 english = 'spice'
 tags = ['common', 'noun', 'suru-verb']
+highest_frequency = 4992
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'バター'
@@ -220,6 +272,8 @@ kana = 'バター'
 english = 'butter'
 level = 'n5'
 tags = []
+highest_frequency = 8699
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'パン'
@@ -227,6 +281,8 @@ kana = 'パン'
 english = 'bread'
 level = 'n5'
 tags = []
+highest_frequency = 915
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ビール'
@@ -234,6 +290,8 @@ kana = 'ビール'
 english = 'beer'
 level = 'n3'
 tags = ['common', 'drink', 'gairaigo', 'noun']
+highest_frequency = 2231
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'レストラン'
@@ -241,6 +299,8 @@ kana = 'レストラン'
 english = 'restaurant'
 level = 'n5'
 tags = []
+highest_frequency = 2178
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'ワイン'
@@ -248,4 +308,6 @@ kana = 'ワイン'
 english = 'wine'
 level = 'n3'
 tags = ['common', 'drink', 'gairaigo', 'noun']
+highest_frequency = 2223
+highest_frequency_source = 'Leeds 15k'
 

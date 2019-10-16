@@ -7,6 +7,8 @@ verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 224
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '走る'
@@ -17,4 +19,6 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 290
+highest_frequency_source = 'Novel 3k'
 

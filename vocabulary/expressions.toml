@@ -4,6 +4,8 @@ kana = 'ああ'
 english = 'Ah!; Oh!; yes.'
 level = 'n5'
 tags = ['common', 'expression']
+highest_frequency = 178
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'あのう'
@@ -19,6 +21,8 @@ english = '(what) the heck; wtf'
 source = 'wanikani'
 level = 'n3'
 tags = ['adverb', 'common', 'noun']
+highest_frequency = 306
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'うん'
@@ -27,6 +31,8 @@ english = 'yes; yeah; hmm (casual)'
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['common', 'expression']
+highest_frequency = 484
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '気をつける'
@@ -49,6 +55,8 @@ english = 'if you say so; now that you mention it'
 level = 'n2'
 explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
 tags = ['common', 'expression']
+highest_frequency = 2928
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '其れから'
@@ -57,6 +65,8 @@ english = 'after that (chronological order)'
 level = 'n5'
 explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
 tags = ['common', 'expression']
+highest_frequency = 379
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '其れでは'
@@ -64,6 +74,8 @@ kana = 'それでは'
 english = 'well then...; in that case...'
 level = 'n5'
 tags = ['common', 'expression']
+highest_frequency = 2165
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '努めて'
@@ -80,6 +92,8 @@ english = 'first of all'
 source = 'anime-freq'
 level = 'n1'
 tags = ['adverb', 'common', 'expression']
+highest_frequency = 1199
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'どれ位'
@@ -95,6 +109,8 @@ english = 'I see; indeed; I should have known'
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['adverb', 'common', 'expression']
+highest_frequency = 999
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'もう一度'
@@ -103,4 +119,6 @@ english = 'one more time; once again'
 source = 'irasshai'
 level = 'n5'
 tags = ['common', 'count', 'expression', 'numbers']
+highest_frequency = 748
+highest_frequency_source = 'Anime 45k'
 

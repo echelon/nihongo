@@ -5,4 +5,6 @@ english = 'experiment'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
+highest_frequency = 1053
+highest_frequency_source = 'Wikipedia 10k'
 

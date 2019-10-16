@@ -4,6 +4,8 @@ kana = 'いす'
 english = 'chair; stool'
 level = 'n5'
 tags = ['common', 'furniture', 'home']
+highest_frequency = 817
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '家具'
@@ -11,6 +13,8 @@ kana = 'かぐ'
 english = 'furniture'
 level = 'n3'
 tags = ['common', 'furniture']
+highest_frequency = 925
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '寝台'
@@ -18,6 +22,8 @@ kana = 'しんだい'
 english = 'bed; couch'
 level = 'n2'
 tags = ['common', 'furniture']
+highest_frequency = 7267
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '箪笥'
@@ -25,6 +31,8 @@ kana = 'たんす'
 english = 'dresser; chest'
 level = 'n2'
 tags = ['common', 'furniture']
+highest_frequency = 20971
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '本棚'
@@ -32,6 +40,8 @@ kana = 'ほんだな'
 english = 'bookcase'
 level = 'n5'
 tags = ['books', 'common', 'furniture', 'noun', 'reading']
+highest_frequency = 8427
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'ソファ'
@@ -39,6 +49,8 @@ kana = 'ソファ'
 english = 'sofa'
 level = 'n3'
 tags = ['common', 'furniture', 'gairaigo', 'noun']
+highest_frequency = 12082
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'テーブル'
@@ -46,6 +58,8 @@ kana = 'テーブル'
 english = 'table'
 level = 'n5'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
+highest_frequency = 787
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'ベッド'
@@ -53,4 +67,6 @@ kana = 'ベッド'
 english = 'bed'
 level = 'n5'
 tags = ['bedroom', 'common', 'gairaigo', 'noun']
+highest_frequency = 686
+highest_frequency_source = 'Novel 3k'
 

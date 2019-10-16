@@ -5,6 +5,8 @@ english = 'to be needed'
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 15
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '掛かる'
@@ -13,6 +15,8 @@ english = 'to take (time or money)'
 source = 'n5-wiki'
 level = 'n5'
 tags = ['common']
+highest_frequency = 233
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '片付ける'
@@ -21,6 +25,8 @@ english = 'to tidy up ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
+highest_frequency = 2723
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '閉める'
@@ -29,6 +35,8 @@ english = 'to close ~; to shut ~'
 source = 'irasshai?'
 level = 'n5'
 tags = ['common']
+highest_frequency = 2432
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '育てる'
@@ -37,6 +45,8 @@ english = 'to raise ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
+highest_frequency = 1786
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '捕まえる'
@@ -45,6 +55,8 @@ english = 'to catch ~; to arrrest ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
+highest_frequency = 1033
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '付ける'
@@ -53,6 +65,8 @@ english = 'to attach ~'
 source = 'wanikani'
 level = 'n5'
 tags = ['common']
+highest_frequency = 289
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '包む'
@@ -61,6 +75,8 @@ english = 'to wrap ~; to pack ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
+highest_frequency = 927
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '張る'
@@ -69,6 +85,8 @@ english = 'to affix ~; to paste ~'
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 1188
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '弾く'
@@ -77,6 +95,8 @@ english = 'to play ~ (stringed instrument)'
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 1171
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '渡る'
@@ -85,4 +105,6 @@ english = 'to cross over'
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 342
+highest_frequency_source = 'Wikipedia 10k'
 

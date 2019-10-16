@@ -8,4 +8,6 @@ transitive = true
 source = 'wanikani'
 level = 'n4'
 tags = ['common']
+highest_frequency = 1154
+highest_frequency_source = 'Anime 45k'
 

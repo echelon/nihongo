@@ -4,6 +4,8 @@ kana = 'あそこ'
 english = 'there (way over there)'
 level = 'n5'
 tags = ['common', 'place']
+highest_frequency = 1436
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '彼方'
@@ -11,6 +13,8 @@ kana = 'あちら'
 english = 'that way (way over there); that one (way over there)'
 level = 'n5'
 tags = ['common', 'place']
+highest_frequency = 2316
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'あっち'
@@ -18,6 +22,8 @@ kana = 'あっち'
 english = 'over there; that way'
 level = 'n5'
 tags = ['common', 'directions', 'locations', 'places']
+highest_frequency = 817
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '彼の'
@@ -25,6 +31,8 @@ kana = 'あの'
 english = 'that (way over there)'
 level = 'n5'
 tags = ['common', 'locations', 'places']
+highest_frequency = 87
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '彼'
@@ -32,6 +40,8 @@ kana = 'あれ'
 english = 'that (way over there)'
 level = 'n5'
 tags = ['common', 'kosoado', 'locations', 'places']
+highest_frequency = 74
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '此奴'
@@ -39,6 +49,8 @@ kana = 'こいつ'
 english = 'this person; this guy'
 source = 'anime'
 tags = ['common', 'kosoado', 'pronoun']
+highest_frequency = 148
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '此処'
@@ -46,6 +58,8 @@ kana = 'ここ'
 english = 'here; this place'
 level = 'n5'
 tags = []
+highest_frequency = 102
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '此方'
@@ -53,6 +67,8 @@ kana = 'こちら'
 english = 'this way; here; this person'
 level = 'n5'
 tags = []
+highest_frequency = 298
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '此方'
@@ -60,6 +76,8 @@ kana = 'こっち'
 english = 'this way; here; this person'
 level = 'n5'
 tags = []
+highest_frequency = 132
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '此の'
@@ -67,6 +85,8 @@ kana = 'この'
 english = 'this (thing)'
 level = 'n5'
 tags = []
+highest_frequency = 34
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '此れ'
@@ -74,6 +94,8 @@ kana = 'これ'
 english = 'this'
 level = 'n5'
 tags = []
+highest_frequency = 28
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'こんな'
@@ -81,6 +103,8 @@ kana = 'こんな'
 english = 'such ~; something like this'
 level = 'n5'
 tags = []
+highest_frequency = 188
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '其処'
@@ -88,6 +112,8 @@ kana = 'そこ'
 english = 'that place; there'
 level = 'n5'
 tags = []
+highest_frequency = 119
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '其方'
@@ -95,6 +121,8 @@ kana = 'そちら'
 english = 'that place; that way; that person'
 level = 'n5'
 tags = []
+highest_frequency = 1873
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '其方'
@@ -102,6 +130,8 @@ kana = 'そっち'
 english = 'that place; that way; that person'
 level = 'n5'
 tags = []
+highest_frequency = 474
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '其の'
@@ -109,6 +139,8 @@ kana = 'その'
 english = 'that (thing)'
 level = 'n5'
 tags = []
+highest_frequency = 36
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '其れ'
@@ -116,6 +148,8 @@ kana = 'それ'
 english = 'that'
 level = 'n5'
 tags = []
+highest_frequency = 25
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '何処'
@@ -123,6 +157,8 @@ kana = 'どこ'
 english = 'where'
 level = 'n5'
 tags = []
+highest_frequency = 1925
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '何方'
@@ -130,6 +166,8 @@ kana = 'どちら'
 english = 'which way? ; where?'
 level = 'n5'
 tags = []
+highest_frequency = 913
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '何方'
@@ -137,6 +175,8 @@ kana = 'どっち'
 english = 'which one? ; which way?'
 level = 'n5'
 tags = []
+highest_frequency = 1645
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '何の'
@@ -144,6 +184,8 @@ kana = 'どの'
 english = 'which?'
 level = 'n5'
 tags = []
+highest_frequency = 347
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '何れ'
@@ -151,4 +193,6 @@ kana = 'どれ'
 english = 'which (of three or more)'
 level = 'n5'
 tags = []
+highest_frequency = 1035
+highest_frequency_source = 'Novel 3k'
 

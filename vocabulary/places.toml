@@ -4,6 +4,8 @@ kana = 'いなか'
 english = 'countryside; rural area'
 source = 'living-in-japan'
 tags = ['common', 'no-adjective', 'noun', 'places']
+highest_frequency = 2400
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '売り場'
@@ -12,6 +14,8 @@ english = 'sales floor; counter; selling area'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['common', 'noun', 'store']
+highest_frequency = 6098
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '映画館'
@@ -19,6 +23,8 @@ kana = 'えいがかん'
 english = 'movie theater'
 level = 'n5'
 tags = ['buildings', 'common', 'entertainment', 'noun', 'places']
+highest_frequency = 4965
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '外国'
@@ -26,6 +32,8 @@ kana = 'がいこく'
 english = 'foreign country'
 level = 'n5'
 tags = []
+highest_frequency = 761
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '空港'
@@ -34,6 +42,8 @@ english = 'airport'
 source = 'n4-study'
 level = 'n4'
 tags = ['common', 'places', 'travel']
+highest_frequency = 671
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '国'
@@ -41,6 +51,8 @@ kana = 'くに'
 english = 'country'
 level = 'n5'
 tags = []
+highest_frequency = 46
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '郊外'
@@ -49,6 +61,8 @@ english = 'suburb'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['city', 'common', 'geography', 'noun', 'places']
+highest_frequency = 2616
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '工場'
@@ -57,6 +71,8 @@ english = 'factory'
 source = 'wanikani'
 level = 'n4'
 tags = ['business', 'common', 'industry', 'noun', 'places']
+highest_frequency = 745
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '住所'
@@ -65,6 +81,8 @@ english = 'address (of a house); residence'
 source = 'irasshai?; wanikani; japanese forms'
 level = 'n4'
 tags = ['common', 'noun', 'places']
+highest_frequency = 3310
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '世界'
@@ -73,6 +91,8 @@ english = 'the world'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
+highest_frequency = 63
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '谷'
@@ -81,6 +101,8 @@ english = 'valley'
 source = 'anime-nausicaa'
 level = 'n3'
 tags = ['anime', 'common', 'geography', 'noun', 'places']
+highest_frequency = 555
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '所'
@@ -89,6 +111,8 @@ english = 'place; area (can be abstract; less formal)'
 level = 'n5'
 explain = 'https://japanese.stackexchange.com/questions/58236/difference-between-%E5%A0%B4%E6%89%80-and-%E6%89%80'
 tags = ['common', 'noun']
+highest_frequency = 60
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '日本'
@@ -96,6 +120,8 @@ kana = 'にほん'
 english = 'Japan'
 level = 'n3'
 tags = ['common', 'noun', 'places']
+highest_frequency = 32
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '場所'
@@ -105,6 +131,8 @@ source = 'irasshai; anime'
 level = 'n4'
 explain = 'https://japanese.stackexchange.com/questions/58236/difference-between-%E5%A0%B4%E6%89%80-and-%E6%89%80'
 tags = ['common', 'noun', 'places']
+highest_frequency = 248
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '町'
@@ -112,6 +140,8 @@ kana = 'まち'
 english = 'town; city'
 level = 'n5'
 tags = []
+highest_frequency = 105
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '港'
@@ -120,6 +150,8 @@ english = 'harbor; port'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['common', 'noun', 'ocean', 'places']
+highest_frequency = 707
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = 'コンビニ'
@@ -127,6 +159,8 @@ kana = 'コンビニ'
 english = 'convenience store'
 source = 'wanikani'
 tags = ['common', 'gairaigo', 'noun', 'places']
+highest_frequency = 3713
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'スーパー'
@@ -134,4 +168,6 @@ kana = 'スーパー'
 english = 'supermarket'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'gairaigo']
+highest_frequency = 730
+highest_frequency_source = 'Wikipedia 10k'
 

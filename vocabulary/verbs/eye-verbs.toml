@@ -7,6 +7,8 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n4'
 tags = ['common']
+highest_frequency = 123
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '見せる'
@@ -17,6 +19,8 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 252
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '見る'
@@ -27,6 +31,8 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 41
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '読む'
@@ -37,4 +43,6 @@ verb-type = 'godan-mu'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 214
+highest_frequency_source = 'Leeds 15k'
 

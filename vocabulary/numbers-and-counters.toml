@@ -4,6 +4,8 @@ kana = 'いち'
 english = 'one'
 level = 'n5'
 tags = ['common', 'counting', 'numbers']
+highest_frequency = 44
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '一番'
@@ -11,6 +13,8 @@ kana = 'いちばん'
 english = 'best; number one; first place'
 level = 'n5'
 tags = []
+highest_frequency = 310
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '五つ'
@@ -18,6 +22,8 @@ kana = 'いつつ'
 english = 'five (things)'
 level = 'n5'
 tags = []
+highest_frequency = 11547
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '億'
@@ -26,6 +32,8 @@ english = 'hudred million'
 source = 'n4-wiki'
 level = 'n4'
 tags = ['common', 'numeric']
+highest_frequency = 68
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '～回'
@@ -51,6 +59,8 @@ explain = 'https://www.reddit.com/r/LearnJapanese/comments/3q2ebm/%E5%8F%B7_vs_%
 explain2 = 'https://hinative.com/en-US/questions/217667'
 explain3 = 'https://www.japanesewithanime.com/2017/05/ichiban-ichigou-difference.html'
 tags = ['common', 'noun']
+highest_frequency = 222
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '九'
@@ -58,6 +68,8 @@ kana = 'きゅう'
 english = 'nine'
 level = 'n5'
 tags = []
+highest_frequency = 573
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '～個'
@@ -72,6 +84,8 @@ kana = 'ここのつ'
 english = 'nine (things)'
 level = 'n5'
 tags = []
+highest_frequency = 19161
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '五'
@@ -79,6 +93,8 @@ kana = 'ご'
 english = 'five'
 level = 'n5'
 tags = []
+highest_frequency = 171
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '～号'
@@ -111,6 +127,8 @@ kana = 'さん'
 english = 'three'
 level = 'n5'
 tags = []
+highest_frequency = 94
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '四'
@@ -118,6 +136,8 @@ kana = 'し'
 english = 'four'
 level = 'n5'
 tags = []
+highest_frequency = 195
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '七'
@@ -125,6 +145,8 @@ kana = 'しち'
 english = 'seven'
 level = 'n5'
 tags = []
+highest_frequency = 326
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '十'
@@ -132,6 +154,8 @@ kana = 'じゅう'
 english = 'ten'
 level = 'n5'
 tags = []
+highest_frequency = 91
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '千'
@@ -139,6 +163,8 @@ kana = 'せん'
 english = 'thousand'
 level = 'n5'
 tags = ['common', 'numbers']
+highest_frequency = 407
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '～台'
@@ -160,6 +186,8 @@ kana = 'とお'
 english = 'ten (things)'
 level = 'n5'
 tags = []
+highest_frequency = 91
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '～度'
@@ -174,6 +202,8 @@ kana = 'ななつ'
 english = 'seven (things)'
 level = 'n5'
 tags = []
+highest_frequency = 1898
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '二'
@@ -181,6 +211,8 @@ kana = 'に'
 english = 'two'
 level = 'n5'
 tags = []
+highest_frequency = 50
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '二十歳'
@@ -188,6 +220,8 @@ kana = 'はたち'
 english = '20 years old'
 level = 'n5'
 tags = []
+highest_frequency = 25804
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '八'
@@ -195,6 +229,8 @@ kana = 'はち'
 english = 'eight'
 level = 'n5'
 tags = []
+highest_frequency = 377
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '～番'
@@ -215,6 +251,8 @@ explain = 'https://www.reddit.com/r/LearnJapanese/comments/3q2ebm/%E5%8F%B7_vs_%
 explain2 = 'https://hinative.com/en-US/questions/217667'
 explain3 = 'https://www.japanesewithanime.com/2017/05/ichiban-ichigou-difference.html'
 tags = ['common', 'noun', 'number']
+highest_frequency = 704
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '一つ'
@@ -222,6 +260,8 @@ kana = 'ひとつ'
 english = 'one (thing)'
 level = 'n5'
 tags = []
+highest_frequency = 236
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '百'
@@ -229,6 +269,8 @@ kana = 'ひゃく'
 english = 'hundred'
 level = 'n5'
 tags = []
+highest_frequency = 317
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '百万'
@@ -243,6 +285,8 @@ kana = 'ふたつ'
 english = 'two (things)'
 level = 'n5'
 tags = []
+highest_frequency = 655
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '～本'
@@ -257,6 +301,8 @@ kana = 'まん'
 english = 'ten thousand'
 level = 'n5'
 tags = []
+highest_frequency = 206
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '三つ'
@@ -264,6 +310,8 @@ kana = 'みっつ'
 english = 'three (things)'
 level = 'n5'
 tags = []
+highest_frequency = 1737
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '六つ'
@@ -271,6 +319,8 @@ kana = 'むっつ'
 english = 'six (things)'
 level = 'n5'
 tags = []
+highest_frequency = 20631
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '八つ'
@@ -278,6 +328,8 @@ kana = 'やっつ'
 english = 'eight (things)'
 level = 'n5'
 tags = []
+highest_frequency = 8273
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '四つ'
@@ -285,6 +337,8 @@ kana = 'よっつ'
 english = 'four (things)'
 level = 'n5'
 tags = []
+highest_frequency = 7255
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '零'
@@ -292,6 +346,8 @@ kana = 'れい'
 english = 'zero'
 level = 'n5'
 tags = []
+highest_frequency = 1342
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '六'
@@ -299,6 +355,8 @@ kana = 'ろく'
 english = 'six'
 level = 'n5'
 tags = []
+highest_frequency = 264
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'ゼロ'
@@ -306,4 +364,6 @@ kana = 'ゼロ'
 english = 'zero (gairaigo)'
 level = 'n5'
 tags = []
+highest_frequency = 1719
+highest_frequency_source = 'Anime 45k'
 

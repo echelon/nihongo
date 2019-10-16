@@ -4,6 +4,8 @@ kana = 'ぎゅうにく'
 english = 'beef'
 level = 'n5'
 tags = []
+highest_frequency = 5755
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '魚'
@@ -11,6 +13,8 @@ kana = 'さかな'
 english = 'fish'
 level = 'n5'
 tags = []
+highest_frequency = 1381
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '卵'
@@ -18,6 +22,8 @@ kana = 'たまご'
 english = 'egg'
 level = 'n5'
 tags = []
+highest_frequency = 1761
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '鳥肉'
@@ -32,6 +38,8 @@ kana = 'にく'
 english = 'meat'
 level = 'n5'
 tags = []
+highest_frequency = 395
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '豚肉'
@@ -39,4 +47,6 @@ kana = 'ぶたにく'
 english = 'pork'
 level = 'n5'
 tags = []
+highest_frequency = 10890
+highest_frequency_source = 'Leeds 15k'
 

@@ -5,6 +5,8 @@ english = 'author (of a particular work)'
 level = 'n2'
 source = 'read-nihon'
 tags = ['books', 'common', 'people', 'writing']
+highest_frequency = 2772
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '作家'
@@ -12,6 +14,8 @@ kana = 'さっか'
 english = 'author (profession)'
 level = 'n3'
 tags = ['books', 'common', 'people', 'writing']
+highest_frequency = 905
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '小説'
@@ -20,6 +24,8 @@ english = 'novel; short story'
 source = 'wanikani'
 level = 'n4'
 tags = ['books', 'common', 'no-adjective', 'noun']
+highest_frequency = 529
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '本'
@@ -28,4 +34,6 @@ english = 'book'
 source = 'irasshai'
 level = 'n5'
 tags = ['common', 'noun']
+highest_frequency = 184
+highest_frequency_source = 'Leeds 15k'
 

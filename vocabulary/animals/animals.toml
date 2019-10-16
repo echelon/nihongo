@@ -3,6 +3,8 @@ kanji = '海老'
 kana = 'えび'
 english = 'shrimp; lobster'
 tags = ['common', 'noun']
+highest_frequency = 5900
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '蛙'
@@ -10,18 +12,24 @@ kana = 'かえる'
 english = 'frog'
 level = 'n5'
 tags = ['common', 'noun']
+highest_frequency = 1405
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '蟹'
 kana = 'かに'
 english = 'crab'
 tags = ['common', 'noun']
+highest_frequency = 8226
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '狸'
 kana = 'たぬき'
 english = 'tanuki (raccoon dog)'
 tags = ['common']
+highest_frequency = 5191
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '動物'
@@ -29,6 +37,8 @@ kana = 'どうぶつ'
 english = 'animal'
 level = 'n5'
 tags = []
+highest_frequency = 790
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '～匹'
@@ -43,4 +53,6 @@ kana = 'ペット'
 english = 'pet'
 level = 'n5'
 tags = []
+highest_frequency = 3512
+highest_frequency_source = 'Anime 45k'
 

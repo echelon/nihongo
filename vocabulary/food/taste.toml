@@ -5,6 +5,8 @@ english = 'flavor; taste'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun']
+highest_frequency = 703
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '甘い'
@@ -12,6 +14,8 @@ kana = 'あまい'
 english = 'sweet-tasting'
 level = 'n5'
 tags = ['common', 'food', 'i-adjectives']
+highest_frequency = 504
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '薄い'
@@ -19,6 +23,8 @@ kana = 'うすい'
 english = 'thin; weak (eg. taste)'
 level = 'n5'
 tags = ['common', 'i-adjective']
+highest_frequency = 1420
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '美味しい'
@@ -26,6 +32,8 @@ kana = 'おいしい'
 english = 'delicious'
 level = 'n5'
 tags = ['common', 'i-adjective']
+highest_frequency = 1007
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '辛い'
@@ -33,6 +41,8 @@ kana = 'からい'
 english = 'spicy; hot; salty'
 level = 'n5'
 tags = ['common', 'i-adjectives']
+highest_frequency = 1319
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '酸っぱい'
@@ -41,6 +51,8 @@ english = 'sour; acid'
 source = 'jisho'
 level = 'n2'
 tags = ['common', 'food', 'i-adjective', 'taste']
+highest_frequency = 10741
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '苦い'
@@ -49,6 +61,8 @@ english = 'bitter'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'food', 'i-adjective', 'taste']
+highest_frequency = 4185
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '不味い'
@@ -56,4 +70,6 @@ kana = 'まずい'
 english = 'unappetising; unpleasant taste'
 level = 'n5'
 tags = ['common', 'food', 'i-adjective', 'taste']
+highest_frequency = 2220
+highest_frequency_source = 'Novel 3k'
 

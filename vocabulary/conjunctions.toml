@@ -19,6 +19,8 @@ english = 'however (links two clauses); however... (soft open ending)'
 level = 'n4'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction', 'particle']
+highest_frequency = 140
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '然し'
@@ -27,6 +29,8 @@ english = 'however (start of sentence; formal/storytelling)'
 level = 'n5'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']
+highest_frequency = 81
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '然も'
@@ -35,6 +39,8 @@ english = 'furthermore'
 level = 'n3'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']
+highest_frequency = 566
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'じゃあ'
@@ -42,6 +48,8 @@ kana = 'じゃあ'
 english = 'well then...'
 level = 'n5'
 tags = ['common', 'conjunction']
+highest_frequency = 445
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'すると'
@@ -50,6 +58,8 @@ english = 'just then'
 source = 'kachikachiyama'
 level = 'n4'
 tags = ['common', 'conjunction']
+highest_frequency = 707
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '然うして'
@@ -58,6 +68,8 @@ english = 'and then (does not imply chronological order)'
 level = 'n5'
 explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
 tags = ['common', 'conjunction']
+highest_frequency = 1437
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'そして'
@@ -66,6 +78,8 @@ english = 'and'
 source = 'irasshai'
 level = 'n5'
 tags = ['common', 'conjunction', 'grammar']
+highest_frequency = 104
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '其れに'
@@ -74,6 +88,8 @@ english = 'moreover'
 level = 'n4'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']
+highest_frequency = 596
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '為に'
@@ -87,6 +103,8 @@ kana = 'だって'
 english = 'after all, because (explains previous sentence)'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']
+highest_frequency = 205
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'では'
@@ -95,6 +113,8 @@ english = 'then'
 source = 'irasshai; anime'
 level = 'n5'
 tags = ['common', 'conjunction']
+highest_frequency = 893
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'でも、'
@@ -111,4 +131,6 @@ english = 'anyhow; at best'
 level = 'n2'
 source = 'wanikani'
 tags = ['adverb', 'common']
+highest_frequency = 647
+highest_frequency_source = 'Anime 45k'
 

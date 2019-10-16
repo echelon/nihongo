@@ -8,6 +8,8 @@ transitive = false
 level = 'n5'
 explain = 'https://kawakawalearningstudio.com/all/use-said-japanese/'
 tags = ['common']
+highest_frequency = 24
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '歌う'
@@ -18,6 +20,8 @@ verb-type = 'godan-u'
 transitive = false
 level = 'n5'
 tags = ['common', 'transitive-and-intransitive']
+highest_frequency = 713
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '噛む'
@@ -29,6 +33,8 @@ transitive = true
 source = 'n4vocab'
 level = 'n4'
 tags = ['common']
+highest_frequency = 2616
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '答える'
@@ -39,6 +45,8 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 274
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '喋る'
@@ -50,6 +58,8 @@ verb-type = 'godan-ru'
 transitive = false
 explain = 'https://kawakawalearningstudio.com/all/use-said-japanese/'
 tags = ['common']
+highest_frequency = 1577
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '食べる'
@@ -61,6 +71,8 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 123
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '飲む'
@@ -71,6 +83,8 @@ verb-type = 'godan-mu'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 397
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '話す'
@@ -81,6 +95,8 @@ verb-type = 'godan-su'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 249
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '笑う'
@@ -92,4 +108,6 @@ transitive = false
 source = 'jlpt-study'
 level = 'n4'
 tags = ['common']
+highest_frequency = 203
+highest_frequency_source = 'Novel 3k'
 

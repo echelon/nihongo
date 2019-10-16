@@ -4,6 +4,8 @@ kana = 'うえ'
 english = 'above; up; on top of'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'noun', 'noun-suffix']
+highest_frequency = 109
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '後ろ'
@@ -11,6 +13,8 @@ kana = 'うしろ'
 english = 'behind'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun']
+highest_frequency = 564
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '表'
@@ -19,6 +23,8 @@ english = 'surface; front; outside; face'
 source = 'wanikani; anime'
 level = 'n4'
 tags = ['common', 'noun']
+highest_frequency = 1016
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '下'
@@ -26,6 +32,8 @@ kana = 'した'
 english = 'below; under; bottom'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun', 'noun-prefix']
+highest_frequency = 183
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '外'
@@ -33,6 +41,8 @@ kana = 'そと'
 english = 'outside; exterior'
 level = 'n5'
 tags = ['common', 'noun']
+highest_frequency = 243
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '側'
@@ -40,6 +50,8 @@ kana = 'そば'
 english = 'near; close; vicinity'
 level = 'n5'
 tags = ['common', 'noun']
+highest_frequency = 424
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '近く'
@@ -47,6 +59,8 @@ kana = 'ちかく'
 english = 'near; vicinity'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'no-adjective']
+highest_frequency = 699
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '中'
@@ -54,6 +68,8 @@ kana = 'なか'
 english = 'inside; middle; center; among'
 level = 'n5'
 tags = ['common', 'noun']
+highest_frequency = 63
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '前'
@@ -61,6 +77,8 @@ kana = 'まえ'
 english = 'before; in front of'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'suffix', 'temporal-noun']
+highest_frequency = 66
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '向こう'
@@ -68,4 +86,6 @@ kana = 'むこう'
 english = 'opposite side; far away; beyond; over there'
 level = 'n5'
 tags = ['common', 'noun']
+highest_frequency = 587
+highest_frequency_source = 'Anime 45k'
 

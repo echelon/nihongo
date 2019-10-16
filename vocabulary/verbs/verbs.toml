@@ -8,6 +8,8 @@ transitive = false
 level = 'n5'
 explain = 'https://www.tofugu.com/japanese/japanese-homophones/'
 tags = ['common']
+highest_frequency = 75
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '合う'
@@ -20,6 +22,8 @@ level = 'n4'
 source = 'jlptstudy.net'
 explain = 'https://www.tofugu.com/japanese/japanese-homophones/'
 tags = ['common']
+highest_frequency = 421
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '上がる'
@@ -31,6 +35,8 @@ transitive = false
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common']
+highest_frequency = 526
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '空く'
@@ -43,6 +49,8 @@ level = 'n4'
 source = 'jlptstudy.net'
 explain = 'https://forum.wordreference.com/threads/%E7%A9%BA%E3%81%8F-aku-suku.2664128/'
 tags = ['common']
+highest_frequency = 1039
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '開く'
@@ -53,6 +61,8 @@ verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 236
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '開ける'
@@ -63,6 +73,8 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 550
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '上げる'
@@ -73,6 +85,8 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 271
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '遊ぶ'
@@ -83,6 +97,8 @@ verb-type = 'godan-bu'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 530
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '集める'
@@ -94,6 +110,8 @@ transitive = true
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common']
+highest_frequency = 780
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '当てる'
@@ -105,6 +123,8 @@ transitive = true
 source = 'wanikani'
 level = 'n3'
 tags = ['common']
+highest_frequency = 1186
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '浴びる'
@@ -115,6 +135,8 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 2505
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '謝る'
@@ -126,6 +148,8 @@ transitive = false
 source = 'jlptstudy.net'
 level = 'n4'
 tags = ['common']
+highest_frequency = 770
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '洗う'
@@ -136,6 +160,8 @@ verb-type = 'godan-u'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 1801
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '有る'
@@ -146,6 +172,8 @@ verb-type = 'irregular'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 27
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '生きる'
@@ -157,6 +185,8 @@ transitive = false
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common']
+highest_frequency = 176
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '行く'
@@ -169,6 +199,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 39
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '苛める'
@@ -180,6 +212,8 @@ transitive = true
 level = 'n4'
 source = 'wanikani'
 tags = ['common']
+highest_frequency = 8397
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '急ぐ'
@@ -191,6 +225,8 @@ transitive = true
 source = 'jlptstudy.net'
 level = 'n4'
 tags = ['common']
+highest_frequency = 569
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '致す'
@@ -202,6 +238,8 @@ transitive = true
 source = 'jlptstudy.net'
 level = 'n4'
 tags = ['common', 'kenjougo']
+highest_frequency = 1769
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '頂く'
@@ -213,6 +251,8 @@ transitive = true
 source = 'jlptstudy.net'
 level = 'n4'
 tags = ['common']
+highest_frequency = 839
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '祈る'
@@ -224,6 +264,8 @@ transitive = true
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common']
+highest_frequency = 2632
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = 'いらっしゃる'
@@ -235,6 +277,8 @@ transitive = false
 source = 'jlptstudy.net'
 level = 'n4'
 tags = ['common', 'sonkeigo']
+highest_frequency = 878
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '居る'
@@ -246,6 +290,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 399
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '入れる'
@@ -256,6 +302,8 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 216
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '植える'
@@ -267,6 +315,8 @@ transitive = true
 source = 'jlptstudy.net'
 level = 'n4'
 tags = ['common']
+highest_frequency = 4803
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '飢える'
@@ -277,6 +327,8 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n2'
 tags = ['common']
+highest_frequency = 7802
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '動く'
@@ -288,6 +340,8 @@ transitive = false
 source = 'howls moving castle'
 level = 'n4'
 tags = ['common']
+highest_frequency = 292
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '失う'
@@ -299,6 +353,8 @@ transitive = true
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'how-to-conjugate']
+highest_frequency = 567
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '撃つ'
@@ -309,6 +365,8 @@ verb-type = 'godan-tsu'
 transitive = true
 level = 'n3'
 tags = ['common']
+highest_frequency = 738
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '生まれる'
@@ -319,6 +377,8 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 183
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '生む'
@@ -329,6 +389,8 @@ verb-type = 'godan-mu'
 transitive = true
 level = 'n1'
 tags = ['common']
+highest_frequency = 1577
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '売る'
@@ -339,6 +401,8 @@ verb-type = 'godan-ru'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 774
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '起きる'
@@ -350,6 +414,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 349
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '置く'
@@ -361,6 +427,8 @@ transitive = true
 source = 'n5-study'
 level = 'n5'
 tags = ['common']
+highest_frequency = 257
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '行う'
@@ -372,6 +440,8 @@ transitive = true
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'unusual-reading']
+highest_frequency = 42
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '教える'
@@ -383,6 +453,8 @@ transitive = true
 source = 'n5-study'
 level = 'n5'
 tags = ['common']
+highest_frequency = 203
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '押す'
@@ -394,6 +466,8 @@ transitive = false
 source = 'n5-wiki'
 level = 'n5'
 tags = ['common']
+highest_frequency = 579
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '落ちる'
@@ -404,6 +478,8 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n4'
 tags = ['common']
+highest_frequency = 358
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '踊る'
@@ -415,6 +491,8 @@ transitive = false
 source = 'irasshai'
 level = 'n4'
 tags = ['common']
+highest_frequency = 2233
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '覚える'
@@ -426,6 +504,8 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 284
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '泳ぐ'
@@ -436,6 +516,8 @@ verb-type = 'godan-gu'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 1646
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '降りる'
@@ -447,6 +529,8 @@ transitive = false
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 833
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '終わる'
@@ -458,6 +542,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 129
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '終わる'
@@ -469,6 +555,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 129
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '買う'
@@ -479,6 +567,8 @@ verb-type = 'godan-u'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 277
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '返す'
@@ -489,6 +579,8 @@ verb-type = 'godan-su'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 553
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '帰る'
@@ -500,6 +592,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 108
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '書く'
@@ -510,6 +604,8 @@ verb-type = 'godan-ku'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 156
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '隠す'
@@ -521,6 +617,8 @@ transitive = true
 level = 'n3'
 source = 'wanikani'
 tags = ['common']
+highest_frequency = 623
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '欠ける'
@@ -532,6 +630,8 @@ transitive = false
 source = 'wanikani'
 level = 'n3'
 tags = ['common']
+highest_frequency = 155
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '飾る'
@@ -543,6 +643,8 @@ transitive = true
 source = 'wiki-n4'
 level = 'n4'
 tags = ['comon']
+highest_frequency = 1822
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '貸す'
@@ -553,6 +655,8 @@ level = 'n5'
 verb-type = 'godan-su'
 transitive = true
 tags = ['common']
+highest_frequency = 783
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '勝つ'
@@ -563,6 +667,8 @@ verb-type = 'godan-tsu'
 transitive = false
 level = 'n4'
 tags = ['common']
+highest_frequency = 294
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '借りる'
@@ -574,6 +680,8 @@ transitive = false
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 1004
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '変わる'
@@ -585,6 +693,8 @@ transitive = true
 source = 'anime-freq'
 level = 'n4'
 tags = ['common']
+highest_frequency = 182
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '考える'
@@ -596,6 +706,8 @@ transitive = true
 source = 'irasshai'
 level = 'n4'
 tags = ['common']
+highest_frequency = 111
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '頑張る'
@@ -606,6 +718,8 @@ verb-type = 'godan-ru'
 transitive = false
 source = 'irasshai; anime'
 tags = ['common']
+highest_frequency = 181
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '消える'
@@ -617,6 +731,8 @@ transitive = false
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 353
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '聞く'
@@ -628,6 +744,8 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 63
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '築く'
@@ -638,6 +756,8 @@ verb-type = 'godan-ku'
 transitive = true
 level = 'n1'
 tags = ['common']
+highest_frequency = 1783
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '切る'
@@ -649,6 +769,8 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 429
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '擽る'
@@ -658,6 +780,8 @@ english-conjugated = { base = 'tickle', past = 'tickled', plural = 'tickles', co
 verb-type = 'godan-ru'
 transitive = true
 tags = ['common']
+highest_frequency = 43890
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '曇る'
@@ -668,6 +792,8 @@ level = 'n5'
 verb-type = 'godan-ru'
 transitive = false
 tags = ['common']
+highest_frequency = 5782
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '来る'
@@ -680,6 +806,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 42
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '苦しむ'
@@ -691,6 +819,8 @@ transitive = false
 source = 'wanikani'
 level = 'n3'
 tags = ['common']
+highest_frequency = 2547
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '消す'
@@ -701,6 +831,8 @@ verb-type = 'godan-su'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 807
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '越える'
@@ -712,6 +844,8 @@ transitive = true
 source = 'wanikani'
 level = 'n3'
 tags = ['common']
+highest_frequency = 1722
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '困る'
@@ -723,6 +857,8 @@ transitive = false
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 404
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '込む'
@@ -734,6 +870,8 @@ transitive = false
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
+highest_frequency = 201
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '殺す'
@@ -745,6 +883,8 @@ transitive = true
 source = 'anime'
 level = 'n3'
 tags = ['anime', 'common']
+highest_frequency = 116
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '探す'
@@ -755,6 +895,8 @@ verb-type = 'godan-su'
 transitive = true
 level = 'n4'
 tags = ['common']
+highest_frequency = 302
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '咲く'
@@ -766,6 +908,8 @@ transitive = false
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 1926
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '避ける'
@@ -777,6 +921,8 @@ transitive = true
 source = 'anime-freq'
 level = 'n3'
 tags = ['common']
+highest_frequency = 1387
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '支える'
@@ -788,6 +934,8 @@ transitive = true
 source = 'wanikani'
 level = 'n3'
 tags = ['common']
+highest_frequency = 1922
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '差す'
@@ -800,6 +948,8 @@ source = 'wiki-n5'
 level = 'n5'
 explain = 'https://en.wiktionary.org/wiki/%E5%B7%AE%E3%81%99'
 tags = ['bad-jisho', 'common']
+highest_frequency = 2260
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '死ぬ'
@@ -811,6 +961,8 @@ transitive = false
 source = 'n5-study'
 level = 'n5'
 tags = ['common']
+highest_frequency = 90
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '閉まる'
@@ -822,6 +974,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 4015
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '締める'
@@ -833,6 +987,8 @@ transitive = true
 source = 'wiki-n5-vocab'
 level = 'n5'
 tags = ['common']
+highest_frequency = 2205
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '調べる'
@@ -844,6 +1000,8 @@ transitive = true
 source = 'irasshai'
 level = 'n4'
 tags = ['common']
+highest_frequency = 779
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '吸う'
@@ -855,6 +1013,8 @@ transitive = true
 source = 'stay-in-japan'
 level = 'n5'
 tags = ['commmon']
+highest_frequency = 1106
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '滑る'
@@ -866,6 +1026,8 @@ transitive = false
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
+highest_frequency = 3226
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '住む'
@@ -877,6 +1039,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 887
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '座る'
@@ -887,6 +1051,8 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 820
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '注ぐ'
@@ -898,6 +1064,8 @@ transitive = true
 source = 'wanikani'
 level = 'n3'
 tags = ['common']
+highest_frequency = 2443
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '育つ'
@@ -909,6 +1077,8 @@ transitive = false
 level = 'n3'
 source = 'wanikani'
 tags = ['common']
+highest_frequency = 2340
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '足す'
@@ -920,6 +1090,8 @@ transitive = true
 source = 'nihongo-charenji-n4-kotoba'
 level = 'n4'
 tags = ['common']
+highest_frequency = 2693
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '助ける'
@@ -931,6 +1103,8 @@ transitive = true
 source = 'irasshai; anime'
 level = 'n3'
 tags = ['common']
+highest_frequency = 240
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '戦う'
@@ -942,6 +1116,8 @@ transitive = false
 source = 'anime-freq'
 level = 'n3'
 tags = ['common']
+highest_frequency = 223
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '正す'
@@ -952,6 +1128,8 @@ verb-type = 'godan-su'
 transitive = true
 source = 'wanikani'
 tags = ['common']
+highest_frequency = 2068
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '立つ'
@@ -962,6 +1140,8 @@ verb-type = 'godan-tsu'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 173
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '立てる'
@@ -973,6 +1153,8 @@ transitive = true
 level = 'n4'
 source = 'wanikani'
 tags = ['common']
+highest_frequency = 522
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '頼む'
@@ -984,6 +1166,8 @@ transitive = true
 source = 'anime-freq'
 level = 'n5'
 tags = ['common']
+highest_frequency = 219
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '足りる'
@@ -995,6 +1179,8 @@ transitive = false
 source = 'nihongo-charenji-n4-kotoba'
 level = 'n4'
 tags = ['common']
+highest_frequency = 702
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '出す'
@@ -1005,6 +1191,8 @@ verb-type = 'godan-su'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 131
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '違う'
@@ -1016,6 +1204,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 85
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ちまう'
@@ -1026,6 +1216,8 @@ verb-type = 'godan-u'
 transitive = true
 source = 'anime-freq'
 tags = ['anime', 'dialect', 'kantou', 'uncommon']
+highest_frequency = 214
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '使う'
@@ -1036,6 +1228,8 @@ level = 'n5'
 verb-type = 'godan-u'
 transitive = true
 tags = ['common']
+highest_frequency = 127
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '疲れる'
@@ -1047,6 +1241,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 841
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '着く'
@@ -1058,6 +1254,8 @@ transitive = false
 source = 'anime-freq'
 level = 'n5'
 tags = ['common']
+highest_frequency = 1073
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '作る'
@@ -1069,6 +1267,8 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 154
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '続ける'
@@ -1080,6 +1280,8 @@ transitive = true
 source = 'anime-freq'
 level = 'n4'
 tags = ['common']
+highest_frequency = 272
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '勤める'
@@ -1091,6 +1293,8 @@ transitive = true
 source = 'irasshai; wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 3278
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '出かける'
@@ -1101,6 +1305,8 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 1567
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '出来る'
@@ -1112,6 +1318,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 44
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '出る'
@@ -1122,6 +1330,8 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 78
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '通る'
@@ -1133,6 +1343,8 @@ transitive = false
 level = 'n4'
 source = 'wanikani'
 tags = ['common']
+highest_frequency = 633
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '届ける'
@@ -1143,6 +1355,8 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n4'
 tags = ['common']
+highest_frequency = 2138
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '飛ぶ'
@@ -1153,6 +1367,8 @@ verb-type = 'godan-bu'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 431
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '止まる'
@@ -1163,6 +1379,8 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 599
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '止める'
@@ -1173,6 +1391,8 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n4'
 tags = ['common']
+highest_frequency = 296
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '取り替える'
@@ -1184,6 +1404,8 @@ transitive = true
 source = 'jlpt-study'
 level = 'n4'
 tags = ['common']
+highest_frequency = 12213
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '撮る'
@@ -1195,6 +1417,8 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 1185
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '取る'
@@ -1206,6 +1430,8 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 138
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '直す'
@@ -1216,6 +1442,8 @@ verb-type = 'godan-su'
 transitive = true
 level = 'n4'
 tags = ['common']
+highest_frequency = 1311
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '直る'
@@ -1227,6 +1455,8 @@ transitive = false
 source = 'wanikani'
 level = 'n4'
 tags = ['common']
+highest_frequency = 3635
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '鳴く'
@@ -1238,6 +1468,8 @@ transitive = false
 source = 'wanikani'
 level = 'n5'
 tags = ['common']
+highest_frequency = 7457
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '無くす'
@@ -1248,6 +1480,8 @@ level = 'n5'
 verb-type = 'godan-su'
 transitive = true
 tags = ['common']
+highest_frequency = 6625
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '習う'
@@ -1259,6 +1493,8 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 4182
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '並ぶ'
@@ -1270,6 +1506,8 @@ transitive = false
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 922
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '成る'
@@ -1280,6 +1518,8 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 25
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '脱ぐ'
@@ -1291,6 +1531,8 @@ transitive = true
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 1505
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '盗む'
@@ -1301,6 +1543,8 @@ verb-type = 'godan-mu'
 transitive = true
 level = 'n4'
 tags = ['common']
+highest_frequency = 2187
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '寝る'
@@ -1312,6 +1556,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 286
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '残る'
@@ -1323,6 +1569,8 @@ transitive = false
 source = 'nihongo-charenji-n4-kotoba'
 level = 'n4'
 tags = ['common']
+highest_frequency = 373
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '上る'
@@ -1333,6 +1581,8 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 1028
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '乗る'
@@ -1344,6 +1594,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 398
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '入る'
@@ -1355,6 +1607,8 @@ transitive = false
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 114
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '生える'
@@ -1366,6 +1620,8 @@ transitive = false
 source = 'wanikani'
 level = 'n2'
 tags = ['common']
+highest_frequency = 2621
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '始まる'
@@ -1376,6 +1632,8 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 385
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '外れる'
@@ -1386,6 +1644,8 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n2'
 tags = ['common']
+highest_frequency = 2381
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '働く'
@@ -1396,6 +1656,8 @@ verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 736
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '放す'
@@ -1407,6 +1669,8 @@ transitive = true
 source = 'wanikani'
 level = 'n3'
 tags = ['common']
+highest_frequency = 2068
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '張る'
@@ -1418,6 +1682,8 @@ transitive = true
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 1188
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '晴れる'
@@ -1429,6 +1695,8 @@ transitive = false
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 2360
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '化ける'
@@ -1440,6 +1708,8 @@ transitive = false
 source = 'wanikani'
 level = 'n1'
 tags = ['common']
+highest_frequency = 6757
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '光る'
@@ -1450,6 +1720,8 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
 tags = ['common']
+highest_frequency = 1055
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '引く'
@@ -1460,6 +1732,8 @@ verb-type = 'godan-ku'
 transitive = true
 level = 'n5'
 tags = ['common']
+highest_frequency = 380
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '吹く'
@@ -1471,6 +1745,8 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common', 'transitive-and-intransitive']
+highest_frequency = 1090
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '太る'
@@ -1481,6 +1757,8 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
 tags = ['common']
+highest_frequency = 3113
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '降る'
@@ -1492,6 +1770,8 @@ transitive = false
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 1104
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '曲がる'
@@ -1503,6 +1783,8 @@ transitive = false
 source = 'wanikani; wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 4430
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '曲がる'
@@ -1513,6 +1795,8 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 4430
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '負ける'
@@ -1524,6 +1808,8 @@ transitive = false
 source = 'anime'
 level = 'n4'
 tags = ['common']
+highest_frequency = 254
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '混ぜる'
@@ -1535,6 +1821,8 @@ transitive = true
 source = 'sekai-wa-fushigi-2'
 level = 'n2'
 tags = ['common']
+highest_frequency = 4382
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '待つ'
@@ -1546,6 +1834,8 @@ transitive = true
 level = 'n5'
 note = 'both transitive and intransitive'
 tags = ['common', 'intransitive', 'transitive']
+highest_frequency = 64
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '学ぶ'
@@ -1556,6 +1846,8 @@ verb-type = 'godan-bu'
 transitive = false
 level = 'n3'
 tags = ['common', 'unsure-if-transitive']
+highest_frequency = 781
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '守る'
@@ -1566,6 +1858,8 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n3'
 tags = ['common']
+highest_frequency = 229
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '磨く'
@@ -1577,6 +1871,8 @@ transitive = true
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 3546
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '向かう'
@@ -1588,6 +1884,8 @@ transitive = false
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common']
+highest_frequency = 327
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '用いる'
@@ -1599,6 +1897,8 @@ transitive = true
 explain = 'https://www.japanesepod101.com/blog/yomi-and-breakdown-of-the-words/'
 level = 'n3'
 tags = ['common']
+highest_frequency = 161
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '持つ'
@@ -1610,6 +1910,8 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+highest_frequency = 59
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '戻る'
@@ -1621,6 +1923,8 @@ transitive = false
 source = 'anime-freq'
 level = 'n4'
 tags = ['common']
+highest_frequency = 170
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '休む'
@@ -1631,6 +1935,8 @@ verb-type = 'godan-mu'
 transitive = false
 level = 'n5'
 tags = ['common']
+highest_frequency = 715
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '止める'
@@ -1642,6 +1948,8 @@ transitive = true
 source = 'anime'
 level = 'n4'
 tags = ['common']
+highest_frequency = 296
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '遣る'
@@ -1652,6 +1960,8 @@ verb-type = 'godan-ru'
 transitive = true
 level = 'n1'
 tags = ['common']
+highest_frequency = 135
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '呼ぶ'
@@ -1663,6 +1973,8 @@ transitive = true
 source = 'anime-freq'
 level = 'n5'
 tags = ['common']
+highest_frequency = 70
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '寄る'
@@ -1674,6 +1986,8 @@ transitive = false
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
+highest_frequency = 1228
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '分ける'
@@ -1685,6 +1999,8 @@ transitive = true
 level = 'n3'
 source = 'wanikani'
 tags = ['common']
+highest_frequency = 1030
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '渡す'
@@ -1696,6 +2012,8 @@ transitive = true
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
+highest_frequency = 832
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'コピーする'

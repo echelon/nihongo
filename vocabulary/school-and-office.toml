@@ -4,6 +4,8 @@ kana = 'いだい'
 english = 'medical university'
 source = 'wanikani'
 tags = ['common', 'noun', 'place', 'school']
+highest_frequency = 25193
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '鉛筆'
@@ -11,6 +13,8 @@ kana = 'えんぴつ'
 english = 'pencil'
 level = 'n5'
 tags = []
+highest_frequency = 10089
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '科学'
@@ -18,6 +22,8 @@ kana = 'かがく'
 english = 'science'
 level = 'n4'
 tags = ['common', 'field', 'noun']
+highest_frequency = 497
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '紙'
@@ -25,6 +31,8 @@ kana = 'かみ'
 english = 'paper'
 level = 'n5'
 tags = []
+highest_frequency = 1154
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '学生'
@@ -32,6 +40,8 @@ kana = 'がくせい'
 english = 'student'
 level = 'n5'
 tags = []
+highest_frequency = 627
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '学校'
@@ -39,6 +49,8 @@ kana = 'がっこう'
 english = 'school'
 level = 'n5'
 tags = []
+highest_frequency = 89
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '教科書'
@@ -47,6 +59,8 @@ english = 'textbook'
 source = 'irasshai'
 level = 'n3'
 tags = ['book', 'common', 'noun', 'reading', 'school']
+highest_frequency = 2318
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '教室'
@@ -54,6 +68,8 @@ kana = 'きょうしつ'
 english = 'classroom'
 level = 'n5'
 tags = []
+highest_frequency = 1224
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '高校'
@@ -62,6 +78,8 @@ english = 'high school'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'grade', 'noun', 'place', 'school']
+highest_frequency = 398
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '高校生'
@@ -70,6 +88,8 @@ english = 'high school student'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun', 'people', 'school']
+highest_frequency = 1509
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '作文'
@@ -77,6 +97,8 @@ kana = 'さくぶん'
 english = 'essay writing; composition'
 level = 'n5'
 tags = []
+highest_frequency = 7471
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '試験'
@@ -84,6 +106,8 @@ kana = 'しけん'
 english = 'exam'
 level = 'n4'
 tags = ['common', 'noun', 'school', 'suru-verb']
+highest_frequency = 682
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '質問'
@@ -91,6 +115,8 @@ kana = 'しつもん'
 english = 'question; inquiry'
 level = 'n5'
 tags = []
+highest_frequency = 443
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '宿題'
@@ -98,6 +124,8 @@ kana = 'しゅくだい'
 english = 'homework'
 level = 'n5'
 tags = []
+highest_frequency = 2154
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '小学生'
@@ -106,6 +134,8 @@ english = 'elementary school student'
 source = 'irasshai'
 level = 'n2'
 tags = ['common', 'noun', 'people', 'student']
+highest_frequency = 2739
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '心理学'
@@ -120,6 +150,8 @@ kana = 'じしょ'
 english = 'dictionary'
 level = 'n5'
 tags = []
+highest_frequency = 3344
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '辞典'
@@ -127,6 +159,8 @@ kana = 'じてん'
 english = 'dictionary, lexicon'
 level = 'n4'
 tags = ['common', 'grammar', 'noun', 'school']
+highest_frequency = 3718
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '字引'
@@ -141,6 +175,8 @@ kana = 'じゅぎょう'
 english = 'lesson; instruction; class work'
 level = 'n5'
 tags = []
+highest_frequency = 927
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '生徒'
@@ -148,6 +184,8 @@ kana = 'せいと'
 english = 'pupil'
 level = 'n5'
 tags = []
+highest_frequency = 247
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '先生'
@@ -155,6 +193,8 @@ kana = 'せんせい'
 english = 'teacher; master; doctor (honorific/respectful/sonkeigo)'
 level = 'n5'
 tags = []
+highest_frequency = 104
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '卒業'
@@ -163,6 +203,8 @@ english = 'graduation'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun', 'school', 'suru-verb']
+highest_frequency = 243
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '卒業生'
@@ -170,6 +212,8 @@ kana = 'そつぎょうせい'
 english = 'graduate; alumnus'
 source = 'jisho'
 tags = ['common', 'noun', 'school', 'suru-verb']
+highest_frequency = 5900
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '大学'
@@ -177,6 +221,8 @@ kana = 'だいがく'
 english = 'university'
 level = 'n5'
 tags = []
+highest_frequency = 48
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '大学生'
@@ -185,6 +231,8 @@ english = 'university student'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun', 'people', 'student']
+highest_frequency = 4180
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '中学'
@@ -193,6 +241,8 @@ english = 'middle school'
 source = 'irasshai'
 level = 'n3'
 tags = ['common', 'noun', 'school']
+highest_frequency = 1242
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '中学生'
@@ -200,6 +250,8 @@ kana = 'ちゅうがくせい'
 english = 'middle school student'
 source = 'irasshai'
 tags = ['common', 'noun', 'people', 'student']
+highest_frequency = 3038
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '中学生'
@@ -207,6 +259,8 @@ kana = 'ちゅうがくせい'
 english = 'middle school student'
 source = 'irasshai'
 tags = ['common', 'noun', 'people', 'school']
+highest_frequency = 3038
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '中学校'
@@ -215,6 +269,8 @@ english = 'middle school'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'grade', 'noun', 'place', 'school']
+highest_frequency = 543
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '地理'
@@ -223,6 +279,8 @@ english = 'geography'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun', 'school', 'subject']
+highest_frequency = 2631
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '机'
@@ -230,6 +288,8 @@ kana = 'つくえ'
 english = 'desk'
 level = 'n5'
 tags = []
+highest_frequency = 1037
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '手紙'
@@ -237,6 +297,8 @@ kana = 'てがみ'
 english = 'letter'
 level = 'n5'
 tags = []
+highest_frequency = 865
+highest_frequency_source = 'Novel 3k'
 
 [[cards]]
 kanji = '手帳'
@@ -244,6 +306,8 @@ kana = 'てちょう'
 english = 'notebook; memo pad'
 level = 'n2'
 tags = ['common', 'noun', 'school']
+highest_frequency = 5583
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '図書館'
@@ -251,6 +315,8 @@ kana = 'としょかん'
 english = 'library'
 level = 'n5'
 tags = []
+highest_frequency = 2053
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '夏休み'
@@ -258,6 +324,8 @@ kana = 'なつやすみ'
 english = 'summer vacation'
 level = 'n5'
 tags = []
+highest_frequency = 1493
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '入試'
@@ -265,6 +333,8 @@ kana = 'にゅうし'
 english = 'entrance exam'
 source = 'manga'
 tags = ['common']
+highest_frequency = 6029
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '封筒'
@@ -272,6 +342,8 @@ kana = 'ふうとう'
 english = 'envelope'
 level = 'n5'
 tags = []
+highest_frequency = 9619
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '文章'
@@ -279,6 +351,8 @@ kana = 'ぶんしょう'
 english = 'sentence; text; essay; prose'
 level = 'n5'
 tags = []
+highest_frequency = 1057
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '勉強'
@@ -286,6 +360,8 @@ kana = 'べんきょう'
 english = 'study; diligence'
 level = 'n5'
 tags = []
+highest_frequency = 541
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '～枚'
@@ -300,6 +376,8 @@ kana = 'まんねんひつ'
 english = 'fountain pen'
 level = 'n5'
 tags = []
+highest_frequency = 30696
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = '難しい'
@@ -307,6 +385,8 @@ kana = 'むずかしい'
 english = 'difficult'
 level = 'n5'
 tags = []
+highest_frequency = 607
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '問題'
@@ -314,6 +394,8 @@ kana = 'もんだい'
 english = 'question (on a test); problem'
 level = 'n5'
 tags = []
+highest_frequency = 121
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '留学'
@@ -321,6 +403,8 @@ kana = 'りゅうがく'
 english = 'study abroad'
 level = 'n3'
 tags = ['common', 'noun', 'school', 'study', 'suru-verb']
+highest_frequency = 2090
+highest_frequency_source = 'Wikipedia 10k'
 
 [[cards]]
 kanji = '留学生'
@@ -328,6 +412,8 @@ kana = 'りゅうがくせい'
 english = 'foreign exchange student'
 level = 'n5'
 tags = []
+highest_frequency = 4976
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = '練習'
@@ -335,6 +421,8 @@ kana = 'れんしゅう'
 english = 'practice; practicing'
 level = 'n5'
 tags = []
+highest_frequency = 442
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'クラス'
@@ -342,6 +430,8 @@ kana = 'クラス'
 english = 'class'
 level = 'n5'
 tags = []
+highest_frequency = 516
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'コピー'
@@ -349,6 +439,8 @@ kana = 'コピー'
 english = 'copy (noun or verb)'
 level = 'n5'
 tags = []
+highest_frequency = 1957
+highest_frequency_source = 'Leeds 15k'
 
 [[cards]]
 kanji = 'テスト'
@@ -356,6 +448,8 @@ kana = 'テスト'
 english = 'test'
 level = 'n5'
 tags = []
+highest_frequency = 953
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ノート'
@@ -363,6 +457,8 @@ kana = 'ノート'
 english = 'notebook'
 level = 'n5'
 tags = []
+highest_frequency = 1218
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ペン'
@@ -370,6 +466,8 @@ kana = 'ペン'
 english = 'pen'
 level = 'n5'
 tags = []
+highest_frequency = 2256
+highest_frequency_source = 'Anime 45k'
 
 [[cards]]
 kanji = 'ボールペン'
@@ -377,4 +475,6 @@ kana = 'ボールペン'
 english = 'ballpoint pen'
 level = 'n5'
 tags = []
+highest_frequency = 14166
+highest_frequency_source = 'Leeds 15k'
 
