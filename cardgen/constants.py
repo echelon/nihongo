@@ -240,3 +240,14 @@ OTHER_FORMS = set([
   '鶏肉', # 鳥肉
 ])
 
+
+# All the things
+IGNORE_SET = set().union(HIRAGANA, KATAKANA, PARTICLES, IGNORE_SYMBOLS, IGNORE_MISC, OTHER_FORMS)
+
+# I already have these words (perhaps a different politeness or kanji)
+DUPLICATE_WORDS = set([
+  'お祭り',
+  '昼御飯', # Less common
+  '朝御飯', # Less common
+])
+
