@@ -39,6 +39,8 @@ KANJI_CARD_MODEL = genanki.Model(
     {'name': 'Make Kanji Card?'},
     {'name': 'Make Hiragana-only Card?'},
     {'name': 'Level'},
+    {'name': 'Highest Frequency'},
+    {'name': 'Highest Frequency Source'},
   ],
   # NB: Add or remove templates (with the same names) using the
   # Anki interface first, or imports won't work as expected.
@@ -51,6 +53,9 @@ KANJI_CARD_MODEL = genanki.Model(
 
 <footer>
   <div class="level level-{{Level}}">{{Level}}</div>
+  {{#Highest Frequency}}
+    <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+  {{/Highest Frequency}}
 </footer>
 ''',
       'afmt': '''
@@ -63,6 +68,9 @@ KANJI_CARD_MODEL = genanki.Model(
 
 <footer>
   <div class="level level-{{Level}}">{{Level}}</div>
+  {{#Highest Frequency}}
+    <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+  {{/Highest Frequency}}
 </footer>
 '''
     },
@@ -82,6 +90,9 @@ KANJI_CARD_MODEL = genanki.Model(
 
   <footer>
     <div class="level level-{{Level}}">{{Level}}</div>
+    {{#Highest Frequency}}
+      <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+    {{/Highest Frequency}}
   </footer>
 {{/Make Furigana Card?}}
 ''',
@@ -97,6 +108,9 @@ KANJI_CARD_MODEL = genanki.Model(
 
 <footer>
   <div class="level level-{{Level}}">{{Level}}</div>
+  {{#Highest Frequency}}
+    <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+  {{/Highest Frequency}}
 </footer>
 '''
     },
@@ -109,6 +123,9 @@ KANJI_CARD_MODEL = genanki.Model(
 
   <footer>
     <div class="level level-{{Level}}">{{Level}}</div>
+    {{#Highest Frequency}}
+      <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+    {{/Highest Frequency}}
   </footer>
 {{/Make Kanji Card?}}
 ''',
@@ -123,6 +140,9 @@ KANJI_CARD_MODEL = genanki.Model(
 
 <footer>
   <div class="level level-{{Level}}">{{Level}}</div>
+  {{#Highest Frequency}}
+    <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+  {{/Highest Frequency}}
 </footer>
 '''
     },
@@ -135,6 +155,9 @@ KANJI_CARD_MODEL = genanki.Model(
 
   <footer>
     <div class="level level-{{Level}}">{{Level}}</div>
+    {{#Highest Frequency}}
+      <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+    {{/Highest Frequency}}
   </footer>
 {{/Make Hiragana-only Card?}}
 ''',
@@ -149,6 +172,9 @@ KANJI_CARD_MODEL = genanki.Model(
 
 <footer>
   <div class="level level-{{Level}}">{{Level}}</div>
+  {{#Highest Frequency}}
+    <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+  {{/Highest Frequency}}
 </footer>
 '''
     },
@@ -180,6 +206,10 @@ footer {
 .level {
   float: left;
 }
+
+.frequency {
+  float: right;
+}
   ''')
 
 class Note(genanki.Note):
@@ -189,6 +219,8 @@ class Note(genanki.Note):
     self.english = verb_dict['english']
     self.level = verb_dict['level'] if 'level' in verb_dict else ''
     self.tags = verb_dict['tags'] if 'tags' in verb_dict else []
+    self.highest_frequency = ''
+    self.highest_frequency_source = ''
 
     # Suspended notes will not show up for review until removed from suspension.
     self.suspended = suspended
@@ -216,6 +248,11 @@ class Note(genanki.Note):
     else:
       self.make_hiragana_only_card = ''
 
+    if 'highest_frequency' in verb_dict \
+        and 'highest_frequency_source' in verb_dict:
+      self.highest_frequency = str(verb_dict['highest_frequency'])
+      self.highest_frequency_source = verb_dict['highest_frequency_source']
+
     sort_field = self.kana
 
     # NB: Must match order of model.
@@ -229,6 +266,8 @@ class Note(genanki.Note):
       self.make_kanji_card,
       self.make_hiragana_only_card,
       self.level,
+      self.highest_frequency,
+      self.highest_frequency_source,
     ]
 
     super().__init__(model=KANJI_CARD_MODEL,
