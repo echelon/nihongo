@@ -100,6 +100,14 @@ explain = '' # Optional URL for further reading
 tags = [] # grab bag of tags. 'common' is a tag used to denote frequent useage words
 ```
 
+Anki Foo
+--------
+Search for all _cards_ without a JLPT level,
+
+```
+"note:Generated Japanese Model" -level:n1 -level:n2 -level:n3 -level:n4 -level:n5 card:1
+```
+
 Learning Kanji
 --------------
 - 2136 Jouyou kanji (elementary and middle school)

@@ -30,12 +30,15 @@ KANJI_CARD_MODEL = genanki.Model(
   fields=[
     # NB: Make changes to the Anki deck model fields using the
     # Anki interface first, or imports won't work as expected.
+    # Even additive changes MUST be made in Anki's UI first, or
+    # you wind up with a new deck 'Generated Japanese Model-{hash}'
     {'name': 'Kanji'},
     {'name': 'Kana'},
     {'name': 'English'},
     {'name': 'Make Furigana Card?'},
     {'name': 'Make Kanji Card?'},
     {'name': 'Make Hiragana-only Card?'},
+    {'name': 'Level'},
   ],
   # NB: Add or remove templates (with the same names) using the
   # Anki interface first, or imports won't work as expected.
@@ -43,7 +46,13 @@ KANJI_CARD_MODEL = genanki.Model(
     # Card 1 - Front: English; Back: English + Kanji + Kana
     {
       'name': 'English',
-      'qfmt': '{{English}}',
+      'qfmt': '''
+{{English}}
+
+<footer>
+  <div class="level level-{{Level}}">{{Level}}</div>
+</footer>
+''',
       'afmt': '''
 {{English}}
 
@@ -51,6 +60,10 @@ KANJI_CARD_MODEL = genanki.Model(
 
 <div>{{Kanji}}</div>
 <div id="hint">{{Kana}}</div>
+
+<footer>
+  <div class="level level-{{Level}}">{{Level}}</div>
+</footer>
 '''
     },
     # Card 2 (Optional) - Furigana (Kanji + Kana); Back: English + Kanji + Kana
@@ -66,6 +79,10 @@ KANJI_CARD_MODEL = genanki.Model(
 {{#Make Furigana Card?}}
   <div>{{Kanji}}</div>
   <div id="hint">({{Kana}})</div>
+
+  <footer>
+    <div class="level level-{{Level}}">{{Level}}</div>
+  </footer>
 {{/Make Furigana Card?}}
 ''',
       'afmt': '''
@@ -77,6 +94,10 @@ KANJI_CARD_MODEL = genanki.Model(
 <hr id="answer">
 
 <div>{{English}}</div>
+
+<footer>
+  <div class="level level-{{Level}}">{{Level}}</div>
+</footer>
 '''
     },
     # Card 3 (Optional) - Front: Kanji (only); Back: English + Kanji + Kana
@@ -85,6 +106,10 @@ KANJI_CARD_MODEL = genanki.Model(
       'qfmt': '''
 {{#Make Kanji Card?}}
   {{Kanji}}
+
+  <footer>
+    <div class="level level-{{Level}}">{{Level}}</div>
+  </footer>
 {{/Make Kanji Card?}}
 ''',
       'afmt': '''
@@ -95,6 +120,10 @@ KANJI_CARD_MODEL = genanki.Model(
 <div id="hint">({{Kana}})</div>
 
 <div>{{English}}</div>
+
+<footer>
+  <div class="level level-{{Level}}">{{Level}}</div>
+</footer>
 '''
     },
     # Card 3 (Optional) - Front: Hiragana (only); Back: English + Kanji + Kana
@@ -103,6 +132,10 @@ KANJI_CARD_MODEL = genanki.Model(
       'qfmt': '''
 {{#Make Hiragana-only Card?}}
   {{Kana}}
+
+  <footer>
+    <div class="level level-{{Level}}">{{Level}}</div>
+  </footer>
 {{/Make Hiragana-only Card?}}
 ''',
       'afmt': '''
@@ -113,6 +146,10 @@ KANJI_CARD_MODEL = genanki.Model(
 <div id="hint">({{Kanji}})</div>
 
 <div>{{English}}</div>
+
+<footer>
+  <div class="level level-{{Level}}">{{Level}}</div>
+</footer>
 '''
     },
   ],
@@ -132,6 +169,17 @@ KANJI_CARD_MODEL = genanki.Model(
 #hint div {
   display: inline;
 }
+
+footer {
+  border-top: 1px dashed #888;
+  color: #888;
+  margin-top: 1em;
+  padding-top: 0.3em;
+}
+
+.level {
+  float: left;
+}
   ''')
 
 class Note(genanki.Note):
@@ -139,7 +187,7 @@ class Note(genanki.Note):
     self.kanji = verb_dict['kanji']
     self.kana = verb_dict['kana']
     self.english = verb_dict['english']
-    self.level = verb_dict['level'] if 'level' in verb_dict else None
+    self.level = verb_dict['level'] if 'level' in verb_dict else ''
     self.tags = verb_dict['tags'] if 'tags' in verb_dict else []
 
     # Suspended notes will not show up for review until removed from suspension.
@@ -171,6 +219,8 @@ class Note(genanki.Note):
     sort_field = self.kana
 
     # NB: Must match order of model.
+    # Even additive changes MUST be made in Anki's UI first, or you wind up with a new
+    # deck called 'Generated Japanese Model-{hash}'
     fields = [
       self.kanji,
       self.kana,
@@ -178,6 +228,7 @@ class Note(genanki.Note):
       self.make_furigana_card,
       self.make_kanji_card,
       self.make_hiragana_only_card,
+      self.level,
     ]
 
     super().__init__(model=KANJI_CARD_MODEL,
