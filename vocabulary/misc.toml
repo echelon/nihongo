@@ -2021,16 +2021,6 @@ highest_frequency = 273
 highest_frequency_source = 'Anime'
 
 [[cards]]
-kanji = '葉'
-kana = 'は'
-english = 'leaf; blade of grass; pine needle'
-source = 'wanikani; n4-wiki'
-level = 'n4'
-tags = ['biology', 'botany', 'common', 'nature', 'noun', 'plants']
-highest_frequency = 345
-highest_frequency_source = 'Anime'
-
-[[cards]]
 kanji = '柱'
 kana = 'はしら'
 english = 'pillar; post'
