@@ -13,9 +13,9 @@ from collections import OrderedDict
 
 from toml.decoder import InlineTableDict
 
-from sort import read_notes_from_toml
-from sort import write_toml
+from library import NoteLibrary
 from sort import INDEX_NAME
+from sort import write_toml
 
 class DynamicInlineTableDict(dict, InlineTableDict):
   """
@@ -72,7 +72,7 @@ def main():
       continue # XXX: Things here shouldn't be processed for now.
 
     try:
-      notes = read_notes_from_toml(filename)
+      notes = NoteLibrary.read_notes_from_toml_file(filename)
       insert_blanks(notes, filename)
       write_toml(notes, filename)
     except Exception as e:
