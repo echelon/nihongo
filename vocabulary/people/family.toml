@@ -153,6 +153,14 @@ highest_frequency = 1150
 highest_frequency_source = 'Wikipedia'
 
 [[cards]]
+kanji = '主婦'
+kana = 'しゅふ'
+english = 'housewife'
+source = 'try! n4'
+level = 'n3'
+tags = ['common', 'family', 'noun', 'people']
+
+[[cards]]
 kanji = '祖父'
 kana = 'そふ'
 english = "(one's own) grandfather; old man"
