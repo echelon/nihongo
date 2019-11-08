@@ -281,16 +281,6 @@ highest_frequency = 1602
 highest_frequency_source = 'Novels'
 
 [[cards]]
-kanji = 'そろそろ'
-kana = 'そろそろ'
-english = 'gradually,soon'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 392
-highest_frequency_source = 'Anime'
-
-[[cards]]
 kanji = 'そんな'
 kana = 'そんな'
 english = 'that sort of'
