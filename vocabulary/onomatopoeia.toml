@@ -1,4 +1,14 @@
 [[cards]]
+kanji = 'そろそろ'
+kana = 'そろそろ'
+english = 'slowly, gradually -- OR -- soon, any time now'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv', 'onomatopoia']
+highest_frequency = 392
+highest_frequency_source = 'Anime'
+
+[[cards]]
 kanji = 'きらきら'
 kana = 'きらきら'
 english = 'glittering; sparkling'
