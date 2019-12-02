@@ -1473,6 +1473,16 @@ highest_frequency = 338
 highest_frequency_source = 'Wikipedia'
 
 [[cards]]
+kanji = '全然'
+kana = 'ぜんぜん'
+english = 'not at all (with neg. verb)'
+source = 'irasshai'
+level = 'n3'
+tags = ['adverb', 'common']
+highest_frequency = 266
+highest_frequency_source = 'Anime'
+
+[[cards]]
 kanji = '総'
 kana = 'そう'
 english = 'gross; overall; whole'

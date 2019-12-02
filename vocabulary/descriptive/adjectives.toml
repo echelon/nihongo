@@ -106,8 +106,8 @@ english = 'funny; strange; weird; suspicious'
 source = 'wiktionary'
 level = 'n4'
 tags = ['common', 'i-adjective']
-highest_frequency = 451
-highest_frequency_source = 'Anime'
+highest_frequency = 897
+highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '遅い'
