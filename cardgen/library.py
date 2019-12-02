@@ -88,18 +88,31 @@ class NoteLibrary:
     if not self.notes:
       self.notes = self.do_load_library()
 
+  def add_notes_from_file(self, filename):
+    """
+    If we recently added or updated a file, load its changes.
+    This is only additive and will not remove any notes.
+    """
+    notes = NoteLibrary.read_notes_from_toml_file(filename)
+    notes = notes[INDEX_NAME]
+    NoteLibrary.add_notes_to_set(notes, self.notes)
+
   @staticmethod
   def do_load_library():
     all_notes = NoteLibrary.import_all_notes()
     note_word_set = set()
-    for note in all_notes:
-      # NB: Words might be recorded as kanji or kana in frequency data
-      note_word_set.add(note['kanji'])
-      note_word_set.add(note['kana'])
-      # Also get rid of characters we might not match on
-      note_word_set.add(note['kanji'].replace('～', ''))
-      note_word_set.add(note['kana'].replace('～', ''))
+    NoteLibrary.add_notes_to_set(all_notes, note_word_set)
     return note_word_set
+
+  @staticmethod
+  def add_notes_to_set(notes, set_):
+    for note in notes:
+      # NB: Words might be recorded as kanji or kana in frequency data
+      set_.add(note['kanji'])
+      set_.add(note['kana'])
+      # Also get rid of characters we might not match on
+      set_.add(note['kanji'].replace('～', ''))
+      set_.add(note['kana'].replace('～', ''))
 
   @staticmethod
   def import_all_notes():

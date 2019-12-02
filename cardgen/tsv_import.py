@@ -14,6 +14,16 @@ from library import INDEX_NAME
 from library import NoteLibrary
 from sort import write_toml
 
+REPLACEMENTS = {
+  '・する': 'する',
+}
+
+def correct_entry(entry: str) -> str:
+  for match, replacement in REPLACEMENTS.items():
+    if match in entry:
+      entry = entry.replace(match, replacement)
+  return entry
+
 def hydrate_note(row):
   kanji = row[0]
   kana = row[1]
@@ -46,8 +56,8 @@ def main():
     with open(filename) as fd:
       rd = csv.reader(fd, delimiter='\t', quotechar='"')
       for row in rd:
-        kanji = row[0]
-        kana = row[1]
+        kanji = row[0] = correct_entry(row[0])
+        kana = row[1] = correct_entry(row[1])
         if kanji in note_library.notes or kana in note_library.notes:
           continue
         note = hydrate_note(row)
@@ -59,6 +69,7 @@ def main():
     new_filename = tsv_to_toml_filename(filename)
     print('Writing {} notes to {}'.format(len(notes), new_filename))
     write_toml(toml, new_filename)
+    note_library.add_notes_from_file(new_filename)
 
 if __name__ == '__main__':
     main()

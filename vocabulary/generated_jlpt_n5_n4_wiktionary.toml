@@ -1815,16 +1815,6 @@ highest_frequency = 597
 highest_frequency_source = 'Anime'
 
 [[cards]]
-kanji = '通う'
-kana = 'かよう'
-english = 'to commute'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 1443
-highest_frequency_source = 'Wikipedia'
-
-[[cards]]
 kanji = '進む'
 kana = 'すすむ'
 english = 'to make progress'
