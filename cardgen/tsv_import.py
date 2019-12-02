@@ -52,6 +52,8 @@ def main():
 
   # Scan and convert the tsv files
   for filename in glob.glob('lists/*.tsv', recursive=True):
+    if 'n4' in filename:
+      continue
     notes = []
     with open(filename) as fd:
       rd = csv.reader(fd, delimiter='\t', quotechar='"')
