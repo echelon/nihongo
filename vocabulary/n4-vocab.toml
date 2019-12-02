@@ -19,16 +19,6 @@ highest_frequency = 123
 highest_frequency_source = 'Wikipedia'
 
 [[cards]]
-kanji = '赤ん坊'
-kana = 'あかんぼう'
-english = 'infant'
-level = 'n4'
-source = 'jlptstudy.net'
-tags = ['common', 'noun', 'people']
-highest_frequency = 4599
-highest_frequency_source = 'Anime'
-
-[[cards]]
 kanji = '浅い'
 kana = 'あさい'
 english = 'shallow; superficial'
@@ -133,15 +123,6 @@ level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'i-adjective']
 highest_frequency = 581
-highest_frequency_source = 'Novels'
-
-[[cards]]
-kanji = '腕'
-kana = 'うで'
-english = 'arm'
-level = 'n4'
-tags = ['anatomy', 'body', 'common', 'noun']
-highest_frequency = 295
 highest_frequency_source = 'Novels'
 
 [[cards]]
@@ -371,16 +352,6 @@ highest_frequency = 2672
 highest_frequency_source = 'Novels'
 
 [[cards]]
-kanji = '木綿'
-kana = 'もめん'
-english = 'cotton (material)'
-source = 'n4-wikipedia'
-level = 'n4'
-tags = ['clothing', 'common', 'fabric', 'material', 'noun']
-highest_frequency = 9838
-highest_frequency_source = 'Anime'
-
-[[cards]]
 kanji = 'やっと'
 kana = 'やっと'
 english = "barely!; by the skin of one's teeth"
@@ -399,16 +370,6 @@ level = 'n4'
 tags = ['common', 'noun']
 highest_frequency = 2035
 highest_frequency_source = 'Anime'
-
-[[cards]]
-kanji = '幼児'
-kana = 'ようじ'
-english = 'toddler'
-level = 'n2'
-source = 'jisho.org'
-tags = ['common', 'noun', 'people']
-highest_frequency = 4568
-highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '理由'
@@ -489,25 +450,6 @@ level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
 highest_frequency = 649
-highest_frequency_source = 'Wikipedia'
-
-[[cards]]
-kanji = 'アナウンサー'
-kana = 'アナウンサー'
-english = 'announcer'
-level = 'n4'
-tags = ['common', 'gairaigo', 'noun', 'people']
-highest_frequency = 1436
-highest_frequency_source = 'Wikipedia'
-
-[[cards]]
-kanji = 'アルコール'
-kana = 'アルコール'
-english = 'alcohol'
-level = 'n4'
-source = 'jlptstudy.net'
-tags = ['common', 'gairaigo', 'no-adjective', 'noun']
-highest_frequency = 4212
 highest_frequency_source = 'Wikipedia'
 
 [[cards]]

@@ -67,16 +67,6 @@ highest_frequency = 615
 highest_frequency_source = 'Anime'
 
 [[cards]]
-kanji = 'おかしい'
-kana = 'おかしい'
-english = 'strange or funny'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 451
-highest_frequency_source = 'Anime'
-
-[[cards]]
 kanji = 'お金持ち'
 kana = 'おかねもち'
 english = 'rich man'
@@ -143,16 +133,6 @@ level = 'n4'
 tags = ['generated', 'tsv']
 highest_frequency = 1265
 highest_frequency_source = 'Leeds'
-
-[[cards]]
-kanji = '夫'
-kana = 'おっと'
-english = 'husband'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 893
-highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '落す'
@@ -319,16 +299,6 @@ level = 'n4'
 tags = ['generated', 'tsv']
 highest_frequency = 198
 highest_frequency_source = 'Anime'
-
-[[cards]]
-kanji = '絹'
-kana = 'きぬ'
-english = 'silk'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 7627
-highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '決る'
@@ -753,16 +723,6 @@ highest_frequency = 993
 highest_frequency_source = 'Anime'
 
 [[cards]]
-kanji = '下着'
-kana = 'したぎ'
-english = 'underwear'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 2427
-highest_frequency_source = 'Novels'
-
-[[cards]]
 kanji = 'しっかり'
 kana = 'しっかり'
 english = 'firmly,steadily'
@@ -819,14 +779,6 @@ level = 'n4'
 tags = ['generated', 'tsv']
 highest_frequency = 1436
 highest_frequency_source = 'Leeds'
-
-[[cards]]
-kanji = 'じゃ'
-kana = 'じゃ'
-english = 'well then…'
-source = 'wiktionary'
-level = 'n5'
-tags = ['generated', 'tsv']
 
 [[cards]]
 kanji = '柔道'
@@ -1015,14 +967,6 @@ level = 'n4'
 tags = ['generated', 'tsv']
 highest_frequency = 1602
 highest_frequency_source = 'Novels'
-
-[[cards]]
-kanji = 'そんな'
-kana = 'そんな'
-english = 'that sort of'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
 
 [[cards]]
 kanji = 'そんなに'
@@ -1247,14 +1191,6 @@ level = 'n4'
 tags = ['generated', 'tsv']
 highest_frequency = 1578
 highest_frequency_source = 'Novels'
-
-[[cards]]
-kanji = 'とこや'
-kana = 'とこや'
-english = 'barber'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
 
 [[cards]]
 kanji = '特急'
@@ -1861,16 +1797,6 @@ highest_frequency = 1672
 highest_frequency_source = 'Novels'
 
 [[cards]]
-kanji = '湯'
-kana = 'ゆ'
-english = 'hot water'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 2576
-highest_frequency_source = 'Wikipedia'
-
-[[cards]]
 kanji = 'ゆっくりと'
 kana = 'ゆっくりと'
 english = 'slowly'
@@ -1977,14 +1903,6 @@ level = 'n4'
 tags = ['generated', 'tsv']
 highest_frequency = 1615
 highest_frequency_source = 'Novels'
-
-[[cards]]
-kanji = 'チェックする'
-kana = 'チェックする'
-english = 'to check'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
 
 [[cards]]
 kanji = 'チェックする'

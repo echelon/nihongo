@@ -100,6 +100,16 @@ highest_frequency = 249
 highest_frequency_source = 'Wikipedia'
 
 [[cards]]
+kanji = '可笑しい'
+kana = 'おかしい'
+english = 'funny; strange; weird; suspicious'
+source = 'wiktionary'
+level = 'n4'
+tags = ['common', 'i-adjective']
+highest_frequency = 451
+highest_frequency_source = 'Anime'
+
+[[cards]]
 kanji = '遅い'
 kana = 'おそい'
 english = 'slow ; late'

@@ -162,6 +162,14 @@ highest_frequency = 25
 highest_frequency_source = 'Anime'
 
 [[cards]]
+kanji = 'そんな'
+kana = 'そんな'
+english = 'that sort of'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
 kanji = '何処'
 kana = 'どこ'
 english = 'where'

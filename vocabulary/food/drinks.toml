@@ -1,0 +1,108 @@
+[[cards]]
+kanji = 'お茶'
+kana = 'おちゃ'
+english = 'tea (usu. green)'
+level = 'n5'
+tags = []
+highest_frequency = 1167
+highest_frequency_source = 'Anime'
+
+[[cards]]
+kanji = '牛乳'
+kana = 'ぎゅうにゅう'
+english = "(cow's) milk"
+level = 'n5'
+tags = []
+highest_frequency = 3260
+highest_frequency_source = 'Anime'
+
+[[cards]]
+kanji = '紅茶'
+kana = 'こうちゃ'
+english = 'black tea'
+level = 'n5'
+tags = []
+highest_frequency = 6128
+highest_frequency_source = 'Anime'
+
+[[cards]]
+kanji = '飲み物'
+kana = 'のみもの'
+english = 'drink; beverage'
+level = 'n5'
+tags = []
+highest_frequency = 3591
+highest_frequency_source = 'Anime'
+
+[[cards]]
+kanji = '～杯'
+kana = '～はい'
+english = 'counter for cupfuls'
+level = 'n5'
+tags = []
+
+[[cards]]
+kanji = '水'
+kana = 'みず'
+english = 'water'
+level = 'n5'
+tags = []
+highest_frequency = 287
+highest_frequency_source = 'Novels'
+
+[[cards]]
+kanji = '湯'
+kana = 'ゆ'
+english = 'hot water'
+source = 'wiktionary'
+level = 'n4'
+tags = ['common', 'drinks', 'noun']
+highest_frequency = 2576
+highest_frequency_source = 'Wikipedia'
+
+[[cards]]
+kanji = 'アルコール'
+kana = 'アルコール'
+english = 'alcohol'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common', 'gairaigo', 'no-adjective', 'noun']
+highest_frequency = 4212
+highest_frequency_source = 'Wikipedia'
+
+[[cards]]
+kanji = 'コップ'
+kana = 'コップ'
+english = 'cup'
+level = 'n5'
+tags = []
+highest_frequency = 9323
+highest_frequency_source = 'Leeds'
+
+[[cards]]
+kanji = '珈琲'
+kana = 'コーヒー'
+english = 'coffee'
+level = 'n5'
+tags = []
+highest_frequency = 2286
+highest_frequency_source = 'Novels'
+
+[[cards]]
+kanji = 'ビール'
+kana = 'ビール'
+english = 'beer'
+level = 'n3'
+tags = ['common', 'drink', 'gairaigo', 'noun']
+highest_frequency = 2231
+highest_frequency_source = 'Leeds'
+
+[[cards]]
+kanji = 'ワイン'
+kana = 'ワイン'
+english = 'wine'
+level = 'n3'
+tags = ['common', 'drink', 'gairaigo', 'noun']
+highest_frequency = 2223
+highest_frequency_source = 'Leeds'
+

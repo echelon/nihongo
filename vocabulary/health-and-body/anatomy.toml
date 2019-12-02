@@ -30,6 +30,15 @@ kanji = '腕'
 kana = 'うで'
 english = 'arm'
 level = 'n4'
+tags = ['anatomy', 'body', 'common', 'noun']
+highest_frequency = 295
+highest_frequency_source = 'Novels'
+
+[[cards]]
+kanji = '腕'
+kana = 'うで'
+english = 'arm'
+level = 'n4'
 tags = ['body', 'noun']
 highest_frequency = 295
 highest_frequency_source = 'Novels'

@@ -52,3 +52,11 @@ tags = ['common', 'expression']
 highest_frequency = 484
 highest_frequency_source = 'Novels'
 
+[[cards]]
+kanji = 'じゃ'
+kana = 'じゃ'
+english = 'well then…'
+source = 'wiktionary'
+level = 'n5'
+tags = ['generated', 'tsv']
+

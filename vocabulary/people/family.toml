@@ -72,6 +72,16 @@ highest_frequency = 1921
 highest_frequency_source = 'Anime'
 
 [[cards]]
+kanji = '夫'
+kana = 'おっと'
+english = 'husband'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+highest_frequency = 893
+highest_frequency_source = 'Wikipedia'
+
+[[cards]]
 kanji = 'お父さん'
 kana = 'おとうさん'
 english = 'father (sonkeigo)'

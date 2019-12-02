@@ -6,39 +6,12 @@ level = 'n5'
 tags = ['common', 'food']
 
 [[cards]]
-kanji = 'お茶'
-kana = 'おちゃ'
-english = 'tea (usu. green)'
-level = 'n5'
-tags = []
-highest_frequency = 1167
-highest_frequency_source = 'Anime'
-
-[[cards]]
 kanji = '喫茶店'
 kana = 'きっさてん'
 english = 'coffee shop'
 level = 'n5'
 tags = []
 highest_frequency = 4559
-highest_frequency_source = 'Anime'
-
-[[cards]]
-kanji = '牛乳'
-kana = 'ぎゅうにゅう'
-english = "(cow's) milk"
-level = 'n5'
-tags = []
-highest_frequency = 3260
-highest_frequency_source = 'Anime'
-
-[[cards]]
-kanji = '紅茶'
-kana = 'こうちゃ'
-english = 'black tea'
-level = 'n5'
-tags = []
-highest_frequency = 6128
 highest_frequency_source = 'Anime'
 
 [[cards]]
@@ -156,22 +129,6 @@ highest_frequency = 189
 highest_frequency_source = 'Wikipedia'
 
 [[cards]]
-kanji = '飲み物'
-kana = 'のみもの'
-english = 'drink; beverage'
-level = 'n5'
-tags = []
-highest_frequency = 3591
-highest_frequency_source = 'Anime'
-
-[[cards]]
-kanji = '～杯'
-kana = '～はい'
-english = 'counter for cupfuls'
-level = 'n5'
-tags = []
-
-[[cards]]
 kanji = '晩御飯'
 kana = 'ばんごはん'
 english = 'dinner'
@@ -192,15 +149,6 @@ kana = 'ひるはん'
 english = 'lunch'
 level = 'n5'
 tags = []
-
-[[cards]]
-kanji = '水'
-kana = 'みず'
-english = 'water'
-level = 'n5'
-tags = []
-highest_frequency = 287
-highest_frequency_source = 'Novels'
 
 [[cards]]
 kanji = '八百屋'
@@ -257,24 +205,6 @@ highest_frequency = 1340
 highest_frequency_source = 'Anime'
 
 [[cards]]
-kanji = 'コップ'
-kana = 'コップ'
-english = 'cup'
-level = 'n5'
-tags = []
-highest_frequency = 9323
-highest_frequency_source = 'Leeds'
-
-[[cards]]
-kanji = '珈琲'
-kana = 'コーヒー'
-english = 'coffee'
-level = 'n5'
-tags = []
-highest_frequency = 2286
-highest_frequency_source = 'Novels'
-
-[[cards]]
 kanji = 'スパイス'
 kana = 'スパイス'
 english = 'spice'
@@ -301,29 +231,11 @@ highest_frequency = 915
 highest_frequency_source = 'Anime'
 
 [[cards]]
-kanji = 'ビール'
-kana = 'ビール'
-english = 'beer'
-level = 'n3'
-tags = ['common', 'drink', 'gairaigo', 'noun']
-highest_frequency = 2231
-highest_frequency_source = 'Leeds'
-
-[[cards]]
 kanji = 'レストラン'
 kana = 'レストラン'
 english = 'restaurant'
 level = 'n5'
 tags = []
 highest_frequency = 2178
-highest_frequency_source = 'Leeds'
-
-[[cards]]
-kanji = 'ワイン'
-kana = 'ワイン'
-english = 'wine'
-level = 'n3'
-tags = ['common', 'drink', 'gairaigo', 'noun']
-highest_frequency = 2223
 highest_frequency_source = 'Leeds'
 
