@@ -1271,6 +1271,19 @@ highest_frequency = 154
 highest_frequency_source = 'Anime'
 
 [[cards]]
+kanji = '続く'
+kana = 'つづく'
+english = 'to continue; to be continued'
+english-conjugated = { past = 'continued', base = 'continue', continuous = 'continuing', plural = 'continues' }
+verb-type = 'godan-ku'
+transitive = false
+source = 'wiktionary; anime'
+level = 'n4'
+tags = ['common']
+highest_frequency = 262
+highest_frequency_source = 'Wikipedia'
+
+[[cards]]
 kanji = '続ける'
 kana = 'つづける'
 english = 'to continue ~; to keep up ~'

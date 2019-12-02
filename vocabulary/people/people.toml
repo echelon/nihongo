@@ -254,6 +254,14 @@ highest_frequency = 1777
 highest_frequency_source = 'Novels'
 
 [[cards]]
+kanji = '助手'
+kana = 'じょしゅ'
+english = 'assistant'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun', 'people']
+
+[[cards]]
 kanji = '人口'
 kana = 'じんこう'
 english = 'population'
@@ -338,6 +346,14 @@ level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
 highest_frequency = 2626
 highest_frequency_source = 'Anime'
+
+[[cards]]
+kanji = '仲間'
+kana = 'なかま'
+english = 'companion'
+source = 'wanikani'
+level = 'n3'
+tags = ['common', 'noun', 'people']
 
 [[cards]]
 kanji = '～人'

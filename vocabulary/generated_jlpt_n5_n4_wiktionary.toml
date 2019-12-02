@@ -1437,16 +1437,6 @@ highest_frequency = 23327
 highest_frequency_source = 'Anime'
 
 [[cards]]
-kanji = '深い'
-kana = 'ふかい'
-english = 'deep'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 437
-highest_frequency_source = 'Novels'
-
-[[cards]]
 kanji = '湯'
 kana = 'ゆ'
 english = 'hot water'
@@ -1655,16 +1645,6 @@ highest_frequency = 7627
 highest_frequency_source = 'Wikipedia'
 
 [[cards]]
-kanji = '続く'
-kana = 'つづく'
-english = 'to be continued'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 262
-highest_frequency_source = 'Wikipedia'
-
-[[cards]]
 kanji = '美術館'
 kana = 'びじゅつかん'
 english = 'art gallery'
@@ -1712,16 +1692,6 @@ source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
 highest_frequency = 614
-highest_frequency_source = 'Anime'
-
-[[cards]]
-kanji = '見つける'
-kana = 'みつける'
-english = 'to discover'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 375
 highest_frequency_source = 'Anime'
 
 [[cards]]

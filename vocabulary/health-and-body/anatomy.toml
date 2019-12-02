@@ -249,3 +249,10 @@ tags = ['body', 'common']
 highest_frequency = 285
 highest_frequency_source = 'Novels'
 
+[[cards]]
+kanji = '指先'
+kana = 'ゆびさき'
+english = 'fingertip'
+source = 'wanikani'
+tags = ['body', 'common']
+

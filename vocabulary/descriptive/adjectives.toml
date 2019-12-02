@@ -439,6 +439,16 @@ highest_frequency = 703
 highest_frequency_source = 'Wikipedia'
 
 [[cards]]
+kanji = '深い'
+kana = 'ふかい'
+english = 'deep'
+source = 'wanikani; wiktionary'
+level = 'n4'
+tags = ['adjective', 'common', 'i-adjective', 'water']
+highest_frequency = 437
+highest_frequency_source = 'Novels'
+
+[[cards]]
 kanji = '古い'
 kana = 'ふるい'
 english = 'old (things not people); aged; ancient'

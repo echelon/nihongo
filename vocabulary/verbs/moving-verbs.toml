@@ -1,0 +1,13 @@
+[[cards]]
+kanji = '通う'
+kana = 'かよう'
+english = 'to commute'
+english-conjugated = { past = 'commuted', base = 'commute', continuous = 'commuting', plural = 'commutes' }
+verb-type = 'godan-u'
+transitive = false
+source = 'wanikani; wiktionary'
+level = 'n4'
+tags = ['common']
+highest_frequency = 1443
+highest_frequency_source = 'Wikipedia'
+

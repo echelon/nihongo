@@ -23,6 +23,19 @@ highest_frequency = 252
 highest_frequency_source = 'Anime'
 
 [[cards]]
+kanji = '見付ける'
+kana = 'みつける'
+english = 'to find ~; to discover ~'
+english-conjugated = { past = 'found', base = 'find', continuous = 'finding', plural = 'finds' }
+verb-type = 'ichidan'
+transitive = true
+source = 'wanikani; anime; wiktionary'
+level = 'n4'
+highest_frequency = 375
+highest_frequency_source = 'Anime'
+tags = ['common']
+
+[[cards]]
 kanji = '見る'
 kana = 'みる'
 english = 'to see ~'

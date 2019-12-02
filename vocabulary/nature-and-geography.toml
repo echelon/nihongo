@@ -8,6 +8,14 @@ highest_frequency = 1405
 highest_frequency_source = 'Wikipedia'
 
 [[cards]]
+kanji = '泉'
+kana = 'いずみ'
+english = 'spring; fountain'
+source = 'wanikani; japan visit name?'
+level = 'n3'
+tags = ['common', 'nature', 'noun', 'water']
+
+[[cards]]
 kanji = '岩'
 kana = 'いわ'
 english = 'boulder; crag; cliff'

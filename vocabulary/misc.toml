@@ -1445,7 +1445,7 @@ highest_frequency_source = 'Wikipedia'
 [[cards]]
 kanji = '説明'
 kana = 'せつめい'
-english = 'explanation; exposition'
+english = 'explanation'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
