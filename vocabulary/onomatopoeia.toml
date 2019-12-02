@@ -1,20 +1,20 @@
 [[cards]]
-kanji = 'そろそろ'
-kana = 'そろそろ'
-english = 'slowly, gradually -- OR -- soon, any time now'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv', 'onomatopoia']
-highest_frequency = 392
-highest_frequency_source = 'Anime'
-
-[[cards]]
 kanji = 'きらきら'
 kana = 'きらきら'
 english = 'glittering; sparkling'
 source = 'wanikani'
 tags = ['adverb', 'adverb-taking-to', 'common', 'suru-verb']
 highest_frequency = 11450
+highest_frequency_source = 'Anime'
+
+[[cards]]
+kanji = 'そろそろ'
+kana = 'そろそろ'
+english = 'slowly, gradually -- OR -- soon, any time now'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'onomatopoia', 'tsv']
+highest_frequency = 392
 highest_frequency_source = 'Anime'
 
 [[cards]]

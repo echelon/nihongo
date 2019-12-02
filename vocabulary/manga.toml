@@ -278,7 +278,7 @@ highest_frequency_source = 'Anime'
 [[cards]]
 kanji = '真逆'
 kana = 'まさか'
-english = "by no means! certainly not!"
+english = 'by no means! certainly not!'
 source = 'anime'
 level = 'n3'
 tags = ['adverb', 'common', 'no-adjective', 'noun']
