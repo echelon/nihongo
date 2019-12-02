@@ -110,6 +110,15 @@ highest_frequency = 213
 highest_frequency_source = 'Leeds'
 
 [[cards]]
+kanji = 'ずっと'
+kana = 'ずっと'
+english = 'always; forever; all along; continuously in some state (for a long time or distance)'
+level = 'n3'
+tags = ['adverb', 'anime', 'common']
+highest_frequency = 158
+highest_frequency_source = 'Anime'
+
+[[cards]]
 kanji = '先輩'
 kana = 'せんぱい'
 english = 'senior (at school or work)'
@@ -122,7 +131,7 @@ highest_frequency_source = 'Anime'
 [[cards]]
 kanji = '絶対'
 kana = 'ぜったい'
-english = 'definitely'
+english = 'absolute(ly); definite(ly); unconditionally'
 source = 'anime'
 level = 'n3'
 tags = ['adverb', 'anime', 'common']

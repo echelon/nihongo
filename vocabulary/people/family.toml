@@ -159,6 +159,8 @@ english = 'housewife'
 source = 'try! n4'
 level = 'n3'
 tags = ['common', 'family', 'noun', 'people']
+highest_frequency = 3550
+highest_frequency_source = 'Leeds'
 
 [[cards]]
 kanji = '祖父'

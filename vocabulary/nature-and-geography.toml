@@ -14,6 +14,8 @@ english = 'spring; fountain'
 source = 'wanikani; japan visit name?'
 level = 'n3'
 tags = ['common', 'nature', 'noun', 'water']
+highest_frequency = 1285
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '岩'
@@ -100,6 +102,8 @@ english = 'steam'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'nature', 'noun', 'physics', 'water']
+highest_frequency = 2423
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '滝'

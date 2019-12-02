@@ -94,9 +94,9 @@ highest_frequency_source = 'Anime'
 [[cards]]
 kanji = '作文'
 kana = 'さくぶん'
-english = 'essay writing; composition'
+english = 'composition; writing (essay, prose, etc.)'
 level = 'n5'
-tags = []
+tags = ['noun', 'suru-verb']
 highest_frequency = 7471
 highest_frequency_source = 'Leeds'
 
@@ -222,6 +222,8 @@ english = 'physical education'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'school']
+highest_frequency = 1960
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '大学'
@@ -343,6 +345,16 @@ source = 'manga'
 tags = ['common']
 highest_frequency = 6029
 highest_frequency_source = 'Leeds'
+
+[[cards]]
+kanji = '能力'
+kana = 'のうりょく'
+english = 'ability'
+source = 'jlpt'
+level = 'n3'
+tags = ['common', 'noun']
+highest_frequency = 273
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '封筒'

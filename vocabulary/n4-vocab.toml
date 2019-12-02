@@ -272,15 +272,6 @@ highest_frequency = 2226
 highest_frequency_source = 'Anime'
 
 [[cards]]
-kanji = 'ずっと'
-kana = 'ずっと'
-english = 'continuously in some state (for a long time or distance); all along; the whole time; long ago; far away'
-level = 'n3'
-tags = ['adverb', 'anime', 'common']
-highest_frequency = 158
-highest_frequency_source = 'Anime'
-
-[[cards]]
 kanji = '政治'
 kana = 'せいじ'
 english = 'politics'

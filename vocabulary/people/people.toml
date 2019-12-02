@@ -260,6 +260,8 @@ english = 'assistant'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'people']
+highest_frequency = 3940
+highest_frequency_source = 'Wikipedia'
 
 [[cards]]
 kanji = '人口'
@@ -354,6 +356,8 @@ english = 'companion'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'people']
+highest_frequency = 291
+highest_frequency_source = 'Anime'
 
 [[cards]]
 kanji = '～人'

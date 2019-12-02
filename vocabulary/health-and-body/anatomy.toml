@@ -255,4 +255,6 @@ kana = 'ゆびさき'
 english = 'fingertip'
 source = 'wanikani'
 tags = ['body', 'common']
+highest_frequency = 1711
+highest_frequency_source = 'Novels'
 
