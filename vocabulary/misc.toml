@@ -472,7 +472,7 @@ highest_frequency_source = 'Wikipedia'
 [[cards]]
 kanji = '刀'
 kana = 'かたな'
-english = ''
+english = 'single-edged sword'
 level = 'n3'
 tags = ['common', 'weapons']
 highest_frequency = 399

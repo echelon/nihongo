@@ -96,6 +96,14 @@ highest_frequency = 1995
 highest_frequency_source = 'Leeds'
 
 [[cards]]
+kanji = '食料品'
+kana = 'しょくりょうひん'
+english = 'groceries'
+source = 'wiktionary'
+level = 'n4'
+tags = ['common', 'food', 'noun', 'shopping']
+
+[[cards]]
 kanji = '蕎麦'
 kana = 'そば'
 english = 'buckwheat; buckwheat noodles'
@@ -169,6 +177,14 @@ kana = 'ばんごはん'
 english = 'dinner'
 level = 'n5'
 tags = []
+
+[[cards]]
+kanji = '昼御飯'
+kana = 'ひるごはん'
+english = 'lunch'
+source = 'wiktionary'
+level = 'n5'
+tags = ['food', 'noun', 'uncommon']
 
 [[cards]]
 kanji = '昼ご飯'

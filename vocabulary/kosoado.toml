@@ -1,4 +1,14 @@
 [[cards]]
+kanji = 'ああ'
+kana = 'ああ'
+english = 'like that (distant)'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['adverb', 'common']
+highest_frequency = 178
+highest_frequency_source = 'Novels'
+
+[[cards]]
 kanji = '彼処'
 kana = 'あそこ'
 english = 'there (way over there)'

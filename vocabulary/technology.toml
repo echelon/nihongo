@@ -81,6 +81,26 @@ highest_frequency = 4807
 highest_frequency_source = 'Wikipedia'
 
 [[cards]]
+kanji = '電灯'
+kana = 'でんとう'
+english = 'electric light'
+source = 'wiktionary'
+level = 'n4'
+tags = ['common', 'light', 'noun']
+highest_frequency = 12133
+highest_frequency_source = 'Leeds'
+
+[[cards]]
+kanji = '電報'
+kana = 'でんぽう'
+english = 'telegram'
+source = 'wiktionary'
+level = 'n4'
+tags = ['common', 'communication', 'noun', 'old']
+highest_frequency = 8381
+highest_frequency_source = 'Wikipedia'
+
+[[cards]]
 kanji = '電話'
 kana = 'でんわ'
 english = 'telephone; telephone call'

@@ -1,0 +1,54 @@
+[[cards]]
+kanji = 'あ'
+kana = 'あ'
+english = 'Ah'
+source = 'wiktionary'
+level = 'n4'
+tags = ['generated', 'tsv']
+
+[[cards]]
+kanji = '嗚呼'
+kana = 'ああ'
+english = 'Ah!; Oh!; yes.'
+level = 'n5'
+tags = ['common', 'expression']
+highest_frequency = 178
+highest_frequency_source = 'Novels'
+
+[[cards]]
+kanji = 'あっ'
+kana = 'あっ'
+english = 'ah; oh; hey!'
+level = 'n4'
+source = 'jlptstudy.net'
+tags = ['common']
+highest_frequency = 700
+highest_frequency_source = 'Novels'
+
+[[cards]]
+kanji = 'あのう'
+kana = 'あのう'
+english = 'um...; well...'
+level = 'n5'
+tags = ['common', 'expressions']
+
+[[cards]]
+kanji = '一体'
+kana = 'いったい'
+english = '(what) the heck; wtf'
+source = 'wanikani'
+level = 'n3'
+tags = ['adverb', 'common', 'noun']
+highest_frequency = 306
+highest_frequency_source = 'Anime'
+
+[[cards]]
+kanji = 'うん'
+kana = 'うん'
+english = 'yes; yeah; hmm (casual)'
+source = 'irasshai; anime'
+level = 'n4'
+tags = ['common', 'expression']
+highest_frequency = 484
+highest_frequency_source = 'Novels'
+

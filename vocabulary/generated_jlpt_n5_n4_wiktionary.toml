@@ -1,12 +1,4 @@
 [[cards]]
-kanji = 'あ'
-kana = 'あ'
-english = 'Ah'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-
-[[cards]]
 kanji = '集る'
 kana = 'あつまる'
 english = 'to gather'
@@ -791,14 +783,6 @@ highest_frequency = 489
 highest_frequency_source = 'Wikipedia'
 
 [[cards]]
-kanji = '食料品'
-kana = 'しょくりょうひん'
-english = 'groceries'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-
-[[cards]]
 kanji = '知らせる'
 kana = 'しらせる'
 english = 'to notify'
@@ -1245,26 +1229,6 @@ level = 'n5'
 tags = ['generated', 'tsv']
 
 [[cards]]
-kanji = '電灯'
-kana = 'でんとう'
-english = 'electric light'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 12133
-highest_frequency_source = 'Leeds'
-
-[[cards]]
-kanji = '電報'
-kana = 'でんぽう'
-english = 'telegram'
-source = 'wiktionary'
-level = 'n4'
-tags = ['generated', 'tsv']
-highest_frequency = 8381
-highest_frequency_source = 'Wikipedia'
-
-[[cards]]
 kanji = 'とうとう'
 kana = 'とうとう'
 english = 'finally, after all'
@@ -1595,14 +1559,6 @@ level = 'n4'
 tags = ['generated', 'tsv']
 highest_frequency = 4018
 highest_frequency_source = 'Anime'
-
-[[cards]]
-kanji = '昼御飯'
-kana = 'ひるごはん'
-english = 'midday meal'
-source = 'wiktionary'
-level = 'n5'
-tags = ['generated', 'tsv']
 
 [[cards]]
 kanji = '昼間'
