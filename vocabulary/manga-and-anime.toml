@@ -48,6 +48,16 @@ highest_frequency = 318
 highest_frequency_source = 'Anime'
 
 [[cards]]
+kanji = '経験'
+kana = 'けいけんする'
+english = 'experience'
+source = 'wiktionary; boku-no-hero'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
+highest_frequency = 531
+highest_frequency_source = 'Leeds'
+
+[[cards]]
 kanji = '決して'
 kana = 'けっして'
 english = 'by no means!'
@@ -129,6 +139,16 @@ highest_frequency = 213
 highest_frequency_source = 'Leeds'
 
 [[cards]]
+kanji = '象徴'
+kana = 'しょうちょう'
+english = 'abstract symbol; emblem'
+source = 'boku-no-hero'
+level = 'n1'
+tags = ['common', 'no-adjective', 'noun', 'suru-verb']
+highest_frequency = 2817
+highest_frequency_source = 'Wikipedia'
+
+[[cards]]
 kanji = 'ずっと'
 kana = 'ずっと'
 english = 'always; forever; all along; continuously in some state (for a long time or distance)'
@@ -161,7 +181,7 @@ highest_frequency_source = 'Anime'
 kanji = '存在'
 kana = 'そんざい'
 english = 'existence; being'
-source = 'anime; db super'
+source = 'anime; db super; boku-no-hero'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
 highest_frequency = 107
@@ -190,7 +210,7 @@ highest_frequency_source = 'Anime'
 [[cards]]
 kanji = '大体'
 kana = 'だいたい'
-english = 'main point; gist'
+english = 'outline; gist; main point'
 source = 'anime; db super; wanikani'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun']
@@ -301,6 +321,16 @@ level = 'n3'
 source = 'manga'
 tags = ['common']
 highest_frequency = 523
+highest_frequency_source = 'Anime'
+
+[[cards]]
+kanji = '暴力'
+kana = 'ぼうりょく'
+english = 'violence; meyhem'
+source = 'boku-no-hero'
+level = 'n1'
+tags = ['common', 'noun']
+highest_frequency = 2705
 highest_frequency_source = 'Anime'
 
 [[cards]]

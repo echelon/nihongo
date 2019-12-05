@@ -3237,16 +3237,6 @@ highest_frequency = 2513
 highest_frequency_source = 'Leeds'
 
 [[cards]]
-kanji = '経験'
-kana = 'けいけんする'
-english = 'experience, to experience'
-source = 'wiktionary'
-level = 'n3'
-tags = ['generated', 'tsv']
-highest_frequency = 531
-highest_frequency_source = 'Leeds'
-
-[[cards]]
 kanji = '傾向'
 kana = 'けいこう'
 english = 'tendency,trend,inclination'
