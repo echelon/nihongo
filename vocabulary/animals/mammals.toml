@@ -119,6 +119,15 @@ tags = []
 frequency_scores = { anime = 574, leeds = 1618, novels = 1100, wikipedia = 2461 }
 
 [[cards]]
+kanji = '鼠'
+kana = 'ねずみ'
+english = 'mouse; rat'
+source = 'lessons; wiktionary'
+level = 'n3'
+tags = ['animal', 'common', 'mammal', 'noun']
+frequency_scores = { anime = 9132, leeds = 13756, wikipedia = 5811 }
+
+[[cards]]
 kanji = '羊'
 kana = 'ひつじ'
 english = 'sheep'

@@ -1822,15 +1822,6 @@ tags = ['common', 'no-adjective', 'noun', 'people']
 frequency_scores = { anime = 19271, leeds = 3990, wikipedia = 3626 }
 
 [[cards]]
-kanji = '能力'
-kana = 'のうりょく'
-english = 'ability'
-source = 'anime-frequency'
-level = 'n3'
-tags = ['common', 'noun']
-frequency_scores = { anime = 273, leeds = 729, novels = 885, wikipedia = 665 }
-
-[[cards]]
 kanji = '柱'
 kana = 'はしら'
 english = 'pillar; post'
@@ -1845,6 +1836,15 @@ english = 'extremity; verge; outskirts'
 source = 'wanikani'
 tags = ['common', 'noun']
 frequency_scores = { anime = 6529, leeds = 11283 }
+
+[[cards]]
+kanji = '旗'
+kana = 'はた'
+english = 'flag'
+source = 'wiktionary; lessons'
+level = 'n3'
+tags = ['common', 'countries', 'diplomacy', 'noun']
+frequency_scores = { anime = 6878, leeds = 5983, novels = 1865, wikipedia = 1851 }
 
 [[cards]]
 kanji = '発売'

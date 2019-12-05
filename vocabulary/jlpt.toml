@@ -1,0 +1,41 @@
+[[cards]]
+kanji = '段落'
+kana = 'だんらく'
+english = 'paragraph'
+source = 'lessons'
+tags = ['common', 'noun', 'writing']
+frequency_scores = { anime = 21073, leeds = 11648 }
+
+[[cards]]
+kanji = '聴解'
+kana = 'ちょうかい'
+english = 'listening comprehension'
+source = 'lessons; jlpt'
+tags = ['noun', 'suru-verb', 'uncommon']
+
+[[cards]]
+kanji = '読解'
+kana = 'どっかい'
+english = 'reading comprehension'
+source = 'lessons; jlpt'
+tags = ['noun', 'suru-verb', 'uncommon']
+frequency_scores = { anime = 32887, leeds = 12054 }
+
+[[cards]]
+kanji = '能力'
+kana = 'のうりょく'
+english = 'ability'
+source = 'jlpt; anime-frequency'
+level = 'n3'
+tags = ['common', 'noun']
+frequency_scores = { anime = 273, leeds = 729, novels = 885, wikipedia = 665 }
+
+[[cards]]
+kanji = '理解'
+kana = 'りかい'
+english = 'comprehension, understanding'
+source = 'lessons; jlpt; wiktionary'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb']
+frequency_scores = { anime = 800, leeds = 391, novels = 637, wikipedia = 2116 }
+

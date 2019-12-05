@@ -1,4 +1,13 @@
 [[cards]]
+kanji = '私'
+kana = 'あたし'
+english = 'I; me (female form)'
+source = 'anime; anime-freq'
+level = 'n1'
+tags = ['common', 'female', 'pronoun']
+frequency_scores = { anime = 17, leeds = 58, novels = 62, wikipedia = 1076 }
+
+[[cards]]
 kanji = '貴方'
 kana = 'あんた'
 english = 'you (familiar form of "anata")'
@@ -48,6 +57,14 @@ english = 'fellow; chap (derogatory)'
 source = 'anime-freq'
 tags = ['anime', 'common', 'derogatory', 'pronoun', 'rude']
 frequency_scores = { anime = 185, leeds = 2537, novels = 432, wikipedia = 5318 }
+
+[[cards]]
+kanji = '野郎'
+kana = 'やろう'
+english = 'guy; bastard; asshole'
+source = 'anime; anime-freq'
+tags = ['impolite', 'noun', 'pronoun', 'rude', 'uncommon']
+frequency_scores = { anime = 382, leeds = 7876, novels = 1751 }
 
 [[cards]]
 kanji = '私たち'

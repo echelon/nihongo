@@ -311,15 +311,6 @@ tags = ['common']
 frequency_scores = { anime = 6790, leeds = 6029, wikipedia = 8767 }
 
 [[cards]]
-kanji = '能力'
-kana = 'のうりょく'
-english = 'ability'
-source = 'jlpt'
-level = 'n3'
-tags = ['common', 'noun']
-frequency_scores = { anime = 273, leeds = 729, novels = 885, wikipedia = 665 }
-
-[[cards]]
 kanji = '封筒'
 kana = 'ふうとう'
 english = 'envelope'

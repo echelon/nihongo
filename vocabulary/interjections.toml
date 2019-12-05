@@ -49,6 +49,14 @@ tags = ['common', 'expression']
 frequency_scores = { leeds = 3029, novels = 484 }
 
 [[cards]]
+kanji = 'おいおい'
+kana = 'おいおい'
+english = 'Hey! Wait a minute!'
+source = 'anime; anime-freq'
+tags = ['common']
+frequency_scores = { anime = 812, leeds = 8383 }
+
+[[cards]]
 kanji = 'じゃ'
 kana = 'じゃ'
 english = 'well then…'

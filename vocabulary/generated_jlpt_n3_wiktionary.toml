@@ -870,15 +870,6 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 2696, leeds = 2044, wikipedia = 5820 }
 
 [[cards]]
-kanji = '噂'
-kana = 'うわさ'
-english = 'rumour, report, gossip, common talk'
-source = 'wiktionary'
-level = 'n3'
-tags = ['generated', 'tsv']
-frequency_scores = { anime = 852, leeds = 3069, novels = 1012, wikipedia = 3865 }
-
-[[cards]]
 kanji = '永遠'
 kana = 'えいえん'
 english = 'eternity, perpetuity, immortality, permanence'
@@ -8248,15 +8239,6 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 1153, leeds = 1464, novels = 1888, wikipedia = 3154 }
 
 [[cards]]
-kanji = '鼠'
-kana = 'ねずみ'
-english = '(1) mouse, rat,'
-source = 'wiktionary'
-level = 'n3'
-tags = ['generated', 'tsv']
-frequency_scores = { anime = 9132, leeds = 13756, wikipedia = 5811 }
-
-[[cards]]
 kanji = '熱心'
 kana = 'ねっしん'
 english = 'zeal,enthusiasm'
@@ -8569,15 +8551,6 @@ source = 'wiktionary'
 level = 'n3'
 tags = ['generated', 'tsv']
 frequency_scores = { anime = 1310, leeds = 3891, novels = 1699, wikipedia = 3993 }
-
-[[cards]]
-kanji = '旗'
-kana = 'はた'
-english = 'flag'
-source = 'wiktionary'
-level = 'n3'
-tags = ['generated', 'tsv']
-frequency_scores = { anime = 6878, leeds = 5983, novels = 1865, wikipedia = 1851 }
 
 [[cards]]
 kanji = '畑'
@@ -10776,15 +10749,6 @@ source = 'wiktionary'
 level = 'n3'
 tags = ['generated', 'tsv']
 frequency_scores = { anime = 4399, leeds = 994, wikipedia = 2837 }
-
-[[cards]]
-kanji = '理解'
-kana = 'りかい'
-english = 'understanding,comprehension'
-source = 'wiktionary'
-level = 'n3'
-tags = ['generated', 'tsv']
-frequency_scores = { anime = 800, leeds = 391, novels = 637, wikipedia = 2116 }
 
 [[cards]]
 kanji = '陸'

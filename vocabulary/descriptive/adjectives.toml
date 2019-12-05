@@ -425,6 +425,15 @@ tags = ['common', 'na-adjective', 'noun']
 frequency_scores = { anime = 1773, leeds = 4170 }
 
 [[cards]]
+kanji = '変'
+kana = 'へん'
+english = 'strange; odd; suspicious'
+source = 'irasshai; anime; anime-freq'
+level = 'n4'
+tags = ['common', 'na-adjective', 'noun']
+frequency_scores = { anime = 301, leeds = 1811, novels = 899, wikipedia = 3807 }
+
+[[cards]]
 kanji = '便利'
 kana = 'べんり'
 english = 'convenient; handy; useful'
@@ -473,6 +482,16 @@ english = 'varied; all sorts; many'
 source = 'sekai-wa-fushigi-2'
 tags = ['na-adjective', 'no-adjective', 'noun', 'uncommon']
 frequency_scores = { anime = 30749, leeds = 11984 }
+
+[[cards]]
+kanji = '優しい'
+kana = 'やさしい'
+english = 'tender; gentle; affectionate'
+source = 'anime'
+level = 'n4'
+explain = 'different than 易しい (easy,plain,simple)'
+tags = ['common', 'i-adjective']
+frequency_scores = { anime = 429, leeds = 2083, novels = 1439, wikipedia = 6274 }
 
 [[cards]]
 kanji = '易しい'

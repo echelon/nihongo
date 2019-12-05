@@ -86,6 +86,15 @@ tags = ['common']
 frequency_scores = { anime = 10386, leeds = 9488, wikipedia = 4633 }
 
 [[cards]]
+kanji = '地震'
+kana = 'じしん'
+english = 'earthquake'
+source = 'irasshai'
+level = 'n4'
+tags = ['common', 'noun']
+frequency_scores = { anime = 4761, leeds = 1828, wikipedia = 1323 }
+
+[[cards]]
 kanji = '蒸気'
 kana = 'じょうき'
 english = 'steam'

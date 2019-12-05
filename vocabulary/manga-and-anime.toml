@@ -1,4 +1,88 @@
 [[cards]]
+kanji = '噂'
+kana = 'うわさ'
+english = 'rumour'
+source = 'wiktionary; lessons; anime-freq'
+level = 'n3'
+tags = ['common', 'noun', 'suru-verb', 'no-adjective']
+frequency_scores = { anime = 852, leeds = 3069, novels = 1012, wikipedia = 3865 }
+
+[[cards]]
+kanji = '懲戒'
+kana = 'ちょうかい'
+english = 'discipline; punishment'
+source = 'anime; boku-no-hero-maybe'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '自身'
+kana = 'じしん'
+english = 'self-confidence'
+source = 'lessons; anime-frequency'
+level = 'n1'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '知り合い'
+kana = 'しりあい'
+english = 'acquaintance'
+source = 'lessons; anime-frequency'
+level = 'n2'
+tags = ['common', 'noun', 'people', 'social']
+
+[[cards]]
+kanji = '城'
+kana = 'しろ'
+english = 'castle'
+source = 'anime; miyazaki'
+level = 'n3'
+tags = ['common', 'fantasy', 'noun']
+
+[[cards]]
+kanji = '作戦'
+kana = 'さくせん'
+english = 'tactics; strategy'
+source = 'anime-freq; wanikani'
+level = 'n1'
+tags = ['common', 'noun']
+
+[[cards]]
+kanji = '儘'
+kana = 'まま'
+english = 'as it is; condition; state'
+source = 'anime-freq'
+tags = ['common', 'noun', 'adverbial-noun']
+
+[[cards]]
+kanji = 'お願い'
+kana = 'おねがい'
+english = 'please; request; wish'
+source = 'anime; anime-freq; irasshai'
+tags = ['common', 'noun', 'suru-verb']
+
+[[cards]]
+kanji = '魔法'
+kana = 'まほう'
+english = 'magic; witchcraft; sorcery'
+source = 'anime; anime-freq'
+tags = ['common', 'fantasy']
+
+[[cards]]
+kanji = '若しかして'
+kana = 'もしかして'
+english = 'perhaps, possibly, if I'm not mistaken (expr); in the event that, in case'
+source = 'anime; anime-freq'
+level = 'n1'
+tags = ['common', 'expression', 'adverb']
+
+[[cards]]
+kanji = '学園'
+kana = 'がくえん'
+english = 'academy; campus'
+source = 'anime-freq'
+tags = ['common', 'noun', 'school']
+
+[[cards]]
 kanji = '愛好'
 kana = 'あいこう'
 english = 'adoration'
