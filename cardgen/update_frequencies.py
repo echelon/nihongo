@@ -7,6 +7,7 @@ Update the entire set of notes with frequency data.
 import glob
 
 from analysis import load_word_frequency_map
+from library import DynamicInlineTableDict
 from library import INDEX_NAME
 from library import NoteLibrary
 from library import write_toml
@@ -40,6 +41,7 @@ def main():
       for note in notes[INDEX_NAME]:
         frequency_score = None
         frequency_list_name = None
+        frequency_scores = {}
 
         for freq_name, freq_map in frequencies.items():
           current_score = 1000000000
@@ -50,6 +52,9 @@ def main():
           else:
             continue
 
+          human_name = frequency_list_names[freq_name].lower()
+          frequency_scores[human_name] = current_score
+
           if not frequency_score \
               or current_score < frequency_score:
             frequency_score = current_score
@@ -59,6 +64,7 @@ def main():
           list_name = frequency_list_names[frequency_list_name]
           note['highest_frequency'] = frequency_score
           note['highest_frequency_source'] = list_name
+          note['frequency_scores'] = DynamicInlineTableDict(frequency_scores)
           freq_count += 1
 
       print('{0: <50} : {2} / {1} notes'.format(filename, note_count, freq_count))

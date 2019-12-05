@@ -6,11 +6,21 @@ import glob
 import sys
 import toml
 
+from toml.decoder import InlineTableDict
+
 from collections import OrderedDict
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
 INDEX_NAME = 'cards'
+
+class DynamicInlineTableDict(dict, InlineTableDict):
+  """
+  Concrete implementation of a dictionary that will be encoded as an
+  inline table in TOML. See the encoder library for details on how
+  this is used.
+  """
+  pass
 
 def write_toml(note_toml_data, filename):
   # Use inline tables
@@ -90,7 +100,7 @@ class NoteLibrary:
 
   def add_notes_from_file(self, filename):
     """
-    If we recently added or updated a file, load its changes.
+    If we recently added or updated a file, (re)load its changes.
     This is only additive and will not remove any notes.
     """
     notes = NoteLibrary.read_notes_from_toml_file(filename)

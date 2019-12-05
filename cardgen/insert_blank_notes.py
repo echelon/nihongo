@@ -11,19 +11,10 @@ This is undone by running the normalization code, `sort.py`.
 import glob
 from collections import OrderedDict
 
-from toml.decoder import InlineTableDict
-
+from library import DynamicInlineTableDict
 from library import NoteLibrary
 from sort import INDEX_NAME
 from sort import write_toml
-
-class DynamicInlineTableDict(dict, InlineTableDict):
-  """
-  Concrete implementation of a dictionary that will be encoded as an
-  inline table in TOML. See the encoder library for details on how
-  this is used.
-  """
-  pass
 
 def insert_blanks(notes, filename):
   blank_note = OrderedDict()
