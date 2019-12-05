@@ -3,16 +3,14 @@ kanji = '蟻'
 kana = 'あり'
 english = 'ant'
 tags = ['common', 'insect', 'noun']
-highest_frequency = 3761
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 12401, leeds = 3761, wikipedia = 5382 }
 
 [[cards]]
 kanji = '蜘蛛'
 kana = 'くも'
 english = 'spider'
 tags = ['animals', 'common', 'insects', 'noun']
-highest_frequency = 5775
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5775, wikipedia = 7372 }
 
 [[cards]]
 kanji = '蜚蠊'
@@ -26,8 +24,7 @@ kana = 'ちょう'
 english = 'butterfly'
 level = 'n1'
 tags = ['animals', 'common', 'noun']
-highest_frequency = 900
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2191, leeds = 9389, novels = 900, wikipedia = 5528 }
 
 [[cards]]
 kanji = '蜻蛉'
@@ -35,32 +32,28 @@ kana = 'とんぼ'
 english = 'dragonfly'
 source = 'japan-trip'
 tags = ['animals', 'common', 'noun']
-highest_frequency = 24130
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 24130 }
 
 [[cards]]
 kanji = '蜂'
 kana = 'はち'
 english = 'bee; wasp; hornet'
 tags = ['animals', 'common', 'insects', 'noun']
-highest_frequency = 4347
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 8081, leeds = 12956, wikipedia = 4347 }
 
 [[cards]]
 kanji = '蛍'
 kana = 'ほたる'
 english = 'firefly'
 tags = ['common', 'insect', 'noun']
-highest_frequency = 2150
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2150 }
 
 [[cards]]
 kanji = '蚯蚓'
 kana = 'みみず'
 english = 'earthworm'
 tags = ['insect', 'noun', 'uncommon']
-highest_frequency = 27866
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 27866 }
 
 [[cards]]
 kanji = '虫'
@@ -68,6 +61,5 @@ kana = 'むし'
 english = 'insect'
 level = 'n4'
 tags = ['animals', 'common', 'noun']
-highest_frequency = 1262
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1262, leeds = 3963, novels = 1898, wikipedia = 3121 }
 

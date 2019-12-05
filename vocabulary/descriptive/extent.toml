@@ -4,8 +4,7 @@ kana = 'あまり'
 english = 'not very; not much'
 level = 'n5'
 tags = ['adverb', 'common', 'na-adjective', 'no-adjective']
-highest_frequency = 489
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 11593, leeds = 3368, novels = 489, wikipedia = 990 }
 
 [[cards]]
 kanji = '凄く'
@@ -21,8 +20,7 @@ english = 'extremely; surprisingly'
 source = 'wanikani; anime'
 level = 'n3'
 tags = ['adverb', 'adverb-taking-to-particle', 'common']
-highest_frequency = 1233
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1233, leeds = 3602, novels = 1289 }
 
 [[cards]]
 kanji = '大変'
@@ -30,8 +28,7 @@ kana = 'たいへん'
 english = 'very; terrible'
 level = 'n5'
 tags = ['adverb', 'common', 'na-adjective', 'noun']
-highest_frequency = 337
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 337, leeds = 498, novels = 1179, wikipedia = 4119 }
 
 [[cards]]
 kanji = '迚も'
@@ -40,8 +37,7 @@ english = 'very ; exceedingly'
 level = 'n5'
 explain = 'http://nihonshock.com/2009/11/stop-saying-totemo/'
 tags = ['adverb', 'common']
-highest_frequency = 394
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 518, leeds = 394, novels = 541, wikipedia = 5246 }
 
 [[cards]]
 kanji = '非常に'
@@ -56,6 +52,5 @@ kanji = '酷く'
 kana = 'ひどく'
 english = 'terribly; awfully; very much'
 tags = ['adverb', 'common']
-highest_frequency = 16515
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 16515 }
 

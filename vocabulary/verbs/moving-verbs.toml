@@ -8,6 +8,5 @@ transitive = false
 source = 'wanikani; wiktionary'
 level = 'n4'
 tags = ['common']
-highest_frequency = 1443
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2241, leeds = 3971, wikipedia = 1443 }
 

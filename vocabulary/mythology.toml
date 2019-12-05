@@ -5,8 +5,7 @@ english = 'devil; demon'
 source = 'anime; jisho'
 level = 'n3'
 tags = ['common', 'monster', 'mythical', 'noun']
-highest_frequency = 710
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 710, leeds = 4603, novels = 2157, wikipedia = 3876 }
 
 [[cards]]
 kanji = '鬼'
@@ -15,8 +14,7 @@ english = 'demon; ogre'
 source = 'majoras mask'
 level = 'n3'
 tags = ['common', 'monster', 'mythical', 'noun']
-highest_frequency = 677
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 677, leeds = 3680, novels = 1141, wikipedia = 2323 }
 
 [[cards]]
 kanji = '怪獣'
@@ -25,8 +23,7 @@ english = 'monster'
 source = 'films'
 level = 'n1'
 tags = ['common', 'monster', 'mythical', 'noun']
-highest_frequency = 4129
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 4990, leeds = 10154, wikipedia = 4129 }
 
 [[cards]]
 kanji = '神'
@@ -35,8 +32,7 @@ english = 'god; deity; spirit'
 source = 'anime'
 level = 'n3'
 tags = ['anime', 'common', 'noun', 'noun-prefix', 'religion']
-highest_frequency = 184
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 184, leeds = 694, novels = 362, wikipedia = 364 }
 
 [[cards]]
 kanji = '幽霊'
@@ -45,8 +41,7 @@ english = 'specter; phantom'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 1830
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1830, leeds = 8719, novels = 2279, wikipedia = 9403 }
 
 [[cards]]
 kanji = '妖怪'
@@ -54,6 +49,5 @@ kana = 'ようかい'
 english = 'ghost'
 source = 'games'
 tags = ['common', 'noun']
-highest_frequency = 3737
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3737, leeds = 11053, wikipedia = 6299 }
 

@@ -8,8 +8,7 @@ transitive = true
 source = 'wanikani'
 level = 'n4'
 tags = ['common']
-highest_frequency = 635
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 635, leeds = 1476, novels = 648, wikipedia = 1368 }
 
 [[cards]]
 kanji = '決める'
@@ -21,8 +20,7 @@ transitive = true
 source = 'wanikani'
 level = 'n4'
 tags = ['common']
-highest_frequency = 278
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 278, leeds = 679, novels = 992, wikipedia = 897 }
 
 [[cards]]
 kanji = '指す'
@@ -34,8 +32,7 @@ transitive = true
 source = 'wanikani'
 level = 'n3'
 tags = ['common']
-highest_frequency = 808
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 4981, leeds = 3331, novels = 1358, wikipedia = 808 }
 
 [[cards]]
 kanji = '近づく'
@@ -47,8 +44,7 @@ transitive = false
 source = 'wanikani'
 level = 'n1'
 tags = ['common']
-highest_frequency = 570
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 898, leeds = 2320, novels = 570 }
 
 [[cards]]
 kanji = '投げる'
@@ -60,8 +56,7 @@ transitive = true
 source = 'wanikani'
 level = 'n4'
 tags = ['common']
-highest_frequency = 1360
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1663, leeds = 3202, novels = 1360, wikipedia = 2099 }
 
 [[cards]]
 kanji = '並べる'
@@ -73,8 +68,7 @@ transitive = true
 source = 'n4-list'
 level = 'n5'
 tags = ['common']
-highest_frequency = 2168
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3649, leeds = 3390, novels = 2168, wikipedia = 4599 }
 
 [[cards]]
 kanji = '逃げる'
@@ -86,6 +80,5 @@ transitive = false
 source = 'wanikani'
 level = 'n4'
 tags = ['common']
-highest_frequency = 179
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 179, leeds = 2539, novels = 533, wikipedia = 2442 }
 

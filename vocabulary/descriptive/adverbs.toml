@@ -5,8 +5,7 @@ kana = 'いつしか'
 english = 'unnoticed; unawares'
 source = 'manga'
 tags = ['adverb', 'uncommon']
-highest_frequency = 12106
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 36309, leeds = 12106 }
 
 [[cards]]
 kanji = '何時でも'
@@ -23,8 +22,7 @@ english = 'always; without exception; without fail'
 source = 'nihongo-charenji-n4-kotoba; bonobono-anime'
 level = 'n4'
 tags = ['adverb', 'common']
-highest_frequency = 439
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 439, leeds = 1082, novels = 1352, wikipedia = 3357 }
 
 [[cards]]
 kanji = '少し'
@@ -32,8 +30,7 @@ kana = 'すこし'
 english = 'small quantity; little; few'
 level = 'n5'
 tags = ['adverb', 'common', 'noun']
-highest_frequency = 193
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 193, leeds = 329, novels = 196, wikipedia = 2957 }
 
 [[cards]]
 kanji = '全て'
@@ -41,8 +38,7 @@ kana = 'すべて'
 english = 'everything; completely'
 level = 'n3'
 tags = ['adverb', 'anime', 'common', 'no-adjective', 'noun']
-highest_frequency = 187
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 242, leeds = 691, novels = 1793, wikipedia = 187 }
 
 [[cards]]
 kanji = 'たっぷり'
@@ -51,8 +47,7 @@ english = 'full; ample'
 source = 'food-package'
 level = 'n3'
 tags = ['adverb', 'common', 'na-adjective', 'no-adjective', 'noun']
-highest_frequency = 2092
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2810, leeds = 3713, novels = 2092 }
 
 [[cards]]
 kanji = '例えば'
@@ -60,8 +55,7 @@ kana = 'たとえば'
 english = 'for example'
 level = 'n4'
 tags = ['adverb', 'common']
-highest_frequency = 572
-highest_frequency_source = 'Leeds'
+frequency_scores = { leeds = 572, novels = 2117, wikipedia = 618 }
 
 [[cards]]
 kanji = '多分'
@@ -69,8 +63,7 @@ kana = 'たぶん'
 english = 'perhaps; probably'
 level = 'n5'
 tags = ['adverb', 'common']
-highest_frequency = 838
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 838, leeds = 1774, novels = 1826 }
 
 [[cards]]
 kanji = '段々'
@@ -78,8 +71,7 @@ kana = 'だんだん'
 english = 'gradually; little by little'
 level = 'n5'
 tags = ['adverb', 'common']
-highest_frequency = 2517
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 15419, leeds = 14725, novels = 2517 }
 
 [[cards]]
 kanji = '丁度'
@@ -87,8 +79,7 @@ kana = 'ちょうど'
 english = 'exactly; right'
 level = 'n5'
 tags = ['adverb', 'common']
-highest_frequency = 908
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 7811, leeds = 6444, novels = 908, wikipedia = 5566 }
 
 [[cards]]
 kanji = '一寸'
@@ -96,8 +87,7 @@ kana = 'ちょっと'
 english = 'a little; somewhat; excuse me!'
 level = 'n5'
 tags = ['adverb', 'common']
-highest_frequency = 225
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 16954, leeds = 253, novels = 225 }
 
 [[cards]]
 kanji = '特に'
@@ -106,8 +96,7 @@ english = 'particularly; especially'
 source = 'nihongo-charenji-n4-kotoba; anime; db super'
 level = 'n4'
 tags = ['adverb', 'common']
-highest_frequency = 242
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 798, leeds = 362, novels = 1354, wikipedia = 242 }
 
 [[cards]]
 kanji = '初めて'
@@ -115,16 +104,14 @@ kana = 'はじめて'
 english = 'for the first time'
 level = 'n5'
 tags = ['adverb', 'common', 'no-adjective']
-highest_frequency = 293
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 293, leeds = 601, novels = 584, wikipedia = 396 }
 
 [[cards]]
 kanji = '早く'
 kana = 'はやく'
 english = 'early; soon'
 tags = ['adverb', 'common']
-highest_frequency = 8851
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 22940, leeds = 8851 }
 
 [[cards]]
 kanji = '久しく'
@@ -138,8 +125,7 @@ kana = 'びっくり'
 english = 'to be surprised; to be amazed; to get startled'
 level = 'n3'
 tags = ['adverb', 'common', 'suru-verb']
-highest_frequency = 1972
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 34472, leeds = 2304, novels = 1972 }
 
 [[cards]]
 kanji = '殆ど'
@@ -148,8 +134,7 @@ english = 'mostly; most (of); almost'
 level = 'n4'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
-highest_frequency = 476
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 7222, leeds = 3161, novels = 476 }
 
 [[cards]]
 kanji = '先ず'
@@ -158,8 +143,7 @@ english = 'first of all'
 level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common']
-highest_frequency = 653
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 8024, leeds = 6822, novels = 653, wikipedia = 1807 }
 
 [[cards]]
 kanji = '未だ'
@@ -167,8 +151,7 @@ kana = 'まだ'
 english = 'not yet; still; besides'
 level = 'n5'
 tags = ['adverb', 'common']
-highest_frequency = 150
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 6761, leeds = 5734, novels = 150, wikipedia = 1381 }
 
 [[cards]]
 kanji = '真っ直ぐ'
@@ -176,8 +159,7 @@ kana = 'まっすぐ'
 english = 'straight ahead; direct'
 level = 'n5'
 tags = ['adverb', 'common', 'na-adjective', 'noun']
-highest_frequency = 1844
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 6109, leeds = 12790, novels = 1844 }
 
 [[cards]]
 kanji = 'もう'
@@ -185,8 +167,7 @@ kana = 'もう'
 english = 'already; again'
 level = 'n5'
 tags = ['adverb', 'common']
-highest_frequency = 36
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 36, leeds = 210, novels = 92, wikipedia = 1279 }
 
 [[cards]]
 kanji = 'もっと'
@@ -194,8 +175,7 @@ kana = 'もっと'
 english = 'more; longer; further'
 level = 'n5'
 tags = ['adverb', 'common']
-highest_frequency = 160
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 160, leeds = 433, novels = 338, wikipedia = 4916 }
 
 [[cards]]
 kanji = 'ゆっくり'
@@ -203,8 +183,7 @@ kana = 'ゆっくり'
 english = 'slowly; at ease'
 level = 'n5'
 tags = ['adverb', 'common', 'noun', 'suru-verb']
-highest_frequency = 456
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 909, leeds = 1846, novels = 456, wikipedia = 8825 }
 
 [[cards]]
 kanji = '良く'
@@ -212,6 +191,5 @@ kana = 'よく'
 english = 'well; skillfully; frequently'
 level = 'n5'
 tags = ['adverb', 'common']
-highest_frequency = 336
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 26311, leeds = 630, novels = 336 }
 

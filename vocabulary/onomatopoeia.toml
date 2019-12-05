@@ -4,8 +4,7 @@ kana = 'きらきら'
 english = 'glittering; sparkling'
 source = 'wanikani'
 tags = ['adverb', 'adverb-taking-to', 'common', 'suru-verb']
-highest_frequency = 11450
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 11450 }
 
 [[cards]]
 kanji = 'そろそろ'
@@ -14,8 +13,7 @@ english = 'slowly, gradually -- OR -- soon, any time now'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'onomatopoia', 'tsv']
-highest_frequency = 392
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 392, leeds = 2544, novels = 1462 }
 
 [[cards]]
 kanji = 'どんどん'
@@ -24,8 +22,7 @@ english = 'rapidly; drumming; pounding'
 source = 'n4-wikipedia; ramen'
 level = 'n4'
 tags = ['adverb', 'adverb-to', 'common']
-highest_frequency = 1364
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1364, leeds = 1409, novels = 2314 }
 
 [[cards]]
 kanji = 'ふんわり'
@@ -33,8 +30,7 @@ kana = 'ふんわり'
 english = 'gently; fluffily'
 source = 'food-package'
 tags = ['common', 'onomatopoeia']
-highest_frequency = 18702
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 18702 }
 
 [[cards]]
 kanji = 'わくわく'
@@ -42,8 +38,7 @@ kana = 'わくわく'
 english = 'excited; nervous; trembling (ono)'
 source = 'anime; db super'
 tags = ['adverb', 'adverb-to', 'common', 'suru-verb']
-highest_frequency = 5534
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5534, leeds = 8449 }
 
 [[cards]]
 kanji = 'ニコニコ'
@@ -51,8 +46,7 @@ kana = 'ニコニコ'
 english = 'smilingly; with a friendly grin'
 level = 'n2'
 tags = ['adverb', 'adverb-taking-to', 'common', 'suru-verb']
-highest_frequency = 8025
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 13638, leeds = 10929, wikipedia = 8025 }
 
 [[cards]]
 kanji = 'ペコペコ'
@@ -61,8 +55,7 @@ english = 'very hungry; starving'
 source = 'irasshai'
 level = 'n1'
 tags = ['adverb', 'adverb-taking-to', 'common', 'na-adjective', 'suru-verb']
-highest_frequency = 15433
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 15433 }
 
 [[cards]]
 kanji = 'ペラペラ'
@@ -70,6 +63,5 @@ kana = 'ペラペラ'
 english = 'fluently (speaking)'
 source = 'irasshai'
 tags = ['adverb', 'adverb-taking-to', 'common', 'na-adjective']
-highest_frequency = 14942
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 14942 }
 

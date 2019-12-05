@@ -4,8 +4,7 @@ kana = 'うえ'
 english = 'above; up; on top of'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'noun', 'noun-suffix']
-highest_frequency = 109
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 175, leeds = 171, novels = 109, wikipedia = 208 }
 
 [[cards]]
 kanji = '後ろ'
@@ -13,8 +12,7 @@ kana = 'うしろ'
 english = 'behind'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 564
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 893, leeds = 2287, novels = 564, wikipedia = 4519 }
 
 [[cards]]
 kanji = '表'
@@ -23,8 +21,7 @@ english = 'surface; front; outside; face'
 source = 'wanikani; anime'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 1016
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2476, leeds = 1317, novels = 1582, wikipedia = 1016 }
 
 [[cards]]
 kanji = '下'
@@ -32,8 +29,7 @@ kana = 'した'
 english = 'below; under; bottom'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun', 'noun-prefix']
-highest_frequency = 183
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 414, leeds = 453, novels = 183, wikipedia = 347 }
 
 [[cards]]
 kanji = '外'
@@ -41,8 +37,7 @@ kana = 'そと'
 english = 'outside; exterior'
 level = 'n5'
 tags = ['common', 'noun']
-highest_frequency = 243
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 328, leeds = 612, novels = 243, wikipedia = 266 }
 
 [[cards]]
 kanji = '側'
@@ -50,8 +45,7 @@ kana = 'そば'
 english = 'near; close; vicinity'
 level = 'n5'
 tags = ['common', 'noun']
-highest_frequency = 424
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 846, leeds = 424, novels = 554, wikipedia = 1766 }
 
 [[cards]]
 kanji = '近く'
@@ -59,8 +53,7 @@ kana = 'ちかく'
 english = 'near; vicinity'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'no-adjective']
-highest_frequency = 699
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 789, leeds = 809, novels = 699, wikipedia = 2364 }
 
 [[cards]]
 kanji = '中'
@@ -68,8 +61,7 @@ kana = 'なか'
 english = 'inside; middle; center; among'
 level = 'n5'
 tags = ['common', 'noun']
-highest_frequency = 63
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 67, leeds = 90, novels = 63, wikipedia = 86 }
 
 [[cards]]
 kanji = '前'
@@ -77,8 +69,7 @@ kana = 'まえ'
 english = 'before; in front of'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'suffix', 'temporal-noun']
-highest_frequency = 66
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 66, leeds = 144, novels = 83, wikipedia = 513 }
 
 [[cards]]
 kanji = '向こう'
@@ -86,6 +77,5 @@ kana = 'むこう'
 english = 'opposite side; far away; beyond; over there'
 level = 'n5'
 tags = ['common', 'noun']
-highest_frequency = 587
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 587, leeds = 2627, novels = 742 }
 

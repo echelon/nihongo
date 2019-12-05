@@ -7,8 +7,7 @@ verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
 tags = ['common']
-highest_frequency = 224
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 538, leeds = 709, novels = 224, wikipedia = 3619 }
 
 [[cards]]
 kanji = '走る'
@@ -19,6 +18,5 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
 tags = ['common']
-highest_frequency = 290
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 503, leeds = 825, novels = 290, wikipedia = 1110 }
 

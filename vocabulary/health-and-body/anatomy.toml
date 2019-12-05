@@ -4,8 +4,7 @@ kana = 'あし'
 english = 'foot; leg'
 level = 'n5'
 tags = ['body', 'common']
-highest_frequency = 248
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 434, leeds = 861, novels = 248, wikipedia = 1249 }
 
 [[cards]]
 kanji = '足首'
@@ -13,8 +12,7 @@ kana = 'あしくび'
 english = 'ankle'
 source = 'wanikani/jisho'
 tags = ['body', 'common', 'noun']
-highest_frequency = 13818
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 25656, leeds = 13818 }
 
 [[cards]]
 kanji = '頭'
@@ -22,8 +20,7 @@ kana = 'あたま'
 english = 'head'
 level = 'n5'
 tags = ['anatomy', 'body', 'common']
-highest_frequency = 144
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 267, leeds = 506, novels = 144, wikipedia = 593 }
 
 [[cards]]
 kanji = '腕'
@@ -31,8 +28,7 @@ kana = 'うで'
 english = 'arm'
 level = 'n4'
 tags = ['anatomy', 'body', 'common', 'noun']
-highest_frequency = 295
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 584, leeds = 2557, novels = 295, wikipedia = 2952 }
 
 [[cards]]
 kanji = '腕'
@@ -40,8 +36,7 @@ kana = 'うで'
 english = 'arm'
 level = 'n4'
 tags = ['body', 'noun']
-highest_frequency = 295
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 584, leeds = 2557, novels = 295, wikipedia = 2952 }
 
 [[cards]]
 kanji = 'お腹'
@@ -49,8 +44,7 @@ kana = 'おなか'
 english = 'stomach'
 level = 'n5'
 tags = ['body']
-highest_frequency = 1689
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1689, leeds = 3666 }
 
 [[cards]]
 kanji = '顔'
@@ -58,8 +52,7 @@ kana = 'かお'
 english = 'face'
 level = 'n5'
 tags = ['body']
-highest_frequency = 71
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 180, leeds = 558, novels = 71, wikipedia = 1878 }
 
 [[cards]]
 kanji = '踵'
@@ -67,8 +60,7 @@ kana = 'かかと'
 english = 'heel'
 level = 'n1'
 tags = ['body', 'common']
-highest_frequency = 30051
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 30051 }
 
 [[cards]]
 kanji = '体'
@@ -76,8 +68,7 @@ kana = 'からだ'
 english = 'body'
 level = 'n5'
 tags = ['body']
-highest_frequency = 165
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 167, leeds = 494, novels = 219, wikipedia = 165 }
 
 [[cards]]
 kanji = '皮'
@@ -86,8 +77,7 @@ english = 'skin; hide'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 2385
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3799, leeds = 4042, novels = 2385, wikipedia = 4341 }
 
 [[cards]]
 kanji = '筋肉'
@@ -96,8 +86,7 @@ english = 'muscle'
 level = 'n3'
 source = 'manga'
 tags = ['common']
-highest_frequency = 3051
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3051, leeds = 3885, wikipedia = 6311 }
 
 [[cards]]
 kanji = '口'
@@ -105,8 +94,7 @@ kana = 'くち'
 english = 'mouth; opening'
 level = 'n5'
 tags = ['body', 'common', 'noun']
-highest_frequency = 136
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 371, leeds = 907, novels = 136, wikipedia = 679 }
 
 [[cards]]
 kanji = '首'
@@ -114,8 +102,7 @@ kana = 'くび'
 english = 'neck'
 level = 'n4'
 tags = ['body', 'common']
-highest_frequency = 247
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 785, leeds = 2232, novels = 247, wikipedia = 1584 }
 
 [[cards]]
 kanji = '血'
@@ -124,8 +111,7 @@ english = 'blood'
 source = 'wanikani; anime'
 level = 'n4'
 tags = ['body', 'common', 'health', 'noun']
-highest_frequency = 405
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 405, leeds = 2236, novels = 409, wikipedia = 2321 }
 
 [[cards]]
 kanji = '手'
@@ -133,8 +119,7 @@ kana = 'て'
 english = 'hand; arm'
 level = 'n5'
 tags = ['body']
-highest_frequency = 76
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 89, leeds = 281, novels = 76, wikipedia = 306 }
 
 [[cards]]
 kanji = '手首'
@@ -143,8 +128,7 @@ english = 'wrist'
 source = 'wanikani/jisho'
 level = 'n2'
 tags = ['body', 'common', 'noun']
-highest_frequency = 2113
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 10399, leeds = 10379, novels = 2113 }
 
 [[cards]]
 kanji = '涙'
@@ -152,8 +136,7 @@ kana = 'なみだ'
 english = 'tear(s)'
 level = 'n3'
 tags = ['body', 'common']
-highest_frequency = 705
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 861, leeds = 1843, novels = 705, wikipedia = 5232 }
 
 [[cards]]
 kanji = '鼻'
@@ -161,8 +144,7 @@ kana = 'はな'
 english = 'nose'
 level = 'n5'
 tags = []
-highest_frequency = 743
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1851, leeds = 3656, novels = 743, wikipedia = 5022 }
 
 [[cards]]
 kanji = '膝'
@@ -171,8 +153,7 @@ english = 'knee'
 source = 'wanikani'
 level = 'n3'
 tags = ['body', 'common', 'leg', 'noun']
-highest_frequency = 679
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 4414, leeds = 5434, novels = 679, wikipedia = 4528 }
 
 [[cards]]
 kanji = '肘'
@@ -181,8 +162,7 @@ english = 'elbow'
 source = 'jisho'
 level = 'n2'
 tags = ['arm', 'body', 'common', 'noun']
-highest_frequency = 6306
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 10206, leeds = 12103, wikipedia = 6306 }
 
 [[cards]]
 kanji = '額'
@@ -191,8 +171,7 @@ english = 'forehead'
 level = 'n3'
 source = 'wanikani'
 tags = ['body', 'common', 'noun']
-highest_frequency = 1100
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3398, leeds = 1100, novels = 1111, wikipedia = 1990 }
 
 [[cards]]
 kanji = '瞳'
@@ -201,8 +180,7 @@ english = 'pupil (eye)'
 source = 'frequency-list'
 level = 'n2'
 tags = ['body', 'common', 'eye', 'no-adjective', 'noun']
-highest_frequency = 752
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1395, leeds = 6156, novels = 752, wikipedia = 5781 }
 
 [[cards]]
 kanji = '骨'
@@ -210,8 +188,7 @@ kana = 'ほね'
 english = 'bone'
 level = 'n3'
 tags = ['body', 'common']
-highest_frequency = 1353
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2278, leeds = 3275, novels = 1353, wikipedia = 2129 }
 
 [[cards]]
 kanji = '眉毛'
@@ -219,8 +196,7 @@ kana = 'まゆげ'
 english = 'eyebrow'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 7640
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 7640 }
 
 [[cards]]
 kanji = '耳'
@@ -228,8 +204,7 @@ kana = 'みみ'
 english = 'ear'
 level = 'n5'
 tags = ['body', 'common', 'noun']
-highest_frequency = 364
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1030, leeds = 1461, novels = 364, wikipedia = 3147 }
 
 [[cards]]
 kanji = '目'
@@ -237,8 +212,7 @@ kana = 'め'
 english = 'eye; eyeball'
 level = 'n5'
 tags = []
-highest_frequency = 80
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 87, leeds = 189, novels = 80, wikipedia = 1178 }
 
 [[cards]]
 kanji = '目玉'
@@ -246,8 +220,7 @@ kana = 'めだま'
 english = 'eyeball'
 source = 'wanikani'
 tags = ['body', 'common']
-highest_frequency = 8988
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 9642, leeds = 8988 }
 
 [[cards]]
 kanji = '指'
@@ -255,8 +228,7 @@ kana = 'ゆび'
 english = 'finger; toe'
 level = 'n4'
 tags = ['body', 'common']
-highest_frequency = 285
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1276, leeds = 2632, novels = 285, wikipedia = 4001 }
 
 [[cards]]
 kanji = '指先'
@@ -264,6 +236,5 @@ kana = 'ゆびさき'
 english = 'fingertip'
 source = 'wanikani'
 tags = ['body', 'common']
-highest_frequency = 1711
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 5183, leeds = 11703, novels = 1711 }
 

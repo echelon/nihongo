@@ -4,8 +4,7 @@ kana = 'あき'
 english = 'autumn; fall'
 level = 'n5'
 tags = ['common', 'noun', 'season', 'time']
-highest_frequency = 804
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1768, leeds = 1904, novels = 1941, wikipedia = 804 }
 
 [[cards]]
 kanji = '朝'
@@ -13,8 +12,7 @@ kana = 'あさ'
 english = 'morning'
 level = 'n5'
 tags = ['common', 'time']
-highest_frequency = 358
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 456, leeds = 581, novels = 626, wikipedia = 358 }
 
 [[cards]]
 kanji = '明後日'
@@ -22,8 +20,7 @@ kana = 'あさって'
 english = 'day after tomorrow'
 level = 'n5'
 tags = ['common', 'time']
-highest_frequency = 7488
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 7488, leeds = 11290 }
 
 [[cards]]
 kanji = '明日'
@@ -31,8 +28,7 @@ kana = 'あした'
 english = 'tomorrow'
 level = 'n5'
 tags = ['common', 'time']
-highest_frequency = 205
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 205, leeds = 746, novels = 875, wikipedia = 5183 }
 
 [[cards]]
 kanji = '後'
@@ -40,8 +36,7 @@ kana = 'あと'
 english = 'after; in the future'
 level = 'n5'
 tags = ['common', 'places']
-highest_frequency = 50
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 190, leeds = 198, novels = 216, wikipedia = 50 }
 
 [[cards]]
 kanji = '以後'
@@ -50,8 +45,7 @@ english = 'from now on; hereafter'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'temporal-noun']
-highest_frequency = 758
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 5947, leeds = 4013, wikipedia = 758 }
 
 [[cards]]
 kanji = '一日'
@@ -66,8 +60,7 @@ kana = 'いつか'
 english = 'five days; fifth day of the month'
 level = 'n5'
 tags = []
-highest_frequency = 531
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 531, leeds = 3852, novels = 2196 }
 
 [[cards]]
 kanji = '何時も'
@@ -75,8 +68,7 @@ kana = 'いつも'
 english = 'always'
 level = 'n5'
 tags = []
-highest_frequency = 298
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 20544, leeds = 466, novels = 298, wikipedia = 6007 }
 
 [[cards]]
 kanji = '今'
@@ -84,8 +76,7 @@ kana = 'いま'
 english = 'now'
 level = 'n5'
 tags = []
-highest_frequency = 38
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 38, leeds = 130, novels = 107, wikipedia = 1084 }
 
 [[cards]]
 kanji = '一昨日'
@@ -93,8 +84,7 @@ kana = 'おととい'
 english = 'day before yesterday'
 level = 'n5'
 tags = []
-highest_frequency = 7223
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 8970, leeds = 7223 }
 
 [[cards]]
 kanji = '一昨年'
@@ -102,8 +92,7 @@ kana = 'おととし'
 english = 'year before last'
 level = 'n5'
 tags = []
-highest_frequency = 7565
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 13051, leeds = 7565 }
 
 [[cards]]
 kanji = '開始'
@@ -112,8 +101,7 @@ english = 'start (literary?)'
 source = 'wanikani; frequency'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 151
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 956, leeds = 952, novels = 2218, wikipedia = 151 }
 
 [[cards]]
 kanji = '～か月'
@@ -128,8 +116,7 @@ kana = 'かようび'
 english = 'Tuesday'
 level = 'n5'
 tags = []
-highest_frequency = 5083
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 22571, leeds = 5083, wikipedia = 7872 }
 
 [[cards]]
 kanji = '～月'
@@ -145,8 +132,7 @@ english = 'season; time of year'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'seasons']
-highest_frequency = 2035
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 2803, leeds = 2035, wikipedia = 4736 }
 
 [[cards]]
 kanji = '昨日'
@@ -154,8 +140,7 @@ kana = 'きのう'
 english = 'yesterday'
 level = 'n5'
 tags = []
-highest_frequency = 329
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 329, leeds = 512, novels = 930 }
 
 [[cards]]
 kanji = '今日'
@@ -163,8 +148,7 @@ kana = 'きょう'
 english = 'today'
 level = 'n5'
 tags = []
-highest_frequency = 73
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 73, leeds = 194, novels = 292, wikipedia = 1341 }
 
 [[cards]]
 kanji = '去年'
@@ -172,8 +156,7 @@ kana = 'きょねん'
 english = 'last year'
 level = 'n5'
 tags = []
-highest_frequency = 1757
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1757, leeds = 2118, novels = 2413 }
 
 [[cards]]
 kanji = '近日'
@@ -181,8 +164,7 @@ kana = 'きんじつ'
 english = 'in a few days; soon'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
-highest_frequency = 12973
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 19263, leeds = 12973 }
 
 [[cards]]
 kanji = '近年'
@@ -190,8 +172,7 @@ kana = 'きんねん'
 english = 'recent years'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
-highest_frequency = 892
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 17594, leeds = 3840, wikipedia = 892 }
 
 [[cards]]
 kanji = '金曜日'
@@ -199,8 +180,7 @@ kana = 'きんようび'
 english = 'Friday'
 level = 'n5'
 tags = []
-highest_frequency = 3535
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 15551, leeds = 3535, wikipedia = 3974 }
 
 [[cards]]
 kanji = '今朝'
@@ -208,8 +188,7 @@ kana = 'けさ'
 english = 'this morning'
 level = 'n5'
 tags = []
-highest_frequency = 2296
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2296, leeds = 3246, novels = 2682 }
 
 [[cards]]
 kanji = '月末'
@@ -218,8 +197,7 @@ english = 'end of the month'
 source = 'wanikani'
 level = 'n2'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
-highest_frequency = 11098
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 22588, leeds = 11098 }
 
 [[cards]]
 kanji = '月曜日'
@@ -227,8 +205,7 @@ kana = 'げつようび'
 english = 'Monday'
 level = 'n5'
 tags = []
-highest_frequency = 3880
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 6809, leeds = 3880, wikipedia = 5281 }
 
 [[cards]]
 kanji = '現在'
@@ -237,8 +214,7 @@ english = 'present time'
 source = 'wikipedia 10k frequent'
 level = 'n3'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
-highest_frequency = 49
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1090, leeds = 249, novels = 1075, wikipedia = 49 }
 
 [[cards]]
 kanji = '九日'
@@ -253,8 +229,7 @@ kana = 'ことし'
 english = 'this year'
 level = 'n5'
 tags = []
-highest_frequency = 537
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 918, leeds = 537, novels = 2603 }
 
 [[cards]]
 kanji = '古来'
@@ -262,8 +237,7 @@ kana = 'こらい'
 english = 'ancient; from time immemorial'
 source = 'wanikani'
 tags = ['adverb', 'common', 'no-adjective', 'noun', 'time']
-highest_frequency = 7798
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 13447, leeds = 11040, wikipedia = 7798 }
 
 [[cards]]
 kanji = '今回'
@@ -272,8 +246,7 @@ english = 'this time; lately'
 level = 'n3'
 explain = 'https://japanese.stackexchange.com/a/52295'
 tags = ['adverbial-noun', 'anime', 'common', 'temporal-noun']
-highest_frequency = 265
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 387, leeds = 265, novels = 1589, wikipedia = 4395 }
 
 [[cards]]
 kanji = '今月'
@@ -281,8 +254,7 @@ kana = 'こんげつ'
 english = 'this month'
 level = 'n5'
 tags = []
-highest_frequency = 2758
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 4781, leeds = 2758 }
 
 [[cards]]
 kanji = '今週'
@@ -290,8 +262,7 @@ kana = 'こんしゅう'
 english = 'this week'
 level = 'n5'
 tags = []
-highest_frequency = 1906
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3882, leeds = 1906 }
 
 [[cards]]
 kanji = '今度'
@@ -301,8 +272,7 @@ source = 'anime'
 level = 'n4'
 explain = 'https://japanese.stackexchange.com/a/52295'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
-highest_frequency = 280
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 280, leeds = 903, novels = 422, wikipedia = 5070 }
 
 [[cards]]
 kanji = '今晩'
@@ -310,8 +280,7 @@ kana = 'こんばん'
 english = 'tonight; this evening (7-10pmish)'
 level = 'n5'
 tags = []
-highest_frequency = 5611
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5611, leeds = 8450 }
 
 [[cards]]
 kanji = '今夜'
@@ -320,8 +289,7 @@ english = 'tonight (more formal / in writing)'
 source = 'nihongo-charenji-n4-kotoba'
 level = 'n4'
 tags = ['common']
-highest_frequency = 1193
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1292, leeds = 4422, novels = 1193 }
 
 [[cards]]
 kanji = '午後'
@@ -329,8 +297,7 @@ kana = 'ごご'
 english = 'afternoon; P.M.'
 level = 'n5'
 tags = []
-highest_frequency = 893
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 2525, leeds = 893, novels = 1464, wikipedia = 2258 }
 
 [[cards]]
 kanji = '午前'
@@ -338,8 +305,7 @@ kana = 'ごぜん'
 english = 'morning; A.M.'
 level = 'n5'
 tags = []
-highest_frequency = 1266
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 4625, leeds = 1266, wikipedia = 2419 }
 
 [[cards]]
 kanji = '最近'
@@ -347,8 +313,7 @@ kana = 'さいきん'
 english = 'recently'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
-highest_frequency = 285
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 424, leeds = 285, novels = 1521, wikipedia = 2208 }
 
 [[cards]]
 kanji = '先'
@@ -356,8 +321,7 @@ kana = 'さき'
 english = 'the previous; the former; the future'
 level = 'n5'
 tags = []
-highest_frequency = 155
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 155, leeds = 374, novels = 240, wikipedia = 558 }
 
 [[cards]]
 kanji = 'さ来月'
@@ -374,8 +338,7 @@ english = 'week after next'
 source = 'irasshai'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
-highest_frequency = 16679
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 16679 }
 
 [[cards]]
 kanji = '再来週'
@@ -384,8 +347,7 @@ english = 'week after next'
 source = 'irasshai'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
-highest_frequency = 16679
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 16679 }
 
 [[cards]]
 kanji = '再来年'
@@ -393,8 +355,7 @@ kana = 'さらいねん'
 english = 'year after next'
 level = 'n5'
 tags = []
-highest_frequency = 19580
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 19580 }
 
 [[cards]]
 kanji = '～週間'
@@ -409,8 +370,7 @@ kana = 'しゅうまつ'
 english = 'weekend'
 source = 'irasshai'
 tags = ['common', 'week']
-highest_frequency = 2813
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 7094, leeds = 2813 }
 
 [[cards]]
 kanji = '醤油'
@@ -418,8 +378,7 @@ kana = 'しょうゆ'
 english = 'soy sauce'
 level = 'n5'
 tags = []
-highest_frequency = 5689
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5689, leeds = 6746, wikipedia = 9353 }
 
 [[cards]]
 kanji = '将来'
@@ -428,8 +387,7 @@ english = 'future (usually near); prospects'
 source = 'irasshai?'
 level = 'n4'
 tags = ['common']
-highest_frequency = 966
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 2123, leeds = 966, wikipedia = 2389 }
 
 [[cards]]
 kanji = '～時'
@@ -444,8 +402,7 @@ kana = 'じかい'
 english = 'next time'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
-highest_frequency = 364
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 364, leeds = 2152, wikipedia = 7786 }
 
 [[cards]]
 kanji = '時間'
@@ -453,8 +410,7 @@ kana = 'じかん'
 english = 'time'
 level = 'n5'
 tags = []
-highest_frequency = 107
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 107, leeds = 154, novels = 208, wikipedia = 142 }
 
 [[cards]]
 kanji = '～時間'
@@ -476,8 +432,7 @@ kana = 'すいようび'
 english = 'Wednesday'
 level = 'n5'
 tags = []
-highest_frequency = 5361
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 23066, leeds = 5361, wikipedia = 7967 }
 
 [[cards]]
 kanji = '直ぐ'
@@ -485,8 +440,7 @@ kana = 'すぐ'
 english = 'soon; immediately'
 level = 'n5'
 tags = []
-highest_frequency = 182
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 19545, leeds = 13771, novels = 182, wikipedia = 1232 }
 
 [[cards]]
 kanji = '直ぐに'
@@ -495,8 +449,7 @@ english = 'immediately'
 source = 'n4-study'
 level = 'n5'
 tags = ['adverb', 'common']
-highest_frequency = 10196
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 36192, leeds = 10196 }
 
 [[cards]]
 kanji = '先月'
@@ -504,8 +457,7 @@ kana = 'せんげつ'
 english = 'last month'
 level = 'n5'
 tags = []
-highest_frequency = 5010
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 7594, leeds = 5010 }
 
 [[cards]]
 kanji = '先週'
@@ -513,8 +465,7 @@ kana = 'せんしゅう'
 english = 'last week'
 level = 'n5'
 tags = []
-highest_frequency = 2319
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 4357, leeds = 2319 }
 
 [[cards]]
 kanji = '先日'
@@ -522,8 +473,7 @@ kana = 'せんじつ'
 english = 'the other day (a recent day)'
 level = 'n3'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun', 'time']
-highest_frequency = 1209
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 2740, leeds = 1209 }
 
 [[cards]]
 kanji = '誕生日'
@@ -531,8 +481,7 @@ kana = 'たんじょうび'
 english = 'birthday'
 level = 'n5'
 tags = []
-highest_frequency = 5299
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { wikipedia = 5299 }
 
 [[cards]]
 kanji = '一日'
@@ -561,8 +510,7 @@ kana = 'ときどき'
 english = 'sometimes; at times'
 level = 'n5'
 tags = []
-highest_frequency = 2100
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2529, leeds = 2631, novels = 2100, wikipedia = 7992 }
 
 [[cards]]
 kanji = '時計'
@@ -570,8 +518,7 @@ kana = 'とけい'
 english = 'watch; clock'
 level = 'n5'
 tags = []
-highest_frequency = 1756
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3541, leeds = 2797, novels = 1756, wikipedia = 3775 }
 
 [[cards]]
 kanji = '年'
@@ -579,8 +526,7 @@ kana = 'とし'
 english = 'year'
 level = 'n5'
 tags = []
-highest_frequency = 18
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 121, leeds = 54, novels = 165, wikipedia = 18 }
 
 [[cards]]
 kanji = '同時'
@@ -589,8 +535,7 @@ english = 'same time; concurrent'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 1710
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 6595, leeds = 3895, wikipedia = 1710 }
 
 [[cards]]
 kanji = '土曜日'
@@ -598,8 +543,7 @@ kana = 'どようび'
 english = 'Saturday'
 level = 'n5'
 tags = []
-highest_frequency = 2947
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 7648, leeds = 2947, wikipedia = 3588 }
 
 [[cards]]
 kanji = '夏'
@@ -607,8 +551,7 @@ kana = 'なつ'
 english = 'summer'
 level = 'n5'
 tags = []
-highest_frequency = 459
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 459, leeds = 880, novels = 1194, wikipedia = 540 }
 
 [[cards]]
 kanji = '七日'
@@ -630,8 +573,7 @@ kana = 'にちようび'
 english = 'Sunday'
 level = 'n5'
 tags = []
-highest_frequency = 2682
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 6044, leeds = 2682, wikipedia = 3627 }
 
 [[cards]]
 kanji = '～年'
@@ -647,8 +589,7 @@ english = 'throughout the year; year round'
 level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common', 'noun']
-highest_frequency = 5611
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 12164, leeds = 10211, wikipedia = 5611 }
 
 [[cards]]
 kanji = '年内'
@@ -656,8 +597,7 @@ kana = 'ねんない'
 english = 'by the end of the year; within the year'
 source = 'wanikani'
 tags = ['common', 'noun', 'time']
-highest_frequency = 10113
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 21231, leeds = 10113 }
 
 [[cards]]
 kanji = '年末'
@@ -665,8 +605,7 @@ kana = 'ねんまつ'
 english = 'end of the year'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
-highest_frequency = 4816
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 9827, leeds = 4816 }
 
 [[cards]]
 kanji = '二十日'
@@ -681,8 +620,7 @@ kana = 'はる'
 english = 'spring'
 level = 'n5'
 tags = []
-highest_frequency = 413
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 413, leeds = 1615, novels = 1350, wikipedia = 653 }
 
 [[cards]]
 kanji = '晩'
@@ -690,8 +628,7 @@ kana = 'ばん'
 english = 'evening (7-10pmish)'
 level = 'n5'
 tags = []
-highest_frequency = 1643
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1914, leeds = 4330, novels = 1643, wikipedia = 5140 }
 
 [[cards]]
 kanji = '一月'
@@ -699,8 +636,7 @@ kana = 'ひとつき'
 english = 'one month'
 level = 'n5'
 tags = []
-highest_frequency = 5291
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 12181, leeds = 5291 }
 
 [[cards]]
 kanji = '暇'
@@ -708,8 +644,7 @@ kana = 'ひま'
 english = 'free time; leisure'
 level = 'n5'
 tags = []
-highest_frequency = 869
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 869, leeds = 3571, novels = 1761 }
 
 [[cards]]
 kanji = '昼'
@@ -717,8 +652,7 @@ kana = 'ひる'
 english = 'noon'
 level = 'n5'
 tags = []
-highest_frequency = 2376
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2643, leeds = 2828, novels = 2376, wikipedia = 4009 }
 
 [[cards]]
 kanji = '昼休み'
@@ -727,8 +661,7 @@ english = 'lunch break'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time', 'work']
-highest_frequency = 4890
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4890, leeds = 9418 }
 
 [[cards]]
 kanji = '秒'
@@ -737,8 +670,7 @@ english = 'second (unit of time)'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'measurement', 'noun', 'time', 'unit']
-highest_frequency = 831
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 831, leeds = 1323, novels = 1084, wikipedia = 1045 }
 
 [[cards]]
 kanji = '二日'
@@ -753,8 +685,7 @@ kana = 'ふゆ'
 english = 'winter'
 level = 'n5'
 tags = []
-highest_frequency = 1144
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1144, leeds = 1817, novels = 1765, wikipedia = 1426 }
 
 [[cards]]
 kanji = '～分'
@@ -769,8 +700,7 @@ kana = 'まいあさ'
 english = 'every morning'
 level = 'n5'
 tags = []
-highest_frequency = 7512
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 7512, leeds = 8171 }
 
 [[cards]]
 kanji = '毎週'
@@ -778,8 +708,7 @@ kana = 'まいしゅう'
 english = 'every wek'
 level = 'n5'
 tags = []
-highest_frequency = 1853
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 8088, leeds = 3509, wikipedia = 1853 }
 
 [[cards]]
 kanji = '毎月'
@@ -787,8 +716,7 @@ kana = 'まいつき / まいげつ'
 english = 'every month'
 level = 'n5'
 tags = []
-highest_frequency = 3809
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 9970, leeds = 3809, wikipedia = 5207 }
 
 [[cards]]
 kanji = '毎日'
@@ -796,8 +724,7 @@ kana = 'まいにち'
 english = 'every day'
 level = 'n5'
 tags = []
-highest_frequency = 649
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 649, leeds = 698, novels = 1311, wikipedia = 3043 }
 
 [[cards]]
 kanji = '毎年'
@@ -805,8 +732,7 @@ kana = 'まいねん / まいとし'
 english = 'every year'
 level = 'n5'
 tags = []
-highest_frequency = 1054
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 3165, leeds = 1850, wikipedia = 1054 }
 
 [[cards]]
 kanji = '毎晩'
@@ -814,8 +740,7 @@ kana = 'まいばん'
 english = 'every night'
 level = 'n5'
 tags = []
-highest_frequency = 7857
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 7857, leeds = 10547 }
 
 [[cards]]
 kanji = '三日'
@@ -830,8 +755,7 @@ kana = 'みらい'
 english = 'the future (usually distant)'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 366
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 366, leeds = 1560, novels = 1964, wikipedia = 2541 }
 
 [[cards]]
 kanji = '六日'
@@ -847,8 +771,7 @@ english = 'olden days'
 source = 'sekai-wa-fushigi-2'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
-highest_frequency = 342
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 342, leeds = 741, novels = 635, wikipedia = 3863 }
 
 [[cards]]
 kanji = '木曜日'
@@ -856,8 +779,7 @@ kana = 'もくようび'
 english = 'Thursday'
 level = 'n5'
 tags = []
-highest_frequency = 5266
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 28939, leeds = 5266, wikipedia = 6860 }
 
 [[cards]]
 kanji = '休み'
@@ -865,8 +787,7 @@ kana = 'やすみ'
 english = 'rest; vacation; holiday'
 level = 'n5'
 tags = []
-highest_frequency = 1077
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1077, leeds = 2099, novels = 2923 }
 
 [[cards]]
 kanji = '夕方'
@@ -874,8 +795,7 @@ kana = 'ゆうがた'
 english = 'evening or dusk (before sunset; 5-7pmish)'
 level = 'n5'
 tags = []
-highest_frequency = 2184
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3656, leeds = 2184, novels = 2493, wikipedia = 3851 }
 
 [[cards]]
 kanji = '夕べ'
@@ -883,8 +803,7 @@ kana = 'ゆうべ'
 english = 'evening (5-7pmish); last night'
 level = 'n5'
 tags = []
-highest_frequency = 9837
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 9837, leeds = 15001 }
 
 [[cards]]
 kanji = '八日'
@@ -906,8 +825,7 @@ kana = 'よる'
 english = 'evening; night (after 10pm)'
 level = 'n5'
 tags = []
-highest_frequency = 207
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 207, leeds = 571, novels = 265, wikipedia = 989 }
 
 [[cards]]
 kanji = '来月'
@@ -915,8 +833,7 @@ kana = 'らいげつ'
 english = 'next month'
 level = 'n5'
 tags = []
-highest_frequency = 6212
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 7099, leeds = 6212 }
 
 [[cards]]
 kanji = '来週'
@@ -924,8 +841,7 @@ kana = 'らいしゅう'
 english = 'next week'
 level = 'n5'
 tags = []
-highest_frequency = 2140
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2140, leeds = 3271 }
 
 [[cards]]
 kanji = '来年'
@@ -934,8 +850,7 @@ english = 'next year'
 source = 'irasshai'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun', 'time']
-highest_frequency = 1994
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 2761, leeds = 1994 }
 
 [[cards]]
 kanji = '両日'
@@ -950,6 +865,5 @@ kana = 'カレンダー'
 english = 'calendar'
 level = 'n5'
 tags = []
-highest_frequency = 5594
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 15488, leeds = 5594 }
 

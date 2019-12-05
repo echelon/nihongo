@@ -8,8 +8,7 @@ transitive = true
 source = 'jlpt-test; irasshai'
 level = 'n4'
 tags = ['common']
-highest_frequency = 409
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 409, leeds = 730, novels = 959, wikipedia = 548 }
 
 [[cards]]
 kanji = '思い出す'
@@ -21,8 +20,7 @@ transitive = true
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['common']
-highest_frequency = 527
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 611, leeds = 1230, novels = 527 }
 
 [[cards]]
 kanji = '思う'
@@ -34,8 +32,7 @@ transitive = true
 source = 'irasshai'
 level = 'n4'
 tags = ['common']
-highest_frequency = 35
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 35, leeds = 49, novels = 43, wikipedia = 462 }
 
 [[cards]]
 kanji = '知る'
@@ -47,8 +44,7 @@ transitive = true
 source = 'n5-study'
 level = 'n5'
 tags = ['common']
-highest_frequency = 54
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 54, leeds = 191, novels = 90, wikipedia = 156 }
 
 [[cards]]
 kanji = '信じる'
@@ -60,8 +56,7 @@ transitive = true
 source = 'wanikani; anime'
 level = 'n3'
 tags = ['common']
-highest_frequency = 220
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 220, leeds = 937, novels = 413, wikipedia = 6182 }
 
 [[cards]]
 kanji = '見直す'
@@ -73,8 +68,7 @@ transitive = true
 source = 'wanikani'
 level = 'n2'
 tags = ['common']
-highest_frequency = 3749
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 6756, leeds = 3749, wikipedia = 4165 }
 
 [[cards]]
 kanji = '分かる'
@@ -85,8 +79,7 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
 tags = ['common']
-highest_frequency = 45
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 45, leeds = 337, novels = 458, wikipedia = 1468 }
 
 [[cards]]
 kanji = '忘れる'
@@ -98,6 +91,5 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
-highest_frequency = 187
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 187, leeds = 757, novels = 414, wikipedia = 4459 }
 

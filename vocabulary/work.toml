@@ -5,8 +5,7 @@ english = 'economics; business; finance'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 279
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 6677, leeds = 279, wikipedia = 288 }
 
 [[cards]]
 kanji = '産業'
@@ -15,8 +14,7 @@ english = 'industry'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['no-adjective', 'noun']
-highest_frequency = 677
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 15700, leeds = 801, wikipedia = 677 }
 
 [[cards]]
 kanji = '仕事'
@@ -24,8 +22,7 @@ kana = 'しごと'
 english = 'work; job'
 level = 'n5'
 tags = []
-highest_frequency = 210
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 210, leeds = 220, novels = 349, wikipedia = 1046 }
 
 [[cards]]
 kanji = '名刺'
@@ -33,6 +30,5 @@ kana = 'めいし'
 english = 'business card'
 level = 'n2'
 tags = ['common']
-highest_frequency = 6369
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 11073, leeds = 6369 }
 

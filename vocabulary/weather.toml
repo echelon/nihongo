@@ -4,8 +4,7 @@ kana = 'あたたかい'
 english = 'warm (air temp)'
 level = 'n5'
 tags = ['common', 'i-adjective', 'temperature', 'weather']
-highest_frequency = 2522
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2522, leeds = 3556 }
 
 [[cards]]
 kanji = '暑い'
@@ -13,8 +12,7 @@ kana = 'あつい'
 english = 'hot; warm'
 level = 'n5'
 tags = ['common', 'i-adjectives', 'weather']
-highest_frequency = 1505
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1505, leeds = 1999, novels = 2598 }
 
 [[cards]]
 kanji = '雨'
@@ -22,8 +20,7 @@ kana = 'あめ'
 english = 'rain'
 level = 'n5'
 tags = ['common', 'weather']
-highest_frequency = 804
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 804, leeds = 1120, novels = 844, wikipedia = 2317 }
 
 [[cards]]
 kanji = '嵐'
@@ -31,8 +28,7 @@ kana = 'あらし'
 english = 'storm'
 level = 'n3'
 tags = ['common']
-highest_frequency = 2866
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3677, leeds = 5449, novels = 2866, wikipedia = 4393 }
 
 [[cards]]
 kanji = '大雨'
@@ -40,8 +36,7 @@ kana = 'おおあめ'
 english = 'heavy rain'
 source = 'wanikani'
 tags = ['common', 'nature', 'noun', 'rain', 'weather']
-highest_frequency = 9634
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 20915, leeds = 9634 }
 
 [[cards]]
 kanji = '傘'
@@ -49,8 +44,7 @@ kana = 'かさ'
 english = 'umbrella'
 level = 'n5'
 tags = ['accessories', 'clothing', 'common', 'weather']
-highest_frequency = 2872
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2872, leeds = 5746, wikipedia = 7373 }
 
 [[cards]]
 kanji = '風'
@@ -58,8 +52,7 @@ kana = 'かぜ'
 english = 'wind; breeze'
 level = 'n5'
 tags = ['common']
-highest_frequency = 252
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 361, leeds = 683, novels = 252, wikipedia = 732 }
 
 [[cards]]
 kanji = '雷'
@@ -67,8 +60,7 @@ kana = 'かみなり'
 english = 'lightning; thunder'
 level = 'n3'
 tags = ['common']
-highest_frequency = 2604
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2604, leeds = 7882, wikipedia = 3105 }
 
 [[cards]]
 kanji = '気温'
@@ -76,8 +68,7 @@ kana = 'きおん'
 english = 'atmospheric temperature'
 level = 'n3'
 tags = ['common']
-highest_frequency = 3166
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 12716, leeds = 3614, wikipedia = 3166 }
 
 [[cards]]
 kanji = '霧'
@@ -85,8 +76,7 @@ kana = 'きり'
 english = 'fog; mist'
 level = 'n3'
 tags = ['common']
-highest_frequency = 751
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 751, leeds = 6415, novels = 1812, wikipedia = 6245 }
 
 [[cards]]
 kanji = '空気'
@@ -94,8 +84,7 @@ kana = 'くうき'
 english = 'air; atmosphere; mood'
 level = 'n4'
 tags = ['common']
-highest_frequency = 764
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1092, leeds = 1815, novels = 764, wikipedia = 2147 }
 
 [[cards]]
 kanji = '雲'
@@ -103,8 +92,7 @@ kana = 'くも'
 english = 'cloud'
 level = 'n4'
 tags = ['common']
-highest_frequency = 1156
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2684, leeds = 3488, novels = 1156, wikipedia = 2150 }
 
 [[cards]]
 kanji = '曇り'
@@ -119,8 +107,7 @@ kana = 'くらい'
 english = 'dark; gloomy; depressed'
 level = 'n5'
 tags = ['common', 'i-adjective']
-highest_frequency = 614
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1213, leeds = 2646, novels = 614, wikipedia = 5997 }
 
 [[cards]]
 kanji = '氷'
@@ -128,8 +115,7 @@ kana = 'こおり'
 english = 'ice'
 level = 'n3'
 tags = ['common']
-highest_frequency = 2387
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3476, leeds = 4874, novels = 2387, wikipedia = 3930 }
 
 [[cards]]
 kanji = '寒い'
@@ -137,8 +123,7 @@ kana = 'さむい'
 english = 'cold (weather)'
 level = 'n5'
 tags = ['common', 'i-adjective']
-highest_frequency = 1137
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1137, leeds = 1752, novels = 1498, wikipedia = 8404 }
 
 [[cards]]
 kanji = '涼しい'
@@ -146,8 +131,7 @@ kana = 'すずしい'
 english = 'cool (temperature); refreshing'
 level = 'n5'
 tags = ['common']
-highest_frequency = 5291
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5291, leeds = 6348 }
 
 [[cards]]
 kanji = '空'
@@ -155,8 +139,7 @@ kana = 'そら'
 english = 'sky'
 level = 'n5'
 tags = ['common']
-highest_frequency = 265
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 265, leeds = 1447, novels = 335, wikipedia = 1024 }
 
 [[cards]]
 kanji = '大気'
@@ -165,8 +148,7 @@ english = 'atmosphere'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 3581
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 10360, leeds = 5801, wikipedia = 3581 }
 
 [[cards]]
 kanji = '台風'
@@ -174,8 +156,7 @@ kana = 'たいふう'
 english = 'typhoon; hurricane'
 level = 'n4'
 tags = ['common']
-highest_frequency = 3624
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 9634, leeds = 3624, wikipedia = 4250 }
 
 [[cards]]
 kanji = '露'
@@ -183,8 +164,7 @@ kana = 'つゆ'
 english = 'dew'
 level = 'n1'
 tags = ['common']
-highest_frequency = 2880
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 12130, leeds = 5074, novels = 2880, wikipedia = 3095 }
 
 [[cards]]
 kanji = '天気'
@@ -192,8 +172,7 @@ kana = 'てんき'
 english = 'weather'
 level = 'n5'
 tags = ['common']
-highest_frequency = 1920
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1920, leeds = 2253, wikipedia = 5135 }
 
 [[cards]]
 kanji = '天気予報'
@@ -209,8 +188,7 @@ kana = 'はれ'
 english = 'clear weather; fine weather'
 level = 'n5'
 tags = ['common']
-highest_frequency = 6326
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 7339, leeds = 6326 }
 
 [[cards]]
 kanji = '吹雪'
@@ -218,8 +196,7 @@ kana = 'ふぶき'
 english = 'snow storm; blizzard'
 level = 'n2'
 tags = ['common']
-highest_frequency = 2597
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2597 }
 
 [[cards]]
 kanji = '雪'
@@ -227,6 +204,5 @@ kana = 'ゆき'
 english = 'snow'
 level = 'n5'
 tags = ['common']
-highest_frequency = 368
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 368, leeds = 1645, novels = 932, wikipedia = 1924 }
 

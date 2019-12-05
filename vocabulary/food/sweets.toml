@@ -4,8 +4,7 @@ kana = 'あめ'
 english = 'hard candy; toffee'
 level = 'n5'
 tags = ['common', 'food']
-highest_frequency = 5808
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5808, leeds = 13115 }
 
 [[cards]]
 kanji = 'お菓子'
@@ -13,8 +12,7 @@ kana = 'おかし'
 english = 'candy; confections'
 level = 'n5'
 tags = []
-highest_frequency = 1743
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1743, leeds = 4366 }
 
 [[cards]]
 kanji = '砂糖'
@@ -22,22 +20,19 @@ kana = 'さとう'
 english = 'sugar'
 level = 'n5'
 tags = []
-highest_frequency = 5141
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5141, leeds = 5487, wikipedia = 5155 }
 
 [[cards]]
 kanji = 'チョコ'
 kana = 'チョコ'
 english = 'chocolate (shortened)'
 tags = ['candy', 'common', 'noun', 'sweets']
-highest_frequency = 1524
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1524, leeds = 5339 }
 
 [[cards]]
 kanji = 'チョコレート'
 kana = 'チョコレート'
 english = 'chocolate'
 tags = ['candy', 'common', 'noun', 'sweets']
-highest_frequency = 4698
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 6232, leeds = 4698, wikipedia = 8840 }
 

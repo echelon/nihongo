@@ -7,8 +7,7 @@ verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
 tags = ['common']
-highest_frequency = 381
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 381, leeds = 2050, novels = 761, wikipedia = 3018 }
 
 [[cards]]
 kanji = '泣く'
@@ -19,8 +18,7 @@ level = 'n4'
 verb-type = 'godan-ku'
 transitive = false
 tags = ['common']
-highest_frequency = 326
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 326, leeds = 1903, novels = 574, wikipedia = 2402 }
 
 [[cards]]
 kanji = '悩む'
@@ -32,8 +30,7 @@ transitive = false
 source = 'bonobono-anime'
 level = 'n3'
 tags = ['common']
-highest_frequency = 1640
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1640, leeds = 1917, wikipedia = 3681 }
 
 [[cards]]
 kanji = '喜ぶ'
@@ -45,6 +42,5 @@ transitive = false
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common']
-highest_frequency = 721
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 721, leeds = 1704, novels = 1368, wikipedia = 5174 }
 

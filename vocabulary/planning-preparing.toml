@@ -5,8 +5,7 @@ english = 'project; plan'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 221
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 937, leeds = 474, novels = 1192, wikipedia = 221 }
 
 [[cards]]
 kanji = '支度'
@@ -15,8 +14,7 @@ english = 'preparation; arrangements'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 4932
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4932, leeds = 13424 }
 
 [[cards]]
 kanji = '積もり'
@@ -25,8 +23,7 @@ english = 'intention; plan'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 194
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 194, leeds = 1015, novels = 321 }
 
 [[cards]]
 kanji = '予定'
@@ -35,6 +32,5 @@ english = 'plans; arrangement'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 468
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 905, leeds = 528, novels = 1896, wikipedia = 468 }
 

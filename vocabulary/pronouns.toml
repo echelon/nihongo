@@ -4,8 +4,7 @@ kana = 'あんた'
 english = 'you (familiar form of "anata")'
 source = 'anime-freq'
 tags = ['common', 'pronoun']
-highest_frequency = 1022
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1022, leeds = 4636, novels = 1686 }
 
 [[cards]]
 kanji = '俺'
@@ -14,8 +13,7 @@ english = 'I; me (male, rough/arrogant)'
 source = 'anime'
 level = 'n1'
 tags = ['anime', 'common', 'pronoun']
-highest_frequency = 20
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 20, leeds = 699, novels = 118, wikipedia = 3950 }
 
 [[cards]]
 kanji = '貴様'
@@ -23,8 +21,7 @@ kana = 'きさま'
 english = 'you bastard'
 source = 'anime'
 tags = ['pronoun', 'uncommon', 'uncommon-but-ive-heard-this']
-highest_frequency = 224
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 224, novels = 1861 }
 
 [[cards]]
 kanji = '君'
@@ -33,8 +30,7 @@ english = 'you; buddy; pal'
 source = 'anime'
 level = 'n4'
 tags = ['common', 'pronoun']
-highest_frequency = 30
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 30, leeds = 234, novels = 201, wikipedia = 3058 }
 
 [[cards]]
 kanji = '僕'
@@ -43,8 +39,7 @@ english = 'I; me (male language)'
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['anime', 'common', 'male', 'male-language', 'pronoun']
-highest_frequency = 48
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 48, leeds = 274, novels = 197, wikipedia = 2602 }
 
 [[cards]]
 kanji = '奴'
@@ -52,8 +47,7 @@ kana = 'やつ'
 english = 'fellow; chap (derogatory)'
 source = 'anime-freq'
 tags = ['anime', 'common', 'derogatory', 'pronoun', 'rude']
-highest_frequency = 185
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 185, leeds = 2537, novels = 432, wikipedia = 5318 }
 
 [[cards]]
 kanji = '私たち'
@@ -71,6 +65,5 @@ source = 'anime'
 level = 'n3'
 explain = 'https://japanese.stackexchange.com/a/36681'
 tags = ['anime', 'common', 'pronoun']
-highest_frequency = 335
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 335, leeds = 727, novels = 839, wikipedia = 4516 }
 

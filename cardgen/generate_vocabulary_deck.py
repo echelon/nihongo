@@ -15,6 +15,10 @@ from collections import OrderedDict
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
+from update_frequencies import ANIME_FREQUENCY_SUBFIELD
+from update_frequencies import FREQUENCY_FIELD
+from update_frequencies import calculate_highest_frequency
+
 OUTPUT_FILENAME = 'kanji_card_deck_output.apkg'
 
 # use random.randrange(1 << 30, 1 << 31) to generate a suitable model_id,
@@ -41,6 +45,7 @@ KANJI_CARD_MODEL = genanki.Model(
     {'name': 'Level'},
     {'name': 'Highest Frequency'},
     {'name': 'Highest Frequency Source'},
+    {'name': 'Frequency Anime'},
   ],
   # NB: Add or remove templates (with the same names) using the
   # Anki interface first, or imports won't work as expected.
@@ -54,7 +59,13 @@ KANJI_CARD_MODEL = genanki.Model(
 <footer>
   <div class="level level-{{Level}}">{{Level}}</div>
   {{#Highest Frequency}}
-    <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+    <div class="frequency">
+      {{Highest Frequency}} ({{Highest Frequency Source}})
+      {{#Frequency Anime}}
+        <br />
+        {{Frequency Anime}} (anime)
+      {{/Frequency Anime}}
+    </div>
   {{/Highest Frequency}}
 </footer>
 ''',
@@ -69,7 +80,13 @@ KANJI_CARD_MODEL = genanki.Model(
 <footer>
   <div class="level level-{{Level}}">{{Level}}</div>
   {{#Highest Frequency}}
-    <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+    <div class="frequency">
+      {{Highest Frequency}} ({{Highest Frequency Source}})
+      {{#Frequency Anime}}
+        <br />
+        {{Frequency Anime}} (anime)
+      {{/Frequency Anime}}
+    </div>
   {{/Highest Frequency}}
 </footer>
 '''
@@ -91,7 +108,13 @@ KANJI_CARD_MODEL = genanki.Model(
   <footer>
     <div class="level level-{{Level}}">{{Level}}</div>
     {{#Highest Frequency}}
-      <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+      <div class="frequency">
+        {{Highest Frequency}} ({{Highest Frequency Source}})
+        {{#Frequency Anime}}
+          <br />
+          {{Frequency Anime}} (anime)
+        {{/Frequency Anime}}
+      </div>
     {{/Highest Frequency}}
   </footer>
 {{/Make Furigana Card?}}
@@ -109,7 +132,13 @@ KANJI_CARD_MODEL = genanki.Model(
 <footer>
   <div class="level level-{{Level}}">{{Level}}</div>
   {{#Highest Frequency}}
-    <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+    <div class="frequency">
+      {{Highest Frequency}} ({{Highest Frequency Source}})
+      {{#Frequency Anime}}
+        <br />
+        {{Frequency Anime}} (anime)
+      {{/Frequency Anime}}
+    </div>
   {{/Highest Frequency}}
 </footer>
 '''
@@ -124,7 +153,13 @@ KANJI_CARD_MODEL = genanki.Model(
   <footer>
     <div class="level level-{{Level}}">{{Level}}</div>
     {{#Highest Frequency}}
-      <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+      <div class="frequency">
+        {{Highest Frequency}} ({{Highest Frequency Source}})
+        {{#Frequency Anime}}
+          <br />
+          {{Frequency Anime}} (anime)
+        {{/Frequency Anime}}
+      </div>
     {{/Highest Frequency}}
   </footer>
 {{/Make Kanji Card?}}
@@ -141,7 +176,13 @@ KANJI_CARD_MODEL = genanki.Model(
 <footer>
   <div class="level level-{{Level}}">{{Level}}</div>
   {{#Highest Frequency}}
-    <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+    <div class="frequency">
+      {{Highest Frequency}} ({{Highest Frequency Source}})
+      {{#Frequency Anime}}
+        <br />
+        {{Frequency Anime}} (anime)
+      {{/Frequency Anime}}
+    </div>
   {{/Highest Frequency}}
 </footer>
 '''
@@ -156,7 +197,13 @@ KANJI_CARD_MODEL = genanki.Model(
   <footer>
     <div class="level level-{{Level}}">{{Level}}</div>
     {{#Highest Frequency}}
-      <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+      <div class="frequency">
+        {{Highest Frequency}} ({{Highest Frequency Source}})
+        {{#Frequency Anime}}
+          <br />
+          {{Frequency Anime}} (anime)
+        {{/Frequency Anime}}
+      </div>
     {{/Highest Frequency}}
   </footer>
 {{/Make Hiragana-only Card?}}
@@ -173,7 +220,13 @@ KANJI_CARD_MODEL = genanki.Model(
 <footer>
   <div class="level level-{{Level}}">{{Level}}</div>
   {{#Highest Frequency}}
-    <div class="frequency">{{Highest Frequency}} ({{Highest Frequency Source}})</div>
+    <div class="frequency">
+      {{Highest Frequency}} ({{Highest Frequency Source}})
+      {{#Frequency Anime}}
+        <br />
+        {{Frequency Anime}} (anime)
+      {{/Frequency Anime}}
+    </div>
   {{/Highest Frequency}}
 </footer>
 '''
@@ -209,18 +262,22 @@ footer {
 
 .frequency {
   float: right;
+  text-transform: capitalize;
 }
   ''')
 
 class Note(genanki.Note):
   def __init__(self, verb_dict, suspended=False):
+    # These fields are always populated:
     self.kanji = verb_dict['kanji']
     self.kana = verb_dict['kana']
     self.english = verb_dict['english']
+    # These fields are not always populated:
     self.level = verb_dict['level'] if 'level' in verb_dict else ''
     self.tags = verb_dict['tags'] if 'tags' in verb_dict else []
-    self.highest_frequency = ''
-    self.highest_frequency_source = ''
+    self.frequency_highest = ''
+    self.frequency_highest_source = ''
+    self.frequency_anime = ''
 
     # Suspended notes will not show up for review until removed from suspension.
     self.suspended = suspended
@@ -248,10 +305,18 @@ class Note(genanki.Note):
     else:
       self.make_hiragana_only_card = ''
 
-    if 'highest_frequency' in verb_dict \
-        and 'highest_frequency_source' in verb_dict:
-      self.highest_frequency = str(verb_dict['highest_frequency'])
-      self.highest_frequency_source = verb_dict['highest_frequency_source']
+    # TODO: Rename the Anki fields to frequency_* rather than highest_frequency_* to match
+    # the new field naming scheme.
+    if FREQUENCY_FIELD in verb_dict:
+      frequency_data = verb_dict[FREQUENCY_FIELD]
+      highest_frequency = calculate_highest_frequency(frequency_data)
+      if highest_frequency:
+        self.frequency_highest = str(highest_frequency['score'])
+        self.frequency_highest_source = highest_frequency['source']
+        # Only include additional anime frequency if it's not the highest
+        if highest_frequency['source'] != ANIME_FREQUENCY_SUBFIELD \
+            and ANIME_FREQUENCY_SUBFIELD in frequency_data:
+          self.frequency_anime = str(frequency_data[ANIME_FREQUENCY_SUBFIELD])
 
     sort_field = self.kana
 
@@ -266,8 +331,9 @@ class Note(genanki.Note):
       self.make_kanji_card,
       self.make_hiragana_only_card,
       self.level,
-      self.highest_frequency,
-      self.highest_frequency_source,
+      self.frequency_highest,
+      self.frequency_highest_source,
+      self.frequency_anime,
     ]
 
     super().__init__(model=KANJI_CARD_MODEL,

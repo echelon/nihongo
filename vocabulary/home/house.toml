@@ -5,8 +5,7 @@ english = 'rooftop'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['architecture', 'buildings', 'common', 'noun']
-highest_frequency = 2727
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2727, leeds = 8308, wikipedia = 9090 }
 
 [[cards]]
 kanji = 'お宅'
@@ -16,8 +15,7 @@ source = 'n4-wikipedia; irasshai'
 level = 'n4'
 explain = 'https://hinative.com/en-US/questions/7647808'
 tags = ['common', 'noun']
-highest_frequency = 9285
-highest_frequency_source = 'Leeds'
+frequency_scores = { leeds = 9285 }
 
 [[cards]]
 kanji = 'お手洗い'
@@ -39,8 +37,7 @@ kana = 'かべ'
 english = 'wall; partition'
 level = 'n4'
 tags = ['buildings', 'common', 'noun']
-highest_frequency = 346
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 819, leeds = 1493, novels = 346, wikipedia = 1817 }
 
 [[cards]]
 kanji = '玄関'
@@ -48,16 +45,14 @@ kana = 'げんかん'
 english = 'entrance; front door; foyer'
 level = 'n5'
 tags = ['common', 'noun']
-highest_frequency = 1259
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 4929, leeds = 4061, novels = 1259, wikipedia = 7285 }
 
 [[cards]]
 kanji = '寝室'
 kana = 'しんしつ'
 english = 'bedroom'
 tags = ['common']
-highest_frequency = 10415
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 13806, leeds = 10415 }
 
 [[cards]]
 kanji = '戸'
@@ -65,8 +60,7 @@ kana = 'と'
 english = 'Japanese-style door'
 level = 'n5'
 tags = []
-highest_frequency = 1286
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2238, leeds = 4611, novels = 1661, wikipedia = 1286 }
 
 [[cards]]
 kanji = '風呂'
@@ -74,8 +68,7 @@ kana = 'ふろ'
 english = 'bath; bathtub'
 level = 'n5'
 tags = []
-highest_frequency = 859
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 859, leeds = 2840, novels = 2091, wikipedia = 8170 }
 
 [[cards]]
 kanji = '部屋'
@@ -83,8 +76,7 @@ kana = 'へや'
 english = 'room'
 level = 'n5'
 tags = ['buildings', 'common', 'places']
-highest_frequency = 200
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 289, leeds = 765, novels = 200, wikipedia = 1632 }
 
 [[cards]]
 kanji = '窓'
@@ -92,8 +84,7 @@ kana = 'まど'
 english = 'window'
 level = 'n5'
 tags = []
-highest_frequency = 387
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1991, leeds = 1877, novels = 387, wikipedia = 1657 }
 
 [[cards]]
 kanji = '屋根'
@@ -101,6 +92,5 @@ kana = 'やね'
 english = 'roof'
 level = 'n3'
 tags = ['buildings', 'common', 'noun']
-highest_frequency = 1796
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 5115, leeds = 4387, novels = 1796, wikipedia = 2980 }
 

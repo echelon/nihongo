@@ -3,8 +3,7 @@ kanji = '烏'
 kana = 'からす'
 english = 'raven; crow'
 tags = ['common', 'noun']
-highest_frequency = 949
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 949, wikipedia = 5234 }
 
 [[cards]]
 kanji = '鳥'
@@ -12,8 +11,7 @@ kana = 'とり'
 english = 'bird'
 level = 'n5'
 tags = []
-highest_frequency = 1315
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1662, leeds = 2011, novels = 1315, wikipedia = 1788 }
 
 [[cards]]
 kanji = '白鳥'
@@ -22,6 +20,5 @@ english = 'swan'
 source = 'wanikani'
 level = 'n4'
 tags = ['animal', 'common', 'voice']
-highest_frequency = 3341
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3341, leeds = 12809, wikipedia = 7021 }
 

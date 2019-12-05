@@ -4,8 +4,7 @@ kana = 'いぬ'
 english = 'dog'
 level = 'n5'
 tags = ['common', 'mammal']
-highest_frequency = 566
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 566, leeds = 1214, novels = 892, wikipedia = 1772 }
 
 [[cards]]
 kanji = '牛'
@@ -13,8 +12,7 @@ kana = 'うし'
 english = 'cow'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 2170
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 3218, leeds = 2459, novels = 2819, wikipedia = 2170 }
 
 [[cards]]
 kanji = '馬'
@@ -23,24 +21,21 @@ english = 'horse'
 source = 'irasshai'
 level = 'n3'
 tags = ['animal', 'common', 'domesticated', 'mammal', 'noun']
-highest_frequency = 286
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1029, leeds = 1656, novels = 517, wikipedia = 286 }
 
 [[cards]]
 kanji = '狼'
 kana = 'おおかみ'
 english = 'wolf'
 tags = ['common', 'noun']
-highest_frequency = 1968
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1968, leeds = 7678, novels = 2716, wikipedia = 5400 }
 
 [[cards]]
 kanji = '狐'
 kana = 'きつね'
 english = 'fox'
 tags = ['common', 'noun']
-highest_frequency = 2063
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2063, leeds = 13915, wikipedia = 7735 }
 
 [[cards]]
 kanji = '屈狸'
@@ -54,16 +49,14 @@ kanji = '熊'
 kana = 'くま'
 english = 'bear'
 tags = ['common', 'noun']
-highest_frequency = 2833
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 4068, leeds = 6819, novels = 2860, wikipedia = 2833 }
 
 [[cards]]
 kanji = '子犬'
 kana = 'こいぬ'
 english = 'puppy'
 tags = ['common', 'noun']
-highest_frequency = 10402
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 10402, leeds = 13510 }
 
 [[cards]]
 kanji = '子牛'
@@ -77,8 +70,7 @@ kanji = '子猫'
 kana = 'こねこ'
 english = 'kitten'
 tags = ['common', 'noun']
-highest_frequency = 6293
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 6293 }
 
 [[cards]]
 kanji = '猿'
@@ -86,24 +78,21 @@ kana = 'さる'
 english = 'monkey'
 level = 'n3'
 tags = ['common', 'mammal', 'noun']
-highest_frequency = 1278
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2106, leeds = 6391, novels = 1278, wikipedia = 3464 }
 
 [[cards]]
 kanji = '鹿'
 kana = 'しか'
 english = 'deer'
 tags = ['common', 'noun']
-highest_frequency = 206
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3594, leeds = 7448, novels = 206, wikipedia = 3337 }
 
 [[cards]]
 kanji = '獅子'
 kana = 'しし'
 english = 'lion'
 tags = ['common', 'mammal', 'noun']
-highest_frequency = 6788
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 8174, leeds = 13380, wikipedia = 6788 }
 
 [[cards]]
 kanji = '象'
@@ -111,8 +100,7 @@ kana = 'ぞう'
 english = 'elephant'
 level = 'n3'
 tags = ['common', 'mammal', 'noun']
-highest_frequency = 1713
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 11332, leeds = 8709, novels = 1713, wikipedia = 4389 }
 
 [[cards]]
 kanji = '虎'
@@ -120,8 +108,7 @@ kana = 'とら'
 english = 'tiger'
 level = 'n3'
 tags = ['animal', 'common', 'noun']
-highest_frequency = 2301
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3418, leeds = 7306, novels = 2301, wikipedia = 2411 }
 
 [[cards]]
 kanji = '猫'
@@ -129,8 +116,7 @@ kana = 'ねこ'
 english = 'cat'
 level = 'n5'
 tags = []
-highest_frequency = 574
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 574, leeds = 1618, novels = 1100, wikipedia = 2461 }
 
 [[cards]]
 kanji = '羊'
@@ -138,16 +124,14 @@ kana = 'ひつじ'
 english = 'sheep'
 source = 'wanikani'
 tags = ['animal', 'common', 'noun']
-highest_frequency = 3609
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3609, leeds = 5637, wikipedia = 6172 }
 
 [[cards]]
 kanji = '豚'
 kana = 'ぶた'
 english = 'pig'
 tags = ['animals', 'common', 'noun']
-highest_frequency = 1924
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1924, leeds = 4401, wikipedia = 5600 }
 
 [[cards]]
 kanji = 'パンダ'
@@ -155,6 +139,5 @@ kana = 'パンダ'
 english = 'panda'
 source = 'anime-freq'
 tags = ['animal', 'common', 'mammal', 'noun']
-highest_frequency = 577
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 577, leeds = 12204 }
 

@@ -4,8 +4,7 @@ kana = 'きかん'
 english = 'engine'
 level = 'n3'
 tags = ['cars', 'common', 'physics', 'technology', 'vehicles']
-highest_frequency = 248
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1762, leeds = 662, novels = 2359, wikipedia = 248 }
 
 [[cards]]
 kanji = '汽車'
@@ -13,8 +12,7 @@ kana = 'きしゃ'
 english = 'train (long distance); steam train (original meaning)'
 level = 'n4'
 tags = ['common', 'noun', 'train', 'transportation']
-highest_frequency = 8985
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 22387, leeds = 13506, wikipedia = 8985 }
 
 [[cards]]
 kanji = '携帯'
@@ -22,8 +20,7 @@ kana = 'けいたい'
 english = 'mobile phone'
 level = 'n1'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 747
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 747, leeds = 868, wikipedia = 1607 }
 
 [[cards]]
 kanji = '自動車'
@@ -31,8 +28,7 @@ kana = 'じどうしゃ'
 english = 'automobile'
 level = 'n5'
 tags = []
-highest_frequency = 452
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 14592, leeds = 1674, wikipedia = 452 }
 
 [[cards]]
 kanji = '地下鉄'
@@ -40,8 +36,7 @@ kana = 'ちかてつ'
 english = 'underground train; subway'
 level = 'n5'
 tags = ['common', 'transportation']
-highest_frequency = 1865
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 10372, leeds = 4000, wikipedia = 1865 }
 
 [[cards]]
 kanji = '電気'
@@ -49,8 +44,7 @@ kana = 'でんき'
 english = 'electricity'
 level = 'n5'
 tags = []
-highest_frequency = 717
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 3087, leeds = 1605, novels = 2643, wikipedia = 717 }
 
 [[cards]]
 kanji = '電車'
@@ -58,8 +52,7 @@ kana = 'でんしゃ'
 english = 'electric train'
 level = 'n5'
 tags = []
-highest_frequency = 768
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2206, leeds = 1589, novels = 2361, wikipedia = 768 }
 
 [[cards]]
 kanji = '電卓'
@@ -67,8 +60,7 @@ kana = 'でんたく'
 english = 'calculator'
 source = 'wanikani'
 tags = ['common']
-highest_frequency = 33868
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 33868 }
 
 [[cards]]
 kanji = '電池'
@@ -77,8 +69,7 @@ english = 'battery'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'electronics', 'noun']
-highest_frequency = 4807
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 8984, leeds = 5007, wikipedia = 4807 }
 
 [[cards]]
 kanji = '電灯'
@@ -87,8 +78,7 @@ english = 'electric light'
 source = 'wiktionary'
 level = 'n4'
 tags = ['common', 'light', 'noun']
-highest_frequency = 12133
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 12158, leeds = 12133 }
 
 [[cards]]
 kanji = '電報'
@@ -97,8 +87,7 @@ english = 'telegram'
 source = 'wiktionary'
 level = 'n4'
 tags = ['common', 'communication', 'noun', 'old']
-highest_frequency = 8381
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 25467, leeds = 14748, wikipedia = 8381 }
 
 [[cards]]
 kanji = '電話'
@@ -106,8 +95,7 @@ kana = 'でんわ'
 english = 'telephone; telephone call'
 level = 'n5'
 tags = []
-highest_frequency = 395
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 497, leeds = 395, novels = 474, wikipedia = 942 }
 
 [[cards]]
 kanji = '飛行機'
@@ -115,8 +103,7 @@ kana = 'ひこうき'
 english = 'airplane'
 level = 'n5'
 tags = []
-highest_frequency = 2370
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3683, leeds = 2370, wikipedia = 3765 }
 
 [[cards]]
 kanji = '無線'
@@ -124,6 +111,5 @@ kana = 'むせん'
 english = 'wireless; radio'
 level = 'n1'
 tags = ['common']
-highest_frequency = 2450
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 6220, leeds = 3839, novels = 2464, wikipedia = 2450 }
 

@@ -20,8 +20,7 @@ english = 'city'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suffix']
-highest_frequency = 237
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2813, leeds = 373, novels = 1242, wikipedia = 237 }
 
 [[cards]]
 kanji = '～達'

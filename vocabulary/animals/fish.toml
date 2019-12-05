@@ -4,8 +4,7 @@ kana = 'きんぎょ'
 english = 'goldfish'
 level = 'n2'
 tags = ['common', 'noun']
-highest_frequency = 5544
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5544, leeds = 12892 }
 
 [[cards]]
 kanji = '鮫'
@@ -13,8 +12,7 @@ kana = 'さめ'
 english = 'shark'
 source = 'wanikani'
 tags = ['animals', 'common', 'fish']
-highest_frequency = 9922
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 10007, wikipedia = 9922 }
 
 [[cards]]
 kanji = '鮪'
@@ -22,6 +20,5 @@ kana = 'まぐろ'
 english = 'tuna'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'fish']
-highest_frequency = 33869
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 33869 }
 

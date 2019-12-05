@@ -4,8 +4,7 @@ kana = 'いす'
 english = 'chair; stool'
 level = 'n5'
 tags = ['common', 'furniture', 'home']
-highest_frequency = 817
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 5691, leeds = 3850, novels = 817, wikipedia = 3999 }
 
 [[cards]]
 kanji = '家具'
@@ -13,8 +12,7 @@ kana = 'かぐ'
 english = 'furniture'
 level = 'n3'
 tags = ['common', 'furniture']
-highest_frequency = 925
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 17418, leeds = 3867, novels = 925, wikipedia = 7130 }
 
 [[cards]]
 kanji = '寝台'
@@ -22,8 +20,7 @@ kana = 'しんだい'
 english = 'bed; couch'
 level = 'n2'
 tags = ['common', 'furniture']
-highest_frequency = 7267
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 33291, wikipedia = 7267 }
 
 [[cards]]
 kanji = '箪笥'
@@ -31,8 +28,7 @@ kana = 'たんす'
 english = 'dresser; chest'
 level = 'n2'
 tags = ['common', 'furniture']
-highest_frequency = 20971
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 20971 }
 
 [[cards]]
 kanji = '本棚'
@@ -40,8 +36,7 @@ kana = 'ほんだな'
 english = 'bookcase'
 level = 'n5'
 tags = ['books', 'common', 'furniture', 'noun', 'reading']
-highest_frequency = 8427
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 12480, leeds = 8427 }
 
 [[cards]]
 kanji = 'ソファ'
@@ -49,8 +44,7 @@ kana = 'ソファ'
 english = 'sofa'
 level = 'n3'
 tags = ['common', 'furniture', 'gairaigo', 'noun']
-highest_frequency = 12082
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 23107, leeds = 12082 }
 
 [[cards]]
 kanji = 'テーブル'
@@ -58,8 +52,7 @@ kana = 'テーブル'
 english = 'table'
 level = 'n5'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
-highest_frequency = 787
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 6189, leeds = 2366, novels = 787, wikipedia = 4481 }
 
 [[cards]]
 kanji = 'ベッド'
@@ -67,6 +60,5 @@ kana = 'ベッド'
 english = 'bed'
 level = 'n5'
 tags = ['bedroom', 'common', 'gairaigo', 'noun']
-highest_frequency = 686
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3554, leeds = 2907, novels = 686, wikipedia = 9160 }
 

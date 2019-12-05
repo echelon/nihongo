@@ -3,32 +3,28 @@ kanji = '韓国'
 kana = 'かんこく'
 english = 'South Korea'
 tags = ['common', 'countries', 'no-adjective', 'noun', 'world']
-highest_frequency = 611
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 41425, leeds = 611, wikipedia = 675 }
 
 [[cards]]
 kanji = '北朝鮮'
 kana = 'きたちょうせん'
 english = 'North Korea'
 tags = ['common', 'countries', 'noun', 'place', 'world']
-highest_frequency = 1170
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 36337, leeds = 1170, wikipedia = 2954 }
 
 [[cards]]
 kanji = '朝鮮'
 kana = 'ちょうせん'
 english = 'Korea'
 tags = ['common', 'countries', 'noun', 'place', 'world']
-highest_frequency = 921
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 37058, leeds = 2324, wikipedia = 921 }
 
 [[cards]]
 kanji = '米国'
 kana = 'べいこく'
 english = 'USA'
 tags = ['common', 'noun']
-highest_frequency = 720
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 15619, leeds = 720, wikipedia = 1071 }
 
 [[cards]]
 kanji = 'アフリカ'
@@ -36,8 +32,7 @@ kana = 'アフリカ'
 english = 'Africa'
 level = 'n4'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
-highest_frequency = 1301
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 9323, leeds = 3062, wikipedia = 1301 }
 
 [[cards]]
 kanji = 'アメリカ'
@@ -45,6 +40,5 @@ kana = 'アメリカ'
 english = 'America'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
-highest_frequency = 93
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 3494, leeds = 261, novels = 2133, wikipedia = 93 }
 

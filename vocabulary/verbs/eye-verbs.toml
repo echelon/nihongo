@@ -7,8 +7,7 @@ verb-type = 'ichidan'
 transitive = false
 level = 'n4'
 tags = ['common']
-highest_frequency = 123
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 150, leeds = 346, novels = 123, wikipedia = 1191 }
 
 [[cards]]
 kanji = '見せる'
@@ -19,8 +18,7 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n5'
 tags = ['common']
-highest_frequency = 252
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 252, leeds = 892, novels = 289, wikipedia = 880 }
 
 [[cards]]
 kanji = '見付ける'
@@ -31,9 +29,8 @@ verb-type = 'ichidan'
 transitive = true
 source = 'wanikani; anime; wiktionary'
 level = 'n4'
-highest_frequency = 3656
-highest_frequency_source = 'Wikipedia'
 tags = ['common']
+frequency_scores = { anime = 17727, leeds = 9413, wikipedia = 3656 }
 
 [[cards]]
 kanji = '見る'
@@ -44,8 +41,7 @@ verb-type = 'ichidan'
 transitive = true
 level = 'n5'
 tags = ['common']
-highest_frequency = 41
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 41, leeds = 98, novels = 45, wikipedia = 101 }
 
 [[cards]]
 kanji = '読む'
@@ -56,6 +52,5 @@ verb-type = 'godan-mu'
 transitive = false
 level = 'n5'
 tags = ['common']
-highest_frequency = 214
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 452, leeds = 214, novels = 601, wikipedia = 967 }
 

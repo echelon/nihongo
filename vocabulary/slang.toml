@@ -5,6 +5,5 @@ english = 'very (Osaka/Kansai hougen)'
 source = 'wanikani; anime'
 explain = 'https://www.italki.com/question/75853'
 tags = ['anime', 'hougen', 'kansai', 'osaka', 'slang', 'uncommon']
-highest_frequency = 3274
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3274, leeds = 10165 }
 

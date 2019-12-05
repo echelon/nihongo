@@ -5,8 +5,7 @@ english = 'branch'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'nature', 'noun']
-highest_frequency = 1402
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 4160, leeds = 5334, novels = 1402, wikipedia = 2300 }
 
 [[cards]]
 kanji = '木'
@@ -14,8 +13,7 @@ kana = 'き'
 english = 'tree; wood'
 level = 'n5'
 tags = ['common', 'nature', 'noun']
-highest_frequency = 425
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 697, leeds = 754, novels = 650, wikipedia = 425 }
 
 [[cards]]
 kanji = '植物'
@@ -24,8 +22,7 @@ english = 'plant'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'plants']
-highest_frequency = 1153
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 6099, leeds = 2516, wikipedia = 1153 }
 
 [[cards]]
 kanji = '葉'
@@ -34,8 +31,7 @@ english = 'leaf'
 source = 'wanikani; n4-wiki'
 level = 'n4'
 tags = ['biology', 'botany', 'common', 'nature', 'noun', 'plants']
-highest_frequency = 345
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 345, leeds = 2819, novels = 912, wikipedia = 1236 }
 
 [[cards]]
 kanji = '花'
@@ -43,8 +39,7 @@ kana = 'はな'
 english = 'flower'
 level = 'n5'
 tags = ['common', 'nature', 'noun', 'plants']
-highest_frequency = 297
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 297, leeds = 979, novels = 537, wikipedia = 637 }
 
 [[cards]]
 kanji = '林'
@@ -52,8 +47,7 @@ kana = 'はやし'
 english = 'woods; forest'
 level = 'n4'
 tags = ['common', 'nature', 'places', 'plants']
-highest_frequency = 865
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 5266, leeds = 2735, novels = 1804, wikipedia = 865 }
 
 [[cards]]
 kanji = '森'
@@ -61,6 +55,5 @@ kana = 'もり'
 english = 'big forest'
 level = 'n4'
 tags = ['common', 'nature', 'noun']
-highest_frequency = 606
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 929, leeds = 1576, novels = 606, wikipedia = 827 }
 

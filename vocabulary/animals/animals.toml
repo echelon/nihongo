@@ -3,8 +3,7 @@ kanji = '海老'
 kana = 'えび'
 english = 'shrimp; lobster'
 tags = ['common', 'noun']
-highest_frequency = 5900
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 19219, leeds = 12508, wikipedia = 5900 }
 
 [[cards]]
 kanji = '蛙'
@@ -12,24 +11,21 @@ kana = 'かえる'
 english = 'frog'
 level = 'n5'
 tags = ['common', 'noun']
-highest_frequency = 1405
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 10866, leeds = 9205, novels = 1405, wikipedia = 9602 }
 
 [[cards]]
 kanji = '蟹'
 kana = 'かに'
 english = 'crab'
 tags = ['common', 'noun']
-highest_frequency = 8226
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 11836, leeds = 12760, wikipedia = 8226 }
 
 [[cards]]
 kanji = '狸'
 kana = 'たぬき'
 english = 'tanuki (raccoon dog)'
 tags = ['common']
-highest_frequency = 5191
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5191 }
 
 [[cards]]
 kanji = '動物'
@@ -37,8 +33,7 @@ kana = 'どうぶつ'
 english = 'animal'
 level = 'n5'
 tags = []
-highest_frequency = 790
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1272, leeds = 1398, novels = 2062, wikipedia = 790 }
 
 [[cards]]
 kanji = '～匹'
@@ -53,6 +48,5 @@ kana = 'ペット'
 english = 'pet'
 level = 'n5'
 tags = []
-highest_frequency = 3512
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3512, leeds = 3721, wikipedia = 5786 }
 

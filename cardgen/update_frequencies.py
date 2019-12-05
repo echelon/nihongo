@@ -5,12 +5,41 @@ Update the entire set of notes with frequency data.
 """
 
 import glob
+from typing import Dict, Tuple
 
 from analysis import load_word_frequency_map
 from library import DynamicInlineTableDict
 from library import INDEX_NAME
 from library import NoteLibrary
 from library import write_toml
+
+# Where we store the frequency data in our notes
+FREQUENCY_FIELD = 'frequency_scores'
+ANIME_FREQUENCY_SUBFIELD = 'anime'
+
+# TODO: Remove after running migrations
+DEPRECATED_FIELDS = [
+  'frequency_highest',
+  'frequency_highest_source',
+  'highest_frequency',
+  'highest_frequency_source',
+]
+
+def calculate_highest_frequency(frequency_data: Dict[str, int]) -> Dict[str, int]:
+  """
+  From a source->score dict, find the lowest score (highest frequency) source-score pair.
+  """
+  if not frequency_data:
+    return None
+  lowest_score = 1000000000
+  lowest_score_source = None
+  for source, score in frequency_data.items():
+    if score < lowest_score:
+      lowest_score = score
+      lowest_score_source = source
+  if not lowest_score_source:
+    return None
+  return {'source': lowest_score_source, 'score': lowest_score}
 
 def main():
   # Several { Word => frequency } maps.
@@ -22,10 +51,10 @@ def main():
   }
 
   frequency_list_names = {
-    'anime_45k': 'Anime',
-    'leeds_15k' : 'Leeds',
-    'novel_3k' : 'Novels',
-    'wikipedia_10k' : 'Wikipedia',
+    'anime_45k': ANIME_FREQUENCY_SUBFIELD,
+    'leeds_15k' : 'leeds',
+    'novel_3k' : 'novels',
+    'wikipedia_10k' : 'wikipedia',
   }
 
   print('==== Notes files ==== ')
@@ -39,12 +68,16 @@ def main():
       freq_count = 0
 
       for note in notes[INDEX_NAME]:
-        frequency_score = None
-        frequency_list_name = None
+        # First we clean the note of deprecated frequency fields.
+        # These were fields that were renamed or discarded.
+        for deprecated_field in DEPRECATED_FIELDS:
+          note.pop(deprecated_field, None)
+
+        # Now we attach all of the word frequencies we know about the note.
         frequency_scores = {}
 
         for freq_name, freq_map in frequencies.items():
-          current_score = 1000000000
+          current_score = None
           if note['kanji'] in freq_map:
             current_score = freq_map[note['kanji']]
           elif note['kana'] in freq_map:
@@ -55,16 +88,8 @@ def main():
           human_name = frequency_list_names[freq_name].lower()
           frequency_scores[human_name] = current_score
 
-          if not frequency_score \
-              or current_score < frequency_score:
-            frequency_score = current_score
-            frequency_list_name = freq_name
-
-        if frequency_list_name and frequency_score:
-          list_name = frequency_list_names[frequency_list_name]
-          note['highest_frequency'] = frequency_score
-          note['highest_frequency_source'] = list_name
-          note['frequency_scores'] = DynamicInlineTableDict(frequency_scores)
+        if frequency_scores:
+          note[FREQUENCY_FIELD] = DynamicInlineTableDict(frequency_scores)
           freq_count += 1
 
       print('{0: <50} : {2} / {1} notes'.format(filename, note_count, freq_count))

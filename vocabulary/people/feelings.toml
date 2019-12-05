@@ -4,8 +4,7 @@ kana = 'あい'
 english = 'love; affection'
 level = 'n3'
 tags = ['common', 'noun', 'noun-suffix']
-highest_frequency = 408
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 408, leeds = 968, novels = 968, wikipedia = 1043 }
 
 [[cards]]
 kanji = '感じ'
@@ -14,8 +13,7 @@ english = 'sense; impression; feeling (eg. towards music or art)'
 level = 'n3'
 explain = 'https://www.learn-japanese-adventure.com/what-is-the-difference-between-kimochi-kibun-and-choushi.html'
 tags = ['common', 'noun']
-highest_frequency = 274
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 274, leeds = 340, novels = 504 }
 
 [[cards]]
 kanji = '気分'
@@ -25,8 +23,7 @@ level = 'n4'
 source = 'wanikani'
 explain = 'https://www.learn-japanese-adventure.com/what-is-the-difference-between-kimochi-kibun-and-choushi.html'
 tags = ['common', 'noun']
-highest_frequency = 683
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 799, leeds = 1126, novels = 683, wikipedia = 9644 }
 
 [[cards]]
 kanji = '気持ち'
@@ -36,8 +33,7 @@ source = 'anime'
 level = 'n4'
 explain = 'https://www.learn-japanese-adventure.com/what-is-the-difference-between-kimochi-kibun-and-choushi.html'
 tags = ['adverb', 'common', 'noun']
-highest_frequency = 261
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 261, leeds = 521, novels = 503, wikipedia = 6089 }
 
 [[cards]]
 kanji = '嫌い'
@@ -45,8 +41,7 @@ kana = 'きらい'
 english = 'dislike; hate'
 level = 'n5'
 tags = ['common', 'na-adjective']
-highest_frequency = 609
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 609, leeds = 2536, novels = 2465, wikipedia = 9533 }
 
 [[cards]]
 kanji = '好き'
@@ -54,6 +49,5 @@ kana = 'すき'
 english = 'liking; fondness; favorite; love'
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 113
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 113, leeds = 351, novels = 457, wikipedia = 2249 }
 

@@ -11,8 +11,7 @@ kana = 'きっさてん'
 english = 'coffee shop'
 level = 'n5'
 tags = []
-highest_frequency = 4559
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4559, leeds = 6882 }
 
 [[cards]]
 kanji = '胡椒'
@@ -20,8 +19,7 @@ kana = 'こしょう'
 english = 'pepper'
 level = 'n2'
 tags = ['common', 'food', 'noun']
-highest_frequency = 19577
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 19577 }
 
 [[cards]]
 kanji = 'ご飯'
@@ -29,8 +27,7 @@ kana = 'ごはん'
 english = 'cooked rice; meal'
 level = 'n5'
 tags = []
-highest_frequency = 816
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 816, leeds = 2712 }
 
 [[cards]]
 kanji = '塩'
@@ -38,16 +35,14 @@ kana = 'しお'
 english = 'salt'
 level = 'n5'
 tags = []
-highest_frequency = 1721
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2873, leeds = 3197, wikipedia = 1721 }
 
 [[cards]]
 kanji = '生姜'
 kana = 'しょうが'
 english = 'ginger'
 tags = ['common', 'food', 'noun']
-highest_frequency = 4987
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 18252, leeds = 4987 }
 
 [[cards]]
 kanji = '食堂'
@@ -55,8 +50,7 @@ kana = 'しょくどう'
 english = 'cafeteria; dining hall'
 level = 'n5'
 tags = []
-highest_frequency = 2968
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 5238, leeds = 5046, novels = 2968, wikipedia = 6474 }
 
 [[cards]]
 kanji = '食品'
@@ -65,8 +59,7 @@ english = 'foodstuffs; food products'
 level = 'n3'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
-highest_frequency = 1995
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 13128, leeds = 1995, wikipedia = 2066 }
 
 [[cards]]
 kanji = '食料品'
@@ -82,8 +75,7 @@ kana = 'そば'
 english = 'buckwheat; buckwheat noodles'
 level = 'n2'
 tags = ['common', 'food']
-highest_frequency = 698
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 12451, leeds = 6989, novels = 698 }
 
 [[cards]]
 kanji = '堆肥'
@@ -97,8 +89,7 @@ kana = 'たべもの'
 english = 'food'
 level = 'n5'
 tags = []
-highest_frequency = 2710
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2710, leeds = 3011 }
 
 [[cards]]
 kanji = '台所'
@@ -106,8 +97,7 @@ kana = 'だいどころ'
 english = 'kitchen'
 level = 'n5'
 tags = []
-highest_frequency = 2463
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 10217, leeds = 6905, novels = 2463 }
 
 [[cards]]
 kanji = '冷たい'
@@ -115,8 +105,7 @@ kana = 'つめたい'
 english = 'cold (to the touch); coldhearted'
 level = 'n5'
 tags = []
-highest_frequency = 882
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1469, leeds = 3526, novels = 882 }
 
 [[cards]]
 kanji = '生'
@@ -125,8 +114,7 @@ english = 'raw; uncooked; fresh'
 source = 'sekai-wa-fushigi-2'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun', 'prefix']
-highest_frequency = 189
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 626, leeds = 817, novels = 1000, wikipedia = 189 }
 
 [[cards]]
 kanji = '晩御飯'
@@ -156,8 +144,7 @@ kana = 'やおや'
 english = 'greengrocer'
 level = 'n5'
 tags = []
-highest_frequency = 23473
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 23473 }
 
 [[cards]]
 kanji = '夕飯'
@@ -165,8 +152,7 @@ kana = 'ゆうはん'
 english = 'evening meal (5-7pmish)'
 level = 'n5'
 tags = []
-highest_frequency = 4265
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4265, leeds = 9721 }
 
 [[cards]]
 kanji = '料理'
@@ -174,8 +160,7 @@ kana = 'りょうり'
 english = 'cooking; cuisine'
 level = 'n5'
 tags = []
-highest_frequency = 508
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 508, leeds = 836, novels = 1666, wikipedia = 1462 }
 
 [[cards]]
 kanji = '冷蔵庫'
@@ -183,8 +168,7 @@ kana = 'れいぞうこ'
 english = 'refrigerator'
 level = 'n5'
 tags = []
-highest_frequency = 4726
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4726, leeds = 5381 }
 
 [[cards]]
 kanji = 'カップ'
@@ -192,8 +176,7 @@ kana = 'カップ'
 english = 'cup'
 level = 'n5'
 tags = []
-highest_frequency = 1727
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 5011, leeds = 3554, novels = 2336, wikipedia = 1727 }
 
 [[cards]]
 kanji = 'カレー'
@@ -201,16 +184,14 @@ kana = 'カレー'
 english = 'curry'
 level = 'n5'
 tags = []
-highest_frequency = 1340
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1340, leeds = 3195, wikipedia = 7105 }
 
 [[cards]]
 kanji = 'スパイス'
 kana = 'スパイス'
 english = 'spice'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 4992
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4992, leeds = 12003 }
 
 [[cards]]
 kanji = 'バター'
@@ -218,8 +199,7 @@ kana = 'バター'
 english = 'butter'
 level = 'n5'
 tags = []
-highest_frequency = 8699
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 10181, leeds = 8699 }
 
 [[cards]]
 kanji = 'パン'
@@ -227,8 +207,7 @@ kana = 'パン'
 english = 'bread'
 level = 'n5'
 tags = []
-highest_frequency = 915
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 915, leeds = 1830, novels = 1909, wikipedia = 2993 }
 
 [[cards]]
 kanji = 'レストラン'
@@ -236,6 +215,5 @@ kana = 'レストラン'
 english = 'restaurant'
 level = 'n5'
 tags = []
-highest_frequency = 2178
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 6864, leeds = 2178, wikipedia = 3660 }
 

@@ -3,16 +3,14 @@ kanji = '亀'
 kana = 'かめ'
 english = 'turtle; tortoise'
 tags = ['common', 'noun']
-highest_frequency = 2508
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 3569, leeds = 6887, novels = 2685, wikipedia = 2508 }
 
 [[cards]]
 kanji = '蛇'
 kana = 'へび'
 english = 'snake'
 tags = ['animal', 'common', 'noun', 'reptile']
-highest_frequency = 2439
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3645, leeds = 8506, novels = 2439, wikipedia = 4690 }
 
 [[cards]]
 kanji = '鰐'
@@ -20,6 +18,5 @@ kana = 'わに'
 english = 'crocodile; alligator'
 source = 'wanikani'
 tags = ['animals', 'noun', 'uncommon']
-highest_frequency = 13304
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 13304 }
 

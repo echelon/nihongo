@@ -8,8 +8,7 @@ transitive = true
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
-highest_frequency = 545
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 636, leeds = 1770, novels = 545, wikipedia = 831 }
 
 [[cards]]
 kanji = '履く'
@@ -20,6 +19,5 @@ verb-type = 'godan-ku'
 transitive = true
 level = 'n3'
 tags = ['common']
-highest_frequency = 1240
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 5889, leeds = 5692, novels = 1240 }
 

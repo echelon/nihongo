@@ -5,8 +5,7 @@ english = 'cue'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 2808
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2981, leeds = 10251, novels = 2808 }
 
 [[cards]]
 kanji = '垢'
@@ -14,8 +13,7 @@ kana = 'あか'
 english = 'filth; dirt; grime'
 level = 'n1'
 tags = ['common', 'noun']
-highest_frequency = 2162
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 15084, leeds = 2162, wikipedia = 8341 }
 
 [[cards]]
 kanji = '足跡'
@@ -24,8 +22,7 @@ english = 'footprints'
 source = 'bonobono-anime'
 level = 'n2'
 tags = ['common', 'noun']
-highest_frequency = 6816
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 6816, leeds = 9308 }
 
 [[cards]]
 kanji = '遊び'
@@ -34,8 +31,7 @@ english = 'playing'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'noun-suffix']
-highest_frequency = 778
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 778, leeds = 2211, novels = 2151 }
 
 [[cards]]
 kanji = '厚い'
@@ -44,8 +40,7 @@ english = 'thick'
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common', 'dimensional-quantity', 'i-adjective']
-highest_frequency = 2753
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 5898, leeds = 4259, novels = 2753, wikipedia = 3560 }
 
 [[cards]]
 kanji = '穴'
@@ -54,8 +49,7 @@ english = 'hole'
 source = 'anime'
 level = 'n3'
 tags = ['common', 'noun', 'noun-suffix']
-highest_frequency = 719
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1023, leeds = 2806, novels = 719, wikipedia = 2319 }
 
 [[cards]]
 kanji = '安心'
@@ -64,8 +58,7 @@ english = 'relief; peace of mind'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'na-adjective', 'noun', 'suru-verb']
-highest_frequency = 589
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 589, leeds = 1465, novels = 1143 }
 
 [[cards]]
 kanji = 'あんな'
@@ -82,8 +75,7 @@ english = 'guidance'
 level = 'n3'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 1412
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1686, leeds = 1541, novels = 1412, wikipedia = 2702 }
 
 [[cards]]
 kanji = '以下'
@@ -92,8 +84,7 @@ english = 'not exceeding; below ~'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun']
-highest_frequency = 238
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2518, leeds = 586, novels = 2047, wikipedia = 238 }
 
 [[cards]]
 kanji = '意外'
@@ -102,8 +93,7 @@ english = 'unexpected'
 source = 'wanikani'
 level = 'n3'
 tags = ['adverb-to', 'common', 'na-adjective', 'noun']
-highest_frequency = 1561
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1615, leeds = 2622, novels = 1561 }
 
 [[cards]]
 kanji = '以外'
@@ -112,8 +102,7 @@ english = 'with the exception of'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['adverbial-noun', 'common']
-highest_frequency = 484
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 484, leeds = 535, novels = 682, wikipedia = 7554 }
 
 [[cards]]
 kanji = '医学'
@@ -121,8 +110,7 @@ kana = 'いがく'
 english = 'medical science; medicine (field)'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 1808
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 10599, leeds = 2634, wikipedia = 1808 }
 
 [[cards]]
 kanji = '医師'
@@ -131,8 +119,7 @@ english = 'physician (more formal term)'
 level = 'n3'
 source = 'boku-no-hero-academia-anime'
 tags = ['common', 'noun', 'people']
-highest_frequency = 1666
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 7951, leeds = 1666, novels = 2415, wikipedia = 1874 }
 
 [[cards]]
 kanji = '以上'
@@ -140,8 +127,7 @@ kana = 'いじょう'
 english = 'more than ~'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
-highest_frequency = 209
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 209, leeds = 239, novels = 273, wikipedia = 3206 }
 
 [[cards]]
 kanji = '痛み'
@@ -150,8 +136,7 @@ english = 'pain; injury; grief'
 level = 'n3'
 source = 'boku-no-hero-academia-anime'
 tags = ['common', 'noun']
-highest_frequency = 1314
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1659, leeds = 2956, novels = 1314 }
 
 [[cards]]
 kanji = '一年生'
@@ -166,8 +151,7 @@ english = 'full; amount necessary to fill a container'
 level = 'n4'
 source = 'irasshai'
 tags = ['adverb', 'common', 'na-adjective', 'no-adjective', 'noun']
-highest_frequency = 2317
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 9469, leeds = 3504, novels = 2317, wikipedia = 7181 }
 
 [[cards]]
 kanji = '糸'
@@ -176,8 +160,7 @@ english = 'thread; yarn'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'noun-suffix']
-highest_frequency = 1776
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1776, leeds = 5318, novels = 1924, wikipedia = 4226 }
 
 [[cards]]
 kanji = '以内'
@@ -186,8 +169,7 @@ english = 'within; inside of'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suffix']
-highest_frequency = 2676
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3210, leeds = 2676, wikipedia = 2861 }
 
 [[cards]]
 kanji = '命'
@@ -195,8 +177,7 @@ kana = 'いのち'
 english = 'life force; lifespan'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 282
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 282, leeds = 1660, novels = 782, wikipedia = 1424 }
 
 [[cards]]
 kanji = '内'
@@ -205,8 +186,7 @@ english = 'inside; within; while'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 422
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 619, leeds = 422, novels = 518, wikipedia = 710 }
 
 [[cards]]
 kanji = '内側'
@@ -214,8 +194,7 @@ kana = 'うちがわ'
 english = 'interior'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 1846
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 5144, leeds = 5561, novels = 1846, wikipedia = 4233 }
 
 [[cards]]
 kanji = '宇宙'
@@ -223,8 +202,7 @@ kana = 'うちゅう'
 english = 'universe; cosmos'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 526
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 686, leeds = 1375, novels = 785, wikipedia = 526 }
 
 [[cards]]
 kanji = 'うんち'
@@ -240,8 +218,7 @@ english = 'driving; operating a machine'
 source = 'irasshai'
 level = 'n4'
 tags = ['cars', 'common', 'machines', 'no-adjective', 'noun', 'suru-verb', 'vehicles']
-highest_frequency = 483
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 3008, leeds = 1856, novels = 2848, wikipedia = 483 }
 
 [[cards]]
 kanji = '煙突'
@@ -249,8 +226,7 @@ kana = 'えんとつ'
 english = 'chimney; smokestack'
 level = 'n2'
 tags = ['air', 'common', 'noun', 'pollution']
-highest_frequency = 6265
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 29231, wikipedia = 6265 }
 
 [[cards]]
 kanji = '大きさ'
@@ -266,8 +242,7 @@ english = 'big'
 source = 'wiki-n5; irasshai?'
 level = 'n5'
 tags = ['noun', 'pre-noun-adjectival']
-highest_frequency = 314
-highest_frequency_source = 'Novels'
+frequency_scores = { leeds = 338, novels = 314, wikipedia = 389 }
 
 [[cards]]
 kanji = '大声'
@@ -275,8 +250,7 @@ kana = 'おおごえ'
 english = 'loud voice'
 source = 'wanikani'
 tags = ['common', 'communication', 'no-adjective', 'noun']
-highest_frequency = 1963
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 4392, leeds = 6863, novels = 1963 }
 
 [[cards]]
 kanji = '贈り物'
@@ -285,8 +259,7 @@ english = 'present; gift'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun']
-highest_frequency = 7170
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 7170, leeds = 7722 }
 
 [[cards]]
 kanji = 'お釣り'
@@ -295,8 +268,7 @@ english = 'change (for a purchase)'
 source = 'n4-wiki'
 level = 'n4'
 tags = ['common', 'money', 'noun', 'shopping']
-highest_frequency = 16026
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 16026 }
 
 [[cards]]
 kanji = '音'
@@ -305,8 +277,7 @@ english = 'sound; noise'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'hearing', 'noun', 'noun-suffix', 'sounds']
-highest_frequency = 112
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 112, leeds = 575, novels = 143, wikipedia = 594 }
 
 [[cards]]
 kanji = '踊り'
@@ -315,8 +286,7 @@ english = 'dance'
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 5123
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 6576, leeds = 5123 }
 
 [[cards]]
 kanji = 'お前'
@@ -325,16 +295,14 @@ english = 'you (familiar, male language, often derogatory)'
 level = 'n3'
 source = 'anime'
 tags = ['common', 'pronoun']
-highest_frequency = 29
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 29, leeds = 2281, novels = 257 }
 
 [[cards]]
 kanji = '思い'
 kana = 'おもい'
 english = 'thought; imagination'
 tags = ['common', 'noun']
-highest_frequency = 510
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 510, leeds = 1047, novels = 771 }
 
 [[cards]]
 kanji = '玩具'
@@ -343,8 +311,7 @@ english = 'toy'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 5196
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 10373, leeds = 10103, wikipedia = 5196 }
 
 [[cards]]
 kanji = '思い出'
@@ -353,8 +320,7 @@ english = 'memories; recollections'
 source = 'irasshai'
 level = 'n3'
 tags = ['common', 'mind', 'noun']
-highest_frequency = 1136
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1136, leeds = 2784, wikipedia = 7693 }
 
 [[cards]]
 kanji = '主に'
@@ -363,8 +329,7 @@ english = 'mainly'
 level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common']
-highest_frequency = 31660
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 31660 }
 
 [[cards]]
 kanji = '思わず'
@@ -373,8 +338,7 @@ english = 'subconsciously; involuntarily'
 level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common']
-highest_frequency = 869
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 5839, leeds = 3898, novels = 869 }
 
 [[cards]]
 kanji = 'お湯'
@@ -382,8 +346,7 @@ kana = 'おゆ'
 english = 'hot water'
 level = 'n4'
 tags = ['common', 'drink', 'noun']
-highest_frequency = 3605
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3605, leeds = 6952 }
 
 [[cards]]
 kanji = '貝'
@@ -392,8 +355,7 @@ english = 'shellfish; shell; seashell'
 level = 'n2'
 source = 'wanikani'
 tags = ['animal', 'biology', 'common', 'noun']
-highest_frequency = 477
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 9607, leeds = 8425, novels = 477, wikipedia = 4872 }
 
 [[cards]]
 kanji = '海外'
@@ -402,16 +364,14 @@ english = 'foreign; overseas'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 871
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3721, leeds = 871, wikipedia = 1116 }
 
 [[cards]]
 kanji = '会長'
 kana = 'かいちょう'
 english = 'chairman; president of a society'
 tags = ['common', 'noun']
-highest_frequency = 514
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 514, leeds = 1268, wikipedia = 886 }
 
 [[cards]]
 kanji = '会話'
@@ -419,8 +379,7 @@ kana = 'かいわ'
 english = 'conversation'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 1433
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1734, leeds = 1612, novels = 1433, wikipedia = 4804 }
 
 [[cards]]
 kanji = '影'
@@ -428,8 +387,7 @@ kana = 'かげ'
 english = 'shadow'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 472
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 900, leeds = 3093, novels = 472, wikipedia = 3038 }
 
 [[cards]]
 kanji = '火事'
@@ -438,8 +396,7 @@ english = 'fire; conflaguration'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['common', 'disaster', 'noun']
-highest_frequency = 5726
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5726, leeds = 8837, wikipedia = 9392 }
 
 [[cards]]
 kanji = '方'
@@ -448,8 +405,7 @@ english = '(1.) direction; way; person (2.) side; type'
 level = 'n5'
 explain = 'https://thejapanesepage.com/tjpforum/viewtopic.php?t=15824'
 tags = ['common', 'noun']
-highest_frequency = 88
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 88, leeds = 116, novels = 108, wikipedia = 800 }
 
 [[cards]]
 kanji = '硬い'
@@ -457,8 +413,7 @@ kana = 'かたい'
 english = 'hard; solid; tough'
 level = 'n4'
 tags = ['common', 'i-adjectives']
-highest_frequency = 2201
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3328, leeds = 5959, novels = 2201 }
 
 [[cards]]
 kanji = '形'
@@ -466,8 +421,7 @@ kana = 'かたち'
 english = 'form; shape; figure'
 source = 'jlptstudy'
 tags = ['common', 'noun']
-highest_frequency = 351
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 772, leeds = 444, novels = 471, wikipedia = 351 }
 
 [[cards]]
 kanji = '刀'
@@ -475,8 +429,7 @@ kana = 'かたな'
 english = 'single-edged sword'
 level = 'n3'
 tags = ['common', 'weapons']
-highest_frequency = 399
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 399, leeds = 6568, novels = 1458, wikipedia = 3185 }
 
 [[cards]]
 kanji = '勝ち'
@@ -485,8 +438,7 @@ english = 'victory; win'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 840
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 840, leeds = 3976 }
 
 [[cards]]
 kanji = '活用'
@@ -495,8 +447,7 @@ english = 'conjugation'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'grammar', 'noun', 'suru-verb']
-highest_frequency = 1243
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 9142, leeds = 1243, wikipedia = 2719 }
 
 [[cards]]
 kanji = '可也'
@@ -506,8 +457,7 @@ source = 'nihonshock.com'
 level = 'n3'
 explain = 'http://nihonshock.com/2009/11/stop-saying-totemo/'
 tags = ['adverb', 'common', 'degree', 'na-adective', 'no-adjective']
-highest_frequency = 353
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 886, leeds = 353, novels = 598, wikipedia = 1522 }
 
 [[cards]]
 kanji = '彼女'
@@ -515,8 +465,7 @@ kana = 'かのじょ'
 english = 'she; her'
 level = 'n4'
 tags = ['common', 'pronoun']
-highest_frequency = 101
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 250, leeds = 390, novels = 101, wikipedia = 607 }
 
 [[cards]]
 kanji = '黴'
@@ -524,8 +473,7 @@ kana = 'かび'
 english = 'mold; mildew'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 40727
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 40727 }
 
 [[cards]]
 kanji = '剃刀'
@@ -533,8 +481,7 @@ kana = 'かみそり'
 english = 'razor'
 level = 'n2'
 tags = ['common']
-highest_frequency = 23393
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 23393 }
 
 [[cards]]
 kanji = '痒い'
@@ -542,8 +489,7 @@ kana = 'かゆい'
 english = 'itchy'
 level = 'n2'
 tags = ['body', 'common', 'health', 'i-adjective']
-highest_frequency = 12883
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 12883, leeds = 14234 }
 
 [[cards]]
 kanji = '管'
@@ -551,8 +497,7 @@ kana = 'かん'
 english = 'pipe; tube'
 level = 'n3'
 tags = ['common', 'noun', 'noun-suffix']
-highest_frequency = 353
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 6359, leeds = 4395, novels = 353, wikipedia = 1059 }
 
 [[cards]]
 kanji = '完成'
@@ -561,8 +506,7 @@ english = 'complete; completion'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 560
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 943, leeds = 1583, wikipedia = 560 }
 
 [[cards]]
 kanji = '完成'
@@ -571,8 +515,7 @@ english = 'complete; completion'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 560
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 943, leeds = 1583, wikipedia = 560 }
 
 [[cards]]
 kanji = '完全'
@@ -581,8 +524,7 @@ english = 'perfect; complete'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
-highest_frequency = 482
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 482, leeds = 795, novels = 720, wikipedia = 549 }
 
 [[cards]]
 kanji = '外来'
@@ -591,8 +533,7 @@ english = 'imported'
 source = 'wanikani'
 level = 'n1'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 6604
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 15033, leeds = 6604, wikipedia = 7108 }
 
 [[cards]]
 kanji = '学年'
@@ -601,8 +542,7 @@ english = 'school year'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'noun', 'school']
-highest_frequency = 4003
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 4696, leeds = 4750, wikipedia = 4003 }
 
 [[cards]]
 kanji = '記憶'
@@ -611,8 +551,7 @@ english = 'recollection'
 source = 'anime-frequent'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 426
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 426, leeds = 1063, novels = 788, wikipedia = 2767 }
 
 [[cards]]
 kanji = '記事'
@@ -621,8 +560,7 @@ english = 'article; news story'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'media', 'noun']
-highest_frequency = 223
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 8267, leeds = 223, wikipedia = 1200 }
 
 [[cards]]
 kanji = 'きちんと'
@@ -631,8 +569,7 @@ english = 'neatly; accurately'
 level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common', 'suru-verb']
-highest_frequency = 1509
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 2890, leeds = 1509, novels = 2725 }
 
 [[cards]]
 kanji = '休学'
@@ -640,8 +577,7 @@ kana = 'きゅうがく'
 english = 'temporary absence from school'
 level = 'n1'
 tags = ['common']
-highest_frequency = 22649
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 22649 }
 
 [[cards]]
 kanji = '休止'
@@ -649,8 +585,7 @@ kana = 'きゅうし'
 english = 'pause'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 2339
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 15318, leeds = 10351, wikipedia = 2339 }
 
 [[cards]]
 kanji = '休日'
@@ -658,8 +593,7 @@ kana = 'きゅうじつ'
 english = 'day off'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 3198
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 5613, leeds = 3198, wikipedia = 4483 }
 
 [[cards]]
 kanji = '興味'
@@ -668,8 +602,7 @@ english = 'interest (in something); curiosity (about something)'
 source = 'n4-study'
 level = 'n4'
 tags = ['common', 'hobby', 'noun']
-highest_frequency = 782
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 782, leeds = 931, novels = 1209, wikipedia = 3115 }
 
 [[cards]]
 kanji = '曲'
@@ -678,8 +611,7 @@ english = 'piece of music; track (on a record)'
 source = 'wanikani; wikipedia 10k frequent'
 level = 'n1'
 tags = ['common', 'music', 'noun', 'noun-suffix']
-highest_frequency = 133
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1012, leeds = 657, wikipedia = 133 }
 
 [[cards]]
 kanji = '曲線'
@@ -688,8 +620,7 @@ english = 'curve'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'line', 'noun', 'shape']
-highest_frequency = 4852
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 24210, leeds = 7965, wikipedia = 4852 }
 
 [[cards]]
 kanji = '金'
@@ -698,8 +629,7 @@ english = 'gold'
 source = 'irasshai'
 level = 'n5'
 tags = ['common', 'noun']
-highest_frequency = 259
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 360, leeds = 297, novels = 388, wikipedia = 259 }
 
 [[cards]]
 kanji = '消しゴム'
@@ -707,8 +637,7 @@ kana = 'けしゴム'
 english = 'eraser'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
-highest_frequency = 9828
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 9828 }
 
 [[cards]]
 kanji = '決心'
@@ -717,8 +646,7 @@ english = 'determination'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 2566
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 7068, leeds = 7599, novels = 2566 }
 
 [[cards]]
 kanji = '決定'
@@ -727,8 +655,7 @@ english = 'decision'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 354
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1735, leeds = 653, wikipedia = 354 }
 
 [[cards]]
 kanji = '煙'
@@ -736,8 +663,7 @@ kana = 'けむり'
 english = 'smoke; fumes'
 level = 'n3'
 tags = ['air', 'common', 'noun', 'pollution']
-highest_frequency = 1287
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3311, leeds = 5288, novels = 1287, wikipedia = 5991 }
 
 [[cards]]
 kanji = '研究'
@@ -745,8 +671,7 @@ kana = 'けんきゅう'
 english = 'research'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 104
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 930, leeds = 258, novels = 1275, wikipedia = 104 }
 
 [[cards]]
 kanji = '研究室'
@@ -763,8 +688,7 @@ english = 'sightseeing'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 2909
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 7035, leeds = 9994, novels = 2909 }
 
 [[cards]]
 kanji = '月光'
@@ -772,8 +696,7 @@ kana = 'げっこう'
 english = 'moonlight'
 source = 'wanikani'
 tags = ['common']
-highest_frequency = 19241
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 19241 }
 
 [[cards]]
 kanji = '原因'
@@ -782,8 +705,7 @@ english = 'cause; origin; source'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 872
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 1622, leeds = 872, novels = 1919, wikipedia = 1034 }
 
 [[cards]]
 kanji = '現象'
@@ -792,8 +714,7 @@ english = 'phenomenon'
 level = 'n3'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'noun']
-highest_frequency = 1525
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3296, leeds = 1525, novels = 2019, wikipedia = 1914 }
 
 [[cards]]
 kanji = '斯う'
@@ -802,8 +723,7 @@ english = 'in this way; such; thus'
 level = 'n4'
 source = 'https://iknow.jp/courses/566921'
 tags = ['adverb', 'common']
-highest_frequency = 189
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 204, leeds = 451, novels = 189, wikipedia = 2571 }
 
 [[cards]]
 kanji = '工学'
@@ -812,8 +732,7 @@ english = 'engineering'
 source = 'wanikani'
 level = 'n1'
 tags = ['common', 'noun']
-highest_frequency = 2029
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 15741, leeds = 4098, wikipedia = 2029 }
 
 [[cards]]
 kanji = '鉱山'
@@ -821,8 +740,7 @@ kana = 'こうざん'
 english = 'mine (for ore)'
 level = 'n1'
 tags = ['common', 'noun']
-highest_frequency = 3454
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 7387, leeds = 8702, wikipedia = 3454 }
 
 [[cards]]
 kanji = '交通'
@@ -831,8 +749,7 @@ english = 'traffic'
 level = 'n4'
 source = 'nihongo-sou-matome'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 440
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 5209, leeds = 1569, wikipedia = 440 }
 
 [[cards]]
 kanji = '講堂'
@@ -841,8 +758,7 @@ english = 'auditorium; lecture hall'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
-highest_frequency = 9929
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 9929, leeds = 14798 }
 
 [[cards]]
 kanji = '公平'
@@ -851,8 +767,7 @@ english = 'fairness'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 4906
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 8290, leeds = 4906 }
 
 [[cards]]
 kanji = '公用'
@@ -861,8 +776,7 @@ english = 'government business; official business'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 8134
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 23428, leeds = 14901, wikipedia = 8134 }
 
 [[cards]]
 kanji = '心'
@@ -870,8 +784,7 @@ kana = 'こころ'
 english = 'mind; heart; spirit'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 151
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 151, leeds = 312, novels = 168, wikipedia = 822 }
 
 [[cards]]
 kanji = '事'
@@ -880,8 +793,7 @@ english = 'thing'
 source = 'irasshai'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 96
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 96, leeds = 172, novels = 139, wikipedia = 136 }
 
 [[cards]]
 kanji = '細かい'
@@ -891,8 +803,7 @@ source = 'n4-study'
 level = 'n4'
 explain = 'https://hinative.com/ja/questions/5390425'
 tags = ['common', 'i-adjective']
-highest_frequency = 2295
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 2991, leeds = 2295, wikipedia = 5054 }
 
 [[cards]]
 kanji = '小文字'
@@ -907,8 +818,7 @@ kana = 'こわい'
 english = 'scary; frightening'
 level = 'n4'
 tags = ['common', 'i-adjective']
-highest_frequency = 233
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 233, leeds = 1627, novels = 903 }
 
 [[cards]]
 kanji = '混凝土'
@@ -932,8 +842,7 @@ english = 'wonderful; best; most; highest'
 source = 'bonobono-anime'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
-highest_frequency = 473
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 665, leeds = 990, novels = 2078, wikipedia = 473 }
 
 [[cards]]
 kanji = '最後'
@@ -941,8 +850,7 @@ kana = 'さいご'
 english = 'end; conclusion; final'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 227
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 227, leeds = 384, novels = 381, wikipedia = 345 }
 
 [[cards]]
 kanji = '作品'
@@ -951,8 +859,7 @@ english = 'work (film, book, etc.); production; performance'
 source = 'wikipedia 10k frequent; manga labels'
 level = 'n3'
 tags = ['common', 'labels', 'noun']
-highest_frequency = 84
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1581, leeds = 423, novels = 2623, wikipedia = 84 }
 
 [[cards]]
 kanji = '作用'
@@ -961,8 +868,7 @@ english = 'action'
 source = 'wanikani'
 level = 'n1'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 1577
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 7583, leeds = 3122, wikipedia = 1577 }
 
 [[cards]]
 kanji = '残念'
@@ -971,8 +877,7 @@ english = 'regrettable; unfortunate'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 558
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 558, leeds = 1034, novels = 1697 }
 
 [[cards]]
 kanji = '試合'
@@ -981,8 +886,7 @@ english = 'match; game'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'competition', 'game', 'noun', 'sports', 'suru-verb']
-highest_frequency = 195
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 473, leeds = 700, wikipedia = 195 }
 
 [[cards]]
 kanji = '仕方'
@@ -991,8 +895,7 @@ english = 'method'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 481
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 481, leeds = 1196, novels = 910 }
 
 [[cards]]
 kanji = '姿勢'
@@ -1001,8 +904,7 @@ english = 'posture; stance'
 level = 'n2'
 source = 'wanikani'
 tags = ['body', 'common', 'noun']
-highest_frequency = 1596
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 5440, leeds = 1596, novels = 1705, wikipedia = 2735 }
 
 [[cards]]
 kanji = '死体'
@@ -1011,8 +913,7 @@ english = 'dead body'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'noun']
-highest_frequency = 1076
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1651, leeds = 5735, novels = 1076, wikipedia = 6425 }
 
 [[cards]]
 kanji = '失敗'
@@ -1021,8 +922,7 @@ english = 'failure; mistake; blunder'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 758
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 758, leeds = 1339, novels = 1817, wikipedia = 1265 }
 
 [[cards]]
 kanji = '失礼'
@@ -1030,8 +930,7 @@ kana = 'しつれい'
 english = 'rude'
 source = 'irasshai'
 tags = ['na-adjective', 'noun', 'suru-verb']
-highest_frequency = 415
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 415, leeds = 3022, novels = 1576 }
 
 [[cards]]
 kanji = '品物'
@@ -1040,8 +939,7 @@ english = 'goods; articles; things'
 level = 'n4'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
-highest_frequency = 6842
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 10238, leeds = 6842 }
 
 [[cards]]
 kanji = '暫く'
@@ -1050,8 +948,7 @@ english = 'for a moment OR for awhile'
 source = 'n4-wiki'
 level = 'n4'
 tags = ['adverb', 'common', 'suru-verb']
-highest_frequency = 460
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 6028, leeds = 8732, novels = 460, wikipedia = 2299 }
 
 [[cards]]
 kanji = '島'
@@ -1060,8 +957,7 @@ english = 'island'
 source = 'irasshai; wikipedia 10k frequent'
 level = 'n4'
 tags = ['common', 'geography', 'noun', 'places']
-highest_frequency = 126
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1155, leeds = 1342, novels = 688, wikipedia = 126 }
 
 [[cards]]
 kanji = '姉妹'
@@ -1070,8 +966,7 @@ english = 'sisters'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'family', 'noun', 'people']
-highest_frequency = 2345
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 4295, leeds = 4994, novels = 2794, wikipedia = 2345 }
 
 [[cards]]
 kanji = '集中'
@@ -1080,8 +975,7 @@ english = 'concentration'
 source = 'wanikani; anime'
 level = 'n3'
 tags = ['common', 'mental', 'noun', 'suru-verb']
-highest_frequency = 1141
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1141, leeds = 1519, novels = 1687, wikipedia = 2032 }
 
 [[cards]]
 kanji = '主人'
@@ -1089,8 +983,7 @@ kana = 'しゅじん'
 english = 'head of (a) household'
 source = 'wanikani'
 tags = ['common', 'noun', 'people']
-highest_frequency = 755
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1487, leeds = 2786, novels = 755, wikipedia = 2143 }
 
 [[cards]]
 kanji = '出血'
@@ -1099,8 +992,7 @@ english = 'bleeding'
 source = 'wanikani'
 level = 'n1'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 6664
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 6664, leeds = 10429, wikipedia = 7624 }
 
 [[cards]]
 kanji = '出発'
@@ -1109,8 +1001,7 @@ english = 'departure'
 source = 'wanikani; airport'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 1970
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 2624, leeds = 1970, novels = 2194, wikipedia = 2872 }
 
 [[cards]]
 kanji = '趣味'
@@ -1119,8 +1010,7 @@ english = 'hobby'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 1210
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1210, leeds = 1965, novels = 2559, wikipedia = 3030 }
 
 [[cards]]
 kanji = '種類'
@@ -1129,8 +1019,7 @@ english = 'category; type; kind'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 729
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2767, leeds = 1122, novels = 2609, wikipedia = 729 }
 
 [[cards]]
 kanji = '紹介'
@@ -1139,8 +1028,7 @@ english = 'introduction; presentation; listing'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 330
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 969, leeds = 330, novels = 2128, wikipedia = 828 }
 
 [[cards]]
 kanji = '詳細'
@@ -1149,8 +1037,7 @@ english = 'details'
 source = 'wanikani'
 level = 'n1'
 tags = ['common', 'noun']
-highest_frequency = 959
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 6346, leeds = 959, wikipedia = 1296 }
 
 [[cards]]
 kanji = '正直'
@@ -1159,8 +1046,7 @@ english = 'honest'
 source = 'wanikani'
 level = 'n3'
 tags = ['common']
-highest_frequency = 919
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 919, leeds = 1672, novels = 1465 }
 
 [[cards]]
 kanji = '招待'
@@ -1169,8 +1055,7 @@ english = 'invitation'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 4348
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 4480, leeds = 4408, wikipedia = 4348 }
 
 [[cards]]
 kanji = '少年'
@@ -1178,8 +1063,7 @@ kana = 'しょうねん'
 english = 'young boy; juvenile'
 level = 'n4'
 tags = ['common', 'noun', 'people']
-highest_frequency = 465
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 944, leeds = 1283, novels = 465, wikipedia = 832 }
 
 [[cards]]
 kanji = '勝負'
@@ -1188,8 +1072,7 @@ english = 'match; victory or defeat'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 311
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 311, leeds = 2881, novels = 2235, wikipedia = 3821 }
 
 [[cards]]
 kanji = '使用'
@@ -1198,8 +1081,7 @@ english = 'use; application'
 source = 'wikipedia 10k frequent; wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'suru verb']
-highest_frequency = 87
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1814, leeds = 405, novels = 2401, wikipedia = 87 }
 
 [[cards]]
 kanji = '私立'
@@ -1208,8 +1090,7 @@ english = 'private (establishment)'
 source = 'wanikani'
 level = 'n2'
 tags = ['business', 'common', 'noun', 'place']
-highest_frequency = 3403
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 9083, leeds = 5383, wikipedia = 3403 }
 
 [[cards]]
 kanji = '信仰'
@@ -1217,8 +1098,7 @@ kana = 'しんこう'
 english = 'religious faith; creed'
 level = 'n1'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 2436
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 7270, leeds = 3046, wikipedia = 2436 }
 
 [[cards]]
 kanji = 'しんどい'
@@ -1226,8 +1106,7 @@ kana = 'しんどい'
 english = 'tired; frazzled'
 source = 'anime'
 tags = ['anime', 'common', 'i-adjective']
-highest_frequency = 5053
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5053, leeds = 7816 }
 
 [[cards]]
 kanji = '信念'
@@ -1235,8 +1114,7 @@ kana = 'しんねん'
 english = 'belief; conviction'
 source = 'anime'
 tags = ['common', 'noun']
-highest_frequency = 5730
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 7485, leeds = 5730 }
 
 [[cards]]
 kanji = '心理'
@@ -1245,8 +1123,7 @@ english = 'state of mind'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 1727
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 4650, leeds = 1727, novels = 2959, wikipedia = 2563 }
 
 [[cards]]
 kanji = '心理学'
@@ -1262,8 +1139,7 @@ english = 'character (ie kanji)'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'japanese', 'language', 'noun', 'writing']
-highest_frequency = 475
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1291, leeds = 2199, novels = 475, wikipedia = 910 }
 
 [[cards]]
 kanji = '事件'
@@ -1272,8 +1148,7 @@ english = 'event; incident; case; plot'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 241
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 513, leeds = 440, novels = 546, wikipedia = 241 }
 
 [[cards]]
 kanji = '事故'
@@ -1282,8 +1157,7 @@ english = 'accident'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 759
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1357, leeds = 1096, novels = 2221, wikipedia = 759 }
 
 [[cards]]
 kanji = '自身'
@@ -1293,8 +1167,7 @@ source = 'wikipedia 10k frequent'
 level = 'n3'
 explain = 'https://japanese.stackexchange.com/questions/27910/%E8%87%AA%E5%88%86-and-%E8%87%AA%E8%BA%AB-whats-the-difference'
 tags = ['common', 'noun', 'noun-suffix']
-highest_frequency = 321
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 867, leeds = 471, novels = 459, wikipedia = 321 }
 
 [[cards]]
 kanji = '時代'
@@ -1303,8 +1176,7 @@ english = 'period; epoch'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun', 'temporal-noun']
-highest_frequency = 66
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 811, leeds = 299, novels = 672, wikipedia = 66 }
 
 [[cards]]
 kanji = '実際'
@@ -1312,8 +1184,7 @@ kana = 'じっさい'
 english = 'practical; practicality'
 level = 'n3'
 tags = ['adverb', 'common', 'no-adjective', 'noun']
-highest_frequency = 371
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 1139, leeds = 371, novels = 770, wikipedia = 479 }
 
 [[cards]]
 kanji = '邪魔'
@@ -1322,8 +1193,7 @@ english = 'hindrance'
 source = 'anime-frequent'
 level = 'n3'
 tags = ['common', 'na-adjective', 'noun', 'suru-verb']
-highest_frequency = 367
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 367, leeds = 3750, novels = 1534 }
 
 [[cards]]
 kanji = '砂利'
@@ -1331,8 +1201,7 @@ kana = 'じゃり'
 english = 'gravel; pebbles'
 level = 'n1'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 42309
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 42309 }
 
 [[cards]]
 kanji = '準備'
@@ -1340,8 +1209,7 @@ kana = 'じゅんび'
 english = 'preparation'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 486
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 486, leeds = 905, novels = 1380, wikipedia = 1789 }
 
 [[cards]]
 kanji = '自由'
@@ -1350,8 +1218,7 @@ english = 'freedom'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'expression', 'na-adjective', 'noun']
-highest_frequency = 509
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 637, leeds = 509, novels = 983, wikipedia = 614 }
 
 [[cards]]
 kanji = '状況'
@@ -1360,8 +1227,7 @@ english = 'state of affairs (around you); circumstances'
 source = 'anime-frequency'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 355
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 435, leeds = 355, novels = 954, wikipedia = 691 }
 
 [[cards]]
 kanji = '助言'
@@ -1370,8 +1236,7 @@ english = 'advice'
 source = 'wanikani'
 level = 'n1'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 6451
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 9990, leeds = 6451, wikipedia = 6932 }
 
 [[cards]]
 kanji = '女性'
@@ -1380,8 +1245,7 @@ english = 'female gender'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'people']
-highest_frequency = 305
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 902, leeds = 319, novels = 623, wikipedia = 305 }
 
 [[cards]]
 kanji = '自立'
@@ -1390,8 +1254,7 @@ english = 'independence; self-reliance'
 source = 'bonobono + wanikani'
 level = 'n1'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 3146
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 11508, leeds = 3146, wikipedia = 6575 }
 
 [[cards]]
 kanji = '人工'
@@ -1400,8 +1263,7 @@ english = 'artificial'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 2604
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 4211, leeds = 3613, wikipedia = 2604 }
 
 [[cards]]
 kanji = '人生'
@@ -1410,8 +1272,7 @@ english = 'human life'
 level = 'n3'
 source = 'office'
 tags = ['common']
-highest_frequency = 705
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 705, leeds = 718, novels = 1696, wikipedia = 3247 }
 
 [[cards]]
 kanji = '水中'
@@ -1419,8 +1280,7 @@ kana = 'すいちゅう'
 english = 'underwater'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 4961
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 6662, leeds = 9640, wikipedia = 4961 }
 
 [[cards]]
 kanji = '生活'
@@ -1429,8 +1289,7 @@ english = 'living; livelihood'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 295
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 744, leeds = 295, novels = 525, wikipedia = 450 }
 
 [[cards]]
 kanji = '生産'
@@ -1439,8 +1298,7 @@ english = 'production; manufacture'
 source = 'n4-wiki'
 level = 'n4'
 tags = ['common', 'industry', 'noun', 'suru-verb']
-highest_frequency = 360
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 5716, leeds = 645, wikipedia = 360 }
 
 [[cards]]
 kanji = '説明'
@@ -1449,8 +1307,7 @@ english = 'explanation'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 314
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 655, leeds = 314, novels = 519, wikipedia = 1169 }
 
 [[cards]]
 kanji = '線'
@@ -1459,8 +1316,7 @@ english = 'line'
 source = 'wikipedia 10k frequent; wanikani'
 level = 'n4'
 tags = ['common', 'noun', 'noun-suffix']
-highest_frequency = 52
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1129, leeds = 1141, novels = 1234, wikipedia = 52 }
 
 [[cards]]
 kanji = '全国'
@@ -1469,8 +1325,7 @@ english = 'nationwide'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 338
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1996, leeds = 854, wikipedia = 338 }
 
 [[cards]]
 kanji = '全然'
@@ -1479,8 +1334,7 @@ english = 'not at all (with neg. verb)'
 source = 'irasshai'
 level = 'n3'
 tags = ['adverb', 'common']
-highest_frequency = 266
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 266, leeds = 1428, novels = 1664 }
 
 [[cards]]
 kanji = '総'
@@ -1489,8 +1343,7 @@ english = 'gross; overall; whole'
 level = 'n1'
 source = 'nihongo-sou-matome'
 tags = ['common', 'noun', 'prefix']
-highest_frequency = 32
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1255, leeds = 1570, novels = 32, wikipedia = 2445 }
 
 [[cards]]
 kanji = '外側'
@@ -1498,8 +1351,7 @@ kana = 'そとがわ'
 english = 'exterior'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 4109
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 6558, leeds = 5501, wikipedia = 4109 }
 
 [[cards]]
 kanji = 'その他'
@@ -1508,8 +1360,7 @@ english = 'etc.'
 source = 'japanese-shipping-forms'
 level = 'n2'
 tags = ['adverbial-noun', 'common', 'conjugation']
-highest_frequency = 627
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 7169, leeds = 652, novels = 2369, wikipedia = 627 }
 
 [[cards]]
 kanji = '夫れ夫れ'
@@ -1518,8 +1369,7 @@ english = 'each'
 source = 'sekai-wa-fushigi-2'
 level = 'n3'
 tags = ['adverbial-noun', 'common', 'no-adjective']
-highest_frequency = 292
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1526, leeds = 544, novels = 1068, wikipedia = 292 }
 
 [[cards]]
 kanji = '田'
@@ -1527,8 +1377,7 @@ kana = 'た'
 english = 'rice paddy'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 573
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1775, leeds = 3461, novels = 2835, wikipedia = 573 }
 
 [[cards]]
 kanji = '退屈'
@@ -1537,8 +1386,7 @@ english = 'boredom; tedium'
 source = 'bonobono-anime'
 level = 'n3'
 tags = ['common', 'na-adjective', 'noun', 'suru-verb']
-highest_frequency = 2606
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2606, leeds = 6448, novels = 2781 }
 
 [[cards]]
 kanji = '大作'
@@ -1546,8 +1394,7 @@ kana = 'たいさく'
 english = 'large-scale work; masterpiece; opus'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 7970
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 17256, leeds = 9739, wikipedia = 7970 }
 
 [[cards]]
 kanji = '宝'
@@ -1556,8 +1403,7 @@ english = 'treasure'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 1505
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1544, leeds = 6784, novels = 2897, wikipedia = 1505 }
 
 [[cards]]
 kanji = '竹'
@@ -1566,8 +1412,7 @@ english = 'bamboo'
 level = 'n2'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 2354
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 4522, leeds = 4859, novels = 2814, wikipedia = 2354 }
 
 [[cards]]
 kanji = '正しい'
@@ -1575,8 +1420,7 @@ kana = 'ただしい'
 english = 'correct'
 level = 'n4'
 tags = ['common', 'i-adjective']
-highest_frequency = 1002
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 1095, leeds = 1002, novels = 1280, wikipedia = 3330 }
 
 [[cards]]
 kanji = '盾'
@@ -1584,8 +1428,7 @@ kana = 'たて'
 english = 'shield'
 level = 'n1'
 tags = ['armor', 'common', 'weapons']
-highest_frequency = 2475
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2475, leeds = 9161, wikipedia = 4969 }
 
 [[cards]]
 kanji = '他人'
@@ -1594,8 +1437,7 @@ english = 'another person; others'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'people']
-highest_frequency = 1105
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1105, leeds = 1577, novels = 1149, wikipedia = 6449 }
 
 [[cards]]
 kanji = '楽しみ'
@@ -1604,8 +1446,7 @@ english = 'enjoyment; pleasure'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 706
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 706, leeds = 1422 }
 
 [[cards]]
 kanji = '為'
@@ -1614,8 +1455,7 @@ english = 'sake; purpose; benefit'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 33
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1417, leeds = 992, novels = 1232, wikipedia = 33 }
 
 [[cards]]
 kanji = '大事'
@@ -1624,8 +1464,7 @@ english = 'important; serious'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 334
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 334, leeds = 1022, novels = 1511 }
 
 [[cards]]
 kanji = '男性'
@@ -1633,8 +1472,7 @@ kana = 'だんせい'
 english = 'male gender'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'people']
-highest_frequency = 731
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1015, leeds = 799, novels = 2294, wikipedia = 731 }
 
 [[cards]]
 kanji = '地下'
@@ -1643,8 +1481,7 @@ english = 'underground'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 1236
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1236, leeds = 3166, novels = 1620, wikipedia = 1270 }
 
 [[cards]]
 kanji = '力'
@@ -1652,8 +1489,7 @@ kana = 'ちから'
 english = 'strength; energy; power; force; might'
 level = 'n4'
 tags = ['common']
-highest_frequency = 101
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 101, leeds = 238, novels = 169, wikipedia = 191 }
 
 [[cards]]
 kanji = '些とも'
@@ -1662,8 +1498,7 @@ english = 'not at all (neg. verb)'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['adverb', 'common']
-highest_frequency = 4053
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4053, leeds = 8110 }
 
 [[cards]]
 kanji = 'ちゃんと'
@@ -1672,8 +1507,7 @@ english = 'properly; diligently'
 level = 'n3'
 source = 'living-in-japan'
 tags = ['adverb', 'common', 'suru-verb']
-highest_frequency = 178
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 178, leeds = 1106, novels = 792 }
 
 [[cards]]
 kanji = '中古'
@@ -1682,8 +1516,7 @@ english = 'used; secondhand'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'temporal-noun']
-highest_frequency = 3338
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 15754, leeds = 3338, wikipedia = 7584 }
 
 [[cards]]
 kanji = '中古'
@@ -1692,8 +1525,7 @@ english = 'used; second-hand'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'temporal-noun']
-highest_frequency = 3338
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 15754, leeds = 3338, wikipedia = 7584 }
 
 [[cards]]
 kanji = '中古車'
@@ -1707,8 +1539,7 @@ kana = 'ちゅうし'
 english = 'suspension; discontinuance; interruption'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 1594
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2537, leeds = 3548, wikipedia = 1594 }
 
 [[cards]]
 kanji = '注文'
@@ -1717,8 +1548,7 @@ english = 'order; request'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 1518
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 2507, leeds = 1518, wikipedia = 6733 }
 
 [[cards]]
 kanji = '〜丁目'
@@ -1740,8 +1570,7 @@ kana = 'つきみ'
 english = 'moon viewing'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 15962
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 15962 }
 
 [[cards]]
 kanji = '包み'
@@ -1749,8 +1578,7 @@ kana = 'つつみ'
 english = 'package; parcel; bundle'
 level = 'n3'
 tags = ['common', 'nouns']
-highest_frequency = 11512
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 11512 }
 
 [[cards]]
 kanji = '梅雨'
@@ -1759,8 +1587,7 @@ english = 'rainy season (June - July)'
 source = 'anime'
 level = 'n3'
 tags = ['anime', 'common', 'noun', 'temporal']
-highest_frequency = 5604
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 7717, leeds = 5604 }
 
 [[cards]]
 kanji = '敵'
@@ -1769,8 +1596,7 @@ english = 'opponent; rival'
 source = 'anime-freq'
 level = 'n3'
 tags = ['anime', 'common', 'noun', 'people']
-highest_frequency = 202
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 202, leeds = 1840, novels = 272, wikipedia = 838 }
 
 [[cards]]
 kanji = '鉄道'
@@ -1779,8 +1605,7 @@ english = 'railroad'
 source = 'wikipedia 10k frequent'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 118
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 11773, leeds = 2643, wikipedia = 118 }
 
 [[cards]]
 kanji = '手作り'
@@ -1788,8 +1613,7 @@ kana = 'てづくり'
 english = 'handmade'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 4208
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4208, leeds = 5092 }
 
 [[cards]]
 kanji = '手袋'
@@ -1797,8 +1621,7 @@ kana = 'てぶくろ'
 english = 'glove; mitten'
 level = 'n4'
 tags = ['clothing', 'common', 'noun']
-highest_frequency = 8306
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 8306, leeds = 10345 }
 
 [[cards]]
 kanji = '寺'
@@ -1807,8 +1630,7 @@ english = 'Buddhist temple'
 source = 'japan; n4-wiki'
 level = 'n4'
 tags = ['buildings', 'common', 'culture', 'noun', 'places', 'religion']
-highest_frequency = 280
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2455, leeds = 4392, novels = 2296, wikipedia = 280 }
 
 [[cards]]
 kanji = '点'
@@ -1817,8 +1639,7 @@ english = 'point; dot; spot; mark'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 190
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 432, leeds = 205, novels = 555, wikipedia = 190 }
 
 [[cards]]
 kanji = '店員'
@@ -1827,8 +1648,7 @@ english = 'shop assistant'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 3056
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3056, leeds = 3806 }
 
 [[cards]]
 kanji = '天才'
@@ -1836,8 +1656,7 @@ kana = 'てんさい'
 english = 'genius; prodigy'
 level = 'n1'
 tags = ['common', 'noun']
-highest_frequency = 1373
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1373, leeds = 4307, wikipedia = 6371 }
 
 [[cards]]
 kanji = '伝説'
@@ -1846,8 +1665,7 @@ english = 'legend'
 source = 'zelda'
 level = 'n1'
 tags = ['common', 'fantasy', 'favorite words', 'noun', 'storytelling']
-highest_frequency = 1474
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1474, leeds = 3469, novels = 2804, wikipedia = 1588 }
 
 [[cards]]
 kanji = '電話番号'
@@ -1862,8 +1680,7 @@ kana = 'とうぼう'
 english = 'escape'
 level = 'n1'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 3928
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 5465, leeds = 10713, wikipedia = 3928 }
 
 [[cards]]
 kanji = '通り'
@@ -1873,8 +1690,7 @@ level = 'n3'
 source = 'jlptstudy.net'
 explain = 'https://hinative.com/en-US/questions/240900'
 tags = ['adverbial-noun', 'common', 'noun']
-highest_frequency = 394
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 394, leeds = 642, novels = 407, wikipedia = 611 }
 
 [[cards]]
 kanji = '特別'
@@ -1883,8 +1699,7 @@ english = 'special'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['adverb', 'common', 'no-adjective', 'noun']
-highest_frequency = 469
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 801, leeds = 792, novels = 1601, wikipedia = 469 }
 
 [[cards]]
 kanji = '土地'
@@ -1893,8 +1708,7 @@ english = 'plot of land; lot'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 1003
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 3119, leeds = 1148, novels = 1414, wikipedia = 1003 }
 
 [[cards]]
 kanji = '扉'
@@ -1903,8 +1717,7 @@ english = 'gate'
 level = 'n1'
 source = 'tobira'
 tags = ['common', 'noun']
-highest_frequency = 498
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1081, leeds = 4062, novels = 498, wikipedia = 2041 }
 
 [[cards]]
 kanji = '道具'
@@ -1913,8 +1726,7 @@ english = 'tool'
 source = 'wanikani'
 level = 'n4'
 tags = ['common']
-highest_frequency = 1963
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1963, leeds = 2917, novels = 2146, wikipedia = 4362 }
 
 [[cards]]
 kanji = '道路'
@@ -1923,8 +1735,7 @@ english = 'paved road or highway'
 level = 'n3'
 explain = 'https://hinative.com/en-US/questions/9825'
 tags = ['common', 'noun', 'places']
-highest_frequency = 368
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 7576, leeds = 1181, novels = 2033, wikipedia = 368 }
 
 [[cards]]
 kanji = '何か'
@@ -1932,8 +1743,7 @@ kana = 'なにか'
 english = 'something'
 level = 'n3'
 tags = ['common', 'expression']
-highest_frequency = 729
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2605, leeds = 3315, novels = 729 }
 
 [[cards]]
 kanji = '何も'
@@ -1941,8 +1751,7 @@ kana = 'なにも'
 english = 'nothing'
 level = 'n3'
 tags = ['adverb', 'common', 'expression']
-highest_frequency = 4978
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { wikipedia = 4978 }
 
 [[cards]]
 kanji = '匂い'
@@ -1951,8 +1760,7 @@ english = 'smell (usually bad); odor; stench'
 source = 'irasshai'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 1119
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1127, leeds = 4418, novels = 1119 }
 
 [[cards]]
 kanji = '日記'
@@ -1961,8 +1769,7 @@ english = 'diary; journal'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 400
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 1217, leeds = 400, wikipedia = 3289 }
 
 [[cards]]
 kanji = '日光'
@@ -1970,8 +1777,7 @@ kana = 'にっこう'
 english = 'sunlight; sunshine; sunbeams'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 4827
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 13084, leeds = 10085, wikipedia = 4827 }
 
 [[cards]]
 kanji = '入社'
@@ -1980,8 +1786,7 @@ english = 'joining a company'
 source = 'wanikani'
 level = 'n2'
 tags = ['noun', 'suru-verb', 'work']
-highest_frequency = 1722
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 22032, leeds = 5052, wikipedia = 1722 }
 
 [[cards]]
 kanji = '人形'
@@ -1989,8 +1794,7 @@ kana = 'にんぎょう'
 english = 'doll'
 level = 'n4'
 tags = ['common', 'noun', 'toy']
-highest_frequency = 1203
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1203, leeds = 4184, novels = 1300, wikipedia = 3530 }
 
 [[cards]]
 kanji = '値段'
@@ -1998,8 +1802,7 @@ kana = 'ねだん'
 english = 'price'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 1721
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3604, leeds = 1721 }
 
 [[cards]]
 kanji = '年次'
@@ -2007,8 +1810,7 @@ kana = 'ねんじ'
 english = 'annual; yearly'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 4700
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { leeds = 10774, wikipedia = 4700 }
 
 [[cards]]
 kanji = '農民'
@@ -2017,8 +1819,7 @@ english = 'peasants'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun', 'people']
-highest_frequency = 3626
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 19271, leeds = 3990, wikipedia = 3626 }
 
 [[cards]]
 kanji = '能力'
@@ -2027,8 +1828,7 @@ english = 'ability'
 source = 'anime-frequency'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 273
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 273, leeds = 729, novels = 885, wikipedia = 665 }
 
 [[cards]]
 kanji = '柱'
@@ -2036,8 +1836,7 @@ kana = 'はしら'
 english = 'pillar; post'
 level = 'n1'
 tags = ['architecture', 'common', 'noun']
-highest_frequency = 2167
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3080, leeds = 3528, novels = 2167, wikipedia = 2555 }
 
 [[cards]]
 kanji = '外れ'
@@ -2045,8 +1844,7 @@ kana = 'はずれ'
 english = 'extremity; verge; outskirts'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 6529
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 6529, leeds = 11283 }
 
 [[cards]]
 kanji = '発売'
@@ -2055,8 +1853,7 @@ english = 'sale; offering for sale'
 source = 'wikipedia 10k frequent; wanikani'
 level = 'n2'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 109
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 4458, leeds = 1086, wikipedia = 109 }
 
 [[cards]]
 kanji = '花火'
@@ -2064,8 +1861,7 @@ kana = 'はなび'
 english = 'fireworks'
 level = 'n2'
 tags = ['common']
-highest_frequency = 1530
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1530, leeds = 4487, wikipedia = 6485 }
 
 [[cards]]
 kanji = '花見'
@@ -2074,8 +1870,7 @@ english = 'cherry blossom viewing'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 7148
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 7148, leeds = 8252 }
 
 [[cards]]
 kanji = '早口'
@@ -2084,8 +1879,7 @@ english = 'fast talking'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 22363
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 22363 }
 
 [[cards]]
 kanji = '半額'
@@ -2093,8 +1887,7 @@ kana = 'はんがく'
 english = 'half price'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common']
-highest_frequency = 9970
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 13482, leeds = 9970 }
 
 [[cards]]
 kanji = '犯罪者'
@@ -2110,8 +1903,7 @@ english = 'opposite; inverse'
 level = 'n4'
 source = 'living-in-japan'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 853
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1962, leeds = 885, novels = 1200, wikipedia = 853 }
 
 [[cards]]
 kanji = '犯人'
@@ -2120,8 +1912,7 @@ english = 'criminal'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'people']
-highest_frequency = 920
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 920, leeds = 3587, novels = 969, wikipedia = 4382 }
 
 [[cards]]
 kanji = '爆破'
@@ -2130,8 +1921,7 @@ english = 'explosion'
 level = 'n1'
 source = 'boku-no-hero-academia-anime'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 3448
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3448, leeds = 9266, wikipedia = 6532 }
 
 [[cards]]
 kanji = '日'
@@ -2140,8 +1930,7 @@ english = 'day; sun'
 source = 'irasshai'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun']
-highest_frequency = 24
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 99, leeds = 55, novels = 128, wikipedia = 24 }
 
 [[cards]]
 kanji = '引き分け'
@@ -2150,8 +1939,7 @@ english = 'tie (in a game)'
 level = 'n2'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 5093
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5093, leeds = 11887 }
 
 [[cards]]
 kanji = '非常'
@@ -2159,16 +1947,14 @@ kana = 'ひじょう'
 english = 'emergency'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
-highest_frequency = 301
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 2463, leeds = 301, novels = 1327, wikipedia = 592 }
 
 [[cards]]
 kanji = '非常口'
 kana = 'ひじょうぐち'
 english = 'emergency exit'
 tags = ['building', 'common', 'noun']
-highest_frequency = 20302
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 20302 }
 
 [[cards]]
 kanji = '必死'
@@ -2177,8 +1963,7 @@ english = 'frantic'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective']
-highest_frequency = 1184
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1654, leeds = 3112, novels = 1184 }
 
 [[cards]]
 kanji = '必要'
@@ -2187,8 +1972,7 @@ english = 'necessary'
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['common', 'na-adjective']
-highest_frequency = 162
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 197, leeds = 162, novels = 315, wikipedia = 223 }
 
 [[cards]]
 kanji = '酷い'
@@ -2197,8 +1981,7 @@ english = 'cruel; heartless; violent'
 level = 'n4'
 source = 'anime'
 tags = ['common', 'i-adjective']
-highest_frequency = 562
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3601, leeds = 6685, novels = 562, wikipedia = 8292 }
 
 [[cards]]
 kanji = '皮肉'
@@ -2207,8 +1990,7 @@ english = 'irony'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
-highest_frequency = 2746
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 6825, leeds = 6386, novels = 2746, wikipedia = 8841 }
 
 [[cards]]
 kanji = '秘密'
@@ -2216,8 +1998,7 @@ kana = 'ひみつ'
 english = 'secret'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
-highest_frequency = 871
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 871, leeds = 2094, novels = 1099, wikipedia = 2439 }
 
 [[cards]]
 kanji = '不安'
@@ -2226,8 +2007,7 @@ english = 'anxiety'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'emotion', 'feeling', 'na-adjective', 'noun']
-highest_frequency = 811
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1415, leeds = 1143, novels = 811, wikipedia = 4367 }
 
 [[cards]]
 kanji = '風船'
@@ -2236,8 +2016,7 @@ english = 'balloon (toy)'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'noun', 'toy']
-highest_frequency = 6195
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 6195, leeds = 11880 }
 
 [[cards]]
 kanji = '不正'
@@ -2246,8 +2025,7 @@ english = 'injustice'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 3232
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 6745, leeds = 3232, wikipedia = 4662 }
 
 [[cards]]
 kanji = '不足'
@@ -2256,8 +2034,7 @@ english = 'shortage'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'na-adjective', 'noun', 'suru-verb']
-highest_frequency = 1736
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 3114, leeds = 1750, wikipedia = 1736 }
 
 [[cards]]
 kanji = '普通'
@@ -2266,8 +2043,7 @@ english = 'general; ordinary'
 level = 'n4'
 source = 'nihongo-sou-matome'
 tags = ['adverb', 'common', 'no-adjective']
-highest_frequency = 290
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 290, leeds = 617, novels = 762, wikipedia = 901 }
 
 [[cards]]
 kanji = '船'
@@ -2276,8 +2052,7 @@ english = 'boat'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun', 'ocean', 'transportation', 'vehicle']
-highest_frequency = 327
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 675, leeds = 1735, novels = 398, wikipedia = 327 }
 
 [[cards]]
 kanji = '船'
@@ -2285,8 +2060,7 @@ kana = 'ふね'
 english = 'boat'
 level = 'n4'
 tags = ['common', 'noun', 'transportation']
-highest_frequency = 327
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 675, leeds = 1735, novels = 398, wikipedia = 327 }
 
 [[cards]]
 kanji = '不明'
@@ -2295,8 +2069,7 @@ english = 'unclear'
 source = 'japanese chatroom; wanikani'
 level = 'n1'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
-highest_frequency = 974
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1405, leeds = 2001, novels = 1965, wikipedia = 974 }
 
 [[cards]]
 kanji = '物価'
@@ -2305,8 +2078,7 @@ english = 'cost of living'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 2356
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 32340, leeds = 2356 }
 
 [[cards]]
 kanji = '文化'
@@ -2315,8 +2087,7 @@ english = 'culture'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun', 'society']
-highest_frequency = 264
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1404, leeds = 493, novels = 2513, wikipedia = 264 }
 
 [[cards]]
 kanji = '文学'
@@ -2325,8 +2096,7 @@ english = 'literature'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 850
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 10015, leeds = 2153, novels = 1527, wikipedia = 850 }
 
 [[cards]]
 kanji = '返事'
@@ -2335,8 +2105,7 @@ english = 'response; reply; answer'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 816
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1681, leeds = 2355, novels = 816 }
 
 [[cards]]
 kanji = '別に'
@@ -2344,8 +2113,7 @@ kana = 'べつに'
 english = 'not particularly'
 level = 'n3'
 tags = ['adverb', 'common']
-highest_frequency = 303
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 303, leeds = 1505, novels = 868 }
 
 [[cards]]
 kanji = '方'
@@ -2353,8 +2121,7 @@ kana = 'ほう'
 english = 'direction; way; method; side'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 88
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 88, leeds = 116, novels = 108, wikipedia = 800 }
 
 [[cards]]
 kanji = '方向'
@@ -2364,8 +2131,7 @@ source = 'wanikani'
 level = 'n3'
 explain = 'https://thejapanesepage.com/tjpforum/viewtopic.php?t=15824'
 tags = ['common', 'direction', 'noun']
-highest_frequency = 822
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 1721, leeds = 822, novels = 1018, wikipedia = 870 }
 
 [[cards]]
 kanji = '宝石'
@@ -2374,8 +2140,7 @@ english = 'gem; jewel; precious stone'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 5714
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 5714, leeds = 8034, wikipedia = 7484 }
 
 [[cards]]
 kanji = '放送'
@@ -2384,8 +2149,7 @@ english = 'broadcast; broadcasting'
 source = 'wikipedia 10k frequent; wanikani; lots of frequency lists'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 54
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2571, leeds = 852, wikipedia = 54 }
 
 [[cards]]
 kanji = '褒美'
@@ -2394,8 +2158,7 @@ english = 'reward'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 3767
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3767, leeds = 9118 }
 
 [[cards]]
 kanji = '黒子'
@@ -2403,8 +2166,7 @@ kana = 'ほくろ'
 english = 'mole; beauty spot'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 1492
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1492 }
 
 [[cards]]
 kanji = '本気'
@@ -2413,8 +2175,7 @@ english = 'seriousness; sanctity'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
-highest_frequency = 487
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 487, leeds = 3162, novels = 1559 }
 
 [[cards]]
 kanji = '本当に'
@@ -2422,8 +2183,7 @@ kana = 'ほんとうに'
 english = 'really'
 source = 'irasshai'
 tags = ['adverb', 'common']
-highest_frequency = 136
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 136, leeds = 369, novels = 406 }
 
 [[cards]]
 kanji = '翻訳'
@@ -2432,8 +2192,7 @@ english = 'translation'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 1816
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 5685, leeds = 1816, wikipedia = 1944 }
 
 [[cards]]
 kanji = '本来'
@@ -2442,8 +2201,7 @@ english = 'originally'
 source = 'wanikani'
 level = 'n2'
 tags = ['adverbial-noun', 'common']
-highest_frequency = 1372
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 1540, leeds = 1372, novels = 2020, wikipedia = 1385 }
 
 [[cards]]
 kanji = '墓地'
@@ -2451,8 +2209,7 @@ kana = 'ぼち'
 english = 'graveyard; cemetery'
 level = 'n1'
 tags = ['common', 'noun', 'places']
-highest_frequency = 4247
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 12011, leeds = 9102, wikipedia = 4247 }
 
 [[cards]]
 kanji = '間違い'
@@ -2460,8 +2217,7 @@ kana = 'まちがい'
 english = 'mistake; error'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 457
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 457, leeds = 1290, novels = 1108 }
 
 [[cards]]
 kanji = '全く'
@@ -2470,8 +2226,7 @@ english = 'completely'
 source = 'wanikani'
 level = 'n3'
 tags = ['adverb', 'common', 'no-adjective']
-highest_frequency = 610
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 824, leeds = 610, novels = 1102, wikipedia = 1075 }
 
 [[cards]]
 kanji = '祭'
@@ -2479,8 +2234,7 @@ kana = 'まつり'
 english = 'festival'
 level = 'n3'
 tags = ['common']
-highest_frequency = 723
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 874, leeds = 2242, novels = 2450, wikipedia = 723 }
 
 [[cards]]
 kanji = '丸ごと'
@@ -2489,8 +2243,7 @@ english = 'wholly'
 level = 'n1'
 source = 'wanikani'
 tags = ['adverb', 'common']
-highest_frequency = 6943
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 6943, leeds = 11282 }
 
 [[cards]]
 kanji = '周り'
@@ -2499,8 +2252,7 @@ english = 'circumference; girth; surroundings; neighborhood'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 1047
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1047, leeds = 1554, novels = 2384, wikipedia = 4206 }
 
 [[cards]]
 kanji = '見方'
@@ -2509,16 +2261,14 @@ english = 'viewpoint'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 2564
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 8910, leeds = 2564, wikipedia = 5192 }
 
 [[cards]]
 kanji = '蜜柑'
 kana = 'みかん'
 english = 'mandarin orange'
 tags = ['common', 'food', 'fruit', 'noun']
-highest_frequency = 9282
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 25664, leeds = 9282 }
 
 [[cards]]
 kanji = '水色'
@@ -2526,8 +2276,7 @@ kana = 'みずいろ'
 english = 'light blue; aqua'
 source = 'wanikani'
 tags = ['appearance', 'colors', 'common', 'moun', 'no-adjective']
-highest_frequency = 15707
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 15707 }
 
 [[cards]]
 kanji = '名字'
@@ -2536,8 +2285,7 @@ english = 'family name (surname)'
 level = 'n2'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 6671
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 6671, wikipedia = 7599 }
 
 [[cards]]
 kanji = '名字'
@@ -2546,8 +2294,7 @@ english = 'family name'
 level = 'n2'
 source = 'wanikani'
 tags = ['common', 'names', 'noun', 'people']
-highest_frequency = 6671
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 6671, wikipedia = 7599 }
 
 [[cards]]
 kanji = '無限'
@@ -2555,8 +2302,7 @@ kana = 'むげん'
 english = 'infinity; eternity'
 level = 'n2'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun']
-highest_frequency = 3473
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3473, leeds = 5124, wikipedia = 5416 }
 
 [[cards]]
 kanji = '村人'
@@ -2564,8 +2310,7 @@ kana = 'むらびと'
 english = 'villager'
 source = 'smashbros'
 tags = ['common', 'noun', 'people']
-highest_frequency = 2468
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3423, leeds = 11484, novels = 2468 }
 
 [[cards]]
 kanji = '無理'
@@ -2573,8 +2318,7 @@ kana = 'むり'
 english = 'impossible; unreasonable'
 source = 'jlptstudy'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 196
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 196, leeds = 1166, novels = 697, wikipedia = 6418 }
 
 [[cards]]
 kanji = '名人'
@@ -2583,8 +2327,7 @@ english = 'master; expert'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'person']
-highest_frequency = 5859
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 14654, leeds = 9288, wikipedia = 5859 }
 
 [[cards]]
 kanji = '迷惑'
@@ -2593,8 +2336,7 @@ english = 'trouble; nuisance'
 source = 'wanikani; anime'
 level = 'n3'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 756
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 756, leeds = 2410, novels = 2195 }
 
 [[cards]]
 kanji = '珍しい'
@@ -2603,8 +2345,7 @@ english = 'unusual; rare; curious'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'i-adjective']
-highest_frequency = 1038
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1038, leeds = 2476, novels = 2077, wikipedia = 2363 }
 
 [[cards]]
 kanji = '目茶苦茶'
@@ -2613,8 +2354,7 @@ english = 'absurd; unreasonable'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 2776
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2776, leeds = 7940 }
 
 [[cards]]
 kanji = '申し訳ない'
@@ -2631,8 +2371,7 @@ english = 'table of contents'
 source = 'wanikani'
 level = 'n2'
 tags = ['books', 'common', 'index', 'noun', 'reading']
-highest_frequency = 3828
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 30692, leeds = 3828 }
 
 [[cards]]
 kanji = '目的'
@@ -2641,8 +2380,7 @@ english = 'goal; aim'
 source = 'anime-freq'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 416
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 590, leeds = 550, novels = 991, wikipedia = 416 }
 
 [[cards]]
 kanji = '若し'
@@ -2650,8 +2388,7 @@ kana = 'もし'
 english = 'if; supposing'
 level = 'n4'
 tags = ['adverb', 'common']
-highest_frequency = 467
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 17830, leeds = 701, novels = 467, wikipedia = 4021 }
 
 [[cards]]
 kanji = '最も'
@@ -2660,8 +2397,7 @@ english = 'most'
 source = 'wanikani'
 level = 'n3'
 tags = ['adverb', 'common']
-highest_frequency = 279
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1514, leeds = 786, novels = 1428, wikipedia = 279 }
 
 [[cards]]
 kanji = '元'
@@ -2670,8 +2406,7 @@ english = 'origin; source'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 311
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 478, leeds = 525, novels = 843, wikipedia = 311 }
 
 [[cards]]
 kanji = '物語'
@@ -2680,8 +2415,7 @@ english = 'tale'
 source = 'anime; videogames'
 level = 'n3'
 tags = ['common', 'fantasy', 'favorite words', 'no-adjective', 'noun', 'suru-verb']
-highest_frequency = 743
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1891, leeds = 1218, novels = 2594, wikipedia = 743 }
 
 [[cards]]
 kanji = '矢'
@@ -2690,16 +2424,14 @@ english = 'arrow'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'noun', 'weapon']
-highest_frequency = 1285
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2832, leeds = 6195, novels = 1285, wikipedia = 2877 }
 
 [[cards]]
 kanji = '野球'
 kana = 'やきゅう'
 english = 'baseball'
 tags = ['common', 'noun', 'sports']
-highest_frequency = 325
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 3323, leeds = 1595, wikipedia = 325 }
 
 [[cards]]
 kanji = '矢っ張り'
@@ -2708,8 +2440,7 @@ english = 'as expected; in any case; still'
 source = 'bonobono-anime'
 level = 'n2'
 tags = ['adverb', 'common']
-highest_frequency = 147
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 147, leeds = 660, novels = 595 }
 
 [[cards]]
 kanji = '矢張り'
@@ -2718,8 +2449,7 @@ english = 'likewise; as expected'
 source = 'n4-vocab'
 level = 'n3'
 tags = ['adverb', 'common']
-highest_frequency = 341
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 499, leeds = 341, novels = 446, wikipedia = 3582 }
 
 [[cards]]
 kanji = '柔らかい'
@@ -2727,8 +2457,7 @@ kana = 'やわらかい'
 english = 'soft; tender'
 level = 'n4'
 tags = ['common', 'feeling', 'i-adjective']
-highest_frequency = 2755
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 4608, leeds = 5327, novels = 2755, wikipedia = 7883 }
 
 [[cards]]
 kanji = '郵便'
@@ -2736,8 +2465,7 @@ kana = 'ゆうびん'
 english = 'postal service'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 1167
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 7986, leeds = 2347, wikipedia = 1167 }
 
 [[cards]]
 kanji = '床'
@@ -2746,8 +2474,7 @@ english = 'floor'
 level = 'n3'
 source = 'common'
 tags = ['buildings', 'common', 'noun']
-highest_frequency = 481
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2928, leeds = 2587, novels = 481, wikipedia = 2434 }
 
 [[cards]]
 kanji = '輸入'
@@ -2756,8 +2483,7 @@ english = 'introduction; importation'
 level = 'n3'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 1699
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 14300, leeds = 1699, wikipedia = 1952 }
 
 [[cards]]
 kanji = '夢'
@@ -2765,8 +2491,7 @@ kana = 'ゆめ'
 english = 'dream'
 level = 'n4'
 tags = ['common']
-highest_frequency = 172
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 172, leeds = 748, novels = 578, wikipedia = 1330 }
 
 [[cards]]
 kanji = '世'
@@ -2775,8 +2500,7 @@ english = 'world'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'geography', 'noun', 'world']
-highest_frequency = 141
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 868, leeds = 1410, novels = 1613, wikipedia = 141 }
 
 [[cards]]
 kanji = '用'
@@ -2785,8 +2509,7 @@ english = 'task'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'noun-suffix']
-highest_frequency = 396
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 447, leeds = 396, novels = 569, wikipedia = 8969 }
 
 [[cards]]
 kanji = '用'
@@ -2794,8 +2517,7 @@ kana = 'よう'
 english = 'task; business'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 396
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 447, leeds = 396, novels = 569, wikipedia = 8969 }
 
 [[cards]]
 kanji = '用意'
@@ -2804,8 +2526,7 @@ english = 'preparation; provision; arrangement'
 level = 'n4'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 650
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 650, leeds = 1547, novels = 1085, wikipedia = 1969 }
 
 [[cards]]
 kanji = '羊毛'
@@ -2814,8 +2535,7 @@ english = 'wool'
 level = 'n2'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 34783
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 34783 }
 
 [[cards]]
 kanji = '余計'
@@ -2824,8 +2544,7 @@ english = 'too many'
 source = 'anime-freq'
 level = 'n2'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 926
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 926, leeds = 3919, novels = 2799 }
 
 [[cards]]
 kanji = '世の中'
@@ -2834,8 +2553,7 @@ english = 'society'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'expression', 'noun', 'people']
-highest_frequency = 1761
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 1823, leeds = 1761, novels = 2553 }
 
 [[cards]]
 kanji = '予約'
@@ -2844,8 +2562,7 @@ english = 'reservation; appointment'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 1823
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 5281, leeds = 1823, wikipedia = 4860 }
 
 [[cards]]
 kanji = '楽'
@@ -2854,8 +2571,7 @@ english = 'comfort'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 498
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 498, leeds = 1796, novels = 1365, wikipedia = 1892 }
 
 [[cards]]
 kanji = '乱暴'
@@ -2864,8 +2580,7 @@ english = 'violence; assault; reckless'
 source = 'bonobono-anime'
 level = 'n2'
 tags = ['common', 'na-adjective', 'noun', 'suru-verb']
-highest_frequency = 2497
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 5610, leeds = 8904, novels = 2497 }
 
 [[cards]]
 kanji = '理由'
@@ -2874,8 +2589,7 @@ english = 'reason; pretext; motive'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 396
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 396, leeds = 456, novels = 565, wikipedia = 586 }
 
 [[cards]]
 kanji = '両方'
@@ -2884,8 +2598,7 @@ english = 'both'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 2161
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3150, leeds = 2161, novels = 2839, wikipedia = 2536 }
 
 [[cards]]
 kanji = '冷凍'
@@ -2894,8 +2607,7 @@ english = 'freeze/freezing; cold storage; refridgeration'
 level = 'n2'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 7551
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 10566, leeds = 7551, wikipedia = 9746 }
 
 [[cards]]
 kanji = '煉瓦'
@@ -2904,8 +2616,7 @@ english = 'brick'
 source = 'jisho'
 level = 'n2'
 tags = ['building', 'common', 'material', 'noun']
-highest_frequency = 6872
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 12632, wikipedia = 6872 }
 
 [[cards]]
 kanji = '連絡'
@@ -2914,8 +2625,7 @@ english = 'contact; get in touch'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'no-adjective', 'suru-verb']
-highest_frequency = 535
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 535, leeds = 1001, novels = 1302, wikipedia = 1394 }
 
 [[cards]]
 kanji = '訳無い'
@@ -2932,8 +2642,7 @@ english = 'discount; rebate'
 level = 'n2'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
-highest_frequency = 4894
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 15599, leeds = 4894, wikipedia = 5827 }
 
 [[cards]]
 kanji = 'エスカレーター'
@@ -2941,8 +2650,7 @@ kana = 'エスカレーター'
 english = 'escalator'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
-highest_frequency = 9811
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 19149, wikipedia = 9811 }
 
 [[cards]]
 kanji = 'ガラス'
@@ -2950,8 +2658,7 @@ kana = 'ガラス'
 english = 'glass'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
-highest_frequency = 1276
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 4109, leeds = 2512, novels = 1276 }
 
 [[cards]]
 kanji = 'サイン'
@@ -2959,8 +2666,7 @@ kana = 'サイン'
 english = 'sign; autograph'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 2496
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2496, leeds = 3537, wikipedia = 5929 }
 
 [[cards]]
 kanji = 'セール'
@@ -2969,8 +2675,7 @@ english = 'sale'
 source = 'nihongo-charenji-n4-kotoba'
 level = 'n1'
 tags = ['common', 'gairaigo']
-highest_frequency = 5028
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 9220, leeds = 5028 }
 
 [[cards]]
 kanji = 'ホッチキス'
@@ -2978,16 +2683,14 @@ kana = 'ホッチキス'
 english = 'stapler'
 source = 'irasshai'
 tags = ['gairaigo', 'noun', 'uncommon']
-highest_frequency = 24781
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 24781 }
 
 [[cards]]
 kanji = 'リサイクル'
 kana = 'リサイクル'
 english = 'recycling'
 tags = ['common', 'gairaigo', 'noun', 'suru-verb']
-highest_frequency = 4952
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 15214, leeds = 4952 }
 
 [[cards]]
 kanji = 'よろしい'
@@ -2996,6 +2699,5 @@ english = 'good; okay (sonkeigo)'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'i-adjective']
-highest_frequency = 768
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 768, leeds = 1418, novels = 1310 }
 

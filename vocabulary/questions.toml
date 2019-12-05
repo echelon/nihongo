@@ -4,8 +4,7 @@ kana = 'いかが'
 english = 'how (polite)'
 level = 'n5'
 tags = ['adverb', 'common', 'na-adjective', 'question']
-highest_frequency = 4193
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4193, leeds = 7145 }
 
 [[cards]]
 kanji = '幾つ'
@@ -13,8 +12,7 @@ kana = 'いくつ'
 english = 'how many? ; how old?'
 level = 'n5'
 tags = ['adverb', 'common', 'question']
-highest_frequency = 1524
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 6597, leeds = 3842, novels = 1524 }
 
 [[cards]]
 kanji = '幾ら'
@@ -22,8 +20,7 @@ kana = 'いくら'
 english = 'how much? ; how many?'
 level = 'n5'
 tags = ['adverb', 'common', 'noun', 'question']
-highest_frequency = 928
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 10010, leeds = 5812, novels = 928 }
 
 [[cards]]
 kanji = '何時'
@@ -31,8 +28,7 @@ kana = 'いつ'
 english = 'when'
 level = 'n5'
 tags = []
-highest_frequency = 282
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 6325, leeds = 7439, novels = 282, wikipedia = 7518 }
 
 [[cards]]
 kanji = '誰'
@@ -40,8 +36,7 @@ kana = 'だれ'
 english = 'who'
 level = 'n5'
 tags = []
-highest_frequency = 56
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 56, leeds = 375, novels = 175, wikipedia = 2020 }
 
 [[cards]]
 kanji = '誰か'
@@ -49,8 +44,7 @@ kana = 'だれか'
 english = 'somebody; anybody'
 level = 'n5'
 tags = []
-highest_frequency = 1034
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1488, leeds = 2095, novels = 1034 }
 
 [[cards]]
 kanji = '如何'
@@ -58,8 +52,7 @@ kana = 'どう'
 english = 'how?'
 level = 'n5'
 tags = []
-highest_frequency = 82
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 4193, leeds = 7145, novels = 82, wikipedia = 1521 }
 
 [[cards]]
 kanji = '如何して'
@@ -67,8 +60,7 @@ kana = 'どうして'
 english = 'why?'
 level = 'n5'
 tags = []
-highest_frequency = 146
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 146, leeds = 1574, novels = 337 }
 
 [[cards]]
 kanji = '何方'
@@ -76,8 +68,7 @@ kana = 'どなた'
 english = 'who? (honorific/respectful/sonkeigo)'
 level = 'n5'
 tags = []
-highest_frequency = 5733
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 19563, leeds = 5733 }
 
 [[cards]]
 kanji = 'どんな'
@@ -85,8 +76,7 @@ kana = 'どんな'
 english = 'what kind of? ; like what?'
 level = 'n5'
 tags = []
-highest_frequency = 345
-highest_frequency_source = 'Novels'
+frequency_scores = { leeds = 632, novels = 345, wikipedia = 6950 }
 
 [[cards]]
 kanji = '何故'
@@ -94,6 +84,5 @@ kana = 'なぜ'
 english = 'why? (formal)'
 level = 'n5'
 tags = []
-highest_frequency = 1618
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1618, leeds = 2423, novels = 2046, wikipedia = 4254 }
 

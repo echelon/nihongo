@@ -4,8 +4,7 @@ kana = 'あお'
 english = 'blue'
 level = 'n5'
 tags = ['color', 'common', 'no-adjective', 'noun']
-highest_frequency = 1279
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1391, leeds = 2851, novels = 1279, wikipedia = 1325 }
 
 [[cards]]
 kanji = '青い'
@@ -13,8 +12,7 @@ kana = 'あおい'
 english = 'blue'
 level = 'n5'
 tags = ['color', 'common', 'i-adjective']
-highest_frequency = 1098
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2450, leeds = 3762, novels = 1098, wikipedia = 4295 }
 
 [[cards]]
 kanji = '赤'
@@ -22,8 +20,7 @@ kana = 'あか'
 english = 'red'
 level = 'n5'
 tags = ['color', 'common', 'no-adjective', 'noun']
-highest_frequency = 925
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1009, leeds = 2106, novels = 1051, wikipedia = 925 }
 
 [[cards]]
 kanji = '赤い'
@@ -31,8 +28,7 @@ kana = 'あかい'
 english = 'red'
 level = 'n5'
 tags = ['color', 'common', 'i-adjective']
-highest_frequency = 586
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1215, leeds = 2795, novels = 586, wikipedia = 2915 }
 
 [[cards]]
 kanji = '色'
@@ -40,8 +36,7 @@ kana = 'いろ'
 english = 'color'
 level = 'n5'
 tags = []
-highest_frequency = 310
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 767, leeds = 772, novels = 310, wikipedia = 454 }
 
 [[cards]]
 kanji = '黄色'
@@ -49,8 +44,7 @@ kana = 'きいろ'
 english = 'yellow'
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
-highest_frequency = 4120
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 7085, leeds = 6093, wikipedia = 4120 }
 
 [[cards]]
 kanji = '黄色い'
@@ -58,8 +52,7 @@ kana = 'きいろい'
 english = 'yellow'
 level = 'n5'
 tags = ['common', 'i-adjectives']
-highest_frequency = 7289
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 9685, leeds = 7289, wikipedia = 9358 }
 
 [[cards]]
 kanji = '黒'
@@ -67,8 +60,7 @@ kana = 'くろ'
 english = 'black'
 level = 'n5'
 tags = []
-highest_frequency = 604
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 718, leeds = 2022, novels = 604, wikipedia = 952 }
 
 [[cards]]
 kanji = '黒い'
@@ -76,8 +68,7 @@ kana = 'くろい'
 english = 'black'
 level = 'n5'
 tags = ['common', 'i-adjectives']
-highest_frequency = 439
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1774, leeds = 3318, novels = 439, wikipedia = 3244 }
 
 [[cards]]
 kanji = '白'
@@ -85,8 +76,7 @@ kana = 'しろ'
 english = 'white'
 level = 'n5'
 tags = []
-highest_frequency = 494
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 494, leeds = 1964, novels = 838, wikipedia = 903 }
 
 [[cards]]
 kanji = '白い'
@@ -94,8 +84,7 @@ kana = 'しろい'
 english = 'white'
 level = 'n5'
 tags = ['common', 'i-adjective']
-highest_frequency = 293
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1688, leeds = 2088, novels = 293, wikipedia = 2895 }
 
 [[cards]]
 kanji = '橙色'
@@ -109,8 +98,7 @@ kana = 'ちゃいろ'
 english = 'brown'
 level = 'n5'
 tags = []
-highest_frequency = 10627
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 18992, leeds = 10627 }
 
 [[cards]]
 kanji = '灰色'
@@ -118,8 +106,7 @@ kana = 'はいいろ'
 english = 'gray; ashen'
 level = 'n2'
 tags = ['color', 'common', 'no-adjective', 'noun']
-highest_frequency = 2200
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 10148, leeds = 10853, novels = 2200, wikipedia = 6855 }
 
 [[cards]]
 kanji = '緑'
@@ -127,8 +114,7 @@ kana = 'みどり'
 english = 'green'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 989
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 989, leeds = 2715, novels = 1838, wikipedia = 1991 }
 
 [[cards]]
 kanji = '紫'
@@ -137,8 +123,7 @@ english = 'purple'
 source = 'irasshai'
 level = 'n2'
 tags = ['colors', 'common', 'noun']
-highest_frequency = 4143
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 4551, leeds = 6507, wikipedia = 4143 }
 
 [[cards]]
 kanji = 'ピンク'
@@ -146,6 +131,5 @@ kana = 'ピンク'
 english = 'pink'
 level = 'n2'
 tags = ['color', 'common', 'gairaigo', 'no-adjective', 'noun']
-highest_frequency = 2853
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 7852, leeds = 4892, novels = 2853, wikipedia = 5073 }
 

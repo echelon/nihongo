@@ -5,6 +5,5 @@ english = 'experiment'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 1053
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1268, leeds = 1286, novels = 2578, wikipedia = 1053 }
 

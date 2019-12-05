@@ -5,8 +5,7 @@ english = 'beak; bill'
 source = 'jisho'
 level = 'n1'
 tags = ['birds', 'common', 'noun']
-highest_frequency = 26989
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 26989 }
 
 [[cards]]
 kanji = '翼'
@@ -15,6 +14,5 @@ english = 'wing'
 source = 'manga'
 level = 'n3'
 tags = ['birds', 'common', 'noun']
-highest_frequency = 1089
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1961, leeds = 6211, novels = 1089, wikipedia = 1889 }
 

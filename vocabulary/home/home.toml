@@ -4,8 +4,7 @@ kana = 'いえ'
 english = 'house; family; household'
 level = 'n5'
 tags = ['common', 'family', 'home', 'places']
-highest_frequency = 127
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 174, leeds = 200, novels = 127, wikipedia = 772 }
 
 [[cards]]
 kanji = '家'
@@ -13,8 +12,7 @@ kana = 'うち'
 english = "house; home (one's own)"
 level = 'n5'
 tags = []
-highest_frequency = 127
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 174, leeds = 200, novels = 127, wikipedia = 772 }
 
 [[cards]]
 kanji = '鏡'
@@ -22,8 +20,7 @@ kana = 'かがみ'
 english = 'mirror'
 level = 'n4'
 tags = ['common', 'home', 'noun', 'restroom']
-highest_frequency = 1453
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2462, leeds = 3437, novels = 1453, wikipedia = 1854 }
 
 [[cards]]
 kanji = '家庭'
@@ -31,8 +28,7 @@ kana = 'かてい'
 english = 'home; household'
 level = 'n5'
 tags = []
-highest_frequency = 1052
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 2954, leeds = 1052, wikipedia = 1546 }
 
 [[cards]]
 kanji = '花瓶'
@@ -40,8 +36,7 @@ kana = 'かびん'
 english = '(flower) vase'
 level = 'n5'
 tags = []
-highest_frequency = 15569
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 15569 }
 
 [[cards]]
 kanji = '塵'
@@ -49,8 +44,7 @@ kana = 'ごみ'
 english = 'trash; garbage'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 6277
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 11525, leeds = 6277, wikipedia = 8778 }
 
 [[cards]]
 kanji = '石鹸'
@@ -58,8 +52,7 @@ kana = 'せっけん'
 english = 'soap'
 level = 'n5'
 tags = []
-highest_frequency = 11535
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 13707, leeds = 11535 }
 
 [[cards]]
 kanji = '掃除'
@@ -67,8 +60,7 @@ kana = 'そうじ'
 english = 'cleaning; sweeping'
 level = 'n5'
 tags = []
-highest_frequency = 1135
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1135, leeds = 2818, novels = 2642 }
 
 [[cards]]
 kanji = '畳'
@@ -76,8 +68,7 @@ kana = 'たたみ'
 english = 'a type of Japanese mat; straw floor coverings'
 level = 'n4'
 tags = ['common', 'noun']
-highest_frequency = 1809
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 10845, leeds = 6670, novels = 1809 }
 
 [[cards]]
 kanji = '電球'
@@ -85,8 +76,7 @@ kana = 'でんきゅう'
 english = 'light bulb'
 level = 'n2'
 tags = ['common']
-highest_frequency = 12721
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 16917, leeds = 12721 }
 
 [[cards]]
 kanji = '村'
@@ -94,8 +84,7 @@ kana = 'むら'
 english = 'village'
 level = 'n5'
 tags = []
-highest_frequency = 272
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 602, leeds = 1281, novels = 448, wikipedia = 272 }
 
 [[cards]]
 kanji = '冷房'
@@ -104,8 +93,7 @@ english = 'air conditioning'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 5005
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 13737, leeds = 10805, wikipedia = 5005 }
 
 [[cards]]
 kanji = 'アパート'
@@ -113,8 +101,7 @@ kana = 'アパート'
 english = 'apartment'
 level = 'n5'
 tags = ['buildings', 'common', 'gairaigo', 'home', 'places']
-highest_frequency = 3886
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 5770, leeds = 3886, wikipedia = 7343 }
 
 [[cards]]
 kanji = 'ゴミ箱'
@@ -122,8 +109,7 @@ kana = 'ゴミばこ'
 english = 'trash can'
 source = 'irasshai'
 tags = ['common']
-highest_frequency = 11741
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 12341, leeds = 11741 }
 
 [[cards]]
 kanji = 'シャワー'
@@ -131,8 +117,7 @@ kana = 'シャワー'
 english = 'shower'
 level = 'n5'
 tags = []
-highest_frequency = 4169
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4169, leeds = 5873 }
 
 [[cards]]
 kanji = 'シーツ'
@@ -140,8 +125,7 @@ kana = 'シーツ'
 english = 'sheet; bed sheet'
 level = 'n2'
 tags = ['common', 'noun']
-highest_frequency = 13957
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 13957, leeds = 14766 }
 
 [[cards]]
 kanji = 'ストーブ'
@@ -149,8 +133,7 @@ kana = 'ストーブ'
 english = 'room heater; stove'
 level = 'n5'
 tags = []
-highest_frequency = 11787
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 16670, leeds = 11787 }
 
 [[cards]]
 kanji = 'テレビ'
@@ -158,8 +141,7 @@ kana = 'テレビ'
 english = 'TV'
 level = 'n5'
 tags = []
-highest_frequency = 102
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1126, leeds = 555, novels = 1946, wikipedia = 102 }
 
 [[cards]]
 kanji = 'トイレ'
@@ -167,8 +149,7 @@ kana = 'トイレ'
 english = 'toilet; restroom'
 level = 'n5'
 tags = []
-highest_frequency = 1345
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1345, leeds = 2526, novels = 2456, wikipedia = 4311 }
 
 [[cards]]
 kanji = 'ドア'
@@ -176,8 +157,7 @@ kana = 'ドア'
 english = 'Western-style door'
 level = 'n5'
 tags = []
-highest_frequency = 463
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 865, leeds = 1280, novels = 463, wikipedia = 2215 }
 
 [[cards]]
 kanji = 'プール'
@@ -185,6 +165,5 @@ kana = 'プール'
 english = 'pool'
 level = 'n5'
 tags = []
-highest_frequency = 2199
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2199, leeds = 4019, wikipedia = 4727 }
 

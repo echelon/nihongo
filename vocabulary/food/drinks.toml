@@ -4,8 +4,7 @@ kana = 'おちゃ'
 english = 'tea (usu. green)'
 level = 'n5'
 tags = []
-highest_frequency = 1167
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1167, leeds = 2878, novels = 1833 }
 
 [[cards]]
 kanji = '牛乳'
@@ -13,8 +12,7 @@ kana = 'ぎゅうにゅう'
 english = "(cow's) milk"
 level = 'n5'
 tags = []
-highest_frequency = 3260
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3260, leeds = 5306, wikipedia = 9486 }
 
 [[cards]]
 kanji = '紅茶'
@@ -22,8 +20,7 @@ kana = 'こうちゃ'
 english = 'black tea'
 level = 'n5'
 tags = []
-highest_frequency = 6128
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 6128, leeds = 6610 }
 
 [[cards]]
 kanji = '飲み物'
@@ -31,8 +28,7 @@ kana = 'のみもの'
 english = 'drink; beverage'
 level = 'n5'
 tags = []
-highest_frequency = 3591
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3591, leeds = 6818 }
 
 [[cards]]
 kanji = '～杯'
@@ -47,8 +43,7 @@ kana = 'みず'
 english = 'water'
 level = 'n5'
 tags = []
-highest_frequency = 287
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 462, leeds = 437, novels = 287, wikipedia = 294 }
 
 [[cards]]
 kanji = '湯'
@@ -57,8 +52,7 @@ english = 'hot water'
 source = 'wiktionary'
 level = 'n4'
 tags = ['common', 'drinks', 'noun']
-highest_frequency = 2576
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 4735, leeds = 5090, novels = 2593, wikipedia = 2576 }
 
 [[cards]]
 kanji = 'アルコール'
@@ -67,8 +61,7 @@ english = 'alcohol'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
-highest_frequency = 4212
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 14623, leeds = 4908, wikipedia = 4212 }
 
 [[cards]]
 kanji = 'コップ'
@@ -76,8 +69,7 @@ kana = 'コップ'
 english = 'cup'
 level = 'n5'
 tags = []
-highest_frequency = 9323
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 10676, leeds = 9323 }
 
 [[cards]]
 kanji = '珈琲'
@@ -85,8 +77,7 @@ kana = 'コーヒー'
 english = 'coffee'
 level = 'n5'
 tags = []
-highest_frequency = 2286
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 27231, leeds = 12732, novels = 2286, wikipedia = 5181 }
 
 [[cards]]
 kanji = 'ビール'
@@ -94,8 +85,7 @@ kana = 'ビール'
 english = 'beer'
 level = 'n3'
 tags = ['common', 'drink', 'gairaigo', 'noun']
-highest_frequency = 2231
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 6285, leeds = 2231, wikipedia = 4648 }
 
 [[cards]]
 kanji = 'ワイン'
@@ -103,6 +93,5 @@ kana = 'ワイン'
 english = 'wine'
 level = 'n3'
 tags = ['common', 'drink', 'gairaigo', 'noun']
-highest_frequency = 2223
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 8556, leeds = 2223, wikipedia = 3421 }
 

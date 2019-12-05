@@ -4,8 +4,7 @@ kana = 'いしゃ'
 english = 'doctor'
 level = 'n5'
 tags = ['common', 'people']
-highest_frequency = 1957
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1985, leeds = 2696, novels = 1957, wikipedia = 7400 }
 
 [[cards]]
 kanji = '看護師'
@@ -21,8 +20,7 @@ kana = 'くすり'
 english = 'medicine'
 level = 'n5'
 tags = ['common', 'noun']
-highest_frequency = 1403
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1403, leeds = 1543, novels = 1649, wikipedia = 1879 }
 
 [[cards]]
 kanji = '入院'
@@ -31,8 +29,7 @@ english = 'hospitalization'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 2927
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3264, leeds = 2927, wikipedia = 4841 }
 
 [[cards]]
 kanji = '病院'
@@ -40,6 +37,5 @@ kana = 'びょういん'
 english = 'hospital'
 level = 'n5'
 tags = []
-highest_frequency = 799
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1286, leeds = 877, novels = 1557, wikipedia = 799 }
 

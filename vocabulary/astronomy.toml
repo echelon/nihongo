@@ -5,8 +5,7 @@ english = 'Mars (planet)'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'space']
-highest_frequency = 4287
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4287, leeds = 7410, wikipedia = 5868 }
 
 [[cards]]
 kanji = '金星'
@@ -14,8 +13,7 @@ kana = 'きんせい'
 english = 'Venus (planet)'
 source = 'wanikani'
 tags = ['common', 'noun', 'planet', 'space']
-highest_frequency = 8294
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 16594, leeds = 14137, wikipedia = 8294 }
 
 [[cards]]
 kanji = '水星'
@@ -30,8 +28,7 @@ kana = 'つき'
 english = 'moon'
 level = 'n3'
 tags = ['common', 'space']
-highest_frequency = 21
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 430, leeds = 77, novels = 646, wikipedia = 21 }
 
 [[cards]]
 kanji = '土星'

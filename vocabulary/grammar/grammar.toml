@@ -6,8 +6,7 @@ question = '〜{}？'
 english = 'grammar: familiar language, marks wh-question (what, where, who)'
 source = 'grammar-dict-basic'
 tags = ['common', 'particle']
-highest_frequency = 589
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 858, leeds = 4945, novels = 589 }
 
 [[cards]]
 type = 'grammar'
@@ -17,6 +16,5 @@ question = 'noun+{}'
 english = 'grammar: only (noun) (todo: this is used for many constructions)'
 source = 'grammar-dict-basic'
 tags = ['common', 'particle']
-highest_frequency = 194
-highest_frequency_source = 'Novels'
+frequency_scores = { leeds = 479, novels = 194, wikipedia = 2187 }
 

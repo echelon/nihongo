@@ -5,8 +5,7 @@ english = 'to be needed'
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
-highest_frequency = 15
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1829, leeds = 4434, novels = 15 }
 
 [[cards]]
 kanji = '掛かる'
@@ -15,8 +14,7 @@ english = 'to take (time or money)'
 source = 'n5-wiki'
 level = 'n5'
 tags = ['common']
-highest_frequency = 233
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2844, leeds = 4086, novels = 233, wikipedia = 4141 }
 
 [[cards]]
 kanji = '片付ける'
@@ -25,8 +23,7 @@ english = 'to tidy up ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
-highest_frequency = 2723
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 2723, leeds = 6563 }
 
 [[cards]]
 kanji = '閉める'
@@ -35,8 +32,7 @@ english = 'to close ~; to shut ~'
 source = 'irasshai?'
 level = 'n5'
 tags = ['common']
-highest_frequency = 2432
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 4048, leeds = 7412, novels = 2432 }
 
 [[cards]]
 kanji = '育てる'
@@ -45,8 +41,7 @@ english = 'to raise ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
-highest_frequency = 1786
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1786, leeds = 1996, wikipedia = 3470 }
 
 [[cards]]
 kanji = '捕まえる'
@@ -55,8 +50,7 @@ english = 'to catch ~; to arrrest ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
-highest_frequency = 1033
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1033, leeds = 8023 }
 
 [[cards]]
 kanji = '付ける'
@@ -65,8 +59,7 @@ english = 'to attach ~'
 source = 'wanikani'
 level = 'n5'
 tags = ['common']
-highest_frequency = 289
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 661, leeds = 1192, novels = 1954, wikipedia = 289 }
 
 [[cards]]
 kanji = '包む'
@@ -75,8 +68,7 @@ english = 'to wrap ~; to pack ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
-highest_frequency = 927
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2736, leeds = 3915, novels = 927, wikipedia = 5106 }
 
 [[cards]]
 kanji = '張る'
@@ -85,8 +77,7 @@ english = 'to affix ~; to paste ~'
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
-highest_frequency = 1188
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1191, leeds = 2811, novels = 1188, wikipedia = 2649 }
 
 [[cards]]
 kanji = '弾く'
@@ -95,8 +86,7 @@ english = 'to play ~ (stringed instrument)'
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
-highest_frequency = 1171
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 1715, leeds = 3218, novels = 1171, wikipedia = 5778 }
 
 [[cards]]
 kanji = '渡る'
@@ -105,6 +95,5 @@ english = 'to cross over'
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
-highest_frequency = 342
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 1948, leeds = 2273, novels = 1383, wikipedia = 342 }
 

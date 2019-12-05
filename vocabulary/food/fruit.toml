@@ -4,16 +4,14 @@ kana = 'くだもの'
 english = 'fruit'
 level = 'n5'
 tags = ['common', 'food', 'fruit', 'noun']
-highest_frequency = 6877
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 11149, leeds = 6877 }
 
 [[cards]]
 kanji = '西瓜'
 kana = 'すいか'
 english = 'watermellon'
 tags = ['common', 'food', 'noun']
-highest_frequency = 17257
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 17257 }
 
 [[cards]]
 kanji = '葡萄'
@@ -22,16 +20,14 @@ english = 'grape'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'food', 'noun']
-highest_frequency = 5162
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 11081, leeds = 12319, wikipedia = 5162 }
 
 [[cards]]
 kanji = '林檎'
 kana = 'りんご'
 english = 'apple'
 tags = ['common', 'food', 'noun']
-highest_frequency = 6336
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 16372, leeds = 9459, wikipedia = 6336 }
 
 [[cards]]
 kanji = 'オレンジ'
@@ -40,14 +36,12 @@ english = 'orange (fruit, color)'
 source = 'irasshai'
 level = 'n1'
 tags = ['colors', 'common', 'food', 'fruit', 'gairaigo', 'no-adjective', 'noun']
-highest_frequency = 4737
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 7000, leeds = 4737, wikipedia = 5163 }
 
 [[cards]]
 kanji = 'バナナ'
 kana = 'バナナ'
 english = 'banana'
 tags = ['common']
-highest_frequency = 3914
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3914, leeds = 7052, wikipedia = 9495 }
 

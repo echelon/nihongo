@@ -4,8 +4,7 @@ kana = 'うれしい'
 english = 'happy; glad'
 level = 'n3'
 tags = ['common', 'emotion', 'i-adjective']
-highest_frequency = 511
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 511, leeds = 1129, novels = 1391 }
 
 [[cards]]
 kanji = '悲しい'
@@ -14,8 +13,7 @@ english = 'sad'
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['common', 'emotion', 'i-adjective']
-highest_frequency = 1159
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1159, leeds = 2404, novels = 1518 }
 
 [[cards]]
 kanji = '寂しい'
@@ -24,8 +22,7 @@ english = 'lonely'
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['common', 'emotion', 'i-adjective']
-highest_frequency = 775
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 775, leeds = 3270, novels = 2540 }
 
 [[cards]]
 kanji = '幸せ'
@@ -34,8 +31,7 @@ english = 'happiness; good fortune; luck'
 source = 'bonobono-anime'
 level = 'n3'
 tags = ['common', 'emotion', 'na-adjective', 'noun']
-highest_frequency = 544
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 544, leeds = 1212, novels = 2284, wikipedia = 6782 }
 
 [[cards]]
 kanji = '心配'
@@ -44,6 +40,5 @@ english = 'worry'
 source = 'wanikani; anime?'
 level = 'n3'
 tags = ['common', 'emotion', 'na-adjective', 'noun', 'suru-verb']
-highest_frequency = 245
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 245, leeds = 1031, novels = 507, wikipedia = 7628 }
 

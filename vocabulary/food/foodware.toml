@@ -18,8 +18,7 @@ kana = 'さら'
 english = 'plate'
 level = 'n3'
 tags = ['common', 'noun']
-highest_frequency = 2564
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2653, leeds = 4932, novels = 2564, wikipedia = 7819 }
 
 [[cards]]
 kanji = '茶碗'
@@ -27,8 +26,7 @@ kana = 'ちゃわん'
 english = 'rice bowl; tea cup'
 level = 'n5'
 tags = []
-highest_frequency = 23485
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 23485 }
 
 [[cards]]
 kanji = '箸'
@@ -36,8 +34,7 @@ kana = 'はし'
 english = 'chopsticks'
 level = 'n5'
 tags = []
-highest_frequency = 1305
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 6981, leeds = 1305, novels = 1863 }
 
 [[cards]]
 kanji = 'スプーン'
@@ -45,8 +42,7 @@ kana = 'スプーン'
 english = 'spoon'
 level = 'n5'
 tags = []
-highest_frequency = 10400
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 12349, leeds = 10400 }
 
 [[cards]]
 kanji = 'ナイフ'
@@ -54,8 +50,7 @@ kana = 'ナイフ'
 english = 'knife'
 level = 'n5'
 tags = []
-highest_frequency = 1562
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3371, leeds = 5751, novels = 1562, wikipedia = 8388 }
 
 [[cards]]
 kanji = 'フォーク'
@@ -63,6 +58,5 @@ kana = 'フォーク'
 english = 'fork'
 level = 'n5'
 tags = []
-highest_frequency = 4159
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 12709, leeds = 8493, wikipedia = 4159 }
 

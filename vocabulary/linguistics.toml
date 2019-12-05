@@ -4,8 +4,7 @@ kana = 'おんよみ'
 english = 'Chinese-derived reading of Kanji'
 source = 'irasshai'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 33035
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 33035 }
 
 [[cards]]
 kanji = '訓読み'
@@ -13,8 +12,7 @@ kana = 'くんよみ'
 source = 'irasshai'
 english = 'native Japanese reading of Kanji'
 tags = ['common', 'noun', 'suru-verb']
-highest_frequency = 38528
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 38528 }
 
 [[cards]]
 kanji = '敬語'
@@ -22,8 +20,7 @@ kana = 'けいご'
 english = 'honorific language'
 level = 'n2'
 tags = ['common']
-highest_frequency = 8689
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 8689, leeds = 13486 }
 
 [[cards]]
 kanji = '謙譲語'
@@ -49,8 +46,7 @@ kana = 'どうし'
 english = 'verb'
 level = 'n3'
 tags = ['common']
-highest_frequency = 6170
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 23749, leeds = 7879, wikipedia = 6170 }
 
 [[cards]]
 kanji = '方言'
@@ -59,8 +55,7 @@ english = 'dialect'
 source = 'living-in-japan; wanikani'
 level = 'n2'
 tags = ['common', 'no-adjective', 'noun']
-highest_frequency = 3418
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 17636, leeds = 8464, wikipedia = 3418 }
 
 [[cards]]
 kanji = '名詞'
@@ -68,8 +63,7 @@ kana = 'めいし'
 english = 'noun'
 level = 'n2'
 tags = ['common']
-highest_frequency = 5658
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 30430, leeds = 7752, wikipedia = 5658 }
 
 [[cards]]
 kanji = '文字'
@@ -78,6 +72,5 @@ english = 'letter (alphabet)'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun']
-highest_frequency = 626
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 2413, leeds = 941, novels = 1307, wikipedia = 626 }
 

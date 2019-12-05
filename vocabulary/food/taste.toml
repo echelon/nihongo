@@ -5,8 +5,7 @@ english = 'flavor; taste'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun']
-highest_frequency = 703
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 703, leeds = 1205, novels = 1488, wikipedia = 3331 }
 
 [[cards]]
 kanji = '甘い'
@@ -14,8 +13,7 @@ kana = 'あまい'
 english = 'sweet-tasting'
 level = 'n5'
 tags = ['common', 'food', 'i-adjectives']
-highest_frequency = 504
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 504, leeds = 1951, novels = 1252, wikipedia = 6637 }
 
 [[cards]]
 kanji = '薄い'
@@ -23,8 +21,7 @@ kana = 'うすい'
 english = 'thin; weak (eg. taste)'
 level = 'n5'
 tags = ['common', 'i-adjective']
-highest_frequency = 1420
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 2809, leeds = 2790, novels = 1420, wikipedia = 3603 }
 
 [[cards]]
 kanji = '美味しい'
@@ -32,8 +29,7 @@ kana = 'おいしい'
 english = 'delicious'
 level = 'n5'
 tags = ['common', 'i-adjective']
-highest_frequency = 1007
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1007, leeds = 1634, novels = 2591 }
 
 [[cards]]
 kanji = '辛い'
@@ -41,8 +37,7 @@ kana = 'からい'
 english = 'spicy; hot; salty'
 level = 'n5'
 tags = ['common', 'i-adjectives']
-highest_frequency = 1319
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 1319, leeds = 2415, wikipedia = 7626 }
 
 [[cards]]
 kanji = '酸っぱい'
@@ -51,8 +46,7 @@ english = 'sour; acid'
 source = 'jisho'
 level = 'n2'
 tags = ['common', 'food', 'i-adjective', 'taste']
-highest_frequency = 10741
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 10741 }
 
 [[cards]]
 kanji = '苦い'
@@ -61,8 +55,7 @@ english = 'bitter'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'food', 'i-adjective', 'taste']
-highest_frequency = 4185
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4185, leeds = 10763 }
 
 [[cards]]
 kanji = '不味い'
@@ -70,6 +63,5 @@ kana = 'まずい'
 english = 'unappetising; unpleasant taste'
 level = 'n5'
 tags = ['common', 'food', 'i-adjective', 'taste']
-highest_frequency = 2220
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 7118, leeds = 4489, novels = 2220 }
 

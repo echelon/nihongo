@@ -4,8 +4,7 @@ kana = 'うわぎ'
 english = 'coat'
 level = 'n5'
 tags = []
-highest_frequency = 8853
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 8853, leeds = 11932 }
 
 [[cards]]
 kanji = '鞄'
@@ -13,8 +12,7 @@ kana = 'かばん'
 english = 'bag; briefcase; basket'
 level = 'n5'
 tags = []
-highest_frequency = 2374
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 6364, leeds = 12301, novels = 2374 }
 
 [[cards]]
 kanji = '絹'
@@ -23,8 +21,7 @@ english = 'silk'
 source = 'wiktionary'
 level = 'n4'
 tags = ['common', 'material', 'noun']
-highest_frequency = 7627
-highest_frequency_source = 'Wikipedia'
+frequency_scores = { anime = 19048, leeds = 14271, wikipedia = 7627 }
 
 [[cards]]
 kanji = '着物'
@@ -33,8 +30,7 @@ english = 'clothing; ALSO traditional clothing type'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['clothing', 'common', 'noun']
-highest_frequency = 2240
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 4637, leeds = 6941, novels = 2240 }
 
 [[cards]]
 kanji = '靴'
@@ -42,8 +38,7 @@ kana = 'くつ'
 english = 'shoes'
 level = 'n5'
 tags = []
-highest_frequency = 1110
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3681, leeds = 1110, novels = 1771, wikipedia = 5760 }
 
 [[cards]]
 kanji = '靴下'
@@ -51,8 +46,7 @@ kana = 'くつした'
 english = 'socks'
 level = 'n5'
 tags = []
-highest_frequency = 11045
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 12426, leeds = 11045 }
 
 [[cards]]
 kanji = '財布'
@@ -60,8 +54,7 @@ kana = 'さいふ'
 english = 'wallet'
 level = 'n5'
 tags = []
-highest_frequency = 4229
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 4229, leeds = 5666 }
 
 [[cards]]
 kanji = '下着'
@@ -70,8 +63,7 @@ english = 'underwear'
 source = 'wiktionary'
 level = 'n4'
 tags = ['clothing', 'common', 'noun']
-highest_frequency = 2427
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 3284, leeds = 8440, novels = 2427 }
 
 [[cards]]
 kanji = '背広'
@@ -79,8 +71,7 @@ kana = 'せびろ'
 english = 'business suit'
 level = 'n5'
 tags = []
-highest_frequency = 43112
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 43112 }
 
 [[cards]]
 kanji = '洗濯'
@@ -88,8 +79,7 @@ kana = 'せんたく'
 english = 'laundry; washing'
 level = 'n5'
 tags = []
-highest_frequency = 3454
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3454, leeds = 3570 }
 
 [[cards]]
 kanji = '服'
@@ -97,8 +87,7 @@ kana = 'ふく'
 english = 'clothes (esp. Western)'
 level = 'n5'
 tags = []
-highest_frequency = 557
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 557, leeds = 2276, novels = 628, wikipedia = 2633 }
 
 [[cards]]
 kanji = '帽子'
@@ -106,8 +95,7 @@ kana = 'ぼうし'
 english = 'hat'
 level = 'n5'
 tags = []
-highest_frequency = 2217
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 4241, leeds = 5577, novels = 2217, wikipedia = 7662 }
 
 [[cards]]
 kanji = '木綿'
@@ -116,8 +104,7 @@ english = 'cotton (material)'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['clothing', 'common', 'fabric', 'material', 'noun']
-highest_frequency = 9838
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 9838 }
 
 [[cards]]
 kanji = '指輪'
@@ -126,8 +113,7 @@ english = 'ring (for finger)'
 source = 'irasshai'
 level = 'n4'
 tags = ['attire', 'clothing', 'common', 'noun']
-highest_frequency = 3918
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 3918, leeds = 7969, wikipedia = 9960 }
 
 [[cards]]
 kanji = '洋服'
@@ -135,8 +121,7 @@ kana = 'ようふく'
 english = 'Western-style clothes'
 level = 'n5'
 tags = []
-highest_frequency = 6718
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 10879, leeds = 6718 }
 
 [[cards]]
 kanji = 'シャツ'
@@ -144,8 +129,7 @@ kana = 'シャツ'
 english = 'shirt'
 level = 'n5'
 tags = []
-highest_frequency = 2280
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 7359, leeds = 5601, novels = 2280, wikipedia = 6916 }
 
 [[cards]]
 kanji = 'スカート'
@@ -153,8 +137,7 @@ kana = 'スカート'
 english = 'skirt'
 level = 'n5'
 tags = []
-highest_frequency = 1600
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 4370, leeds = 7455, novels = 1600, wikipedia = 8927 }
 
 [[cards]]
 kanji = 'スリッパ'
@@ -162,8 +145,7 @@ kana = 'スリッパ'
 english = 'slippers'
 level = 'n5'
 tags = []
-highest_frequency = 16824
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 16824 }
 
 [[cards]]
 kanji = 'ズボン'
@@ -171,8 +153,7 @@ kana = 'ズボン'
 english = 'pants (from French)'
 level = 'n5'
 tags = []
-highest_frequency = 2478
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 9373, leeds = 8349, novels = 2478 }
 
 [[cards]]
 kanji = 'セーター'
@@ -180,8 +161,7 @@ kana = 'セーター'
 english = 'sweater'
 level = 'n5'
 tags = []
-highest_frequency = 12776
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 34781, leeds = 12776 }
 
 [[cards]]
 kanji = 'ネクタイ'
@@ -189,8 +169,7 @@ kana = 'ネクタイ'
 english = 'necktie'
 level = 'n5'
 tags = []
-highest_frequency = 9284
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 12782, leeds = 9284 }
 
 [[cards]]
 kanji = 'ハンカチ'
@@ -198,8 +177,7 @@ kana = 'ハンカチ'
 english = 'handkerchief'
 level = 'n5'
 tags = []
-highest_frequency = 8824
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 8824, leeds = 13821 }
 
 [[cards]]
 kanji = 'ボタン'
@@ -207,8 +185,7 @@ kana = 'ボタン'
 english = 'button'
 level = 'n5'
 tags = []
-highest_frequency = 2464
-highest_frequency_source = 'Leeds'
+frequency_scores = { anime = 3803, leeds = 2464, novels = 2627, wikipedia = 2812 }
 
 [[cards]]
 kanji = 'ポケット'
@@ -216,8 +193,7 @@ kana = 'ポケット'
 english = 'pocket'
 level = 'n5'
 tags = []
-highest_frequency = 1454
-highest_frequency_source = 'Novels'
+frequency_scores = { anime = 5027, leeds = 5168, novels = 1454, wikipedia = 7161 }
 
 [[cards]]
 kanji = 'ワイシャツ'
@@ -225,6 +201,5 @@ kana = 'ワイシャツ'
 english = 'business shirt (lit. white shirt)'
 level = 'n5'
 tags = []
-highest_frequency = 23882
-highest_frequency_source = 'Anime'
+frequency_scores = { anime = 23882 }
 
