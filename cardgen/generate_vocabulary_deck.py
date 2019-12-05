@@ -282,9 +282,6 @@ class Note(genanki.Note):
     # Suspended notes will not show up for review until removed from suspension.
     self.suspended = suspended
 
-    if suspended:
-      self.tags.append('suspended')
-
     if self.level:
       self.tags.append(self.level)
 
@@ -292,6 +289,7 @@ class Note(genanki.Note):
       # NB: This isn't functional, but helps manually searching for suspended cards.
       # At present, the 'suspended' scheduling does not work correctly to suspend cards.
       self.tags.append('suspended')
+      self.tags.append('suspended_by_config')
 
     if 'make_kanji_card' in verb_dict and verb_dict['make_kanji_card']:
       self.make_kanji_card = 'y'
